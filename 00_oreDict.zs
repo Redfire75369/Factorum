@@ -20,6 +20,36 @@ for i, ore in oreString{
 	oreArray[i] = oreDict.get("ore" + ore);
 	oreHash[ore] =  oreArray[i]);
 }
+var furnaceOreString = [] as String[];
+var furnaceOreHash as IOreDict[String];
+for i, furnaceOre in furnaceOreString{
+	furnaceOreHash[furnaceOre] = oreDict.get("ingot" + ingot);
+}
+var blastStandardOreString = [] as String[];
+var blastStandardOreHash as IOreDict[String];
+for i, blastStandardOre in blastStandardOreString{
+	blastStandardOreHash[blastStandardOre] = oreDict.get("ingot" + ingot);
+}
+var blastReinforcedOreString = [] as String[];
+var blastReinforcedOreHash as IOreDict[String];
+for i, blastReinforcedOre in blastReinforcedOreString{
+	blastReinforcedOreHash[blastReinforcedOre] = oreDict.get("ingot" + ingot);
+}
+var blastAdvancedOreString = [] as String[];
+var blastAdvancedOreHash as IOreDict[String];
+for i, blastAdvancedOre in blastAdvancedOreString{
+	blastAdvancedOreHash[blastAdvancedOre] = oreDict.get("ingot" + ingot);
+}
+var arcOreString = [] as String[];
+var arcOreHash as IOreDict[String];
+for i, arcOre in arcOreString{
+	arcOreHash[arcOre] = oreDict.get("ingot" + ingot);
+}
+var inductionOreString = [] as String[];
+var inductionOreHash as IOreDict[String];
+for i, inductionOre in inductionOreString{
+	inductionOreHash[inductionOre] = oreDict.get("ingot" + ingot);
+}
 
 /*Clusters*/
 var clusterString = ["Aluminium", "Ardite", "AstralStarmetal", "Boron", "Cobalt", "Draconium", "Iridium", "Lithium", "Magnesium", "Mithril", "Nickel", "Osmium", "Platinum", "Tungsten", "Uranium", "Yellorium", "Iron", "Gold", "Copper", "Tin", "Silver", "Lead", "Cinnabar", "Quartz"] as String[];
@@ -28,6 +58,36 @@ var clusterHash as IOreDict[String];
 for i, cluster in clusterString{
 	clusterArray[i] = oreDict.get("cluster" + cluster);
 	clusterHash[cluster] = clusterArray[i];
+}
+var furnaceClusterString = [] as String[];
+var furnaceClusterHash as IOreDict[String];
+for i, furnaceCluster in furnaceClusterString{
+	furnaceClusterHash[furnaceCluster] = oreDict.get("ingot" + ingot);
+}
+var blastStandardClusterString = [] as String[];
+var blastStandardClusterHash as IOreDict[String];
+for i, blastStandardCluster in blastStandardClusterString{
+	blastStandardClusterHash[blastStandardCluster] = oreDict.get("ingot" + ingot);
+}
+var blastReinforcedClusterString = [] as String[];
+var blastReinforcedClusterHash as IOreDict[String];
+for i, blastReinforcedCluster in blastReinforcedClusterString{
+	blastReinforcedClusterHash[blastReinforcedCluster] = oreDict.get("ingot" + ingot);
+}
+var blastAdvancedClusterString = [] as String[];
+var blastAdvancedClusterHash as IOreDict[String];
+for i, blastAdvancedCluster in blastAdvancedClusterString{
+	blastAdvancedClusterHash[blastAdvancedCluster] = oreDict.get("ingot" + ingot);
+}
+var arcClusterString = [] as String[];
+var arcClusterHash as IOreDict[String];
+for i, arcCluster in arcClusterString{
+	arcClusterHash[arcCluster] = oreDict.get("ingot" + ingot);
+}
+var inductionClusterString = [] as String[];
+var inductionClusterHash as IOreDict[String];
+for i, inductionCluster in inductionClusterString{
+	inductionClusterHash[inductionCluster] = oreDict.get("ingot" + ingot);
 }
 
 /*Ingots*/
@@ -114,6 +174,36 @@ var dustHash as IOreDict[String];
 for i, dust in dustString{
 	dustArray[i] = oreDict.get("dust" + dust);
 	dustHash[dust] = dustArray[i];
+}
+var furnaceDustString = [] as String[];
+var furnaceDustHash as IOreDict[String];
+for i, furnaceDust in furnaceDustString{
+	furnaceDustHash[furnaceDust] = oreDict.get("ingot" + ingot);
+}
+var blastStandardDustString = [] as String[];
+var blastStandardDustHash as IOreDict[String];
+for i, blastStandardDust in blastStandardDustString{
+	blastStandardDustHash[blastStandardDust] = oreDict.get("ingot" + ingot);
+}
+var blastReinforcedDustString = [] as String[];
+var blastReinforcedDustHash as IOreDict[String];
+for i, blastReinforcedDust in blastReinforcedDustString{
+	blastReinforcedDustHash[blastReinforcedDust] = oreDict.get("ingot" + ingot);
+}
+var blastAdvancedDustString = [] as String[];
+var blastAdvancedDustHash as IOreDict[String];
+for i, blastAdvancedDust in blastAdvancedDustString{
+	blastAdvancedDustHash[blastAdvancedDust] = oreDict.get("ingot" + ingot);
+}
+var arcDustString = [] as String[];
+var arcDustHash as IOreDict[String];
+for i, arcDust in arcDustString{
+	arcDustHash[arcDust] = oreDict.get("ingot" + ingot);
+}
+var inductionDustString = [] as String[];
+var inductionDustHash as IOreDict[String];
+for i, inductionDust in inductionDustString{
+	inductionDustHash[inductionDust] = oreDict.get("ingot" + ingot);
 }
 /*Plates*/
 
