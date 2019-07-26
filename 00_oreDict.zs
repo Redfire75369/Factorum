@@ -1,4 +1,5 @@
 /*Incomplete:
+Blast Furnace, Induction Smelter, Arc Furnace Ingot Recipes
 */
 
 /*Unknown:
@@ -20,36 +21,6 @@ for i, ore in oreString{
 	oreArray[i] = oreDict.get("ore" + ore);
 	oreHash[ore] =  oreArray[i]);
 }
-var furnaceOreString = [] as String[];
-var furnaceOreHash as IOreDict[String];
-for i, furnaceOre in furnaceOreString{
-	furnaceOreHash[furnaceOre] = oreDict.get("ingot" + ingot);
-}
-var blastStandardOreString = [] as String[];
-var blastStandardOreHash as IOreDict[String];
-for i, blastStandardOre in blastStandardOreString{
-	blastStandardOreHash[blastStandardOre] = oreDict.get("ingot" + ingot);
-}
-var blastReinforcedOreString = [] as String[];
-var blastReinforcedOreHash as IOreDict[String];
-for i, blastReinforcedOre in blastReinforcedOreString{
-	blastReinforcedOreHash[blastReinforcedOre] = oreDict.get("ingot" + ingot);
-}
-var blastAdvancedOreString = [] as String[];
-var blastAdvancedOreHash as IOreDict[String];
-for i, blastAdvancedOre in blastAdvancedOreString{
-	blastAdvancedOreHash[blastAdvancedOre] = oreDict.get("ingot" + ingot);
-}
-var arcOreString = [] as String[];
-var arcOreHash as IOreDict[String];
-for i, arcOre in arcOreString{
-	arcOreHash[arcOre] = oreDict.get("ingot" + ingot);
-}
-var inductionOreString = [] as String[];
-var inductionOreHash as IOreDict[String];
-for i, inductionOre in inductionOreString{
-	inductionOreHash[inductionOre] = oreDict.get("ingot" + ingot);
-}
 
 /*Clusters*/
 var clusterString = ["Aluminium", "Ardite", "AstralStarmetal", "Boron", "Cobalt", "Draconium", "Iridium", "Lithium", "Magnesium", "Mithril", "Nickel", "Osmium", "Platinum", "Tungsten", "Uranium", "Yellorium", "Iron", "Gold", "Copper", "Tin", "Silver", "Lead", "Cinnabar", "Quartz"] as String[];
@@ -59,36 +30,6 @@ for i, cluster in clusterString{
 	clusterArray[i] = oreDict.get("cluster" + cluster);
 	clusterHash[cluster] = clusterArray[i];
 }
-var furnaceClusterString = [] as String[];
-var furnaceClusterHash as IOreDict[String];
-for i, furnaceCluster in furnaceClusterString{
-	furnaceClusterHash[furnaceCluster] = oreDict.get("ingot" + ingot);
-}
-var blastStandardClusterString = [] as String[];
-var blastStandardClusterHash as IOreDict[String];
-for i, blastStandardCluster in blastStandardClusterString{
-	blastStandardClusterHash[blastStandardCluster] = oreDict.get("ingot" + ingot);
-}
-var blastReinforcedClusterString = [] as String[];
-var blastReinforcedClusterHash as IOreDict[String];
-for i, blastReinforcedCluster in blastReinforcedClusterString{
-	blastReinforcedClusterHash[blastReinforcedCluster] = oreDict.get("ingot" + ingot);
-}
-var blastAdvancedClusterString = [] as String[];
-var blastAdvancedClusterHash as IOreDict[String];
-for i, blastAdvancedCluster in blastAdvancedClusterString{
-	blastAdvancedClusterHash[blastAdvancedCluster] = oreDict.get("ingot" + ingot);
-}
-var arcClusterString = [] as String[];
-var arcClusterHash as IOreDict[String];
-for i, arcCluster in arcClusterString{
-	arcClusterHash[arcCluster] = oreDict.get("ingot" + ingot);
-}
-var inductionClusterString = [] as String[];
-var inductionClusterHash as IOreDict[String];
-for i, inductionCluster in inductionClusterString{
-	inductionClusterHash[inductionCluster] = oreDict.get("ingot" + ingot);
-}
 
 /*Ingots*/
 var ingotString = ["Iron", "Gold", "AstralStarmetal", "CrystalMatrix", "CosmicNeutronium", "Infinity", "ColdIron", "Manasteel", "Terrasteel", "ElvenElementium", "Gaia", "DraconiumAwakened", "Draconium", "CrudeSteel", "CrystallineAlloy", "MelodicAlloy", "StellarAlloy", "CrystallinePinkSlime", "EnergeticSilver", "ElectricalSteel", "EnergeticAlloy", "VibrantAlloy", "RedstoneAlloy", "ConductiveIron", "PulsatingIron", "DarkSteel", "Soularium", "EndSteel", "ConstructionAlloy", "IronAlloy", "EnderiumBase", "BrickNetherGlazed", "BlackIron", "Crystaltine", "Ultimate", "Blutonium", "Cyanite", "Ludicrite", "Yellorium", "HOPGraphite", "RefinedObsidian", "Osmium", "RefinedGlowstone", "Insanium", "BaseEssence", "Inferium", "Prudentium", "Intermedium", "Superium", "Supremium", "Soulium", "Tough", "HardCarbon", "MagnesiumDiboride", "LithiumManganeseDioxide", "Shibuichi", "TinSilver", "LeadPlatinum", "Extreme", "Thermoconducting", "Zircaloy", "SiliconCarbide", "SiCSiCCMC", "HSLASteel", "Boron10", "Boron11", "Thorium", "Uranium", "Boron", "Lithium", "Magnesium", "Graphite", "Beryllium", "Zirconium", "Manganese", "ThoriumOxide", "UraniumOxide", "ManganeseOxide", "ManganeseDioxide", "Lithium6", "Lithium7", "Chocolate", "Alumite", "Mirion", "Osglosglas", "Osmiridium", "IronCompressed", "Psi", "EbonyPsi", "IvoryPsi", "ElectrumFlux", "GelidEnderium", "_dark_soularium", "DarkSoularium", "Brass", "Chrome", "Titanium", "Tungsten", "HotTungstensteel", "Tungstensteel", "Zinc", "AdvancedAlloy", "MixedMetal", "IridiumAlloy", "Thaumium", "Void", "Adaminite", "Mithminite", "Mithrillium", "Copper", "Tin", "Silver", "Lead", "Aluminium", "Nickel", "Platinum", "Iridium", "Mithril", "Constantan", "Bronze", "Electrum", "Invar", "Signalum", "Lumium", "Enderium", "Cobalt", "Ardite", "Manyullyn", "Knightslime", "Pigiron", "AluBrass", ] as String[];
@@ -97,36 +38,6 @@ var ingotHash as IOreDict[String];
 for i, ingot in ingotString{
 	ingotArray[i] = oreDict.get("ingot" + ingot);
 	ingotHash[ingot] = ingotArray[i];
-}
-var furnaceIngotString = [] as String[];
-var furnaceIngotHash as IOreDict[String];
-for i, furnaceIngot in furnaceIngotString{
-	furnaceIngotHash[furnaceIngot] = oreDict.get("ingot" + ingot);
-}
-var blastStandardIngotString = [] as String[];
-var blastStandardIngotHash as IOreDict[String];
-for i, blastStandardIngot in blastStandardIngotString{
-	blastStandardIngotHash[blastStandardIngot] = oreDict.get("ingot" + ingot);
-}
-var blastReinforcedIngotString = [] as String[];
-var blastReinforcedIngotHash as IOreDict[String];
-for i, blastReinforcedIngot in blastReinforcedIngotString{
-	blastReinforcedIngotHash[blastReinforcedIngot] = oreDict.get("ingot" + ingot);
-}
-var blastAdvancedIngotString = [] as String[];
-var blastAdvancedIngotHash as IOreDict[String];
-for i, blastAdvancedIngot in blastAdvancedIngotString{
-	blastAdvancedIngotHash[blastAdvancedIngot] = oreDict.get("ingot" + ingot);
-}
-var arcIngotString = [] as String[];
-var arcIngotHash as IOreDict[String];
-for i, arcIngot in arcIngotString{
-	arcIngotHash[arcIngot] = oreDict.get("ingot" + ingot);
-}
-var inductionIngotString = [] as String[];
-var inductionIngotHash as IOreDict[String];
-for i, inductionIngot in inductionIngotString{
-	inductionIngotHash[inductionIngot] = oreDict.get("ingot" + ingot);
 }
 val gaiaIngot = <ore:gaiaIngot>;
 
@@ -175,36 +86,7 @@ for i, dust in dustString{
 	dustArray[i] = oreDict.get("dust" + dust);
 	dustHash[dust] = dustArray[i];
 }
-var furnaceDustString = [] as String[];
-var furnaceDustHash as IOreDict[String];
-for i, furnaceDust in furnaceDustString{
-	furnaceDustHash[furnaceDust] = oreDict.get("ingot" + ingot);
-}
-var blastStandardDustString = [] as String[];
-var blastStandardDustHash as IOreDict[String];
-for i, blastStandardDust in blastStandardDustString{
-	blastStandardDustHash[blastStandardDust] = oreDict.get("ingot" + ingot);
-}
-var blastReinforcedDustString = [] as String[];
-var blastReinforcedDustHash as IOreDict[String];
-for i, blastReinforcedDust in blastReinforcedDustString{
-	blastReinforcedDustHash[blastReinforcedDust] = oreDict.get("ingot" + ingot);
-}
-var blastAdvancedDustString = [] as String[];
-var blastAdvancedDustHash as IOreDict[String];
-for i, blastAdvancedDust in blastAdvancedDustString{
-	blastAdvancedDustHash[blastAdvancedDust] = oreDict.get("ingot" + ingot);
-}
-var arcDustString = [] as String[];
-var arcDustHash as IOreDict[String];
-for i, arcDust in arcDustString{
-	arcDustHash[arcDust] = oreDict.get("ingot" + ingot);
-}
-var inductionDustString = [] as String[];
-var inductionDustHash as IOreDict[String];
-for i, inductionDust in inductionDustString{
-	inductionDustHash[inductionDust] = oreDict.get("ingot" + ingot);
-}
+
 /*Plates*/
 
 /*Dense Plates*/
@@ -215,9 +97,37 @@ for i, inductionDust in inductionDustString{
 
 /*Blocks*/
 
-/*OreDict Modifications*/
-
-
+/*Furnace Arrays*/
+furnaceString = [] as String[];
+furnaceSmelt = [] as IOreDict[IOreDict[]];
+for smelt in furnaceString{
+	furnaceSmelt[[oreDict.get("ore" + smelt), oreDict.get("cluster" + smelt), oreDict.get("dust" + smelt)]] = oreDict.get("ingot" + smelt) 
+}
+blastStandardString = [] as String[];
+blastStandardSmelt = [] as IOreDict[IOreDict[]];
+for smelt in blastStandardString{
+	blastStandardSmelt[[oreDict.get("ore" + smelt), oreDict.get("cluster" + smelt), oreDict.get("dust" + smelt)]] = oreDict.get("ingot" + smelt) 
+}
+blastReinforcedString = [] as String[];
+BlastReinforcedSmelt = [] as IOreDict[IOreDict[]];
+for smelt in blastReinforcedString{
+	BlastReinforcedSmelt[[oreDict.get("ore" + smelt), oreDict.get("cluster" + smelt), oreDict.get("dust" + smelt)]] = oreDict.get("ingot" + smelt) 
+}
+BlastAdvancedString = [] as String[];
+BlastAdvancedSmelt = [] as IOreDict[IOreDict[]];
+for smelt in BlastAdvancedString{
+	BlastAdvancedSmelt[[oreDict.get("ore" + smelt), oreDict.get("cluster" + smelt), oreDict.get("dust" + smelt)]] = oreDict.get("ingot" + smelt) 
+}
+arcString = [] as String[];
+arcSmelt = [] as IOreDict[IOreDict[]];
+for smelt in arcString{
+	arcSmelt[[oreDict.get("ore" + smelt), oreDict.get("cluster" + smelt), oreDict.get("dust" + smelt)]] = oreDict.get("ingot" + smelt) 
+}
+inductionString = [] as String[];
+inductionSmelt = [] as IOreDict[IOreDict[]];
+for smelt in inductionString{
+	inductionSmelt[[oreDict.get("ore" + smelt), oreDict.get("cluster" + smelt), oreDict.get("dust" + smelt)]] = oreDict.get("ingot" + smelt) 
+}
 /*Recipe Removals*/
 /*Remove Furnace, Blast Furnace, Arc Furnace, Induction Smelter Recipes for Ingots */
 for ingot in ingotArray{
@@ -244,189 +154,12 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(quicksilver);
 mods.thermalexpansion.InductionSmelter.removeRecipe(quicksilver);
 
 /*Recipe Additions for Ingots*/
-/*Adding Recipes For Ingots (Machines)*/
-/*Minecraft*/
-/*Iron Ingot*/
-furnace.addRecipe(<minecraft:iron_ingot>, oreIron);
-furnace.addRecipe(<minecraft:iron_ingot>, dustIron);
-furnace.addRecipe(<minecraft:iron_ingot> * 2, clusterIron);
+for toSmelt, smelt in furnaceSmelt{
+		for itemstack in smelt{
+			furnace.addRecipe(itemstack, toSmelt[0], 0.050000);
+			furnace.addRecipe(itemstack, toSmelt[1], 0.000000);
+			furnace.addRecipe(itemstack * 2, toSmelt[2], 0.100000);
+		}
+	} 
+}
 
-/*Gold Ingot*/
-furnace.addRecipe(<minecraft:gold_ingot>, oreGold);
-furnace.addRecipe(<minecraft:gold_ingot>, dustGold);
-furnace.addRecipe(<minecraft:gold_ingot> * 2, clusterGold);
-
-
-/*Astral Sorcery*/
-/*Astral Starmetal Ingot*/
-mods.immersiveengineering.ArcFurnace.addRecipe(<astralsorcery:itemcraftingcomponent:1>, dustAstralStarmetal, <immersiveengineering:material:7>, 200, 1024, [null], "Ores");
-mods.techreborn.BlastFurnace.addRecipe
-mods.thermalexpansion.InductionSmelter.addRecipe(<astralsorcery:itemcraftingcomponent:1>, dustAstralStarmetal, sand, 8000);
-mods.immersiveengineering.ArcFurnace.addRecipe(<astralsorcery:itemcraftingcomponent:1> * 2, clusterAstralStarmetal, <immersiveengineering:material:7>, 200, 1024, [null], "Clusters");
-mods.thermalexpansion.InductionSmelter.addRecipe(<astralsorcery:itemcraftingcomponent:1> * 2, clusterAstralStarmetal, sand, 8000);
-
-
-/*Avaritia*/
-/*Crystal Matrix Ingot*/
-
-/*Cosmic Neutronium Ingot*/
-
-/*Infinity Ingot*/
-
-
-
-/*Draconic Evolution*/
-/*Draconium Ingot*/
-furnace.addRecipe(<draconicevolution:draconium_ingot>, oreDraconium);
-furnace.addRecipe(<draconicevolution:draconium_ingot>, dustDraconium);
-furnace.addRecipe(<draconicevolution:draconium_ingot> * 2, clusterDraconium);
-
-
-/*Mekanism*/
-/*Osmium Ingot*/
-furnace.addRecipe(<mekanism:ingot:1>, oreOsmium);
-furnace.addRecipe(<mekanism:ingot:1>, dustOsmium);
-furnace.addRecipe(<mekanism:ingot:1> * 2, clusterOsmium);
-
-
-/*Nuclearcraft*/
-/*Thorium Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:3>, oreThorium);
-furnace.addRecipe(<nuclearcraft:ingot:3>, dustThorium);
-furnace.addRecipe(<nuclearcraft:ingot:3> * 2, clusterThorium);
-furnace.addRecipe(<nuclearcraft:ingot:3>, ingotThoriumOxide);
-
-/*Uranium Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:4>, oreUranium);
-furnace.addRecipe(<nuclearcraft:ingot:4>, dustUranium);
-furnace.addRecipe(<nuclearcraft:ingot:4> * 2, clusterUranium);
-furnace.addRecipe(<nuclearcraft:ingot:4>, ingotUraniumOxide);
-
-/*Boron Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:5>, oreBoron);
-furnace.addRecipe(<nuclearcraft:ingot:5>, dustBoron);
-furnace.addRecipe(<nuclearcraft:ingot:5> * 2, clusterBoron);
-
-/*Lithium Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:6>, oreLithium);
-furnace.addRecipe(<nuclearcraft:ingot:6>, dustLithium);
-furnace.addRecipe(<nuclearcraft:ingot:6> * 2, clusterLithium);
-
-/*Magnesium Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:7>, oreMagnesium);
-furnace.addRecipe(<nuclearcraft:ingot:7>, dustMagnesium);
-furnace.addRecipe(<nuclearcraft:ingot:7> * 2, clusterMagnesium);
-
-/*Graphite Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:8>, dustGraphite);
-
-/*Beryllium Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:9>, dustBeryllium);
-
-/*Zirconium Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:10>, dustZirconium);
-
-/*Magnesium Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot:11>, dustMagnesium);
-
-/*Thorium Oxide Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot_oxide>, dustThoriumOxide);
-
-/*Uranium Oxide Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot_oxide:1>, dustUraniumOxide);
-
-/*Magnesium Oxide Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot_oxide:2>, dustMagnesiumOxide);
-furnace.addRecipe(<nuclearcraft:ingot_oxide:2>, ingotMagnesiumDioxide);
-
-/*Magnesium Dioxide Ingot*/
-furnace.addRecipe(<nuclearcraft:ingot_oxide:3>, dustMagnesiumDioxide);
-
-
-/*Tech Reborn*/
-/*Brass Ingot*/
-furnace.addRecipe(<techreborn:ingot:1>, dustBrass);
-
-/*Chrome Ingot*/
-
-
-/*Titanium Ingot*/
-
-
-/*Tungsten Ingot*/
-furnace.addRecipe(<techreborn:ingot:15>, dustTungsten);
-furnace.addRecipe(<techreborn:ingot:15> * 2, clusterTungsten);
-
-/*Tungstensteel Ingot*/
-
-
-
-/*Copper Ingot*/
-furnace.addRecipe(<thermalfoundation:material:128>, oreCopper);
-furnace.addRecipe(<thermalfoundation:material:128>, dustCopper);
-furnace.addRecipe(<thermalfoundation:material:128> * 2, clusterCopper);
-
-/*Tin Ingot*/
-furnace.addRecipe(<thermalfoundation:material:129>, oreTin);
-furnace.addRecipe(<thermalfoundation:material:129>, dustTin);
-furnace.addRecipe(<thermalfoundation:material:129> * 2, clusterTin);
-
-/*Silver Ingot*/
-furnace.addRecipe(<thermalfoundation:material:130, oreSilver);
-furnace.addRecipe(<thermalfoundation:material:130, dustSilver);
-furnace.addRecipe(<thermalfoundation:material:130> * 2, clusterSilver);
-
-/*Lead Ingot*/
-furnace.addRecipe(<thermalfoundation:material:131>, oreLead);
-furnace.addRecipe(<thermalfoundation:material:131>, dustLead);
-furnace.addRecipe(<thermalfoundation:material:131> * 2, clusterLead);
-
-/*Aluminium Ingot*/
-furnace.addRecipe(<thermalfoundation:material:132>, oreAluminium);
-furnace.addRecipe(<thermalfoundation:material:132>, dustAluminium);
-furnace.addRecipe(<thermalfoundation:material:132> * 2, clusterAluminium);
-
-/*Platinum Ingot*/
-furnace.addRecipe(<thermalfoundation:material:133>, orePlatinum);
-furnace.addRecipe(<thermalfoundation:material:133>, dustPlatinum);
-furnace.addRecipe(<thermalfoundation:material:133> * 2, clusterPlatinum);
-
-/*Iridium Ingot*/
-furnace.addRecipe(<thermalfoundation:material:134>, oreIridium);
-furnace.addRecipe(<thermalfoundation:material:134>, dustIridium);
-furnace.addRecipe(<thermalfoundation:material:134> * 2, clusterIridium);
-
-/*Mana Infused Ingot*/
-furnace.addRecipe(<thermalfoundation:material:135>, oreMithril);
-furnace.addRecipe(<thermalfoundation:material:135>, dustMithril);
-furnace.addRecipe(<thermalfoundation:material:135> * 2, clusterMithril);
-
-/*Steel Dust*/
-
-
-/*Electrum Ingot*/
-furnace.addRecipe(<thermalfoundation:material:161>, dustElectrum);
-
-/*Invar Ingot*/
-furnace.addRecipe(<thermalfoundation:material:162>, dustInvar);
-
-/*Bronze Ingot*/
-furnace.addRecipe(<thermalfoundation:material:163>, dustBronze);
-
-/*Constantan Ingot*/
-furnace.addRecipe(<thermalfoundation:material:164>, dustConstantan);
-
-/*Signalum Ingot*/
-
-
-/*Lumium Ingot*/
-
-
-/*Enderium Ingot*/
-
-
-/*Tinker's Construct*/
-/*Cobalt Ingot*/
-
-
-/*Ardite Ingot*/
