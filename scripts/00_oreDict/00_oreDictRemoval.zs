@@ -1,3 +1,10 @@
+#debug
+
+import crafttweaker.items.IItemstack;
+import crafttweaker.items.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
+
 val arrayRemoveDictOre = [
 
 <bewitchment:silver_ore>,
@@ -57,6 +64,14 @@ var arrayRemoveDictIngot = [
 <techreborn:ingot>,
 <techreborn:ingot:2>,
 <techreborn:ingot:4>,
-
+<techreborn:ingot:5>,
+<techreborn:ingot:6>,
+<techreborn:ingot:7>,
+<techreborn:ingot:8>,
+<techreborn:ingot:9>,
+<techreborn:ingot:10>,
+<techreborn:ingot:11>,
+<techreborn:ingot:12>,
+<techreborn:ingot:13>,
 
 ] as IItemstack[];

@@ -1,3 +1,8 @@
+import crafttweaker.items.IItemstack;
+import crafttweaker.items.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
+
 /*Remove Furnace, Blast Furnace, Arc Furnace, Induction Smelter Recipes for Ingots */
 for ingot in hashIngot{
 	for itemstack in ingot{
