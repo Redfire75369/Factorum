@@ -1,10 +1,12 @@
-import crafttweaker.items.IItemstack;
+#priority -0001
+
+import crafttweaker.items.IItemStack;
 import crafttweaker.items.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
 
 /*Defining Values/ Variables*/
-val sand = <minecraft:sand> as IItemstack;
+val sand = <minecraft:sand> as IItemStack;
 
 /*Assigning a Hashmap for each OreDict*/
 /*Ores*/
@@ -88,9 +90,9 @@ val stringOre = [
 	"Ardite"
 
 ] as string[];
-global var hashOre as IOreDictEntry[string];
+global hashOre as IOreDictEntry[string];
 for ore in stringOre{
-	hashOre[ore] = oreDict.get("ore" ~ ore);
+	hashOre[ore] = oreDict["ore" ~ ore);
 }
 
 /*Clusters*/
@@ -122,9 +124,9 @@ val stringCluster = [
 	"Quartz"
 
 ] as string[];
-global var hashCluster as IOreDictEntry[string];
+global hashCluster as IOreDictEntry[string];
 for cluster in stringCluster{
-	hashCluster[cluster] = oreDict.get("cluster" ~ cluster);
+	hashCluster[cluster] = oreDict["cluster" ~ cluster);
 }
 
 /*Ingots*/
@@ -141,8 +143,10 @@ val stringIngot = [
 	"Terrasteel", 
 	"ElvenElementium", 
 	"Gaia", 
+	"GlitchInfused", 
 	"DraconiumAwakened", 
 	"Draconium", 
+	"Dawnstone", 
 	"CrudeSteel", 
 	"CrystallineAlloy", 
 	"MelodicAlloy", 
@@ -159,17 +163,21 @@ val stringIngot = [
 	"Soularium", 
 	"EndSteel", 
 	"ConstructionAlloy", 
-	"IronAlloy", 
 	"EnderiumBase", 
 	"BrickNetherGlazed", 
 	"BlackIron", 
 	"Crystaltine", 
 	"Ultimate", 
+	"Ender", 
+	"EnderEnhanced", 
 	"Blutonium", 
 	"Cyanite", 
 	"Ludicrite", 
 	"Yellorium", 
 	"HOPGraphite", 
+	"SlimePink", 
+	"MeatCooked", 
+	"MeatRaw", 
 	"RefinedObsidian", 
 	"Osmium", 
 	"RefinedGlowstone", 
@@ -181,6 +189,8 @@ val stringIngot = [
 	"Superium", 
 	"Supremium", 
 	"Soulium", 
+	"Thundersteel", 
+	"ThundersteelAwakened", 
 	"Tough", 
 	"HardCarbon", 
 	"MagnesiumDiboride", 
@@ -196,6 +206,8 @@ val stringIngot = [
 	"HSLASteel", 
 	"Boron10", 
 	"Boron11", 
+	"CocoaButter", 
+	"DarkChocolate", 
 	"Thorium", 
 	"Uranium", 
 	"Boron", 
@@ -212,6 +224,8 @@ val stringIngot = [
 	"Lithium6", 
 	"Lithium7", 
 	"Chocolate", 
+	"Alkimium", 
+	"Bismuth", 
 	"Alumite", 
 	"Mirion", 
 	"Osglosglas", 
@@ -220,6 +234,7 @@ val stringIngot = [
 	"Psi", 
 	"EbonyPsi", 
 	"IvoryPsi", 
+	"Spectre", 
 	"ElectrumFlux", 
 	"GelidEnderium", 
 	"DarkSoularium", 
@@ -238,7 +253,17 @@ val stringIngot = [
 	"Void", 
 	"Adaminite", 
 	"Mithminite", 
-	"Mithrillium", 
+	"Mithrillium",
+	"Livium", 
+	"Thauminite", 
+	"Light", 
+	"Shade", 
+	"ThaumiumAer", 
+	"ThaumiumIgnis", 
+	"ThaumiumAqua", 
+	"ThaumiumTerra", 
+	"ThaumiumOrdo", 
+	"ThaumiumPerditio", 
 	"Copper", 
 	"Tin", 
 	"Silver", 
@@ -255,26 +280,71 @@ val stringIngot = [
 	"Signalum", 
 	"Lumium", 
 	"Enderium", 
+	"BloodBronze", 
 	"Cobalt", 
 	"Ardite", 
 	"Manyullyn", 
 	"Knightslime", 
 	"Pigiron", 
-	"AluBrass"
+	"AluBrass", 
+	"Unstable", 
+	"StygianIron"
 
 ] as string[];
-global var hashIngot as IOreDictEntry[string];
+global hashIngot as IOreDictEntry[string];
 for ingot in stringIngot{ 
-	hashIngot[ingot] = oreDict.get("ingot" ~ ingot);
+	hashIngot[ingot] = oreDict["ingot" ~ ingot);
 }
-oreDict.get("gaiaIngot").remove(<botania:manaresource:14>);
 hashOre["Gaia"].add(<botania:manaresource:14>);
-recipes.replaceAllOccurences(oreDict.get("gaiaIngot"), hashOre["Gaia"]);
+recipes.replaceAllOccurences(oreDict["gaiaIngot"), hashOre["Gaia"]);
 recipes.replaceAllOccurences(<botania:manaresource:14>, hashOre["Gaia"]);
-oreDict.get("dark_soularium").remove(<simplyjetpacks:metaitemmods:3>);
+
+hashIngot["Gaiasteel"].add(<botanicadds:gaiasteel_ingot>);
+recipes.replaceAllOccurences(<botanicadds:gaiasteel_ingot>, hashIngot["Gaiasteel"]);
+
+hashIngot["GlitchInfused"].add(<deepmoblearning:glitch_infused_ingot>);
+recipes.replaceAllOccurences(<deepmoblearning:glitch_infused_ingot>, hashIngot["GlitchInfused"]);
+
+hashIngot["Ender"].add(<extendedcrafting:material:36>);
+recipes.replaceAllOccurences(<extendedcrafting:material:36>, hashIngot["Ender"]);
+
+hashIngot["EnderEnhanced"].add(<extendedcrafting:material:48>);
+recipes.replaceAllOccurences(<extendedcrafting:material:48>, hashIngot["EnderEnhnaced"]);
+
+hashIngot["SlimePink"].add(<industrialforegoing:pink_slime_ingot>);
+recipes.replaceAllOccurences(<industrialforegoing:pink_slime_ingot>, hashIngot["SlimePink"];
+
+hashIngot["MeatCooked"]. add(<industrialmeat:cooked_meat_ingot>);
+recipes.replaceAllOccurences(<industrialmeat:cooked_meat_ingot>, hashIngot["MeatCooked"];
+
+hashIngot["MeatRaw"]. add(<industrialmeat:raw_meat_ingot>);
+recipes.replaceAllOccurences(<industrialmeat:raw_meat_ingot>, hashIngot["MeatRaw"];
+
+hashIngot["Thundersteel"].remove(<naturalpledge:resource:1>);
+
+hashIngot["Alkimium"].add(<planarartifice:alkimium_ingot>);
+recipes.replaceAllOccurences(oreDict["ingotAlchemical"], hashIngot["Alkimium"]);
+recipes.replaceAllOccurences(<planarartifice:alkimium_ingot>, hashIngot["Alkimium"]);
+
+hashIngot["Spectre"]. add(<randomthings:ingredient:3>);
+recipes.replaceAllOccurences(<randomthings:ingredient:3>, hashIngot["Spectre"];
+
 hashIngot["DarkSoularium"].add(<simplyjetpacks:metaitemmods:3>);
-recipes.replaceAllOccurences(oreDict.get("dark_soularium"), hashIngot["Gaia"]);
+recipes.replaceAllOccurences(oreDict["dark_soularium"), hashIngot["Gaia"]);
 recipes.replaceAllOccurences(<simplyjetpacks:metaitemmods:3>, hashIngot["Gaia"]);
+
+hashIngot["Livium"].add(<thaumic_arcana:ingot_livium>);
+recipes.replaceAllOccurences(<thaumic_arcana:ingot_livium>, hashIngot["Livium"];
+
+hashIngot|"Light"].add(<tg:ingot_light>);
+recipes.replaceAllOccurences(<tg:ingot_light>, hashIngot["Light"]); 
+
+hashIngot|"Shade"].add(<tg:ingot_shade>);
+recipes.replaceAllOccurences(<tg:ingot_shade>, hashIngot["Shade"]); 
+
+hashIngot["StygianIron"].add(<woot:stygianironingot>);
+recipes.replaceAllOccurences(<woot:stygianironingot>, hashIngot["StygianIron"];
+
 
 /*Gems*/
 val stringGem = [
@@ -324,13 +394,12 @@ val stringGem = [
 	"Quicksilver"
 
 ] as string[];
-global var hashGem as IOreDictEntry[string];
+global hashGem as IOreDictEntry[string];
 for gem in stringGem{
-	hashGem[gem] = oreDict.get("gem" ~ gem);
+	hashGem[gem] = oreDict["gem" ~ gem);
 }
-oreDict.get(quicksilver).remove(<thaumcraft:quicksilver>);
 hashGem["Quicksilver"].add(<thaumcraft:quicksilver>);
-recipes.replaceAllOccurences(oreDict.get("quicksilver"), hashGem["Quicksilver"]);
+recipes.replaceAllOccurences(oreDict["quicksilver"), hashGem["Quicksilver"]);
 recipes.replaceAllOccurences(<thaumcraft:quicksilver>, hashGem["Quicksilver"]);
 
 /*Crystals*/
@@ -342,6 +411,8 @@ val stringCrystal = [
 	"PureCertusQuartz", 
 	"PureNetherQuartz", 
 	"PureFluix", 
+	"Amber", 
+	"Obsidian", 
 	"Aethium",
 	 "Erodium", 
 	"Ionite", 
@@ -351,13 +422,39 @@ val stringCrystal = [
 	"Pladium", 
 	"Slag", 
 	"SlagRich", 
-	"Cinnabar"
+	"Cinnabar", 
+	"Aluminium", 
+	"Ardite", 
+	"AstralStarmetal", 
+	"Boron", 
+	"Cobalt", 
+	"Draconium", 
+	"Iridium", 
+	"Lithium", 
+	"Magnesium", 
+	"Mithril", 
+	"Platinum", 
+	"Thorium", 
+	"Tungsten", 
+	"Uranium", 
+	"Yellorium", 
+	"Iron", 
+	"Gold", 
+	"Osmium", 
+	"Copper", 
+	"Tin", 
+	"Silver", 
+	"Lead"
 
 ] as string[];
-global var hashCrystal as IOreDictEntry[string];
+global hashCrystal as IOreDictEntry[string];
 for crystal in stringCrystal{
-	hashCrystal[crystal] = oreDict.get("crystal" ~ crystal);
+	hashCrystal[crystal] = oreDict["crystal" ~ crystal);
 }
+hashGem["Amber"].add(<cyclicmagic:crystallised_amber>);
+recipes.replaceAllOccurences(<cyclicmagic:crystallised_amber>, hashGem["Amber"]);
+hashGem["Obsidian"].add(<cyclicmagic:crystallised_obsidian>);
+recipes.replaceAllOccurences(<cyclicmagic:crystallised_obsidian>, hashGem["Obsidian"]);
 
 /*Ender IO Crystals*/
 val stringEnderIOCrystal = [
@@ -370,9 +467,9 @@ val stringEnderIOCrystal = [
 	"PrecientCrystal"
 
 ] as string[];
-global var hashEnderIOCrystal as IOreDictEntry[string];
+global hashEnderIOCrystal as IOreDictEntry[string];
 for enderIOCrystal in stringEnderIOCrystal{
-	hashEnderIOCrystal[enderIOCrystal] = oreDict.get("item" ~ enderIOCrystal);
+	hashEnderIOCrystal[enderIOCrystal] = oreDict["item" ~ enderIOCrystal);
 }
 
 /*Clathrates*/
@@ -384,9 +481,9 @@ val stringClathrate = [
 	"Ender"
 
 ] as string[];
-global var hashClathrate as IOreDictEntry[string];
+global hashClathrate as IOreDictEntry[string];
 for clathrate in stringClathrate{ 
-	hashClathrate[clathrate] = oreDict.get("clathrate" ~ clathrate);
+	hashClathrate[clathrate] = oreDict["clathrate" ~ clathrate);
 }
 
 /*Dusts*/
@@ -502,11 +599,11 @@ val stringDust = [
 	"Enderium"
 
 ] as string[];
-global var hashDust as IOreDictEntry[string];
+global hashDust as IOreDictEntry[string];
 for dust in dustString{
-	hashDust[dust] = dustArray[i];
+	hashDust[dust] = oreDict["dust" ~ dust);
 }
-recipes.replaceAllOccurences(oreDict.get("dustEnder"), hashDust["EnderPearl"]);
+recipes.replaceAllOccurences(oreDict["dustEnder"), hashDust["EnderPearl"]);
 
 /*Plates*/
 
