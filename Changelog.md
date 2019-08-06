@@ -1,12 +1,26 @@
+##v0.0.0-pre.1+build.10
+#Added Mods
+Archane Archives - 
+Artifacts - 
+Incorporeal - 
+InGame Info XML Addon - Blood Magic - 
+InGame Info XML Addon - Deep Resonance - 
+InGame Info XML Addon - Thaumcraft - 
+Reliquary - 
+Soot - 
+
+#Removed Mods
+Mekanism JEI Fix - 1.0.0
+
+#Updated Mods
+
+
 ##v0.0.0-pre.1+build.9
 #Added Mods
 BeeBetterAtBees - 1.12.2-2.0.3
 WAWLA - 1.12.2-2.5.273
 Embers Rekindled - 1.13-hotfix2
 InGame Info XML - 1.12.2-2.8.2.94-universal
-InGame Info XML Addon - Blood Magic - 
-InGame Info XML Addon - Thaumcraft - 
-InGame Info XML Addon - Deep Resonance - 
 InWorldCrafting - 1.12.2-1.2.0-universal
 Mystical Gears - 1.0.5
 Mystical Mechanics API - 0.10
@@ -15,7 +29,6 @@ Roots - 1.12.2-3.0.4
 
 #Removed Mods
 JEI Bees - 0.9.0.5-mc1.12.2
-Mekanism JEI Fix - 1.12.2-1.0.0
 
 #Updated Mods
 [SBM] Baggable Mobs - 1.12.2-1.0.0b20190122172253 --> 1.12.2-1.0.0b10
