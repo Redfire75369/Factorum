@@ -1,7 +1,7 @@
 #priority -0001
 
-import crafttweaker.items.IItemStack;
-import crafttweaker.items.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
 
@@ -92,14 +92,18 @@ global hashOre as IOreDictEntry[string];
 for ore in stringOre{
 	hashOre[ore] = oreDict["ore" ~ ore);
 }
+hashOre["CertusQuartz"].remove(<appliedenergistics2:charged_quartz_ore>);
+
+hashOre|"Light"].add(<tg:ore_light>);
+recipes.replaceAllOccurences(<tg:ore_light>, hashOre["Light"]);
+
+hashOre|"Shade"].add(<tg:ore_shade>);
+recipes.replaceAllOccurences(<tg:ore_shade>, hashOre["Shade"]);
+
 hashOre["StygianIron"].add(<woot:sygianironore>);
 recipes.replaceAllOccurences(<woot:stygianironore>, hash["StygianIron"]);
 
-hashOre|"Light"].add(<tg:ingot_light>);
-recipes.replaceAllOccurences(<tg:ingot_light>, hashOre["Light"]); 
 
-hashOre|"Shade"].add(<tg:ingot_shade>);
-recipes.replaceAllOccurences(<tg:ingot_shade>, hashOre["Shade"]); 
 /*Clusters*/
 val stringCluster = [
 
@@ -342,10 +346,10 @@ hashIngot["Livium"].add(<thaumic_arcana:ingot_livium>);
 recipes.replaceAllOccurences(<thaumic_arcana:ingot_livium>, hashIngot["Livium"]);
 
 hashIngot|"Light"].add(<tg:ingot_light>);
-recipes.replaceAllOccurences(<tg:ingot_light>, hashIngot["Light"]); 
+recipes.replaceAllOccurences(<tg:ingot_light>, hashIngot["Light"]);
 
 hashIngot|"Shade"].add(<tg:ingot_shade>);
-recipes.replaceAllOccurences(<tg:ingot_shade>, hashIngot["Shade"]); 
+recipes.replaceAllOccurences(<tg:ingot_shade>, hashIngot["Shade"]);
 
 hashIngot["StygianIron"].add(<woot:stygianironingot>);
 recipes.replaceAllOccurences(<woot:stygianironingot>, hashIngot["StygianIron"]);
@@ -615,6 +619,15 @@ recipes.replaceAllOccurences(ore["elvenPixieDust"], hashDust["ElvenPixie"]);
 recipes.replaceAllOccurences(<botania:manaresources:8>, hashDust["ElvenPixie"]);
 
 /*Plates*/
+val stringPlate = [
+	
+	"Resonating"
+	
+] as string[];
+global hashDust as IOreDictEntry[string];
+for dust in dustString{
+	hashDust[dust] = oreDict["dust" ~ dust];
+}
 
 /*Dense Plates*/
 
@@ -631,5 +644,3 @@ recipes.replaceAllOccurences(<botania:manaresources:8>, hashDust["ElvenPixie"]);
 /*Clumps*/
 
 /*Shards*/
-
-/*Crystals*/
