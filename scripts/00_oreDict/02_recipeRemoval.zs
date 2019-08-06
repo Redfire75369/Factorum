@@ -1,5 +1,7 @@
-import crafttweaker.items.IItemstack;
-import crafttweaker.items.IIngredient;
+#priority -0002
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
 
