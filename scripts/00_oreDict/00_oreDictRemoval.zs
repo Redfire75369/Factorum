@@ -130,6 +130,58 @@ val arrayRemoveDictCrystal = [
 
 ] as IItemStack[];
 
+val arrayRemoveDictDust = [
+	
+	<actuallyadditions:item_dust>, 
+	<actuallyadditions:item_dust:1>,
+	<actuallyadditions:item_dust:2>,
+	<actuallyadditions:item_dust:3>,
+	<actuallyadditions:item_dust:4>,
+	<actuallyadditions:item_dust:5>,
+	<actuallyadditions:item_dust:6>,
+	<appliedenergistics2:material:3>,
+	<appliedenergistics2:material:46>,
+	<appliedenergistics2:material:49>,
+	<appliedenergistics2:material:51>,
+	<extratrees:misc>, 
+	<bloodmagic:component:19>,
+	<bloodmagic:component:20>,
+	<bloodmagic:component:21>,
+	<bloodmagic:component:23>,
+	<bloodmagic:component:24>,
+	<enderio:item_material:21>,
+	<enderio:item_material:23>,
+	<enderio:item_material:24>,
+	<enderio:item_material:25>,
+	<enderio:item_material:26>,
+	<enderio:item_material:27>,
+	<enderio:item_material:28>,
+	<enderio:item_material:29>,
+	<enderio:item_material:30>,
+	<enderio:item_material:31>,
+	<enderio:item_material:32>,
+	<enderio:item_material:33>,
+	<bigreactors:dustgraphite>, 
+	<bigreactors:duststeel>, 
+	<forestry:ash>, 
+	<immersiveengineering:material:24>,
+	<immersiveengineering:material:25>,
+	<immersiveengineering:metal:9>,
+	<immersiveengineering:metal:10>,
+	<immersiveengineering:metal:11>,
+	<immersiveengineering:metal:12>,
+	<immersiveengineering:metal:13>,
+	<immersiveengineering:metal:14>,
+	<immersiveengineering:metal:15>,
+	<immersiveengineering:metal:16>,
+	<immersiveengineering:metal:17>,
+	<immersiveengineering:metal:18>,
+	<immersiveengineering:metal:19>,
+	<immersivetech:material>, 
+	
+	
+] as IItemStack[];
+
 val arrayRemoveDictPlate = [
 
 	<embers:plate_aluminum>, 
@@ -147,7 +199,6 @@ val arrayRemoveDictPlate = [
 	<immersiveengineering:metal:32>,
 	<immersiveengineering:metal:33>,
 	<immersiveengineering:metal:34>,
-	<immersiveengineering:metal:35>,
 	<immersiveengineering:metal:36>,
 	<immersiveengineering:metal:37>,
 	<immersiveengineering:metal:38>,
