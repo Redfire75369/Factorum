@@ -6,14 +6,14 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
 
 /*Defining Values/ Variables*/
-val sand = <minecraft:sand> as IItemStack;
+global sand = <minecraft:sand> as IItemStack;
 
 /*Assigning a Hashmap for each OreDict*/
 /*Ores*/
 val stringOre = [
 
-	"Gold",
-	"Iron",
+	"Gold", 
+	"Iron", 
 	"Lapis", 
 	"Diamond", 
 	"Redstone", 
@@ -262,7 +262,7 @@ val stringIngot = [
 	"Void", 
 	"Adaminite", 
 	"Mithminite", 
-	"Mithrillium",
+	"Mithrillium", 
 	"Livium", 
 	"Thauminite", 
 	"Light", 
@@ -418,7 +418,7 @@ val stringCrystal = [
 	"PureFluix", 
 	"Amber", 
 	"Obsidian", 
-	"Aethium",
+	"Aethium", 
 	"Erodium", 
 	"Ionite", 
 	"Kyronite", 
@@ -537,6 +537,18 @@ val stringDust = [
 	"ChargedCertusQuartz", 
 	"Cobalt", 
 	"Osmium", 
+	"Cocoa", 
+	"CalciumSulfate", 
+	"CrystalBinder", 
+	"Energetic", 
+	"SodiumFlouride", 
+	"PotassiumFlouride", 
+	"SodiumHydroxide", 
+	"PotassiumHydroxide", 
+	"Borax", 
+	"Dimensional", 
+	"CarbonManganese", 
+	"Alugentum", 
 	"Thorium", 
 	"Uranium", 
 	"Boron", 
@@ -548,6 +560,7 @@ val stringDust = [
 	"UraniumOxide", 
 	"ManganeseOxide", 
 	"ManganeseDioxide", 
+	"Wheat", 
 	"Rhodocrosite", 
 	"Quartz", 
 	"BoronNitride", 
@@ -613,7 +626,8 @@ val stringDust = [
 	"Constantan", 
 	"Signalum", 
 	"Lumium", 
-	"Enderium"
+	"Enderium", 
+	"StygianIron"
 
 ] as string[];
 global hashDust as IOreDictEntry[string];
@@ -646,6 +660,9 @@ hashDust["ElvenPixie"].add(<botania:manaresource:8>);
 recipes.replaceAllOccurences(ore["elvenPixieDust"], hashDust["ElvenPixie"]);
 recipes.replaceAllOccurences(<botania:manaresources:8>, hashDust["ElvenPixie"]);
 
+hashDust["StygianIron"].add(<woot:stygianirondust>);
+recipes.replaceAllOccurences(<woot:stygianirondust>, hashDust["StygianIron"]);
+
 /*Plates*/
 val stringPlate = [
 	
@@ -677,7 +694,7 @@ val stringPlate = [
 	"QuartzBlack", 
 	"Thorium", 
 	"Yellorium", 
-	"Basic",
+	"Basic", 
 	"Advanced", 
 	"DU", 
 	"Elite", 
@@ -692,7 +709,7 @@ val stringPlate = [
 	"Diamond", 
 	"Emerald", 
 	"Coal", 
-	"Obsidian",
+	"Obsidian", 
 	"Lazurite", 
 	"Silicon", 
 	"Ruby", 
@@ -716,13 +733,13 @@ val stringPlate = [
 	"Tin", 
 	"Titanium", 
 	"Tungsten", 
-	"Tungstensteel",
+	"Tungstensteel", 
 	"RefinedIron", 
 	"AdvancedAlloy", 
 	"Magnalium", 
 	"IridiumAlloy", 
 	"Thaumium", 
-	"Void",
+	"Void", 
 	"Adaminite", 
 	"Mithminite", 
 	"Mithrillium", 
@@ -736,8 +753,8 @@ val stringPlate = [
 	"Mithril", 
 	"Constantan", 
 	"Signalum", 
-	'Lumium", 
-	"Enderium",
+	"Lumium", 
+	"Enderium", 
 	"StygianIron"
 	
 ] as string[];
@@ -754,14 +771,62 @@ recipes.replaceAllOccurences(<planarartifice:alkimium_plate>, hashPlate["Alkimiu
 
 hashPlate["StygianIron"].add(<woot:sygianironplate>);
 recipes.replaceAllOccurences(<woot:stygianironplate>, hashPlate["StygianIron"];
-UraniumPlate? 
-
-
-
 
 /*Dense Plates*/
+val stringPlateDense = [
 
+	"Aluminium", 
+	"Amber", 
+	"Amethyst", 
+	"Apatite",
+	"Aquamarine", 
+	"Ardite", 
+	"AstralStarmetal", 
+	"Boron", 
+	"CertusQuartz", 
+	"ChargedCertusQuartz", 
+	"Coal", 
+	"Cobalt", 
+	"Copper", 
+	"DimensionalShard", 
+	"Draconium", 
+	"Emerald", 
+	"Garnet", 
+	"Gold", 
+	"Iridium", 
+	"Iron", 
+	"Lapis", 
+	"Lead", 
+	"Lithium", 
+	"Magnesium", 
+	"Mithril", 
+	"Nickel", 
+	"Opal", 
+	"Osmium", 
+	"Peridot", 
+	"Platinum", 
+	"Quartz", 
+	"QuartzBlack", 
+	"Ruby", 
+	"Sapphire", 
+	"Silver", 
+	"Thorium", 
+	"Tin", 
+	"Tungsten", 
+	"Uranium", 
+	"Yellorium" 
+	
+] as string[];
+global hashPlateDense as IOreDictEntry[string];
+for plateDense in stringPlateDense{
+	hashPlateDense[plateDense] = oreDict["plateDense" ~ plate];
+}
 /*Rods*/
+val stringRod = [
+	
+	
+	
+] as string[];
 
 /*Gears*/
 
@@ -769,10 +834,12 @@ UraniumPlate?
 
 /*Blocks*/
 
+/*Tiny Dusts*/
+
+/*Small Dusts*/
+
 /*Dirty Dusts*/
 
 /*Clumps*/
 
 /*Shards*/
-
-/*Crystals*/
