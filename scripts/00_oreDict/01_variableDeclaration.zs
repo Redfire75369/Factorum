@@ -499,6 +499,10 @@ val stringDust = [
 	"Glowstone", 
 	"Blaze", 
 	"Prismarine", 
+	"Illumination", 
+	"Nocturnal", 
+	"BloodInfusedGlowstone", 
+	"Wither", 
 	"Pyrotheum", 
 	"Cryotheum", 
 	"Aerotheum", 
@@ -513,6 +517,9 @@ val stringDust = [
 	"AstralStarmetal", 
 	"Salt", 
 	"ElvenPixie", 
+	"Ash", 
+	"Ember", 
+	"Metallurgic", 
 	"Draconium", 
 	"Bedrock", 
 	"Wheat", 
@@ -542,6 +549,7 @@ val stringDust = [
 	"ManganeseOxide", 
 	"ManganeseDioxide", 
 	"Rhodocrosite", 
+	"Quartz", 
 	"BoronNitride", 
 	"Flourite", 
 	"Villaumite", 
@@ -609,9 +617,29 @@ val stringDust = [
 
 ] as string[];
 global hashDust as IOreDictEntry[string];
-for dust in dustString{
+for dust in stringDust{
 	hashDust[dust] = oreDict["dust" ~ dust];
 }
+hashDust["Wither"].add(<darkutils:material>);
+recipes.replaceAllOccurences(<darkutils:material>, hashDust["Wither"]);
+
+hashDust["Illumination"].add(<astralsorcery:itemusabledust>);
+recipes.replaceAllOccurences(<astralsorcery:itemusabledust>, hashDust["Illumination"]);
+
+hashDust["Nocturnal"].add(<astralsorcery:itemusabledust:1>);
+recipes.replaceAllOccurences(<astralsorcery:itemusabledust:1>, hashDust["Nocturnal"]);
+
+hashDust["BloodInfusedGlowstone"].add(<bloodarsenal:base_item:2>);
+recipes.replaceAllOccurences(<bloodarsenal:base_item:2>, hashDust["BloodInfusedGlowstone"]);
+
+recipes.replaceAllOccurences(oreDict["dustAshes"], hashDust["Ash"]);
+
+hashDust["Ember"].add(<embers:dust_ember>);
+recipes.replaceAllOccurences(<embers:dust_ember>, hashDust["Ember"]);
+
+hashDust["Metallurgic"].add(<embers:dust_metallurgic>);
+recipes.replaceAllOccurences(<embers:dust_metallurgic>, hashDust["Metallurgic"]);
+
 recipes.replaceAllOccurences(oreDict["dustEnder"], hashDust["EnderPearl"]);
 
 hashDust["ElvenPixie"].add(<botania:manaresource:8>);
@@ -621,13 +649,115 @@ recipes.replaceAllOccurences(<botania:manaresources:8>, hashDust["ElvenPixie"]);
 /*Plates*/
 val stringPlate = [
 	
-	"Resonating"
+	"Soot", 
+	"Resonating", 
+	"Caminite", 
+	"RawCaminite", 
+	"Dawnstone", 
+	"Uranium", 
+	"Amber", 
+	"Amethyst", 
+	"Apatite", 
+	"Aquamarine", 
+	"Ardite", 
+	"AstralStarmetal", 
+	"Boron", 
+	"CertusQuartz", 
+	"ChargedCertusQuartz", 
+	"Cobalt", 
+	"DimensionalShard", 
+	"Draconium", 
+	"Garnet", 
+	"Lapis", 
+	"Lithium", 
+	"Magnesium", 
+	"Opal", 
+	"Osmium", 
+	"Quartz", 
+	"QuartzBlack", 
+	"Thorium", 
+	"Yellorium", 
+	"Basic",
+	"Advanced", 
+	"DU", 
+	"Elite", 
+	"Alkimium", 
+	"ElectrumFlux", 
+	"GelidEnderium", 
+	"Iron", 
+	"Gold", 
+	"Carbon", 
+	"Wood", 
+	"Redstone", 
+	"Diamond", 
+	"Emerald", 
+	"Coal", 
+	"Obsidian",
+	"Lazurite", 
+	"Silicon", 
+	"Ruby", 
+	"Sapphire", 
+	"Peridot", 
+	"RedGarnet", 
+	"YellowGarnet", 
+	"Aluminium", 
+	"Brass", 
+	"Bronze", 
+	"Chrome", 
+	"Copper", 
+	"Electrum", 
+	"Invar", 
+	"Iridium", 
+	"Lead", 
+	"Nickel", 
+	"Platinum", 
+	"Silver", 
+	"Steel", 
+	"Tin", 
+	"Titanium", 
+	"Tungsten", 
+	"Tungstensteel",
+	"RefinedIron", 
+	"AdvancedAlloy", 
+	"Magnalium", 
+	"IridiumAlloy", 
+	"Thaumium", 
+	"Void",
+	"Adaminite", 
+	"Mithminite", 
+	"Mithrillium", 
+	"Thauminite", 
+	"ThaumiumAer", 
+	"ThaumiumIgnis", 
+	"ThaumiumAqua", 
+	"ThaumiumTerra", 
+	"ThaumiumOrdo", 
+	"ThaumiumPerditio", 
+	"Mithril", 
+	"Constantan", 
+	"Signalum", 
+	'Lumium", 
+	"Enderium",
+	"StygianIron"
 	
 ] as string[];
-global hashDust as IOreDictEntry[string];
-for dust in dustString{
-	hashDust[dust] = oreDict["dust" ~ dust];
+global hashPlate as IOreDictEntry[string];
+for plate in stringPlate{
+	hashPlate[plate] = oreDict["plate" ~ plate];
 }
+hashPlate["Resonating"].add(<deepresonance:resonating_plate>);
+recipes.replaceAllOccurences(<deepresonance:resonating_plate>, hashPlate["Resonating"]);
+
+hashPlate["Alkimium"].add(<planarartifice:alkimium_plate>);
+recipes.replaceAllOccurences(oreDict["plateAlchemical"], hashPlate["Alkimium"]);
+recipes.replaceAllOccurences(<planarartifice:alkimium_plate>, hashPlate["Alkimium"]);
+
+hashPlate["StygianIron"].add(<woot:sygianironplate>);
+recipes.replaceAllOccurences(<woot:stygianironplate>, hashPlate["StygianIron"];
+UraniumPlate? 
+
+
+
 
 /*Dense Plates*/
 
@@ -644,3 +774,5 @@ for dust in dustString{
 /*Clumps*/
 
 /*Shards*/
+
+/*Crystals*/
