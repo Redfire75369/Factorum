@@ -821,12 +821,69 @@ global hashPlateDense as IOreDictEntry[string];
 for plateDense in stringPlateDense{
 	hashPlateDense[plateDense] = oreDict["plateDense" ~ plate];
 }
+
 /*Rods*/
 val stringRod = [
 	
-	
+	"Iron", 
+	"Steel", 
+	"Aluminium", 
+	"Amber", 
+	"Amethyst", 
+	"Apatite", 
+	"Aquamarine", 
+	"Ardite", 
+	"Boron", 
+	"CertusQuartz", 
+	"ChargedCertusQuartz", 
+	"Coal", 
+	"Cobalt", 
+	"Copper", 
+	"Diamond", 
+	"DimensionalShard", 
+	"Draconium", 
+	"Emerald", 
+	"Garnet", 
+	"Gold", 
+	"Iridium", 
+	"Lapis", 
+	"Lead", 
+	"Lithium", 
+	"Magnesium", 
+	"Mithril", 
+	"Nickel", 
+	"Opal", 
+	"Osmium", 
+	"Peridot", 
+	"Platinum", 
+	"Quartz", 
+	"QuartzBlack", 
+	"Ruby", 
+	"Sapphire", 
+	"Silver", 
+	"Thorium", 
+	"Tin", 
+	"Tungsten", 
+	"Uranium", 
+	"Yellorium"
 	
 ] as string[];
+global hashRod as IOreDictEntry[string];
+for rod in stringRod{
+	hashRod[rod] = oreDict["plateDense" ~ rod];
+}
+hashRod["Iron"].add(<immersiveengineering:material:1>);
+recipes.replaceAllOccurences(ore["stickIron"], hashRod["Iron"]);
+recipes.replaceAllOccurences(<botania:manaresources:8>, hashRod["Iron"]);
+
+hashRod["Steel"].add(<immersiveengineering:material:2>);
+recipes.replaceAllOccurences(ore["stickSteel"], hashRod["Steel"]);
+recipes.replaceAllOccurences(<botania:manaresources:8>, hashRod["Steel"]);
+
+hahsRod["Aluminium"].add(<immersiveengineering:material:3>);
+recipes.replaceAllOccurences(ore["stickAluminium"], hashRod["Aluminium"]);
+recipes.replaceAllOccurences(ore["stickAluminum"], hashRod["Aluminium"]);
+recipes.replaceAllOccurences(<immersiveengineering:material:3>, hashRod["Aluminium"]);
 
 /*Gears*/
 

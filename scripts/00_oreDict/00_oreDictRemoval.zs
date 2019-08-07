@@ -281,6 +281,10 @@ val arrayRemoveDictPlateDense = [
 
 ] as IItemStack[];
 
+val arrayRemoveDictRod = [
+	
+	
+] as IItemStack[];
 
 for ore in arrayRemoveDictOre{
 	for dict in ore.ores{
@@ -320,5 +324,10 @@ for plate in arrayRemoveDictPlate{
 for plateDense in arrayRemoveDictPlateDense{
 	for dict in plateDense.ores{
 		dict.remove(plateDense);
+	}
+}
+for rod in arrayRemoveDictRod{
+	for dict in rod.ores{
+		dict.remove(rod);
 	}
 }
