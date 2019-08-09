@@ -18,6 +18,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 
 ## [v0.0.0-pre.1+build.10] - 2019-08-06 **PR**
 ### Added
+- Mods: Advanced Lifting Methods; **version xxx**
 - Mods: Archane Archives; **version xxx**
 - Mods: Artifacts; **version xxx**
 - Mods: Incorporeal; **version xxx**
@@ -31,6 +32,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 
 ### Removed
 - Mods: Mekanism JEI Fix
+- Mods: OpenBlocks Elevators
 
 ## [v0.0.0-pre.1+build.9] - 2019-08-04 **PR**
 ### Added
@@ -139,6 +141,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 
 ### Removed
 - Mods: JEI Bees
+- Quests: All quests and all chapters
 
 ## [v0.0.0-pre.1+build.8] - 2019-07-28 **PR**
 ### Added
@@ -146,13 +149,12 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: AE2 Wireless Terminal Library; version 1.12.2-1.0.30
 - Mods: Coin of Flight; version 1.12.2-2.2.156
 - Mods: Glassential; version 1.12.2-1.1.0
-- Mods: P4ssword's Library; **version xxx**
+- Mods: P4ssword's Library; 1.12.2-2.2.156
 - Mods: Preston; version 0.3.5
 - Mods: Spikes; version 1.12-2.1.0
 - Mods: Unstable Tools; version 1.1a
 - Mods: Wireless Crafting Terminal; version 1.12.2-3.12.93
 - Scripts: Ore dictionary removal script
-- Scripts: Secondary, Tertiary, Quaternary byproducts
 
 ### Changed
 - Mods: Applied Energistics 2; updated to rv6-stable-7
@@ -340,8 +342,8 @@ This list is still being worked on
 - Mods: Refined Storage: Requestify; version 1.12.2-1.0.2-3
 - Mods: RFTools; version 1.12-7.71
 - Mods: Shadowfacts' Forgelin; version 1.8.2
-- Mods: SimpleLogic Gates; **version xxx**
-- Mods: SimpleLogic Wires; **version xxx**
+- Mods: SimpleLogic Gates; version 0.5.5.7
+- Mods: SimpleLogic Wires; version 0.5.5.7
 - Mods: Simple Generators; version 1.12.2-2.0.20.2
 - Mods: Simple Storage Network; version 1.7.4
 - Mods: Steve's Carts Reborn; version 1.12.2-2.4.30.134
