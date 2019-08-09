@@ -566,6 +566,7 @@ val stringDust = [
 	"Illumination", 
 	"Nocturnal", 
 	"BloodInfusedGlowstone", 
+	"ElvenPixie", 
 	"Wither", 
 	"Pyrotheum", 
 	"Cryotheum", 
@@ -580,7 +581,6 @@ val stringDust = [
 	"Fluix", 
 	"AstralStarmetal", 
 	"Salt", 
-	"ElvenPixie", 
 	"Soot", 
 	"Ash", 
 	"Ember", 
@@ -594,6 +594,7 @@ val stringDust = [
 	"Cyanite", 
 	"Ludicrite", 
 	"Yellorium", 
+	"Flux", 
 	"Coke", 
 	"HOPGraphite", 
 	"Amber", 
@@ -688,6 +689,7 @@ val stringDust = [
 	"Andesite", 
 	"Diorite", 
 	"Granite", 
+	"Iridium", 
 	"Constantan", 
 	"Signalum", 
 	"Lumium", 
@@ -711,6 +713,10 @@ recipes.replaceAllOccurences(<astralsorcery:itemusabledust:1>, hashDust["Nocturn
 hashDust["BloodInfusedGlowstone"].add(<bloodarsenal:base_item:2>);
 recipes.replaceAllOccurences(<bloodarsenal:base_item:2>, hashDust["BloodInfusedGlowstone"]);
 
+hashDust["ElvenPixie"].add(<botania:manaresource:8>);
+recipes.replaceAllOccurences(ore["elvenPixieDust"], hashDust["ElvenPixie"]);
+recipes.replaceAllOccurences(<botania:manaresources:8>, hashDust["ElvenPixie"]);
+
 hashDust["Soot"].add(<deepmoblearning:soot_covered_redstone>);
 recipes.replaceAllOccurences(<deepmoblearning:soot_covered_redstone>, hashDust["Soot"]);
 
@@ -722,11 +728,10 @@ recipes.replaceAllOccurences(<embers:dust_ember>, hashDust["Ember"]);
 hashDust["Metallurgic"].add(<embers:dust_metallurgic>);
 recipes.replaceAllOccurences(<embers:dust_metallurgic>, hashDust["Metallurgic"]);
 
-recipes.replaceAllOccurences(oreDict["dustEnder"], hashDust["EnderPearl"]);
+hashDust["Flux"].add(<fluxnetworks:flux>);
+recipes.replaceAllOccurences(<fluxnetworks:flux>, hashDust["Flux"]);
 
-hashDust["ElvenPixie"].add(<botania:manaresource:8>);
-recipes.replaceAllOccurences(ore["elvenPixieDust"], hashDust["ElvenPixie"]);
-recipes.replaceAllOccurences(<botania:manaresources:8>, hashDust["ElvenPixie"]);
+recipes.replaceAllOccurences(oreDict["dustEnder"], hashDust["EnderPearl"]);
 
 hashDust["StygianIron"].add(<woot:stygianirondust>);
 recipes.replaceAllOccurences(<woot:stygianirondust>, hashDust["StygianIron"]);
@@ -1204,6 +1209,7 @@ val stringBlock = [
 	"Amethyst", 
 	"ColdIron", 
 	"Garnet", 
+	"Nethersteel", 
 	"Opal", 
 	"Salt", 
 	"BloodInfusedIron", 
@@ -1257,6 +1263,7 @@ val stringBlock = [
 	"Cyanite", 
 	"Ludicrite", 
 	"Yellorium", 
+	"Flux", 
 	"Apatite", 
 	"MeatCooked", 
 	"MeatRaw", 
@@ -1480,6 +1487,9 @@ recipes.replaceAllOccurences(<extrabotany:blockphotonium>, hashBlock["Photonium"
 hashBlock["Shadowium"].add(<extrabotany:blockshadowium>);
 recipes.replaceAllOccurences(<extrabotany:blockshadowium>, hashBlock["Shadowium"]);
 
+hashBlock["Flux"].add(<fluxnetworks:fluxblock>);
+recipes.replaceAllOccurences(<fluxnetworks:fluxblock>, hashBlock["Flux"]);
+
 hashBlock["MeatCooked"].add(<industrialmeat:cooked_meat_block>);
 recipes.replaceAllOccurences(<industrialmeat:cooked_meat_block>, hashBlock["MeatCooked"];
 
@@ -1509,8 +1519,154 @@ hashBlock|"StygianIron"].add(<woot:stygianiron>);
 recipes.replaceAllOccurences(<woot:stygianiron>, hashBlock["StygianIron"]);
 
 /*Tiny Dusts*/
+val stringDustTiny = [
+	
+	"Aluminium", 
+	"Amber", 
+	"Amethyst", 
+	"Apatite", 
+	"Aquamarine", 
+	"Ardite", 
+	"AstralStarmetal", 
+	"Bauxite", 
+	"Boron", 
+	"CertusQuartz", 
+	"ChargedCertusQuartz", 
+	"Cinnabar", 
+	"Coal", 
+	"Cobalt", 
+	"Diamond", 
+	"DimensionalShard", 
+	"Draconium", 
+	"Emerald", 
+	"Galena", 
+	"Garnet", 
+	"Gold", 
+	"Iridium", 
+	"Iron", 
+	"Lapis", 
+	"Lead", 
+	"Lithium", 
+	"Magnesium", 
+	"Mithril", 
+	"Nickel", 
+	"Opal", 
+	"Osmium", 
+	"Peridot", 
+	"Platinum", 
+	"Pyrite", 
+	"Quartz", 
+	"QuartzBlack", 
+	"Redstone", 
+	"Ruby", 
+	"Salt", 
+	"Sapphire", 
+	"Sodalite", 
+	"Sphalerite", 
+	"Thorium", 
+	"Tin", 
+	"Tungsten", 
+	"Uranium", 
+	"Yellorium", 
+	"Copper", 
+	"Silver"
+	
+] as string[];
+global hashDustTiny as IOreDictEntry[string];
+for dustTiny in stringDustTiny{
+	hashDustTiny[dustTiny] = oreDict["dustTiny" ~ dustTiny);
+}
 
 /*Small Dusts*/
+val stringDustSmall = [
+	
+	"Amber", 
+	"Amethyst", 
+	"Apatite", 
+	"Aquamarine", 
+	"Ardite", 
+	"AstralStarmetal", 
+	"Boron", 
+	"CertusQuartz", 
+	"ChargedCertusQuartz", 
+	"Cobalt", 
+	"DimensionalShard", 
+	"Draconium", 
+	"Garnet", 
+	"Lapis", 
+	"Lithium", 
+	"Mithril", 
+	"Opal", 
+	"Osmium", 
+	"Quartz", 
+	"QuartzBlack", 
+	"Redstone", 
+	"Ruby", 
+	"Salt", 
+	"Thorium", 
+	"Uranium", 
+	"Yellorium", 
+	"Almandine", 
+	"Aluminium", 
+	"Andradite", 
+	"Basalt", 
+	"Bauxite", 
+	"Brass", 
+	"Bronze", 
+	"Calcite", 
+	"Charcoal", 
+	"Chrome", 
+	"Cinnabar", 
+	"Coal", 
+	"Copper", 
+	"DarkAshes", 
+	"Diamond", 
+	"EnderEye", 
+	"EnderPearl", 
+	"Endstone", 
+	"Flint", 
+	"Galena", 
+	"Gold", 
+	"Grossular", 
+	"Invar", 
+	"Iron", 
+	"Lazurite", 
+	"Lead", 
+	"Magnesium", 
+	"Manganese", 
+	"Marble", 
+	"Netherrack", 
+	"Nickel", 
+	"Obsidian", 
+	"Peridot", 
+	"Phosphorous", 
+	"Platinum", 
+	"Pyrite", 
+	"Pyrope", 
+	"RedGarnet", 
+	"Ruby", 
+	"Sapphire", 
+	"Wood", 
+	"Sodalite", 
+	"Spessartite", 
+	"Sphalerite", 
+	"Steel", 
+	"Tin", 
+	"Titanium", 
+	"Tungsten", 
+	"Uvarovite", 
+	"YellowGarnet", 
+	"Zinc", 
+	"Andesite", 
+	"Diorite", 
+	"Granite", 
+	"Iridium"
+	
+] as string[];
+global hashDustSmall as IOreDictEntry[string];
+for dustSmall in stringDustSmall{
+	hashDustSmall[dustSmall] = oreDict["dustSmall" ~ dustSmall);
+}
 
 /*Dirty Dusts*/
 
