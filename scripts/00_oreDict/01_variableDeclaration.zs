@@ -372,6 +372,10 @@ val stringGem = [
 	"Amethyst", 
 	"Garnet", 
 	"Opal", 
+	"DiamondMana", 
+	"Dragonstone", 
+	"LapisElven", 
+	"LapisMana", 
 	"Pearl", 
 	"Apatite", 
 	"NjordAquamarine", 
@@ -399,6 +403,18 @@ global hashGem as IOreDictEntry[string];
 for gem in stringGem{
 	hashGem[gem] = oreDict["gem" ~ gem);
 }
+hashGem["DiamondMana"].add(<botania:manaresource:2>);
+recipes.replaceAllOccurences(<botania:manaresource:2>, hashGem["DiamondMana"]);
+
+hashGem["Dragonstone"].add(<botania:manaresource:9>);
+recipes.replaceAllOccurences(<botania:manaresource:9>, hashGem["Dragonstone"]);
+
+hashGem["LapisElven"].add(<botanicadds:elven_lapis>);
+recipes.replaceAllOccurences(<botanicadds:elven_lapis>, hashGem["LapisElven"]);
+
+hashGem["LapisMana"].add(<botanicadds:mana_lapis>);
+recipes.replaceAllOccurences(<botanicadds:mana_lapis>, hashGem["LapisMana"]);
+
 hashGem["Aquamarine"].remove(<naturalpledge:resource:4>);
 hashGem["Aquamarine"].remove(<naturalpledge:resource:5>);
 hashGem["NjordAquamarine"].remove(<naturalpledge:resource:5>);
@@ -409,7 +425,19 @@ recipes.replaceAllOccurences(<thaumcraft:quicksilver>, hashGem["Quicksilver"]);
 
 /*Crystals*/
 val stringCrystal = [
-
+	
+	"Restonia", 
+	"Palis", 
+	"Diamantine", 
+	"Void", 
+	"Emeradic", 
+	"Enori", 
+	"RestoniaEmpowered", 
+	"PalisEmpowered", 
+	"DiamantineEmpowered", 
+	"VoidEmpowered", 
+	"EmeradicEmpowered", 
+	"EnoriEmpowered", 
 	"CertusQuartz", 
 	"ChargedCertusQuartz", 
 	"Fluix", 
@@ -456,11 +484,47 @@ global hashCrystal as IOreDictEntry[string];
 for crystal in stringCrystal{
 	hashCrystal[crystal] = oreDict["crystal" ~ crystal];
 }
-hashGem["Amber"].add(<cyclicmagic:crystallised_amber>);
-recipes.replaceAllOccurences(<cyclicmagic:crystallised_amber>, hashGem["Amber"]);
+hashCrystal["Restonia"].add(<actuallyadditions:item_crystal>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal>, hashCrystal["Restonia"]);
 
-hashGem["Obsidian"].add(<cyclicmagic:crystallised_obsidian>);
-recipes.replaceAllOccurences(<cyclicmagic:crystallised_obsidian>, hashGem["Obsidian"]);
+hashCrystal["Palis"].add(<actuallyadditions:item_crystal:1>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:1>, hashCrystal["Palis"]);
+
+hashCrystal["Diamantine"].add(<actuallyadditions:item_crystal:2>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:2>, hashCrystal["Diamantine"]);
+
+hashCrystal["Void"].add(<actuallyadditions:item_crystal:3>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:3>, hashCrystal["Void"]);
+
+hashCrystal["Emeradic"].add(<actuallyadditions:item_crystal:4>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:4>, hashCrystal["Emeradic"]);
+
+hashCrystal["Enori"].add(<actuallyadditions:item_crystal:5>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:5>, hashCrystal["Enori"]);
+
+hashCrystal["RestoniaEmpowered"].add(<actuallyadditions:item_crystal_empowered>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered>, hashCrystal["RestoniaEmpowered"]);
+
+hashCrystal["PalisEmpowered"].add(<actuallyadditions:item_crystal_empowered:1>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:1>, hashCrystal["PalisEmpowered"]);
+
+hashCrystal["DiamantineEmpowered"].add(<actuallyadditions:item_crystal_empowered:2>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:2>, hashCrystal["DiamantineEmpowered"]);
+
+hashCrystal["VoidEmpowered"].add(<actuallyadditions:item_crystal_empowered:3>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:3>, hashCrystal["VoidEmpowered"]);
+
+hashCrystal["EmeradicEmpowered"].add(<actuallyadditions:item_crystal_empowered:4>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:4>, hashCrystal["EmeradicEmpowered"]);
+
+hashCrystal["EnoriEmpowered"].add(<actuallyadditions:item_crystal_empowered:5>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:5>, hashCrystal["EnoriEmpowered"]);
+
+hashCrystal["Amber"].add(<cyclicmagic:crystallised_amber>);
+recipes.replaceAllOccurences(<cyclicmagic:crystallised_amber>, hashCrystal["Amber"]);
+
+hashCrystal["Obsidian"].add(<cyclicmagic:crystallised_obsidian>);
+recipes.replaceAllOccurences(<cyclicmagic:crystallised_obsidian>, hashCrystal["Obsidian"]);
 
 /*Ender IO Crystals*/
 val stringEnderIOCrystal = [
@@ -517,6 +581,7 @@ val stringDust = [
 	"AstralStarmetal", 
 	"Salt", 
 	"ElvenPixie", 
+	"Soot", 
 	"Ash", 
 	"Ember", 
 	"Metallurgic", 
@@ -645,6 +710,9 @@ recipes.replaceAllOccurences(<astralsorcery:itemusabledust:1>, hashDust["Nocturn
 
 hashDust["BloodInfusedGlowstone"].add(<bloodarsenal:base_item:2>);
 recipes.replaceAllOccurences(<bloodarsenal:base_item:2>, hashDust["BloodInfusedGlowstone"]);
+
+hashDust["Soot"].add(<deepmoblearning:soot_covered_redstone>);
+recipes.replaceAllOccurences(<deepmoblearning:soot_covered_redstone>, hashDust["Soot"]);
 
 recipes.replaceAllOccurences(oreDict["dustAshes"], hashDust["Ash"]);
 
@@ -778,7 +846,7 @@ val stringPlateDense = [
 	"Aluminium", 
 	"Amber", 
 	"Amethyst", 
-	"Apatite",
+	"Apatite", 
 	"Aquamarine", 
 	"Ardite", 
 	"AstralStarmetal", 
@@ -880,16 +948,497 @@ hashRod["Steel"].add(<immersiveengineering:material:2>);
 recipes.replaceAllOccurences(ore["stickSteel"], hashRod["Steel"]);
 recipes.replaceAllOccurences(<botania:manaresources:8>, hashRod["Steel"]);
 
-hahsRod["Aluminium"].add(<immersiveengineering:material:3>);
+hashRod["Aluminium"].add(<immersiveengineering:material:3>);
 recipes.replaceAllOccurences(ore["stickAluminium"], hashRod["Aluminium"]);
 recipes.replaceAllOccurences(ore["stickAluminum"], hashRod["Aluminium"]);
 recipes.replaceAllOccurences(<immersiveengineering:material:3>, hashRod["Aluminium"]);
 
 /*Gears*/
+val stringGear = [
+	
+	"Scented", 
+	"Proven", 
+	"Dawnstone", 
+	"IronInfinity", 
+	"Energized", 
+	"Vibrant", 
+	"Dark", 
+	"Amber", 
+	"Amethyst", 
+	"Apatite", 
+	"Aquamarine", 
+	"Ardite", 
+	"AstralStarmetal", 
+	"Boron", 
+	"CertusQuartz", 
+	"ChargedCertusQuartz", 
+	"Coal", 
+	"Cobalt", 
+	"DimensionalShard", 
+	"Draconium", 
+	"Garnet", 
+	"Lapis", 
+	"Lithium", 
+	"Magnesium", 
+	"Opal", 
+	"Osmium", 
+	"Peridot", 
+	"Quartz", 
+	"QuartzBlack", 
+	"Ruby", 
+	"Sapphire", 
+	"Thorium", 
+	"Tungsten", 
+	"Uranium", 
+	"Yellorium", 
+	"Aluminium", 
+	"Bronze", 
+	"Copper", 
+	"CosmicNeutronium", 
+	"CrystalMatrix", 
+	"Diamond", 
+	"Electrum", 
+	"ElvenElementium", 
+	"Infinity", 
+	"Lead", 
+	"Manasteel", 
+	"Nickel", 
+	"Silver", 
+	"Stone", 
+	"Terrasteel", 
+	"Thaumium", 
+	"Tin", 
+	"Void", 
+	"Wood", 
+	"Gold", 
+	"Redstone", 
+	"RedstoneInverted", 
+	"Iron", 
+	"Dominos", 
+	"IronCompressed", 
+	"ElectrumFlux", 
+	"GelidEnderium", 
+	"Brass", 
+	"Emerald", 
+	"Platinum", 
+	"Iridium", 
+	"Mithril", 
+	"Steel", 
+	"Invar", 
+	"Constantan", 
+	"Signalum", 
+	"Lumium", 
+	"Enderium"
+	
+] as string[];
+global hashGear as IOreDictEntry[string];
+for gear in stringGear{
+	hashGear[gear] = oreDict["gear" ~ gear];
+}
+hashGear["Scented"].add(<extrabees:misc>);
+recipes.replaceAllOccurences(<extrabees:misc>, hashGear["Scented"]);
+
+hashGear["Proven"].add(<extratrees:misc:2>);
+recipes.replaceAllOccurences(<extratrees:misc:2>, hashGear["Proven"]);
+
+hashGear["Redstone"].add(<mystgears:gear_gold_off>);
+recipes.replaceAllOccurences(<mystgears:gear_gold_off>, hashGear["Redstone"]);
+
+hashGear["RedstoneInverted"].add(<mystgears:gear_gold_on>);
+recipes.replaceAllOccurences(<mystgears:gear_gold_on>, hashGear["RedstoneInverted"]);
 
 /*Nuggets*/
 
+val stringNugget = [
+	
+	"CosmicNeutronium", 
+	"ColdIron", 
+	"Manasteel", 
+	"Terrasteel", 
+	"ElvenElementium", 
+	"Draconium", 
+	"DraconiumAwakened", 
+	"Dawnstone", 
+	"CrudeSteel", 
+	"CrystallineAlloy", 
+	"MelodicAlloy", 
+	"StellarAlloy", 
+	"CrystallinePinkSlime", 
+	"EnergeticSilver", 
+	"ElectricalSteel", 
+	"EnergeticAlloy", 
+	"VibrantAlloy", 
+	"RedstoneAlloy", 
+	"ConductiveIron", 
+	"PulsatingIron", 
+	"DarkSteel", 
+	"Soularium", 
+	"EndSteel", 
+	"ConstructionAlloy", 
+	"BlackIron", 
+	"Crystaltine", 
+	"NetherStar", 
+	"Uranium", 
+	"MeatRaw", 
+	"Amber", 
+	"Amethyst", 
+	"Apatite", 
+	"Aquamarine", 
+	"AstralStarmetal", 
+	"Boron", 
+	"CertusQuartz", 
+	"ChargedCertusQuartz", 
+	"Coal", 
+	"DimensionalShard", 
+	"Garnet", 
+	"Lapis", 
+	"Lithium", 
+	"Magnesium", 
+	"Opal", 
+	"Peridot", 
+	"QuartzBlack", 
+	"Ruby", 
+	"Sapphire", 
+	"Thorium", 
+	"Yellorium", 
+	"RefinedObsidian", 
+	"Osmium", 
+	"RefinedGlowstone", 
+	"Gold", 
+	"Iron", 
+	"Insanium", 
+	"BaseEssence", 
+	"Inferium", 
+	"Prudentium", 
+	"Intermedium", 
+	"Superium", 
+	"Supremium", 
+	"Thundersteel", 
+	"Boron10", 
+	"Boron11", 
+	"Lithium6", 
+	"Lithium7", 
+	"Alkimium", 
+	"Alumite", 
+	"Mirion", 
+	"Osgloglas", 
+	"Osmiridium", 
+	"Brass", 
+	"Chrome", 
+	"Titanium", 
+	"Tungsten", 
+	"HotTungstensteel", 
+	"Tungstensteel", 
+	"Zinc", 
+	"RefinedIron", 
+	"Quicksilver", 
+	"Thaumium", 
+	"Void", 
+	"Quartz", 
+	"Adaminite", 
+	"Mithminite", 
+	"Mithrillium", 
+	"Thauminite", 
+	"Light", 
+	"Shade", 
+	"Diamond", 
+	"Emerald", 
+	"Copper", 
+	"Tin", 
+	"Silver", 
+	"Lead", 
+	"Aluminium", 
+	"Nickel", 
+	"Platinum", 
+	"Iridium", 
+	"Mithril", 
+	"Constantan", 
+	"Bronze", 
+	"Electrum", 
+	"Invar", 
+	"Signalum", 
+	"Lumium", 
+	"Enderium", 
+	"Cobalt", 
+	"Ardite", 
+	"Manyullyn", 
+	"Knightslime", 
+	"Pigiron", 
+	"AluBrass"
+	
+] as string[];
+global hashNugget as IOreDictEntry[string];
+for nugget in stringNugget{
+	hashNugget[nugget] = oreDict["nugget" ~ nugget];
+}
+hashNugget["MeatRaw"].add(<industrialmeat:raw_meat_nugget>);
+recipes.replaceAllOccurences(IIngredient <industrialmeat:raw_meat_nugget>, hashNugget["MeatRaw"];
+
+hashNugget|"Light"].add(<tg:nugget_light>);
+recipes.replaceAllOccurences(<tg:nugget_light>, hashNugget["Light"]);
+
+hashNugget|"Shade"].add(<tg:nugget_shade>);
+recipes.replaceAllOccurences(<tg:nugget_shade>, hashNugget["Shade"]);
+
 /*Blocks*/
+
+val stringBlock = [
+	
+	"Restonia", 
+	"Palis", 
+	"Diamantine", 
+	"Void", 
+	"Emeradic", 
+	"Enori", 
+	"RestoniaEmpowered", 
+	"PalisEmpowered", 
+	"DiamantineEmpowered", 
+	"VoidEmpowered", 
+	"EmeradicEmpowered", 
+	"EnoriEmpowered", 
+	"QuartzBlack", 
+	"EnderPearl", 
+	"CosmicNeutronium", 
+	"Infinity", 
+	"CrystalMatrix", 
+	"Amethyst",
+	"ColdIron", 
+	"Garnet", 
+	"Opal", 
+	"Salt", 
+	"BloodInfusedIron", 
+	"Manasteel", 
+	"Terrasteel", 
+	"ElvenElementium", 
+	"DiamondMana", 
+	"Dragonstone", 
+	"Pearl", 
+	"GlitchInfused", 
+	"Resonating", 
+	"DraconiumAwakened", 
+	"Draconium", 
+	"DraconiumCharged", 
+	"Dawnstone", 
+	"ElectricalSteel", 
+	"EnergeticAlloy", 
+	"VibrantAlloy", 
+	"RedstoneAlloy", 
+	"ConductiveIron", 
+	"PulsatingIron", 
+	"DarkSteel", 
+	"Soularium", 
+	"EndSteel", 
+	"ConstructionAlloy", 
+	"CrudeSteel", 
+	"CrystallineAlloy", 
+	"MelodicAlloy", 
+	"StellarAlloy", 
+	"CrystallinePinkSlime", 
+	"EnergeticSilver", 
+	"Aethium", 
+	"Erodium", 
+	"Ionite", 
+	"Kyronite", 
+	"Litherite", 
+	"Lonsdaleite", 
+	"Pladium", 
+	"BlackIron", 
+	"Luminessence", 
+	"NetherStar", 
+	"Crystaltine",
+	"Ultimate", 
+	"Ender", 
+	"EnderStar", 
+	"EnderEnhanced", 
+	"Orichalcos", 
+	"Photonium", 
+	"Shadowium", 
+	"Blutonium", 
+	"Cyanite", 
+	"Ludicrite", 
+	"Yellorium", 
+	"Apatite", 
+	"MeatCooked", 
+	"MeatRaw", 
+	"Amber", 
+	"Aquamarine", 
+	"AstralStarmetal",
+	"Bauxite", 
+	"CertusQuartz", 
+	"ChargedCertusQuartz", 
+	"Cinnabar", 
+	"DimensionalShard", 
+	"Galena", 
+	"Pyrite", 
+	"Sodalite", 
+	"Sphalerite", 
+	"Osmium", 
+	"RefinedObsidian", 
+	"RefinedGlowstone", 
+	"Bone", 
+	"Clay", 
+	"Coal", 
+	"Diamond", 
+	"Emerald", 
+	"Glass", 
+	"Glowstone", 
+	"Gold", 
+	"Ice", 
+	"Iron", 
+	"Lapis", 
+	"Magma",
+	"Mossy", 
+	"NetherWart", 
+	"PackedIce", 
+	"Prismarine", 
+	"Quartz", 
+	"Redstone", 
+	"Slime", 
+	"Wool", 
+	"InsaniumEssence", 
+	"Insanium", 
+	"InsaniumCoal", 
+	"InferiumCoal", 
+	"PrudentiumCoal",
+	"IntermediumCoal", 
+	"SuperiumCoal", 
+	"SupremiumCoal",
+	"BaseEssence", 
+	"Inferium", 
+	"Prudentium", 
+	"Intermedium", 
+	"Superium", 
+	"Supremium", 
+	"Soulium", 
+	"InferiumEssence", 
+	"PrudentiumEssence", 
+	"IntermediumEssence", 
+	"SuperiumEssence", 
+	"SupremiumEssence", 
+	"Prosperity", 
+	"Thundersteel", 
+	"Thorium", 
+	"Uranium", 
+	"Boron", 
+	"Lithium", 
+	"Magnesium", 
+	"Graphite", 
+	"Beryllium", 
+	"Zirconium", 
+	"Manganese", 
+	"Alkimium", 
+	"Alumite", 
+	"Mirion", 
+	"Osgloglas", 
+	"Osmiridium", 
+	"IronCompressed", 
+	"PsiDust", 
+	"PsiMetal", 
+	"PsiGem", 
+	"EbonyPsi", 
+	"IvoryPsi"
+	
+] as string[];
+global hashBlock as IOreDictEntry[string];
+for block in stringBlock{
+	hashBlock[block] = oreDict["block" ~ block);
+}
+hashBlock["Restonia"].add(<actuallyadditions:block_crystal>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal>, hashBlock["Restonia"]);
+
+hashBlock["Palis"].add(<actuallyadditions:block_crystal:1>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:1>, hashBlock["Palis"]);
+
+hashBlock["Diamantine"].add(<actuallyadditions:block_crystal:2>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:2>, hashBlock["Diamantine"]);
+
+hashBlock["Void"].add(<actuallyadditions:block_crystal:3>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:3>, hashBlock["Void"]);
+
+hashBlock["Emeradic"].add(<actuallyadditions:block_crystal:4>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:4>, hashBlock["Emeradic"]);
+
+hashBlock["Enori"].add(<actuallyadditions:block_crystal:5>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:5>, hashBlock["Enori"]);
+
+hashBlock["RestoniaEmpowered"].add(<actuallyadditions:block_crystal_empowered>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered>, hashBlock["RestoniaEmpowered"]);
+
+hashBlock["PalisEmpowered"].add(<actuallyadditions:block_crystal_empowered:1>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:1>, hashBlock["PalisEmpowered"]);
+
+hashBlock["DiamantineEmpowered"].add(<actuallyadditions:block_crystal_empowered:2>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:2>, hashBlock["DiamantineEmpowered"]);
+
+hashBlock["VoidEmpowered"].add(<actuallyadditions:block_crystal_empowered:3>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:3>, hashBlock["VoidEmpowered"]);
+
+hashBlock["EmeradicEmpowered"].add(<actuallyadditions:block_crystal_empowered:4>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:4>, hashBlock["EmeradicEmpowered"]);
+
+hashBlock["EnoriEmpowered"].add(<actuallyadditions:block_crystal_empowered:5>);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:5>, hashBlock["EnoriEmpowered"]);
+
+hashBlock["EnderPearl"].add(<actuallyadditions:block_misc:6>);
+recipes.replaceAllOccurences(<actuallyadditions:block_misc:6>, hashBlock["EnderPearl"]);
+
+hashBlock["BloodInfusedIron"].add(<bloodarsenal:blood_infused_iron_block>);
+recipes.replaceAllOccurences(<bloodarsenal:blood_infused_iron_block>, hashBlock["BloodInfusedIron"]);
+
+hashBlock["DiamondMana"].add(<botania:storage:3>);
+recipes.replaceAllOccurences(<botania:storage:3>, hashBlock["DiamondMana"]);
+
+hashBlock["Dragonstone"].add(<botania:storage:4>);
+recipes.replaceAllOccurences(<botania:storage:4>, hashBlock["Dragonstone"]);
+
+hashBlock["LapisElven"].add(<botanicadds:elven_lapis_block>);
+recipes.replaceAllOccurences(<botanicadds:elven_lapis_block>, hashBlock["LapisElven"]);
+
+hashBlock["LapisMana"].add(<botanicadds:mana_lapis_block>);
+recipes.replaceAllOccurences(<botanicadds:mana_lapis_block>, hashBlock["LapisMana"]);
+
+hashBlock["GlitchInfused"].add(<deepmoblearning:infused_ingot_block>);
+recipes.replaceAllOccurences(<deepmoblearning:infused_ingot_block>, hashBlock["GlitchInfused"]);
+
+hashBlock["Resonating"].add(<deepresonance:resonating_block>);
+recipes.replaceAllOccurences(<deepresonance:resonating_block>, hashBlock["Resonating"]);
+
+hashBlock["DraconiumCharged"].add(<draconicevolution:draconium_block:1>);
+recipes.replaceAllOccurences(<draconicevolution:draconium_block:1>, hashBlock["DraconiumCharged"]);
+
+hashBlock["Ender"].add(<extendedcrafting:storage:5>);
+recipes.replaceAllOccurences(<extendedcrafting:storage:5>, hashBlock["Ender"]);
+
+hashBlock["EnderStar"].add(<extendedcrafting:storage:6>);
+recipes.replaceAllOccurences(<extendedcrafting:storage:6>, hashBlock["EnderStar"]);
+
+hashBlock["EnderEnhanced"].add(<extendedcrafting:storage:7>);
+recipes.replaceAllOccurences(<extendedcrafting:storage:7>, hashBlock["EnderEnhanced"]);
+
+hashBlock["Orichalcos"].add(<extrabotany:blockorichalcos>);
+recipes.replaceAllOccurences(<extrabotany:blockorichalcos>, hashBlock["Orichalcos"]);
+
+hashBlock["Photonium"].add(<extrabotany:blockphotonium>);
+recipes.replaceAllOccurences(<extrabotany:blockphotonium>, hashBlock["Photonium"]);
+
+hashBlock["Shadowium"].add(<extrabotany:blockshadowium>);
+recipes.replaceAllOccurences(<extrabotany:blockshadowium>, hashBlock["Shadowium"]);
+
+hashBlock["MeatCooked"].add(<industrialmeat:cooked_meat_block>);
+recipes.replaceAllOccurences(<industrialmeat:cooked_meat_block>, hashBlock["MeatCooked"];
+
+hashBlock["MeatRaw"].add(<industrialmeat:raw_meat_block>);
+recipes.replaceAllOccurences(<industrialmeat:raw_meat_block>, hashBlock["MeatRaw"];
+
+hashBlock["Alkimium"].add(<planarartifice:alkimium_block>);
+recipes.replaceAllOccurences(oreDict["blockAlchemical"], hashBlock["Alkimium"]);
+recipes.replaceAllOccurences(<planarartifice:alkimium_block>, hashBlock["Alkimium"]);
+
+hashBlock["EbonyPsi"].add(<planarartifice:alkimium_ingot>);
+recipes.replaceAllOccurences(<planarartifice:alkimium_>, hashBlock["EbonyPsi"]);
+
+hashBlock["IvoryPsi"].add(<planarartifice:alkimium_ingot>);
+recipes.replaceAllOccurences(<planarartifice:alkimium_ingot>, hashBlock["IvoryPsi"]);
 
 /*Tiny Dusts*/
 
