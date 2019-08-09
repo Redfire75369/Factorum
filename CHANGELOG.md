@@ -30,6 +30,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 
 ### Changed
 - Scripts: Aliased "Aluminum" to "Aluminium" and replaced according recipes
+- Scripts: Lowercased all scripts to follow 1.11+ conventions
 
 ### Removed
 - Mods: Mekanism JEI Fix
