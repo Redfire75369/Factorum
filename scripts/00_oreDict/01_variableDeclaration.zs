@@ -1201,7 +1201,7 @@ val stringBlock = [
 	"CosmicNeutronium", 
 	"Infinity", 
 	"CrystalMatrix", 
-	"Amethyst",
+	"Amethyst", 
 	"ColdIron", 
 	"Garnet", 
 	"Opal", 
@@ -1245,7 +1245,7 @@ val stringBlock = [
 	"BlackIron", 
 	"Luminessence", 
 	"NetherStar", 
-	"Crystaltine",
+	"Crystaltine", 
 	"Ultimate", 
 	"Ender", 
 	"EnderStar", 
@@ -1262,7 +1262,7 @@ val stringBlock = [
 	"MeatRaw", 
 	"Amber", 
 	"Aquamarine", 
-	"AstralStarmetal",
+	"AstralStarmetal", 
 	"Bauxite", 
 	"CertusQuartz", 
 	"ChargedCertusQuartz", 
@@ -1286,7 +1286,7 @@ val stringBlock = [
 	"Ice", 
 	"Iron", 
 	"Lapis", 
-	"Magma",
+	"Magma", 
 	"Mossy", 
 	"NetherWart", 
 	"PackedIce", 
@@ -1299,10 +1299,10 @@ val stringBlock = [
 	"Insanium", 
 	"InsaniumCoal", 
 	"InferiumCoal", 
-	"PrudentiumCoal",
+	"PrudentiumCoal", 
 	"IntermediumCoal", 
 	"SuperiumCoal", 
-	"SupremiumCoal",
+	"SupremiumCoal", 
 	"BaseEssence", 
 	"Inferium", 
 	"Prudentium", 
@@ -1336,7 +1336,63 @@ val stringBlock = [
 	"PsiMetal", 
 	"PsiGem", 
 	"EbonyPsi", 
-	"IvoryPsi"
+	"IvoryPsi", 
+	"ElectrumFlux", 
+	"CrystalFlux", 
+	"GelidEnderium", 
+	"GelidGem", 
+	"Titanium", 
+	"Chrome", 
+	"Brass", 
+	"Zinc",
+	"Tungsten", 
+	"Tungstensteel", 
+	"Ruby", 
+	"Sapphire", 
+	"Peridot", 
+	"YellowGarnet", 
+	"RedGarnet", 
+	"Thaumium", 
+	"Void", 
+	"Thauminite", 
+	"Adaminite", 
+	"Mithminite", 
+	"Mithrillium", 
+	"SalisMundus", 
+	"Quicksilver", 
+	"GlassHardened", 
+	"Rockwool", 
+	"Copper", 
+	"Tin", 
+	"Silver", 
+	"Lead", 
+	"Aluminium", 
+	"Nickel", 
+	"Platinum", 
+	"Iridium",
+	"Mithril", 
+	"Steel", 
+	"Electrum", 
+	"Invar", 
+	"Bronze", 
+	"Constantan", 
+	"Signalum", 
+	"Lumium", 
+	"Enderium", 
+	"Charcoal", 
+	"BloodBronze", 
+	"Cobalt", 
+	"Ardite", 
+	"Manyullyn", 
+	"Knightslime", 
+	"Pigiron", 
+	"AluBrass", 
+	"Seared", 
+	"SlimeCongealed", 
+	"SlimeDirt", 
+	"SlimeGrass", 
+	"Unstable", 
+	"StygianIron"
 	
 ] as string[];
 global hashBlock as IOreDictEntry[string];
@@ -1439,6 +1495,18 @@ recipes.replaceAllOccurences(<planarartifice:alkimium_>, hashBlock["EbonyPsi"]);
 
 hashBlock["IvoryPsi"].add(<planarartifice:alkimium_ingot>);
 recipes.replaceAllOccurences(<planarartifice:alkimium_ingot>, hashBlock["IvoryPsi"]);
+
+hashBlock|"Light"].add(<tg:block_light>);
+recipes.replaceAllOccurences(<tg:block_light>, hashBlock["Light"]);
+
+hashBlock|"Shade"].add(<tg:block_shade>);
+recipes.replaceAllOccurences(<tg:block_shade>, hashBlock["Shade"]);
+
+hashBlock|"Cobalt"].add(<tconstruct:metal>);
+recipes.replaceAllOccurences(<tconstruct:metal>, hashBlock["Cobalt"]);
+
+hashBlock|"StygianIron"].add(<woot:stygianiron>);
+recipes.replaceAllOccurences(<woot:stygianiron>, hashBlock["StygianIron"]);
 
 /*Tiny Dusts*/
 
