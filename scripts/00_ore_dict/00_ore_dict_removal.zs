@@ -7,7 +7,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 val arrayRemoveDictOre = [
-
+//SILK_SORTING: BEGIN@Ores
     <bewitchment:silver_ore>,
     <cyclicmagic:end_coal_ore>,
     <cyclicmagic:end_diamond_ore>,
@@ -32,27 +32,27 @@ val arrayRemoveDictOre = [
     <embers:ore_tin>,
     <forestry:resources:1>,
     <forestry:resources:2>,
-    <immersiveengineering:ore>,
     <immersiveengineering:ore:1>,
     <immersiveengineering:ore:2>,
     <immersiveengineering:ore:3>,
     <immersiveengineering:ore:4>,
     <immersiveengineering:ore:5>,
+    <immersiveengineering:ore>,
     <mekanism:oreblock:1>,
     <mekanism:oreblock:2>,
     <mysticalworld:amethyst_ore>,
     <mysticalworld:copper_ore>,
     <mysticalworld:silver_ore>,
-    <nuclearcraft:ore>,
     <nuclearcraft:ore:1>,
     <nuclearcraft:ore:2>,
-    <techreborn:ore:1>,
+    <nuclearcraft:ore>,
+    <techreborn:ore2:1>,
+    <techreborn:ore2>,
     <techreborn:ore:12>,
     <techreborn:ore:13>,
-    <techreborn:ore2>,
-    <techreborn:ore2:1>,
+    <techreborn:ore:1>,
     <thaumcraft:ore_cinnabar>
-    
+//SILK_SORTING: END@Ores
 ] as IItemStack[];
 
 val arrayRemoveDictCluster = [
@@ -61,7 +61,7 @@ val arrayRemoveDictCluster = [
 ] as IItemStack[];
 
 val arrayRemoveDictIngot = [
-
+//SILK_SORTING: BEGIN@Ingot
     <bewitchment:silver_ingot>,
     <bigreactors:ingotgraphite>,
     <bigreactors:ingotsteel>,
@@ -78,7 +78,6 @@ val arrayRemoveDictIngot = [
     <forestry:ingot_bronze>,
     <forestry:ingot_copper>,
     <forestry:ingot_tin>,
-    <immersiveengineering:metal>,
     <immersiveengineering:metal:1>,
     <immersiveengineering:metal:2>,
     <immersiveengineering:metal:3>,
@@ -87,24 +86,28 @@ val arrayRemoveDictIngot = [
     <immersiveengineering:metal:6>,
     <immersiveengineering:metal:7>,
     <immersiveengineering:metal:8>,
+    <immersiveengineering:metal>,
     <mekanism:ingot:2>,
     <mekanism:ingot:4>,
     <mekanism:ingot:5>,
     <mekanism:ingot:6>,
     <mysticalworld:copper_ingot>,
     <mysticalworld:silver_ingot>,
-    <nuclearcraft:alloy>,
     <nuclearcraft:alloy:5>,
-    <nuclearcraft:ingot>,
-    <nuclearcraft:ingot:1>,
-    <nuclearcraft:ingot:2>,
+    <nuclearcraft:alloy>,
     <nuclearcraft:ingot:12>,
     <nuclearcraft:ingot:13>,
+    <nuclearcraft:ingot:1>,
+    <nuclearcraft:ingot:2>,
+    <nuclearcraft:ingot>,
     <planarartifice:alkimium_ingot>,
     <plustic:invaringot>,
     <simplyjetpacks:metaitemmods:3>,
     <tcomplement:materials:10>,
-    <techreborn:ingot>,
+    <techreborn:ingot:10>,
+    <techreborn:ingot:11>,
+    <techreborn:ingot:12>,
+    <techreborn:ingot:13>
     <techreborn:ingot:2>,
     <techreborn:ingot:4>,
     <techreborn:ingot:5>,
@@ -112,35 +115,33 @@ val arrayRemoveDictIngot = [
     <techreborn:ingot:7>,
     <techreborn:ingot:8>,
     <techreborn:ingot:9>,
-    <techreborn:ingot:10>,
-    <techreborn:ingot:11>,
-    <techreborn:ingot:12>,
-    <techreborn:ingot:13>
-
+    <techreborn:ingot>,
+//SILK_SORTING: END@Ingot
 ] as IItemStack[];
 
 val arrayRemoveDictGem = [
-
+//SILK_SORTING: BEGIN@Gem
     <cyclicmagic:crystallized_amber>,
     <cyclicmagic:crystallized_obsidian>,
     <thaumcraft:quicksilver>
-    
+//SILK_SORTING: END@Gem
 ] as IItemStack[];
 
 val arrayRemoveDictCrystal = [
+//SILK_SORTING: BEGIN@Crystal
 
-
+//SILK_SORTING: END@Crystal
 ] as IItemStack[];
 
 val arrayRemoveDictDust = [
-    
-    <actuallyadditions:item_dust>,
+//SILK_SORTING: BEGIN@Dust
     <actuallyadditions:item_dust:1>,
     <actuallyadditions:item_dust:2>,
     <actuallyadditions:item_dust:3>,
     <actuallyadditions:item_dust:4>,
     <actuallyadditions:item_dust:5>,
     <actuallyadditions:item_dust:6>,
+    <actuallyadditions:item_dust>,
     <appliedenergistics2:material:3>,
     <appliedenergistics2:material:46>,
     <appliedenergistics2:material:49>,
@@ -152,7 +153,6 @@ val arrayRemoveDictDust = [
     <bloodmagic:component:21>,
     <bloodmagic:component:23>,
     <bloodmagic:component:24>,
-    <extratrees:misc>,
     <enderio:item_material:21>,
     <enderio:item_material:23>,
     <enderio:item_material:24>,
@@ -164,10 +164,10 @@ val arrayRemoveDictDust = [
     <enderio:item_material:31>,
     <enderio:item_material:32>,
     <enderio:item_material:33>,
+    <extratrees:misc>,
     <forestry:ash>,
     <immersiveengineering:material:24>,
     <immersiveengineering:material:25>,
-    <immersiveengineering:metal:9>,
     <immersiveengineering:metal:10>,
     <immersiveengineering:metal:11>,
     <immersiveengineering:metal:12>,
@@ -178,38 +178,38 @@ val arrayRemoveDictDust = [
     <immersiveengineering:metal:17>,
     <immersiveengineering:metal:18>,
     <immersiveengineering:metal:19>,
+    <immersiveengineering:metal:9>,
     <immersivetech:material>,
-    <mekanism:dust>,
     <mekanism:dust:1>,
     <mekanism:dust:3>,
     <mekanism:dust:4>,
     <mekanism:dust:5>,
     <mekanism:dust:6>,
-    <mekanism:otherdust>,
+    <mekanism:dust>,
     <mekanism:otherdust:1>,
     <mekanism:otherdust:2>,
     <mekanism:otherdust:3>,
     <mekanism:otherdust:4>,
     <mekanism:otherdust:6>,
+    <mekanism:otherdust>,
     <mekanism:salt>,
     <mekanism:sawdust>,
     <mysticalworld:copper_dust>,
     <mysticalworld:gold_dust>,
     <mysticalworld:iron_dust>,
     <mysticalworld:silver_dust>,
-    <nuclearcraft:dust>,
+    <nuclearcraft:dust:12>,
+    <nuclearcraft:dust:13>,
     <nuclearcraft:dust:1>,
     <nuclearcraft:dust:2>,
     <nuclearcraft:dust:7>,
-    <nuclearcraft:dust:12>,
-    <nuclearcraft:dust:13>,
-    <nuclearcraft:gem_dust>,
+    <nuclearcraft:dust>,
+    <nuclearcraft:gem_dust:11>,
     <nuclearcraft:gem_dust:2>,
     <nuclearcraft:gem_dust:3>,
     <nuclearcraft:gem_dust:6>,
     <nuclearcraft:gem_dust:7>,
-    <nuclearcraft:gem_dust:11>,
-    <thermalfoundation:material>,
+    <nuclearcraft:gem_dust>,
     <thermalfoundation:material:1>,
     <thermalfoundation:material:64>,
     <thermalfoundation:material:65>,
@@ -219,19 +219,20 @@ val arrayRemoveDictDust = [
     <thermalfoundation:material:69>,
     <thermalfoundation:material:70>,
     <thermalfoundation:material:71>,
-    <thermalfoundation:material:96>,
-    <thermalfoundation:material:97>,
-    <thermalfoundation:material:98>,
-    <thermalfoundation:material:99>,
     <thermalfoundation:material:768>,
     <thermalfoundation:material:769>,
     <thermalfoundation:material:770>,
     <thermalfoundation:material:800>,
-    
+    <thermalfoundation:material:96>,
+    <thermalfoundation:material:97>,
+    <thermalfoundation:material:98>,
+    <thermalfoundation:material:99>,
+    <thermalfoundation:material>,
+//SILK_SORTING: END@Dust
 ] as IItemStack[];
 
 val arrayRemoveDictPlate = [
-
+//SILK_SORTING: BEGIN@Plate
     <embers:plate_aluminum>,
     <embers:plate_bronze>,
     <embers:plate_copper>,
@@ -253,10 +254,8 @@ val arrayRemoveDictPlate = [
     <immersiveengineering:metal:39>,
     <immersiveengineering:metal:40>,
     <planarartifice:alkimium_plate>,
-    <thaumcraft:plate>,
     <thaumcraft:plate:1>,
-    <thermalfoundation:material:32>,
-    <thermalfoundation:material:33>,
+    <thaumcraft:plate>,
     <thermalfoundation:material:320>,
     <thermalfoundation:material:321>,
     <thermalfoundation:material:322>,
@@ -266,50 +265,55 @@ val arrayRemoveDictPlate = [
     <thermalfoundation:material:326>,
     <thermalfoundation:material:327>,
     <thermalfoundation:material:328>,
+    <thermalfoundation:material:32>,
+    <thermalfoundation:material:33>,
     <thermalfoundation:material:352>,
     <thermalfoundation:material:353>,
     <thermalfoundation:material:354>,
     <thermalfoundation:material:355>
-    
+//SILK_SORTING: END@Plate
 ] as IItemStack[];
 
 val arrayRemoveDictPlateDense = [
+//SILK_SORTING: BEGIN@DensePlate
 
-
+//SILK_SORTING: END@DensePlate
 ] as IItemStack[];
 
 val arrayRemoveDictRod = [
+//SILK_SORTING: BEGIN@Rod
     
-    
+//SILK_SORTING: END@Rod
 ] as IItemStack[];
 
 val arrayRemoveDictGear = [
-    
+//SILK_SORTING: BEGIN@Gear
     <appliedenergistics2:material:40>,
-    <enderio:item_material:9>,
     <enderio:item_material:10>,
+    <enderio:item_material:9>,
     <forestry:gear_bronze>,
     <forestry:gear_copper>,
     <forestry:gear_tin>,
     <thermalfoundation:material:22>,
     <thermalfoundation:material:23>,
     <thermalfoundation:material:24>,
-    <thermalfoundation:material:25>,
-    <thermalfoundation:material:26>,
     <thermalfoundation:material:256>,
     <thermalfoundation:material:257>,
     <thermalfoundation:material:258>,
     <thermalfoundation:material:259>,
+    <thermalfoundation:material:25>,
     <thermalfoundation:material:260>,
     <thermalfoundation:material:261>,
+    <thermalfoundation:material:26>,
     <thermalfoundation:material:289>,
     <thermalfoundation:material:291>
-    
+//SILK_SORTING: END@Gear
 ] as IItemStack[];
 
 val arrayRemoveDictNugget = [
-    
-    <agricraft:agri_nugget>,
+//SILK_SORTING: BEGIN@Nugget
+    <agricraft:agri_nugget:10>,
+    <agricraft:agri_nugget:11>,
     <agricraft:agri_nugget:1>,
     <agricraft:agri_nugget:2>,
     <agricraft:agri_nugget:3>,
@@ -319,8 +323,7 @@ val arrayRemoveDictNugget = [
     <agricraft:agri_nugget:7>,
     <agricraft:agri_nugget:8>,
     <agricraft:agri_nugget:9>,
-    <agricraft:agri_nugget:10>,
-    <agricraft:agri_nugget:11>,
+    <agricraft:agri_nugget>,
     <bewitchment:silver_nugget>,
     <embers:nugget_aluminum>,
     <embers:nugget_bronze>,
@@ -342,18 +345,24 @@ val arrayRemoveDictNugget = [
     <immersiveengineering:metal:27>,
     <immersiveengineering:metal:28>,
     <immersiveengineering:metal:29>,
-    <magicbees:orepart>,
     <magicbees:orepart:1>,
     <magicbees:orepart:3>,
     <magicbees:orepart:4>,
     <magicbees:orepart:5>,
+    <magicbees:orepart>,
     <mekanism:nugget:2>,
     <mekanism:nugget:4>,
     <mekanism:nugget:5>,
     <mekanism:nugget:6>,
     <mysticalworld:copper_nugget>,
     <mysticalworld:silver_nugget>,
-    <techreborn:nugget>,
+    <tcomplement:materials:20>
+    <techreborn:nugget:10>,
+    <techreborn:nugget:11>,
+    <techreborn:nugget:12>,
+    <techreborn:nugget:13>,
+    <techreborn:nugget:23>,
+    <techreborn:nugget:24>,
     <techreborn:nugget:2>,
     <techreborn:nugget:4>,
     <techreborn:nugget:5>,
@@ -361,23 +370,17 @@ val arrayRemoveDictNugget = [
     <techreborn:nugget:7>,
     <techreborn:nugget:8>,
     <techreborn:nugget:9>,
-    <techreborn:nugget:10>,
-    <techreborn:nugget:11>,
-    <techreborn:nugget:12>,
-    <techreborn:nugget:13>,
-    <techreborn:nugget:23>,
-    <techreborn:nugget:24>,
-    <thaumcraft:nugget>,
+    <techreborn:nugget>,
     <thaumcraft:nugget:1>,
     <thaumcraft:nugget:2>,
     <thaumcraft:nugget:3>,
     <thaumcraft:nugget:4>,
-    <tcomplement:materials:20>
-    
+    <thaumcraft:nugget>,
+//SILK_SORTING: END@Nugget
 ] as IItemStack[];
 
 val arrayRemoveDictBlock = [
-    
+//SILK_SORTING: BEGIN@Block
     <actuallyadditions:block_misc:5>,
     <bigreactors:blockgraphite>,
     <bigreactors:blocksteel>,
@@ -393,7 +396,6 @@ val arrayRemoveDictBlock = [
     <forestry:resource_storage:1>,
     <forestry:resource_storage:2>,
     <forestry:resource_storage:3>,
-    <immersiveengineering:storage>,
     <immersiveengineering:storage:1>,
     <immersiveengineering:storage:2>,
     <immersiveengineering:storage:3>,
@@ -402,50 +404,52 @@ val arrayRemoveDictBlock = [
     <immersiveengineering:storage:6>,
     <immersiveengineering:storage:7>,
     <immersiveengineering:storage:8>,
+    <immersiveengineering:storage>,
+    <mekanism:basicblock:12>,
+    <mekanism:basicblock:13>,
     <mekanism:basicblock:1>,
     <mekanism:basicblock:3>,
     <mekanism:basicblock:5>,
-    <mekanism:basicblock:12>,
-    <mekanism:basicblock:13>,
     <mekanism:saltblock>,
     <mysticalworld:amethyst_block>,
     <mysticalworld:copper_block>,
     <mysticalworld:silver_block>,
-    <nuclearcraft:ingot_block>,
-    <nuclearcraft:ingot_block:1>,
-    <nuclearcraft:ingot_block:2>
     <nuclearcraft:ingot_block:12>,
     <nuclearcraft:ingot_block:13>,
+    <nuclearcraft:ingot_block:1>,
+    <nuclearcraft:ingot_block:2>
+    <nuclearcraft:ingot_block>,
     <plustic:invarblock>,
-    <techreborn:storage>,
+    <tcomplement:storage:1>,
+    <tcomplement:storage>,
+    <tconstruct:metal>
+    <techreborn:storage2:8>,
+    <techreborn:storage2:9>,
+    <techreborn:storage:11>,
+    <techreborn:storage:12>,
+    <techreborn:storage:13>,
+    <techreborn:storage:14>,
     <techreborn:storage:1>,
     <techreborn:storage:4>,
     <techreborn:storage:6>,
     <techreborn:storage:7>,
     <techreborn:storage:9>,
-    <techreborn:storage:11>,
-    <techreborn:storage:12>,
-    <techreborn:storage:13>,
-    <techreborn:storage:14>,
-    <techreborn:storage2:8>,
-    <techreborn:storage2:9>,
+    <techreborn:storage>,
     <thaumcraft:metal_brass>,
-    <tcomplement:storage>,
-    <tcomplement:storage:1>,
-    <tconstruct:metal>
-    
+//SILK_SORTING: END@Block
 ] as IItemStack[];
 
 val arrayRemoveDictDustTiny = [
-    
+//SILK_SORTING: BEGIN@TinyDust
     <mysticalworld:gold_dust_tiny>,
     <mysticalworld:iron_dust_tiny>
-    
+//SILK_SORTING: END@TinyDust
 ] as IItemStack
 
 val arrayRemoveDictDustSmall = [
-    
-    
+//SILK_SORTING: BEGIN@SmallDust
+
+//SILK_SORTING: END@SmallDust
 ] as IItemStack
 
 for ore in arrayRemoveDictOre {
