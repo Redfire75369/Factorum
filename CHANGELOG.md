@@ -8,27 +8,25 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 ## [Unreleased]
 <!--
   This section is used to track changes to a yet not specified build of the pack.
-  Add all not yet "builded" changes here.
+  Add all not yet "built" changes here.
 -->
-### Added
-- Scripts: Rods entries
-- Scripts: Dust plates entries
-- Scripts: Ore-dict dust entries
-- Scripts: In-game dust entries
-
-## [v0.0.0-pre.1+build.10] - 2019-08-06 **PR**
 ### Added
 - Mods: Advanced Lifting Methods; **version xxx**
 - Mods: Archane Archives; **version xxx**
 - Mods: Artifacts; **version xxx**
+- Mods: Dense Metals; **version xxx**
+- Mods: Document Your Mod Mod; **version xxx**
 - Mods: Incorporeal; **version xxx**
 - Mods: InGame Info XML Addon - Blood Magic; **version xxx**
 - Mods: InGame Info XML Addon - Deep Resonance; **version xxx**
 - Mods: InGame Info XML Addon - Thaumcraft; **version xxx**
+- Mods: In-Game Wiki Mod; **version xxx**
+- Mods: LagGoggles; **version xxx**
+- Mods: MMD OreSpawn; **version xxx**
 - Mods: Reliquary; **version xxx**
 - Mods: Soot; **version xxx**
 - Scripts: Priorities
-- Scripts: Cyclic Magic ores to block list
+- Scripts: Dusts, Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts and Small Dusts Entries
 
 ### Removed
 - Mods: Mekanism JEI Fix
