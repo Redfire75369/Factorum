@@ -87,7 +87,7 @@ val stringOre = [
     "Tungsten",
     "Uranium",
     "Yellorite",
-    "Yellorium"
+    "Yellorium",
 //SILK_SORTING: END@Ores
 ] as string[];
 for ore in stringOre {
@@ -138,7 +138,7 @@ val stringCluster = [
     "Tin",
     "Tungsten",
     "Uranium",
-    "Yellorium"
+    "Yellorium",
 //SILK_SORTING: END@Cluster
 ] as string[];
 
@@ -312,7 +312,7 @@ val stringIngot = [
     "Yellorium",
     "Zinc",
     "Zircaloy",
-    "Zirconium"
+    "Zirconium",
 //SILK_SORTING: END@Ingot
 ] as string[];
 for ingot in stringIngot { 
@@ -411,7 +411,7 @@ val stringGem = [
     "Psi",
     "Quartz",
     "QuartzBlack",
-    "Quicksilver"
+    "Quicksilver",
     "RedGarnet",
     "Rhodocrosite",
     "Ruby",
@@ -499,7 +499,7 @@ val stringCrystal = [
     "Uranium",
     "Void",
     "VoidEmpowered",
-    "Yellorium"
+    "Yellorium",
 //SILK_SORTING: END@Crystal
 ] as string[];
 for crystal in stringCrystal {
@@ -563,7 +563,7 @@ val stringEnderIOCrystal = [
     "PrecientCrystal",
     "PulsatingCrystal",
     "VibrantCrystal",
-    "WeatherCrystal"
+    "WeatherCrystal",
 //SILK_SORTING: END@EnderIOCrystal
 ] as string[];
 for enderIOCrystal in stringEnderIOCrystal {
@@ -577,7 +577,7 @@ val stringClathrate = [
     "Ender",
     "Glowstone",
     "Oil",
-    "Redstone"
+    "Redstone",
 //SILK_SORTING: END@Clathrate
 ] as string[];
 for clathrate in stringClathrate{ 
@@ -722,7 +722,7 @@ val stringDust = [
     "Yellorium",
     "YellowGarnet",
     "Zinc",
-    "Zirconium"
+    "Zirconium",
 //SILK_SORTING: END@Dust
 ] as string[];
 for dust in stringDust {
@@ -845,7 +845,7 @@ val stringPlate = [
     "Silver",
     "Soot",
     "Steel",
-    "StygianIron"
+    "StygianIron",
     "Thauminite",
     "Thaumium",
     "ThaumiumAer",
@@ -928,7 +928,7 @@ val stringPlateDense = [
     "Tin",
     "Tungsten",
     "Uranium",
-    "Yellorium" 
+    "Yellorium",
 //SILK_SORTING: END@DensePlate
 ] as string[];
 for plateDense in stringPlateDense {
@@ -985,7 +985,7 @@ val stringRod = [
     "Tin",
     "Tungsten",
     "Uranium",
-    "Yellorium"
+    "Yellorium",
 //SILK_SORTING: END@Rod
 ] as string[];
 for rod in stringRod {
@@ -1042,7 +1042,7 @@ val stringGear = [
     "ElectrumFlux",
     "ElvenElementium",
     "Emerald",
-    "Enderium"
+    "Enderium",
     "Energized",
     "Garnet",
     "GelidEnderium",
@@ -1116,7 +1116,7 @@ val stringNugget = [
 //SILK_SORTING: BEGIN@Nugget
     "Adaminite",
     "Alkimium",
-    "AluBrass"
+    "AluBrass",
     "Aluminium",
     "Alumite",
     "Amber",
@@ -1434,7 +1434,7 @@ val stringBlock = [
     "Sphalerite",
     "Steel",
     "StellarAlloy",
-    "StygianIron"
+    "StygianIron",
     "Superium",
     "SuperiumCoal",
     "SuperiumEssence",
@@ -1629,7 +1629,7 @@ val stringDustTiny = [
     "Ruby",
     "Salt",
     "Sapphire",
-    "Silver"
+    "Silver",
     "Sodalite",
     "Sphalerite",
     "Thorium",
@@ -1691,7 +1691,7 @@ val stringDustSmall = [
     "Granite",
     "Grossular",
     "Invar",
-    "Iridium"
+    "Iridium",
     "Iron",
     "Lapis",
     "Lazurite",

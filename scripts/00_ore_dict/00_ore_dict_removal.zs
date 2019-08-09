@@ -51,13 +51,14 @@ val arrayRemoveDictOre = [
     <techreborn:ore:12>,
     <techreborn:ore:13>,
     <techreborn:ore:1>,
-    <thaumcraft:ore_cinnabar>
+    <thaumcraft:ore_cinnabar>,
 //SILK_SORTING: END@Ores
 ] as IItemStack[];
 
 val arrayRemoveDictCluster = [
+//SILK_SORTING: BEGIN@Cluster
 
-
+//SILK_SORTING: END@Cluster
 ] as IItemStack[];
 
 val arrayRemoveDictIngot = [
@@ -107,7 +108,7 @@ val arrayRemoveDictIngot = [
     <techreborn:ingot:10>,
     <techreborn:ingot:11>,
     <techreborn:ingot:12>,
-    <techreborn:ingot:13>
+    <techreborn:ingot:13>,
     <techreborn:ingot:2>,
     <techreborn:ingot:4>,
     <techreborn:ingot:5>,
@@ -123,7 +124,7 @@ val arrayRemoveDictGem = [
 //SILK_SORTING: BEGIN@Gem
     <cyclicmagic:crystallized_amber>,
     <cyclicmagic:crystallized_obsidian>,
-    <thaumcraft:quicksilver>
+    <thaumcraft:quicksilver>,
 //SILK_SORTING: END@Gem
 ] as IItemStack[];
 
@@ -270,7 +271,7 @@ val arrayRemoveDictPlate = [
     <thermalfoundation:material:352>,
     <thermalfoundation:material:353>,
     <thermalfoundation:material:354>,
-    <thermalfoundation:material:355>
+    <thermalfoundation:material:355>,
 //SILK_SORTING: END@Plate
 ] as IItemStack[];
 
@@ -306,7 +307,7 @@ val arrayRemoveDictGear = [
     <thermalfoundation:material:261>,
     <thermalfoundation:material:26>,
     <thermalfoundation:material:289>,
-    <thermalfoundation:material:291>
+    <thermalfoundation:material:291>,
 //SILK_SORTING: END@Gear
 ] as IItemStack[];
 
@@ -356,7 +357,7 @@ val arrayRemoveDictNugget = [
     <mekanism:nugget:6>,
     <mysticalworld:copper_nugget>,
     <mysticalworld:silver_nugget>,
-    <tcomplement:materials:20>
+    <tcomplement:materials:20>,
     <techreborn:nugget:10>,
     <techreborn:nugget:11>,
     <techreborn:nugget:12>,
@@ -417,7 +418,7 @@ val arrayRemoveDictBlock = [
     <nuclearcraft:ingot_block:12>,
     <nuclearcraft:ingot_block:13>,
     <nuclearcraft:ingot_block:1>,
-    <nuclearcraft:ingot_block:2>
+    <nuclearcraft:ingot_block:2>,
     <nuclearcraft:ingot_block>,
     <plustic:invarblock>,
     <tcomplement:storage:1>,
@@ -442,7 +443,7 @@ val arrayRemoveDictBlock = [
 val arrayRemoveDictDustTiny = [
 //SILK_SORTING: BEGIN@TinyDust
     <mysticalworld:gold_dust_tiny>,
-    <mysticalworld:iron_dust_tiny>
+    <mysticalworld:iron_dust_tiny>,
 //SILK_SORTING: END@TinyDust
 ] as IItemStack
 
