@@ -52,8 +52,7 @@ val arrayRemoveDictOre = [
 	<techreborn:ore:12>, 
 	<techreborn:ore:13>, 
 	<techreborn:ore2:1>, 
-	<thaumcraft:ore_cinnabar>, 
-	<tconstruct:metal:0>
+	<thaumcraft:ore_cinnabar>
 
 ] as IItemStack[];
 
@@ -159,7 +158,6 @@ val arrayRemoveDictDust = [
 	<enderio:item_material:25>, 
 	<enderio:item_material:26>, 
 	<enderio:item_material:27>, 
-	<enderio:item_material:28>, 
 	<enderio:item_material:29>, 
 	<enderio:item_material:30>, 
 	<enderio:item_material:31>, 
@@ -286,6 +284,171 @@ val arrayRemoveDictRod = [
 	
 ] as IItemStack[];
 
+val arrayRemoveDictGear = [
+	
+	<appliedenergistics2:material:40>, 
+	<enderio:item_material:9>, 
+	<enderio:item_material:10>, 
+	<forestry:gear_bronze>, 
+	<forestry:gear_copper>, 
+	<forestry:gear_tin>, 
+	<thermalfoundation:material:22>, 
+	<thermalfoundation:material:23>, 
+	<thermalfoundation:material:24>, 
+	<thermalfoundation:material:25>, 
+	<thermalfoundation:material:26>, 
+	<thermalfoundation:material:256>, 
+	<thermalfoundation:material:257>, 
+	<thermalfoundation:material:258>, 
+	<thermalfoundation:material:259>, 
+	<thermalfoundation:material:260>, 
+	<thermalfoundation:material:261>, 
+	<thermalfoundation:material:289>, 
+	<thermalfoundation:material:291>
+	
+] as IItemStack[];
+
+val arrayRemoveDictNugget = [
+	
+	<agricraft:agri_nugget>, 
+	<agricraft:agri_nugget:1>, 
+	<agricraft:agri_nugget:2>, 
+	<agricraft:agri_nugget:3>, 
+	<agricraft:agri_nugget:4>, 
+	<agricraft:agri_nugget:5>, 
+	<agricraft:agri_nugget:6>, 
+	<agricraft:agri_nugget:7>, 
+	<agricraft:agri_nugget:8>, 
+	<agricraft:agri_nugget:9>, 
+	<agricraft:agri_nugget:10>, 
+	<agricraft:agri_nugget:11>, 
+	<bewitchment:silver_nugget>, 
+	<embers:nugget_aluminum>, 
+	<embers:nugget_bronze>, 
+	<embers:nugget_copper>, 
+	<embers:nugget_electrum>, 
+	<embers:nugget_lead>, 
+	<embers:nugget_nickel>, 
+	<embers:nugget_silver>, 
+	<embers:nugget_tin>, 
+	<enderio:item_material:28>, 
+	<extendedcrafting:material:128>, 
+	<extendedcrafting:material:129>, 
+	<immersiveengineering:metal:20>, 
+	<immersiveengineering:metal:21>, 
+	<immersiveengineering:metal:22>, 
+	<immersiveengineering:metal:23>, 
+	<immersiveengineering:metal:24>, 
+	<immersiveengineering:metal:26>, 
+	<immersiveengineering:metal:27>, 
+	<immersiveengineering:metal:28>, 
+	<immersiveengineering:metal:29>, 
+	<magicbees:orepart>, 
+	<magicbees:orepart:1>, 
+	<magicbees:orepart:3>, 
+	<magicbees:orepart:4>, 
+	<magicbees:orepart:5>, 
+	<mekanism:nugget:2>, 
+	<mekanism:nugget:4>, 
+	<mekanism:nugget:5>, 
+	<mekanism:nugget:6>, 
+	<mysticalworld:copper_nugget>, 
+	<mysticalworld:silver_nugget>, 
+	<techreborn:nugget>, 
+	<techreborn:nugget:2>, 
+	<techreborn:nugget:4>, 
+	<techreborn:nugget:5>, 
+	<techreborn:nugget:6>, 
+	<techreborn:nugget:7>, 
+	<techreborn:nugget:8>, 
+	<techreborn:nugget:9>, 
+	<techreborn:nugget:10>, 
+	<techreborn:nugget:11>, 
+	<techreborn:nugget:12>, 
+	<techreborn:nugget:13>, 
+	<techreborn:nugget:23>, 
+	<techreborn:nugget:24>, 
+	<thaumcraft:nugget>, 
+	<thaumcraft:nugget:1>, 
+	<thaumcraft:nugget:2>, 
+	<thaumcraft:nugget:3>, 
+	<thaumcraft:nugget:4>, 
+	<tcomplement:materials:20>
+	
+] as IItemStack[];
+
+val arrayRemoveDictBlock = [
+	
+	<actuallyadditions:block_misc:5>,
+	<embrrs:block_aluminum>, 
+	<embers:block_bronze>, 
+	<embers:block_copper>, 
+	<embers:block_electrum>, 
+	<embers:block_lead>, 
+	<embers:block_nickel>, 
+	<embers:block_silver>, 
+	<embers:block_tin>, 
+	<bigreactors:blockgraphite>, 
+	<bigreactors:blocksteel>, 
+	<forestry:charcoal>, 
+	<forestry:resource_storage:1>,
+	<forestry:resource_storage:2>,
+	<forestry:resource_storage:3>,
+	<immersiveengineering:storage>, 
+	<immersiveengineering:storage:1>,
+	<immersiveengineering:storage:2>,
+	<immersiveengineering:storage:3>,
+	<immersiveengineering:storage:4>,
+	<immersiveengineering:storage:5>,
+	<immersiveengineering:storage:6>,
+	<immersiveengineering:storage:7>,
+	<immersiveengineering:storage:8>,
+	<mekanism:basicblock:1>,
+	<mekanism:basicblock:3>,
+	<mekanism:basicblock:5>,
+	<mekanism:basicblock:12>,
+	<mekanism:basicblock:13>,
+	<mekanism:saltblock>, 
+	<mysticalworld:amethyst_block>, 
+	<mysticalworld:copper_block>, 
+	<mysticalworld:silver_block>, 
+	<nuclearcraft:ingot_block>, 
+	<nuclearcraft:ingot_block:1>,
+	<nuclearcraft:ingot_block:2>
+	<nuclearcraft:ingot_block:12>,
+	<nuclearcraft:ingot_block:13>,
+	<plustic:invarblock>, 
+	<techreborn:storage>, 
+	<techreborn:storage:1>,
+	<techreborn:storage:4>,
+	<techreborn:storage:6>,
+	<techreborn:storage:7>,
+	<techreborn:storage:9>,
+	<techreborn:storage:11>,
+	<techreborn:storage:12>,
+	<techreborn:storage:13>,
+	<techreborn:storage:14>,
+	<techreborn:storage2:8>,
+	<techreborn:storage2:9>,
+	<thaumcraft:metal_brass>, 
+	<tcomplement:storage>, 
+	<tcomplement:storage:1>,
+	<tconstruct:metal>
+	
+] as IItemStack[];
+
+val arrayRemoveDictDustTiny = [
+	
+	<mysticalworld:gold_dust_tiny>, 
+	<mysticalworld:iron_dust_tiny>
+	
+] as IItemStack
+
+val arrayRemoveDictDustSmall = [
+	
+	
+] as IItemStack
+
 for ore in arrayRemoveDictOre{
 	for dict in ore.ores{
 		dict.remove(ore);
@@ -329,5 +492,30 @@ for plateDense in arrayRemoveDictPlateDense{
 for rod in arrayRemoveDictRod{
 	for dict in rod.ores{
 		dict.remove(rod);
+	}
+}
+for gear in arrayRemoveDictGear{
+	for dict in gear.ores{
+		dict.remove(gear);
+	}
+}
+for nugget in arrayRemoveDictNugget{
+	for dict in nugget.ores{
+		dict.remove(nugget);
+	}
+}
+for block in arrayRemoveDictBlock{
+	for dict in block.ores{
+		dict.remove(block);
+	}
+}
+for dustTiny in arrayRemoveDictDustTiny{
+	for dict in dustTiny.ores{
+		dict.remove(dustTiny);
+	}
+}
+for dustSmall in arrayRemoveDictDustSmall{
+	for dict in dustSmall.ores{
+		dict.remove(dustSmall);
 	}
 }
