@@ -29,6 +29,47 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Dusts, Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts and Small Dusts Entries
 
 ### Changed
+- Mod: [SBM] Baggable Mobs; version 1.12.2-1.0.0b18
+- Mods: Apotheosis; version 1.12.2-1.10.3
+- Mods: Astral Sorcery; version 1.12.2-1.10.20
+- Mods: Better Questing; version 3.5.308
+- Mods: Bookshelf; version 1.12.2-2.3.587
+- Mods: CC: Tweaked; version 1.12.2-1.84.0
+- Mods: Charset Lib; version 0.5.6.3
+- Mods: CodeChicken Lib; version 1.12.2-3.2.3.357-universal
+- Mods: Cyclic; version 1.12.2-1.19.14
+- Mods: Cyclops Core; version 1.12.2-1.5.0
+- Mods: Draconic Evolution; version 1.12.2-2.3.24.349-universal
+- Mods: Ender IO AE2 Conduits; version 1.12.2-5.0.50
+- Mods: Ender IO Base; version 1.12.2-5.0.50
+- Mods: Ender IO Conduits; version 1.12.2-5.0.50
+- Mods: Ender IO Endergy; version 1.12.2-5.0.50
+- Mods: Ender IO Forestry; version 1.12.2-5.0.50
+- Mods: Ender IO Machines; version 1.12.2-5.0.50
+- Mods: Ender IO OC Conduits; version 1.12.2-5.0.50
+- Mods: Ender IO TiC; version 1.12.2-5.0.50
+- Mods: Ender Storage; version 1.12.2-2.4.6.137-universal
+- Mods: Extended Crafting; version 1.12.2-1.5.5
+- Mods: ExtraBotany; version r1.1-55-fixed
+- Mods: Fission Based Neutron Collector; version 2.0.0
+- Mods: Forestry; version 1.12.2-5.8.2.394
+- Mods: Game Stages; version 1.12.2-2.0.116
+- Mods: Gas Conduits; version 1.12.2-1.2.2
+- Mods: Integrated Dynamics; version 1.12.2-1.0.18
+- Mods: Mekanism; version 1.12.2-9.8.1.383
+- Mods: Mekanism Generators; version 1.12.2-9.8.1.383
+- Mods: Mekanism Tools; version 1.12.2-9.8.1.383
+- Mods: MysticalLib; version 1.12.2-1.3.2
+- Mods: Mystic World; version 1.12.2-1.4.0
+- Mods: OpenScreens; version 1.12.2-1.0.1
+- Mods: OpenSecurity; version MC1.12.2-1.0-35
+- Mods: PneumaticCraft: Repressurized; version 1.12.2-0.11.5-371
+- Mods: RebornCore; version 1.12.2-3.15.5.467-universal
+- Mods: Roots; version 1.12.2-3.0.5
+- Mods: SimpleLogic Gates; version 0.5.6.3
+- Mods: SimpleLogic Wires; version 0.5.6.3
+- Mods: Tech Reborn; version 1.12.2-2.24.1.1017-universal
+- Mods: Thaumic Augmentation; version 1.12.2-1.1.5
 - Scripts: Aliased "Aluminum" to "Aluminium" and replaced according recipes
 - Scripts: Lowercased all scripts to follow 1.11+ conventions
 
