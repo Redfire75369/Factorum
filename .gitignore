@@ -1,3 +1,7 @@
 etc/*.class
 *.jar
+<<<<<<< HEAD
 
+=======
+*.sqlite
+>>>>>>> master

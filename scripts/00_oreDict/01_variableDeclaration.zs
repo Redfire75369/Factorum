@@ -112,7 +112,7 @@ for item in oreDict["oreAluminum"].items {
 recipes.replaceAllOccurences(oreDict["oreAluminum"], hashOre["Aluminium"]);
 
 /***** Clusters *****/
-global hashCluster as IOreDictEntry[string];
+global hashCluster as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringCluster = [
 //SILK_SORTING: BEGIN@Cluster
     "Aluminium",
@@ -153,7 +153,7 @@ for item in oreDict["clusterAluminum"].items {
 recipes.replaceAllOccurences(oreDict["clusterAluminum"], hashCluster["Aluminium"]);
 
 /***** Ingots *****/
-global hashIngot as IOreDictEntry[string];
+global hashIngot as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringIngot = [
 //SILK_SORTING: BEGIN@Ingot
     "Adaminite",
@@ -376,7 +376,7 @@ for item in oreDict["ingotAluminum"].items {
 recipes.replaceAllOccurences(oreDict["ingotAluminum"], hashIngot["Aluminium"]);
 
 /***** Gems *****/
-global hashGem as IOreDictEntry[string];
+global hashGem as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringGem = [
 //SILK_SORTING: BEGIN@Gem
     "Amber",
@@ -445,7 +445,7 @@ recipes.replaceAllOccurences(oreDict["quicksilver"], hashGem["Quicksilver"]);
 recipes.replaceAllOccurences(<thaumcraft:quicksilver>, hashGem["Quicksilver"]);
 
 /***** Crystals *****/
-global hashCrystal as IOreDictEntry[string];
+global hashCrystal as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringCrystal = [
 //SILK_SORTING: BEGIN@Crystal
     "Aethium",
@@ -555,7 +555,7 @@ for item in oreDict["crystalAluminum"].items {
 recipes.replaceAllOccurences(oreDict["crystalAluminum"], hashCrystal["Aluminium"]);
 
 /***** Ender IO Crystals *****/
-global hashEnderIOCrystal as IOreDictEntry[string];
+global hashEnderIOCrystal as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringEnderIOCrystal = [
 //SILK_SORTING: BEGIN@EnderIOCrystal
     "AttractorCrystal",
@@ -571,7 +571,7 @@ for enderIOCrystal in stringEnderIOCrystal {
 }
 
 /***** Clathrates *****/
-global hashClathrate as IOreDictEntry[string];
+global hashClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringClathrate = [
 //SILK_SORTING: BEGIN@Clathrate
     "Ender",
@@ -585,7 +585,7 @@ for clathrate in stringClathrate{
 }
 
 /***** Dusts *****/
-global hashDust as IOreDictEntry[string];
+global hashDust as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringDust = [
 //SILK_SORTING: BEGIN@Dust
     "Aerotheum",
@@ -771,7 +771,7 @@ for item in oreDict["dustAluminum"].items {
 recipes.replaceAllOccurences(oreDict["dustAluminum"], hashDust["Aluminium"]);
 
 /***** Plates *****/
-global hashPlate as IOreDictEntry[string];
+global hashPlate as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringPlate = [
 //SILK_SORTING: BEGIN@Plate
     "Adaminite",
@@ -866,7 +866,7 @@ val stringPlate = [
     "YellowGarnet",
 //SILK_SORTING: END@Plate
 ] as string[];
-for plate in stringPlate{
+for plate in stringPlate {
     hashPlate[plate] = oreDict["plate" ~ plate];
 }
 
@@ -886,7 +886,7 @@ for item in oreDict["plateAluminum"].items {
 }
 
 /***** Dense Plates *****/
-global hashPlateDense as IOreDictEntry[string];
+global hashPlateDense as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringPlateDense = [
 //SILK_SORTING: BEGIN@DensePlate
     "Aluminium",
@@ -942,7 +942,7 @@ for item in oreDict["plateDenseAluminum"].items {
 recipes.replaceAllOccurences(oreDict["plateDenseAluminum"], hashPlateDense["Aluminium"]);
 
 /***** Rods *****/
-global hashRod as IOreDictEntry[string];
+global hashRod as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringRod = [
 //SILK_SORTING: BEGIN@Rod
     "Aluminium",
@@ -1011,7 +1011,7 @@ for item in oreDict["rodAluminum"].items {
 recipes.replaceAllOccurences(oreDict["rodAluminum"], hashRod["Aluminium"]);
 
 /***** Gears *****/
-global hashGear as IOreDictEntry[string];
+global hashGear as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringGear = [
 //SILK_SORTING: BEGIN@Gear
     "Aluminium",
@@ -1111,7 +1111,7 @@ for item in oreDict["gearAluminum"].items {
 recipes.replaceAllOccurences(oreDict["gearAluminum"], hashGear["Aluminium"]);
 
 /***** Nuggets *****/
-global hashNugget as IOreDictEntry[string];
+global hashNugget as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringNugget = [
 //SILK_SORTING: BEGIN@Nugget
     "Adaminite",
@@ -1230,7 +1230,7 @@ val stringNugget = [
     "Zinc",
 //SILK_SORTING: END@Nugget
 ] as string[];
-for nugget in stringNugget{
+for nugget in stringNugget {
     hashNugget[nugget] = oreDict["nugget" ~ nugget];
 }
 hashNugget["MeatRaw"].add(<industrialmeat:raw_meat_nugget>);
@@ -1248,7 +1248,7 @@ for item in oreDict["nuggetAluminum"].items {
 recipes.replaceAllOccurences(oreDict["nuggetAluminum"], hashNugget["Aluminium"]);
 
 /***** Blocks *****/
-global hashBlock as IOreDictEntry[string];
+global hashBlock as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringBlock = [
 //SILK_SORTING: BEGIN@Block
     "Adaminite",
@@ -1464,7 +1464,7 @@ val stringBlock = [
     "Zirconium",
 //SILK_SORTING: END@Block
 ] as string[];
-for block in stringBlock{
+for block in stringBlock {
     hashBlock[block] = oreDict["block" ~ block);
 }
 hashBlock["Restonia"].add(<actuallyadditions:block_crystal>);
@@ -1585,7 +1585,7 @@ for item in oreDict["blockAluminum"].items {
 recipes.replaceAllOccurences(oreDict["blockAluminum"], hashBlock["Aluminium"]);
 
 /***** Tiny Dusts *****/
-global hashDustTiny as IOreDictEntry[string];
+global hashDustTiny as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringDustTiny = [
 //SILK_SORTING: BEGIN@TinyDust
     "Aluminium",
@@ -1649,7 +1649,7 @@ for item in oreDict["dustTinyAluminum"].items {
 recipes.replaceAllOccurences(oreDict["dustTinyAluminum"], hashDustTiny["Aluminium"]);
 
 /***** Small Dusts *****/
-global hashDustSmall as IOreDictEntry[string];
+global hashDustSmall as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringDustSmall = [
 //SILK_SORTING: BEGIN@SmallDust
     "Almandine",
@@ -1745,7 +1745,7 @@ for item in oreDict["dustSmallAluminum"].items {
 recipes.replaceAllOccurences(oreDict["dustSmallAluminum"], hashDustSmall["Aluminium"]);
 
 /***** Dirty Dusts *****/
-global hashDustDirty as IOreDictEntry[string];
+global hashDustDirty as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringDustDirty = [
 //SILK_SORTING: BEGIN@DirtyDust
     
@@ -1756,7 +1756,7 @@ for dustDirty in stringDustDirty {
 }
 
 /***** Clumps *****/
-global hashClump as IOreDictEntry[string];
+global hashClump as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringClump = [
 //SILK_SORTING: BEGIN@Clump
     
@@ -1767,7 +1767,7 @@ for clump in stringClump {
 }
 
 /***** Shards *****/
-global hashShard as IOreDictEntry[string];
+global hashShard as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringShard = [
 //SILK_SORTING: BEGIN@Shard
     
