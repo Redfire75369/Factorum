@@ -93,6 +93,7 @@ val stringOre = [
 for ore in stringOre {
     localOre[ore] = oreDict["ore" ~ ore];
 }
+global hashOre = localOre as IOreDictEntry[string];
 
 hashOre["CertusQuartz"].remove(<appliedenergistics2:charged_quartz_ore>);
 
@@ -145,6 +146,7 @@ val stringCluster = [
 for cluster in stringCluster {
     localCluster[cluster] = oreDict["cluster" ~ cluster];
 }
+global hashCluster = localCluster as IOreDictEntry[string];
 
 // Add compatibility layer for mods that spell Aluminium as Aluminum
 for item in oreDict["clusterAluminum"].items {
@@ -318,6 +320,7 @@ val stringIngot = [
 for ingot in stringIngot { 
     localIngot[ingot] = oreDict["ingot" ~ ingot];
 }
+global hashIngot = localIngot as IOreDictEntry[string];
 
 hashIngot["Gaia"].add(<botania:manaresource:14>);
 recipes.replaceAllOccurences(oreDict["gaiaIngot"], hashIngot["Gaia"]);
@@ -423,6 +426,7 @@ val stringGem = [
 for gem in stringGem {
     localGem[gem] = oreDict["gem" ~ gem];
 }
+global hashGem = localGem as IOreDictEntry[string];
 
 hashGem["DiamondMana"].add(<botania:manaresource:2>);
 recipes.replaceAllOccurences(<botania:manaresource:2>, hashGem["DiamondMana"]);
@@ -505,6 +509,7 @@ val stringCrystal = [
 for crystal in stringCrystal {
     localCrystal[crystal] = oreDict["crystal" ~ crystal];
 }
+global hashCrystal = localCrystal as IOreDictEntry[string];
 
 hashCrystal["Restonia"].add(<actuallyadditions:item_crystal>);
 recipes.replaceAllOccurences(<actuallyadditions:item_crystal>, hashCrystal["Restonia"]);
@@ -569,6 +574,7 @@ val stringEnderIOCrystal = [
 for enderIOCrystal in stringEnderIOCrystal {
     localEnderIOCrystal[enderIOCrystal] = oreDict["item" ~ enderIOCrystal];
 }
+global hashEnderIOCrystal = localEnderIOCrystal as IOreDictEntry[string];
 
 /***** Clathrates *****/
 var localClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
@@ -728,6 +734,7 @@ val stringDust = [
 for dust in stringDust {
     localDust[dust] = oreDict["dust" ~ dust];
 }
+global hashDust = localDust as IOreDictEntry[string];
 
 hashDust["Wither"].add(<darkutils:material>);
 recipes.replaceAllOccurences(<darkutils:material>, hashDust["Wither"]);
@@ -869,6 +876,7 @@ val stringPlate = [
 for plate in stringPlate {
     localPlate[plate] = oreDict["plate" ~ plate];
 }
+global hashPlate = localPlate as IOreDictEntry[string];
 
 hashPlate["Resonating"].add(<deepresonance:resonating_plate>);
 recipes.replaceAllOccurences(<deepresonance:resonating_plate>, hashPlate["Resonating"]);
@@ -934,6 +942,7 @@ val stringPlateDense = [
 for plateDense in stringPlateDense {
     localPlateDense[plateDense] = oreDict["plateDense" ~ plate];
 }
+global hashPlateDense = localPlateDense as IOreDictEntry[string];
 
 // Aluminium Fix
 for item in oreDict["plateDenseAluminum"].items {
@@ -991,6 +1000,7 @@ val stringRod = [
 for rod in stringRod {
     localRod[rod] = oreDict["plateDense" ~ rod];
 }
+global hashRod = localRod as IOreDictEntry[string];
 
 hashRod["Iron"].add(<immersiveengineering:material:1>);
 recipes.replaceAllOccurences(ore["stickIron"],hashRod["Iron"]);
@@ -1092,6 +1102,7 @@ val stringGear = [
 for gear in stringGear{
     localGear[gear] = oreDict["gear" ~ gear];
 }
+global hashGear = localGear as IOreDictEntry[string];
 
 hashGear["Scented"].add(<extrabees:misc>);
 recipes.replaceAllOccurences(<extrabees:misc>, hashGear["Scented"]);
@@ -1233,6 +1244,8 @@ val stringNugget = [
 for nugget in stringNugget {
     localNugget[nugget] = oreDict["nugget" ~ nugget];
 }
+global hashNugget = localNugget as IOreDictEntry[string];
+
 hashNugget["MeatRaw"].add(<industrialmeat:raw_meat_nugget>);
 recipes.replaceAllOccurences(<industrialmeat:raw_meat_nugget>, hashNugget["MeatRaw"];
 
@@ -1467,6 +1480,8 @@ val stringBlock = [
 for block in stringBlock {
     localBlock[block] = oreDict["block" ~ block);
 }
+global hashBlock = localBlock as IOreDictEntry[string];
+
 hashBlock["Restonia"].add(<actuallyadditions:block_crystal>);
 recipes.replaceAllOccurences(<actuallyadditions:block_crystal>, hashBlock["Restonia"]);
 
@@ -1642,6 +1657,7 @@ val stringDustTiny = [
 for dustTiny in stringDustTiny {
     localDustTiny[dustTiny] = oreDict["dustTiny" ~ dustTiny);
 }
+global hashDustTiny = localDustTiny as IOreDictEntry[string];
 
 for item in oreDict["dustTinyAluminum"].items {
     localDustTiny["Aluminium"].add(item);
@@ -1738,6 +1754,7 @@ val stringDustSmall = [
 for dustSmall in stringDustSmall {
     localDustSmall[dustSmall] = oreDict["dustSmall" ~ dustSmall);
 }
+global hashDustSmall = localDustSmall as IOreDictEntry[string];
 
 for item in oreDict["dustSmallAluminum"].items {
     localDustSmall["Aluminium"].add(item);
@@ -1754,6 +1771,7 @@ val stringDustDirty = [
 for dustDirty in stringDustDirty {
     localDustDirty[dustDirty] = oreDict["dustDirty" ~ dustDirty];
 }
+global hashDustDirty = localDustDirty as IOreDictEntry[string];
 
 /***** Clumps *****/
 var localClump as IOreDictEntry[string] = {} as IOreDictEntry[string];
@@ -1765,6 +1783,7 @@ val stringClump = [
 for clump in stringClump {
     localClump[clump] = oreDict["clump" ~ clump];
 }
+global hashClump = localClump as IOreDictEntry[string];
 
 /***** Shards *****/
 var localShard as IOreDictEntry[string] = {} as IOreDictEntry[string];
@@ -1776,4 +1795,4 @@ val stringShard = [
 for shard in stringShard {
     localShard[shard] = oreDict["shard" ~ shard];
 }
-
+global hashShard = localShard as IOreDictEntry[string];
