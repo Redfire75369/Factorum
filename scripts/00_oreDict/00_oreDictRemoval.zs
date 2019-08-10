@@ -7,7 +7,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 val arrayRemoveDictOre = [
-//SILK_SORTING: BEGIN@Ores
+
     <bewitchment:silver_ore>,
     <cyclicmagic:end_coal_ore>,
     <cyclicmagic:end_diamond_ore>,
@@ -52,17 +52,17 @@ val arrayRemoveDictOre = [
     <techreborn:ore:12>,
     <techreborn:ore:13>,
     <thaumcraft:ore_cinnabar>
-//SILK_SORTING: END@Ores
+
 ] as IItemStack[];
 
 val arrayRemoveDictCluster = [
-//SILK_SORTING: BEGIN@Cluster
 
-//SILK_SORTING: END@Cluster
+
+
 ] as IItemStack[];
 
 val arrayRemoveDictIngot = [
-//SILK_SORTING: BEGIN@Ingot
+
     <bewitchment:silver_ingot>,
     <bigreactors:ingotgraphite>,
     <bigreactors:ingotsteel>,
@@ -117,25 +117,25 @@ val arrayRemoveDictIngot = [
     <techreborn:ingot:12>,
     <techreborn:ingot:13>,
     <techreborn:ingot>
-//SILK_SORTING: END@Ingot
+
 ] as IItemStack[];
 
 val arrayRemoveDictGem = [
-//SILK_SORTING: BEGIN@Gem
+
     <cyclicmagic:crystallized_amber>,
     <cyclicmagic:crystallized_obsidian>,
     <thaumcraft:quicksilver>
-//SILK_SORTING: END@Gem
+
 ] as IItemStack[];
 
 val arrayRemoveDictCrystal = [
-//SILK_SORTING: BEGIN@Crystal
 
-//SILK_SORTING: END@Crystal
+
+
 ] as IItemStack[];
 
 val arrayRemoveDictDust = [
-//SILK_SORTING: BEGIN@Dust
+
     <actuallyadditions:item_dust>,
     <actuallyadditions:item_dust:1>,
     <actuallyadditions:item_dust:2>,
@@ -229,11 +229,11 @@ val arrayRemoveDictDust = [
     <thermalfoundation:material:769>,
     <thermalfoundation:material:770>,
     <thermalfoundation:material:800>
-//SILK_SORTING: END@Dust
+
 ] as IItemStack[];
 
 val arrayRemoveDictPlate = [
-//SILK_SORTING: BEGIN@Plate
+
     <embers:plate_aluminum>,
     <embers:plate_bronze>,
     <embers:plate_copper>,
@@ -272,23 +272,23 @@ val arrayRemoveDictPlate = [
     <thermalfoundation:material:353>,
     <thermalfoundation:material:354>,
     <thermalfoundation:material:355>
-//SILK_SORTING: END@Plate
+
 ] as IItemStack[];
 
 val arrayRemoveDictPlateDense = [
-//SILK_SORTING: BEGIN@DensePlate
 
-//SILK_SORTING: END@DensePlate
+
+
 ] as IItemStack[];
 
 val arrayRemoveDictRod = [
-//SILK_SORTING: BEGIN@Rod
+
     
-//SILK_SORTING: END@Rod
+
 ] as IItemStack[];
 
 val arrayRemoveDictGear = [
-//SILK_SORTING: BEGIN@Gear
+
     <appliedenergistics2:material:40>,
     <enderio:item_material:9>,
     <enderio:item_material:10>,
@@ -308,11 +308,11 @@ val arrayRemoveDictGear = [
     <thermalfoundation:material:261>,
     <thermalfoundation:material:289>,
     <thermalfoundation:material:291>
-//SILK_SORTING: END@Gear
+
 ] as IItemStack[];
 
 val arrayRemoveDictNugget = [
-//SILK_SORTING: BEGIN@Nugget
+
     <agricraft:agri_nugget>,
     <agricraft:agri_nugget:1>,
     <agricraft:agri_nugget:2>,
@@ -377,11 +377,11 @@ val arrayRemoveDictNugget = [
     <thaumcraft:nugget:2>,
     <thaumcraft:nugget:3>,
     <thaumcraft:nugget:4>
-//SILK_SORTING: END@Nugget
+
 ] as IItemStack[];
 
 val arrayRemoveDictBlock = [
-//SILK_SORTING: BEGIN@Block
+
     <actuallyadditions:block_misc:5>,
     <bigreactors:blockgraphite>,
     <bigreactors:blocksteel>,
@@ -437,20 +437,20 @@ val arrayRemoveDictBlock = [
     <techreborn:storage:13>,
     <techreborn:storage:14>,
     <thaumcraft:metal_brass>
-//SILK_SORTING: END@Block
+
 ] as IItemStack[];
 
 val arrayRemoveDictDustTiny = [
-//SILK_SORTING: BEGIN@TinyDust
+
     <mysticalworld:gold_dust_tiny>,
     <mysticalworld:iron_dust_tiny>,
-//SILK_SORTING: END@TinyDust
+
 ] as IItemStack
 
 val arrayRemoveDictDustSmall = [
-//SILK_SORTING: BEGIN@SmallDust
 
-//SILK_SORTING: END@SmallDust
+
+
 ] as IItemStack
 
 for ore in arrayRemoveDictOre {
@@ -458,11 +458,11 @@ for ore in arrayRemoveDictOre {
         dict.remove(ore);
     }
 }
-for cluster in arrayRemoveDictCluster {
+/*for cluster in arrayRemoveDictCluster {
     for dict in cluster.ores {
         dict.remove(cluster);
     }
-}
+}*/
 for ingot in arrayRemoveDictIngot {
     for dict in ingot.ores {
         dict.remove(ingot);
@@ -473,11 +473,11 @@ for gem in arrayRemoveDictGem {
         dict.remove(gem);
     }
 }
-for crystal in arrayRemoveCrystal {
+/*for crystal in arrayRemoveCrystal {
     for dict in crystal.ores {
         dict.remove(crystal);
     }
-}
+}*/
 for dust in arrayRemoveDictDust {
     for dict in dust.ores {
         dict.remove(dust);
@@ -488,16 +488,16 @@ for plate in arrayRemoveDictPlate {
         dict.remove(plate);
     }
 }
-for plateDense in arrayRemoveDictPlateDense {
+/*for plateDense in arrayRemoveDictPlateDense {
     for dict in plateDense.ores {
         dict.remove(plateDense);
     }
-}
-for rod in arrayRemoveDictRod {
+}*/
+/*for rod in arrayRemoveDictRod {
     for dict in rod.ores {
         dict.remove(rod);
     }
-}
+}*/
 for gear in arrayRemoveDictGear {
     for dict in gear.ores {
         dict.remove(gear);
