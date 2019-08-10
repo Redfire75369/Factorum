@@ -29,7 +29,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Dusts, Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts and Small Dusts Entries
 
 ### Changed
-- Mods: [SBM] Baggable Mobs; version 1.12.2-1.0.0b18
+- Mod: [SBM] Baggable Mobs; version 1.12.2-1.0.0b18
 - Mods: Apotheosis; version 1.12.2-1.10.3
 - Mods: Astral Sorcery; version 1.12.2-1.10.20
 - Mods: Better Questing; version 3.5.308
