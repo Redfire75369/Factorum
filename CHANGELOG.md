@@ -11,20 +11,20 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ### Added
-- Mods: Advanced Lifting Methods; **version xxx**
-- Mods: Archane Archives; **version xxx**
-- Mods: Artifacts; **version xxx**
-- Mods: Dense Metals; **version xxx**
-- Mods: Document Your Mod Mod; **version xxx**
-- Mods: Incorporeal; **version xxx**
-- Mods: InGame Info XML Addon - Blood Magic; **version xxx**
-- Mods: InGame Info XML Addon - Deep Resonance; **version xxx**
-- Mods: InGame Info XML Addon - Thaumcraft; **version xxx**
-- Mods: In-Game Wiki Mod; **version xxx**
-- Mods: LagGoggles; **version xxx**
-- Mods: MMD OreSpawn; **version xxx**
-- Mods: Reliquary; **version xxx**
-- Mods: Soot; **version xxx**
+- Mods: Advanced Lifting Methods; version 1.12.2-1.0.0
+- Mods: Archane Archives; version 0.2.0.3
+- Mods: Artifacts; version 1.12.2-1.1.0
+- Mods: Dense Metals; version 1.12-1.2.0.21
+- Mods: Document Your Mod Mod; version 1.1.1
+- Mods: Incorporeal; version 1.1.4
+- Mods: InGame Info XML Addon - Blood Magic; version 1.2
+- Mods: InGame Info XML Addon - Deep Resonance; version 1.1
+- Mods: InGame Info XML Addon - Thaumcraft; version 1.0a
+- Mods: In-Game Wiki Mod; version 1.12.2-1.4.4-15-universal
+- Mods: LagGoggles; version FAT-1.12.2-4.8
+- Mods: MMD OreSpawn; version 1.12-3.3.1.172
+- Mods: Reliquary; version 1.12.2-1.3.4.786
+- Mods: Soot; version 1.6
 - Scripts: Priorities
 - Scripts: Dusts, Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts and Small Dusts Entries
 
