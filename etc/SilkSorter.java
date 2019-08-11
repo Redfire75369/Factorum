@@ -9,10 +9,6 @@ public final class SilkSorter implements Runnable {
         int sort(/*@NotNull*/ final String a, /*@NotNull*/ final String b);
     }
     
-    private interface Transformer {
-        /*@NotNull*/ String transform(/*@NotNull*/ final String string, final boolean wasSorted);
-    }
-    
     static class DefaultSorter implements Sorter {
         @Override
         public int sort(/*@NotNull*/ final String a, /*@NotNull*/ final String b) {
@@ -30,7 +26,64 @@ public final class SilkSorter implements Runnable {
         }
     }
     
-    static class NewLineTransfomer implements Transformer {
+    static class BracketItemHandlerSorter implements Sorter {
+        private static final Sorter DEFAULT = new DefaultSorter();
+        @Override
+        public int sort(/*@NotNull*/ final String a, /*@NotNull*/ final String b) {
+            final String[] splitA = this.splitString(a);
+            final String[] splitB = this.splitString(b);
+            if (!((splitA.length == 2 || splitA.length == 3) && (splitB.length == 2 || splitB.length == 3))) {
+                throw new IllegalStateException("banana");
+            }
+            /*mutable*/ int sortCount = 0;
+            sortCount = DEFAULT.sort(splitA[0], splitB[0]);
+            if (sortCount != 0) return sortCount;
+            
+            sortCount = DEFAULT.sort(splitA[1], splitB[1]);
+            if (sortCount != 0) return sortCount;
+            
+            if (splitA.length == 2 && splitB.length == 3) sortCount = DEFAULT.sort("a", "b");
+            else if (splitA.length == 3 && splitB.length == 2) sortCount = DEFAULT.sort("b", "a");
+            else sortCount = 0;
+            if (sortCount != 0) return sortCount;
+            
+            try {
+                final String valA = splitA[2];
+                final String valB = splitB[2];
+                
+                final int numA = Integer.parseInt(valA, 10);
+                final int numB = Integer.parseInt(valB, 10);
+                
+                sortCount = Integer.compare(numA, numB);
+            } catch (final NumberFormatException | ArrayIndexOutOfBoundsException e) {
+                System.err.println(" " + e.getMessage() + " while sorting: no-op");
+                sortCount = 0;
+            }
+            
+            return sortCount;
+        }
+        
+        private /*@NotNull*/ String[] splitString(/*@NotNull*/ final String s) {
+            final String trimmed = s.trim();
+            final String noBrackets = s.replace("<", "").replace(">", "");
+            final String noCommas = noBrackets.replace(",", "");
+            return noCommas.split(":");
+        }
+    }
+    
+    private interface Transformer {
+        /*@NotNull*/ String transform(/*@NotNull*/ final String string, final boolean wasSorted);
+    }
+    
+    static class DefaultTransformer implements Transformer {
+        private static final Transformer DEFAULT = new NewLineTransformer();
+        @Override
+        public /*@NotNull*/ String transform(/*@NotNull*/ final String string, final boolean wasSorted) {
+            return DEFAULT.transform(string, wasSorted);
+        }
+    }
+    
+    static class NewLineTransformer implements Transformer {
         @Override
         public /*@NotNull*/ String transform(/*@NotNull*/ final String string, final boolean wasSorted) {
             return string + "\n";
@@ -134,6 +187,7 @@ public final class SilkSorter implements Runnable {
         }
         
         System.out.println("Beginning operation on file " + file.toPath());
+        System.out.println(" Using sorter " + this.sorter + " with dry run on " + this.dryRun);
         
         /*@Nullable*/ /*mutable*/ SectionHolder holder = null;
         final java.util.List<LineHolder> fileLines = new java.util.ArrayList<>();
@@ -161,6 +215,7 @@ public final class SilkSorter implements Runnable {
                     }
                     fileLines.add(new LineHolder(line.trim(), false));
                     holder = new SectionHolder(sectionName);
+                    System.out.println(" Found section beginning for section " + sectionName);
                 } else if (silkSorterMarker == SorterMarkerFlags.END) {
                     if (holder == null) {
                         System.err.println("Unable to end a section when it hasn't been started.");
@@ -177,6 +232,7 @@ public final class SilkSorter implements Runnable {
                         return;
                     }
                     final java.util.List<String> swallowedLines = new java.util.ArrayList<String>(holder.swallowedLines);
+                    System.out.println(" Found section end for section " + sect + " with " + swallowedLines.size() + " lines");
                     holder = null;
                     this.sortSwallowedLines(swallowedLines);
                     swallowedLines.forEach(it -> fileLines.add(new LineHolder(it, true)));
@@ -190,12 +246,15 @@ public final class SilkSorter implements Runnable {
             e.printStackTrace();
         }
         
-        final java.io.File outputFile = (this.dryRun)? new java.io.File(file.getName() + ".__.sorted") : file;
+        final java.io.File outputFile = (this.dryRun)? new java.io.File(file + ".__.sorted") : file;
         
         if (outputFile.exists() && !outputFile.delete()) {
             System.err.println("Unable to delete file; process aborted");
             return;
         }
+        
+        System.out.println(" Writing file to " + outputFile);
+        System.out.println(" Transforming files with transformers " + this.transformers);
         
         try (final java.io.BufferedWriter writer = java.nio.file.Files.newBufferedWriter(outputFile.toPath(), java.nio.charset.StandardCharsets.UTF_8, java.nio.file.StandardOpenOption.WRITE, java.nio.file.StandardOpenOption.CREATE)) {
             fileLines.forEach(it -> {
