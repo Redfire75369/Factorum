@@ -11,9 +11,9 @@ global sand = <minecraft:sand> as IItemStack;
 /* Assigning a HashMap for each OreDict */
 
 /***** Ores *****/
-var localOre as IOreDictEntry[string];
+global hashOre as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringOre = [
-
+//SILK_SORTING: BEGIN@Ore
     "Aluminium",
     "Amber",
     "Amethyst",
@@ -88,34 +88,33 @@ val stringOre = [
     "Uranium",
     "Yellorite",
     "Yellorium"
-
+//SILK_SORTING: END@Ore
 ] as string[];
 for ore in stringOre {
-    localOre[ore] = oreDict["ore" ~ ore];
+    hashOre[ore] = oreDict["ore" ~ ore];
 }
-global hashOre = localOre as IOreDictEntry[string];
 
 hashOre["CertusQuartz"].remove(<appliedenergistics2:charged_quartz_ore>);
 
 hashOre["Light"].add(<tg:ore_light>);
-recipes.replaceAllOccurences(<tg:ore_light>, hashOre["Light"]);
+recipes.replaceAllOccurences(<tg:ore_light> hashOre["Light"]);
 
 hashOre["Shade"].add(<tg:ore_shade>);
-recipes.replaceAllOccurences(<tg:ore_shade>, hashOre["Shade"]);
+recipes.replaceAllOccurences(<tg:ore_shade> hashOre["Shade"]);
 
 hashOre["StygianIron"].add(<woot:stygianironore>);
-recipes.replaceAllOccurences(<woot:stygianironore>, hashOre["StygianIron"]);
+recipes.replaceAllOccurences(<woot:stygianironore> hashOre["StygianIron"]);
 
 // Add compatibility layer for mods that spell Aluminium as Aluminum
 for item in oreDict["oreAluminum"].items {
     hashOre["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["oreAluminum"], hashOre["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["oreAluminum"] hashOre["Aluminium"]);
 
 /***** Clusters *****/
-var localCluster = {} as IOreDictEntry[string];
+global hashCluster as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringCluster = [
-
+//SILK_SORTING: BEGIN@Cluster
     "Aluminium",
     "Ardite",
     "AstralStarmetal",
@@ -140,24 +139,23 @@ val stringCluster = [
     "Tungsten",
     "Uranium",
     "Yellorium"
-
+//SILK_SORTING: END@Cluster
 ] as string[];
 
 for cluster in stringCluster {
-    localCluster[cluster] = oreDict["cluster" ~ cluster];
+    hash[cluster] = oreDict["cluster" ~ cluster];
 }
-global hashCluster = localCluster as IOreDictEntry[string];
 
 // Add compatibility layer for mods that spell Aluminium as Aluminum
 for item in oreDict["clusterAluminum"].items {
     hashCluster["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["clusterAluminum"], hashCluster["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["clusterAluminum"] hashCluster["Aluminium"]);
 
 /***** Ingots *****/
-var localIngot = {} as IOreDictEntry[string];
+global hashIngot as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringIngot = [
-
+//SILK_SORTING: BEGIN@Ingot
     "Adaminite",
     "AdvancedAlloy",
     "Alkimium",
@@ -315,73 +313,72 @@ val stringIngot = [
     "Zinc",
     "Zircaloy",
     "Zirconium"
-
+//SILK_SORTING: END@Ingot
 ] as string[];
 for ingot in stringIngot { 
-    localIngot[ingot] = oreDict["ingot" ~ ingot];
+    hashIngot[ingot] = oreDict["ingot" ~ ingot];
 }
-global hashIngot = localIngot as IOreDictEntry[string];
 
 hashIngot["Gaia"].add(<botania:manaresource:14>);
-recipes.replaceAllOccurences(oreDict["gaiaIngot"], hashIngot["Gaia"]);
-recipes.replaceAllOccurences(<botania:manaresource:14>, hashIngot["Gaia"]);
+recipes.replaceAllOccurences(oreDict["gaiaIngot"] hashIngot["Gaia"]);
+recipes.replaceAllOccurences(<botania:manaresource:14> hashIngot["Gaia"]);
 
 hashIngot["Gaiasteel"].add(<botanicadds:gaiasteel_ingot>);
-recipes.replaceAllOccurences(<botanicadds:gaiasteel_ingot>, hashIngot["Gaiasteel"]);
+recipes.replaceAllOccurences(<botanicadds:gaiasteel_ingot> hashIngot["Gaiasteel"]);
 
 hashIngot["GlitchInfused"].add(<deepmoblearning:glitch_infused_ingot>);
-recipes.replaceAllOccurences(<deepmoblearning:glitch_infused_ingot>, hashIngot["GlitchInfused"]);
+recipes.replaceAllOccurences(<deepmoblearning:glitch_infused_ingot> hashIngot["GlitchInfused"]);
 
 hashIngot["Ender"].add(<extendedcrafting:material:36>);
-recipes.replaceAllOccurences(<extendedcrafting:material:36>, hashIngot["Ender"]);
+recipes.replaceAllOccurences(<extendedcrafting:material:36> hashIngot["Ender"]);
 
 hashIngot["EnderEnhanced"].add(<extendedcrafting:material:48>);
-recipes.replaceAllOccurences(<extendedcrafting:material:48>, hashIngot["EnderEnhnaced"]);
+recipes.replaceAllOccurences(<extendedcrafting:material:48> hashIngot["EnderEnhnaced"]);
 
 hashIngot["SlimePink"].add(<industrialforegoing:pink_slime_ingot>);
-recipes.replaceAllOccurences(<industrialforegoing:pink_slime_ingot>, hashIngot["SlimePink"]);
+recipes.replaceAllOccurences(<industrialforegoing:pink_slime_ingot> hashIngot["SlimePink"]);
 
 hashIngot["MeatCooked"].add(<industrialmeat:cooked_meat_ingot>);
-recipes.replaceAllOccurences(<industrialmeat:cooked_meat_ingot>, hashIngot["MeatCooked"]);
+recipes.replaceAllOccurences(<industrialmeat:cooked_meat_ingot> hashIngot["MeatCooked"]);
 
 hashIngot["MeatRaw"].add(<industrialmeat:raw_meat_ingot>);
-recipes.replaceAllOccurences(<industrialmeat:raw_meat_ingot>, hashIngot["MeatRaw"]);
+recipes.replaceAllOccurences(<industrialmeat:raw_meat_ingot> hashIngot["MeatRaw"]);
 
 hashIngot["Thundersteel"].remove(<naturalpledge:resource:1>);
 
 hashIngot["Alkimium"].add(<planarartifice:alkimium_ingot>);
-recipes.replaceAllOccurences(oreDict["ingotAlchemical"], hashIngot["Alkimium"]);
-recipes.replaceAllOccurences(<planarartifice:alkimium_ingot>, hashIngot["Alkimium"]);
+recipes.replaceAllOccurences(oreDict["ingotAlchemical"] hashIngot["Alkimium"]);
+recipes.replaceAllOccurences(<planarartifice:alkimium_ingot> hashIngot["Alkimium"]);
 
 hashIngot["Spectre"].add(<randomthings:ingredient:3>);
-recipes.replaceAllOccurences(<randomthings:ingredient:3>, hashIngot["Spectre"]);
+recipes.replaceAllOccurences(<randomthings:ingredient:3> hashIngot["Spectre"]);
 
 hashIngot["DarkSoularium"].add(<simplyjetpacks:metaitemmods:3>);
-recipes.replaceAllOccurences(oreDict["ingot_dark_soularium"], hashIngot["DarkSoularium"]);
-recipes.replaceAllOccurences(<simplyjetpacks:metaitemmods:3>, hashIngot["DarkSoularium"]);
+recipes.replaceAllOccurences(oreDict["ingot_dark_soularium"] hashIngot["DarkSoularium"]);
+recipes.replaceAllOccurences(<simplyjetpacks:metaitemmods:3> hashIngot["DarkSoularium"]);
 
 hashIngot["Livium"].add(<thaumic_arcana:ingot_livium>);
-recipes.replaceAllOccurences(<thaumic_arcana:ingot_livium>, hashIngot["Livium"]);
+recipes.replaceAllOccurences(<thaumic_arcana:ingot_livium> hashIngot["Livium"]);
 
 hashIngot["Light"].add(<tg:ingot_light>);
-recipes.replaceAllOccurences(<tg:ingot_light>, hashIngot["Light"]);
+recipes.replaceAllOccurences(<tg:ingot_light> hashIngot["Light"]);
 
 hashIngot["Shade"].add(<tg:ingot_shade>);
-recipes.replaceAllOccurences(<tg:ingot_shade>, hashIngot["Shade"]);
+recipes.replaceAllOccurences(<tg:ingot_shade> hashIngot["Shade"]);
 
 hashIngot["StygianIron"].add(<woot:stygianironingot>);
-recipes.replaceAllOccurences(<woot:stygianironingot>, hashIngot["StygianIron"]);
+recipes.replaceAllOccurences(<woot:stygianironingot> hashIngot["StygianIron"]);
 
 // Add compatibility with mods that use the other spelling of aluminium
 for item in oreDict["ingotAluminum"].items {
     hashIngot["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["ingotAluminum"], hashIngot["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["ingotAluminum"] hashIngot["Aluminium"]);
 
 /***** Gems *****/
-var localGem = {} as IOreDictEntry[string];
+global hashGem as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringGem = [
-
+//SILK_SORTING: BEGIN@Gem
     "Amber",
     "Amethyst",
     "Apatite",
@@ -421,37 +418,36 @@ val stringGem = [
     "Sapphire",
     "Villaumite",
     "YellowGarnet"
-
+//SILK_SORTING: END@Gem
 ] as string[];
 for gem in stringGem {
-    localGem[gem] = oreDict["gem" ~ gem];
+    hashGem[gem] = oreDict["gem" ~ gem];
 }
-global hashGem = localGem as IOreDictEntry[string];
 
 hashGem["DiamondMana"].add(<botania:manaresource:2>);
-recipes.replaceAllOccurences(<botania:manaresource:2>, hashGem["DiamondMana"]);
+recipes.replaceAllOccurences(<botania:manaresource:2> hashGem["DiamondMana"]);
 
 hashGem["Dragonstone"].add(<botania:manaresource:9>);
-recipes.replaceAllOccurences(<botania:manaresource:9>, hashGem["Dragonstone"]);
+recipes.replaceAllOccurences(<botania:manaresource:9> hashGem["Dragonstone"]);
 
 hashGem["LapisElven"].add(<botanicadds:elven_lapis>);
-recipes.replaceAllOccurences(<botanicadds:elven_lapis>, hashGem["LapisElven"]);
+recipes.replaceAllOccurences(<botanicadds:elven_lapis> hashGem["LapisElven"]);
 
 hashGem["LapisMana"].add(<botanicadds:mana_lapis>);
-recipes.replaceAllOccurences(<botanicadds:mana_lapis>, hashGem["LapisMana"]);
+recipes.replaceAllOccurences(<botanicadds:mana_lapis> hashGem["LapisMana"]);
 
 hashGem["Aquamarine"].remove(<naturalpledge:resource:4>);
 hashGem["Aquamarine"].remove(<naturalpledge:resource:5>);
 hashGem["NjordAquamarine"].remove(<naturalpledge:resource:5>);
 
 hashGem["Quicksilver"].add(<thaumcraft:quicksilver>);
-recipes.replaceAllOccurences(oreDict["quicksilver"], hashGem["Quicksilver"]);
-recipes.replaceAllOccurences(<thaumcraft:quicksilver>, hashGem["Quicksilver"]);
+recipes.replaceAllOccurences(oreDict["quicksilver"] hashGem["Quicksilver"]);
+recipes.replaceAllOccurences(<thaumcraft:quicksilver> hashGem["Quicksilver"]);
 
 /***** Crystals *****/
-var localCrystal = {} as IOreDictEntry[string];
+global hashCrystal as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringCrystal = [
-
+//SILK_SORTING: BEGIN@Crystal
     "Aethium",
     "Aluminium",
     "Amber",
@@ -504,96 +500,94 @@ val stringCrystal = [
     "Void",
     "VoidEmpowered",
     "Yellorium"
-
+//SILK_SORTING: END@Crystal
 ] as string[];
 for crystal in stringCrystal {
-    localCrystal[crystal] = oreDict["crystal" ~ crystal];
+    hashCrystal[crystal] = oreDict["crystal" ~ crystal];
 }
-global hashCrystal = localCrystal as IOreDictEntry[string];
 
 hashCrystal["Restonia"].add(<actuallyadditions:item_crystal>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal>, hashCrystal["Restonia"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal> hashCrystal["Restonia"]);
 
 hashCrystal["Palis"].add(<actuallyadditions:item_crystal:1>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:1>, hashCrystal["Palis"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:1> hashCrystal["Palis"]);
 
 hashCrystal["Diamantine"].add(<actuallyadditions:item_crystal:2>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:2>, hashCrystal["Diamantine"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:2> hashCrystal["Diamantine"]);
 
 hashCrystal["Void"].add(<actuallyadditions:item_crystal:3>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:3>, hashCrystal["Void"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:3> hashCrystal["Void"]);
 
 hashCrystal["Emeradic"].add(<actuallyadditions:item_crystal:4>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:4>, hashCrystal["Emeradic"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:4> hashCrystal["Emeradic"]);
 
 hashCrystal["Enori"].add(<actuallyadditions:item_crystal:5>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:5>, hashCrystal["Enori"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:5> hashCrystal["Enori"]);
 
 hashCrystal["RestoniaEmpowered"].add(<actuallyadditions:item_crystal_empowered>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered>, hashCrystal["RestoniaEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered> hashCrystal["RestoniaEmpowered"]);
 
 hashCrystal["PalisEmpowered"].add(<actuallyadditions:item_crystal_empowered:1>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:1>, hashCrystal["PalisEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:1> hashCrystal["PalisEmpowered"]);
 
 hashCrystal["DiamantineEmpowered"].add(<actuallyadditions:item_crystal_empowered:2>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:2>, hashCrystal["DiamantineEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:2> hashCrystal["DiamantineEmpowered"]);
 
 hashCrystal["VoidEmpowered"].add(<actuallyadditions:item_crystal_empowered:3>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:3>, hashCrystal["VoidEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:3> hashCrystal["VoidEmpowered"]);
 
 hashCrystal["EmeradicEmpowered"].add(<actuallyadditions:item_crystal_empowered:4>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:4>, hashCrystal["EmeradicEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:4> hashCrystal["EmeradicEmpowered"]);
 
 hashCrystal["EnoriEmpowered"].add(<actuallyadditions:item_crystal_empowered:5>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:5>, hashCrystal["EnoriEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:5> hashCrystal["EnoriEmpowered"]);
 
 hashCrystal["Amber"].add(<cyclicmagic:crystallized_amber>);
-recipes.replaceAllOccurences(<cyclicmagic:crystallized_amber>, hashCrystal["Amber"]);
+recipes.replaceAllOccurences(<cyclicmagic:crystallized_amber> hashCrystal["Amber"]);
 
 hashCrystal["Obsidian"].add(<cyclicmagic:crystallized_obsidian>);
-recipes.replaceAllOccurences(<cyclicmagic:crystallized_obsidian>, hashCrystal["Obsidian"]);
+recipes.replaceAllOccurences(<cyclicmagic:crystallized_obsidian> hashCrystal["Obsidian"]);
 
 // Aluminum -> Aluminium
 for item in oreDict["crystalAluminum"].items {
     hashCrystal["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["crystalAluminum"], hashCrystal["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["crystalAluminum"] hashCrystal["Aluminium"]);
 
 /***** Ender IO Crystals *****/
-var localEnderIOCrystal = {} as IOreDictEntry[string];
+global hashEnderIOCrystal as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringEnderIOCrystal = [
-
+//SILK_SORTING: BEGIN@EnderIO
     "AttractorCrystal",
     "EnderCrystal",
     "PrecientCrystal",
     "PulsatingCrystal",
     "VibrantCrystal",
     "WeatherCrystal"
-
+//SILK_SORTING: END@EnderIO
 ] as string[];
 for enderIOCrystal in stringEnderIOCrystal {
-    localEnderIOCrystal[enderIOCrystal] = oreDict["item" ~ enderIOCrystal];
+    hashEnderIOCrystal[enderIOCrystal] = oreDict["item" ~ enderIOCrystal];
 }
-global hashEnderIOCrystal = localEnderIOCrystal as IOreDictEntry[string];
 
 /***** Clathrates *****/
-var localClathrate = {} as IOreDictEntry[string];
+global hashClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringClathrate = [
-
+//SILK_SORTING: BEGIN@Clath
     "Ender",
     "Glowstone",
     "Oil",
     "Redstone"
-
+//SILK_SORTING: END@Clath
 ] as string[];
 for clathrate in stringClathrate{ 
-    localClathrate[clathrate] = oreDict["clathrate" ~ clathrate];
+    hashClathrate[clathrate] = oreDict["clathrate" ~ clathrate];
 }
 
 /***** Dusts *****/
-var localDust = {} as IOreDictEntry[string];
+global hashDust as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringDust = [
-
+//SILK_SORTING: BEGIN@Dust
     "Aerotheum",
     "Almandine",
     "Alugentum",
@@ -627,7 +621,7 @@ val stringDust = [
     "CertusQuartz",
     "Charcoal",
     "ChargedCertusQuartz",
-    "Chrome", // Personally a Firefox fan - Silk
+    "Chrome",
     "Cinnabar",
     "Coal",
     "Cobalt",
@@ -730,60 +724,59 @@ val stringDust = [
     "YellowGarnet",
     "Zinc",
     "Zirconium"
-
+//SILK_SORTING: END@Dust
 ] as string[];
 for dust in stringDust {
-    localDust[dust] = oreDict["dust" ~ dust];
+    hashDust[dust] = oreDict["dust" ~ dust];
 }
-global hashDust = localDust as IOreDictEntry[string];
 
 hashDust["Wither"].add(<darkutils:material>);
-recipes.replaceAllOccurences(<darkutils:material>, hashDust["Wither"]);
+recipes.replaceAllOccurences(<darkutils:material> hashDust["Wither"]);
 
 hashDust["Illumination"].add(<astralsorcery:itemusabledust>);
-recipes.replaceAllOccurences(<astralsorcery:itemusabledust>, hashDust["Illumination"]);
+recipes.replaceAllOccurences(<astralsorcery:itemusabledust> hashDust["Illumination"]);
 
 hashDust["Nocturnal"].add(<astralsorcery:itemusabledust:1>);
-recipes.replaceAllOccurences(<astralsorcery:itemusabledust:1>, hashDust["Nocturnal"]);
+recipes.replaceAllOccurences(<astralsorcery:itemusabledust:1> hashDust["Nocturnal"]);
 
 hashDust["BloodInfusedGlowstone"].add(<bloodarsenal:base_item:2>);
-recipes.replaceAllOccurences(<bloodarsenal:base_item:2>, hashDust["BloodInfusedGlowstone"]);
+recipes.replaceAllOccurences(<bloodarsenal:base_item:2> hashDust["BloodInfusedGlowstone"]);
 
 hashDust["ElvenPixie"].add(<botania:manaresource:8>);
-recipes.replaceAllOccurences(oreDict["elvenPixieDust"], hashDust["ElvenPixie"]);
-recipes.replaceAllOccurences(<botania:manaresource:8>, hashDust["ElvenPixie"]);
+recipes.replaceAllOccurences(oreDict["elvenPixieDust"] hashDust["ElvenPixie"]);
+recipes.replaceAllOccurences(<botania:manaresource:8> hashDust["ElvenPixie"]);
 
 hashDust["Soot"].add(<deepmoblearning:soot_covered_redstone>);
-recipes.replaceAllOccurences(<deepmoblearning:soot_covered_redstone>, hashDust["Soot"]);
+recipes.replaceAllOccurences(<deepmoblearning:soot_covered_redstone> hashDust["Soot"]);
 
-recipes.replaceAllOccurences(oreDict["dustAshes"], hashDust["Ash"]);
+recipes.replaceAllOccurences(oreDict["dustAshes"] hashDust["Ash"]);
 
 hashDust["Ember"].add(<embers:dust_ember>);
-recipes.replaceAllOccurences(<embers:dust_ember>, hashDust["Ember"]);
+recipes.replaceAllOccurences(<embers:dust_ember> hashDust["Ember"]);
 
 hashDust["Metallurgic"].add(<embers:dust_metallurgic>);
-recipes.replaceAllOccurences(<embers:dust_metallurgic>, hashDust["Metallurgic"]);
+recipes.replaceAllOccurences(<embers:dust_metallurgic> hashDust["Metallurgic"]);
 
 hashDust["Flux"].add(<fluxnetworks:flux>);
-recipes.replaceAllOccurences(<fluxnetworks:flux>, hashDust["Flux"]);
+recipes.replaceAllOccurences(<fluxnetworks:flux> hashDust["Flux"]);
 
-recipes.replaceAllOccurences(oreDict["dustEnder"], hashDust["EnderPearl"]);
+recipes.replaceAllOccurences(oreDict["dustEnder"] hashDust["EnderPearl"]);
 
-recipes.replaceAllOccurences(oreDict["dustNetherQuartz"], hashDust["Quartz"]);
+recipes.replaceAllOccurences(oreDict["dustNetherQuartz"] hashDust["Quartz"]);
 
 hashDust["StygianIron"].add(<woot:stygianirondust>);
-recipes.replaceAllOccurences(<woot:stygianirondust>, hashDust["StygianIron"]);
+recipes.replaceAllOccurences(<woot:stygianirondust> hashDust["StygianIron"]);
 
 // Copy Aluminum dust to Aluminium dust
 for item in oreDict["dustAluminum"].items {
     hashDust["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["dustAluminum"], hashDust["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["dustAluminum"] hashDust["Aluminium"]);
 
 /***** Plates *****/
-var localPlate = {} as IOreDictEntry[string];
+global hashPlate as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringPlate = [
-
+//SILK_SORTING: BEGIN@Plate
     "Adaminite",
     "Advanced",
     "AdvancedAlloy",
@@ -803,7 +796,7 @@ val stringPlate = [
     "Carbon",
     "CertusQuartz",
     "ChargedCertusQuartz",
-    "Chrome", // FF
+    "Chrome",
     "Coal",
     "Cobalt",
     "Constantan",
@@ -874,22 +867,21 @@ val stringPlate = [
     "Wood",
     "Yellorium",
     "YellowGarnet"
-
+//SILK_SORTING: END@Plate
 ] as string[];
 for plate in stringPlate {
-    localPlate[plate] = oreDict["plate" ~ plate];
+    hashPlate[plate] = oreDict["plate" ~ plate];
 }
-global hashPlate = localPlate as IOreDictEntry[string];
 
 hashPlate["Resonating"].add(<deepresonance:resonating_plate>);
-recipes.replaceAllOccurences(<deepresonance:resonating_plate>, hashPlate["Resonating"]);
+recipes.replaceAllOccurences(<deepresonance:resonating_plate> hashPlate["Resonating"]);
 
 hashPlate["Alkimium"].add(<planarartifice:alkimium_plate>);
-recipes.replaceAllOccurences(oreDict["plateAlchemical"], hashPlate["Alkimium"]);
-recipes.replaceAllOccurences(<planarartifice:alkimium_plate>, hashPlate["Alkimium"]);
+recipes.replaceAllOccurences(oreDict["plateAlchemical"] hashPlate["Alkimium"]);
+recipes.replaceAllOccurences(<planarartifice:alkimium_plate> hashPlate["Alkimium"]);
 
 hashPlate["StygianIron"].add(<woot:stygianironplate>);
-recipes.replaceAllOccurences(<woot:stygianironplate>, hashPlate["StygianIron"]);
+recipes.replaceAllOccurences(<woot:stygianironplate> hashPlate["StygianIron"]);
 
 // Fix Aluminium spelling
 for item in oreDict["plateAluminum"].items {
@@ -897,9 +889,9 @@ for item in oreDict["plateAluminum"].items {
 }
 
 /***** Dense Plates *****/
-var localPlateDense = {} as IOreDictEntry[string];
+global hashPlateDense as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringPlateDense = [
-
+//SILK_SORTING: BEGIN@DensePlate
     "Aluminium",
     "Amber",
     "Amethyst",
@@ -940,23 +932,22 @@ val stringPlateDense = [
     "Tungsten",
     "Uranium",
     "Yellorium"
-
+//SILK_SORTING: END@DensePlate
 ] as string[];
 for plateDense in stringPlateDense {
-    localPlateDense[plateDense] = oreDict["plateDense" ~ plateDense];
+    hashPlateDense[plateDense] = oreDict["plateDense" ~ plateDense];
 }
-global hashPlateDense = localPlateDense as IOreDictEntry[string];
 
 // Aluminium Fix
 for item in oreDict["plateDenseAluminum"].items {
     hashPlateDense["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["plateDenseAluminum"], hashPlateDense["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["plateDenseAluminum"] hashPlateDense["Aluminium"]);
 
 /***** Rods *****/
-var localRod = {} as IOreDictEntry[string];
+global hashRod as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringRod = [
-
+//SILK_SORTING: BEGIN@Stick
     "Aluminium",
     "Amber",
     "Amethyst",
@@ -998,35 +989,34 @@ val stringRod = [
     "Tungsten",
     "Uranium",
     "Yellorium"
-
+//SILK_SORTING: END@Stick
 ] as string[];
 for rod in stringRod {
-    localRod[rod] = oreDict["plateDense" ~ rod];
+    hashRod[rod] = oreDict["plateDense" ~ rod];
 }
-global hashRod = localRod as IOreDictEntry[string];
 
 hashRod["Iron"].add(<immersiveengineering:material:1>);
-recipes.replaceAllOccurences(oreDict["stickIron"],hashRod["Iron"]);
-recipes.replaceAllOccurences(<botania:manaresource:8>,hashRod["Iron"]);
+recipes.replaceAllOccurences(oreDict["stickIron"]hashRod["Iron"]);
+recipes.replaceAllOccurences(<botania:manaresource:8>hashRod["Iron"]);
 
 hashRod["Steel"].add(<immersiveengineering:material:2>);
-recipes.replaceAllOccurences(oreDict["stickSteel"],hashRod["Steel"]);
-recipes.replaceAllOccurences(<botania:manaresource:8>,hashRod["Steel"]);
+recipes.replaceAllOccurences(oreDict["stickSteel"]hashRod["Steel"]);
+recipes.replaceAllOccurences(<botania:manaresource:8>hashRod["Steel"]);
 
 hashRod["Aluminium"].add(<immersiveengineering:material:3>);
-recipes.replaceAllOccurences(oreDict["stickAluminium"], hashRod["Aluminium"]);
-recipes.replaceAllOccurences(oreDict["stickAluminum"], hashRod["Aluminium"]);
-recipes.replaceAllOccurences(<immersiveengineering:material:3>, hashRod["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["stickAluminium"] hashRod["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["stickAluminum"] hashRod["Aluminium"]);
+recipes.replaceAllOccurences(<immersiveengineering:material:3> hashRod["Aluminium"]);
 
 for item in oreDict["rodAluminum"].items {
     hashRod["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["rodAluminum"], hashRod["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["rodAluminum"] hashRod["Aluminium"]);
 
 /***** Gears *****/
-var localGear = {} as IOreDictEntry[string];
+global hashGear as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringGear = [
-
+//SILK_SORTING: BEGIN@Gear
     "Aluminium",
     "Amber",
     "Amethyst",
@@ -1100,34 +1090,33 @@ val stringGear = [
     "Void",
     "Wood",
     "Yellorium"
-
+//SILK_SORTING: END@Gear
 ] as string[];
 for gear in stringGear{
-    localGear[gear] = oreDict["gear" ~ gear];
+    hashGear[gear] = oreDict["gear" ~ gear];
 }
-global hashGear = localGear as IOreDictEntry[string];
 
 hashGear["Scented"].add(<extrabees:misc>);
-recipes.replaceAllOccurences(<extrabees:misc>, hashGear["Scented"]);
+recipes.replaceAllOccurences(<extrabees:misc> hashGear["Scented"]);
 
 hashGear["Proven"].add(<extratrees:misc:2>);
-recipes.replaceAllOccurences(<extratrees:misc:2>, hashGear["Proven"]);
+recipes.replaceAllOccurences(<extratrees:misc:2> hashGear["Proven"]);
 
 hashGear["Redstone"].add(<mysticalmechanics:gear_gold_off>);
-recipes.replaceAllOccurences(<mysticalmechanics:gear_gold_off>, hashGear["Redstone"]);
+recipes.replaceAllOccurences(<mysticalmechanics:gear_gold_off> hashGear["Redstone"]);
 
 hashGear["RedstoneInverted"].add(<mysticalmechanics:gear_gold_on>);
-recipes.replaceAllOccurences(<mysticalmechanics:gear_gold_on>, hashGear["RedstoneInverted"]);
+recipes.replaceAllOccurences(<mysticalmechanics:gear_gold_on> hashGear["RedstoneInverted"]);
 
 for item in oreDict["gearAluminum"].items {
     hashGear["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["gearAluminum"], hashGear["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["gearAluminum"] hashGear["Aluminium"]);
 
 /***** Nuggets *****/
-var localNugget = {} as IOreDictEntry[string];
+global hashNugget as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringNugget = [
-
+//SILK_SORTING: BEGIN@Nugget
     "Adaminite",
     "Alkimium",
     "AluBrass",
@@ -1242,31 +1231,30 @@ val stringNugget = [
     "Void",
     "Yellorium",
     "Zinc"
-
+//SILK_SORTING: END@Nugget
 ] as string[];
 for nugget in stringNugget {
-    localNugget[nugget] = oreDict["nugget" ~ nugget];
+    hashNugget[nugget] = oreDict["nugget" ~ nugget];
 }
-global hashNugget = localNugget as IOreDictEntry[string];
 
 hashNugget["MeatRaw"].add(<industrialmeat:raw_meat_nugget>);
-recipes.replaceAllOccurences(<industrialmeat:raw_meat_nugget>, hashNugget["MeatRaw"]);
+recipes.replaceAllOccurences(<industrialmeat:raw_meat_nugget> hashNugget["MeatRaw"]);
 
 hashNugget["Light"].add(<tg:nugget_light>);
-recipes.replaceAllOccurences(<tg:nugget_light>, hashNugget["Light"]);
+recipes.replaceAllOccurences(<tg:nugget_light> hashNugget["Light"]);
 
 hashNugget["Shade"].add(<tg:nugget_shade>);
-recipes.replaceAllOccurences(<tg:nugget_shade>, hashNugget["Shade"]);
+recipes.replaceAllOccurences(<tg:nugget_shade> hashNugget["Shade"]);
 
 for item in oreDict["nuggetAluminum"].items {
     hashNugget["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["nuggetAluminum"], hashNugget["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["nuggetAluminum"] hashNugget["Aluminium"]);
 
 /***** Blocks *****/
-var localBlock = {} as IOreDictEntry[string];
+global hashBlock as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringBlock = [
-
+//SILK_SORTING: BEGIN@Block
     "Adaminite",
     "Aethium",
     "Alkimium",
@@ -1478,134 +1466,133 @@ val stringBlock = [
     "YellowGarnet",
     "Zinc",
     "Zirconium"
-
+//SILK_SORTING: END@Block
 ] as string[];
 for block in stringBlock {
-    localBlock[block] = oreDict["block" ~ block];
+    hashBlock[block] = oreDict["block" ~ block];
 }
-global hashBlock = localBlock as IOreDictEntry[string];
 
 hashBlock["Restonia"].add(<actuallyadditions:block_crystal>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal>, hashBlock["Restonia"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal> hashBlock["Restonia"]);
 
 hashBlock["Palis"].add(<actuallyadditions:block_crystal:1>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal:1>, hashBlock["Palis"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:1> hashBlock["Palis"]);
 
 hashBlock["Diamantine"].add(<actuallyadditions:block_crystal:2>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal:2>, hashBlock["Diamantine"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:2> hashBlock["Diamantine"]);
 
 hashBlock["Void"].add(<actuallyadditions:block_crystal:3>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal:3>, hashBlock["Void"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:3> hashBlock["Void"]);
 
 hashBlock["Emeradic"].add(<actuallyadditions:block_crystal:4>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal:4>, hashBlock["Emeradic"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:4> hashBlock["Emeradic"]);
 
 hashBlock["Enori"].add(<actuallyadditions:block_crystal:5>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal:5>, hashBlock["Enori"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal:5> hashBlock["Enori"]);
 
 hashBlock["RestoniaEmpowered"].add(<actuallyadditions:block_crystal_empowered>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered>, hashBlock["RestoniaEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered> hashBlock["RestoniaEmpowered"]);
 
 hashBlock["PalisEmpowered"].add(<actuallyadditions:block_crystal_empowered:1>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:1>, hashBlock["PalisEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:1> hashBlock["PalisEmpowered"]);
 
 hashBlock["DiamantineEmpowered"].add(<actuallyadditions:block_crystal_empowered:2>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:2>, hashBlock["DiamantineEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:2> hashBlock["DiamantineEmpowered"]);
 
 hashBlock["VoidEmpowered"].add(<actuallyadditions:block_crystal_empowered:3>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:3>, hashBlock["VoidEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:3> hashBlock["VoidEmpowered"]);
 
 hashBlock["EmeradicEmpowered"].add(<actuallyadditions:block_crystal_empowered:4>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:4>, hashBlock["EmeradicEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:4> hashBlock["EmeradicEmpowered"]);
 
 hashBlock["EnoriEmpowered"].add(<actuallyadditions:block_crystal_empowered:5>);
-recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:5>, hashBlock["EnoriEmpowered"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_crystal_empowered:5> hashBlock["EnoriEmpowered"]);
 
 hashBlock["EnderPearl"].add(<actuallyadditions:block_misc:6>);
-recipes.replaceAllOccurences(<actuallyadditions:block_misc:6>, hashBlock["EnderPearl"]);
+recipes.replaceAllOccurences(<actuallyadditions:block_misc:6> hashBlock["EnderPearl"]);
 
 hashBlock["BloodInfusedIron"].add(<bloodarsenal:blood_infused_iron_block>);
-recipes.replaceAllOccurences(<bloodarsenal:blood_infused_iron_block>, hashBlock["BloodInfusedIron"]);
+recipes.replaceAllOccurences(<bloodarsenal:blood_infused_iron_block> hashBlock["BloodInfusedIron"]);
 
 hashBlock["DiamondMana"].add(<botania:storage:3>);
-recipes.replaceAllOccurences(<botania:storage:3>, hashBlock["DiamondMana"]);
+recipes.replaceAllOccurences(<botania:storage:3> hashBlock["DiamondMana"]);
 
 hashBlock["Dragonstone"].add(<botania:storage:4>);
-recipes.replaceAllOccurences(<botania:storage:4>, hashBlock["Dragonstone"]);
+recipes.replaceAllOccurences(<botania:storage:4> hashBlock["Dragonstone"]);
 
 hashBlock["LapisElven"].add(<botanicadds:elven_lapis_block>);
-recipes.replaceAllOccurences(<botanicadds:elven_lapis_block>, hashBlock["LapisElven"]);
+recipes.replaceAllOccurences(<botanicadds:elven_lapis_block> hashBlock["LapisElven"]);
 
 hashBlock["LapisMana"].add(<botanicadds:mana_lapis_block>);
-recipes.replaceAllOccurences(<botanicadds:mana_lapis_block>, hashBlock["LapisMana"]);
+recipes.replaceAllOccurences(<botanicadds:mana_lapis_block> hashBlock["LapisMana"]);
 
 hashBlock["GlitchInfused"].add(<deepmoblearning:infused_ingot_block>);
-recipes.replaceAllOccurences(<deepmoblearning:infused_ingot_block>, hashBlock["GlitchInfused"]);
+recipes.replaceAllOccurences(<deepmoblearning:infused_ingot_block> hashBlock["GlitchInfused"]);
 
 hashBlock["Resonating"].add(<deepresonance:resonating_block>);
-recipes.replaceAllOccurences(<deepresonance:resonating_block>, hashBlock["Resonating"]);
+recipes.replaceAllOccurences(<deepresonance:resonating_block> hashBlock["Resonating"]);
 
 hashBlock["DraconiumCharged"].add(<draconicevolution:draconium_block:1>);
-recipes.replaceAllOccurences(<draconicevolution:draconium_block:1>, hashBlock["DraconiumCharged"]);
+recipes.replaceAllOccurences(<draconicevolution:draconium_block:1> hashBlock["DraconiumCharged"]);
 
 hashBlock["Ender"].add(<extendedcrafting:storage:5>);
-recipes.replaceAllOccurences(<extendedcrafting:storage:5>, hashBlock["Ender"]);
+recipes.replaceAllOccurences(<extendedcrafting:storage:5> hashBlock["Ender"]);
 
 hashBlock["EnderStar"].add(<extendedcrafting:storage:6>);
-recipes.replaceAllOccurences(<extendedcrafting:storage:6>, hashBlock["EnderStar"]);
+recipes.replaceAllOccurences(<extendedcrafting:storage:6> hashBlock["EnderStar"]);
 
 hashBlock["EnderEnhanced"].add(<extendedcrafting:storage:7>);
-recipes.replaceAllOccurences(<extendedcrafting:storage:7>, hashBlock["EnderEnhanced"]);
+recipes.replaceAllOccurences(<extendedcrafting:storage:7> hashBlock["EnderEnhanced"]);
 
 hashBlock["Orichalcos"].add(<extrabotany:blockorichalcos>);
-recipes.replaceAllOccurences(<extrabotany:blockorichalcos>, hashBlock["Orichalcos"]);
+recipes.replaceAllOccurences(<extrabotany:blockorichalcos> hashBlock["Orichalcos"]);
 
 hashBlock["Photonium"].add(<extrabotany:blockphotonium>);
-recipes.replaceAllOccurences(<extrabotany:blockphotonium>, hashBlock["Photonium"]);
+recipes.replaceAllOccurences(<extrabotany:blockphotonium> hashBlock["Photonium"]);
 
 hashBlock["Shadowium"].add(<extrabotany:blockshadowium>);
-recipes.replaceAllOccurences(<extrabotany:blockshadowium>, hashBlock["Shadowium"]);
+recipes.replaceAllOccurences(<extrabotany:blockshadowium> hashBlock["Shadowium"]);
 
 hashBlock["Flux"].add(<fluxnetworks:fluxblock>);
-recipes.replaceAllOccurences(<fluxnetworks:fluxblock>, hashBlock["Flux"]);
+recipes.replaceAllOccurences(<fluxnetworks:fluxblock> hashBlock["Flux"]);
 
 hashBlock["MeatCooked"].add(<industrialmeat:cooked_meat_block>);
-recipes.replaceAllOccurences(<industrialmeat:cooked_meat_block>, hashBlock["MeatCooked"]);
+recipes.replaceAllOccurences(<industrialmeat:cooked_meat_block> hashBlock["MeatCooked"]);
 
 hashBlock["MeatRaw"].add(<industrialmeat:raw_meat_block>);
-recipes.replaceAllOccurences(<industrialmeat:raw_meat_block>, hashBlock["MeatRaw"]);
+recipes.replaceAllOccurences(<industrialmeat:raw_meat_block> hashBlock["MeatRaw"]);
 
 hashBlock["Alkimium"].add(<planarartifice:alkimium_block>);
-recipes.replaceAllOccurences(oreDict["blockAlchemical"], hashBlock["Alkimium"]);
-recipes.replaceAllOccurences(<planarartifice:alkimium_block>, hashBlock["Alkimium"]);
+recipes.replaceAllOccurences(oreDict["blockAlchemical"] hashBlock["Alkimium"]);
+recipes.replaceAllOccurences(<planarartifice:alkimium_block> hashBlock["Alkimium"]);
 
 hashBlock["EbonyPsi"].add(<planarartifice:alkimium_ingot>);
-recipes.replaceAllOccurences(<planarartifice:alkimium_ingot>, hashBlock["EbonyPsi"]);
+recipes.replaceAllOccurences(<planarartifice:alkimium_ingot> hashBlock["EbonyPsi"]);
 
 hashBlock["IvoryPsi"].add(<planarartifice:alkimium_ingot>);
-recipes.replaceAllOccurences(<planarartifice:alkimium_ingot>, hashBlock["IvoryPsi"]);
+recipes.replaceAllOccurences(<planarartifice:alkimium_ingot> hashBlock["IvoryPsi"]);
 
 hashBlock["Light"].add(<tg:block_light>);
-recipes.replaceAllOccurences(<tg:block_light>, hashBlock["Light"]);
+recipes.replaceAllOccurences(<tg:block_light> hashBlock["Light"]);
 
 hashBlock["Shade"].add(<tg:block_shade>);
-recipes.replaceAllOccurences(<tg:block_shade>, hashBlock["Shade"]);
+recipes.replaceAllOccurences(<tg:block_shade> hashBlock["Shade"]);
 
 hashBlock["Cobalt"].add(<tconstruct:metal>);
-recipes.replaceAllOccurences(<tconstruct:metal>, hashBlock["Cobalt"]);
+recipes.replaceAllOccurences(<tconstruct:metal> hashBlock["Cobalt"]);
 
 hashBlock["StygianIron"].add(<woot:stygianiron>);
-recipes.replaceAllOccurences(<woot:stygianiron>, hashBlock["StygianIron"]);
+recipes.replaceAllOccurences(<woot:stygianiron> hashBlock["StygianIron"]);
 
 for item in oreDict["blockAluminum"].items {
     hashBlock["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["blockAluminum"], hashBlock["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["blockAluminum"] hashBlock["Aluminium"]);
 
 /***** Tiny Dusts *****/
-var localDustTiny = {} as IOreDictEntry[string];
+global hashDustTiny as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringDustTiny = [
-
+//SILK_SORTING: BEGIN@DustTiny
     "Aluminium",
     "Amber",
     "Amethyst",
@@ -1655,22 +1642,21 @@ val stringDustTiny = [
     "Tungsten",
     "Uranium",
     "Yellorium"
-
+//SILK_SORTING: END@DustTiny
 ] as string[];
 for dustTiny in stringDustTiny {
-    localDustTiny[dustTiny] = oreDict["dustTiny" ~ dustTiny];
+    hashDustTiny[dustTiny] = oreDict["dustTiny" ~ dustTiny];
 }
-global hashDustTiny = localDustTiny as IOreDictEntry[string];
 
 for item in oreDict["dustTinyAluminum"].items {
     localDustTiny["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["dustTinyAluminum"], localDustTiny["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["dustTinyAluminum"] localDustTiny["Aluminium"]);
 
 /***** Small Dusts *****/
-var localDustSmall = {} as IOreDictEntry[string];
+global hashDustSmall as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringDustSmall = [
-
+//SILK_SORTING: BEGIN@SmallDust
     "Almandine",
     "Aluminium",
     "Amber",
@@ -1752,50 +1738,53 @@ val stringDustSmall = [
     "Yellorium",
     "YellowGarnet",
     "Zinc"
-
+//SILK_SORTING: END@SmallDust
 ] as string[];
 for dustSmall in stringDustSmall {
-    localDustSmall[dustSmall] = oreDict["dustSmall" ~ dustSmall];
+    hashDustSmall[dustSmall] = oreDict["dustSmall" ~ dustSmall];
 }
-global hashDustSmall = localDustSmall as IOreDictEntry[string];
 
 for item in oreDict["dustSmallAluminum"].items {
     localDustSmall["Aluminium"].add(item);
 }
-recipes.replaceAllOccurences(oreDict["dustSmallAluminum"], localDustSmall["Aluminium"]);
+recipes.replaceAllOccurences(oreDict["dustSmallAluminum"] localDustSmall["Aluminium"]);
 
 /***** Dirty Dusts *****/
-/*var localDustDirty = {} as IOreDictEntry[string];
+/*
+global hashDustDirty as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringDustDirty = [
-
+//SILK_SORTING: BEGIN@DirtyDust
     
-
+//SILK_SORTING: END@DirtyDust
 ]
 for dustDirty in stringDustDirty {
-    localDustDirty[dustDirty] = oreDict["dustDirty" ~ dustDirty];
+    hashDustDirty[dustDirty] = oreDict["dustDirty" ~ dustDirty];
 }
-global hashDustDirty = localDustDirty as IOreDictEntry[string];*/
+*/
 
 /***** Clumps *****/
-/*var localClump = {} as IOreDictEntry[string];
+/*
+global hashClump as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringClump = [
-
+//SILK_SORTING: BEGIN@Clump
     
-
+//SILK_SORTING: END@Clump
 ]
 for clump in stringClump {
-    localClump[clump] = oreDict["clump" ~ clump];
+    hashClump[clump] = oreDict["clump" ~ clump];
 }
-global hashClump = localClump as IOreDictEntry[string];*/
+*/
 
 /***** Shards *****/
-/*var localShard = {} as IOreDictEntry[string];
+/*
+global hashShard as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringShard = [
-
-    
-
+//SILK_SORTING: BEGIN@Shard
+    "Abc",
+    "Test"
+//SILK_SORTING: END@Shard
 ]
 for shard in stringShard {
-    localShard[shard] = oreDict["shard" ~ shard];
+    hashShard[shard] = oreDict["shard" ~ shard];
 }
-global hashShard = localShard as IOreDictEntry[string];*/
+*/
