@@ -1665,7 +1665,7 @@ for dustTiny in stringDustTiny {
     hashDustTiny[dustTiny] = oreDict["dustTiny" ~ dustTiny];
 }
 
-for (!<ore:dustTinyAluminum>.exist) {
+for (!<ore:dustTinyAluminum>.empty) {
     for item in oreDict["dustTinyAluminum"].items {
         localDustTiny["Aluminium"].add(item);
     }
