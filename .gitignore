@@ -1,7 +1,5 @@
 etc/*.class
 *.jar
-<<<<<<< HEAD
-
-=======
 *.sqlite
->>>>>>> master
+*.log
+!crafttweaker.log
