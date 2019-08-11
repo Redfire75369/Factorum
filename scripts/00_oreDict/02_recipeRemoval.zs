@@ -6,8 +6,8 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 /*Remove Furnace, Blast Furnace, Arc Furnace, Induction Smelter Recipes for Ingots */
-for ingot in hashIngot {
-    for itemstack in ingot {
+for string, ingot in hashIngot {
+    for itemstack in ingot.ores {
         furnace.remove(itemstack);
         mods.techreborn.blastFurnace.removeRecipe(itemstack);
         mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
@@ -16,8 +16,8 @@ for ingot in hashIngot {
 }
 
 /*Remove Furnace, Blast Furnace, Arc Furnace, Induction Smelter Recipes for Ingots */
-for gem in hashGem {
-    for itemstack in gem {
+for string, gem in hashGem {
+    for itemstack in gem.ores {
         furnace.remove(itemstack);
         mods.techreborn.blastFurnace.removeRecipe(itemstack);
         mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);

@@ -163,8 +163,6 @@ val arrayRemoveDictDust = [
     <enderio:item_material:29>,
     <enderio:item_material:30>,
     <enderio:item_material:31>,
-    <enderio:item_material:32>,
-    <enderio:item_material:33>,
     <extratrees:misc>,
     <forestry:ash>,
     <immersiveengineering:material:24>,
@@ -334,7 +332,6 @@ val arrayRemoveDictNugget = [
     <embers:nugget_nickel>,
     <embers:nugget_silver>,
     <embers:nugget_tin>,
-    <enderio:item_material:28>,
     <extendedcrafting:material:128>,
     <extendedcrafting:material:129>,
     <immersiveengineering:metal:20>,
@@ -423,7 +420,7 @@ val arrayRemoveDictBlock = [
     <plustic:invarblock>,
     <tcomplement:storage:1>,
     <tcomplement:storage>,
-    <tconstruct:metal>
+    <tconstruct:metal>,
     <techreborn:storage2:8>,
     <techreborn:storage2:9>,
     <techreborn:storage>,
@@ -445,13 +442,13 @@ val arrayRemoveDictDustTiny = [
     <mysticalworld:gold_dust_tiny>,
     <mysticalworld:iron_dust_tiny>,
 
-] as IItemStack
+] as IItemStack[];
 
 val arrayRemoveDictDustSmall = [
 
 
 
-] as IItemStack
+] as IItemStack[];
 
 for ore in arrayRemoveDictOre {
     for dict in ore.ores {
