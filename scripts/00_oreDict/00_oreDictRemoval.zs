@@ -123,7 +123,6 @@ val arrayRemoveDictIngot = [
 val arrayRemoveDictGem = [
 //SILK_SORTING: BEGIN@Gem
     <cyclicmagic:crystallized_amber>,
-    <cyclicmagic:crystallized_obsidian>,
     <thaumcraft:quicksilver>
 //SILK_SORTING: END@Gem
 ] as IItemStack[];
