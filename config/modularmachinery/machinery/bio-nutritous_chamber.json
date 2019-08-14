@@ -1,4 +1,6 @@
 {
+	"registryname": "bionutritous_chamber",
+    "localizedname": "Bio-Nutritous Chamber",
     "parts": [
         {
             "x": 1,
@@ -85,7 +87,7 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "minecraft:farmland@6"
+                "minecraft:farmland@7"
             ]
         },
         {
@@ -309,7 +311,7 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "minecraft:farmland@6"
+                "minecraft:farmland@7"
             ]
         },
         {
@@ -356,7 +358,6 @@
             "x": -2,
             "y": 1,
             "z": 3,
-            "nbt": {"charges":"-1","reserve":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"thaumcraft:tilelampgrowth"},
             "elements": [
                 "thaumcraft:lamp_growth@12"
             ]
@@ -365,7 +366,6 @@
             "x": 0,
             "y": 1,
             "z": 3,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"botania:pylon"},
             "elements": [
                 "botania:pylon@1"
             ]
@@ -374,7 +374,6 @@
             "x": 2,
             "y": 1,
             "z": 3,
-            "nbt": {"charges":"-1","reserve":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"thaumcraft:tilelampgrowth"},
             "elements": [
                 "thaumcraft:lamp_growth@13"
             ]
@@ -584,7 +583,7 @@
             "y": -2,
             "z": 5,
             "elements": [
-                "minecraft:farmland@6"
+                "minecraft:farmland@7"
             ]
         },
         {
@@ -863,7 +862,6 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "nbt": {"charges":"-1","reserve":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"thaumcraft:tilelampgrowth"},
             "elements": [
                 "thaumcraft:lamp_growth@10"
             ]
@@ -912,7 +910,6 @@
             "x": 0,
             "y": 1,
             "z": 5,
-            "nbt": {"charges":"-1","reserve":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"thaumcraft:tilelampgrowth"},
             "elements": [
                 "thaumcraft:lamp_growth@11"
             ]
