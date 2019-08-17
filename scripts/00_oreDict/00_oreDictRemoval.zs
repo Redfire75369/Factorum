@@ -144,6 +144,7 @@ val arrayRemoveDictClathrate = [
 //SILK_SORTING: BEGIN@Clathrate
 
 //SILK_SORTING: END@Clathrate
+] as IItemStack[];
 
 val arrayRemoveDictDust = [
 //SILK_SORTING: BEGIN@Dust
