@@ -12,64 +12,90 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 -->
 ### Added
 - Mods: Advanced Lifting Methods; version 1.12.2-1.0.0
+- Mods: AE2 Wireless Fluid Terminal; version 1.12.2-1.0.1
+- Mods: AE2 Wireless Interface Terminal; version 1.12.2-1.0.0
 - Mods: Arcane Archives; version 0.2.0.3
 - Mods: Artifacts; version 1.12.2-1.1.0
+- Mods: Compacter; version 1.3.0.3-mc1.12.2
 - Mods: Dense Metals; version 1.12-1.2.0.21
 - Mods: Document Your Mod Mod; version 1.1.1
-- Mods: Incorporeal; version 1.1.4
+- Mods: Eternal Singularity; version 1.12.2-1.0.6
+- Mods: Incorporeal; version 1.2.1
 - Mods: InGame Info XML Addon - Blood Magic; version 1.2
 - Mods: InGame Info XML Addon - Deep Resonance; version 1.1
 - Mods: InGame Info XML Addon - Thaumcraft; version 1.0a
 - Mods: In-Game Wiki Mod; version 1.12.2-1.4.4-15-universal
 - Mods: LagGoggles; version FAT-1.12.2-4.8
 - Mods: MMD OreSpawn; version 1.12-3.3.1.172
-- Mods: Reliquary; version 1.12.2-1.3.4.786
+- Mods: Pressure Pipes; version 1.3.1.9-mc1.12.2
+- Mods: Reliquary; version 1.12.2-1.3.4.796
 - Mods: Soot; version 1.6
+- Mods: Stone Crafting Table; version 1.12.2-1.0.3
+- Mods: Teslafied; version 1.12-1.1.1
+- Mods: Tesslocators; version 1.1.0.15
+- Mods: WanionLib; version 1.12.2-2.2
+- Mods: Wireless Pattern Terminal; version 1.12.2-1.0.1
+- Mods: XenCraft; version 1.0.0.4
 - Scripts: Priorities
 - Scripts: Dusts, Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts, Small Dusts, Dirty Dusts, Clumps and Shards Entries
 
 ### Changed
-- Mod: [SBM] Baggable Mobs; version 1.12.2-1.0.0b18
-- Mods: Apotheosis; version 1.12.2-1.10.3
-- Mods: Astral Sorcery; version 1.12.2-1.10.20
-- Mods: Better Questing; version 3.5.308
-- Mods: Bookshelf; version 1.12.2-2.3.587
-- Mods: CC: Tweaked; version 1.12.2-1.84.0
-- Mods: Charset Lib; version 0.5.6.3
-- Mods: CodeChicken Lib; version 1.12.2-3.2.3.357-universal
-- Mods: Cyclic; version 1.12.2-1.19.14
-- Mods: Cyclops Core; version 1.12.2-1.5.0
-- Mods: Draconic Evolution; version 1.12.2-2.3.24.349-universal
-- Mods: Ender IO AE2 Conduits; version 1.12.2-5.0.50
-- Mods: Ender IO Base; version 1.12.2-5.0.50
-- Mods: Ender IO Conduits; version 1.12.2-5.0.50
-- Mods: Ender IO Endergy; version 1.12.2-5.0.50
-- Mods: Ender IO Forestry; version 1.12.2-5.0.50
-- Mods: Ender IO Machines; version 1.12.2-5.0.50
-- Mods: Ender IO OC Conduits; version 1.12.2-5.0.50
-- Mods: Ender IO TiC; version 1.12.2-5.0.50
-- Mods: Ender Storage; version 1.12.2-2.4.6.137-universal
-- Mods: Extended Crafting; version 1.12.2-1.5.5
-- Mods: ExtraBotany; version r1.1-55-fixed
-- Mods: Fission Based Neutron Collector; version 2.0.0
-- Mods: Forestry; version 1.12.2-5.8.2.394
-- Mods: Game Stages; version 1.12.2-2.0.116
-- Mods: Gas Conduits; version 1.12.2-1.2.2
-- Mods: Integrated Dynamics; version 1.12.2-1.0.18
-- Mods: Mekanism; version 1.12.2-9.8.1.383
-- Mods: Mekanism Generators; version 1.12.2-9.8.1.383
-- Mods: Mekanism Tools; version 1.12.2-9.8.1.383
-- Mods: MysticalLib; version 1.12.2-1.3.2
-- Mods: Mystic World; version 1.12.2-1.4.0
-- Mods: OpenScreens; version 1.12.2-1.0.1
-- Mods: OpenSecurity; version MC1.12.2-1.0-35
-- Mods: PneumaticCraft: Repressurized; version 1.12.2-0.11.5-371
-- Mods: RebornCore; version 1.12.2-3.15.5.467-universal
-- Mods: Roots; version 1.12.2-3.0.5
-- Mods: SimpleLogic Gates; version 0.5.6.3
-- Mods: SimpleLogic Wires; version 0.5.6.3
-- Mods: Tech Reborn; version 1.12.2-2.24.1.1017-universal
-- Mods: Thaumic Augmentation; version 1.12.2-1.1.5
+- Mod: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
+- Mods: Apotheosis; updated to 1.12.2-1.10.3
+- Mods: Astral Sorcery; updated to 1.12.2-1.10.20
+- Mods: Better Questing; updated to 3.5.309
+- Mods: Better Questing - Standard Expansion; updated to 3.4.164
+- Mods: Bewitchment; updated to 1.12.2-0.0.20.7
+- Mods: Bookshelf; updated to 1.12.2-2.3.588
+- Mods: Building Gadgets; updated to 2.7.2
+- Mods: CC: Tweaked; updated to 1.12.2-1.84.0
+- Mods: Charset Lib; updated to 0.5.6.3
+- Mods: CodeChicken Lib; updated to 1.12.2-3.2.3.357-universal
+- Mods: Cyclic; updated to 1.12.2-1.19.14
+- Mods: Cyclops Core; updated to 1.12.2-1.5.0
+- Mods: Draconic Evolution; updated to 1.12.2-2.3.24.349-universal
+- Mods: Ender IO AE2 Conduits; updated to 1.12.2-5.0.50
+- Mods: Ender IO Base; updated to 1.12.2-5.0.50
+- Mods: Ender IO Conduits; updated to 1.12.2-5.0.50
+- Mods: Ender IO Endergy; updated to 1.12.2-5.0.50
+- Mods: Ender IO Forestry; updated to 1.12.2-5.0.50
+- Mods: Ender IO Machines; updated to 1.12.2-5.0.50
+- Mods: Ender IO OC Conduits; updated to 1.12.2-5.0.50
+- Mods: Ender IO TiC; updated to 1.12.2-5.0.50
+- Mods: Ender Storage; updated to 1.12.2-2.4.6.137-universal
+- Mods: Extended Crafting; updated to 1.12.2-1.5.5
+- Mods: ExtraBotany; updated to r1.1-55-fixed
+- Mods: Fission Based Neutron Collector; updated to 2.0.0
+- Mods: Forestry; updated to 1.12.2-5.8.2.394
+- Mods: Game Stages; updated to 1.12.2-2.0.117
+- Mods: Gas Conduits; updated to 1.12.2-1.2.2
+- Mods: Hammer (Lib) Core; updated to 1.12.2-2.0.4.8
+- Mods: Integrated Dynamics; updated to 1.12.2-1.0.18
+- Mods: Mekanism; updated to 1.12.2-9.8.1.383
+- Mods: Mekanism Generators; updated to 1.12.2-9.8.1.383
+- Mods: Mekanism Tools; updated to 1.12.2-9.8.1.383
+- Mods: MysticalLib; updated to 1.12.2-1.3.2
+- Mods: Mystic World; updated to 1.12.2-1.4.1
+- Mods: NuclearCraft; updated to 2.18a
+- Mods: OpenLights; updated to MC1.12.2-0.1.0.6
+- Mods: OpenScreens; updated to 1.12.2-1.0.1
+- Mods: OpenSecurity; updated to MC1.12.2-1.0-35
+- Mods: PackagedAuto; updated to 1.12.2-1.0.2.7
+- Mods: PackagedAvaritia; updated to 1.12.2-1.0.1.4
+- Mods: PackagedExCrafting; updated to 1.12.2-1.0.1.1
+- Mods: PlusTiC; updated to 7.1.1.2
+- Mods: PneumaticCraft: Repressurized; updated to 1.12.2-0.11.5-371
+- Mods: RandomTweaks; updated to 1.12.2-2.7.1.0
+- Mods: RebornCore; updated to 1.12.2-3.15.5.469-universal
+- Mods: Roots; updated to 1.12.2-3.0.6
+- Mods: SimpleLogic Gates; updated to 0.5.6.3
+- Mods: SimpleLogic Wires; updated to 0.5.6.3
+- Mods: SimplyJetpacks2; updated to 1.12.2-2.2.13.66
+- Mods: Stellar Fluid Conduits; updated to 1.12.2-1.0.2a
+- Mods: Tech Reborn; updated to 1.12.2-2.24.1.1017-universal
+- Mods: Thaumic Additions: Reconstructed; updated to 1.12.2-19r
+- Mods: Thaumic Augmentation; updated to 1.12.2-1.1.7
+- Mods: Unlimited Chisel Works; updated to 0.2.4
 - Scripts: Aliased "Aluminum" to "Aluminium" and replaced according recipes
 - Scripts: Sorting of Ore Dictionary Additions and Replacements
 
