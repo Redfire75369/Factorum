@@ -12,7 +12,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 -->
 ### Added
 - Mods: Advanced Lifting Methods; version 1.12.2-1.0.0
-- Mods: Archane Archives; version 0.2.0.3
+- Mods: Arcane Archives; version 0.2.0.3
 - Mods: Artifacts; version 1.12.2-1.1.0
 - Mods: Dense Metals; version 1.12-1.2.0.21
 - Mods: Document Your Mod Mod; version 1.1.1
@@ -26,7 +26,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Reliquary; version 1.12.2-1.3.4.786
 - Mods: Soot; version 1.6
 - Scripts: Priorities
-- Scripts: Dusts, Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts and Small Dusts Entries
+- Scripts: Dusts, Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts, Small Dusts, Dirty Dusts, Clumps and Shards Entries
 
 ### Changed
 - Mod: [SBM] Baggable Mobs; version 1.12.2-1.0.0b18
@@ -71,7 +71,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Tech Reborn; version 1.12.2-2.24.1.1017-universal
 - Mods: Thaumic Augmentation; version 1.12.2-1.1.5
 - Scripts: Aliased "Aluminum" to "Aluminium" and replaced according recipes
-- Scripts: Lowercased all scripts to follow 1.11+ conventions
+- Scripts: Sorting of Ore Dictionary Additions and Replacements
 
 ### Removed
 - Mods: Mekanism JEI Fix
