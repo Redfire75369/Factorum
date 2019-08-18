@@ -1,5 +1,6 @@
 etc/*.class
 *.jar
+*.jar.meta
 *.sqlite
 *.log
 !crafttweaker.log
