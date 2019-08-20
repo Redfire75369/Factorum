@@ -144,7 +144,7 @@ val stringCluster = [
 ] as string[];
 
 for cluster in stringCluster {
-    hash[cluster] = oreDict["cluster" ~ cluster];
+    hashCluster[cluster] = oreDict["cluster" ~ cluster];
 }
 
 if (!<ore:clusterAluminum>.empty) {
