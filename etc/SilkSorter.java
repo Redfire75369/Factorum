@@ -77,9 +77,10 @@ public final class SilkSorter implements Runnable {
     
     static class DefaultTransformer implements Transformer {
         private static final Transformer DEFAULT = new NewLineTransformer();
+        private static final Transformer TAB = new TabTransformer();
         @Override
         public /*@NotNull*/ String transform(/*@NotNull*/ final String string, final boolean wasSorted) {
-            return DEFAULT.transform(string, wasSorted);
+            return TAB.transform(DEFAULT.transform(string, wasSorted), wasSorted);
         }
     }
     
@@ -113,6 +114,13 @@ public final class SilkSorter implements Runnable {
             }
             this.wasPrevSorted = wasSorted;
             return booleanTransformPass;
+        }
+    }
+    
+    static class TabTransformer implements Transformer {
+        @Override
+        public /*@NotNull*/ String transform(/*@NotNull*/ final String string, final boolean wasSorted) {
+            return string.replace("\t", "    ");
         }
     }
     
@@ -251,6 +259,11 @@ public final class SilkSorter implements Runnable {
         if (outputFile.exists() && !outputFile.delete()) {
             System.err.println("Unable to delete file; process aborted");
             return;
+        }
+        
+        if (this.transformers.size() == 0) {
+            System.out.println("No transformers found: substituting default value");
+            this.transformers.add(new DefaultTransformer());
         }
         
         System.out.println(" Writing file to " + outputFile);
