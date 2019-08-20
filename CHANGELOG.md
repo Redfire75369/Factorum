@@ -27,12 +27,15 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: In-Game Wiki Mod; version 1.12.2-1.4.4-15-universal
 - Mods: LagGoggles; version FAT-1.12.2-4.8
 - Mods: MMD OreSpawn; version 1.12-3.3.1.172
+- Mods: Not Enough Wands; version 1.12-1.8.1
 - Mods: Pressure Pipes; version 1.3.1.9-mc1.12.2
 - Mods: Reliquary; version 1.12.2-1.3.4.796
 - Mods: Soot; version 1.6
 - Mods: Stone Crafting Table; version 1.12.2-1.0.3
 - Mods: Teslafied; version 1.12-1.1.1
 - Mods: Tesslocators; version 1.1.0.15
+- Mods: Tiny Progressions; version 1.12.2-3.3.34-Release
+- Mods: Torchmaster; version 1.12.2-1.7.1.74
 - Mods: WanionLib; version 1.12.2-2.2
 - Mods: Wireless Pattern Terminal; version 1.12.2-1.0.1
 - Mods: XenCraft; version 1.0.0.4
