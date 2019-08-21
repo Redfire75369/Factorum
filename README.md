@@ -34,6 +34,14 @@ This is a skyblock modpack for 1.12.
 - Silicon Carbide Vapor to Molten Silicon Carbide
 - Steam to Condensate Water
 
+##### Heating
+- Liquid Meat to Cooked Meat Ingots
+- Water to Low Pressure Steam
+- Low Pressure Steam to Steam
+- Liquid Helium to Helium
+- Liquid Nitrogen to Nitrogen
+- Raw DNA to DNA
+
 #### Capacitor Materials
 - Tier 1: Redstone, Graphite
 - Tier 2: Sodium, Lithium
@@ -70,7 +78,7 @@ The Bio-Nutritous Chamber uses Mana to infuse the crops and increase the growth 
 #### Plate Compressor
 
 #### Lathe
-The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, yielding in 8 rods per ingot. Some rods are also too difficult to make in any other manner.
+The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, yielding in 8 rods per ingot. Some rods are also too strong to make in any other manner.
 - Inputs
   - Mechanical Power
 - Building Materials
