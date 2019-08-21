@@ -54,3 +54,7 @@ This is a skyblock modpack for 1.12.
   - NuclearCraft: Molten Salt Reactor Glass
   - Random PSIdeas: Dark Orange Psimetal Flow Plate
   - Tech Reborn: Fusion Coil
+  
+### Endgame
+An Ingot and a Gem, Together Breaking All Boundaries.
+Play the pack to find out more.
