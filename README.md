@@ -1,6 +1,7 @@
 # Factorum Ultimation: Expert
 ## This is a repository for the Modpack Factorum Ultimation.
 This is a skyblock modpack for 1.12.
+**Note:** This Pack is still a Work In Progress.
 ### Energy's Matter
 #### Resource Generation
 - You'll need a 2x2 section that is the reaction chamber, where a small amount of particles get used in a nuclear reaction.
