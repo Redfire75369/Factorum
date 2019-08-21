@@ -26,6 +26,7 @@ This is a skyblock modpack for 1.12.
 
 ### Modular Machinery
 #### Bio-Nutritous Chamber
+The Bio-Nutritous Chamber uses Mana to infuse the crops and increase the growth speed and yield immensely.
 - Inputs
   - Mana
 - Building Materials
@@ -41,6 +42,7 @@ This is a skyblock modpack for 1.12.
 #### Plate Compressor
 
 #### Lathe
+The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, yielding in 8 rods per ingot. Some rods are also too difficult to make in any other manner.
 - Inputs
   - Mechanical Power
 - Building Materials
