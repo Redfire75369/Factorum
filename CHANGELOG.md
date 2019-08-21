@@ -27,6 +27,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: In-Game Wiki Mod; version 1.12.2-1.4.4-15-universal
 - Mods: LagGoggles; version FAT-1.12.2-4.8
 - Mods: MMD OreSpawn; version 1.12-3.3.1.172
+- Mods: Netherending Ores; version 1.12.2-1.3-hotfix1
 - Mods: Not Enough Wands; version 1.12-1.8.1
 - Mods: Pressure Pipes; version 1.3.1.9-mc1.12.2
 - Mods: Reliquary; version 1.12.2-1.3.4.796
@@ -40,7 +41,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Wireless Pattern Terminal; version 1.12.2-1.0.1
 - Mods: XenCraft; version 1.0.0.4
 - Scripts: Priorities
-- Scripts: Dusts, Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts, Small Dusts, Dirty Dusts, Clumps and Shards Entries
+- Scripts: Dusts, Plates, Dense Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts, Small Dusts, Dirty Dusts, Clumps and Shards Entries
 
 ### Changed
 - Mod: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
@@ -101,6 +102,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Unlimited Chisel Works; updated to 0.2.4
 - Scripts: Aliased "Aluminum" to "Aluminium" and replaced according recipes
 - Scripts: Sorting of Ore Dictionary Additions and Replacements
+- Scripts: Adding OreDictionaries into Arrays that are added by JAOPCA
 
 ### Removed
 - Mods: Mekanism JEI Fix
@@ -117,7 +119,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Mystic World; version 1.12.2-1.3.2
 - Mods: Roots; version 1.12.2-3.0.4
 - Mods: WAWLA; version 1.12.2-2.5.273
-- Scripts: Plates list
+- Scripts: Plates
 - Scripts: Ingots and replacement recipes that account for new and updated mods
 - Scripts: Ingot unification script
 
