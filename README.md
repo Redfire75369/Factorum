@@ -24,6 +24,34 @@ This is a skyblock modpack for 1.12.
       - If Present, Augement the Efficiency of Cooling and Speed of the Reactor
     - Output pipe
 
+### Advanced Generators
+#### Heat Exchanger
+##### Cooling
+- Lava to Obsidian
+- Molten Clay to Terracotta
+- Heliumplasma to Helium
+- Hot Eutectic NaK Alloy to Eutectic NaK Alloy
+- Silicon Carbide Vapor to Molten Silicon Carbide
+- Steam to Condensate Water
+
+#### Capacitor Materials
+- Tier 1: Redstone, Graphite
+- Tier 2: Sodium, Lithium
+- Tier 3: Lithium Manganese Dioxide, Conductive Iron
+- Tier 4: Lumium, Superconductor
+- Tier 5: Modularium, Stellar
+- Tier 6: Crystaltine, Awakened Draconium
+- Tier 7: Ultimate, Infinity
+
+#### Turbine Materials
+- Tier 1: Iron, Bronze
+- Tier 2: Compressed Iron, Steel
+- Tier 3: HSLA Steel, Titanium
+- Tier 4: Tungstensteel, Osglosglas
+- Tier 5: Draconium, Stellar
+- Tier 6: Crystaltine, Awakened Draconium
+- Tier 7: Ultimate, Infinity
+
 ### Modular Machinery
 #### Bio-Nutritous Chamber
 The Bio-Nutritous Chamber uses Mana to infuse the crops and increase the growth speed and yield immensely.
