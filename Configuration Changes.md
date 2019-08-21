@@ -6,10 +6,6 @@
 - Add Turbine Fuels
 - Add Carbon Values
 - Add Heat Exchanger Recipes
-- Add Capacitor Materials
-	- Add Tier
-	- Add MJ Capacity
-	- Add Upgrade Kit
 - Add Turbine Materials
 	- Add Tier
 	- Add Inertia Multiplier
@@ -17,7 +13,6 @@
 	- Add Rotor
 	- Add Blade
 	- Add Upgrade Kit
-	- Registered Only If OreDict Present
 
 ## AE2Stuff/overrides
 
