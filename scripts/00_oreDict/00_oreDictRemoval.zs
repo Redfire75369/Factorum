@@ -53,7 +53,8 @@ val arrayRemoveDictOre = [
     <techreborn:ore:13>, 
     <techreborn:ore2>, 
     <techreborn:ore2:1>, 
-    <thaumcraft:ore_cinnabar>
+    <thaumcraft:ore_cinnabar>, 
+    <tp:wub_ore>
 //SILK_SORTING: END@Ore
 ] as IItemStack[];
 

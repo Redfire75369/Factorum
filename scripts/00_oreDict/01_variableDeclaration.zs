@@ -86,6 +86,7 @@ val stringOre = [
     "Tin",
     "Tungsten",
     "Uranium",
+    "Wub", 
     "Yellorite",
     "Yellorium"
 //SILK_SORTING: END@Ore
@@ -104,6 +105,10 @@ recipes.replaceAllOccurences(<tg:ore_shade>,hashOre["Shade"]);
 
 hashOre["StygianIron"].add(<woot:stygianironore>);
 recipes.replaceAllOccurences(<woot:stygianironore>,hashOre["StygianIron"]);
+
+hashOre["Wub"].add(<tp:wub_ore>);
+recipes.replaceAllOccurences(oreDict["oreWubOre"], hashOre["Wub"]);
+recipes.replaceAllOccurences(<tp:wub_ore>,hashOre["Wub"]);
 
 if (!<ore:oreAluminum>.empty) {
     for item in oreDict["oreAluminum"].items {
@@ -311,6 +316,7 @@ val stringIngot = [
     "UraniumOxide",
     "VibrantAlloy",
     "Void",
+    "Wub", 
     "Yellorium",
     "Zinc",
     "Zircaloy",
@@ -390,6 +396,7 @@ val stringGem = [
     "BoronNitride",
     "Carobbiite",
     "CertusQuartz",
+    "Charcoal", 
     "ChargedCertusQuartz",
     "Coal",
     "CrystalFlux",
@@ -420,6 +427,7 @@ val stringGem = [
     "Ruby",
     "Sapphire",
     "Villaumite",
+    "Wub", 
     "YellowGarnet"
 //SILK_SORTING: END@Gem
 ] as string[];
@@ -430,6 +438,11 @@ for gem in stringGem {
 hashGem["Aquamarine"].remove(<naturalpledge:resource:4>);
 hashGem["Aquamarine"].remove(<naturalpledge:resource:5>);
 hashGem["NjordAquamarine"].remove(<naturalpledge:resource:5>);
+
+hashGem["Charcoal"].add(<minecraft:coal:1>);
+recipes.replaceAllOccurences(oreDict["charcoal"], hashGem["Charcoal"]);
+recipes.replaceAllOccurences(oreDict["itemCharcoal"], hashGem["Charcoal"]);
+recipes.replaceAllOccurences(<minecraft:coal:1>, hashGem["Charcoal"]);
 
 hashGem["DiamondMana"].add(<botania:manaresource:2>);
 recipes.replaceAllOccurences(<botania:manaresource:2>,hashGem["DiamondMana"]);
@@ -1274,12 +1287,13 @@ val stringRod = [
     "Thorium",
     "Tin",
     "Tungsten",
+    "Wub", 
     "Uranium",
     "Yellorium"
 //SILK_SORTING: END@Stick
 ] as string[];
 for rod in stringRod {
-    hashRod[rod] = oreDict["plateDense" ~ rod];
+    hashRod[rod] = oreDict["rod" ~ rod];
 }
 
 hashRod["Aluminium"].add(<immersiveengineering:material:3>);
@@ -1378,6 +1392,7 @@ val stringGear = [
     "Vibrant",
     "Void",
     "Wood",
+    "Wub", 
     "Yellorium"
 //SILK_SORTING: END@Gear
 ] as string[];
@@ -1517,6 +1532,7 @@ val stringNugget = [
     "Titanium",
     "Tungsten",
     "Tungstensteel",
+    "Wub", 
     "Uranium",
     "VibrantAlloy",
     "Void",
@@ -1755,6 +1771,7 @@ val stringBlock = [
     "Void",
     "VoidEmpowered",
     "Wool",
+    "Wub", 
     "Yellorium",
     "YellowGarnet",
     "Zinc",
@@ -1935,6 +1952,7 @@ val stringDustTiny = [
     "Thorium",
     "Tin",
     "Tungsten",
+    "Wub", 
     "Uranium",
     "Yellorium"
 //SILK_SORTING: END@DustTiny
@@ -2029,6 +2047,7 @@ val stringDustSmall = [
     "Tin",
     "Titanium",
     "Tungsten",
+    "Wub", 
     "Uranium",
     "Uvarovite",
     "Wood",
