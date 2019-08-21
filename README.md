@@ -23,3 +23,34 @@ This is a skyblock modpack for 1.12.
     - Exhaust Pipes (0 to 4)
       - If Present, Augement the Efficiency of Cooling and Speed of the Reactor
     - Output pipe
+
+### Modular Machinery
+#### Bio-Nutritous Chamber
+- Inputs
+  - Mana
+- Building Materials
+  - Actually Additions: Greenhouse Glass
+  - Botania: Natura Pylon
+  - ContentTweaker: Biological Plating
+  - Minecraft: Farmland
+  - Mystical Agriculture: Growth Accelerator
+  - Reliquary: Lilypad of Fertility
+  - Thaumcraft: Lamp of Growth
+  - Tiny Progressions: Growth Crystal Tier 3
+
+#### Plate Compressor
+
+#### Lathe
+- Inputs
+  - Mechanical Power
+- Building Materials
+  - Avaritia: Neutronium Block
+  - Deep Mob Learning: Glitch Infused Block
+  - Embers: Mechanical Actuator
+  - Environmental Tech: Ionite & Ionite Stairs
+  - Immersive Cables: Refined Fiber Coil Block
+  - Immersive Engineering: Kinetic Dynamo
+  - Modular Machinery: Machine Gearbox
+  - NuclearCraft: Molten Salt Reactor Glass
+  - Random PSIdeas: Dark Orange Psimetal Flow Plate
+  - Tech Reborn: Fusion Coil
