@@ -62,6 +62,9 @@ This is a skyblock modpack for 1.12.
 - Tier 7: Ultimate, Infinity
 
 ### Modular Machinery
+#### Alloy Basin
+Mixes molten fluids into stronger, harder and more complex alloys
+
 #### Bio-Nutritous Chamber
 The Bio-Nutritous Chamber uses Mana to infuse the crops and increase the growth speed and yield immensely.
 - Inputs
@@ -76,7 +79,11 @@ The Bio-Nutritous Chamber uses Mana to infuse the crops and increase the growth 
   - Thaumcraft: Lamp of Growth
   - Tiny Progressions: Growth Crystal Tier 3
 
-#### Plate Compressor
+#### Cryogenic Vacuum Freezer
+Cools molten fluids to a low temperature for easy solidifying
+
+#### Induction Furnace
+Uses extremely high temperatures to melt items down into their molten forms
 
 #### Lathe
 The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, yielding in 8 rods per ingot. Some rods are also too strong to make in any other manner.
@@ -93,6 +100,8 @@ The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, 
   - NuclearCraft: Molten Salt Reactor Glass
   - Random PSIdeas: Dark Orange Psimetal Flow Plate
   - Tech Reborn: Fusion Coil
+  
+#### Plate Compressor
   
 ### Endgame
 An Ingot and a Gem, Together Breaking All Boundaries.
