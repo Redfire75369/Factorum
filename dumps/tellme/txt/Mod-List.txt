@@ -61,6 +61,7 @@
 | colorfulhealthbar                 | Colorful Health Bar                          |
 | commoncapabilities                | CommonCapabilities                           |
 | compactdrawers                    | Compact Drawers                              |
+| compacter                         | Compacter                                    |
 | compactmachines3                  | Compact Machines 3                           |
 | compactstorage                    | CompactStorage                               |
 | complex-logic                     | Complex Logic                                |
@@ -113,6 +114,7 @@
 | engineersdoors                    | Engineer's Doors                             |
 | engineersworkshop                 | Engineer's Workshop Reborn                   |
 | environmentaltech                 | Environmental Tech                           |
+| eternalsingularity                | Eternal Singularity                          |
 | etlunar                           | ET Lunar                                     |
 | extendedcrafting                  | Extended Crafting                            |
 | extrabees                         | Binnie's Extra Bees                          |
@@ -172,6 +174,7 @@
 | inventorytweaks                   | Inventory Tweaks                             |
 | inworldcrafting                   | InWorldCrafting                              |
 | ironchest                         | Iron Chest                                   |
+| itemfilters                       | Item Filters                                 |
 | itemstages                        | Item Stages                                  |
 | jade                              | Jade                                         |
 | jaopca                            | JAOPCA                                       |
@@ -208,6 +211,7 @@
 | modulardiversity                  | Modular Diversity                            |
 | modularmachinery                  | Modular Machinery                            |
 | modularmagic                      | Modular Magic                                |
+| moreoverlays                      | MoreOverlays                                 |
 | morpheus                          | Morpheus                                     |
 | morphtool                         | Morph-o-Tool                                 |
 | mousetweaks                       | Mouse Tweaks                                 |
@@ -224,6 +228,7 @@
 | netherendingores                  | Netherending Ores                            |
 | netherportalfix                   | NetherPortalFix                              |
 | nonausea                          | NoNausea                                     |
+| notenoughwands                    | Not Enough Wands                             |
 | nuclearcraft                      | NuclearCraft                                 |
 | ocsensors                         | OpenComputers Sensors                        |
 | ocxnetdriver                      | OpenComputers Xnet Driver                    |
@@ -250,6 +255,7 @@
 | plethora-core                     | Plethora Core                                |
 | plustic                           | PlusTiC                                      |
 | pneumaticcraft                    | PneumaticCraft: Repressurized                |
+| pressure                          | Pressure Pipes                               |
 | preston                           | Preston                                      |
 | psi                               | Psi                                          |
 | psipherals                        | Psionic Peripherals                          |
@@ -272,6 +278,7 @@
 | rpintegration                     | RandomPatches Integration                    |
 | rpsideas                          | Random PSIdeas                               |
 | schematica                        | Schematica                                   |
+| sct                               | Stone Crafting Table                         |
 | simple_trophies                   | Simple Trophies                              |
 | simplyjetpacks                    | Simply Jetpacks 2                            |
 | sonarcore                         | SonarCore                                    |
@@ -294,6 +301,8 @@
 | tesla                             | TESLA                                        |
 | teslacorelib                      | Tesla Core Lib                               |
 | teslacorelib_registries           | Tesla Core Lib Registries                    |
+| teslafied                         | Teslafied                                    |
+| tesslocator                       | Tesslocator                                  |
 | texfix                            | TextureFix                                   |
 | tg                                | Thaumic Gadgets                              |
 | thaumadditions                    | Thaumic Additions: Reconstructed             |
@@ -321,7 +330,9 @@
 | tinkerstages                      | Tinker Stages                                |
 | tinkertoolleveling                | Tinkers Tool Leveling                        |
 | tipthescales                      | TipTheScales                                 |
+| torchmaster                       | TorchMaster                                  |
 | torohealthmod                     | ToroHealth Damage Indicators                 |
+| tp                                | Tiny Progressions                            |
 | trm                               | Industrial Magic - TechReborn Crossover      |
 | tweakersconstruct                 | Tweakers Construct                           |
 | universalmodifiers                | Universal Modifiers                          |
@@ -334,13 +345,18 @@
 | waila                             | Waila                                        |
 | wailaharvestability               | Waila Harvestability                         |
 | wailastages                       | Waila Stages                                 |
+| wanionlib                         | WanionLib                                    |
 | wasaila                           | What Agricraft Stats Am I Looking At         |
 | wawla                             | What Are We Looking At                       |
 | wct                               | Wireless Crafting Terminal 2                 |
+| wft                               | Wireless Fluid Terminal                      |
 | whoops                            | Whoops                                       |
+| wit                               | Wireless Interface Terminal                  |
 | witherskelefix                    | Wither Skeleton Tweaks                       |
 | woot                              | Woot                                         |
+| wpt                               | Wireless Pattern Terminal                    |
 | wrapup                            | WrapUp                                       |
+| xencraft                          | XenCraft                                     |
 | xnet                              | XNet                                         |
 | xreliquary                        | Reliquary                                    |
 | xtones                            | Xtones                                       |

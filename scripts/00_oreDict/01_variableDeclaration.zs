@@ -371,7 +371,6 @@ recipes.replaceAllOccurences(<woot:stygianironingot>,hashIngot["StygianIron"]);
 
 hashIngot["Thundersteel"].remove(<naturalpledge:resource:1>);
 
-// Add compatibility with mods that use the other spelling of aluminium
 if (!<ore:ingotAluminum>.empty) {
     for item in oreDict["ingotAluminum"].items {
         hashIngot["Aluminium"].add(item);
