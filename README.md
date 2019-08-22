@@ -2,10 +2,19 @@
 ## This is a repository for the Modpack Factorum Ultimation.
 This is a skyblock modpack for 1.12.
 **Note:** This Pack is still a Work In Progress.
+### Lore
+  The Year is 3000. A battle of epic proportions between the Earthen and the Martian Colonies of Minecrafters. This war shatttered the crusts of both planets leaving them desolate and with heat seeping out the core, there wasn't much time. The explosion was iminent. The Colonies were almost omnipotent. The only thing preventing complete omnipotence was the limit of space and that was why the war started. A war for liveable space. You had gotten warning of how soon the impending soom was and now got your home ready to try to survive the explosion. T-Minus 3, T-Minus 2, T-Minus 1. You watched helplessly as both Earth and Mars exploded with the force of a supernova. 
+  You were the only survivor. Luckily, some of the technology in your house survived the explosion and now you had the chance to rebuild the world and society. You were thankful the most advanced pieces of technology, the Molecular Assembler and the Reactor remained mostly intact. However, they still needed some patching up before they would be able to work and allow you to continue towards your goal. First, you have to find a way to completely repair the two pieces of technology.
+
+### Endgame
+An Ingot and a Gem, Together Breaking All Boundaries.
+Play the pack to find out more.
+
+## Mod Information
 ### Energy's Matter
 #### Resource Generation
-- You'll need a 2x2 section that is the reaction chamber, where a small amount of particles get used in a nuclear reaction.
-- Those particles are added to the chamber with a particle injector, which needs power to work and particles reserves.
+- A 2x2 section will be used as the reaction chamber, where a small amount of particles get used in a nuclear reaction.
+- The particles are added to the chamber with a particle injector, which passively injects particles from the surroundings into the chamber for a small inout of power or a Particle Storage, which injects large quantities of particles in at once but requires an external source of particles.
 - The generator outputs one item to a nearby inventory (up, down, clockwise).
 - The controller requires a molecular schema so that it can combine the items. That molecular schema needs to be created from another machine and consumes a certain quantity of items according to the difficulty settings and the complexity of it.
 - Fusion Reactor
@@ -36,7 +45,7 @@ This is a skyblock modpack for 1.12.
 - Steam to Condensate Water
 
 ##### Heating
-- Liquid Meat to Cooked Meat Ingots
+- Liquid Meat to Cooked Meat Ingot
 - Water to Low Pressure Steam
 - Low Pressure Steam to Steam
 - Liquid Helium to Helium
@@ -61,7 +70,12 @@ This is a skyblock modpack for 1.12.
 - Tier 6: Crystaltine, Awakened Draconium
 - Tier 7: Ultimate, Infinity
 
+
 ### Modular Machinery
+**Note:** More Modular Machines are already planned but are spoilers for the later portion of the pack.
+#### Alchemical Transmutator
+Uses the power of alchemy to break the laws of physics
+
 #### Alloy Basin
 Mixes molten fluids into stronger, harder and more complex alloys
 
@@ -79,11 +93,13 @@ The Bio-Nutritous Chamber uses Mana to infuse the crops and increase the growth 
   - Thaumcraft: Lamp of Growth
   - Tiny Progressions: Growth Crystal Tier 3
 
-#### Cryogenic Vacuum Freezer
-Cools molten fluids to a low temperature for easy solidifying
+#### Blast Chiller
+Uses a vacuum to rapidly cool down molten fluids to a low temperature
+
+#### Cryogenic Freezer
 
 #### Induction Furnace
-Uses extremely high temperatures to melt items down into their molten forms
+Uses the heat of a star to melt things down to their molten forms
 
 #### Lathe
 The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, yielding in 8 rods per ingot. Some rods are also too strong to make in any other manner.
@@ -102,7 +118,14 @@ The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, 
   - Tech Reborn: Fusion Coil
   
 #### Plate Compressor
-  
-### Endgame
-An Ingot and a Gem, Together Breaking All Boundaries.
-Play the pack to find out more.
+
+#### Pyrolytic Foundry
+
+#### Tectonic Atomiser
+
+#### Thermoderiative Seperator
+
+#### Zephyrean Centrifuge
+
+
+
