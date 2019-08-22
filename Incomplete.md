@@ -10,6 +10,8 @@
 - IOreDictEntry:
 	- blockChorus to integrateddynamics:crystallised_chorus_block
 	- blockMenril to integrateddynamics:crystallised_menril_block
+- IItemStack:
+	- Chaos Ingot
 - ILiquidStack:
 	- Seawater/ Salt Water
 
@@ -19,7 +21,7 @@
 
 ## Definition Changes
 - ILiquidDefinition: 
-	- Molten Clay: Temperature:700 to 1350
+	- Molten Clay: Temperature: 700 to 1350
 	- Heliumplasma: Temperature: 300 to 15000
 	- Silicon Carbide Vapor: Temperature: 1000 to 3000
 
