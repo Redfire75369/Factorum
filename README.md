@@ -3,12 +3,12 @@
 This is a skyblock modpack for 1.12.
 **Note:** This Pack is still a Work In Progress.
 ### Lore
-  The Year is 3000. A battle of epic proportions between the Earthen and the Martian Colonies of Minecrafters. This war shatttered the crusts of both planets leaving them desolate and with heat seeping out the core, there wasn't much time. The explosion was iminent. The Colonies were almost omnipotent. The only thing preventing complete omnipotence was the limit of space and that was why the war started. A war for liveable space. You had gotten warning of how soon the impending soom was and now got your home ready to try to survive the explosion. T-Minus 3, T-Minus 2, T-Minus 1. You watched helplessly as both Earth and Mars exploded with the force of a supernova. 
-  You were the only survivor. Luckily, some of the technology in your house survived the explosion and now you had the chance to rebuild the world and society. You were thankful the most advanced pieces of technology, the Molecular Assembler and the Reactor remained mostly intact. However, they still needed some patching up before they would be able to work and allow you to continue towards your goal. First, you have to find a way to completely repair the two pieces of technology.
+The Year is 3000. A battle of epic proportions between the Earthen and the Martian Colonies of Minecrafters. This war shatttered the crusts of both planets leaving them desolate and with heat seeping out the core, there wasn't much time. The explosion was iminent. The Colonies were almost omnipotent. The only thing preventing complete omnipotence was the limit of space and that was why the war started. A war for liveable space. You had gotten warning of how soon the impending soom was and now got your home ready to try to survive the explosion. T-Minus 3, T-Minus 2, T-Minus 1. You watched helplessly as both Earth and Mars exploded with the force of a supernova. 
+You were the only survivor. Luckily, some of the technology in your house survived the explosion and now you had the chance to rebuild the world and society. You were thankful the most advanced pieces of technology, the Molecular Assembler and the Reactor remained mostly intact. However, they still needed some patching up before they would be able to work and allow you to continue towards your goal. First, you have to find a way to completely repair the two pieces of technology.
 
 ### Endgame
-An Ingot and a Gem, Together Breaking All Boundaries.
-Play the pack to find out more.
+The Ingot that transcends reality itself and the Gem that shatters the fabric of the universe, combined forming something that breaks all Boundaries.
+Play the Pack to find out more
 
 ## Mod Information
 ### Energy's Matter
@@ -84,14 +84,15 @@ The Bio-Nutritous Chamber uses Mana to infuse the crops and increase the growth 
 - Inputs
   - Mana
 - Building Materials
-  - Actually Additions: Greenhouse Glass
-  - Botania: Natura Pylon
-  - ContentTweaker: Biological Plating
-  - Minecraft: Farmland
-  - Mystical Agriculture: Growth Accelerator
-  - Reliquary: Lilypad of Fertility
-  - Thaumcraft: Lamp of Growth
-  - Tiny Progressions: Growth Crystal Tier 3
+  - Botania: Natura Pylon * 1
+  - ContentTweaker: Biological Plating * 20
+  - Glassential: Luminous Glass * 88
+  - Minecraft: Farmland * 12
+  - Minecraft: Water * 1
+  - Mystical Agriculture: Growth Accelerator * 8
+  - Reliquary: Lilypad of Fertility * 1
+  - Thaumcraft: Lamp of Growth * 4
+  - Tiny Progressions: Growth Crystal Tier 3 * 4
 
 #### Blast Chiller
 Uses a vacuum to rapidly cool down molten fluids to a low temperature
@@ -106,18 +107,17 @@ The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, 
 - Inputs
   - Mechanical Power
 - Building Materials
-  - Avaritia: Neutronium Block
-  - Deep Mob Learning: Glitch Infused Block
-  - Embers: Mechanical Actuator
-  - Environmental Tech: Ionite & Ionite Stairs
-  - Immersive Cables: Refined Fiber Coil Block
-  - Immersive Engineering: Kinetic Dynamo
-  - Modular Machinery: Machine Gearbox
-  - NuclearCraft: Molten Salt Reactor Glass
-  - Random PSIdeas: Dark Orange Psimetal Flow Plate
-  - Tech Reborn: Fusion Coil
-  
-#### Plate Compressor
+  - Avaritia: Neutronium Block * 9
+  - Deep Mob Learning: Glitch Infused Block * 2
+  - Embers: Mechanical Actuator * 2
+  - Environmental Tech: Ionite * 13
+  - Environmental Tech: Ionite Stairs * 12
+  - Immersive Cables: Refined Fiber Coil Block * 4
+  - Immersive Engineering: Kinetic Dynamo * 2
+  - Modular Machinery: Machine Gearbox * 2
+  - NuclearCraft: Molten Salt Reactor Glass * 6
+  - Random PSIdeas: Dark Orange Psimetal Flow Plate * 50
+  - Tech Reborn: Fusion Coil * 4
 
 #### Pyrolytic Foundry
 
@@ -127,5 +127,5 @@ The Lathe use Mechanical Power and a motor to cut and shape an ingot into rods, 
 
 #### Zephyrean Centrifuge
 
-
+#### Z-Nullifier
 
