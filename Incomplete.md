@@ -7,23 +7,29 @@
 - Applied Energistics 2: Vibration Chamber
 
 ## Additions?
-- IOreDictEntry: blockChorus to integrateddynamics:crystallised_chorus_block
-- IOreDictEntry: blockMenril to integrateddynamics:crystallised_menril_block
-- ILiquidStack/ILiquidDefinition: Seawater/ Salt Water
+- IOreDictEntry:
+	- blockChorus to integrateddynamics:crystallised_chorus_block
+	- blockMenril to integrateddynamics:crystallised_menril_block
+- ILiquidStack:
+	- Seawater/ Salt Water
 
 ## Removals?
-- IItemStack: bewitchment:silver_block (And Chiseled Forms)
+- IItemStack: 
+	- bewitchment:silver_block (And Chiseled Forms)
 
-## ILiquidDefinition Changes
-- Molten Clay: Temperature:700 to 1350
-- Heliumplasma: Temperature: 300 to 15000
-- Silicon Carbide Vapor: Temperature: 1000 to 3000
+## Definition Changes
+- ILiquidDefinition: 
+	- Molten Clay: Temperature:700 to 1350
+	- Heliumplasma: Temperature: 300 to 15000
+	- Silicon Carbide Vapor: Temperature: 1000 to 3000
 
 ## Choices
-- IItemStack: immersiveengineering:material:6 & thermalfoundation:material:802
-- IItemStack: immersiveengineering:stone_decoration:3 & thermalfoundation:storage_resource:1
-- IOreDictEntry: dustSulfur & dustSulphur
-- IOreDictEntry: dustNiter & dustSaltpeter
+- IItemStack:
+	- immersiveengineering:material:6 & thermalfoundation:material:802
+	- immersiveengineering:stone_decoration:3 & thermalfoundation:storage_resource:1
+- IOreDictEntry:
+	- dustSulfur & dustSulphur
+	- dustNiter & dustSaltpeter
 
 ## Recipe Changes
 - Actually Additions Basic Machines require Actually Additions Casing/ Wood Casing
