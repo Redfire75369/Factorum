@@ -1,4 +1,6 @@
 {
+	"registryname": "lathe",
+    "localizedname": "Lathe",
     "parts": [
         {
             "x": 2,
@@ -188,7 +190,6 @@
             "x": -5,
             "y": 0,
             "z": 3,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"facing":"4","id":"immersiveengineering:dynamo"},
             "elements": [
                 "immersiveengineering:metal_device1@2"
             ]
@@ -213,7 +214,6 @@
             "x": -2,
             "y": 0,
             "z": 3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@3"
             ]
@@ -262,7 +262,6 @@
             "x": -4,
             "y": 1,
             "z": 3,
-            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","multiblockData":{"comparatorSignal":"0","coolingRate":"0.0d","Heat":"0L","efficiency":"0.0d","computerActivated":"0b","Capacity":"25000L","isReactorOn":"0b","maxEfficiency":"0.0d","cooling":"0.0d","maxHeatMult":"0.0d","heating":"0.0d","heatMult":"0.0d"},"radiationLevel":"0.0d","isReactorOn":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:salt_fission_glass"},
             "elements": [
                 "nuclearcraft:salt_fission_glass@0"
             ]
@@ -279,7 +278,6 @@
             "x": -3,
             "y": 1,
             "z": 3,
-            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","isReactorOn":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:salt_fission_glass"},
             "elements": [
                 "nuclearcraft:salt_fission_glass@0"
             ]
@@ -432,7 +430,6 @@
             "x": -2,
             "y": 2,
             "z": 3,
-            "nbt": {"mech_power0":"0.0d","mech_power2":"0.0d","mech_power1":"0.0d","gear1":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"gear2":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"id":"embers:tile_entity_mech_actuator","gear0":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"gear5":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"mech_power4":"0.0d","mech_power3":"0.0d","gear3":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"gear4":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"mech_power5":"0.0d"},
             "elements": [
                 "embers:mech_actuator@1"
             ]
@@ -601,7 +598,6 @@
             "x": -5,
             "y": 0,
             "z": 1,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"facing":"4","id":"immersiveengineering:dynamo"},
             "elements": [
                 "immersiveengineering:metal_device1@2"
             ]
@@ -610,7 +606,6 @@
             "x": -4,
             "y": 2,
             "z": 2,
-            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","multiblockData":{"comparatorSignal":"0","coolingRate":"0.0d","Heat":"0L","efficiency":"0.0d","computerActivated":"0b","Capacity":"25000L","isReactorOn":"0b","maxEfficiency":"0.0d","cooling":"0.0d","maxHeatMult":"0.0d","heating":"0.0d","heatMult":"0.0d"},"radiationLevel":"0.0d","isReactorOn":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:salt_fission_glass"},
             "elements": [
                 "nuclearcraft:salt_fission_glass@0"
             ]
@@ -627,7 +622,6 @@
             "x": -3,
             "y": 2,
             "z": 2,
-            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","isReactorOn":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:salt_fission_glass"},
             "elements": [
                 "nuclearcraft:salt_fission_glass@0"
             ]
@@ -652,7 +646,6 @@
             "x": -2,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@3"
             ]
@@ -717,7 +710,6 @@
             "x": -4,
             "y": 1,
             "z": 1,
-            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","multiblockData":{"comparatorSignal":"0","coolingRate":"0.0d","Heat":"0L","efficiency":"0.0d","computerActivated":"0b","Capacity":"25000L","isReactorOn":"0b","maxEfficiency":"0.0d","cooling":"0.0d","maxHeatMult":"0.0d","heating":"0.0d","heatMult":"0.0d"},"radiationLevel":"0.0d","isReactorOn":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:salt_fission_glass"},
             "elements": [
                 "nuclearcraft:salt_fission_glass@0"
             ]
@@ -726,7 +718,6 @@
             "x": -3,
             "y": 1,
             "z": 1,
-            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","isReactorOn":"0b","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:salt_fission_glass"},
             "elements": [
                 "nuclearcraft:salt_fission_glass@0"
             ]
@@ -871,7 +862,6 @@
             "x": -2,
             "y": 2,
             "z": 1,
-            "nbt": {"mech_power0":"0.0d","mech_power2":"0.0d","mech_power1":"0.0d","gear1":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"gear2":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"id":"embers:tile_entity_mech_actuator","gear0":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"gear5":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"mech_power4":"0.0d","mech_power3":"0.0d","gear3":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"gear4":{"id":"minecraft:air","Count":"2b","Damage":"15s"},"mech_power5":"0.0d"},
             "elements": [
                 "embers:mech_actuator@1"
             ]
