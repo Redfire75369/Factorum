@@ -275,7 +275,8 @@ val stringIngot = [
     "Orichalcos", 
     "Osglosglas",
     "Osmiridium",
-    "Osmium",
+    "Osmium", 
+	"Photonium", 
     "Pigiron",
     "Platinum",
     "Prudentium",
@@ -285,6 +286,7 @@ val stringIngot = [
     "RefinedGlowstone",
     "RefinedIron",
     "RefinedObsidian",
+    "ReinforcedObsidian", 
     "Shade",
     "Shibuichi",
     "SiCSiCCMC",
@@ -321,9 +323,11 @@ val stringIngot = [
     "Tungstensteel",
     "Ultimate",
     "Unstable",
+    "UnsweetenedChocolate", 
     "Uranium",
     "UraniumOxide",
     "VibrantAlloy",
+    "VividAlloy", 
     "Void",
     "Wub", 
     "Xen", 
@@ -386,6 +390,10 @@ hashIngot["StygianIron"].add(<woot:stygianironingot>);
 recipes.replaceAllOccurences(<woot:stygianironingot>,hashIngot["StygianIron"]);
 
 hashIngot["Thundersteel"].remove(<naturalpledge:resource:1>);
+
+hashIngot["VoidMetal"].add(<thaumcraft:ingot:1>);
+recipes.replaceAllOccurences(oreDict["ingotVoid"], hashIngot["VoidMetal"]);
+recipes.replaceAllOccurences(<thaumcraft:ingot:1>, hashIngot["VoidMetal"]);
 
 if (!<ore:ingotAluminum>.empty) {
     for item in oreDict["ingotAluminum"].items {
