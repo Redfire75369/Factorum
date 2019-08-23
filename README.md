@@ -3,7 +3,7 @@
 This is a skyblock modpack for 1.12.
 **Note:** This Pack is still a Work In Progress.
 ### Lore
-The Year is 3000. A battle of epic proportions between the Earthen and the Martian Colonies of Minecrafters. This war shatttered the crusts of both planets leaving them desolate and with heat seeping out the core, there wasn't much time. The explosion was imminent. The Colonies were almost omnipotent. The only thing preventing complete omnipotence was the limit of space and that was why the war started. A war for liveable space. You had gotten warning of how soon the impending doom was and now got your home ready to try to survive the explosion. T-Minus 3, T-Minus 2, T-Minus 1. You watched helplessly as both Earth and Mars exploded with the force of a supernova. 
+The Year is 3000. A battle of epic proportions between the Earthen and the Martian Colonies of Minecrafters. This war shattered the crusts of both planets leaving them desolate and with heat seeping out the core, there wasn't much time. The explosion was imminent. The Colonies were almost omnipotent. The only thing preventing complete omnipotence was the limit of space and that was why the war started. A war for livable space. You had gotten warning of how soon the impending doom was and now got your home ready to try to survive the explosion. T-Minus 3, T-Minus 2, T-Minus 1. You watched helplessly as both Earth and Mars exploded with the force of a supernova. 
 You were the only survivor. Luckily, some of the technology in your house survived the explosion and now you had the chance to rebuild the world and society. You were thankful the most advanced pieces of technology, the Molecular Assembler and the Reactor remained mostly intact. However, they still needed some patching up before they would be able to work and allow you to continue towards your goal. First, you have to find a way to completely repair the two pieces of technology.
 
 ### Endgame
@@ -14,7 +14,7 @@ Play the Pack to find out more
 ### Energy's Matter
 #### Resource Generation
 - A 2x2 section will be used as the reaction chamber, where a small amount of particles get used in a nuclear reaction.
-- The particles are added to the chamber with a particle injector, which passively injects particles from the surroundings into the chamber for a small inout of power or a Particle Storage, which injects large quantities of particles in at once but requires an external source of particles.
+- The particles are added to the chamber with a particle injector, which passively injects particles from the surroundings into the chamber for a small input of power or a Particle Storage, which injects large quantities of particles in at once but requires an external source of particles.
 - The generator outputs one item to a nearby inventory (up, down, clockwise).
 - The controller requires a molecular schema so that it can combine the items. That molecular schema needs to be created from another machine and consumes a certain quantity of items according to the difficulty settings and the complexity of it.
 - Fusion Reactor
