@@ -53,22 +53,22 @@ Play the Pack to find out more
 - Raw DNA to DNA
 
 #### Capacitor Materials
-- Tier 1: Redstone, Graphite
-- Tier 2: Sodium, Lithium
-- Tier 3: Lithium Manganese Dioxide, Conductive Iron
+- Tier 1: Graphite, Redstone
+- Tier 2: Lithium, Sodium
+- Tier 3: Conductive Iron, Lithium Manganese Dioxide
 - Tier 4: Lumium, Superconductor
 - Tier 5: Modularium, Stellar
-- Tier 6: Crystaltine, Awakened Draconium
-- Tier 7: Ultimate, Infinity
+- Tier 6: Awakened Draconium, Electronium
+- Tier 7: Infinity, Ultimate
 
 #### Turbine Materials
-- Tier 1: Iron, Bronze
+- Tier 1: Bronze, Iron
 - Tier 2: Compressed Iron, Steel
 - Tier 3: HSLA Steel, Titanium
-- Tier 4: Tungstensteel, Osglosglas
+- Tier 4: Osgloglas, Tungstensteel
 - Tier 5: Draconium, Stellar
-- Tier 6: Crystaltine, Awakened Draconium
-- Tier 7: Ultimate, Infinity
+- Tier 6: Awakened Draconium, ProtoNeutronium
+- Tier 7: Infinity, Ultimate
 
 
 ### Modular Machinery
