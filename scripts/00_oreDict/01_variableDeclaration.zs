@@ -6,7 +6,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 /* Declaring Other Variables */
-global sand = <minecraft:sand> as IItemStack;
+global sand as IItemStack = <minecraft:sand> as IItemStack;
 
 /* Assigning a HashMap for each Ore Dictionaries */
 
