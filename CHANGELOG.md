@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ### Added
+- Mods: Avaritia's Complement;version 1.12.2-1.2a
 - Mods: Advanced Lifting Methods; version 1.12.2-1.0.0
 - Mods: AE2 Wireless Fluid Terminal; version 1.12.2-1.0.1
 - Mods: AE2 Wireless Interface Terminal; version 1.12.2-1.0.0
@@ -20,6 +21,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Dense Metals; version 1.12-1.2.0.21
 - Mods: Document Your Mod Mod; version 1.1.1
 - Mods: Eternal Singularity; version 1.12.2-1.0.6
+- Mods: Extra Anvils; version 0.8b
 - Mods: Incorporeal; version 1.2.1
 - Mods: InGame Info XML Addon - Blood Magic; version 1.2
 - Mods: InGame Info XML Addon - Deep Resonance; version 1.1
@@ -105,6 +107,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Adding OreDictionaries into Arrays that are added by JAOPCA
 
 ### Removed
+- Mods: Avaritia Tweaks
 - Mods: Mekanism JEI Fix
 - Mods: OpenBlocks Elevators
 

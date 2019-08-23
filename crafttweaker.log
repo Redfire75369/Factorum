@@ -4,7 +4,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: 00_oreDict\00_oreDictRemoval.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker]: 00_oreDict\01_variableDeclaration.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 16ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
 [PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_oreDictRemoval.zs}, enabling debugmode
@@ -19,19 +19,28 @@
 [INITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_oreDictRemoval.zs}, enabling debugmode
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: 00_oreDict\00_oreDictRemoval.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_variableDeclaration.zs}
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-1:crafttweaker]: 00_oreDict\01_variableDeclaration.zs}: JVMCFRE113 unexpected EOF; class=crafttweaker/api/item/IItemStackAny, offset=0
-java.lang.ClassFormatError: JVMCFRE113 unexpected EOF; class=crafttweaker/api/item/IItemStackAny, offset=0
-	at java.lang.ClassLoader.defineClassImpl(Native Method)
-	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:391)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:360)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:315)
-	at stanhebben.zenscript.ZenModule$MyClassLoader.loadClass(ZenModule.java:419)
-	at 00_oreDict\01_variableDeclaration.<clinit>(00_oreDict\01_variableDeclaration.zs)
+[INITIALIZATION][CLIENT][INFO] Removing Charged Certus Quartz Ore from ore dictionary entry oreCertusQuartz
+[INITIALIZATION][CLIENT][INFO] Adding Light Ore to ore dictionary entry oreLight
+[INITIALIZATION][CLIENT][INFO] Adding Shaded Ore to ore dictionary entry oreShade
+[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Ore to ore dictionary entry oreStygianIron
+[INITIALIZATION][CLIENT][INFO] Adding Wub Wub Ore to ore dictionary entry oreWub
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Bauxite Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Native Aluminium Cluster to ore dictionary entry clusterAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Alkimium Ingot to ore dictionary entry ingotAlkimium
+[INITIALIZATION][CLIENT][INFO] Adding Dark Soularium Ingot to ore dictionary entry ingotDarkSoularium
+[INITIALIZATION][CLIENT][INFO] Adding Ender Ingot to ore dictionary entry ingotEnder
+[INITIALIZATION][CLIENT][INFO] Adding Enhanced Ender Ingot to ore dictionary entry ingotEnderEnhanced
+[INITIALIZATION][CLIENT][INFO] Adding Gaia Spirit Ingot to ore dictionary entry ingotGaia
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-1:crafttweaker]: 00_oreDict\01_variableDeclaration.zs}: null
+java.lang.NullPointerException
+	at 00_oreDict\01_variableDeclaration.__script__(00_oreDict\01_variableDeclaration.zs:351)
 	at __ZenMain__.run(00_oreDict\01_variableDeclaration)
 	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
 	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
 	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1822_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1828_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
 	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
@@ -49,40 +58,1173 @@ java.lang.ClassFormatError: JVMCFRE113 unexpected EOF; class=crafttweaker/api/it
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}: 00_oreDict\01_variableDeclaration (initialization failure)
-java.lang.NoClassDefFoundError: 00_oreDict\01_variableDeclaration (initialization failure)
-	at java.lang.J9VMInternals.initializationAlreadyFailed(J9VMInternals.java:98)
-	at 00_oreDict\02_recipeRemoval.__script__(00_oreDict\02_recipeRemoval.zs:9)
-	at __ZenMain__.run(00_oreDict\02_recipeRemoval)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
-	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1822_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:629)
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742)
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-Caused by: java.lang.ClassFormatError: JVMCFRE113 unexpected EOF; class=crafttweaker/api/item/IItemStackAny, offset=0
-	at java.lang.ClassLoader.defineClassImpl(Native Method)
-	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:391)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:360)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:315)
-	at stanhebben.zenscript.ZenModule$MyClassLoader.loadClass(ZenModule.java:419)
-	at 00_oreDict\01_variableDeclaration.<clinit>(00_oreDict\01_variableDeclaration.zs)
-	at __ZenMain__.run(00_oreDict\01_variableDeclaration)
-	... 20 more
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1131ms
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Knightslime Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Knightslime Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Osmiridium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Osmiridium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Redstone Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Redstone Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Mithrillium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Mithrillium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lumium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lumium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Stellar Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Stellar Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Cobalt Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Cobalt Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Crystaltine Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Crystaltine Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Conductive Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Conductive Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Signalum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Signalum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Vibrant Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Vibrant Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Starmetal Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Starmetal Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Bismuth Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Bismuth Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Energetic Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Energetic Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Refined Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Refined Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Enderium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Enderium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Manasteel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Manasteel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Inferium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Inferium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Wub Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Wub Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Gelid Enderium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Gelid Enderium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Terrasteel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Terrasteel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Cyanite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Cyanite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Enhanced Ender Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Enhanced Ender Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Beryllium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Beryllium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lithium Manganese Dioxide Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lithium Manganese Dioxide Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Iridium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Iridium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Iridium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Iridium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Alkimium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Alkimium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Elementium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Elementium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tough Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tough Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lithium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lithium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Energetic Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Energetic Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Glowstone Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Glowstone Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Uranium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Uranium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Uranium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Uranium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Yellorium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Yellorium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Refined Obsidian Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Refined Obsidian Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tungsten Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tungsten Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Awakened Draconium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Awakened Draconium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Ender Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Ender Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lead Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Manganese Oxide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Manganese Oxide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Dark Chocolate
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Dark Chocolate
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Boron-11
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Boron-11
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Boron-10
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Boron-10
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Blood Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Blood Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Cold Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Cold Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Soularium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Soularium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Fluxed Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Fluxed Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Ludicrite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Ludicrite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Infinity Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Infinity Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Electrical Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Electrical Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Thaumium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Thaumium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Aluminum Brass Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Aluminum Brass Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Antimony Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Antimony Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Milk Chocolate
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Milk Chocolate
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Iron Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Iron Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Nethercotta
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Nethercotta
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Dark Soularium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Dark Soularium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Electrum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Osmium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Osmium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Zinc Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Zinc Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for SiC-SiC Ceramic Matrix Composite
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for SiC-SiC Ceramic Matrix Composite
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Mirion Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Mirion Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Mixed Metal Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Mixed Metal Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Dawnstone Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Dawnstone Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Graphite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Graphite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Graphite Bar
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Graphite Bar
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Neutronium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Neutronium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tin Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Nickel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Nickel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Nickel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Nickel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Nickel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Nickel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Nickel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Nickel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Soulium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Soulium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Constantan Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Constantan Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Constantan Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Constantan Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Prudentium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Prudentium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Solidified Cocoa Butter
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Solidified Cocoa Butter
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Blutonium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Blutonium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Adaminite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Adaminite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Supremium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Supremium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Mithminite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Mithminite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Advanced Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Advanced Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Insanium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Insanium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Yellorium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Yellorium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Black Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Black Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Boron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Boron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Crystal Matrix Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Crystal Matrix Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Superium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Superium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Titanium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Titanium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Manyullyn Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Manyullyn Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Iridium Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Iridium Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Magnesium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Magnesium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Copper Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Void Metal Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Void Metal Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Crystalline Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Crystalline Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Bronze Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for The Ultimate Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for The Ultimate Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Gold Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Gold Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for HSLA Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for HSLA Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Aluminium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Aluminium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Aluminum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Aluminum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Aluminium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Aluminium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Aluminum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Aluminum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Aluminium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Aluminium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Dark Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Dark Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Silver Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Base Essence Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Base Essence Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Gaia Spirit Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Gaia Spirit Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Crystalline Pink Slime Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Crystalline Pink Slime Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Thermoconducting Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Thermoconducting Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tin Silver Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tin Silver Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Tungstensteel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Tungstensteel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Thorium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Thorium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Uranium Oxide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Uranium Oxide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lithium-6
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lithium-6
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lithium-7
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lithium-7
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Melodic Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Melodic Alloy Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Brass Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Brass Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Alchemical Brass Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Alchemical Brass Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Pulsating Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Pulsating Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Iron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Pigiron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Pigiron Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Manganese Dioxide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Manganese Dioxide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Intermedium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Intermedium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Zircaloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Zircaloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Platinum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Platinum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Platinum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Platinum Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Lead Platinum Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Lead Platinum Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Silicon Carbide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Silicon Carbide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Chrome Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Chrome Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for End Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for End Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Draconium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Draconium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Hot Tungstensteel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Hot Tungstensteel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Mana Infused Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Mana Infused Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Ardite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Ardite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Extreme Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Extreme Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Crude Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Crude Steel Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for HOP Graphite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for HOP Graphite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Zirconium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Zirconium Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Alumite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Alumite Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Hard Carbon Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Hard Carbon Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Shibuichi Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Shibuichi Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Invar Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Invar Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Invar Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Invar Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Invar Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Invar Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Thorium Oxide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Thorium Oxide Ingot
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Magnesium Diboride Alloy
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Magnesium Diboride Alloy
+[INITIALIZATION][CLIENT][INFO] Removing BLAST_FURNACE_RECIPE recipe for Manganese Ingot
+[INITIALIZATION][CLIENT][INFO] Removing ArcFurnace Recipe for Manganese Ingot
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1068ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tg:ore_light> and replacing them with <ore:oreLight>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tg:ore_shade> and replacing them with <ore:oreShade>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <woot:stygianironore> and replacing them with <ore:oreStygianIron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreWubOre> and replacing them with <ore:oreWub>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tp:wub_ore> and replacing them with <ore:oreWub>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreAluminum> and replacing them with <ore:oreAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:clusterAluminum> and replacing them with <ore:clusterAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotAlchemical> and replacing them with <ore:ingotAlkimium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <planarartifice:alkimium_ingot> and replacing them with <ore:ingotAlkimium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingot_dark_soularium> and replacing them with <ore:ingotDarkSoularium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <simplyjetpacks:metaitemmods:3> and replacing them with <ore:ingotDarkSoularium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extendedcrafting:material:36> and replacing them with <ore:ingotEnder>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extendedcrafting:material:48> and replacing them with null
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gaiaIngot> and replacing them with <ore:ingotGaia>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:manaresource:14> and replacing them with <ore:ingotGaia>
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Epic Squid with name mysticalworld-epic_squid-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Frickin' laser beam with name plethora-module_laser-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Grit with name immersiveengineering-hammercrushing_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Grit with name immersiveengineering-hammercrushing_aluminium-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_118-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_120-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_122-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_146-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingot_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingot_aluminum_2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Plate with name planarartifice-alkimium_plate-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Nugget with name planarartifice-alkimium_nugget-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Alkimium with name planarartifice-alkimium_block-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Dark Soularium JetPlate with name simplyjetpacks-upgraderecipe5-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Dark Soularium Thruster with name simplyjetpacks-recipes9-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Glider Wing with name simplyjetpacks-recipes10-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flight Control Unit (Empty) with name simplyjetpacks-recipes11-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Nugget with name extendedcrafting-ender_ingot_from-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Crafter with name extendedcrafting-ender_crafter-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Alternator with name extendedcrafting-ender_alternator-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Ender with name extendedcrafting-block_of_ender_to-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Enhanced Ender with name extendedcrafting-block_of_enhanced_ender_to-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Package Crafter with name packagedexcrafting-ender_crafter-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Psi-Cuffs Key with name rpsideas-blaster_cad - copy-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Frosty Soles with name conarm-frosty_soles-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled XOR Gate with name complex-logic-xor-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Viewer Gate with name complex-logic-viewer-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Text Display (2-Character) with name complex-logic-textdisplay-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Subtractor Gate with name complex-logic-subtractor-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Shifter Gate with name complex-logic-shifter-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Real-Time Clock with name complex-logic-rtc-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Random Value Generator with name complex-logic-random-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Patch Panel with name complex-logic-patchpanel-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled AND Gate with name complex-logic-nand-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-multiplication-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Multiplexer Gate with name complex-logic-multiplexer-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-modulo-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Memory Gate with name complex-logic-memory-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hex Driver with name complex-logic-hexdriver-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Global OR Gate with name complex-logic-globalor-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-division-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 7-Segment Display (2-Digit) with name complex-logic-display-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Digital-Analog Converter with name complex-logic-dac-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Counter with name complex-logic-counter-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Button Panel with name complex-logic-buttonpanel-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for BIN-TO-BCD with name complex-logic-bintobcd-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for BIN-TO-7SEG with name complex-logic-binto7seg-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled AND Gate with name complex-logic-and-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Adder Gate with name complex-logic-adder-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Analog-Digital Converter with name complex-logic-adc-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Arrow of Ascension with name naturalpledge-ascension-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockchocolate-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockpsi-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockreinforcedpinkslime-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockender-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockchocolate-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockpsi-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockreinforcedpinkslime-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockender-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Saturated Tobacco Pile with name minecraft-tb.hunger-rererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener1-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener0-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener4-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener3-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener2-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Buffer with name extrabotany-recipe_manabarrel-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Headgear with name extrabotany-recipe_cmhelm-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Suit with name extrabotany-recipe_cmchest-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Skirt with name extrabotany-recipe_cmlegs-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Boots with name extrabotany-recipe_cmboots-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Judah Oath with name extrabotany-recipe_judahoath-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Challenge Ticket with name extrabotany-recipe_ticket-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gaia Block with name avaritiatweaks-gaia_ingots_to_block-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:ingots:3>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <tconstruct:ingots:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <plustic:osmiridiumingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <plustic:osmiridiumingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thaumadditions:mithrillium_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thaumadditions:mithrillium_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:166>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <thermalfoundation:material:166>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_endergy_ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_endergy_ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:ingots>
+[POSTINITIALIZATION][CLIENT][INFO] 6 recipes removed for: <tconstruct:ingots>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <extendedcrafting:material:24>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <extendedcrafting:material:24>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:4>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:165>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <thermalfoundation:material:165>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <astralsorcery:itemcraftingcomponent:1>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <astralsorcery:itemcraftingcomponent:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <planarartifice:bismuth_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <planarartifice:bismuth_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_endergy_ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_endergy_ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:19>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <techreborn:ingot:19>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:167>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <thermalfoundation:material:167>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <botania:manaresource>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <botania:manaresource>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalagriculture:crafting:33>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <mysticalagriculture:crafting:33>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tp:wub_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <tp:wub_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <redstonerepository:material:1>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <redstonerepository:material:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <botania:manaresource:4>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <botania:manaresource:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bigreactors:ingotcyanite>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <bigreactors:ingotcyanite>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <extendedcrafting:material:48>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <extendedcrafting:material:48>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:9>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:ingot:9>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:4>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:135>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <thermalfoundation:material:135>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:7>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <techreborn:ingot:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <planarartifice:alkimium_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <planarartifice:alkimium_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <botania:manaresource:7>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <botania:manaresource:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:1>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:6>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <nuclearcraft:ingot:6>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mekanism:ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <mekanism:ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:4>
+[POSTINITIALIZATION][CLIENT][INFO] 4 recipes removed for: <nuclearcraft:ingot:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:metal:5>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <immersiveengineering:metal:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bigreactors:ingotyellorium>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <bigreactors:ingotyellorium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mekanism:ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <mekanism:ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:15>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <techreborn:ingot:15>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <draconicevolution:draconic_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <draconicevolution:draconic_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <extendedcrafting:material:36>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <extendedcrafting:material:36>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:131>
+[POSTINITIALIZATION][CLIENT][INFO] 6 recipes removed for: <thermalfoundation:material:131>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:8>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <techreborn:ingot:8>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:metal:2>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <immersiveengineering:metal:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_lead>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <embers:ingot_lead>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot_oxide:2>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <nuclearcraft:ingot_oxide:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:dark_chocolate>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:dark_chocolate>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:boron:2>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:boron:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:boron>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:boron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bloodtinker:blood_bronze_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <bloodtinker:blood_bronze_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bewitchment:cold_iron_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <bewitchment:cold_iron_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:7>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <redstonearsenal:material:32>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <redstonearsenal:material:32>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bigreactors:ingotludicrite>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <bigreactors:ingotludicrite>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <avaritia:resource:6>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <avaritia:resource:6>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thaumcraft:ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thaumcraft:ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:ingots:5>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <tconstruct:ingots:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <soot:ingot_antimony>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <soot:ingot_antimony>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:milk_chocolate>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:milk_chocolate>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:9>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:9>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_material:72>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <enderio:item_material:72>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <simplyjetpacks:metaitemmods:3>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <simplyjetpacks:metaitemmods:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:161>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thermalfoundation:material:161>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:metal:7>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <immersiveengineering:metal:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_electrum>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <embers:ingot_electrum>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mekanism:ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <mekanism:ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:18>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:18>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:14>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:14>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <plustic:mirioningot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <plustic:mirioningot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:21>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:21>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_dawnstone>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <embers:ingot_dawnstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:8>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <nuclearcraft:ingot:8>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bigreactors:ingotgraphite>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <bigreactors:ingotgraphite>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <avaritia:resource:4>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <avaritia:resource:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:129>
+[POSTINITIALIZATION][CLIENT][INFO] 6 recipes removed for: <thermalfoundation:material:129>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:13>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <techreborn:ingot:13>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <forestry:ingot_tin>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <forestry:ingot_tin>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mekanism:ingot:6>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <mekanism:ingot:6>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_tin>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <embers:ingot_tin>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:133>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <thermalfoundation:material:133>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:9>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:9>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:metal:4>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <immersiveengineering:metal:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_nickel>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <embers:ingot_nickel>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalagriculture:crafting:38>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <mysticalagriculture:crafting:38>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:164>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thermalfoundation:material:164>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:metal:6>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <immersiveengineering:metal:6>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalagriculture:crafting:34>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <mysticalagriculture:crafting:34>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:cocoa_butter>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:cocoa_butter>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bigreactors:ingotblutonium>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <bigreactors:ingotblutonium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thaumadditions:adaminite_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thaumadditions:adaminite_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalagriculture:crafting:37>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <mysticalagriculture:crafting:37>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thaumadditions:mithminite_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thaumadditions:mithminite_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:20>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <techreborn:ingot:20>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalagradditions:insanium:2>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <mysticalagradditions:insanium:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bigreactors:ingotyellorium>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <bigreactors:ingotyellorium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <extendedcrafting:material>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <extendedcrafting:material>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <nuclearcraft:ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <avaritia:resource:1>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <avaritia:resource:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalagriculture:crafting:36>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <mysticalagriculture:crafting:36>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:14>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:14>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:ingots:2>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <tconstruct:ingots:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:22>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:22>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:7>
+[POSTINITIALIZATION][CLIENT][INFO] 4 recipes removed for: <nuclearcraft:ingot:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:128>
+[POSTINITIALIZATION][CLIENT][INFO] 6 recipes removed for: <thermalfoundation:material:128>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:4>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <techreborn:ingot:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <forestry:ingot_copper>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <forestry:ingot_copper>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:metal>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <immersiveengineering:metal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mekanism:ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <mekanism:ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_copper>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <embers:ingot_copper>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalworld:copper_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <mysticalworld:copper_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thaumcraft:ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thaumcraft:ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_endergy_ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_endergy_ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:163>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thermalfoundation:material:163>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <forestry:ingot_bronze>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <forestry:ingot_bronze>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:alloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mekanism:ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <mekanism:ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_bronze>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <embers:ingot_bronze>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <extendedcrafting:material:32>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <extendedcrafting:material:32>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <minecraft:gold_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 14 recipes removed for: <minecraft:gold_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:15>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:15>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_aluminum>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <embers:ingot_aluminum>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:132>
+[POSTINITIALIZATION][CLIENT][INFO] 4 recipes removed for: <thermalfoundation:material:132>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <techreborn:ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:12>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:ingot:12>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:metal:1>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <immersiveengineering:metal:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:6>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:6>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:130>
+[POSTINITIALIZATION][CLIENT][INFO] 5 recipes removed for: <thermalfoundation:material:130>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:11>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <techreborn:ingot:11>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:13>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:ingot:13>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <bewitchment:silver_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <bewitchment:silver_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:metal:3>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <immersiveengineering:metal:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <embers:ingot_silver>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <embers:ingot_silver>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalworld:silver_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <mysticalworld:silver_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalagriculture:crafting:32>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <mysticalagriculture:crafting:32>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <botania:manaresource:14>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <botania:manaresource:14>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_endergy_ingot:4>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_endergy_ingot:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:11>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:11>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:8>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:8>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:17>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:17>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] 4 recipes removed for: <nuclearcraft:ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot_oxide:1>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:ingot_oxide:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:lithium>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:lithium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:lithium:2>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <nuclearcraft:lithium:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_endergy_ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_endergy_ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thaumcraft:ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <thaumcraft:ingot:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:5>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <minecraft:iron_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 15 recipes removed for: <minecraft:iron_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:ingots:4>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <tconstruct:ingots:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot_oxide:3>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:ingot_oxide:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <mysticalagriculture:crafting:35>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <mysticalagriculture:crafting:35>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:12>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:12>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:134>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <thermalfoundation:material:134>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:10>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <techreborn:ingot:10>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:9>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:9>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:13>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:13>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <techreborn:ingot:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_ingot:8>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_ingot:8>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <draconicevolution:draconium_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <draconicevolution:draconium_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:16>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:16>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:136>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <thermalfoundation:material:136>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <tconstruct:ingots:1>
+[POSTINITIALIZATION][CLIENT][INFO] 6 recipes removed for: <tconstruct:ingots:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:10>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:10>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <enderio:item_alloy_endergy_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <enderio:item_alloy_endergy_ingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <immersiveengineering:material:19>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <immersiveengineering:material:19>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:10>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:ingot:10>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <plustic:alumiteingot>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <plustic:alumiteingot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:2>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:7>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <thermalfoundation:material:162>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <thermalfoundation:material:162>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <techreborn:ingot:6>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <techreborn:ingot:6>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <plustic:invaringot>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <plustic:invaringot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot_oxide>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:ingot_oxide>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:alloy:3>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <nuclearcraft:alloy:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <nuclearcraft:ingot:11>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <nuclearcraft:ingot:11>
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <tconstruct:ingots:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.tconstruct.ingots@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <plustic:osmiridiumingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.osmiridiumingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thaumadditions:mithrillium_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thaumadditions:mithrillium_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:166> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@166 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_endergy_ingot:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_endergy_ingot@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <tconstruct:ingots> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.tconstruct.ingots@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <extendedcrafting:material:24> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ec.material@24 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:165> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@165 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <astralsorcery:itemcraftingcomponent:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.itemcraftingcomponent@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <planarartifice:bismuth_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bismuth_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_endergy_ingot:5> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_endergy_ingot@5 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:19> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@19 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:167> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@167 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <botania:manaresource> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.manaResource@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalagriculture:crafting:33> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ma.crafting@33 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <tp:wub_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.wub_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <redstonerepository:material:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.redstonerepository.material@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <botania:manaresource:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.manaResource@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bigreactors:ingotcyanite> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bigreactors:ingotcyanite@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <extendedcrafting:material:48> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ec.material@48 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:9> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@9 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:135> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@135 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:7> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@7 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <planarartifice:alkimium_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.alkimium_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <botania:manaresource:7> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.manaResource@7 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:6> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@6 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mekanism:ingot:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.Ingot@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:metal:5> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.metal@5 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bigreactors:ingotyellorium> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bigreactors:ingotyellorium@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mekanism:ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.Ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:15> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@15 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <draconicevolution:draconic_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.draconicevolution:draconic_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <extendedcrafting:material:36> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ec.material@36 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:131> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@131 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:8> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@8 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:metal:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.metal@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_lead> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_lead@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot_oxide:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot_oxide@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:dark_chocolate> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.dark_chocolate@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:boron:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.boron@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:boron> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.boron@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bloodtinker:blood_bronze_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bloodtinker.blood_bronze_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bewitchment:cold_iron_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bewitchment.cold_iron_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:7> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@7 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <redstonearsenal:material:32> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.redstonearsenal.material@32 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bigreactors:ingotludicrite> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bigreactors:ingotludicrite@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <avaritia:resource:6> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.resource@6 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thaumcraft:ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <tconstruct:ingots:5> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.tconstruct.ingots@5 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <soot:ingot_antimony> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_antimony@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:milk_chocolate> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.milk_chocolate@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:9> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@9 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:72> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_material@72 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <simplyjetpacks:metaitemmods:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.simplyjetpacks.metaItemMods@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:161> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@161 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:5> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@5 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:metal:7> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.metal@7 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_electrum> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_electrum@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mekanism:ingot:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.Ingot@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:18> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@18 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:14> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@14 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <plustic:mirioningot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.mirioningot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:21> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@21 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_dawnstone> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_dawnstone@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:8> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@8 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bigreactors:ingotgraphite> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bigreactors:ingotgraphite@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <avaritia:resource:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.resource@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:129> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@129 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:13> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@13 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <forestry:ingot_tin> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.for.ingot_tin@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mekanism:ingot:6> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.Ingot@6 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_tin> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_tin@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:133> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@133 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:9> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@9 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:metal:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.metal@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_nickel> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_nickel@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalagriculture:crafting:38> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ma.crafting@38 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:164> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@164 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:metal:6> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.metal@6 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalagriculture:crafting:34> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ma.crafting@34 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:cocoa_butter> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.cocoa_butter@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bigreactors:ingotblutonium> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bigreactors:ingotblutonium@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thaumadditions:adaminite_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thaumadditions:adaminite_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalagriculture:crafting:37> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ma.crafting@37 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thaumadditions:mithminite_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thaumadditions:mithminite_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:20> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@20 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalagradditions:insanium:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ma.insanium@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bigreactors:ingotyellorium> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bigreactors:ingotyellorium@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <extendedcrafting:material> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ec.material@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:5> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@5 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <avaritia:resource:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.resource@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalagriculture:crafting:36> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ma.crafting@36 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:14> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@14 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <tconstruct:ingots:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.tconstruct.ingots@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:22> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@22 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:7> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@7 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:128> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@128 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <forestry:ingot_copper> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.for.ingot_copper@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:metal> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.metal@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mekanism:ingot:5> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.Ingot@5 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_copper> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_copper@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalworld:copper_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.copper_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thaumcraft:ingot:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_endergy_ingot:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_endergy_ingot@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:163> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@163 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <forestry:ingot_bronze> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.for.ingot_bronze@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mekanism:ingot:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.Ingot@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_bronze> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_bronze@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <extendedcrafting:material:32> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ec.material@32 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <minecraft:gold_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingotGold@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:15> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@15 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_aluminum> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_aluminum@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:132> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@132 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:12> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@12 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:metal:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.metal@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:6> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@6 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:130> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@130 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:11> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@11 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:13> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@13 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <bewitchment:silver_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.bewitchment.silver_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:metal:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.metal@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <embers:ingot_silver> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot_silver@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalworld:silver_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.silver_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalagriculture:crafting:32> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ma.crafting@32 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <botania:manaresource:14> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.manaResource@14 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_endergy_ingot:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_endergy_ingot@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:11> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@11 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:8> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@8 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:17> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@17 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot_oxide:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot_oxide@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:lithium> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.lithium@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:lithium:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.lithium@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_endergy_ingot:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_endergy_ingot@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thaumcraft:ingot:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ingot@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:5> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@5 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <minecraft:iron_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <tconstruct:ingots:4> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.tconstruct.ingots@4 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot_oxide:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot_oxide@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <mysticalagriculture:crafting:35> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.ma.crafting@35 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:12> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@12 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:134> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@134 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:10> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@10 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:9> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@9 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:13> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@13 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot:8> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_ingot@8 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <draconicevolution:draconium_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.draconicevolution:draconium_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:16> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@16 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:136> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@136 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <tconstruct:ingots:1> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.tconstruct.ingots@1 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:10> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@10 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_endergy_ingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.item_alloy_endergy_ingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <immersiveengineering:material:19> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.immersiveengineering.material@19 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:10> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@10 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <plustic:alumiteingot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.alumiteingot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:2> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@2 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:7> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@7 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:162> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.thermalfoundation.material@162 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techreborn:ingot:6> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.techreborn.ingot@6 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <plustic:invaringot> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.invaringot@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot_oxide> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot_oxide@0 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:3> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.alloy@3 and 1xtile.sand@0
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:ingot:11> and <minecraft:sand>
+[AVAILABLE][CLIENT][ERROR] No InductionSmelter recipe exists for: 1xitem.nuclearcraft.ingot@11 and 1xtile.sand@0
