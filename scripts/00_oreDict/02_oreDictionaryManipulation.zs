@@ -242,9 +242,9 @@ recipes.replaceAllOccurences(<deepresonance:resonating_plate>, hashPlate["Resona
 hashPlate["StygianIron"].add(<woot:stygianironplate>);
 recipes.replaceAllOccurences(<woot:stygianironplate>, hashPlate["StygianIron"]);
 
-hashPlate["VoidMetal"].add(<jaopca:item_dustvoid>);
-recipes.replaceAllOccurences(oreDict["dustVoid"], hashPlate["VoidMetal"]);
-recipes.replaceAllOccurences(<jaopca:item_dustvoid>, hashPlate["VoidMetal"]);
+hashPlate["VoidMetal"].add(<thaumcraft:plate:3>);
+recipes.replaceAllOccurences(oreDict["plateVoid"], hashPlate["VoidMetal"]);
+recipes.replaceAllOccurences(<thaumcraft:plate:3>, hashPlate["VoidMetal"]);
 
 if (!<ore:plateAluminum>.empty) {
     for item in oreDict["plateAluminum"].items {
@@ -323,6 +323,10 @@ recipes.replaceAllOccurences(<tg:nugget_light>, hashNugget["Light"]);
 
 hashNugget["Shade"].add(<tg:nugget_shade>);
 recipes.replaceAllOccurences(<tg:nugget_shade>, hashNugget["Shade"]);
+
+hashNugget["VoidMetal"].add(<thaumcraft:nugget:7>);
+recipes.replaceAllOccurences(oreDict["nuggetVoid"], hashNugget["VoidMetal"]);
+recipes.replaceAllOccurences(<thaumcraft:nugget:7>, hashNugget["VoidMetal"]);
 
 if (!<ore:nuggetAluminum>.empty) {
     for item in oreDict["nuggetAluminum"].items {
@@ -439,8 +443,8 @@ hashBlock["StygianIron"].add(<woot:stygianiron>);
 recipes.replaceAllOccurences(<woot:stygianiron>, hashBlock["StygianIron"]);
 
 hashBlock["VoidMetal"].add(<thaumcraft:metal_void>);
-recipes.replaceAllOccurences(<thaumcraft:metal_void>, hashBlock["VoidMetal"]);
 recipes.replaceAllOccurences(hashBlock["Void"], hashBlock["VoidMetal"]);
+recipes.replaceAllOccurences(<thaumcraft:metal_void>, hashBlock["VoidMetal"]);
 
 hashBlock["Void"].add(<actuallyadditions:block_crystal:3>);
 recipes.replaceAllOccurences(<actuallyadditions:block_crystal:3>, hashBlock["Void"]);
