@@ -254,9 +254,9 @@ if (!<ore:plateAluminum>.empty) {
 }
 
 /***** Dense Plates *****/
-hashDensePlate["VoidMetal"].add(<jaopca:item_platedensevoid>);
-recipes.replaceAllOccurences(oreDict["plateDenseVoid"], hashDensePlate["VoidMetal"]);
-recipes.replaceAllOccurences(<jaopca:item_platedensevoid>, hashDensePlate["VoidMetal"]);
+hashPlateDense["VoidMetal"].add(<jaopca:item_platedensevoid>);
+recipes.replaceAllOccurences(oreDict["plateDenseVoid"], hashPlateDense["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_platedensevoid>, hashPlateDense["VoidMetal"]);
 
 if (!<ore:plateDenseAluminum>.empty) {
     for item in oreDict["plateDenseAluminum"].items {
@@ -278,6 +278,10 @@ recipes.replaceAllOccurences(<botania:manaresource:8>, hashRod["Iron"]);
 hashRod["Steel"].add(<immersiveengineering:material:2>);
 recipes.replaceAllOccurences(oreDict["stickSteel"], hashRod["Steel"]);
 recipes.replaceAllOccurences(<botania:manaresource:8>, hashRod["Steel"]);
+
+hashRod["VoidMetal"].add(<jaopca:item_stickvoid>);
+recipes.replaceAllOccurences(oreDict["rodVoid"], hashRod["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_stickvoid>, hashRod["VoidMetal"]);
 
 if (!<ore:rodAluminum>.empty) {
     for item in oreDict["rodAluminum"].items {
