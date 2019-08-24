@@ -253,7 +253,11 @@ if (!<ore:plateAluminum>.empty) {
     recipes.replaceAllOccurences(<ore:plateAluminum>, hashPlate["Aluminium"]);
 }
 
-/***** Rods *****/
+/***** Dense Plates *****/
+hashDensePlate["VoidMetal"].add(<jaopca:item_platedensevoid>);
+recipes.replaceAllOccurences(oreDict["plateDenseVoid"], hashDensePlate["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_platedensevoid>, hashDensePlate["VoidMetal"]);
+
 if (!<ore:plateDenseAluminum>.empty) {
     for item in oreDict["plateDenseAluminum"].items {
         hashPlateDense["Aluminium"].add(item);
