@@ -460,6 +460,10 @@ if (!<ore:blockAluminum>.empty) {
 }
 
 /***** Tiny Dusts *****/
+hashDustTiny["VoidMetal"].add(<jaopca:item_dusttinyvoid>);
+recipes.replaceAllOccurences(oreDict["dustTinyVoid"], hashDustTiny["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_dusttinyvoid>, hashDustTiny["VoidMetal"]);
+
 if (!<ore:dustTinyAluminum>.empty) {
     for item in oreDict["dustTinyAluminum"].items {
         hashDustTiny["Aluminium"].add(item);
@@ -468,6 +472,10 @@ if (!<ore:dustTinyAluminum>.empty) {
 }
 
 /***** Small Dusts *****/
+hashDustSmall["VoidMetal"].add(<jaopca:item_dustsmallvoid>);
+recipes.replaceAllOccurences(oreDict["dustSmallVoid"], hashDustSmall["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_dustsmallvoid>, hashDustSmall["VoidMetal"]);
+
 if (!<ore:dustSmallAluminum>.empty) {
     for item in oreDict["dustSmallAluminum"].items {
         hashDustSmall["Aluminium"].add(item);
