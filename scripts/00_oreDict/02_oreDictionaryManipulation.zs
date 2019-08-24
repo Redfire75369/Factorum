@@ -1,3 +1,10 @@
+#priority -0002
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+
 /***** Ores *****/
 hashOre["CertusQuartz"].remove(<appliedenergistics2:charged_quartz_ore>);
 
@@ -7,6 +14,9 @@ recipes.replaceAllOccurences(<tp:ender_ore>, hashOre["Ender"]);
 
 hashOre["Light"].add(<tg:ore_light>);
 recipes.replaceAllOccurences(<tg:ore_light>, hashOre["Light"]);
+
+hashOre["Quicksilver"].add(<thaumcraft:ore_cinnabar>);
+recipes.replaceAllOccurences(<thaumcraft:ore_cinnabar>, hashOre["Quicksilver"]);
 
 hashOre["Shade"].add(<tg:ore_shade>);
 recipes.replaceAllOccurences(<tg:ore_shade>, hashOre["Shade"]);
@@ -231,6 +241,10 @@ recipes.replaceAllOccurences(<deepresonance:resonating_plate>, hashPlate["Resona
 
 hashPlate["StygianIron"].add(<woot:stygianironplate>);
 recipes.replaceAllOccurences(<woot:stygianironplate>, hashPlate["StygianIron"]);
+
+hashPlate["VoidMetal"].add(<jaopca:item_dustvoid>);
+recipes.replaceAllOccurences(oreDict["dustVoid"], hashPlate["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_dustvoid>, hashPlate["VoidMetal"]);
 
 if (!<ore:plateAluminum>.empty) {
     for item in oreDict["plateAluminum"].items {
