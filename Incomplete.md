@@ -6,6 +6,8 @@
 - Apotheosis: Everything
 - Applied Energistics 2: Vibration Chamber
 
+## Additions to Arrays? 
+- oreLavaBlock
 ## Additions?
 - IOreDictEntry:
 	- blockChorus to integrateddynamics:crystallised_chorus_block
@@ -22,7 +24,7 @@
 ## Definition Changes
 - ILiquidDefinition: 
 	- Molten Clay: Temperature: 700 to 1350
-	- Heliumplasma: Temperature: 300 to 15000
+	- Heliumplasma: Temperature: 300 to 1000
 	- Silicon Carbide Vapor: Temperature: 1000 to 3000
 
 ## Choices
