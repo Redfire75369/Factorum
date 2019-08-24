@@ -303,6 +303,10 @@ recipes.replaceAllOccurences(<mysticalmechanics:gear_gold_on>, hashGear["Redston
 hashGear["Scented"].add(<extrabees:misc>);
 recipes.replaceAllOccurences(<extrabees:misc>, hashGear["Scented"]);
 
+hashGear["VoidMetal"].add(<jaopca:item_gearvoid>);
+recipes.replaceAllOccurences(oreDict["gearVoid"], hashGear["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_gearvoid>, hashGear["VoidMetal"]);
+
 if (!<ore:gearAluminum>.empty) {
     for item in oreDict["gearAluminum"].items {
         hashGear["Aluminium"].add(item);
