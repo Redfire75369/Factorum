@@ -13,7 +13,7 @@ for key, ore in hashOre {
     }
 }
 
-/* Remove Furnace, Blast Furnace and Arc Furnace Recipes for Ingots */
+/* Remove Furnace, Blast Furnace and Arc Furnace Recipes for Ingots/Gems */
 for key, ingot in hashIngot {
     for itemstack in ingot.items {
         furnace.remove(itemstack);
@@ -22,7 +22,6 @@ for key, ingot in hashIngot {
     }
 }
 
-/* Remove Furnace, Blast Furnace and Arc Furnace Recipes for Gems */
 for key, gem in hashGem {
     for itemstack in gem.items {
         furnace.remove(itemstack);
@@ -30,3 +29,17 @@ for key, gem in hashGem {
         mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
     }
 }
+
+/* Remove Grindstone, Pulverizer Recipes with Ores/Ingots/Gems as Input */
+for key, ore in hashOre {
+	for itemstack in ore.items {
+		mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
+		mods.thermalexpansion.Pulveriser.removeRecipe(itemstack);
+	}
+}
+
+/* Remove Crusher, Grindstone, Crusher, Enrichment Chamber Recipes for Dusts */
+for key, ingot in hashIngot {
+	for itemstack in ingot.items {
+		mods.actuallyadditions.Crusher.removeRecipe(itemstack);
+		mods.astralsorcery.Grindstone.removeRecipe(itemstack);
