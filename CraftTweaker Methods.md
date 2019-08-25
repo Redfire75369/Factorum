@@ -56,7 +56,6 @@
 
 #### ICraftingInventory.
 - ICraftingInventory.player
-	- Returns IPlayer
 - ICraftingInventory.size 
 	- Returns int
 - ICraftingInventory.width 
@@ -115,25 +114,124 @@ for item in seedList{
 
 # Mods
 ## Applied Energistics 2
+### Cannon
+- mods.appliedenergistics2.Cannon.registerAmmo(IItemStack ammo, double weight);
+
 ### Grindstone
-- mods.appliedenergistics2.Grinder.addRecipe(IItemStack output, IItemStack input, @Optional IItemStack secondary1Output, @Optional IItemStack secondary2Output);
 - mods.appliedenergistics2.Grinder.removeRecipe(IItemStack input);
+- mods.appliedenergistics2.Grinder.addRecipe(IItemStack output, IItemStack input, int turns, @Optional IItemStack secondary1Output, @Optional float secondary1Chance, @Optional IItemStack secondary2Output, @Optional float secondary2Chance);
 
 ### Inscriber
+- mods.appliedenergistics2.Inscriber.removeRecipe(IItemStack output);
+- mods.appliedenergistics2.Inscriber.addRecipe(IItemStack output, IItemStack input, boolean inscribe, @Optional IItemStack topInput, @Optional IItemStack bottomInput);
+
+### P2P Attunement
+#### ME P2P
+- mods.appliedenergistics2.Attunement.attuneME(IItemStack IItemStack);
+- mods.appliedenergistics2.Attunement.attuneME(string modID);
+
+### Item P2P
+- mods.appliedenergistics2.Attunement.attuneItem(IItemStack IItemStack);
+- mods.appliedenergistics2.Attunement.attuneItem(string modID);
+
+#### Fluid P2P
+- mods.appliedenergistics2.Attunement.attuneFluid(IItemStack IItemStack);
+- mods.appliedenergistics2.Attunement.attuneFluid(string modID);
+
+#### RF P2P
+- mods.appliedenergistics2.Attunement.attuneRF(IItemStack IItemStack);
+- mods.appliedenergistics2.Attunement.attuneRF(string modID);
+
+#### EU P2P
+- mods.appliedenergistics2.Attunement.attuneIC2(IItemStack IItemStack);
+- mods.appliedenergistics2.Attunement.attuneIC2(string modID);
+
+#### Light P2P
+- mods.appliedenergistics2.Attunement.attuneLight(IItemStack IItemStack);
+- mods.appliedenergistics2.Attunement.attuneLight(string modID);
+
+### Spatial
+- mods.appliedenergistics2Spatial.whitelistEntity(string fullEntityClassName);
 
 ## Arcane Archives
+### Gem Cutter's Table
+- mods.arcanearchives.GCT.removeRecipe(IItemStack output);
+- mods.arcanearchives.GCT.addRecipe(string name, IItemStack output, IIngredient[] inputs);
+- mods.arcanearchives.GCT.replaceRecipe(string name, IItemStack output, IIngredient[] inputs);
 
 ## Astral Sorcery
+### Altar
+#### Removals
+- mods.astralsorcery.Altar.removeAltarRecipe(string recipeLocation);
+
+#### Additions
+##### Tier 1 Altar
+- mods.astralsorcery.Altar.addDiscoveryAltarRecipe(string recipeLocation, IItemStack output, int starlightRequired, int craftingTickTime, IIngredient[] inputs);
+
+##### Tier 2 Altar
+- mods.astralsorcery.Altar.addAttunementAltarRecipe(string recipeLocation, IItemStack output, int starlightRequired, int craftingTickTime, IIngredient[] inputs);
+
+##### Tier 3 Altar
+- mods.astralsorcery.Altar.addConstellationAltarRecipe(string recipeLocation, IItemStack output, int starlightRequired, int craftingTickTime, IIngredient[] inputs);
+
+##### Tier 4 Altar
+- mods.astralsorcery.Altar.addTraitAltarRecipe(string recipeLocation, IItemStack output, int starlightRequired, int craftingTickTime, IIngredient[] inputs, @Optional string iRequiredConstellationFocusName);
+
 ### Grindstone
-- mods.astralsorcery.Grindstone.addRecipe(IItemStack input, IItemStack output, float doubleChance);
+- mods.astralsorcery.Grindstone.addRecipe(IItemStack input, IItemStack output, @Optional float doubleChance);
 - mods.astralsorcery.Grindstone.removeRecipe(IItemStack output);
+
+### Infusion
+- mods.astralsorcery.StarlightInfusion.removeInfusion(IItemStack output);
+- mods.astralsorcery.StarlightInfusion.addInfusion(IItemStack input, IItemStack output, boolean consumeMultiple, float consumptionChance, int craftingTickTime);
+
+### Liquid Interaction
+- mods.astralsorcery.LiquidInteraction.removeInteraction(ILiquidStack liquid1, ILiquidStack liquid2, @Optional IItemStack output);
+- mods.astralsorcery.LiquidInteraction.addInteraction(ILiquidStack liquidIn1, float chanceConsumption1, ILiquidStack liquidIn2, float chanceConsumption2, int weight, IItemStack output);
+
+### Transmutation
+- mods.astralsorcery.LightTransmutation.removeTransmutation(IItemStack stackToRemove, boolean matchMeta);
+- mods.astralsorcery.LightTransmutation.addTransmutation(IItemStack stackIn, IItemStack stackOut, double cost);
+
+### Utils
+- mods.astralsorcery.Utils.getCrystalORIngredient(boolean hasToBeCelestial, boolean hasToBeAttuned);
+
+### Well
+- mods.astralsorcery.Lightwell.removeLiquefaction(IItemStack input, ILiquidStack output);
+- mods.astralsorcery.Lightwell.addLiquefaction(IItemStack input, ILiquidStack output, float productionMultiplier, float shatterMultiplier, int colorhex);
 
 ## Ender Tweaker
 ### Alloy Smelter
+- mods.enderio.AlloySmelter.removeRecipe(IItemStack output);
+- mods.enderio.AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+### Combustion Generator
+#### Fuel
+- mods.enderio.CombustionGen.removeFuel(ILiquidStack fuel);
+- mods.enderio.CombustionGen.addFuel(ILiquidStack fuel, int powerPerCycleRF, int totalBurnTime);
+
+#### Coolants
+- mods.enderio.AlloySmelter.removeCoolant(ILiquidStack coolant);
+- mods.enderio.CombustionGen.addCoolant(ILiquidStack fluid coolant, float degreesCoolingPerMB);
+
+### Enchanter
+- mods.enderio.Enchanter.removeRecipe(IEnchantmentDefinition output);
+- mods.enderio.Enchanter.addRecipe(IEnchantmentDefinition output, IIngredient input, int amountPerLevel, double costMultiplier);
 
 ### SAG Mill
-- mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional string bonusType, @Optional int energyCost, @Optional float xp);
 - mods.enderio.SagMill.removeRecipe(IItemStack input);
+- mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional string bonusType, @Optional int energyCost, @Optional float xp);
+
+### Slice n Splice
+- mods.enderio.SliceNSplice.removeRecipe(IItemStack output);
+- mods.enderio.SliceNSplice.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+
+### Soul Binder
+- mods.enderio.SoulBinder.removeRecipe(IItemStack output);
+- mods.enderio.SoulBinder.addRecipe(IItemStack output, IIngredient input, String[] entities, int xp, int energyCost);
+
+### The Vat
+- mods.enderio.Vat.removeRecipe(ILiquidStack output);
+- mods.enderio.Vat.addRecipe(ILiquidStack output, ILiquidStack input, IIngredient[] slot1Solids, float[] slot1Mults, IIngredient[] slot2Solids, float[] slot2Mults, @Optional int energyCost);
 
 ## Immersive Engineering
 ## Alloy Kiln
