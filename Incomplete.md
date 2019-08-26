@@ -36,6 +36,7 @@
 	- dustNiter & dustSaltpeter
 
 ## Recipe Changes
+- Nuclearcraft Machines in 00/03
 - Actually Additions Basic Machines require Actually Additions Casing/ Wood Casing
 - Actually Additions Advanced Machines require Actually Additions Ender Casing
 - AIOTs/ Paxels require higher tier rods (Metal Rods/ Blaze Rods/ End Rods)

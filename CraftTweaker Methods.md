@@ -263,7 +263,7 @@ for item in seedList{
 ### Crusher
 - mods.immersiveenginering.Crusher.addRecipe(IItemstack output, IIngredient input, int energy, @optional IItemstack secondaryOutput, @optional double secondaryChance);
 - mods.immersiveenginering.Crusher.removeRecipe(IItemstack outbput);
-- mods.immersiveenginering.Crusher.removeRecipesByInput(IItemstack input);
+- mods.immersiveenginering.Crusher.removeRecipesForInput(IItemstack input);
 
 ### Diesel Helper
 - mods.immersiveengineering.DieselHelper.addFuel(ILiquidStack fuel, int time);
