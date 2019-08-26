@@ -93,13 +93,12 @@ for key, clathrate in hashClathrate {
 }
 
 /***** Dusts *****/
-/* Grindstone, Sag Mill, Crusher, Squuezer, Enrichment Chamber, Manufactory, Grinder, Industrial Grinder Pulverizer (Ores)[Input] */
+/* Grindstone, Sag Mill, Crusher, Mechanical Squeezer, Squuezer, Enrichment Chamber, Manufactory, Grinder, Industrial Grinder Pulverizer (Ores)[Input] */
 for key, ore in hashOre {
 	for itemstack in ore.items {
 		mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
 		mods.enderio.SagMill.removeRecipe(itemstack);
 		mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
-		mods.integrateddynamics.MechanicalSqueezer
 		mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemstack);
 		mods.integrateddynamics.Squeezer.removeRecipe(itemstack);
 		mods.mekanism.enrichment.removeRecipe(itemstack);
@@ -110,13 +109,13 @@ for key, ore in hashOre {
 	}
 }
 
-/* Crusher, Grindstone, Crusher, Squeezer, Crusher, Manufactory, Grinder, Industrial Grinder (Dusts)[Input] */
+/* Crusher, Grindstone, Crusher, Mechanical Squeezer, Squeezer, Crusher, Manufactory, Grinder, Industrial Grinder (Dusts)[Input] */
 for key, dust in hashDust {
 	for itemstack in dust.items {
 		mods.actuallyadditions.Crusher.removeRecipe(itemstack);
 		mods.astralsorcery.Grindstone.removeRecipe(itemstack);
 		mods.immersiveengineering.Crusher.removeRecipe(itemstack);
-		mods.integrateddynamics.MechanicalSqueezer.removRecipesWithOutput(itemstack);
+		mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(itemstack);
 		mods.integrateddynamics.Squeezer.removeRecipesWithOutput(itemstack);
 		mods.mekanism.Crusher.removeRecipe(itemstack);
 		mods.nuclearcraft.manufactory.removeRecipeWithOutput([itemstack]);
