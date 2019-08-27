@@ -44,6 +44,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: XenCraft; version 1.0.0.4
 - Scripts: Priorities
 - Scripts: Dusts, Plates, Dense Plates, Gears, Rods, Nuggets, Blocks, Tiny Dusts, Small Dusts, Dirty Dusts, Clumps and Shards Entries
+- Scripts: Recipe Removals for Ores, Clusters, Ingots, Dusts
 
 ### Changed
 - Mod: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
@@ -325,7 +326,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 
 ## [v0.0.0-pre.1+build.1] - Unknown **PR**
 ### Added
-This list is still being worked on
+**Note:** This list is still being worked on
 
 - Mods: Actually Additions; version 1.12.2-r148
 - Mods: AngelRing 2 Bauble; version 1.12-0.3.1.50+d4e654e
