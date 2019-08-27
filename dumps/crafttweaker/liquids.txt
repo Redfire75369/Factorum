@@ -159,14 +159,6 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:americium_243_oxide>
-- Name: americium_243_oxide
-- Display Name: Molten Americium 243 Oxide
-- Luminosity:10
-- Density: 2000
-- Temperature: 500
-- Viscosity: 10000
-- Gaseous: false
 <liquid:ammonia>
 - Name: ammonia
 - Display Name: Ammonia
@@ -1455,14 +1447,6 @@ Liquids:
 - Temperature: 300
 - Viscosity: 40
 - Gaseous: true
-<liquid:chocolate>
-- Name: chocolate
-- Display Name: Molten Chocolate
-- Luminosity:10
-- Density: 2000
-- Temperature: 500
-- Viscosity: 10000
-- Gaseous: false
 <liquid:chocolate_liquor>
 - Name: chocolate_liquor
 - Display Name: Chocolate Liquor
@@ -3247,6 +3231,14 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
+<liquid:flint>
+- Name: flint
+- Display Name: Molten Flint
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:fluid_molten_aer>
 - Name: fluid_molten_aer
 - Display Name: Molten Air Infused Thaumium
@@ -4847,22 +4839,6 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:lithium_6>
-- Name: lithium_6
-- Display Name: Molten Lithium 6
-- Luminosity:10
-- Density: 2000
-- Temperature: 500
-- Viscosity: 10000
-- Gaseous: false
-<liquid:lithium_7>
-- Name: lithium_7
-- Display Name: Molten Lithium 7
-- Luminosity:10
-- Density: 2000
-- Temperature: 500
-- Viscosity: 10000
-- Gaseous: false
 <liquid:lithium_manganese_dioxide>
 - Name: lithium_manganese_dioxide
 - Display Name: Molten Lithium Manganese Dioxide
@@ -5775,6 +5751,14 @@ Liquids:
 - Temperature: 860
 - Viscosity: 10000
 - Gaseous: false
+<liquid:reinforced_obsidian>
+- Name: reinforced_obsidian
+- Display Name: Molten Reinforced Obsidian
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:resin>
 - Name: resin
 - Display Name: Resin
@@ -5941,6 +5925,14 @@ Liquids:
 - Luminosity:10
 - Density: 2000
 - Temperature: 1000
+- Viscosity: 10000
+- Gaseous: false
+<liquid:starmetal>
+- Name: starmetal
+- Display Name: Molten Starmetal
+- Luminosity:10
+- Density: 2000
+- Temperature: 999
 - Viscosity: 10000
 - Gaseous: false
 <liquid:steam>
@@ -6351,6 +6343,14 @@ Liquids:
 - Temperature: 5
 - Viscosity: 100
 - Gaseous: true
+<liquid:vasholine>
+- Name: vasholine
+- Display Name: Wub Wub Juice
+- Luminosity:0
+- Density: 3000
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
 <liquid:vibrant_alloy>
 - Name: vibrant_alloy
 - Display Name: Molten Vibrant Alloy
@@ -6390,6 +6390,14 @@ Liquids:
 - Density: 1000
 - Temperature: 300
 - Viscosity: 1000
+- Gaseous: false
+<liquid:wub>
+- Name: wub
+- Display Name: Molten Wub
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:xpjuice>
 - Name: xpjuice

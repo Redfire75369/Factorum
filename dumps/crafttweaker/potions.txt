@@ -28,7 +28,6 @@ minecraft:hunger -- color: 5797459 -- is bad effect -- PotionID: 17
 immersiveengineering:concretefeet -- color: 6441624 -- is bad effect -- PotionID: 124
 minecraft:poison -- color: 5149489 -- is bad effect -- PotionID: 19
 extrabotany:eternity -- color: 14329120 -- is good effect -- PotionID: 127
-apotheosis:knowledge -- color: 16051778 -- is good effect -- PotionID: 148
 enderzoo:enderzoo.floatingpotion -- color: 31744 -- is good effect -- PotionID: 154
 bloodmagic:bounce -- color: 0 -- is good effect -- PotionID: 57
 bloodmagic:soul_fray -- color: 16777215 -- is bad effect -- PotionID: 52
@@ -85,7 +84,6 @@ xreliquary:cure_potion -- color: 15723850 -- is good effect -- PotionID: 161
 minecraft:weakness -- color: 4738376 -- is bad effect -- PotionID: 18
 thaumcraft:unnaturalhunger -- color: 4482611 -- is bad effect -- PotionID: 36
 immersiveengineering:flammable -- color: 9387807 -- is bad effect -- PotionID: 119
-apotheosis:sundering -- color: 10000536 -- is bad effect -- PotionID: 147
 bewitchment:pesticide -- color: 32512 -- is bad effect -- PotionID: 81
 soot:lifedrinker -- color: -10873836 -- is good effect -- PotionID: 165
 bewitchment:wolfsbane -- color: 4129023 -- is good effect -- PotionID: 85

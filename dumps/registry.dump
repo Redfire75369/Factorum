@@ -156,6 +156,7 @@ advgenerators:power_capacitor_awakened draconium
 advgenerators:power_capacitor_conductive iron
 advgenerators:power_capacitor_crystaltine
 advgenerators:power_capacitor_dense
+advgenerators:power_capacitor_electronium
 advgenerators:power_capacitor_graphite
 advgenerators:power_capacitor_infinity
 advgenerators:power_capacitor_lithium
@@ -179,13 +180,25 @@ advgenerators:syngas_controller
 advgenerators:syngas_flaming
 advgenerators:tesla_output
 advgenerators:turbine_adv_alloy
+advgenerators:turbine_awakened draconium
 advgenerators:turbine_bronze
+advgenerators:turbine_compressed iron
 advgenerators:turbine_controller
+advgenerators:turbine_crystaltine
+advgenerators:turbine_draconium
 advgenerators:turbine_enderium
 advgenerators:turbine_gold
+advgenerators:turbine_hsla steel
+advgenerators:turbine_infinity
 advgenerators:turbine_iron
 advgenerators:turbine_manyullyn
+advgenerators:turbine_osgloglas
+advgenerators:turbine_protoneutronium
 advgenerators:turbine_steel
+advgenerators:turbine_stellar
+advgenerators:turbine_titanium
+advgenerators:turbine_tungstensteel
+advgenerators:turbine_ultimate
 advgenerators:turbine_vibrant
 ae2stuff:encoder
 ae2stuff:grower
@@ -2114,6 +2127,102 @@ extendedcrafting:table_basic
 extendedcrafting:table_elite
 extendedcrafting:table_ultimate
 extendedcrafting:trimmed
+extraanvils:aluminum_anvil
+extraanvils:aluminum_anvil_chipped
+extraanvils:aluminum_anvil_damaged
+extraanvils:ardite_anvil
+extraanvils:ardite_anvil_chipped
+extraanvils:ardite_anvil_damaged
+extraanvils:bronze_anvil
+extraanvils:bronze_anvil_chipped
+extraanvils:bronze_anvil_damaged
+extraanvils:cobalt_anvil
+extraanvils:cobalt_anvil_chipped
+extraanvils:cobalt_anvil_damaged
+extraanvils:copper_anvil
+extraanvils:copper_anvil_chipped
+extraanvils:copper_anvil_damaged
+extraanvils:diamond_anvil
+extraanvils:diamond_anvil_chipped
+extraanvils:diamond_anvil_damaged
+extraanvils:electrum_anvil
+extraanvils:electrum_anvil_chipped
+extraanvils:electrum_anvil_damaged
+extraanvils:enderium_anvil
+extraanvils:enderium_anvil_chipped
+extraanvils:enderium_anvil_damaged
+extraanvils:endsteel_anvil
+extraanvils:endsteel_anvil_chipped
+extraanvils:endsteel_anvil_damaged
+extraanvils:energetic_alloy_anvil
+extraanvils:energetic_alloy_anvil_chipped
+extraanvils:energetic_alloy_anvil_damaged
+extraanvils:gold_anvil
+extraanvils:gold_anvil_chipped
+extraanvils:gold_anvil_damaged
+extraanvils:inferium_anvil
+extraanvils:inferium_anvil_chipped
+extraanvils:inferium_anvil_damaged
+extraanvils:infinity_anvil
+extraanvils:infinity_anvil_chipped
+extraanvils:infinity_anvil_damaged
+extraanvils:intermedium_anvil
+extraanvils:intermedium_anvil_chipped
+extraanvils:intermedium_anvil_damaged
+extraanvils:invar_anvil
+extraanvils:invar_anvil_chipped
+extraanvils:invar_anvil_damaged
+extraanvils:iridium_anvil
+extraanvils:iridium_anvil_chipped
+extraanvils:iridium_anvil_damaged
+extraanvils:lead_anvil
+extraanvils:lead_anvil_chipped
+extraanvils:lead_anvil_damaged
+extraanvils:manyullyn_anvil
+extraanvils:manyullyn_anvil_chipped
+extraanvils:manyullyn_anvil_damaged
+extraanvils:neutronium_anvil
+extraanvils:neutronium_anvil_chipped
+extraanvils:neutronium_anvil_damaged
+extraanvils:nickel_anvil
+extraanvils:nickel_anvil_chipped
+extraanvils:nickel_anvil_damaged
+extraanvils:platinum_anvil
+extraanvils:platinum_anvil_chipped
+extraanvils:platinum_anvil_damaged
+extraanvils:prudentium_anvil
+extraanvils:prudentium_anvil_chipped
+extraanvils:prudentium_anvil_damaged
+extraanvils:signalum_anvil
+extraanvils:signalum_anvil_chipped
+extraanvils:signalum_anvil_damaged
+extraanvils:silver_anvil
+extraanvils:silver_anvil_chipped
+extraanvils:silver_anvil_damaged
+extraanvils:steel_anvil
+extraanvils:steel_anvil_chipped
+extraanvils:steel_anvil_damaged
+extraanvils:stellar_anvil
+extraanvils:stellar_anvil_chipped
+extraanvils:stellar_anvil_damaged
+extraanvils:stone_anvil
+extraanvils:stone_anvil_chipped
+extraanvils:stone_anvil_damaged
+extraanvils:superium_anvil
+extraanvils:superium_anvil_chipped
+extraanvils:superium_anvil_damaged
+extraanvils:supremium_anvil
+extraanvils:supremium_anvil_chipped
+extraanvils:supremium_anvil_damaged
+extraanvils:thaumium_anvil
+extraanvils:thaumium_anvil_chipped
+extraanvils:thaumium_anvil_damaged
+extraanvils:tin_anvil
+extraanvils:tin_anvil_chipped
+extraanvils:tin_anvil_damaged
+extraanvils:vibrant_alloy_anvil
+extraanvils:vibrant_alloy_anvil_chipped
+extraanvils:vibrant_alloy_anvil_damaged
 extrabees:alveary
 extrabees:ectoplasm
 extrabees:hive
@@ -6778,7 +6887,7 @@ advancedliftingmethods:ultimate_rotor
 advgenerators:advanced_pressure_valve
 advgenerators:capacitor_kit_awakened draconium
 advgenerators:capacitor_kit_conductive iron
-advgenerators:capacitor_kit_crystaltine
+advgenerators:capacitor_kit_electronium
 advgenerators:capacitor_kit_infinity
 advgenerators:capacitor_kit_lithium
 advgenerators:capacitor_kit_lithium manganese dioxide
@@ -6809,7 +6918,7 @@ advgenerators:item_output
 advgenerators:mixing_chamber
 advgenerators:power_capacitor_awakened draconium
 advgenerators:power_capacitor_conductive iron
-advgenerators:power_capacitor_crystaltine
+advgenerators:power_capacitor_electronium
 advgenerators:power_capacitor_graphite
 advgenerators:power_capacitor_infinity
 advgenerators:power_capacitor_lithium
@@ -6833,37 +6942,61 @@ advgenerators:syngas
 advgenerators:syngas_controller
 advgenerators:syngas_flaming
 advgenerators:tesla_output
-advgenerators:turbine_adv_alloy
-advgenerators:turbine_blade_adv_alloy
+advgenerators:turbine_awakened draconium
+advgenerators:turbine_blade_awakened draconium
 advgenerators:turbine_blade_bronze
-advgenerators:turbine_blade_enderium
+advgenerators:turbine_blade_compressed iron
+advgenerators:turbine_blade_draconium
+advgenerators:turbine_blade_hsla steel
+advgenerators:turbine_blade_infinity
 advgenerators:turbine_blade_iron
-advgenerators:turbine_blade_manyullyn
+advgenerators:turbine_blade_osgloglas
+advgenerators:turbine_blade_protoneutronium
 advgenerators:turbine_blade_steel
-advgenerators:turbine_blade_vibrant
+advgenerators:turbine_blade_stellar
+advgenerators:turbine_blade_titanium
+advgenerators:turbine_blade_tungstensteel
+advgenerators:turbine_blade_ultimate
 advgenerators:turbine_bronze
+advgenerators:turbine_compressed iron
 advgenerators:turbine_controller
-advgenerators:turbine_enderium
-advgenerators:turbine_gold
+advgenerators:turbine_draconium
+advgenerators:turbine_hsla steel
+advgenerators:turbine_infinity
 advgenerators:turbine_iron
-advgenerators:turbine_kit_adv_alloy
-advgenerators:turbine_kit_bronze
-advgenerators:turbine_kit_enderium
-advgenerators:turbine_kit_gold
-advgenerators:turbine_kit_manyullyn
+advgenerators:turbine_kit_awakened draconium
+advgenerators:turbine_kit_compressed iron
+advgenerators:turbine_kit_draconium
+advgenerators:turbine_kit_hsla steel
+advgenerators:turbine_kit_infinity
+advgenerators:turbine_kit_osgloglas
+advgenerators:turbine_kit_protoneutronium
 advgenerators:turbine_kit_steel
-advgenerators:turbine_kit_vibrant
-advgenerators:turbine_manyullyn
-advgenerators:turbine_rotor_adv_alloy
+advgenerators:turbine_kit_stellar
+advgenerators:turbine_kit_titanium
+advgenerators:turbine_kit_tungstensteel
+advgenerators:turbine_kit_ultimate
+advgenerators:turbine_osgloglas
+advgenerators:turbine_protoneutronium
+advgenerators:turbine_rotor_awakened draconium
 advgenerators:turbine_rotor_bronze
-advgenerators:turbine_rotor_enderium
-advgenerators:turbine_rotor_gold
+advgenerators:turbine_rotor_compressed iron
+advgenerators:turbine_rotor_draconium
+advgenerators:turbine_rotor_hsla steel
+advgenerators:turbine_rotor_infinity
 advgenerators:turbine_rotor_iron
-advgenerators:turbine_rotor_manyullyn
+advgenerators:turbine_rotor_osgloglas
+advgenerators:turbine_rotor_protoneutronium
 advgenerators:turbine_rotor_steel
-advgenerators:turbine_rotor_vibrant
+advgenerators:turbine_rotor_stellar
+advgenerators:turbine_rotor_titanium
+advgenerators:turbine_rotor_tungstensteel
+advgenerators:turbine_rotor_ultimate
 advgenerators:turbine_steel
-advgenerators:turbine_vibrant
+advgenerators:turbine_stellar
+advgenerators:turbine_titanium
+advgenerators:turbine_tungstensteel
+advgenerators:turbine_ultimate
 advgenerators:upgrade_kit
 ae2stuff:encoder
 ae2stuff:grower
@@ -6941,7 +7074,6 @@ apotheosis:digger_book
 apotheosis:farmers_leash
 apotheosis:fishing_rod_book
 apotheosis:hellshelf
-apotheosis:lucky_foot
 apotheosis:null_book
 apotheosis:prismatic_altar
 apotheosis:prismatic_web
@@ -9916,6 +10048,102 @@ extendedcrafting:table_basic
 extendedcrafting:table_elite
 extendedcrafting:table_ultimate
 extendedcrafting:trimmed
+extraanvils:aluminum_anvil
+extraanvils:aluminum_anvil_chipped
+extraanvils:aluminum_anvil_damaged
+extraanvils:ardite_anvil
+extraanvils:ardite_anvil_chipped
+extraanvils:ardite_anvil_damaged
+extraanvils:bronze_anvil
+extraanvils:bronze_anvil_chipped
+extraanvils:bronze_anvil_damaged
+extraanvils:cobalt_anvil
+extraanvils:cobalt_anvil_chipped
+extraanvils:cobalt_anvil_damaged
+extraanvils:copper_anvil
+extraanvils:copper_anvil_chipped
+extraanvils:copper_anvil_damaged
+extraanvils:diamond_anvil
+extraanvils:diamond_anvil_chipped
+extraanvils:diamond_anvil_damaged
+extraanvils:electrum_anvil
+extraanvils:electrum_anvil_chipped
+extraanvils:electrum_anvil_damaged
+extraanvils:enderium_anvil
+extraanvils:enderium_anvil_chipped
+extraanvils:enderium_anvil_damaged
+extraanvils:endsteel_anvil
+extraanvils:endsteel_anvil_chipped
+extraanvils:endsteel_anvil_damaged
+extraanvils:energetic_alloy_anvil
+extraanvils:energetic_alloy_anvil_chipped
+extraanvils:energetic_alloy_anvil_damaged
+extraanvils:gold_anvil
+extraanvils:gold_anvil_chipped
+extraanvils:gold_anvil_damaged
+extraanvils:inferium_anvil
+extraanvils:inferium_anvil_chipped
+extraanvils:inferium_anvil_damaged
+extraanvils:infinity_anvil
+extraanvils:infinity_anvil_chipped
+extraanvils:infinity_anvil_damaged
+extraanvils:intermedium_anvil
+extraanvils:intermedium_anvil_chipped
+extraanvils:intermedium_anvil_damaged
+extraanvils:invar_anvil
+extraanvils:invar_anvil_chipped
+extraanvils:invar_anvil_damaged
+extraanvils:iridium_anvil
+extraanvils:iridium_anvil_chipped
+extraanvils:iridium_anvil_damaged
+extraanvils:lead_anvil
+extraanvils:lead_anvil_chipped
+extraanvils:lead_anvil_damaged
+extraanvils:manyullyn_anvil
+extraanvils:manyullyn_anvil_chipped
+extraanvils:manyullyn_anvil_damaged
+extraanvils:neutronium_anvil
+extraanvils:neutronium_anvil_chipped
+extraanvils:neutronium_anvil_damaged
+extraanvils:nickel_anvil
+extraanvils:nickel_anvil_chipped
+extraanvils:nickel_anvil_damaged
+extraanvils:platinum_anvil
+extraanvils:platinum_anvil_chipped
+extraanvils:platinum_anvil_damaged
+extraanvils:prudentium_anvil
+extraanvils:prudentium_anvil_chipped
+extraanvils:prudentium_anvil_damaged
+extraanvils:signalum_anvil
+extraanvils:signalum_anvil_chipped
+extraanvils:signalum_anvil_damaged
+extraanvils:silver_anvil
+extraanvils:silver_anvil_chipped
+extraanvils:silver_anvil_damaged
+extraanvils:steel_anvil
+extraanvils:steel_anvil_chipped
+extraanvils:steel_anvil_damaged
+extraanvils:stellar_anvil
+extraanvils:stellar_anvil_chipped
+extraanvils:stellar_anvil_damaged
+extraanvils:stone_anvil
+extraanvils:stone_anvil_chipped
+extraanvils:stone_anvil_damaged
+extraanvils:superium_anvil
+extraanvils:superium_anvil_chipped
+extraanvils:superium_anvil_damaged
+extraanvils:supremium_anvil
+extraanvils:supremium_anvil_chipped
+extraanvils:supremium_anvil_damaged
+extraanvils:thaumium_anvil
+extraanvils:thaumium_anvil_chipped
+extraanvils:thaumium_anvil_damaged
+extraanvils:tin_anvil
+extraanvils:tin_anvil_chipped
+extraanvils:tin_anvil_damaged
+extraanvils:vibrant_alloy_anvil
+extraanvils:vibrant_alloy_anvil_chipped
+extraanvils:vibrant_alloy_anvil_damaged
 extrabees:alveary
 extrabees:dictionary
 extrabees:ectoplasm
@@ -11620,7 +11848,6 @@ jaopca:block_blockchargedcertusquartz
 jaopca:block_blockcinnabar
 jaopca:block_blockcocoabutter
 jaopca:block_blockdimensionalshard
-jaopca:block_blockelvenelementium
 jaopca:block_blockextreme
 jaopca:block_blockferroboron
 jaopca:block_blockfluix
@@ -11635,7 +11862,6 @@ jaopca:block_blockiridiumalloy
 jaopca:block_blockleadplatinum
 jaopca:block_blocklithiummanganesedioxide
 jaopca:block_blockmagnesiumdiboride
-jaopca:block_blockmanasteel
 jaopca:block_blockmanganesedioxide
 jaopca:block_blockmanganeseoxide
 jaopca:block_blockmithminite
@@ -11644,7 +11870,6 @@ jaopca:block_blockmixedmetal
 jaopca:block_blockobsidian
 jaopca:block_blockorichalcos
 jaopca:block_blockphotonium
-jaopca:block_blockplutonium
 jaopca:block_blockpyrite
 jaopca:block_blockrefinediron
 jaopca:block_blockrhodochrosite
@@ -11654,7 +11879,6 @@ jaopca:block_blocksicsiccmc
 jaopca:block_blocksiliconcarbide
 jaopca:block_blocksodalite
 jaopca:block_blocksphalerite
-jaopca:block_blockterrasteel
 jaopca:block_blockthermoconducting
 jaopca:block_blockthoriumoxide
 jaopca:block_blocktinsilver
@@ -11724,7 +11948,6 @@ jaopca:block_mysticalcropsosgloglas
 jaopca:block_mysticalcropsosmiridium
 jaopca:block_mysticalcropsphotonium
 jaopca:block_mysticalcropspigiron
-jaopca:block_mysticalcropsplutonium
 jaopca:block_mysticalcropspyrite
 jaopca:block_mysticalcropsquartzblack
 jaopca:block_mysticalcropsredgarnet
@@ -11912,7 +12135,6 @@ jaopca:item_coinosmiridium
 jaopca:item_coinosmium
 jaopca:item_coinphotonium
 jaopca:item_coinpigiron
-jaopca:item_coinplutonium
 jaopca:item_coinprudentium
 jaopca:item_coinpulsatingiron
 jaopca:item_coinredstonealloy
@@ -12144,7 +12366,6 @@ jaopca:item_dustsmallosmiridium
 jaopca:item_dustsmallosmium
 jaopca:item_dustsmallphotonium
 jaopca:item_dustsmallpigiron
-jaopca:item_dustsmallplutonium
 jaopca:item_dustsmallprismarine
 jaopca:item_dustsmallprudentium
 jaopca:item_dustsmallpulsatingiron
@@ -12303,7 +12524,6 @@ jaopca:item_dusttinyperidot
 jaopca:item_dusttinyphotonium
 jaopca:item_dusttinypigiron
 jaopca:item_dusttinyplatinum
-jaopca:item_dusttinyplutonium
 jaopca:item_dusttinyprismarine
 jaopca:item_dusttinyprudentium
 jaopca:item_dusttinypulsatingiron
@@ -12427,7 +12647,6 @@ jaopca:item_essenceosgloglas
 jaopca:item_essenceosmiridium
 jaopca:item_essencephotonium
 jaopca:item_essencepigiron
-jaopca:item_essenceplutonium
 jaopca:item_essencepyrite
 jaopca:item_essencequartzblack
 jaopca:item_essenceredgarnet
@@ -12540,7 +12759,6 @@ jaopca:item_gearosmium
 jaopca:item_gearperidot
 jaopca:item_gearphotonium
 jaopca:item_gearpigiron
-jaopca:item_gearplutonium
 jaopca:item_gearprismarine
 jaopca:item_gearprudentium
 jaopca:item_gearpulsatingiron
@@ -12645,7 +12863,6 @@ jaopca:item_mysticalseedsosgloglas
 jaopca:item_mysticalseedsosmiridium
 jaopca:item_mysticalseedsphotonium
 jaopca:item_mysticalseedspigiron
-jaopca:item_mysticalseedsplutonium
 jaopca:item_mysticalseedspyrite
 jaopca:item_mysticalseedsquartzblack
 jaopca:item_mysticalseedsredgarnet
@@ -12723,7 +12940,6 @@ jaopca:item_nuggetopal
 jaopca:item_nuggetorichalcos
 jaopca:item_nuggetperidot
 jaopca:item_nuggetphotonium
-jaopca:item_nuggetplutonium
 jaopca:item_nuggetprismarine
 jaopca:item_nuggetquartzblack
 jaopca:item_nuggetredgarnet
@@ -12888,7 +13104,6 @@ jaopca:item_platedenseperidot
 jaopca:item_platedensephotonium
 jaopca:item_platedensepigiron
 jaopca:item_platedenseplatinum
-jaopca:item_platedenseplutonium
 jaopca:item_platedenseprismarine
 jaopca:item_platedenseprudentium
 jaopca:item_platedensepulsatingiron
@@ -12986,7 +13201,6 @@ jaopca:item_plateosmiridium
 jaopca:item_plateosmium
 jaopca:item_platephotonium
 jaopca:item_platepigiron
-jaopca:item_plateplutonium
 jaopca:item_plateprismarine
 jaopca:item_plateprudentium
 jaopca:item_platepulsatingiron
@@ -13144,7 +13358,6 @@ jaopca:item_stickperidot
 jaopca:item_stickphotonium
 jaopca:item_stickpigiron
 jaopca:item_stickplatinum
-jaopca:item_stickplutonium
 jaopca:item_stickprismarine
 jaopca:item_stickprudentium
 jaopca:item_stickpulsatingiron
@@ -18523,6 +18736,8 @@ blockAethium
  - 1xtile.environmentaltech.aethium_tiles@0
 blockAlchemical
  - 1xtile.alkimium_block@0
+blockAlkimium
+ - 1xtile.alkimium_block@0
 blockAll
 blockAlubrass
  - 1xtile.tconstruct.metal@5
@@ -18607,6 +18822,7 @@ blockBlaze
 blockBloodBronze
  - 1xtile.bloodtinker.blood_bronze_block@0
 blockBloodInfusedIron
+ - 1xtile.bloodarsenal.blood_infused_iron_block@0
 blockBloodInfusedWood
  - 1xtile.bloodarsenal.blood_infused_wooden_planks@0
 blockBlutonium
@@ -19944,6 +20160,10 @@ blockDarkSteel
 blockDawnstone
  - 1xtile.block_dawnstone@0
 blockDeepIron
+blockDiamantine
+ - 1xtile.actuallyadditions.block_crystal@2
+blockDiamantineEmpowered
+ - 1xtile.actuallyadditions.block_crystal_empowered@2
 blockDiamond
  - 1xtile.blockDiamond@0
  - 1xtile.chisel.diamond@0
@@ -19959,6 +20179,8 @@ blockDiamond
  - 1xtile.chisel.diamond@10
  - 1xtile.chisel.diamond@11
  - 1xtile.olddiamond@0
+blockDiamondMana
+ - 1xtile.storage@3
 blockDilithium
 blockDimensionalShard
  - 1xtile.jaopca.block@0
@@ -19966,7 +20188,12 @@ blockDraconium
  - 1xtile.draconicevolution:draconium_block@0
 blockDraconiumAwakened
  - 1xtile.draconicevolution:draconic_block@0
+blockDraconiumCharged
+ - 1xtile.draconicevolution:draconium_block@1
+blockDragonstone
+ - 1xtile.storage@4
 blockEbonyPsi
+ - 1xitem.alkimium_ingot@0
 blockElectricalSteel
  - 1xtile.block_alloy@0
 blockElectrum
@@ -19985,8 +20212,11 @@ blockElectrumFlux
  - 1xtile.redstonearsenal.storage@0
 blockElementium
 blockElvenElementium
- - 1xtile.jaopca.block@0
  - 1xtile.storage@2
+blockEmeradic
+ - 1xtile.actuallyadditions.block_crystal@4
+blockEmeradicEmpowered
+ - 1xtile.actuallyadditions.block_crystal_empowered@4
 blockEmerald
  - 1xtile.blockEmerald@0
  - 1xtile.chisel.emerald@0
@@ -20006,12 +20236,23 @@ blockEmerald
 blockEndSteel
  - 1xtile.block_alloy@8
 blockEnder
+ - 1xtile.ec.storage@5
+blockEnderEnhanced
+ - 1xtile.ec.storage@7
+blockEnderPearl
+ - 1xtile.actuallyadditions.block_misc@6
+blockEnderStar
+ - 1xtile.ec.storage@6
 blockEnderium
  - 1xtile.thermalfoundation.storage@7
 blockEnergeticAlloy
  - 1xtile.block_alloy@1
 blockEnergeticSilver
  - 1xtile.block_alloy_endergy@5
+blockEnori
+ - 1xtile.actuallyadditions.block_crystal@5
+blockEnoriEmpowered
+ - 1xtile.actuallyadditions.block_crystal_empowered@5
 blockErodium
  - 1xtile.environmentaltech.erodium@0
  - 1xtile.environmentaltech.erodium_paver@0
@@ -20030,6 +20271,8 @@ blockFluix
  - 1xtile.jaopca.block@0
 blockFluorite
  - 1xtile.jaopca.block@0
+blockFlux
+ - 1xtile.FluxBlock@0
 blockFuelCoke
  - 1xtile.thermalfoundation.storage@1
  - 1xtile.chisel.block_coal_coke@0
@@ -20067,6 +20310,7 @@ blockFuelCoke
  - 1xtile.chisel.block_coal_coke@0
  - 1xtile.chisel.block_coal_coke@1
  - 1xtile.immersiveengineering.stone_decoration@3
+blockGaia
 blockGalena
  - 1xtile.jaopca.block@0
 blockGarnet
@@ -20425,6 +20669,8 @@ blockGlassYellow
  - 1xtile.chisel.glassdyedyellow@5
  - 1xtile.tconstruct.clear_stained_glass@4
  - 1xtile.block_fused_glass@4
+blockGlitchInfused
+ - 1xtile.deepmoblearning.infused_ingot_block@0
 blockGlowstone
  - 1xtile.lightgem@0
 blockGold
@@ -20583,6 +20829,7 @@ blockIron
 blockIronCompressed
  - 1xtile.compressed_iron_block@0
 blockIvoryPsi
+ - 1xitem.alkimium_ingot@0
 blockKalendrite
 blockKnightslime
  - 1xtile.tconstruct.metal@3
@@ -20603,6 +20850,8 @@ blockLapis
  - 1xtile.chisel.lapis@7
  - 1xtile.chisel.lapis@8
  - 1xtile.oldlapis@0
+blockLapisElven
+blockLapisMana
 blockLead
  - 1xtile.thermalfoundation.storage@3
  - 1xtile.techreborn.storage@6
@@ -20619,6 +20868,7 @@ blockLead
 blockLeadPlatinum
  - 1xtile.jaopca.block@0
 blockLemurite
+blockLight
 blockLitherite
  - 1xtile.environmentaltech.litherite@0
  - 1xtile.environmentaltech.litherite_paver@0
@@ -20648,7 +20898,6 @@ blockMagnesium
 blockMagnesiumDiboride
  - 1xtile.jaopca.block@0
 blockManasteel
- - 1xtile.jaopca.block@0
  - 1xtile.storage@0
 blockManganese
  - 1xtile.nuclearcraft.ingot_block@11
@@ -20666,6 +20915,7 @@ blockMarble
  - 1xtile.blockmarble@4
  - 1xtile.blockmarble@5
  - 1xtile.blockmarble@6
+blockMeatCooked
 blockMeatRaw
 blockMelodicAlloy
  - 1xtile.block_alloy_endergy@2
@@ -20756,8 +21006,6 @@ blockNickel
  - 1xtile.chisel.blockNickel@6
  - 1xtile.immersiveengineering.storage@4
  - 1xtile.block_nickel@0
-blockNjordAquamarine
-blockNjordAquamarineAwakened
 blockObsidian
  - 1xtile.jaopca.block@0
 blockOpal
@@ -20801,7 +21049,6 @@ blockPlatinum
  - 1xtile.chisel.blockPlatinum@5
  - 1xtile.chisel.blockPlatinum@6
 blockPlutonium
- - 1xtile.jaopca.block@0
 blockPlutonium238
 blockPlutonium238Base
 blockPlutonium238Oxide
@@ -20942,6 +21189,7 @@ blockSapphire
  - 1xtile.techreborn.storage2@4
 blockSeared
  - 1xtile.tconstruct.seared@32767
+blockShade
 blockShadowIron
 blockShadowSteel
 blockShadowium
@@ -21074,6 +21322,7 @@ blockSteel
  - 1xtile.steel_block@0
 blockStellarAlloy
  - 1xtile.block_alloy_endergy@3
+blockStygianIron
 blockSuperium
  - 1xtile.ma.ingot_storage@4
 blockSuperiumCoal
@@ -21088,7 +21337,6 @@ blockSupremiumEssence
  - 1xtile.ma.storage@4
 blockTartarite
 blockTerrasteel
- - 1xtile.jaopca.block@0
  - 1xtile.storage@1
 blockThauminite
  - 1xtile.blockthauminite@0
@@ -21115,7 +21363,6 @@ blockThoriumOxide
  - 1xtile.jaopca.block@0
 blockThundersteel
  - 1xtile.storage@0
-blockThundersteelAwakened
 blockTin
  - 1xtile.thermalfoundation.storage@1
  - 1xtile.techreborn.storage2@9
@@ -21246,7 +21493,6 @@ blockTinyPeridot
 blockTinyPhotonium
 blockTinyPigiron
 blockTinyPlatinum
-blockTinyPlutonium
 blockTinyPrismarine
 blockTinyPrudentium
 blockTinyPulsatingIron
@@ -21345,6 +21591,7 @@ blockVividAlloy
  - 1xtile.block_alloy_endergy@6
 blockVoid
  - 1xtile.metal_void@0
+blockVoidMetal
 blockVulcanite
 blockVyroxeres
 blockWither
@@ -22073,7 +22320,6 @@ coinPigiron
 coinPlatinum
  - 1xitem.thermalfoundation.coin@70
 coinPlutonium
- - 1xitem.jaopca.coin@0
 coinPlutonium239
 coinPlutonium239Oxide
 coinPlutonium241
@@ -22454,6 +22700,8 @@ crystalAluminium
  - 1xitem.jaopca.crystal@0
 crystalAluminum
  - 1xitem.jaopca.crystal@0
+crystalAmber
+ - 1xitem.crystallized_amber@0
 crystalArdite
  - 1xitem.jaopca.crystal@0
 crystalAstralStarmetal
@@ -22464,6 +22712,7 @@ crystalBoron
  - 1xitem.jaopca.crystal@0
 crystalCertusQuartz
  - 1xitem.appliedenergistics2.material@0
+crystalChargedCertusQuartz
 crystalCinnabar
  - 1xitem.thermalfoundation.material@866
 crystalCinnibar
@@ -22475,10 +22724,22 @@ crystalCrudeOil
  - 1xitem.thermalfoundation.material@892
 crystalCyanite
 crystalCyaniteOxide
+crystalDiamantine
+ - 1xitem.actuallyadditions.item_crystal@2
+crystalDiamantineEmpowered
+ - 1xitem.actuallyadditions.item_crystal_empowered@2
 crystalDraconium
  - 1xitem.jaopca.crystal@0
+crystalEmeradic
+ - 1xitem.actuallyadditions.item_crystal@4
+crystalEmeradicEmpowered
+ - 1xitem.actuallyadditions.item_crystal_empowered@4
 crystalEnder
  - 1xitem.thermalfoundation.material@895
+crystalEnori
+ - 1xitem.actuallyadditions.item_crystal@5
+crystalEnoriEmpowered
+ - 1xitem.actuallyadditions.item_crystal_empowered@5
 crystalErodium
  - 1xitem.environmentaltech.erodium_crystal@0
 crystalFluix
@@ -22509,8 +22770,14 @@ crystalMithril
  - 1xitem.jaopca.crystal@0
 crystalNickel
  - 1xitem.jaopca.crystal@0
+crystalObsidian
+ - 1xitem.crystallized_obsidian@0
 crystalOsmium
  - 1xitem.Crystal@2
+crystalPalis
+ - 1xitem.actuallyadditions.item_crystal@1
+crystalPalisEmpowered
+ - 1xitem.actuallyadditions.item_crystal_empowered@1
 crystalPladium
  - 1xitem.environmentaltech.pladium_crystal@0
 crystalPlatinum
@@ -22529,6 +22796,10 @@ crystalPureNetherQuartz
  - 1xitem.appliedenergistics2.material@11
 crystalRedstone
  - 1xitem.thermalfoundation.material@893
+crystalRestonia
+ - 1xitem.actuallyadditions.item_crystal@0
+crystalRestoniaEmpowered
+ - 1xitem.actuallyadditions.item_crystal_empowered@0
 crystalSilver
  - 1xitem.Crystal@5
 crystalSlag
@@ -22550,6 +22821,10 @@ crystalUranium235Oxide
 crystalUranium238
 crystalUranium238Oxide
 crystalUraniumOxide
+crystalVoid
+ - 1xitem.actuallyadditions.item_crystal@3
+crystalVoidEmpowered
+ - 1xitem.actuallyadditions.item_crystal_empowered@3
 crystalYellorium
  - 1xitem.jaopca.crystal@0
 crystalYelloriumOxide
@@ -23132,6 +23407,8 @@ dustBlizz
  - 1xitem.thermalfoundation.material@2049
 dustBloodBronze
  - 1xitem.jaopca.dust@0
+dustBloodInfusedGlowstone
+ - 1xitem.bloodarsenal.base_item@2
 dustBloodInfusedIron
 dustBlueGlowstone
  - 1xitem.null@10
@@ -23385,6 +23662,10 @@ dustElectrumFlux
 dustElementium
 dustElvenElementium
  - 1xitem.jaopca.dust@0
+dustElvenPixie
+ - 1xitem.manaResource@8
+dustEmber
+ - 1xitem.dust_ember@0
 dustEmerald
  - 8xitem.techreborn.dust@18
  - 8xitem.actuallyadditions.item_dust@3
@@ -23448,6 +23729,8 @@ dustFluix
  - 1xitem.appliedenergistics2.material@8
 dustFluorite
  - 1xitem.nuclearcraft.gem_dust@5
+dustFlux
+ - 1xitem.Flux@0
 dustGalena
  - 1xitem.techreborn.dust@23
 dustGarnet
@@ -23490,6 +23773,8 @@ dustHepatizon
 dustHotTungstensteel
  - 1xitem.jaopca.dust@0
 dustIgnatius
+dustIllumination
+ - 1xitem.itemusabledust@0
 dustImpureBlutonium
 dustImpureBlutoniumOxide
 dustImpureCyanite
@@ -23575,6 +23860,7 @@ dustLudicrite
  - 1xitem.bigreactors:dustludicrite@0
 dustLumium
  - 1xitem.thermalfoundation.material@102
+dustLunar
 dustMagentaGlowstone
  - 1xitem.null@2
 dustMagnesium
@@ -23599,6 +23885,8 @@ dustMarble
  - 1xitem.techreborn.dust@32
 dustMelodicAlloy
  - 1xitem.jaopca.dust@0
+dustMetallurgic
+ - 1xitem.dust_metallurgic@0
 dustMidasium
 dustMirion
  - 1xitem.jaopca.dust@0
@@ -23659,6 +23947,8 @@ dustNiter
  - 1xitem.thermalfoundation.material@772
  - 1xitem.techreborn.dust@44
  - 1xitem.immersiveengineering.material@24
+dustNocturnal
+ - 1xitem.itemusabledust@1
 dustObsidian
  - 1xitem.thermalfoundation.material@770
  - 1xitem.techreborn.dust@35
@@ -23710,6 +24000,7 @@ dustPlutonium242
 dustPlutonium242Base
 dustPlutonium242Oxide
 dustPlutoniumOxide
+dustPotassiumFlouride
 dustPotassiumFluoride
  - 1xitem.nuclearcraft.compound@4
 dustPotassiumHydroxide
@@ -23777,6 +24068,7 @@ dustReinforcedObsidian
 dustResonating
 dustRhodochrosite
  - 1xitem.nuclearcraft.gem_dust@1
+dustRhodocrosite
 dustRubracium
 dustRuby
  - 1xitem.techreborn.dust@43
@@ -24091,7 +24383,6 @@ dustSmallPigiron
 dustSmallPlatinum
  - 1xitem.techreborn.dustsmall@38
 dustSmallPlutonium
- - 1xitem.jaopca.dustSmall@0
 dustSmallPlutonium239
 dustSmallPlutonium239Oxide
 dustSmallPlutonium241
@@ -24228,10 +24519,13 @@ dustSmallZirconium
  - 1xitem.jaopca.dustSmall@0
 dustSodalite
  - 1xitem.techreborn.dust@48
+dustSodiumFlouride
 dustSodiumFluoride
  - 1xitem.nuclearcraft.compound@3
 dustSodiumHydroxide
  - 1xitem.nuclearcraft.compound@5
+dustSoot
+ - 1xitem.deepmoblearning.soot_covered_redstone@0
 dustSoularium
  - 1xitem.item_material@74
 dustSoulium
@@ -24249,6 +24543,8 @@ dustSteel
 dustStellarAlloy
  - 1xitem.jaopca.dust@0
 dustStone
+dustStygianIron
+ - 1xitem.woot.stygianirondust@0
 dustSulfur
  - 1xitem.thermalfoundation.material@771
  - 1xitem.techreborn.dust@52
@@ -24531,7 +24827,6 @@ dustTinyPigiron
 dustTinyPlatinum
  - 1xitem.jaopca.dustTiny@0
 dustTinyPlutonium
- - 1xitem.jaopca.dustTiny@0
 dustTinyPlutonium239
 dustTinyPlutonium239Oxide
 dustTinyPlutonium241
@@ -24691,6 +24986,8 @@ dustVividAlloy
  - 1xitem.jaopca.dust@0
 dustVoid
  - 1xitem.jaopca.dust@0
+dustVoidMetal
+ - 1xitem.jaopca.dust@0
 dustVulcanite
 dustVyroxeres
 dustWaterBlock
@@ -24700,6 +24997,8 @@ dustWheat
  - 1xitem.item_material@21
 dustWhiteGlowstone
  - 1xitem.null@0
+dustWither
+ - 1xitem.darkutils.material@0
 dustWood
  - 1xitem.thermalfoundation.material@800
  - 1xitem.Sawdust@0
@@ -25140,8 +25439,6 @@ essencePhotonium
  - 1xitem.jaopca.essence@0
 essencePigiron
  - 1xitem.jaopca.essence@0
-essencePlutonium
- - 1xitem.jaopca.essence@0
 essencePrudentium
  - 1xitem.ma.crafting@1
 essencePyrite
@@ -25181,71 +25478,70 @@ essenceThermoconducting
 essenceThoriumOxide
  - 1xitem.jaopca.essence@0
 essenceTier1
- - 1xitem.ma.zombie_essence@0
+ - 1xitem.ma.wood_essence@0
+ - 1xitem.ma.nature_essence@0
  - 1xitem.ma.water_essence@0
  - 1xitem.ma.stone_essence@0
- - 1xitem.ma.nature_essence@0
- - 1xitem.ma.wood_essence@0
+ - 1xitem.ma.zombie_essence@0
  - 1xitem.ma.dirt_essence@0
  - 1xitem.ma.ice_essence@0
 essenceTier2
  - 1xitem.ma.nether_essence@0
- - 1xitem.ma.slime_essence@0
- - 1xitem.ma.coal_essence@0
- - 1xitem.ma.basalt_essence@0
- - 1xitem.ma.grains_of_infinity_essence@0
- - 1xitem.ma.limestone_essence@0
- - 1xitem.ma.aluminum_brass_essence@0
  - 1xitem.ma.apatite_essence@0
- - 1xitem.ma.dye_essence@0
+ - 1xitem.ma.slime_essence@0
+ - 1xitem.ma.limestone_essence@0
  - 1xitem.ma.aluminum_essence@0
- - 1xitem.ma.chicken_essence@0
- - 1xitem.ma.rubber_essence@0
- - 1xitem.ma.mystical_flower_essence@0
- - 1xitem.ma.sheep_essence@0
- - 1xitem.ma.sulfur_essence@0
- - 1xitem.ma.pig_essence@0
- - 1xitem.ma.fire_essence@0
- - 1xitem.ma.marble_essence@0
- - 1xitem.ma.menril_essence@0
- - 1xitem.ma.copper_essence@0
  - 1xitem.ma.cow_essence@0
+ - 1xitem.ma.dye_essence@0
+ - 1xitem.ma.menril_essence@0
  - 1xitem.ma.silicon_essence@0
+ - 1xitem.ma.rubber_essence@0
+ - 1xitem.ma.fire_essence@0
+ - 1xitem.ma.mystical_flower_essence@0
+ - 1xitem.ma.sulfur_essence@0
+ - 1xitem.ma.basalt_essence@0
+ - 1xitem.ma.aluminum_brass_essence@0
+ - 1xitem.ma.marble_essence@0
+ - 1xitem.ma.pig_essence@0
+ - 1xitem.ma.copper_essence@0
+ - 1xitem.ma.grains_of_infinity_essence@0
+ - 1xitem.ma.coal_essence@0
+ - 1xitem.ma.chicken_essence@0
+ - 1xitem.ma.sheep_essence@0
 essenceTier3
- - 1xitem.ma.lead_essence@0
- - 1xitem.ma.certus_quartz_essence@0
- - 1xitem.ma.obsidian_essence@0
- - 1xitem.ma.basalz_essence@0
- - 1xitem.ma.iron_essence@0
- - 1xitem.ma.graphite_essence@0
- - 1xitem.ma.conductive_iron_essence@0
- - 1xitem.ma.quicksilver_essence@0
- - 1xitem.ma.saltpeter_essence@0
- - 1xitem.ma.spider_essence@0
- - 1xitem.ma.aquamarine_essence@0
- - 1xitem.ma.guardian_essence@0
- - 1xitem.ma.ardite_essence@0
- - 1xitem.ma.silver_essence@0
- - 1xitem.ma.rabbit_essence@0
  - 1xitem.ma.glowstone_essence@0
- - 1xitem.ma.bronze_essence@0
- - 1xitem.ma.redstone_essence@0
- - 1xitem.ma.brass_essence@0
- - 1xitem.ma.black_quartz_essence@0
- - 1xitem.ma.nether_quartz_essence@0
- - 1xitem.ma.manasteel_essence@0
- - 1xitem.ma.electrical_steel_essence@0
- - 1xitem.ma.blizz_essence@0
- - 1xitem.ma.sky_stone_essence@0
- - 1xitem.ma.knightslime_essence@0
- - 1xitem.ma.creeper_essence@0
  - 1xitem.ma.thaumium_essence@0
- - 1xitem.ma.redstone_alloy_essence@0
- - 1xitem.ma.skeleton_essence@0
- - 1xitem.ma.zinc_essence@0
- - 1xitem.ma.blitz_essence@0
+ - 1xitem.ma.spider_essence@0
+ - 1xitem.ma.rabbit_essence@0
+ - 1xitem.ma.blizz_essence@0
+ - 1xitem.ma.iron_essence@0
+ - 1xitem.ma.manasteel_essence@0
+ - 1xitem.ma.aquamarine_essence@0
+ - 1xitem.ma.obsidian_essence@0
  - 1xitem.ma.tin_essence@0
- - 1xitem.jaopca.essence@0
+ - 1xitem.ma.silver_essence@0
+ - 1xitem.ma.sky_stone_essence@0
+ - 1xitem.ma.black_quartz_essence@0
+ - 1xitem.ma.bronze_essence@0
+ - 1xitem.ma.blitz_essence@0
+ - 1xitem.ma.graphite_essence@0
+ - 1xitem.ma.zinc_essence@0
+ - 1xitem.ma.redstone_alloy_essence@0
+ - 1xitem.ma.saltpeter_essence@0
+ - 1xitem.ma.knightslime_essence@0
+ - 1xitem.ma.guardian_essence@0
+ - 1xitem.ma.brass_essence@0
+ - 1xitem.ma.nether_quartz_essence@0
+ - 1xitem.ma.redstone_essence@0
+ - 1xitem.ma.skeleton_essence@0
+ - 1xitem.ma.ardite_essence@0
+ - 1xitem.ma.quicksilver_essence@0
+ - 1xitem.ma.conductive_iron_essence@0
+ - 1xitem.ma.basalz_essence@0
+ - 1xitem.ma.creeper_essence@0
+ - 1xitem.ma.lead_essence@0
+ - 1xitem.ma.electrical_steel_essence@0
+ - 1xitem.ma.certus_quartz_essence@0
  - 1xitem.jaopca.essence@0
  - 1xitem.jaopca.essence@0
  - 1xitem.jaopca.essence@0
@@ -25335,69 +25631,69 @@ essenceTier3
  - 1xitem.jaopca.essence@0
  - 1xitem.jaopca.essence@0
 essenceTier4
- - 1xitem.ma.peridot_essence@0
- - 1xitem.ma.signalum_essence@0
- - 1xitem.ma.dawnstone_essence@0
- - 1xitem.ma.lithium_essence@0
- - 1xitem.ma.ruby_essence@0
- - 1xitem.ma.soularium_essence@0
- - 1xitem.ma.thorium_essence@0
- - 1xitem.ma.ghast_essence@0
- - 1xitem.ma.glowstone_ingot_essence@0
- - 1xitem.ma.hop_graphite_essence@0
- - 1xitem.ma.fluxed_electrum_essence@0
- - 1xitem.ma.enderman_essence@0
- - 1xitem.ma.void_metal_essence@0
- - 1xitem.ma.pulsating_iron_essence@0
- - 1xitem.ma.energetic_alloy_essence@0
- - 1xitem.ma.constantan_essence@0
- - 1xitem.ma.nickel_essence@0
- - 1xitem.ma.dark_steel_essence@0
- - 1xitem.ma.experience_essence@0
- - 1xitem.ma.amber_essence@0
- - 1xitem.ma.cobalt_essence@0
- - 1xitem.ma.end_essence@0
- - 1xitem.ma.steel_essence@0
+ - 1xitem.ma.compressed_iron_essence@0
  - 1xitem.ma.blaze_essence@0
+ - 1xitem.ma.enderman_essence@0
+ - 1xitem.ma.dark_steel_essence@0
+ - 1xitem.ma.steel_essence@0
+ - 1xitem.ma.ghast_essence@0
+ - 1xitem.ma.nickel_essence@0
+ - 1xitem.ma.ruby_essence@0
+ - 1xitem.ma.end_essence@0
  - 1xitem.ma.fluix_essence@0
- - 1xitem.ma.invar_essence@0
- - 1xitem.ma.mithril_essence@0
- - 1xitem.ma.lapis_lazuli_essence@0
+ - 1xitem.ma.cobalt_essence@0
+ - 1xitem.ma.fluxed_electrum_essence@0
+ - 1xitem.ma.thorium_essence@0
+ - 1xitem.ma.peridot_essence@0
+ - 1xitem.ma.electrum_essence@0
  - 1xitem.ma.sapphire_essence@0
  - 1xitem.ma.elementium_essence@0
- - 1xitem.ma.compressed_iron_essence@0
- - 1xitem.ma.gold_essence@0
- - 1xitem.ma.boron_essence@0
- - 1xitem.ma.magnesium_essence@0
- - 1xitem.ma.alumite_essence@0
+ - 1xitem.ma.glowstone_ingot_essence@0
+ - 1xitem.ma.constantan_essence@0
  - 1xitem.ma.osmium_essence@0
+ - 1xitem.ma.boron_essence@0
+ - 1xitem.ma.gold_essence@0
  - 1xitem.ma.lumium_essence@0
- - 1xitem.ma.electrum_essence@0
+ - 1xitem.ma.experience_essence@0
+ - 1xitem.ma.alumite_essence@0
+ - 1xitem.ma.amber_essence@0
+ - 1xitem.ma.energetic_alloy_essence@0
+ - 1xitem.ma.pulsating_iron_essence@0
+ - 1xitem.ma.signalum_essence@0
+ - 1xitem.ma.lapis_lazuli_essence@0
+ - 1xitem.ma.magnesium_essence@0
+ - 1xitem.ma.soularium_essence@0
+ - 1xitem.ma.hop_graphite_essence@0
+ - 1xitem.ma.lithium_essence@0
+ - 1xitem.ma.void_metal_essence@0
+ - 1xitem.ma.mithril_essence@0
+ - 1xitem.ma.invar_essence@0
+ - 1xitem.ma.dawnstone_essence@0
 essenceTier5
- - 1xitem.ma.tungsten_essence@0
- - 1xitem.ma.end_steel_essence@0
- - 1xitem.ma.starmetal_essence@0
- - 1xitem.ma.yellorium_essence@0
- - 1xitem.ma.enderium_essence@0
- - 1xitem.ma.iridium_essence@0
- - 1xitem.ma.uranium_essence@0
- - 1xitem.ma.draconium_essence@0
- - 1xitem.ma.vibrant_alloy_essence@0
  - 1xitem.ma.diamond_essence@0
- - 1xitem.ma.terrasteel_essence@0
- - 1xitem.ma.emerald_essence@0
- - 1xitem.ma.refined_obsidian_essence@0
- - 1xitem.ma.manyullyn_essence@0
- - 1xitem.ma.titanium_essence@0
- - 1xitem.ma.rock_crystal_essence@0
- - 1xitem.ma.chrome_essence@0
- - 1xitem.ma.wither_skeleton_essence@0
+ - 1xitem.ma.end_steel_essence@0
  - 1xitem.ma.platinum_essence@0
+ - 1xitem.ma.vibrant_alloy_essence@0
+ - 1xitem.ma.emerald_essence@0
+ - 1xitem.ma.starmetal_essence@0
+ - 1xitem.ma.wither_skeleton_essence@0
+ - 1xitem.ma.enderium_essence@0
+ - 1xitem.ma.uranium_essence@0
+ - 1xitem.ma.chrome_essence@0
+ - 1xitem.ma.manyullyn_essence@0
+ - 1xitem.ma.terrasteel_essence@0
+ - 1xitem.ma.refined_obsidian_essence@0
+ - 1xitem.ma.draconium_essence@0
+ - 1xitem.ma.yellorium_essence@0
+ - 1xitem.ma.iridium_essence@0
+ - 1xitem.ma.titanium_essence@0
+ - 1xitem.ma.tungsten_essence@0
+ - 1xitem.ma.rock_crystal_essence@0
 essenceTier6
- - 1xitem.ma.nether_star_essence@0
- - 1xitem.ma.awakened_draconium_essence@0
- - 1xitem.ma.dragon_egg_essence@0
  - 1xitem.ma.neutronium_essence@0
+ - 1xitem.ma.nether_star_essence@0
+ - 1xitem.ma.dragon_egg_essence@0
+ - 1xitem.ma.awakened_draconium_essence@0
 essenceTinSilver
  - 1xitem.jaopca.essence@0
 essenceTough
@@ -26031,6 +26327,7 @@ gearEmerald
  - 1xitem.thermalfoundation.material@27
 gearEndSteel
  - 1xitem.jaopca.gear@0
+gearEnder
 gearEnderium
  - 1xitem.thermalfoundation.material@295
 gearEnergeticAlloy
@@ -26156,7 +26453,6 @@ gearPigiron
 gearPlatinum
  - 1xitem.thermalfoundation.material@262
 gearPlutonium
- - 1xitem.jaopca.gear@0
 gearPlutonium239
 gearPlutonium239Oxide
 gearPlutonium241
@@ -26164,6 +26460,8 @@ gearPlutonium241Oxide
 gearPlutoniumOxide
 gearPrismarine
  - 1xitem.jaopca.gear@0
+gearProven
+ - 1xitem.misc@2
 gearPrudentium
  - 1xitem.jaopca.gear@0
 gearPsi
@@ -26176,8 +26474,11 @@ gearQuartzBlack
 gearRedGarnet
  - 1xitem.jaopca.gear@0
 gearRedstone
+ - 1xitem.gear_gold_off@0
 gearRedstoneAlloy
  - 1xitem.jaopca.gear@0
+gearRedstoneInverted
+ - 1xitem.gear_gold_on@0
 gearRefinedGlowstone
  - 1xitem.jaopca.gear@0
 gearRefinedIron
@@ -26192,6 +26493,8 @@ gearRuby
  - 1xitem.jaopca.gear@0
 gearSapphire
  - 1xitem.jaopca.gear@0
+gearScented
+ - 1xitem.null@0
 gearShadowium
  - 1xitem.jaopca.gear@0
 gearShibuichi
@@ -26271,6 +26574,8 @@ gearVividAlloy
  - 1xitem.jaopca.gear@0
 gearVoid
  - 1xitem.gear_void@0
+gearVoidMetal
+ - 1xitem.gear_void@0
 gearWood
  - 1xitem.thermalfoundation.material@22
  - 1xitem.appliedenergistics2.material@40
@@ -26299,9 +26604,9 @@ gemAgate
 gemAlchemical_redstone
 gemAlexandrite
 gemAll
- - 1xitem.bewitchment.opal@0
- - 1xitem.bewitchment.amethyst@0
  - 1xitem.bewitchment.garnet@0
+ - 1xitem.bewitchment.amethyst@0
+ - 1xitem.bewitchment.opal@0
  - 1xitem.netherquartz@0
  - 1xitem.diamond@0
  - 1xitem.emerald@0
@@ -26333,8 +26638,6 @@ gemApatite
 gemAquaMiddleGem
 gemAquamarine
  - 1xitem.itemcraftingcomponent@0
- - 1xitem.resource@4
- - 1xitem.resource@5
 gemAquamarineAwakened
 gemArsenic
 gemAstral_starmetal
@@ -26508,6 +26811,8 @@ gemCatsEye
 gemCertusQuartz
  - 1xitem.appliedenergistics2.material@0
 gemChaos
+gemCharcoal
+ - 1xitem.coal@1
 gemChargedCertusQuartz
  - 1xitem.appliedenergistics2.material@1
 gemChippedAlmandine
@@ -26703,7 +27008,6 @@ gemDensePeridot
 gemDensePhotonium
 gemDensePigiron
 gemDensePlatinum
-gemDensePlutonium
 gemDensePrismarine
 gemDensePrudentium
 gemDensePulsatingIron
@@ -26832,6 +27136,8 @@ gemDepleted_fuel_tbu_fluoride_flibe
 gemDeuterium
 gemDiamond
  - 1xitem.diamond@0
+gemDiamondMana
+ - 1xitem.manaResource@2
 gemDiamond_nak
 gemDiamond_nak_hot
 gemDiborane
@@ -26842,6 +27148,8 @@ gemDirt
 gemDist_water
 gemDominicanAmber
 gemDraconium_awakened
+gemDragonstone
+ - 1xitem.manaResource@9
 gemDwarven_ale
 gemElectrical_steel
 gemElectrum_flux
@@ -27052,6 +27360,10 @@ gemKunzite
 gemKyanite
 gemLapis
  - 1xitem.dyePowder@4
+gemLapisElven
+ - 1xitem.botanicadds:elven_lapis@0
+gemLapisMana
+ - 1xitem.botanicadds:mana_lapis@0
 gemLapis_nak
 gemLapis_nak_hot
 gemLatex
@@ -27131,7 +27443,6 @@ gemNeutron
 gemNitrogen
 gemNjordAquamarine
  - 1xitem.resource@4
- - 1xitem.resource@5
 gemNjordAquamarineAwakened
  - 1xitem.resource@5
 gemNutrient_distillation
@@ -27198,6 +27509,8 @@ gemQuartzBlock
 gemQuartz_nak
 gemQuartz_nak_hot
 gemQuartzite
+gemQuicksilver
+ - 1xitem.quicksilver@0
 gemRadaway
 gemRadaway_slow
 gemRedGarnet
@@ -27220,6 +27533,7 @@ gemReinforced_obsidian
 gemResin
 gemRhodochrosite
  - 1xitem.nuclearcraft.gem@0
+gemRhodocrosite
 gemRime
 gemRocket_fuel
 gemRoseQuartz
@@ -27506,6 +27820,8 @@ ingotAerotheum
 ingotAlchemical
  - 1xitem.alkimium_ingot@0
 ingotAlchemical_redstone
+ingotAlkimium
+ - 1xitem.alkimium_ingot@0
 ingotAlubrass
  - 1xitem.tconstruct.ingots@5
 ingotAlugentum
@@ -27921,6 +28237,8 @@ ingotDU
 ingotDamascusSteel
 ingotDarkChocolate
  - 1xitem.nuclearcraft.dark_chocolate@0
+ingotDarkSoularium
+ - 1xitem.simplyjetpacks.metaItemMods@3
 ingotDarkSteel
  - 1xitem.item_alloy_ingot@6
 ingotDark_chocolate
@@ -28039,7 +28357,6 @@ ingotDensePeridot
 ingotDensePhotonium
 ingotDensePigiron
 ingotDensePlatinum
-ingotDensePlutonium
 ingotDensePrismarine
 ingotDensePrudentium
 ingotDensePulsatingIron
@@ -28208,6 +28525,9 @@ ingotEndSteel
  - 1xitem.item_alloy_ingot@8
 ingotEnd_steel
 ingotEnder
+ - 1xitem.ec.material@36
+ingotEnderEnhanced
+ - 1xitem.ec.material@48
 ingotEnder_distillation
 ingotEnder_nak
 ingotEnder_nak_hot
@@ -28360,6 +28680,10 @@ ingotFuel_tbu
 ingotFuel_tbu_fluoride
 ingotFuel_tbu_fluoride_flibe
 ingotFuelcolumn
+ingotGaia
+ - 1xitem.manaResource@14
+ingotGaiasteel
+ - 1xitem.botanicadds:gaiasteel_ingot@0
 ingotGarnet
 ingotGasoline
 ingotGelatin
@@ -28368,6 +28692,8 @@ ingotGelidEnderium
  - 1xitem.redstonerepository.material@1
 ingotGelid_enderium
 ingotGlass
+ingotGlitchInfused
+ - 1xitem.deepmoblearning.glitch_infused_ingot@0
 ingotGlowstone
 ingotGlowstone_nak
 ingotGlowstone_nak_hot
@@ -28461,6 +28787,8 @@ ingotLead_platinum
 ingotLemurite
 ingotLif
 ingotLifeessence
+ingotLight
+ - 1xitem.ingot_light@0
 ingotLiquid_crystal
 ingotLiquid_death
 ingotLiquid_nitrogen
@@ -28491,6 +28819,8 @@ ingotLithium7
 ingotLithiumManganeseDioxide
  - 1xitem.nuclearcraft.alloy@4
 ingotLithium_manganese_dioxide
+ingotLivium
+ - 1xitem.thaumic_arcana.ingot_livium@0
 ingotLow_pressure_steam
 ingotLow_quality_steam
 ingotLpg
@@ -28524,6 +28854,10 @@ ingotManyullyn
  - 1xitem.tconstruct.ingots@2
 ingotMarshmallow
 ingotMeat
+ingotMeatCooked
+ - 1xitem.cooked_meat_ingot@0
+ingotMeatRaw
+ - 1xitem.raw_meat_ingot@0
 ingotMelodicAlloy
  - 1xitem.item_alloy_endergy_ingot@2
 ingotMelodic_alloy
@@ -28588,6 +28922,7 @@ ingotOrichalcos
 ingotOrichalcum
 ingotOsgloglas
  - 1xitem.osgloglasingot@0
+ingotOsglosglas
 ingotOsmiridium
  - 1xitem.osmiridiumingot@0
 ingotOsmium
@@ -28721,6 +29056,8 @@ ingotSapphire
 ingotSeed.oil
 ingotSeed_oil
 ingotSewage
+ingotShade
+ - 1xitem.ingot_shade@0
 ingotShadowIron
 ingotShadowSteel
 ingotShadowium
@@ -28746,6 +29083,8 @@ ingotSilver
  - 1xitem.immersiveengineering.metal@3
  - 1xitem.ingot_silver@0
  - 1xitem.silver_ingot@0
+ingotSlimePink
+ - 1xitem.industrialforegoing_pink_slime_ingot@0
 ingotSludge
 ingotSnowpoff
 ingotSodium
@@ -28755,6 +29094,8 @@ ingotSoularium
  - 1xitem.item_alloy_ingot@7
 ingotSoulium
  - 1xitem.ma.crafting@38
+ingotSpectre
+ - 1xitem.ingredient@3
 ingotStarmetal
 ingotSteam
 ingotSteel
@@ -28770,6 +29111,8 @@ ingotStellarAlloy
  - 1xitem.item_alloy_endergy_ingot@3
 ingotStellar_alloy
 ingotStone
+ingotStygianIron
+ - 1xitem.woot.stygianironingot@0
 ingotSugar
 ingotSulfur
 ingotSulfur_dioxide
@@ -28828,7 +29171,6 @@ ingotThorium_fluoride_flibe
 ingotThorium_oxide
 ingotThundersteel
  - 1xitem.resource@0
- - 1xitem.resource@1
 ingotThundersteelAwakened
  - 1xitem.resource@1
 ingotTin
@@ -28912,6 +29254,8 @@ ingotVividAlloy
 ingotVivid_alloy
 ingotVodka
 ingotVoid
+ - 1xitem.ingot@1
+ingotVoidMetal
  - 1xitem.ingot@1
 ingotVulcanite
 ingotVyroxeres
@@ -29363,13 +29707,13 @@ listAllpepper
  - 1xitem.food@55
 listAllsalt
 listAllseed
- - 1xitem.bewitchment.wormwood_seeds@0
- - 1xitem.bewitchment.belladonna_seeds@0
  - 1xitem.bewitchment.aconitum_seeds@0
- - 1xitem.bewitchment.hellebore_seeds@0
- - 1xitem.bewitchment.white_sage_seeds@0
- - 1xitem.bewitchment.mandrake_seeds@0
+ - 1xitem.bewitchment.wormwood_seeds@0
  - 1xitem.bewitchment.garlic_seeds@0
+ - 1xitem.bewitchment.hellebore_seeds@0
+ - 1xitem.bewitchment.belladonna_seeds@0
+ - 1xitem.bewitchment.mandrake_seeds@0
+ - 1xitem.bewitchment.white_sage_seeds@0
 listAllspice
  - 1xitem.food@36
  - 1xitem.food@39
@@ -29710,8 +30054,6 @@ mysticalCropsPhotonium
  - 1xtile.jaopca.mysticalCrops@0
 mysticalCropsPigiron
  - 1xtile.jaopca.mysticalCrops@0
-mysticalCropsPlutonium
- - 1xtile.jaopca.mysticalCrops@0
 mysticalCropsPyrite
  - 1xtile.jaopca.mysticalCrops@0
 mysticalCropsQuartzBlack
@@ -29888,8 +30230,6 @@ mysticalSeedsPhotonium
  - 1xitem.jaopca.mysticalSeeds@0
 mysticalSeedsPigiron
  - 1xitem.jaopca.mysticalSeeds@0
-mysticalSeedsPlutonium
- - 1xitem.jaopca.mysticalSeeds@0
 mysticalSeedsPyrite
  - 1xitem.jaopca.mysticalSeeds@0
 mysticalSeedsQuartzBlack
@@ -29964,28 +30304,29 @@ netherrack
  - 1xtile.chisel.netherrack@13
  - 1xtile.hellrock@32767
 nitor
- - 1xtile.nitor_orange@0
- - 1xtile.nitor_purple@0
- - 1xtile.nitor_red@0
- - 1xtile.nitor_brown@0
- - 1xtile.nitor_blue@0
  - 1xtile.nitor_silver@0
  - 1xtile.nitor_cyan@0
- - 1xtile.nitor_pink@0
- - 1xtile.nitor_yellow@0
- - 1xtile.nitor_green@0
- - 1xtile.nitor_gray@0
- - 1xtile.nitor_white@0
- - 1xtile.nitor_magenta@0
  - 1xtile.nitor_black@0
- - 1xtile.nitor_lightblue@0
+ - 1xtile.nitor_brown@0
  - 1xtile.nitor_lime@0
+ - 1xtile.nitor_white@0
+ - 1xtile.nitor_orange@0
+ - 1xtile.nitor_gray@0
+ - 1xtile.nitor_pink@0
+ - 1xtile.nitor_magenta@0
+ - 1xtile.nitor_red@0
+ - 1xtile.nitor_green@0
+ - 1xtile.nitor_yellow@0
+ - 1xtile.nitor_blue@0
+ - 1xtile.nitor_lightblue@0
+ - 1xtile.nitor_purple@0
 nuggetAdaminite
  - 1xitem.thaumadditions:adaminite_nugget@0
 nuggetAdvancedAlloy
  - 1xitem.jaopca.nugget@0
 nuggetAlchemical
  - 1xitem.alkimium_nugget@0
+nuggetAlkimium
 nuggetAlubrass
  - 1xitem.tconstruct.nuggets@5
 nuggetAlugentum
@@ -29994,6 +30335,7 @@ nuggetAluminium
  - 1xitem.thermalfoundation.material@196
  - 1xitem.techreborn.nuggets@0
  - 1xitem.immersiveengineering.metal@21
+ - 1xitem.agricraft:agri_nugget@8
 nuggetAluminum
  - 1xitem.thermalfoundation.material@196
  - 1xitem.techreborn.nuggets@0
@@ -30201,6 +30543,8 @@ nuggetEmerald
  - 1xitem.magicbees.orepart@1
 nuggetEndSteel
  - 1xitem.item_alloy_nugget@8
+nuggetEnder
+nuggetEnderEnhanced
 nuggetEnderium
  - 1xitem.thermalfoundation.material@231
 nuggetEnderpearl
@@ -30273,6 +30617,8 @@ nuggetLead
  - 1xitem.agricraft:agri_nugget@6
 nuggetLeadPlatinum
  - 1xitem.jaopca.nugget@0
+nuggetLight
+ - 1xitem.nugget_light@0
 nuggetLithium
  - 1xitem.jaopca.nugget@0
 nuggetLithium6
@@ -30306,6 +30652,8 @@ nuggetMeat
  - 1xitem.chunk@3
  - 1xitem.chunk@4
  - 1xitem.chunk@5
+nuggetMeatRaw
+ - 1xitem.raw_meat_nugget@0
 nuggetMelodicAlloy
  - 1xitem.item_alloy_endergy_nugget@2
 nuggetMirion
@@ -30360,7 +30708,6 @@ nuggetPlatinum
  - 1xitem.techreborn.nuggets@10
  - 1xitem.agricraft:agri_nugget@10
 nuggetPlutonium
- - 1xitem.jaopca.nugget@0
 nuggetPlutonium238
  - 1xitem.nuclearcraft.plutonium@2
 nuggetPlutonium238Base
@@ -30415,6 +30762,8 @@ nuggetRuby
  - 1xitem.jaopca.nugget@0
 nuggetSapphire
  - 1xitem.jaopca.nugget@0
+nuggetShade
+ - 1xitem.nugget_shade@0
 nuggetShadowium
  - 1xitem.jaopca.nugget@0
 nuggetShibuichi
@@ -30480,7 +30829,6 @@ nuggetThoriumOxide
  - 1xitem.jaopca.nugget@0
 nuggetThundersteel
  - 1xitem.resource@6
-nuggetThundersteelAwakened
 nuggetTin
  - 1xitem.thermalfoundation.material@193
  - 1xitem.techreborn.nuggets@13
@@ -30531,6 +30879,8 @@ nuggetVilliaumite
 nuggetVividAlloy
  - 1xitem.item_alloy_endergy_nugget@6
 nuggetVoid
+ - 1xitem.nugget@7
+nuggetVoidMetal
  - 1xitem.nugget@7
 nuggetWub
  - 1xitem.jaopca.nugget@0
@@ -30906,7 +31256,6 @@ oreCarnelian
 oreCatsEye
 oreCertusQuartz
  - 1xtile.appliedenergistics2.quartz_ore@0
- - 1xtile.appliedenergistics2.charged_quartz_ore@0
 oreCeruclase
 oreChaos
 oreChargedCertusQuartz
@@ -31077,6 +31426,7 @@ oreEndYellorium
 oreEndZinc
  - 1xtile.netherendingores:ore_end_modded_2@0
 oreEnder
+ - 1xtile.ender_ore@0
 oreEnderEssence
 oreEnderOre
  - 1xtile.ender_ore@0
@@ -31170,6 +31520,8 @@ oreLead
 oreLeadPlatinum
 oreLemurite
 oreLepidolite
+oreLight
+ - 1xtile.ore_light@0
 oreLithium
  - 1xtile.nuclearcraft.ore@6
 oreLithium6
@@ -31740,6 +32092,8 @@ oreQuartz
  - 1xtile.ore_quartz@0
 oreQuartzBlack
  - 1xtile.actuallyadditions.block_misc@3
+oreQuicksilver
+ - 1xtile.ore_cinnabar@0
 oreRedstone
  - 1xtile.oreRedstone@0
  - 1xtile.nether_redstone_ore@0
@@ -31763,6 +32117,8 @@ oreSaltpeter
 oreSanguinite
 oreSapphire
  - 1xtile.techreborn.ore@3
+oreShade
+ - 1xtile.ore_shade@0
 oreShadowIron
 oreShadowium
 oreSheldonite
@@ -31789,6 +32145,8 @@ oreSphalerite
 oreSpinel
 oreSteel
 oreStellarAlloy
+oreStygianIron
+ - 1xtile.woot.stygianironore@0
 oreSulfur
 oreSunstone
 oreSuperium
@@ -31845,6 +32203,7 @@ oreVyroxeres
 oreWaterBlock
  - 1xtile.water_block@0
 oreWub
+ - 1xtile.wub_ore@0
 oreWubOre
  - 1xtile.wub_ore@0
 oreXen
@@ -32306,6 +32665,8 @@ plateAdvancedAlloy
  - 1xitem.techreborn.plate@36
 plateAlchemical
  - 1xitem.alkimium_plate@0
+plateAlkimium
+ - 1xitem.alkimium_plate@0
 plateAlubrass
  - 1xitem.jaopca.plate@0
 plateAluminium
@@ -32639,7 +33000,6 @@ plateDensePigiron
 plateDensePlatinum
  - 1xitem.jaopca.plateDense@0
 plateDensePlutonium
- - 1xitem.jaopca.plateDense@0
 plateDensePlutonium239
 plateDensePlutonium239Oxide
 plateDensePlutonium241
@@ -32737,6 +33097,8 @@ plateDenseVividAlloy
  - 1xitem.jaopca.plateDense@0
 plateDenseVoid
  - 1xitem.jaopca.plateDense@0
+plateDenseVoidMetal
+ - 1xitem.jaopca.plateDense@0
 plateDenseWub
  - 1xitem.jaopca.plateDense@0
 plateDenseYellorium
@@ -32775,6 +33137,7 @@ plateEmerald
  - 1xitem.techreborn.plate@6
 plateEndSteel
  - 1xitem.jaopca.plate@0
+plateEnder
 plateEnderium
  - 1xitem.thermalfoundation.material@359
 plateEnergeticAlloy
@@ -32910,7 +33273,6 @@ platePlatinum
  - 1xitem.thermalfoundation.material@326
  - 1xitem.techreborn.plate@27
 platePlutonium
- - 1xitem.jaopca.plate@0
 platePlutonium239
 platePlutonium239Oxide
 platePlutonium241
@@ -32941,6 +33303,8 @@ plateRefinedObsidian
  - 1xitem.jaopca.plate@0
 plateReinforcedObsidian
  - 1xitem.jaopca.plate@0
+plateResonating
+ - 1xitem.deepresonance.resonating_plate@0
 plateRhodochrosite
  - 1xitem.jaopca.plate@0
 plateRuby
@@ -32974,6 +33338,8 @@ plateSteel
  - 1xitem.immersiveengineering.metal@38
 plateStellarAlloy
  - 1xitem.jaopca.plate@0
+plateStygianIron
+ - 1xitem.woot.stygianironplate@0
 plateSuperium
  - 1xitem.jaopca.plate@0
 plateSupremium
@@ -33033,6 +33399,8 @@ plateVilliaumite
 plateVividAlloy
  - 1xitem.jaopca.plate@0
 plateVoid
+ - 1xitem.plate@3
+plateVoidMetal
  - 1xitem.plate@3
 plateWood
  - 1xitem.techreborn.plate@3
@@ -33284,6 +33652,9 @@ rodAdvancedAlloy
  - 1xitem.jaopca.stick@0
 rodAlubrass
  - 1xitem.jaopca.stick@0
+rodAluminium
+ - 1xitem.immersiveengineering.material@3
+rodAluminum
 rodAlumite
  - 1xitem.jaopca.stick@0
 rodAmber
@@ -33438,6 +33809,8 @@ rodIridium
  - 1xitem.jaopca.stick@0
 rodIridiumAlloy
  - 1xitem.jaopca.stick@0
+rodIron
+ - 1xitem.immersiveengineering.material@1
 rodKnightslime
  - 1xitem.jaopca.stick@0
 rodLapis
@@ -33503,7 +33876,6 @@ rodPigiron
 rodPlatinum
  - 1xitem.jaopca.stick@0
 rodPlutonium
- - 1xitem.jaopca.stick@0
 rodPlutonium239
 rodPlutonium239Oxide
 rodPlutonium241
@@ -33553,6 +33925,8 @@ rodSoularium
  - 1xitem.jaopca.stick@0
 rodSoulium
  - 1xitem.jaopca.stick@0
+rodSteel
+ - 1xitem.immersiveengineering.material@2
 rodStellarAlloy
  - 1xitem.jaopca.stick@0
 rodStone
@@ -33600,6 +33974,8 @@ rodVilliaumite
 rodVividAlloy
  - 1xitem.jaopca.stick@0
 rodVoid
+ - 1xitem.jaopca.stick@0
+rodVoidMetal
  - 1xitem.jaopca.stick@0
 rodWub
  - 1xitem.jaopca.stick@0
@@ -33804,71 +34180,70 @@ seedsStems
  - 1xitem.seeds_melon@0
  - 1xitem.seeds_pumpkin@0
 seedsTier1
+ - 1xitem.ma.wood_seeds@0
  - 1xitem.ma.ice_seeds@0
- - 1xitem.ma.stone_seeds@0
- - 1xitem.ma.water_seeds@0
  - 1xitem.ma.zombie_seeds@0
  - 1xitem.ma.nature_seeds@0
- - 1xitem.ma.wood_seeds@0
+ - 1xitem.ma.water_seeds@0
  - 1xitem.ma.dirt_seeds@0
+ - 1xitem.ma.stone_seeds@0
 seedsTier2
  - 1xitem.ma.limestone_seeds@0
- - 1xitem.ma.sheep_seeds@0
- - 1xitem.ma.rubber_seeds@0
- - 1xitem.ma.aluminum_seeds@0
- - 1xitem.ma.menril_seeds@0
  - 1xitem.ma.aluminum_brass_seeds@0
  - 1xitem.ma.chicken_seeds@0
- - 1xitem.ma.apatite_seeds@0
- - 1xitem.ma.silicon_seeds@0
+ - 1xitem.ma.grains_of_infinity_seeds@0
+ - 1xitem.ma.aluminum_seeds@0
+ - 1xitem.ma.slime_seeds@0
+ - 1xitem.ma.sheep_seeds@0
+ - 1xitem.ma.basalt_seeds@0
+ - 1xitem.ma.rubber_seeds@0
+ - 1xitem.ma.dye_seeds@0
+ - 1xitem.ma.pig_seeds@0
  - 1xitem.ma.mystical_flower_seeds@0
- - 1xitem.ma.fire_seeds@0
+ - 1xitem.ma.copper_seeds@0
+ - 1xitem.ma.sulfur_seeds@0
  - 1xitem.ma.cow_seeds@0
  - 1xitem.ma.marble_seeds@0
+ - 1xitem.ma.fire_seeds@0
  - 1xitem.ma.nether_seeds@0
- - 1xitem.ma.basalt_seeds@0
- - 1xitem.ma.pig_seeds@0
- - 1xitem.ma.copper_seeds@0
- - 1xitem.ma.grains_of_infinity_seeds@0
- - 1xitem.ma.sulfur_seeds@0
- - 1xitem.ma.slime_seeds@0
- - 1xitem.ma.dye_seeds@0
+ - 1xitem.ma.menril_seeds@0
+ - 1xitem.ma.apatite_seeds@0
+ - 1xitem.ma.silicon_seeds@0
  - 1xitem.ma.coal_seeds@0
 seedsTier3
- - 1xitem.ma.blizz_seeds@0
- - 1xitem.ma.basalz_seeds@0
- - 1xitem.ma.quicksilver_seeds@0
- - 1xitem.ma.conductive_iron_seeds@0
- - 1xitem.ma.lead_seeds@0
- - 1xitem.ma.iron_seeds@0
- - 1xitem.ma.ardite_seeds@0
- - 1xitem.ma.graphite_seeds@0
- - 1xitem.ma.bronze_seeds@0
- - 1xitem.ma.black_quartz_seeds@0
  - 1xitem.ma.spider_seeds@0
  - 1xitem.ma.redstone_alloy_seeds@0
+ - 1xitem.ma.bronze_seeds@0
  - 1xitem.ma.saltpeter_seeds@0
- - 1xitem.ma.sky_stone_seeds@0
- - 1xitem.ma.guardian_seeds@0
- - 1xitem.ma.brass_seeds@0
- - 1xitem.ma.creeper_seeds@0
- - 1xitem.ma.obsidian_seeds@0
- - 1xitem.ma.electrical_steel_seeds@0
- - 1xitem.ma.certus_quartz_seeds@0
- - 1xitem.ma.knightslime_seeds@0
- - 1xitem.ma.zinc_seeds@0
- - 1xitem.ma.redstone_seeds@0
- - 1xitem.ma.manasteel_seeds@0
  - 1xitem.ma.tin_seeds@0
- - 1xitem.ma.glowstone_seeds@0
- - 1xitem.ma.thaumium_seeds@0
- - 1xitem.ma.skeleton_seeds@0
- - 1xitem.ma.nether_quartz_seeds@0
- - 1xitem.ma.blitz_seeds@0
+ - 1xitem.ma.graphite_seeds@0
+ - 1xitem.ma.sky_stone_seeds@0
+ - 1xitem.ma.zinc_seeds@0
+ - 1xitem.ma.iron_seeds@0
  - 1xitem.ma.aquamarine_seeds@0
+ - 1xitem.ma.lead_seeds@0
+ - 1xitem.ma.redstone_seeds@0
+ - 1xitem.ma.ardite_seeds@0
+ - 1xitem.ma.brass_seeds@0
+ - 1xitem.ma.manasteel_seeds@0
+ - 1xitem.ma.certus_quartz_seeds@0
+ - 1xitem.ma.basalz_seeds@0
+ - 1xitem.ma.skeleton_seeds@0
+ - 1xitem.ma.knightslime_seeds@0
+ - 1xitem.ma.quicksilver_seeds@0
+ - 1xitem.ma.black_quartz_seeds@0
+ - 1xitem.ma.thaumium_seeds@0
+ - 1xitem.ma.nether_quartz_seeds@0
+ - 1xitem.ma.glowstone_seeds@0
  - 1xitem.ma.rabbit_seeds@0
+ - 1xitem.ma.guardian_seeds@0
  - 1xitem.ma.silver_seeds@0
- - 1xitem.jaopca.mysticalSeeds@0
+ - 1xitem.ma.electrical_steel_seeds@0
+ - 1xitem.ma.blitz_seeds@0
+ - 1xitem.ma.obsidian_seeds@0
+ - 1xitem.ma.blizz_seeds@0
+ - 1xitem.ma.conductive_iron_seeds@0
+ - 1xitem.ma.creeper_seeds@0
  - 1xitem.jaopca.mysticalSeeds@0
  - 1xitem.jaopca.mysticalSeeds@0
  - 1xitem.jaopca.mysticalSeeds@0
@@ -33958,68 +34333,68 @@ seedsTier3
  - 1xitem.jaopca.mysticalSeeds@0
  - 1xitem.jaopca.mysticalSeeds@0
 seedsTier4
- - 1xitem.ma.end_seeds@0
- - 1xitem.ma.dawnstone_seeds@0
- - 1xitem.ma.lithium_seeds@0
- - 1xitem.ma.magnesium_seeds@0
- - 1xitem.ma.void_metal_seeds@0
- - 1xitem.ma.fluxed_electrum_seeds@0
- - 1xitem.ma.enderman_seeds@0
- - 1xitem.ma.constantan_seeds@0
- - 1xitem.ma.blaze_seeds@0
- - 1xitem.ma.amber_seeds@0
- - 1xitem.ma.nickel_seeds@0
- - 1xitem.ma.experience_seeds@0
- - 1xitem.ma.cobalt_seeds@0
- - 1xitem.ma.osmium_seeds@0
- - 1xitem.ma.fluix_seeds@0
- - 1xitem.ma.dark_steel_seeds@0
  - 1xitem.ma.lumium_seeds@0
- - 1xitem.ma.glowstone_ingot_seeds@0
- - 1xitem.ma.electrum_seeds@0
- - 1xitem.ma.gold_seeds@0
- - 1xitem.ma.steel_seeds@0
- - 1xitem.ma.thorium_seeds@0
- - 1xitem.ma.boron_seeds@0
- - 1xitem.ma.alumite_seeds@0
  - 1xitem.ma.mithril_seeds@0
- - 1xitem.ma.peridot_seeds@0
- - 1xitem.ma.sapphire_seeds@0
- - 1xitem.ma.ghast_seeds@0
- - 1xitem.ma.invar_seeds@0
- - 1xitem.ma.hop_graphite_seeds@0
- - 1xitem.ma.signalum_seeds@0
- - 1xitem.ma.elementium_seeds@0
- - 1xitem.ma.soularium_seeds@0
  - 1xitem.ma.lapis_lazuli_seeds@0
+ - 1xitem.ma.dark_steel_seeds@0
+ - 1xitem.ma.end_seeds@0
+ - 1xitem.ma.blaze_seeds@0
+ - 1xitem.ma.void_metal_seeds@0
+ - 1xitem.ma.osmium_seeds@0
+ - 1xitem.ma.lithium_seeds@0
  - 1xitem.ma.energetic_alloy_seeds@0
- - 1xitem.ma.pulsating_iron_seeds@0
- - 1xitem.ma.ruby_seeds@0
+ - 1xitem.ma.glowstone_ingot_seeds@0
+ - 1xitem.ma.fluix_seeds@0
+ - 1xitem.ma.thorium_seeds@0
  - 1xitem.ma.compressed_iron_seeds@0
+ - 1xitem.ma.sapphire_seeds@0
+ - 1xitem.ma.fluxed_electrum_seeds@0
+ - 1xitem.ma.constantan_seeds@0
+ - 1xitem.ma.experience_seeds@0
+ - 1xitem.ma.ruby_seeds@0
+ - 1xitem.ma.electrum_seeds@0
+ - 1xitem.ma.magnesium_seeds@0
+ - 1xitem.ma.alumite_seeds@0
+ - 1xitem.ma.soularium_seeds@0
+ - 1xitem.ma.hop_graphite_seeds@0
+ - 1xitem.ma.dawnstone_seeds@0
+ - 1xitem.ma.boron_seeds@0
+ - 1xitem.ma.signalum_seeds@0
+ - 1xitem.ma.amber_seeds@0
+ - 1xitem.ma.elementium_seeds@0
+ - 1xitem.ma.invar_seeds@0
+ - 1xitem.ma.steel_seeds@0
+ - 1xitem.ma.nickel_seeds@0
+ - 1xitem.ma.cobalt_seeds@0
+ - 1xitem.ma.ghast_seeds@0
+ - 1xitem.ma.gold_seeds@0
+ - 1xitem.ma.pulsating_iron_seeds@0
+ - 1xitem.ma.peridot_seeds@0
+ - 1xitem.ma.enderman_seeds@0
 seedsTier5
- - 1xitem.ma.manyullyn_seeds@0
- - 1xitem.ma.emerald_seeds@0
- - 1xitem.ma.rock_crystal_seeds@0
- - 1xitem.ma.refined_obsidian_seeds@0
- - 1xitem.ma.end_steel_seeds@0
- - 1xitem.ma.platinum_seeds@0
- - 1xitem.ma.titanium_seeds@0
- - 1xitem.ma.draconium_seeds@0
- - 1xitem.ma.chrome_seeds@0
- - 1xitem.ma.enderium_seeds@0
- - 1xitem.ma.yellorium_seeds@0
- - 1xitem.ma.wither_skeleton_seeds@0
- - 1xitem.ma.terrasteel_seeds@0
- - 1xitem.ma.iridium_seeds@0
- - 1xitem.ma.vibrant_alloy_seeds@0
- - 1xitem.ma.starmetal_seeds@0
  - 1xitem.ma.diamond_seeds@0
- - 1xitem.ma.uranium_seeds@0
+ - 1xitem.ma.enderium_seeds@0
+ - 1xitem.ma.wither_skeleton_seeds@0
+ - 1xitem.ma.chrome_seeds@0
  - 1xitem.ma.tungsten_seeds@0
+ - 1xitem.ma.emerald_seeds@0
+ - 1xitem.ma.vibrant_alloy_seeds@0
+ - 1xitem.ma.titanium_seeds@0
+ - 1xitem.ma.uranium_seeds@0
+ - 1xitem.ma.refined_obsidian_seeds@0
+ - 1xitem.ma.draconium_seeds@0
+ - 1xitem.ma.iridium_seeds@0
+ - 1xitem.ma.manyullyn_seeds@0
+ - 1xitem.ma.platinum_seeds@0
+ - 1xitem.ma.terrasteel_seeds@0
+ - 1xitem.ma.yellorium_seeds@0
+ - 1xitem.ma.starmetal_seeds@0
+ - 1xitem.ma.end_steel_seeds@0
+ - 1xitem.ma.rock_crystal_seeds@0
 seedsTier6
  - 1xitem.ma.neutronium_seeds@0
- - 1xitem.ma.nether_star_seeds@0
  - 1xitem.ma.dragon_egg_seeds@0
+ - 1xitem.ma.nether_star_seeds@0
  - 1xitem.ma.awakened_draconium_seeds@0
 servo
  - 1xitem.nuclearcraft.part@7
@@ -34249,8 +34624,8 @@ slabWood
  - 1xtile.slab_silverwood@0
  - 1xtile.bewitchment.elder_wood_slab@0
  - 1xtile.bewitchment.cypress_wood_slab@0
- - 1xtile.bewitchment.yew_wood_slab@0
  - 1xtile.bewitchment.juniper_wood_slab@0
+ - 1xtile.bewitchment.yew_wood_slab@0
  - 1xtile.wildwood_slab@0
  - 1xtile.charred_slab@0
  - 1xtile.aurora_planks_slab@0
@@ -34786,7 +35161,6 @@ stickPigiron
 stickPlatinum
  - 1xitem.jaopca.stick@0
 stickPlutonium
- - 1xitem.jaopca.stick@0
 stickPlutonium239
 stickPlutonium239Oxide
 stickPlutonium241
@@ -35579,6 +35953,12 @@ toolHoe
  - 1xitem.hoeStone@32767
  - 1xitem.hoeDiamond@32767
  - 1xitem.hoeGold@32767
+ - 1xitem.BronzeHoe@32767
+ - 1xitem.SteelHoe@32767
+ - 1xitem.ObsidianHoe@32767
+ - 1xitem.LapisLazuliHoe@32767
+ - 1xitem.OsmiumHoe@32767
+ - 1xitem.GlowstoneHoe@32767
  - 1xitem.thermalfoundation.tool.invarHoe@32767
  - 1xitem.thermalfoundation.tool.copperHoe@32767
  - 1xitem.thermalfoundation.tool.bronzeHoe@32767
@@ -35594,16 +35974,8 @@ toolHoe
  - 1xitem.thaumium_hoe@32767
  - 1xitem.void_hoe@32767
  - 1xitem.elemental_hoe@32767
- - 1xitem.BronzeHoe@32767
- - 1xitem.SteelHoe@32767
- - 1xitem.ObsidianHoe@32767
- - 1xitem.LapisLazuliHoe@32767
- - 1xitem.OsmiumHoe@32767
- - 1xitem.GlowstoneHoe@32767
- - 1xitem.bronzeHoe@32767
- - 1xitem.rubyHoe@32767
- - 1xitem.sapphireHoe@32767
- - 1xitem.peridotHoe@32767
+ - 1xitem.appliedenergistics2.nether_quartz_hoe@32767
+ - 1xitem.appliedenergistics2.certus_quartz_hoe@32767
  - 1xitem.actuallyadditions.item_hoe_quartz@32767
  - 1xitem.actuallyadditions.item_hoe_emerald@32767
  - 1xitem.actuallyadditions.item_hoe_obsidian@32767
@@ -35619,8 +35991,10 @@ toolHoe
  - 1xitem.ma.superium_hoe@32767
  - 1xitem.ma.supremium_hoe@32767
  - 1xitem.draconicevolution:draconic_hoe@32767
- - 1xitem.appliedenergistics2.nether_quartz_hoe@32767
- - 1xitem.appliedenergistics2.certus_quartz_hoe@32767
+ - 1xitem.bronzeHoe@32767
+ - 1xitem.rubyHoe@32767
+ - 1xitem.sapphireHoe@32767
+ - 1xitem.peridotHoe@32767
  - 1xitem.tconstruct.mattock@32767
 toolShears
  - 1xitem.shears@32767

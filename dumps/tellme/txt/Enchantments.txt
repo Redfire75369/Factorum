@@ -18,7 +18,6 @@
 | apotheosis:splitting                     | enchantment.apotheosis.splitting            | <null>                | RARE      | 75 |
 | apotheosis:stable_footing                | enchantment.apotheosis.stable_footing       | ARMOR_FEET            | RARE      | 64 |
 | apotheosis:tempting                      | enchantment.apotheosis.tempting             | <null>                | UNCOMMON  | 68 |
-| apotheosis:true_infinity                 | enchantment.apotheosis.true_infinity        | BOW                   | VERY_RARE | 80 |
 | astralsorcery:enchantment.as.nightvision | enchantment.as.nightvision                  | ARMOR_HEAD            | VERY_RARE | 81 |
 | astralsorcery:enchantment.as.smelting    | enchantment.as.smelting                     | DIGGER                | VERY_RARE | 82 |
 | bewitchment:magic_protection             | enchantment.bewitchment.magic_protection    | ARMOR                 | VERY_RARE | 30 |

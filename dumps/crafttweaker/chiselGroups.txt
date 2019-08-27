@@ -18,6 +18,11 @@ Chisel Group Names:
 - astralsorcery:blockblackmarble_1
 - astralsorcery:blockmarble_1
 - basalt
+- bewitchment:coquina_bricks_0
+- bewitchment:cypress_planks_0
+- bewitchment:elder_planks_0
+- bewitchment:juniper_planks_0
+- bewitchment:yew_planks_0
 - blockAluminum
 - blockBronze
 - blockCharcoal
@@ -286,6 +291,9 @@ Chisel Group Names:
 - lavastone
 - limestone
 - marble
+- naturalpledge:alt_planks_0
+- naturalpledge:alt_planks_1
+- naturalpledge:alt_planks_2
 - netherbrick
 - netherrack
 - nethersteel
@@ -302,6 +310,7 @@ Chisel Group Names:
 - quartz
 - redstone
 - roots:runestone_brick_0
+- roots:wildwood_planks_0
 - rootsRunestone
 - rootsRunicSoilTypes
 - sandstonered

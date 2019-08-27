@@ -2,15 +2,15 @@
 | Registry name                 | Career                           | Buy 1                | Buy 2        | Sell                            |
 +-------------------------------+----------------------------------+----------------------+--------------+---------------------------------+
 | forestry:arborist             | arborist                         |                      |              |                                 |
-|                               |                                  | Emerald              |              | Papaya Wood Planks              |
-|                               |                                  | Emerald              |              | Common Yew Sapling              |
-|                               |                                  | Emerald              |              | Wenge Wood Planks               |
+|                               |                                  | Emerald              |              | Greenheart Wood Planks          |
+|                               |                                  | Emerald              |              | Apple Oak Sapling               |
+|                               |                                  | Emerald              |              | Maple Wood Planks               |
 |                               |                                  | Emerald              |              | Proven Grafter                  |
-|                               |                                  | Emerald              |              | Teak Pollen                     |
-|                               |                                  | Emerald              |              | Plum Wood                       |
-|                               |                                  | Emerald              |              | Baobab Wood                     |
-|                               |                                  | Emerald              |              | Key Lime Pollen                 |
-|                               |                                  | Emerald              |              | Common Hawthorn Sapling         |
+|                               |                                  | Emerald              |              | Peach Pollen                    |
+|                               |                                  | Emerald              |              | Poplar Wood                     |
+|                               |                                  | Emerald              |              | Palm Wood                       |
+|                               |                                  | Emerald              |              | Blue Mahoe Pollen               |
+|                               |                                  | Emerald              |              | Red Banana Sapling              |
 | actuallyadditions:engineer    | actuallyadditions.crystallizer   |                      |              |                                 |
 |                               |                                  | Emerald              |              | Void Crystal                    |
 |                               |                                  | Emerald              |              | Enori Crystal                   |
@@ -103,12 +103,12 @@
 |                               |                                  | Emerald              |              | Leather Tunic                   |
 |                               |                                  | Emerald              |              | Saddle                          |
 | forestry:apiarist             | apiarist                         |                      |              |                                 |
-|                               |                                  | Wheat                |              | Simmering Comb                  |
-|                               |                                  | Carrot               |              | Mossy Comb                      |
+|                               |                                  | Wheat                |              | Parched Comb                    |
+|                               |                                  | Carrot               |              | Mellow Comb                     |
 |                               |                                  | Potato               |              | Dripping Comb                   |
 |                               |                                  | Emerald              |              | Bee Smoker                      |
-|                               |                                  | Oak Wood             | Emerald      | Apiary                          |
-|                               |                                  | Propolis             | Drone        | Wintry Drone                    |
+|                               |                                  | Dark Oak Wood        | Emerald      | Apiary                          |
+|                               |                                  | Propolis             | Drone        | Forest Drone                    |
 |                               |                                  | Princess             |              | Emerald                         |
 |                               |                                  | Emerald              |              | Proven Frame                    |
 |                               |                                  | Princess             | Emerald      | Monastic Drone                  |
@@ -250,15 +250,15 @@
 | roots:druid                   | druid                            |                      |              |                                 |
 |                               |                                  | Aubergine            |              | Emerald                         |
 |                               |                                  | Birch Bark           |              | Emerald                         |
-|                               |                                  | Petals               |              | Emerald                         |
-|                               |                                  | Emerald              |              | Infernal Bulb                   |
-|                               |                                  | Emerald              |              | Living Shovel                   |
-|                               |                                  | Emerald              |              | Golden Knife                    |
-|                               |                                  | Baffle Cap           |              | Emerald                         |
-|                               |                                  | Aubergine Seed       |              | Emerald                         |
+|                               |                                  | Runic Dust           |              | Emerald                         |
+|                               |                                  | Emerald              |              | Baffle Cap                      |
+|                               |                                  | Emerald              |              | Living Axe                      |
+|                               |                                  | Emerald              |              | Iron Knife                      |
+|                               |                                  | Infernal Bulb        |              | Emerald                         |
+|                               |                                  | Wildewheet Seed      |              | Emerald                         |
 |                               |                                  | Emerald              |              | Living Arrow                    |
-|                               |                                  | Emerald              |              | Component Pouch                 |
-|                               |                                  | Emerald              |              | Spirit Herb                     |
+|                               |                                  | Emerald              |              | Runic Shears                    |
+|                               |                                  | Emerald              |              | Moonglow Leaf                   |
 |                               |                                  | Amethyst             |              | Emerald                         |
 |                               |                                  | Emerald              |              | Wildwood Sapling                |
 +-------------------------------+----------------------------------+----------------------+--------------+---------------------------------+

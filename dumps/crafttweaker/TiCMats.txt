@@ -1,0 +1,2036 @@
+Tinkers Construct Materials:
+-electrical_steel
+Durability: 306
+Mining Level: bDiamond
+Mining Speed: 6.5
+Attack: 2.25
+Modifier: 0.75
+Durability: 80
+Durability: 75
+Drawspeed: 0.67
+Range Multiplier: 0.9
+Bonus Damage: 1
+
+-energetic_alloy
+Durability: 690
+Mining Level: Obsidian
+Mining Speed: 2.5
+Attack: 5.6
+Modifier: 2
+Durability: -800
+Durability: 400
+Drawspeed: 2
+Range Multiplier: 0.8
+Bonus Damage: 1
+
+-vibrant_alloy
+Durability: 220
+Mining Level: Cobalt
+Mining Speed: 3.5
+Attack: 9
+Modifier: 0.5
+Durability: -50
+Durability: 60
+Drawspeed: 1.33
+Range Multiplier: 1
+Bonus Damage: 5
+
+-redstone_alloy
+Durability: 120
+Mining Level: Stone
+Mining Speed: 2.5
+Attack: 1.5
+Modifier: 1
+Durability: -5
+Durability: 150
+Drawspeed: 0.4
+Range Multiplier: 0.4
+Bonus Damage: 0
+
+-conductive_iron
+Durability: 106
+Mining Level: bDiamond
+Mining Speed: 6.75
+Attack: 1.25
+Modifier: 1.25
+Durability: 100
+Durability: 250
+Drawspeed: 0.67
+Range Multiplier: 0.9
+Bonus Damage: 1.25
+
+-pulsating_iron
+Durability: 920
+Mining Level: Iron
+Mining Speed: 6
+Attack: 2
+Modifier: 1.05
+Durability: 250
+Durability: 250
+Drawspeed: 4
+Range Multiplier: 3.5
+Bonus Damage: 6
+
+-dark_steel
+Durability: 550
+Mining Level: Cobalt
+Mining Speed: 7
+Attack: 6
+Modifier: 0.9
+Durability: 150
+Durability: 250
+Drawspeed: 3.33
+Range Multiplier: 2.5
+Bonus Damage: 9
+
+-soularium
+Durability: 1,555
+Mining Level: Stone
+Mining Speed: 1
+Attack: 1
+Modifier: 0.5
+Durability: 1,500
+Durability: 1,250
+Drawspeed: 10
+Range Multiplier: 0.5
+Bonus Damage: 0
+Modifier: 0.75
+
+-end_steel
+Durability: 400
+Mining Level: Cobalt
+Mining Speed: 8.25
+Attack: 5
+Modifier: 0.9
+Durability: 50
+Durability: 150
+Drawspeed: 3.33
+Range Multiplier: 2.5
+Bonus Damage: 9
+
+-construction_alloy
+Durability: 50
+Mining Level: Iron
+Mining Speed: 1.25
+Attack: 1
+Modifier: 0.5
+Durability: 10
+Durability: 10
+Drawspeed: 0.33
+Range Multiplier: 0.5
+Bonus Damage: 0
+
+-crude_steel
+
+-crystalline_alloy
+
+-melodic_alloy
+
+-stellar_alloy
+
+-crystalline_pink_slime
+
+-energetic_silver
+
+-vivid_alloy
+
+-_internal_render1
+
+-_internal_render2
+
+-_internal_render3
+
+-_internal_render4
+
+-_internal_renderstring
+
+-stone
+Durability: 90
+Mining Level: Iron
+Mining Speed: 3
+Attack: 3
+Modifier: 0.5
+Durability: -87
+Durability: 15
+Drawspeed: 0.2
+Range Multiplier: 0.4
+Bonus Damage: -1
+Durability: 7
+Defense: 3.75
+Modifier: 0.5
+Durability: -5
+Toughness: 0
+Durability: 1
+Friction: 2
+Modifier: 0.5
+Attack: 4
+Weight: 2
+Durability: 120
+
+-flint
+Durability: 113
+Mining Level: Iron
+Mining Speed: 3.75
+Attack: 2.17
+Modifier: 0.6
+Durability: -105
+Durability: 30
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Durability: 8
+Defense: 3.38
+Modifier: 0.6
+Durability: -9
+Toughness: 0.75
+Durability: 2
+Friction: 0.1
+Modifier: 0.2
+Attack: 2.9
+Weight: 0.2
+Durability: 150
+
+-cactus
+Durability: 158
+Mining Level: Iron
+Mining Speed: 3
+Attack: 2.55
+Modifier: 0.85
+Durability: 15
+Durability: 38
+Drawspeed: 0.95
+Range Multiplier: 0.9
+Bonus Damage: 0
+Durability: 10
+Defense: 7.5
+Modifier: 0.85
+Durability: 1
+Toughness: 0
+Durability: 3
+Attack: 3.4
+Weight: 0.8
+Durability: 210
+Friction: 2.5
+Modifier: 0.6
+
+-bone
+Durability: 150
+Mining Level: Iron
+Mining Speed: 3.82
+Attack: 1.88
+Modifier: 1.1
+Durability: 38
+Durability: 49
+Drawspeed: 1.05
+Range Multiplier: 1.15
+Bonus Damage: 0
+Modifier: 0.9
+Bonus-Ammo: 5
+Durability: 9
+Defense: 3
+Modifier: 1.1
+Durability: 3
+Toughness: 0.75
+Durability: 4
+Attack: 2.5
+Weight: 0.3
+Durability: 200
+Friction: 0.05
+Modifier: 0.9
+
+-obsidian
+Durability: 104
+Mining Level: Cobalt
+Mining Speed: 5.3
+Attack: 3.15
+Modifier: 0.9
+Durability: -175
+Durability: 68
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Durability: 8
+Defense: 12.15
+Modifier: 0.9
+Durability: -14
+Toughness: 2.62
+Durability: 5
+Friction: 0.1
+Modifier: 0.9
+Attack: 4.2
+Weight: 1.2
+Durability: 120
+
+-prismarine
+Durability: 323
+Mining Level: Iron
+Mining Speed: 4.12
+Attack: 4.65
+Modifier: 0.6
+Durability: -262
+Durability: 75
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Durability: 12
+Defense: 14.1
+Modifier: 0.6
+Durability: -17
+Toughness: 1.5
+Durability: 6
+Laser Power: 2.5
+Range: 20.0
+Attack: 6
+Weight: 1.3
+Durability: 430
+Friction: 0.7
+Modifier: 0.9
+
+-endstone
+Durability: 315
+Mining Level: Obsidian
+Mining Speed: 2.42
+Attack: 2.42
+Modifier: 0.85
+Durability: 0
+Durability: 32
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Durability: 12
+Defense: 6.75
+Modifier: 0.85
+Durability: 0
+Toughness: 0.75
+Durability: 2
+Friction: 0.5
+Modifier: 0.85
+Attack: 2.9
+Weight: 0.4
+Durability: 420
+
+-sponge
+Durability: 788
+Mining Level: Stone
+Mining Speed: 2.27
+Attack: 0
+Modifier: 1.2
+Durability: 188
+Durability: 188
+Drawspeed: 0.87
+Range Multiplier: 0.75
+Bonus Damage: 0
+Durability: 16
+Defense: 0.75
+Modifier: 1.2
+Durability: 10
+Toughness: 3.75
+Durability: 10
+Attack: 0
+Weight: 0.3
+Durability: 1,050
+Friction: 4
+Modifier: 1.2
+
+-firewood
+Durability: 413
+Mining Level: Stone
+Mining Speed: 4.5
+Attack: 4.12
+Modifier: 1
+Durability: -350
+Durability: 113
+Drawspeed: 1
+Range Multiplier: 1
+Bonus Damage: 0
+Durability: 13
+Defense: 13.12
+Modifier: 1
+Durability: -21
+Toughness: 0.38
+Durability: 8
+Attack: 5
+Weight: 2.7
+Durability: 550
+Friction: 3.8
+Modifier: 0.95
+
+-iron
+Durability: 153
+Mining Level: bDiamond
+Mining Speed: 4.5
+Attack: 3
+Modifier: 0.85
+Durability: 45
+Durability: 38
+Drawspeed: 2
+Range Multiplier: 1.5
+Bonus Damage: 7
+Durability: 12
+Defense: 15
+Modifier: 0.85
+Durability: 5
+Toughness: 0
+Durability: 3.5
+Friction: 0.9
+Modifier: 0.85
+Attack: 5
+Weight: 3.5
+Durability: 204
+
+-pigiron
+Durability: 285
+Mining Level: bDiamond
+Mining Speed: 4.65
+Attack: 3.38
+Modifier: 1.2
+Durability: 0
+Durability: 128
+Drawspeed: 1.67
+Range Multiplier: 1.4
+Bonus Damage: 7
+Durability: 11
+Defense: 12.52
+Modifier: 1.2
+Durability: 0
+Toughness: 0.75
+Durability: 8
+Friction: 1.2
+Modifier: 1.2
+Attack: 4.5
+Weight: 3.7
+Durability: 380
+
+-knightslime
+Durability: 638
+Mining Level: Obsidian
+Mining Speed: 4.35
+Attack: 3.83
+Modifier: 0.5
+Durability: 375
+Durability: 94
+Drawspeed: 2.5
+Range Multiplier: 2
+Bonus Damage: 2
+Durability: 15
+Defense: 12.82
+Modifier: 0.5
+Durability: 13
+Toughness: 0.75
+Durability: 7
+Friction: 2
+Length: 16
+Friction: 2
+Modifier: 0.3
+Attack: 6.1
+Weight: 0.6
+Durability: 600
+
+-slime
+Durability: 750
+Mining Level: Stone
+Mining Speed: 3.18
+Attack: 1.35
+Modifier: 0.7
+Durability: 0
+Durability: 263
+Drawspeed: 1.18
+Range Multiplier: 1.3
+Bonus Damage: 0
+Durability: 16
+Defense: 1.5
+Modifier: 0.7
+Durability: 0
+Toughness: 1.5
+Durability: 11
+Friction: 2
+Modifier: 0.3
+Attack: 1.2
+Weight: 0.6
+Durability: 1,000
+Friction: 1
+Length: 8
+
+-blueslime
+Durability: 585
+Mining Level: Stone
+Mining Speed: 3.02
+Attack: 1.35
+Modifier: 1.3
+Durability: -87
+Durability: 150
+Drawspeed: 0.95
+Range Multiplier: 1
+Bonus Damage: 0
+Durability: 15
+Defense: 1.35
+Modifier: 1.3
+Durability: -5
+Toughness: 1.69
+Durability: 9
+Attack: 1.2
+Weight: 0.6
+Durability: 800
+Friction: 2
+Modifier: 0.3
+Friction: 1
+Length: 8
+
+-magmaslime
+Durability: 450
+Mining Level: Stone
+Mining Speed: 1.58
+Attack: 5.25
+Modifier: 0.85
+Durability: -350
+Durability: 113
+Drawspeed: 0.91
+Range Multiplier: 1.05
+Bonus Damage: 1
+Durability: 14
+Defense: 14.55
+Modifier: 0.85
+Durability: -21
+Toughness: 1.88
+Durability: 8
+Friction: 1
+Length: 8
+Friction: 1.3
+Modifier: 0.3
+Attack: 3.3
+Weight: 0.6
+Durability: 450
+
+-netherrack
+Durability: 203
+Mining Level: Iron
+Mining Speed: 3.38
+Attack: 2.25
+Modifier: 0.85
+Durability: -262
+Durability: 56
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Durability: 11
+Defense: 3.97
+Modifier: 0.85
+Durability: -17
+Toughness: 0
+Durability: 5
+Friction: 3.6
+Modifier: 0.8
+Attack: 3
+Weight: 3.4
+Durability: 230
+
+-cobalt
+Durability: 585
+Mining Level: Cobalt
+Mining Speed: 9
+Attack: 3.08
+Modifier: 0.9
+Durability: 75
+Durability: 225
+Drawspeed: 1.33
+Range Multiplier: 1.3
+Bonus Damage: 3
+Durability: 15
+Defense: 11.7
+Modifier: 0.9
+Durability: 6
+Toughness: 0
+Durability: 11
+Attack: 4.4
+Weight: 0.3
+Durability: 530
+Friction: 0.4
+Modifier: 2.3
+
+-ardite
+Durability: 743
+Mining Level: Cobalt
+Mining Speed: 2.62
+Attack: 2.7
+Modifier: 1.4
+Durability: -350
+Durability: 338
+Drawspeed: 2.22
+Range Multiplier: 0.8
+Bonus Damage: 1
+Durability: 16
+Defense: 9.75
+Modifier: 1.4
+Durability: -21
+Toughness: 3
+Durability: 12
+Friction: 0.1
+Modifier: 1.4
+Attack: 3.6
+Weight: 3.2
+Durability: 990
+
+-manyullyn
+Durability: 615
+Mining Level: Cobalt
+Mining Speed: 5.26
+Attack: 6.54
+Modifier: 0.5
+Durability: 188
+Durability: 38
+Drawspeed: 1.54
+Range Multiplier: 1.2
+Bonus Damage: 4
+Durability: 15
+Defense: 15
+Modifier: 1
+Durability: 10
+Toughness: 2.25
+Durability: 3
+Energy Capacity: 6120000 RF
+Friction: 0.1
+Modifier: 1.2
+Attack: 8.7
+Weight: 4
+Durability: 820
+
+-copper
+Durability: 158
+Mining Level: Iron
+Mining Speed: 3.97
+Attack: 2.25
+Modifier: 1.05
+Durability: 23
+Durability: 75
+Drawspeed: 1.67
+Range Multiplier: 1.45
+Bonus Damage: 5
+Durability: 9
+Defense: 6
+Modifier: 1.05
+Durability: 2
+Toughness: 0
+Durability: 6
+Energy Capacity: 655000 RF
+Friction: 0.4
+Modifier: 1
+Attack: 3
+Weight: 1.9
+Durability: 210
+
+-bronze
+Durability: 323
+Mining Level: bDiamond
+Mining Speed: 5.1
+Attack: 2.62
+Modifier: 1.1
+Durability: 53
+Durability: 60
+Drawspeed: 1.82
+Range Multiplier: 1.5
+Bonus Damage: 6
+Durability: 12
+Defense: 9
+Modifier: 1.1
+Durability: 5
+Toughness: 0.94
+Durability: 5
+Attack: 3.5
+Weight: 2
+Durability: 450
+Friction: 0.5
+Modifier: 1
+
+-lead
+Durability: 326
+Mining Level: Iron
+Mining Speed: 3.94
+Attack: 2.62
+Modifier: 0.7
+Durability: -87
+Durability: 75
+Drawspeed: 2.5
+Range Multiplier: 1.3
+Bonus Damage: 3
+Durability: 12
+Defense: 8.25
+Modifier: 0.7
+Durability: -5
+Toughness: 1.5
+Durability: 6
+Attack: 3.5
+Weight: 6
+Durability: 350
+Friction: 1.6
+Modifier: 0.7
+
+-silver
+Durability: 188
+Mining Level: Iron
+Mining Speed: 3.75
+Attack: 3.75
+Modifier: 0.95
+Durability: 38
+Durability: 113
+Drawspeed: 0.83
+Range Multiplier: 0.8
+Bonus Damage: 2
+Durability: 10
+Defense: 12.75
+Modifier: 0.95
+Durability: 3
+Toughness: 1.5
+Durability: 8
+Energy Capacity: 675000 RF
+Friction: 0.3
+Modifier: 0.95
+Attack: 5
+Weight: 1.7
+Durability: 250
+
+-electrum
+Durability: 38
+Mining Level: Iron
+Mining Speed: 9
+Attack: 2.25
+Modifier: 1.1
+Durability: -44
+Durability: 188
+Drawspeed: 0.67
+Range Multiplier: 1
+Bonus Damage: 4
+Durability: 3
+Defense: 6.07
+Modifier: 1.1
+Durability: -2
+Toughness: 0
+Durability: 10
+Friction: 0
+Modifier: 0.8
+Attack: 3
+Weight: 0.3
+Durability: 50
+
+-steel
+Durability: 405
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 4.5
+Modifier: 0.9
+Durability: 113
+Durability: 19
+Drawspeed: 2.5
+Range Multiplier: 2
+Bonus Damage: 9
+Durability: 13
+Defense: 13.8
+Modifier: 0.9
+Durability: 8
+Toughness: 3.38
+Durability: 1
+Friction: 1.4
+Modifier: 0.9
+Attack: 6
+Weight: 4.4
+Durability: 540
+
+-string
+Modifier: 1
+Friction: 0.05
+Length: 6
+
+-slimevine_blue
+Modifier: 1
+Friction: 1.5
+Length: 10
+
+-slimevine_purple
+Modifier: 1
+Friction: 1.9
+Length: 14
+
+-vine
+Modifier: 1
+Friction: 1.2
+Length: 8
+
+-blaze
+Modifier: 0.8
+Bonus-Ammo: 3
+Energy Capacity: 685000 RF
+Laser Power: 3.2
+Range: 17.0
+Friction: 0.2
+Modifier: 0.8
+
+-reed
+Modifier: 1.5
+Bonus-Ammo: 20
+
+-ice
+Modifier: 0.95
+Bonus-Ammo: 0
+Attack: 4.5
+Weight: 0.9
+Durability: 20
+Friction: 0.05
+Modifier: 0.1
+
+-endrod
+Modifier: 0.7
+Bonus-Ammo: 1
+Energy Capacity: 6260000 RF
+Laser Power: 8.6
+Range: 38.0
+
+-feather
+Modifier: 1
+Accuracy: 100%
+
+-slimeleaf_blue
+Modifier: 1.25
+Accuracy: 80%
+
+-slimeleaf_orange
+Modifier: 1.25
+Accuracy: 80%
+
+-slimeleaf_purple
+Modifier: 1.25
+Accuracy: 80%
+
+-leaf
+Modifier: 1.5
+Accuracy: 50%
+
+-blood_infused_wood
+Durability: 176
+Mining Level: Iron
+Mining Speed: 3.75
+Attack: 2.7
+Modifier: 1.4
+Durability: 24
+Durability: 21
+
+-blood_infused_iron
+Durability: 426
+Mining Level: bDiamond
+Mining Speed: 5.47
+Attack: 3.67
+Modifier: 1.7
+Durability: 54
+Durability: 37
+
+-treatedwood
+Durability: 19
+Mining Level: Stone
+Mining Speed: 1.5
+Attack: 1.5
+Modifier: 1
+Durability: 26
+Durability: 15
+Drawspeed: 1
+Range Multiplier: 1.12
+Bonus Damage: 0
+Modifier: 1.2
+Bonus-Ammo: 0
+
+-hemp
+Modifier: 1
+
+-constantan
+Durability: 19
+Mining Level: bDiamond
+Mining Speed: 3.53
+Attack: 3
+Modifier: 0.8
+Durability: 45
+Durability: 45
+Drawspeed: 1.82
+Range Multiplier: 1.5
+Bonus Damage: 5
+Friction: 0.3
+Modifier: 0.34
+Attack: 5.03
+Weight: 4.1
+Durability: 300
+
+-extrabotany:ingotshadowium
+Durability: 450
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 4.5
+Modifier: 1.3
+Durability: 135
+Durability: 53
+Drawspeed: 1.25
+Range Multiplier: 1.5
+Bonus Damage: 7.5
+Modifier: 1.2
+Bonus-Ammo: 6
+
+-extrabotany:ingotorichalcos
+Durability: 2,250
+Mining Level: 5
+Mining Speed: 7.88
+Attack: 7.5
+Modifier: 2.5
+Durability: 375
+Durability: 113
+Drawspeed: 0.77
+Range Multiplier: 3.5
+Bonus Damage: 9.8
+Modifier: 1.5
+Bonus-Ammo: 12
+
+-boron
+Durability: 328
+Mining Level: bDiamond
+Mining Speed: 6
+Attack: 3.38
+Modifier: 0.85
+Durability: 102
+Durability: 18
+Drawspeed: 2.35
+Range Multiplier: 1.7
+Bonus Damage: 4.5
+Durability: 8
+Defense: 12.75
+Modifier: 0.85
+Durability: 4
+Toughness: 0.9
+Durability: 5
+
+-tough
+Durability: 557
+Mining Level: Obsidian
+Mining Speed: 7.5
+Attack: 3.75
+Modifier: 1.1
+Durability: 174
+Durability: 23
+Drawspeed: 1.82
+Range Multiplier: 2.2
+Bonus Damage: 5
+Durability: 11
+Defense: 14.25
+Modifier: 1.1
+Durability: 6
+Toughness: 1.35
+Durability: 6
+
+-hard_carbon
+Durability: 747
+Mining Level: Obsidian
+Mining Speed: 8.25
+Attack: 3.75
+Modifier: 1
+Durability: 233
+Durability: 35
+Drawspeed: 2
+Range Multiplier: 2
+Bonus Damage: 5
+Durability: 13
+Defense: 13.5
+Modifier: 1
+Durability: 7
+Toughness: 0.75
+Durability: 5
+
+-boron_nitride
+Durability: 1,157
+Mining Level: Cobalt
+Mining Speed: 9
+Attack: 4.12
+Modifier: 0.75
+Durability: 144
+Durability: 120
+Drawspeed: 2.67
+Range Multiplier: 1.5
+Bonus Damage: 5.5
+Durability: 16
+Defense: 15
+Modifier: 0.75
+Durability: 6
+Toughness: 2.03
+Durability: 5
+
+-thorium
+Durability: 135
+Mining Level: bDiamond
+Mining Speed: 6.75
+Attack: 3.38
+Modifier: 0.75
+Durability: 42
+Durability: 8
+Drawspeed: 2.67
+Range Multiplier: 1.5
+Bonus Damage: 4.5
+Durability: 8
+Defense: 11.62
+Modifier: 0.75
+Durability: 3
+Toughness: 0.82
+Durability: 4
+
+-uranium
+Durability: 145
+Mining Level: bDiamond
+Mining Speed: 5.62
+Attack: 3
+Modifier: 0.8
+Durability: 45
+Durability: 8
+Drawspeed: 2.5
+Range Multiplier: 1.6
+Bonus Damage: 4
+Durability: 8
+Defense: 10.88
+Modifier: 0.8
+Durability: 3
+Toughness: 0.52
+Durability: 4
+
+-magnesium
+Durability: 118
+Mining Level: Iron
+Mining Speed: 8.25
+Attack: 2.62
+Modifier: 1
+Durability: 37
+Durability: 5
+Drawspeed: 2
+Range Multiplier: 2
+Bonus Damage: 3.5
+Durability: 7
+Defense: 9.38
+Modifier: 1
+Durability: 3
+Toughness: 0.15
+Durability: 4
+
+-chocolate
+Durability: 19
+Mining Level: Stone
+Mining Speed: 1.5
+Attack: 1.5
+Modifier: 0.15
+Durability: 6
+Durability: 6
+Drawspeed: 13.33
+Range Multiplier: 0.3
+Bonus Damage: 2
+Durability: 1
+Defense: 0.9
+Modifier: 0.15
+Durability: 0
+Toughness: 0
+Durability: 0
+
+-ma.prosperity
+Durability: 27
+Mining Level: Stone
+Mining Speed: 0.62
+Attack: 0.08
+Modifier: 0.23
+Durability: 6
+Durability: 15
+Drawspeed: 0.71
+Range Multiplier: 0.63
+Bonus Damage: -1.2
+
+-ma.soulium
+Durability: 233
+Mining Level: Iron
+Mining Speed: 4.76
+Attack: 3.45
+Modifier: 0.8
+Durability: 41
+Durability: 36
+Drawspeed: 2
+Range Multiplier: 1.5
+Bonus Damage: 3.1
+
+-ma.base_essence
+Durability: 183
+Mining Level: bDiamond
+Mining Speed: 4.99
+Attack: 3.25
+Modifier: 0.7
+Durability: 49
+Durability: 38
+Drawspeed: 2
+Range Multiplier: 1.5
+Bonus Damage: 1.02
+
+-ma.inferium
+Durability: 259
+Mining Level: bDiamond
+Mining Speed: 5.26
+Attack: 3.38
+Modifier: 0.63
+Durability: 38
+Durability: 56
+Drawspeed: 1.72
+Range Multiplier: 0.99
+Bonus Damage: 1.91
+
+-ma.prudentium
+Durability: 518
+Mining Level: bDiamond
+Mining Speed: 6.01
+Attack: 4.97
+Modifier: 0.78
+Durability: 56
+Durability: 75
+Drawspeed: 1.37
+Range Multiplier: 1.34
+Bonus Damage: 2.32
+
+-ma.intermedium
+Durability: 1,035
+Mining Level: Obsidian
+Mining Speed: 8.31
+Attack: 6.92
+Modifier: 0.97
+Durability: 75
+Durability: 113
+Drawspeed: 0.93
+Range Multiplier: 1.63
+Bonus Damage: 4.02
+
+-ma.superium
+Durability: 2,070
+Mining Level: Cobalt
+Mining Speed: 12.4
+Attack: 8.72
+Modifier: 1.12
+Durability: 124
+Durability: 169
+Drawspeed: 0.83
+Range Multiplier: 1.91
+Bonus Damage: 5.94
+
+-ma.supremium
+Durability: 4,140
+Mining Level: Cobalt
+Mining Speed: 16.69
+Attack: 11.27
+Modifier: 1.35
+Durability: 150
+Durability: 225
+Drawspeed: 0.75
+Range Multiplier: 2.35
+Bonus Damage: 7.32
+
+-integrationforegoing.plastic
+Durability: 1,125
+Mining Level: Stone
+Mining Speed: 4.5
+Attack: -1.75
+Modifier: 0.1
+Durability: 1,125
+Durability: 113
+Drawspeed: 0.05
+Range Multiplier: 4.2
+Bonus Damage: 2.5
+
+-integrationforegoing.pink_slime
+Durability: 1,500
+Mining Level: Stone
+Mining Speed: 2.25
+Attack: 0.75
+Modifier: 2.5
+Durability: 1,500
+Durability: 150
+Drawspeed: 0.07
+Range Multiplier: 4.7
+Bonus Damage: 3
+
+-integrationforegoing.reinforced_pink_slime
+Durability: 2,100
+Mining Level: bDiamond
+Mining Speed: 5.62
+Attack: 4.12
+Modifier: 3.2
+Durability: 1,763
+Durability: 203
+Drawspeed: 0.05
+Range Multiplier: 5.3
+Bonus Damage: 6
+
+-litherite
+Durability: 525
+Mining Level: Obsidian
+Mining Speed: 5.78
+Attack: 4.5
+Modifier: 0.9
+Durability: -9
+Durability: 83
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+
+-pladium
+Durability: 1,200
+Mining Level: Cobalt
+Mining Speed: 8.7
+Attack: 7.88
+Modifier: 0.9
+Durability: -9
+Durability: 149
+Drawspeed: 2.04
+Range Multiplier: 2.2
+Bonus Damage: 6.5
+
+-starmetal
+Durability: 153
+Mining Level: bDiamond
+Mining Speed: 4.5
+Attack: 3
+Modifier: 1
+Durability: 45
+Durability: 75
+Drawspeed: 2
+Range Multiplier: 1.5
+Bonus Damage: 7
+Laser Power: 4.6
+Range: 70.0
+
+-infinity_avaritia_plustic
+Durability: 5,250
+Mining Level: 10
+Mining Speed: 13.5
+Attack: 30
+Modifier: 2
+Durability: 0
+Durability: 1,050
+Drawspeed: 0.5
+Range Multiplier: 2.8
+Bonus Damage: 16
+Laser Power: 65.0
+Range: 100.0
+
+-erodium
+Durability: 750
+Mining Level: Obsidian
+Mining Speed: 6.75
+Attack: 5.62
+Modifier: 0.9
+Durability: -9
+Durability: 105
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+
+-enderium_plustic
+Durability: 600
+Mining Level: Cobalt
+Mining Speed: 5.62
+Attack: 5.25
+Modifier: 1.05
+Durability: -9
+Durability: 49
+Drawspeed: 1.11
+Range Multiplier: 1.9
+Bonus Damage: 8
+Modifier: 1
+Bonus-Ammo: 12
+Attack: 7
+Weight: 2.2
+Durability: 800
+Friction: 0.8
+Modifier: 1
+
+-kyronite
+Durability: 975
+Mining Level: Cobalt
+Mining Speed: 7.72
+Attack: 6.75
+Modifier: 0.9
+Durability: -9
+Durability: 127
+Drawspeed: 1.67
+Range Multiplier: 1.6
+Bonus Damage: 5
+
+-thaumium
+Durability: 300
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 3.19
+Modifier: 1
+Durability: 23
+Durability: 83
+Drawspeed: 1.43
+Range Multiplier: 1.3
+Bonus Damage: 7
+
+-osmium
+Durability: 375
+Mining Level: bDiamond
+Mining Speed: 4.5
+Attack: 4.35
+Modifier: 1.2
+Durability: 34
+Durability: 30
+Drawspeed: 1.54
+Range Multiplier: 1.3
+Bonus Damage: 5.7
+Energy Capacity: 680000 RF
+Friction: 1.1
+Modifier: 1.2
+Attack: 5.8
+Weight: 2.8
+Durability: 500
+
+-invar
+Durability: 450
+Mining Level: Obsidian
+Mining Speed: 4.5
+Attack: 3.75
+Modifier: 1.3
+Durability: 0
+Durability: 75
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Modifier: 1.15
+Accuracy: 100%
+Durability: 13
+Defense: 13.5
+Modifier: 1.2
+Durability: 0
+Toughness: 3.75
+Durability: 5
+Attack: 5
+Weight: 2.2
+Durability: 600
+Friction: 1.3
+Modifier: 1.3
+
+-fluixcrystal_plustic
+Durability: 525
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 4.65
+Modifier: 1
+Durability: 0
+Durability: 56
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Energy Capacity: 680000 RF
+Laser Power: 7.0
+Range: 16.0
+Friction: 0.01
+Modifier: 1
+Attack: 6.2
+Weight: 0.5
+Durability: 700
+
+-osmiridium
+Durability: 975
+Mining Level: Cobalt
+Mining Speed: 5.1
+Attack: 6
+Modifier: 1.5
+Durability: 23
+Durability: 60
+Drawspeed: 2.63
+Range Multiplier: 2.05
+Bonus Damage: 10
+Attack: 8
+Weight: 3.9
+Durability: 1,300
+Friction: 1
+Modifier: 1.5
+
+-aethium
+Durability: 1,650
+Mining Level: 6
+Mining Speed: 10.65
+Attack: 10.12
+Modifier: 0.9
+Durability: -9
+Durability: 170
+Drawspeed: 2.63
+Range Multiplier: 3
+Bonus Damage: 12
+
+-tnt
+Modifier: 0.95
+Bonus-Ammo: 0
+
+-emeradic_actadd_plustic
+Durability: 1,050
+Mining Level: Cobalt
+Mining Speed: 6
+Attack: 5.78
+Modifier: 1.1
+Durability: 0
+Durability: 58
+Drawspeed: 0.91
+Range Multiplier: 2
+Bonus Damage: 7
+Laser Power: 10.0
+Range: 24.0
+Friction: 0.7
+Modifier: 1.1
+Attack: 7.7
+Weight: 0.8
+Durability: 1,400
+
+-lumium_plustic
+Durability: 623
+Mining Level: Cobalt
+Mining Speed: 5.25
+Attack: 4.88
+Modifier: 1.1
+Durability: 30
+Durability: 45
+Drawspeed: 0.67
+Range Multiplier: 1.8
+Bonus Damage: 4
+Friction: 0.7
+Modifier: 1.1
+Attack: 6.5
+Weight: 1
+Durability: 830
+
+-diamatine_actadd_plustic
+Durability: 1,275
+Mining Level: Cobalt
+Mining Speed: 6
+Attack: 4.72
+Modifier: 1.2
+Durability: 8
+Durability: 66
+Drawspeed: 1.43
+Range Multiplier: 2
+Bonus Damage: 11
+Laser Power: 10.0
+Range: 24.0
+Friction: 0.7
+Modifier: 1.2
+Attack: 6.3
+Weight: 0.8
+Durability: 1,700
+
+-restonia_actadd_plustic
+Durability: 480
+Mining Level: Obsidian
+Mining Speed: 6.6
+Attack: 4.57
+Modifier: 1.1
+Durability: 0
+Durability: 68
+Drawspeed: 0.71
+Range Multiplier: 1.7
+Bonus Damage: 5.7
+Energy Capacity: 680000 RF
+Attack: 6.1
+Weight: 1
+Durability: 640
+Friction: 0.1
+Modifier: 1.1
+
+-mica
+Durability: 510
+Mining Level: Obsidian
+Mining Speed: 4.12
+Attack: 4.5
+Modifier: 0.9
+Durability: -9
+Durability: 68
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Friction: 2.9
+Modifier: 0.9
+Attack: 6
+Weight: 0.1
+Durability: 680
+
+-osgloglas
+Durability: 2,100
+Mining Level: 5
+Mining Speed: 5.62
+Attack: 8.25
+Modifier: 1.5
+Durability: -87
+Durability: 75
+Drawspeed: 1.67
+Range Multiplier: 1.8
+Bonus Damage: 8.2
+Attack: 11
+Weight: 4.3
+Durability: 2,800
+Friction: 1.3
+Modifier: 1.5
+
+-platinum_plustic
+Durability: 540
+Mining Level: Cobalt
+Mining Speed: 6
+Attack: 4.5
+Modifier: 1.05
+Durability: -9
+Durability: 45
+Drawspeed: 1.18
+Range Multiplier: 1.8
+Bonus Damage: 8
+Attack: 6
+Weight: 4.8
+Durability: 720
+Friction: 1.1
+Modifier: 1
+
+-psigem
+Durability: 465
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 3.75
+Modifier: 1.3
+Durability: -17
+Durability: 23
+Drawspeed: 1
+Range Multiplier: 1.6
+Bonus Damage: 4
+Laser Power: 5.4
+Range: 23.0
+Friction: 0.4
+Modifier: 1.54
+Attack: 5
+Weight: 0.9
+Durability: 620
+
+-psimetal
+Durability: 465
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 3.75
+Modifier: 1.3
+Durability: -17
+Durability: 23
+Drawspeed: 1
+Range Multiplier: 1.6
+Bonus Damage: 4
+Friction: 0.9
+Modifier: 1.3
+Attack: 5
+Weight: 3.7
+Durability: 620
+
+-certusquartz_plustic
+Durability: 188
+Mining Level: bDiamond
+Mining Speed: 4.8
+Attack: 3.38
+Modifier: 0.8
+Durability: 60
+Durability: 53
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Laser Power: 5.0
+Range: 14.0
+Friction: 0.1
+Modifier: 0.8
+Attack: 4.5
+Weight: 0.9
+Durability: 250
+
+-refinedobsidian
+Durability: 1,875
+Mining Level: Cobalt
+Mining Speed: 5.25
+Attack: 8.25
+Modifier: 1.5
+Durability: -175
+Durability: 120
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Laser Power: 6.0
+Range: 55.0
+Attack: 11
+Weight: 1.5
+Durability: 2,500
+Friction: 0.6
+Modifier: 1.5
+
+-alumite
+Durability: 525
+Mining Level: Cobalt
+Mining Speed: 5.1
+Attack: 4.12
+Modifier: 1.1
+Durability: 53
+Durability: 60
+Drawspeed: 1.54
+Range Multiplier: 1.6
+Bonus Damage: 7
+Durability: 11
+Defense: 15
+Modifier: 1
+Durability: 5
+Toughness: 1.65
+Durability: 8
+Friction: 0.8
+Modifier: 1.1
+Attack: 5.5
+Weight: 1.2
+Durability: 700
+
+-iridium
+Durability: 390
+Mining Level: bDiamond
+Mining Speed: 4.5
+Attack: 4.35
+Modifier: 1.15
+Durability: -35
+Durability: 45
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Durability: 11
+Defense: 12.9
+Modifier: 1.15
+Durability: 0
+Toughness: 1.8
+Durability: 4
+Friction: 0.9
+Modifier: 1.1
+Attack: 5.8
+Weight: 1.8
+Durability: 520
+
+-refinedglowstone
+Durability: 338
+Mining Level: Cobalt
+Mining Speed: 6.75
+Attack: 7.5
+Modifier: 0.9
+Durability: 0
+Durability: 75
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Laser Power: 10.0
+Range: 40.0
+Friction: 0.5
+Modifier: 0.9
+Attack: 10
+Weight: 0.9
+Durability: 450
+
+-palis_actadd_plustic
+Durability: 600
+Mining Level: Cobalt
+Mining Speed: 5.62
+Attack: 4.35
+Modifier: 1.3
+Durability: 5
+Durability: 75
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Laser Power: 9.0
+Range: 17.0
+Attack: 5.8
+Weight: 1
+Durability: 800
+Friction: 0.7
+Modifier: 1.3
+
+-ionite
+Durability: 1,425
+Mining Level: 5
+Mining Speed: 9.68
+Attack: 9
+Modifier: 0.9
+Durability: -9
+Durability: 170
+Drawspeed: 2.63
+Range Multiplier: 3
+Bonus Damage: 8
+
+-enori_actadd_plustic
+Durability: 450
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 3.9
+Modifier: 1.2
+Durability: -9
+Durability: 56
+Drawspeed: 0.83
+Range Multiplier: 1.2
+Bonus Damage: 5.1
+Energy Capacity: 672000 RF
+Attack: 5.2
+Weight: 1
+Durability: 600
+Friction: 1.4
+Modifier: 1.2
+
+-blackquartz_plustic
+Durability: 285
+Mining Level: bDiamond
+Mining Speed: 4.5
+Attack: 3.38
+Modifier: 0.8
+Durability: 0
+Durability: 38
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Friction: 0.1
+Modifier: 0.8
+Attack: 4.5
+Weight: 0.9
+Durability: 380
+
+-nickel
+Durability: 345
+Mining Level: Obsidian
+Mining Speed: 4.5
+Attack: 3.38
+Modifier: 1
+Durability: -9
+Durability: 53
+Drawspeed: 5
+Range Multiplier: 0.4
+Bonus Damage: -1
+Modifier: 1.05
+Accuracy: 95%
+Energy Capacity: 675000 RF
+Durability: 10
+Defense: 12.38
+Modifier: 1
+Durability: 0
+Toughness: 0.75
+Durability: 3
+Attack: 4.5
+Weight: 1.6
+Durability: 460
+Friction: 1.2
+Modifier: 1
+
+-signalum_plustic
+Durability: 518
+Mining Level: Obsidian
+Mining Speed: 5.62
+Attack: 3.9
+Modifier: 1.2
+Durability: 0
+Durability: 41
+Drawspeed: 0.83
+Range Multiplier: 1.6
+Bonus Damage: 4.4
+Friction: 1.1
+Modifier: 1.2
+Attack: 5.2
+Weight: 2.8
+Durability: 690
+
+-void_actadd_plustic
+Durability: 360
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 3.3
+Modifier: 1
+Durability: 0
+Durability: 105
+Drawspeed: 1
+Range Multiplier: 1.3
+Bonus Damage: 3.5
+Friction: 0.01
+Modifier: 1
+Attack: 4.4
+Weight: 0.3
+Durability: 480
+
+-alkimium
+Durability: 227
+Mining Level: Obsidian
+Mining Speed: 6.75
+Attack: 4.5
+Modifier: 1.3
+Durability: 18
+Durability: 69
+Drawspeed: 1.67
+Range Multiplier: 1.7
+Bonus Damage: 11
+
+-bismuth
+Durability: 338
+Mining Level: Cobalt
+Mining Speed: 5.62
+Attack: 5.25
+Modifier: 1.1
+Durability: 41
+Durability: 94
+Drawspeed: 1.43
+Range Multiplier: 1.9
+Bonus Damage: 8
+
+-aer_thaumium
+Durability: 750
+Mining Level: Obsidian
+Mining Speed: 12
+Attack: 4.5
+Modifier: 1.5
+Durability: 75
+Durability: 75
+
+-ignis_thaumium
+Durability: 750
+Mining Level: Obsidian
+Mining Speed: 6
+Attack: 4.5
+Modifier: 1.5
+Durability: 75
+Durability: 75
+
+-aqua_thaumium
+Durability: 750
+Mining Level: Obsidian
+Mining Speed: 6
+Attack: 4.5
+Modifier: 1.5
+Durability: 75
+Durability: 75
+
+-terra_thaumium
+Durability: 1,875
+Mining Level: Obsidian
+Mining Speed: 6
+Attack: 4.5
+Modifier: 1.5
+Durability: 188
+Durability: 188
+
+-ordo_thaumium
+Durability: 750
+Mining Level: Obsidian
+Mining Speed: 6
+Attack: 4.5
+Modifier: 3
+Durability: 75
+Durability: 75
+
+-perditio_thaumium
+Durability: 750
+Mining Level: Obsidian
+Mining Speed: 6
+Attack: 4.5
+Modifier: 1.5
+Durability: 75
+Durability: 75
+
+-bloodbronze
+Durability: 413
+Mining Level: Obsidian
+Mining Speed: 6.15
+Attack: 4.65
+Modifier: 0.7
+Durability: 94
+Durability: 71
+Drawspeed: 1.43
+Range Multiplier: 1.25
+Bonus Damage: 3.2
+Durability: 14
+Defense: 12.75
+Modifier: 0.9
+Durability: 5
+Toughness: 1.5
+Durability: 5
+
+-livingwood_plustic
+Durability: 38
+Mining Level: Iron
+Mining Speed: 3.83
+Attack: 2.1
+Modifier: 1.15
+Durability: 15
+Durability: 15
+Drawspeed: 0.91
+Range Multiplier: 1.1
+Bonus Damage: 1.8
+Modifier: 1
+Bonus-Ammo: 6
+Friction: 1.9
+Modifier: 1.15
+Attack: 2.8
+Weight: 1.5
+Durability: 50
+
+-terrasteel
+Durability: 1,172
+Mining Level: Cobalt
+Mining Speed: 6.75
+Attack: 4.88
+Modifier: 1.4
+Durability: 8
+Durability: 8
+Drawspeed: 1.82
+Range Multiplier: 2
+Bonus Damage: 11
+Friction: 0.7
+Modifier: 1.45
+Attack: 6.5
+Weight: 1.1
+Durability: 1,562
+
+-mirion
+Durability: 1,439
+Mining Level: 5
+Mining Speed: 6.75
+Attack: 6.75
+Modifier: 1.1
+Durability: 30
+Durability: 68
+Drawspeed: 0.74
+Range Multiplier: 1.5
+Bonus Damage: 5.5
+Friction: 0.3
+Modifier: 1.1
+Attack: 9
+Weight: 0.3
+Durability: 1,919
+
+-manasteel
+Durability: 405
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 4.5
+Modifier: 1.25
+Durability: 113
+Durability: 45
+Drawspeed: 1
+Range Multiplier: 1.1
+Bonus Damage: 1
+Friction: 0.7
+Modifier: 1.07
+Attack: 6
+Weight: 0.9
+Durability: 540
+
+-elementium
+Durability: 405
+Mining Level: Obsidian
+Mining Speed: 5.25
+Attack: 4.5
+Modifier: 1.25
+Durability: 113
+Durability: 45
+Drawspeed: 1.25
+Range Multiplier: 1.5
+Bonus Damage: 7.5
+Friction: 0.4
+Modifier: 1.25
+Attack: 6
+Weight: 0.7
+Durability: 540
+
+-emerald_plustic
+Durability: 917
+Mining Level: Cobalt
+Mining Speed: 5.25
+Attack: 5.25
+Modifier: 1.1
+Durability: 0
+Durability: 53
+Drawspeed: 0.91
+Range Multiplier: 1
+Bonus Damage: 0.9
+Durability: 14
+Defense: 15
+Modifier: 1
+Durability: 7
+Toughness: 1.65
+Durability: 11
+Attack: 7
+Weight: 0.3
+Durability: 1,222
+Friction: 0.7
+Modifier: 1.1
+
+-wyvern_plustic
+Durability: 1,500
+Mining Level: 8
+Mining Speed: 6
+Attack: 11.25
+Modifier: 1.6
+Durability: 98
+Durability: 180
+Drawspeed: 0.62
+Range Multiplier: 2
+Bonus Damage: 11
+Attack: 15
+Weight: 3.5
+Durability: 2,000
+Friction: 1
+Modifier: 1.6
+
+-awakened_plustic
+Durability: 3,750
+Mining Level: 10
+Mining Speed: 6.75
+Attack: 26.25
+Modifier: 1.8
+Durability: 375
+Durability: 375
+Drawspeed: 0.53
+Range Multiplier: 2.8
+Bonus Damage: 20
+Friction: 0.5
+Modifier: 1.8
+Attack: 35
+Weight: 2
+Durability: 5,000
+
+-chaotic_plustic
+Durability: 7,500
+Mining Level: 12
+Mining Speed: 9
+Attack: 36
+Modifier: 2.3
+Durability: 525
+Durability: 600
+Drawspeed: 0.43
+Range Multiplier: 4
+Bonus Damage: 24
+Laser Power: 45.0
+Range: 256.0
+Attack: 48
+Weight: 0.5
+Durability: 10,000
+Friction: 0
+Modifier: 2.3
+
+-wood
+Durability: 26
+Mining Level: Stone
+Mining Speed: 1.5
+Attack: 1.5
+Modifier: 1
+Durability: 19
+Durability: 11
+Drawspeed: 1
+Range Multiplier: 1
+Bonus Damage: 0
+Modifier: 1
+Bonus-Ammo: 0
+Durability: 2
+Defense: 2.25
+Modifier: 1
+Durability: 1
+Toughness: 0
+Durability: 1
+Friction: 3.1
+Modifier: 1
+Attack: 3
+Weight: 1.1
+Durability: 35

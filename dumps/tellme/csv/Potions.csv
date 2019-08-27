@@ -1,6 +1,4 @@
 "Mod name","Registry name","Potion Name","ID","Liquid color","Is bad","Is beneficial"
-"Apotheosis","apotheosis:knowledge","effect.apotheosis.knowledge",148,"0x00F4EE42 (  16051778)","false","true"
-"Apotheosis","apotheosis:sundering","effect.apotheosis.sundering",147,"0x00989898 (  10000536)","true","false"
 "Astral Sorcery","astralsorcery:potionbleed","effect.as.bleed",150,"0x00751200 (   7672320)","true","false"
 "Astral Sorcery","astralsorcery:potioncheatdeath","effect.as.cheatdeath",149,"0x00FF5711 (  16733969)","false","true"
 "Astral Sorcery","astralsorcery:potiondropmodifier","effect.as.dropmod",152,"0x00FFD114 (  16765204)","false","true"

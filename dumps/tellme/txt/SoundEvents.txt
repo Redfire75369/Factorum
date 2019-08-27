@@ -869,6 +869,7 @@
 | mysticalworld:mob.fox.sniff                         | 1027 |
 | mysticalworld:mob.fox.spit                          | 1036 |
 | mysticalworld:mob.sprout.ambient                    | 1029 |
+| notenoughwands:teleport                             |  738 |
 | nuclearcraft:block.accelerator_run                  |  561 |
 | nuclearcraft:block.fusion_run                       |  560 |
 | nuclearcraft:entity.feral_ghoul_charge              |  997 |

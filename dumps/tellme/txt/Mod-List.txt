@@ -21,7 +21,7 @@
 | autoreglib                        | AutoRegLib                                   |
 | avaritia                          | Avaritia                                     |
 | avaritiaio                        | Avaritia IO                                  |
-| avaritiatweaks                    | Avaritia Tweaks                              |
+| avaritiatweaks                    | Avaritia's Complement                        |
 | baggablemobs                      | Baggable Mobs                                |
 | balancedclaytools                 | Balanced Clay Tools                          |
 | baubles                           | Baubles                                      |
@@ -117,6 +117,7 @@
 | eternalsingularity                | Eternal Singularity                          |
 | etlunar                           | ET Lunar                                     |
 | extendedcrafting                  | Extended Crafting                            |
+| extraanvils                       | Extra Anvils                                 |
 | extrabees                         | Binnie's Extra Bees                          |
 | extrabotany                       | ExtraBotany                                  |
 | extracells                        | Extra Cells 2                                |

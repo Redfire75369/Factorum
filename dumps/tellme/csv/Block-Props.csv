@@ -118,9 +118,26 @@
 "Advanced Generators","advgenerators:item_input",1.00,5.00
 "Advanced Generators","advgenerators:item_output",1.00,5.00
 "Advanced Generators","advgenerators:mixing_chamber",1.00,5.00
-"Advanced Generators","advgenerators:power_capacitor_advanced",1.00,5.00
-"Advanced Generators","advgenerators:power_capacitor_dense",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_advanced",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_awakened draconium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_conductive iron",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_crystaltine",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_dense",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_electronium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_graphite",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_infinity",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_lithium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_lithium manganese dioxide",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_lumium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_modularium",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_redstone",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_signalum",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_sodium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_stellar",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_superconductor",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_ultimate",1.00,5.00
+"Advanced Generators","advgenerators:pressure_input",1.00,5.00
+"Advanced Generators","advgenerators:pressure_output_select",1.00,5.00
 "Advanced Generators","advgenerators:rf_output",1.00,5.00
 "Advanced Generators","advgenerators:sensor",1.00,5.00
 "Advanced Generators","advgenerators:steam",0.00,0.00
@@ -129,13 +146,27 @@
 "Advanced Generators","advgenerators:syngas_controller",1.00,5.00
 "Advanced Generators","advgenerators:syngas_flaming",0.00,0.00
 "Advanced Generators","advgenerators:tesla_output",1.00,5.00
+"Advanced Generators","advgenerators:turbine_adv_alloy",0.00,0.00
+"Advanced Generators","advgenerators:turbine_awakened draconium",1.00,5.00
 "Advanced Generators","advgenerators:turbine_bronze",1.00,5.00
+"Advanced Generators","advgenerators:turbine_compressed iron",1.00,5.00
 "Advanced Generators","advgenerators:turbine_controller",1.00,5.00
-"Advanced Generators","advgenerators:turbine_enderium",1.00,5.00
-"Advanced Generators","advgenerators:turbine_gold",1.00,5.00
+"Advanced Generators","advgenerators:turbine_crystaltine",0.00,0.00
+"Advanced Generators","advgenerators:turbine_draconium",1.00,5.00
+"Advanced Generators","advgenerators:turbine_enderium",0.00,0.00
+"Advanced Generators","advgenerators:turbine_gold",0.00,0.00
+"Advanced Generators","advgenerators:turbine_hsla steel",1.00,5.00
+"Advanced Generators","advgenerators:turbine_infinity",1.00,5.00
 "Advanced Generators","advgenerators:turbine_iron",1.00,5.00
-"Advanced Generators","advgenerators:turbine_manyullyn",1.00,5.00
+"Advanced Generators","advgenerators:turbine_manyullyn",0.00,0.00
+"Advanced Generators","advgenerators:turbine_osgloglas",1.00,5.00
+"Advanced Generators","advgenerators:turbine_protoneutronium",1.00,5.00
 "Advanced Generators","advgenerators:turbine_steel",1.00,5.00
+"Advanced Generators","advgenerators:turbine_stellar",1.00,5.00
+"Advanced Generators","advgenerators:turbine_titanium",1.00,5.00
+"Advanced Generators","advgenerators:turbine_tungstensteel",1.00,5.00
+"Advanced Generators","advgenerators:turbine_ultimate",1.00,5.00
+"Advanced Generators","advgenerators:turbine_vibrant",0.00,0.00
 "Advanced Lifting Methods","advancedliftingmethods:advanced_blowing_elevator",3.50,17.50
 "Advanced Lifting Methods","advancedliftingmethods:advanced_ender_elevator",3.50,17.50
 "Advanced Lifting Methods","advancedliftingmethods:blowing_elevator",3.50,17.50
@@ -330,8 +361,8 @@
 "Avaritia","avaritia:extreme_crafting_table",50.00,6000.00
 "Avaritia","avaritia:neutron_collector",20.00,100.00
 "Avaritia","avaritia:neutronium_compressor",20.00,100.00
-"Avaritia Tweaks","avaritiatweaks:gaia_block",50.00,6000.00
-"Avaritia Tweaks","avaritiatweaks:infinitato",0.25,1.25
+"Avaritia's Complement","avaritiatweaks:gaia_block",50.00,6000.00
+"Avaritia's Complement","avaritiatweaks:infinitato",0.25,1.25
 "Better Questing","betterquesting:submit_station",1.00,5.00
 "Bewitchment","bewitchment:amethyst_ore",3.00,45.00
 "Bewitchment","bewitchment:black_candle",1.00,3.00
@@ -1571,6 +1602,8 @@
 "CompactStorage","compactstorage:barrel_fluid",5.00,25.00
 "CompactStorage","compactstorage:chestbuilder",2.00,6.00
 "CompactStorage","compactstorage:compactchest",2.00,6.00
+"Compacter","compacter:cobbler",0.00,0.00
+"Compacter","compacter:compacter",0.50,2.50
 "Complex Logic","complex-logic:cage_lamp_black",0.00,0.00
 "Complex Logic","complex-logic:cage_lamp_black_inverted",0.00,0.00
 "Complex Logic","complex-logic:cage_lamp_blue",0.00,0.00
@@ -2435,6 +2468,102 @@
 "Extended Crafting","extendedcrafting:table_elite",5.00,30.00
 "Extended Crafting","extendedcrafting:table_ultimate",5.00,30.00
 "Extended Crafting","extendedcrafting:trimmed",5.00,30.00
+"Extra Anvils","extraanvils:aluminum_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:aluminum_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:aluminum_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:ardite_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:ardite_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:ardite_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:bronze_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:bronze_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:bronze_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:cobalt_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:cobalt_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:cobalt_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:copper_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:copper_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:copper_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:diamond_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:diamond_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:diamond_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:electrum_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:electrum_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:electrum_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:enderium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:enderium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:enderium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:endsteel_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:endsteel_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:endsteel_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:energetic_alloy_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:energetic_alloy_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:energetic_alloy_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:gold_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:gold_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:gold_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:inferium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:inferium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:inferium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:infinity_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:infinity_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:infinity_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:intermedium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:intermedium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:intermedium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:invar_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:invar_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:invar_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:iridium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:iridium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:iridium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:lead_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:lead_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:lead_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:manyullyn_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:manyullyn_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:manyullyn_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:neutronium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:neutronium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:neutronium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:nickel_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:nickel_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:nickel_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:platinum_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:platinum_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:platinum_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:prudentium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:prudentium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:prudentium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:signalum_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:signalum_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:signalum_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:silver_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:silver_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:silver_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:steel_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:steel_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:steel_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:stellar_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:stellar_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:stellar_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:stone_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:stone_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:stone_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:superium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:superium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:superium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:supremium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:supremium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:supremium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:thaumium_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:thaumium_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:thaumium_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:tin_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:tin_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:tin_anvil_damaged",5.00,6000.00
+"Extra Anvils","extraanvils:vibrant_alloy_anvil",5.00,6000.00
+"Extra Anvils","extraanvils:vibrant_alloy_anvil_chipped",5.00,6000.00
+"Extra Anvils","extraanvils:vibrant_alloy_anvil_damaged",5.00,6000.00
 "Extra Cells 2","extracells:certustank",2.00,30.00
 "Extra Cells 2","extracells:ecbaseblock",2.00,30.00
 "Extra Cells 2","extracells:fluidcrafter",2.00,30.00
@@ -3133,14 +3262,15 @@
 "Immersive Tech","immersivetech:metal_multiblock",3.00,45.00
 "Immersive Tech","immersivetech:stone_decoration",2.00,45.00
 "Immersive Tech","immersivetech:stone_multiblock",2.00,60.00
-"Incorporeal","incorporeal:corporea_brick_deco",5.50,27.50
-"Incorporeal","incorporeal:corporea_brick_deco_double_slab",0.00,0.00
-"Incorporeal","incorporeal:corporea_brick_deco_slab",0.00,0.00
-"Incorporeal","incorporeal:corporea_brick_deco_stairs",5.50,27.50
-"Incorporeal","incorporeal:corporea_deco",5.50,27.50
-"Incorporeal","incorporeal:corporea_deco_double_slab",0.00,0.00
-"Incorporeal","incorporeal:corporea_deco_slab",0.00,0.00
-"Incorporeal","incorporeal:corporea_deco_stairs",5.50,27.50
+"Incorporeal","incorporeal:corporea_brick_deco",3.00,15.00
+"Incorporeal","incorporeal:corporea_brick_deco_double_slab",3.00,15.00
+"Incorporeal","incorporeal:corporea_brick_deco_slab",3.00,15.00
+"Incorporeal","incorporeal:corporea_brick_deco_stairs",3.00,15.00
+"Incorporeal","incorporeal:corporea_brick_deco_wall",3.00,15.00
+"Incorporeal","incorporeal:corporea_deco",3.00,15.00
+"Incorporeal","incorporeal:corporea_deco_double_slab",3.00,15.00
+"Incorporeal","incorporeal:corporea_deco_slab",3.00,15.00
+"Incorporeal","incorporeal:corporea_deco_stairs",3.00,15.00
 "Incorporeal","incorporeal:corporea_inhibitor",5.50,27.50
 "Incorporeal","incorporeal:corporea_retainer_decrementer",5.50,27.50
 "Incorporeal","incorporeal:corporea_solidifier",5.50,27.50
@@ -3152,18 +3282,24 @@
 "Incorporeal","incorporeal:cygnus_word",1.00,5.00
 "Incorporeal","incorporeal:ender_soul_core",1.00,5.00
 "Incorporeal","incorporeal:forgotten_shrine",1.00,5.00
+"Incorporeal","incorporeal:frame_screw",2.00,15.00
+"Incorporeal","incorporeal:frame_screw_reversed",2.00,15.00
 "Incorporeal","incorporeal:frame_tinkerer",2.00,15.00
-"Incorporeal","incorporeal:lokiw",2.00,6.00
-"Incorporeal","incorporeal:lokiw_double_slab",0.00,0.00
-"Incorporeal","incorporeal:lokiw_slab",0.00,0.00
-"Incorporeal","incorporeal:lokiw_stairs",2.00,6.00
+"Incorporeal","incorporeal:lokiw",3.00,6.00
+"Incorporeal","incorporeal:lokiw_double_slab",3.00,6.00
+"Incorporeal","incorporeal:lokiw_fence",3.00,6.00
+"Incorporeal","incorporeal:lokiw_fence_gate",3.00,6.00
+"Incorporeal","incorporeal:lokiw_slab",3.00,6.00
+"Incorporeal","incorporeal:lokiw_stairs",3.00,6.00
+"Incorporeal","incorporeal:lokiw_wall",3.00,6.00
 "Incorporeal","incorporeal:natural_comparator",0.00,0.00
 "Incorporeal","incorporeal:natural_repeater",0.00,0.00
 "Incorporeal","incorporeal:potion_soul_core",1.00,5.00
 "Incorporeal","incorporeal:red_string_deco",2.00,30.00
-"Incorporeal","incorporeal:red_string_deco_double_slab",0.00,0.00
-"Incorporeal","incorporeal:red_string_deco_slab",0.00,0.00
+"Incorporeal","incorporeal:red_string_deco_double_slab",2.00,30.00
+"Incorporeal","incorporeal:red_string_deco_slab",2.00,30.00
 "Incorporeal","incorporeal:red_string_deco_stairs",2.00,30.00
+"Incorporeal","incorporeal:red_string_deco_wall",2.00,30.00
 "Incorporeal","incorporeal:red_string_frost_deco",2.00,30.00
 "Incorporeal","incorporeal:red_string_liar",2.00,30.00
 "Incorporeal","incorporeal:redstone_root_crop",0.00,0.00
@@ -3346,7 +3482,7 @@
 "JAOPCA","jaopca:block_blockamericium242",0.00,0.00
 "JAOPCA","jaopca:block_blockamericium242base",0.00,0.00
 "JAOPCA","jaopca:block_blockamericium242oxide",0.00,0.00
-"JAOPCA","jaopca:block_blockamericium243oxide",5.00,30.00
+"JAOPCA","jaopca:block_blockamericium243oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockaquamarine",5.00,30.00
 "JAOPCA","jaopca:block_blockastralstarmetal",5.00,30.00
 "JAOPCA","jaopca:block_blockbauxite",5.00,30.00
@@ -3370,7 +3506,7 @@
 "JAOPCA","jaopca:block_blockcarobbiite",5.00,30.00
 "JAOPCA","jaopca:block_blockcertusquartz",5.00,30.00
 "JAOPCA","jaopca:block_blockchargedcertusquartz",5.00,30.00
-"JAOPCA","jaopca:block_blockchocolate",5.00,30.00
+"JAOPCA","jaopca:block_blockchocolate",0.00,0.00
 "JAOPCA","jaopca:block_blockcinnabar",5.00,30.00
 "JAOPCA","jaopca:block_blockcocoabutter",5.00,30.00
 "JAOPCA","jaopca:block_blockcurium243",0.00,0.00
@@ -3383,9 +3519,9 @@
 "JAOPCA","jaopca:block_blockcurium247",0.00,0.00
 "JAOPCA","jaopca:block_blockcurium247base",0.00,0.00
 "JAOPCA","jaopca:block_blockcurium247oxide",0.00,0.00
-"JAOPCA","jaopca:block_blockdarkchocolate",5.00,30.00
+"JAOPCA","jaopca:block_blockdarkchocolate",0.00,0.00
 "JAOPCA","jaopca:block_blockdimensionalshard",5.00,30.00
-"JAOPCA","jaopca:block_blockelvenelementium",5.00,30.00
+"JAOPCA","jaopca:block_blockelvenelementium",0.00,0.00
 "JAOPCA","jaopca:block_blockextreme",5.00,30.00
 "JAOPCA","jaopca:block_blockferroboron",5.00,30.00
 "JAOPCA","jaopca:block_blockfluix",5.00,30.00
@@ -3398,11 +3534,11 @@
 "JAOPCA","jaopca:block_blockhslasteel",5.00,30.00
 "JAOPCA","jaopca:block_blockiridiumalloy",5.00,30.00
 "JAOPCA","jaopca:block_blockleadplatinum",5.00,30.00
-"JAOPCA","jaopca:block_blocklithium6",5.00,30.00
-"JAOPCA","jaopca:block_blocklithium7",5.00,30.00
+"JAOPCA","jaopca:block_blocklithium6",0.00,0.00
+"JAOPCA","jaopca:block_blocklithium7",0.00,0.00
 "JAOPCA","jaopca:block_blocklithiummanganesedioxide",5.00,30.00
 "JAOPCA","jaopca:block_blockmagnesiumdiboride",5.00,30.00
-"JAOPCA","jaopca:block_blockmanasteel",5.00,30.00
+"JAOPCA","jaopca:block_blockmanasteel",0.00,0.00
 "JAOPCA","jaopca:block_blockmanganesedioxide",5.00,30.00
 "JAOPCA","jaopca:block_blockmanganeseoxide",5.00,30.00
 "JAOPCA","jaopca:block_blockmithminite",5.00,30.00
@@ -3415,7 +3551,7 @@
 "JAOPCA","jaopca:block_blockobsidian",5.00,30.00
 "JAOPCA","jaopca:block_blockorichalcos",5.00,30.00
 "JAOPCA","jaopca:block_blockphotonium",5.00,30.00
-"JAOPCA","jaopca:block_blockplutonium",5.00,30.00
+"JAOPCA","jaopca:block_blockplutonium",0.00,0.00
 "JAOPCA","jaopca:block_blockplutonium238",0.00,0.00
 "JAOPCA","jaopca:block_blockplutonium238oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockplutonium239",0.00,0.00
@@ -3434,7 +3570,7 @@
 "JAOPCA","jaopca:block_blocksiliconcarbide",5.00,30.00
 "JAOPCA","jaopca:block_blocksodalite",5.00,30.00
 "JAOPCA","jaopca:block_blocksphalerite",5.00,30.00
-"JAOPCA","jaopca:block_blockterrasteel",5.00,30.00
+"JAOPCA","jaopca:block_blockterrasteel",0.00,0.00
 "JAOPCA","jaopca:block_blockthermoconducting",5.00,30.00
 "JAOPCA","jaopca:block_blockthorium230oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockthorium232",0.00,0.00
@@ -3443,7 +3579,7 @@
 "JAOPCA","jaopca:block_blockthoriumoxide",5.00,30.00
 "JAOPCA","jaopca:block_blocktinsilver",5.00,30.00
 "JAOPCA","jaopca:block_blocktough",5.00,30.00
-"JAOPCA","jaopca:block_blockunsweetenedchocolate",5.00,30.00
+"JAOPCA","jaopca:block_blockunsweetenedchocolate",0.00,0.00
 "JAOPCA","jaopca:block_blockuranium233",0.00,0.00
 "JAOPCA","jaopca:block_blockuranium233base",0.00,0.00
 "JAOPCA","jaopca:block_blockuranium233oxide",0.00,0.00
@@ -3453,6 +3589,7 @@
 "JAOPCA","jaopca:block_blockuranium238oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockuraniumoxide",5.00,30.00
 "JAOPCA","jaopca:block_blockvilliaumite",5.00,30.00
+"JAOPCA","jaopca:block_blockwub",5.00,30.00
 "JAOPCA","jaopca:block_blockzircaloy",5.00,30.00
 "JAOPCA","jaopca:block_mysticalcropsadaminite",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsadvancedalloy",0.00,0.00
@@ -3523,6 +3660,7 @@
 "JAOPCA","jaopca:block_mysticalcropsenergeticsilver",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsextreme",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsferroboron",0.00,0.00
+"JAOPCA","jaopca:block_mysticalcropsflint",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsfluorite",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsgalena",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsgarnet",0.00,0.00
@@ -3575,6 +3713,7 @@
 "JAOPCA","jaopca:block_mysticalcropsquartzblack",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsredgarnet",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsrefinediron",0.00,0.00
+"JAOPCA","jaopca:block_mysticalcropsreinforcedobsidian",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsrhodochrosite",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropssalt",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsshadowium",0.00,0.00
@@ -3607,6 +3746,7 @@
 "JAOPCA","jaopca:block_mysticalcropsuraniumoxide",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsvilliaumite",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsvividalloy",0.00,0.00
+"JAOPCA","jaopca:block_mysticalcropswub",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsyellowgarnet",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropszircaloy",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropszirconium",0.00,0.00
@@ -3649,6 +3789,7 @@
 "JAOPCA","jaopca:fluid_moltenelectrumflux",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenelvenelementium",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenextreme",0.00,0.00
+"JAOPCA","jaopca:fluid_moltenflint",0.00,0.00
 "JAOPCA","jaopca:fluid_moltengelidenderium",0.00,0.00
 "JAOPCA","jaopca:fluid_moltengraphite",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenhopgraphite",0.00,0.00
@@ -3681,6 +3822,7 @@
 "JAOPCA","jaopca:fluid_moltenrefinedglowstone",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenrefinediron",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenrefinedobsidian",0.00,0.00
+"JAOPCA","jaopca:fluid_moltenreinforcedobsidian",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenshadowium",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenshibuichi",0.00,0.00
 "JAOPCA","jaopca:fluid_moltensicsiccmc",0.00,0.00
@@ -3703,6 +3845,7 @@
 "JAOPCA","jaopca:fluid_moltenuranium238oxide",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenuraniumoxide",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenvoid",0.00,0.00
+"JAOPCA","jaopca:fluid_moltenwub",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenzircaloy",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenzirconium",0.00,0.00
 "MCMultiPart","mcmultipart:multipart",0.00,0.00
@@ -4422,6 +4565,7 @@
 "Netherending Ores","netherendingores:ore_nether_modded_2",0.00,0.00
 "Netherending Ores","netherendingores:ore_nether_vanilla",0.00,0.00
 "Netherending Ores","netherendingores:ore_other_1",0.00,0.00
+"Not Enough Wands","notenoughwands:lightblock",0.00,0.00
 "NuclearCraft","nuclearcraft:accelerator_electromagnet_active",2.00,45.00
 "NuclearCraft","nuclearcraft:accelerator_electromagnet_idle",2.00,45.00
 "NuclearCraft","nuclearcraft:active_cooler",2.00,45.00
@@ -4634,6 +4778,7 @@
 "NuclearCraft","nuclearcraft:solar_panel_elite",2.00,45.00
 "NuclearCraft","nuclearcraft:supercooler_active",2.00,45.00
 "NuclearCraft","nuclearcraft:supercooler_idle",2.00,45.00
+"NuclearCraft","nuclearcraft:tritium_lamp",2.00,45.00
 "NuclearCraft","nuclearcraft:turbine_computer_port",2.00,45.00
 "NuclearCraft","nuclearcraft:turbine_controller",2.00,45.00
 "NuclearCraft","nuclearcraft:turbine_dynamo_coil",2.00,45.00
@@ -4729,7 +4874,10 @@
 "PackagedAuto","packagedauto:unpackager",15.00,75.00
 "PackagedAvaritia","packagedavaritia:extreme_crafter",15.00,75.00
 "PackagedExCrafting","packagedexcrafting:advanced_crafter",15.00,75.00
+"PackagedExCrafting","packagedexcrafting:combination_crafter",15.00,75.00
 "PackagedExCrafting","packagedexcrafting:elite_crafter",15.00,75.00
+"PackagedExCrafting","packagedexcrafting:ender_crafter",15.00,75.00
+"PackagedExCrafting","packagedexcrafting:marked_pedestal",15.00,75.00
 "PackagedExCrafting","packagedexcrafting:ultimate_crafter",15.00,75.00
 "Planar Artifice","planarartifice:alchemical_alkimium_construct",3.00,15.00
 "Planar Artifice","planarartifice:alkimium_block",3.00,15.00
@@ -4764,6 +4912,7 @@
 "PlusTiC","plustic:plustic.molten_psimetal",0.00,0.00
 "PlusTiC","plustic:plustic.molten_refinedglowstone",0.00,0.00
 "PlusTiC","plustic:plustic.molten_refinedobsidian",0.00,0.00
+"PlusTiC","plustic:plustic.molten_starmetal",0.00,0.00
 "PlusTiC","plustic:plustic.molten_terrasteel",0.00,0.00
 "PlusTiC","plustic:plustic.molten_thaumium",0.00,0.00
 "PneumaticCraft: Repressurized","pneumaticcraft:advanced_air_compressor",3.00,30.00
@@ -4821,6 +4970,34 @@
 "PneumaticCraft: Repressurized","pneumaticcraft:uv_light_box",3.00,30.00
 "PneumaticCraft: Repressurized","pneumaticcraft:vacuum_pump",3.00,30.00
 "PneumaticCraft: Repressurized","pneumaticcraft:vortex_tube",3.00,30.00
+"Pressure Pipes","pressure:check_valve",2.00,10.00
+"Pressure Pipes","pressure:creative_source",1.00,5.00
+"Pressure Pipes","pressure:drain",2.00,10.00
+"Pressure Pipes","pressure:gas_input",2.00,10.00
+"Pressure Pipes","pressure:gas_output",2.00,10.00
+"Pressure Pipes","pressure:input",2.00,10.00
+"Pressure Pipes","pressure:output",2.00,10.00
+"Pressure Pipes","pressure:pipe",2.00,10.00
+"Pressure Pipes","pressure:pipe_sensor",2.00,10.00
+"Pressure Pipes","pressure:pump",2.00,10.00
+"Pressure Pipes","pressure:router",2.00,10.00
+"Pressure Pipes","pressure:sluice",2.00,10.00
+"Pressure Pipes","pressure:tank_block",1.00,5.00
+"Pressure Pipes","pressure:tank_controller",1.00,5.00
+"Pressure Pipes","pressure:tank_data_port",1.00,5.00
+"Pressure Pipes","pressure:tank_filter",1.00,5.00
+"Pressure Pipes","pressure:tank_fluid_access",1.00,5.00
+"Pressure Pipes","pressure:tank_fluid_input",1.00,5.00
+"Pressure Pipes","pressure:tank_fluid_output",1.00,5.00
+"Pressure Pipes","pressure:tank_fluid_output_auto",1.00,5.00
+"Pressure Pipes","pressure:tank_gas_input",1.00,5.00
+"Pressure Pipes","pressure:tank_gas_output",1.00,5.00
+"Pressure Pipes","pressure:tank_indicator",1.00,5.00
+"Pressure Pipes","pressure:tank_interface",1.00,5.00
+"Pressure Pipes","pressure:tank_pressure_input",1.00,5.00
+"Pressure Pipes","pressure:tank_pressure_output",1.00,5.00
+"Pressure Pipes","pressure:tank_sensor",1.00,5.00
+"Pressure Pipes","pressure:water_source",1.00,5.00
 "Preston","preston:compressed_block",0.00,0.00
 "Preston","preston:compressor",0.00,0.00
 "Psi","psi:cad_assembler",5.00,30.00
@@ -5284,6 +5461,7 @@
 "Steve's Carts 2","stevescarts:blockliquidmanager",2.00,10.00
 "Steve's Carts 2","stevescarts:blockmetalstorage",2.00,30.00
 "Steve's Carts 2","stevescarts:upgrade",2.00,10.00
+"Stone Crafting Table","sct:stone_crafting_table",5.00,25.00
 "Storage Drawers","storagedrawers:basicdrawers",5.00,25.00
 "Storage Drawers","storagedrawers:compdrawers",5.00,25.00
 "Storage Drawers","storagedrawers:controller",5.00,25.00
@@ -5426,6 +5604,7 @@
 "Tech Reborn","techreborn:water_mill",2.00,10.00
 "Tech Reborn","techreborn:wind_mill",2.00,10.00
 "Tech Reborn","techreborn:wire_mill",2.00,10.00
+"Tesslocator","tesslocator:tesslocator",0.60,3.00
 "Thaumcraft","thaumcraft:activator_rail",0.70,3.50
 "Thaumcraft","thaumcraft:alembic",2.00,60.00
 "Thaumcraft","thaumcraft:amber_block",0.50,7.50
@@ -5970,6 +6149,82 @@
 "Tinkers' Construct","tconstruct:wood_rail",0.20,1.00
 "Tinkers' Construct","tconstruct:wood_rail_trapdoor",0.20,1.00
 "Tinkers' Construct","tconstruct:wooden_hopper",3.00,24.00
+"Tiny Progressions","tp:asphalt_block",0.80,300.00
+"Tiny Progressions","tp:blackberry_bush",0.00,0.00
+"Tiny Progressions","tp:blaze_cobblegen_block",2.00,3000.00
+"Tiny Progressions","tp:blueberry_bush",0.00,0.00
+"Tiny Progressions","tp:bone_block",0.50,15.00
+"Tiny Progressions","tp:charcoal_block",1.50,30.00
+"Tiny Progressions","tp:cobblegen_block",1.00,3000.00
+"Tiny Progressions","tp:colored_glowstone",0.30,1.50
+"Tiny Progressions","tp:colored_lamp",0.50,2.50
+"Tiny Progressions","tp:compressed_nether_block",0.40,30.00
+"Tiny Progressions","tp:compressed_sugar",0.60,1.80
+"Tiny Progressions","tp:compressed_sugar_cane",1.00,3.00
+"Tiny Progressions","tp:diamond_cobblegen_block",1.50,3000.00
+"Tiny Progressions","tp:dirty_glass",0.30,1.50
+"Tiny Progressions","tp:double_compressed_nether_block",0.80,60.00
+"Tiny Progressions","tp:double_compressed_sugar",1.00,3.60
+"Tiny Progressions","tp:double_compressed_sugar_cane",1.20,3.60
+"Tiny Progressions","tp:emerald_cobblegen_block",2.50,3000.00
+"Tiny Progressions","tp:ender_ore",8.00,30.00
+"Tiny Progressions","tp:flesh_block",0.50,15.00
+"Tiny Progressions","tp:flint_block",1.00,15.00
+"Tiny Progressions","tp:fmf_block",1.50,3000.00
+"Tiny Progressions","tp:ghost_block",1.50,30.00
+"Tiny Progressions","tp:glowstone_glass",0.30,1.50
+"Tiny Progressions","tp:growth_block",8.00,3000.00
+"Tiny Progressions","tp:growth_upgrade",1.25,6000.00
+"Tiny Progressions","tp:growth_upgrade_two",1.50,6000.00
+"Tiny Progressions","tp:hardened_stone",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_bricks",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_bricks_slab_double",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_bricks_slab_half",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_bricks_stairs",50.00,5250.00
+"Tiny Progressions","tp:hardened_stone_slab_double",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_slab_half",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_smallbricks",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_smallbricks_slab_double",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_smallbricks_slab_half",50.00,6000.00
+"Tiny Progressions","tp:hardened_stone_smallbricks_stairs",50.00,5250.00
+"Tiny Progressions","tp:hardened_stone_stairs",50.00,5250.00
+"Tiny Progressions","tp:iron_cobblegen_block",1.20,3000.00
+"Tiny Progressions","tp:iron_furnace_block",1.00,3000.00
+"Tiny Progressions","tp:lamp",0.50,2.50
+"Tiny Progressions","tp:lava_block",1.00,15.00
+"Tiny Progressions","tp:lava_infused_stone",2.00,3000.00
+"Tiny Progressions","tp:maloberry_bush",0.00,0.00
+"Tiny Progressions","tp:nether_lava_block",1.00,15.00
+"Tiny Progressions","tp:nether_wub_ore",2.00,30.00
+"Tiny Progressions","tp:netherstar_block",3.00,6000.00
+"Tiny Progressions","tp:octuple_compressed_nether_block",3.20,240.00
+"Tiny Progressions","tp:octuple_compressed_sugar_cane",2.40,7.20
+"Tiny Progressions","tp:old_reed",0.00,0.00
+"Tiny Progressions","tp:quadruple_compressed_nether_block",1.60,120.00
+"Tiny Progressions","tp:quadruple_compressed_sugar_cane",1.60,4.80
+"Tiny Progressions","tp:quick_sand",0.40,2.00
+"Tiny Progressions","tp:quintuple_compressed_nether_block",2.00,150.00
+"Tiny Progressions","tp:quintuple_compressed_sugar_cane",1.80,5.40
+"Tiny Progressions","tp:raspberry_bush",0.00,0.00
+"Tiny Progressions","tp:reinforced_glass",20.00,6000.00
+"Tiny Progressions","tp:reinforced_obsidian",30.00,6000.00
+"Tiny Progressions","tp:septuple_compressed_nether_block",2.80,210.00
+"Tiny Progressions","tp:septuple_compressed_sugar_cane",2.20,6.60
+"Tiny Progressions","tp:sextuple_compressed_nether_block",2.40,180.00
+"Tiny Progressions","tp:sextuple_compressed_sugar_cane",2.00,6.00
+"Tiny Progressions","tp:soul_sandstone",0.40,30.00
+"Tiny Progressions","tp:steel_block",2.00,3000.00
+"Tiny Progressions","tp:triple_compressed_nether_block",1.20,90.00
+"Tiny Progressions","tp:triple_compressed_sugar_cane",1.40,4.20
+"Tiny Progressions","tp:unhardened_stone",1.50,30.00
+"Tiny Progressions","tp:vasholine",0.00,0.00
+"Tiny Progressions","tp:water_block",1.00,15.00
+"Tiny Progressions","tp:wub_ore",2.00,30.00
+"TorchMaster","torchmaster:dread_lamp",1.50,3.00
+"TorchMaster","torchmaster:feral_flare_lantern",0.00,0.00
+"TorchMaster","torchmaster:invisible_light",0.00,0.00
+"TorchMaster","torchmaster:mega_torch",1.50,3.00
+"TorchMaster","torchmaster:terrain_lighter",1.00,9.00
 "Unknown","elevatorid:elevator_black",0.00,0.00
 "Unknown","elevatorid:elevator_blue",0.00,0.00
 "Unknown","elevatorid:elevator_brown",0.00,0.00
@@ -6014,6 +6269,10 @@
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_15",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_8",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_cobblestone_botania_biomestonea_9",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_bewitchment_cypress_planks_0",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_bewitchment_elder_planks_0",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_bewitchment_juniper_planks_0",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_bewitchment_yew_planks_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_botania_dreamwood_1",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_botania_livingwood_1",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_extratrees_planks_0_0",0.00,0.00
@@ -6148,6 +6407,10 @@
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_9",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_immersiveengineering_treated_wood_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_integrateddynamics_menril_planks_0",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_naturalpledge_alt_planks_0",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_naturalpledge_alt_planks_1",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_naturalpledge_alt_planks_2",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_roots_wildwood_planks_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_quartz1_appliedenergistics2_quartz_block_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_quartz1_botania_quartztypeblaze_0",0.00,0.00
@@ -6168,6 +6431,7 @@
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick1_appliedenergistics2_sky_stone_brick_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockblackmarble_1",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick1_astralsorcery_blockmarble_1",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick1_bewitchment_coquina_bricks_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_1",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick1_botania_biomestoneb_2",0.00,0.00
@@ -6191,6 +6455,7 @@
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick2_appliedenergistics2_sky_stone_brick_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockblackmarble_1",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick2_astralsorcery_blockmarble_1",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick2_bewitchment_coquina_bricks_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_1",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick2_botania_biomestoneb_2",0.00,0.00
@@ -6214,6 +6479,7 @@
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick_appliedenergistics2_sky_stone_brick_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockblackmarble_1",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick_astralsorcery_blockmarble_1",0.00,0.00
+"Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick_bewitchment_coquina_bricks_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_1",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_stonebrick_botania_biomestoneb_2",0.00,0.00
@@ -6260,6 +6526,20 @@
 "XNet","xnet:redstone_proxy_upd",2.00,10.00
 "XNet","xnet:router",2.00,10.00
 "XNet","xnet:wireless_router",2.00,10.00
+"XenCraft","xencraft:table",1.50,7.50
+"XenCraft","xencraft:xen_block",1.00,5.00
+"XenCraft","xencraft:xen_bricks",1.00,5.00
+"XenCraft","xencraft:xen_gem_block",1.00,5.00
+"XenCraft","xencraft:xen_hex",1.00,5.00
+"XenCraft","xencraft:xen_leaves",0.20,1.00
+"XenCraft","xencraft:xen_log",2.00,10.00
+"XenCraft","xencraft:xen_ore",2.00,10.00
+"XenCraft","xencraft:xen_plate",1.00,5.00
+"XenCraft","xencraft:xen_sapling",0.00,0.00
+"XenCraft","xencraft:xen_small_bricks",1.00,5.00
+"XenCraft","xencraft:xen_small_tiles",1.00,5.00
+"XenCraft","xencraft:xen_tiles",1.00,5.00
+"XenCraft","xencraft:xenstone",1.00,5.00
 "Xtones","xtones:agon",3.00,15.00
 "Xtones","xtones:azur",3.00,15.00
 "Xtones","xtones:base",3.00,15.00

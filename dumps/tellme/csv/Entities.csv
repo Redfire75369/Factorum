@@ -138,6 +138,8 @@
 "Ender Zoo","enderzoo:owl","EntityOwl",689998
 "Ender Zoo","enderzoo:withercat","EntityWitherCat",689995
 "Ender Zoo","enderzoo:witherwitch","EntityWitherWitch",689994
+"Extra Anvils","extraanvils:aether_anvil","EntityAetherAnvil",1
+"Extra Anvils","extraanvils:falling_anvil","EntityFallingAnvil",0
 "ExtraBotany","extrabotany:aurafire","EntityAuraFire",20
 "ExtraBotany","extrabotany:bottledstar","EntityBottledStar",16
 "ExtraBotany","extrabotany:darkpixie","EntityDarkPixie",8
@@ -173,9 +175,9 @@
 "Immersive Engineering","immersiveengineering:revolvershotwolfpack","EntityWolfpackShot",3
 "Immersive Engineering","immersiveengineering:skylinehook","EntitySkylineHook",1
 "Immersive Petroleum","immersivepetroleum:speedboat","EntitySpeedboat",0
-"Incorporeal","incorporeal:cygnus_spark","EntityCygnusRegularSpark",2
-"Incorporeal","incorporeal:fractured_space_collector","EntityFracturedSpaceCollector",0
-"Incorporeal","incorporeal:master_cygnus_spark","EntityCygnusMasterSpark",1
+"Incorporeal","incorporeal:cygnus_spark","EntityCygnusRegularSpark",1
+"Incorporeal","incorporeal:fractured_space_collector","EntityFracturedSpaceCollector",2
+"Incorporeal","incorporeal:master_cygnus_spark","EntityCygnusMasterSpark",0
 "Incorporeal","incorporeal:potion_soul_core_collector","EntityPotionSoulCoreCollector",3
 "Industrial Foregoing","industrialforegoing:pink_slime","EntityPinkSlime",135135
 "Integrated Dynamics","integrateddynamics:entityitemtargetted","EntityItemTargetted",0

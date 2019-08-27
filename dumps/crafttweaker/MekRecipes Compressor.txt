@@ -1,0 +1,3 @@
+compressor:
+mods.mekanism.compressor.addRecipe(<mekanism:otherdust:5>, <gas:liquidosmium>, <mekanism:ingot>)
+mods.mekanism.compressor.addRecipe(<minecraft:glowstone_dust>, <gas:liquidosmium>, <mekanism:ingot:3>)

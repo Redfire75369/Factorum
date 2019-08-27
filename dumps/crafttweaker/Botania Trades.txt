@@ -1,0 +1,48 @@
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania:dreamwood>], [<ore:livingwood>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>], [<ore:ingotManasteel>, <ore:ingotManasteel>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania:storage:2>], [<botania:storage>, <botania:storage>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:8>], [<ore:manaPearl>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:9>], [<ore:manaDiamond>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania:storage:4>], [<botania:storage:3>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania:quartz:5>], [<minecraft:quartz>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania:elfglass>], [<botania:managlass>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<minecraft:iron_ingot>], [<minecraft:iron_ingot>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<minecraft:iron_block>], [<minecraft:iron_block>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<minecraft:ender_pearl>], [<minecraft:ender_pearl>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<minecraft:diamond>], [<minecraft:diamond>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<minecraft:diamond_block>], [<minecraft:diamond_block>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botanicadds:dreamrock>], [<ore:livingrock>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botanicadds:elvenwood_log>], [<ore:logWood>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botanicadds:elven_lapis>], [<botanicadds:mana_lapis>, <botanicadds:mana_lapis>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botanicadds:elven_lapis_block>], [<botanicadds:mana_lapis_block>, <botanicadds:mana_lapis_block>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<mystgears:gear_elvenelementium>], [<ore:gearManasteel>, <ore:gearManasteel>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania_tweaks:dire_crafty_crate>], [<avaritia:extreme_crafting_table>, <botania:opencrate:1>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania_tweaks:basic_extended_crafty_crate>], [<extendedcrafting:table_basic>, <botania:opencrate:1>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania_tweaks:advanced_extended_crafty_crate>], [<extendedcrafting:table_advanced>, <botania:opencrate:1>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania_tweaks:elite_extended_crafty_crate>], [<extendedcrafting:table_elite>, <botania:opencrate:1>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<botania_tweaks:ultimate_extended_crafty_crate>], [<extendedcrafting:table_ultimate>, <botania:opencrate:1>]);
+Botania Trading Recipes
+mods.botania.ElvenTrade.addRecipe([<forestry:bee_drone_ge>.withTag({MaxH: 20, Health: 20, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "magicbees.speciesBOTAlfheim", UID0: "magicbees.speciesBOTAlfheim", Slot: 0 as byte}, {UID1: "forestry.speedNormal", UID0: "forestry.speedNormal", Slot: 1 as byte}, {UID1: "forestry.lifespanShorter", UID0: "forestry.lifespanShorter", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceUp2", UID0: "forestry.toleranceUp2", Slot: 4 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 5 as byte}, {UID1: "forestry.toleranceBoth1", UID0: "forestry.toleranceBoth1", Slot: 6 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 7 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 8 as byte}, {UID1: "magicbees:flowersbotania", UID0: "magicbees:flowersbotania", Slot: 9 as byte}, {UID1: "forestry.floweringSlowest", UID0: "forestry.floweringSlowest", Slot: 10 as byte}, {UID1: "forestry.territoryLarger", UID0: "forestry.territoryLarger", Slot: 11 as byte}, {UID1: "magicbees:effectdreaming", UID0: "magicbees:effectdreaming", Slot: 12 as byte}]}})], [<forestry:bee_drone_ge>.withTag({MaxH: 20, Health: 20, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "magicbees.speciesBOTDreaming", UID0: "magicbees.speciesBOTDreaming", Slot: 0 as byte}, {UID1: "forestry.speedNormal", UID0: "forestry.speedNormal", Slot: 1 as byte}, {UID1: "forestry.lifespanShorter", UID0: "forestry.lifespanShorter", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceUp2", UID0: "forestry.toleranceUp2", Slot: 4 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 5 as byte}, {UID1: "forestry.toleranceBoth1", UID0: "forestry.toleranceBoth1", Slot: 6 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 7 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 8 as byte}, {UID1: "magicbees:flowersbotania", UID0: "magicbees:flowersbotania", Slot: 9 as byte}, {UID1: "forestry.floweringSlowest", UID0: "forestry.floweringSlowest", Slot: 10 as byte}, {UID1: "forestry.territoryLarger", UID0: "forestry.territoryLarger", Slot: 11 as byte}, {UID1: "magicbees:effectslowspeed", UID0: "magicbees:effectslowspeed", Slot: 12 as byte}]}})]);

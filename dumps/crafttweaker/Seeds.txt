@@ -1,0 +1,12 @@
+Seeds:
+Seed: <item.seeds:0> - 10
+Seed: <item.bewitchment.aconitum_seeds:0> - 3
+Seed: <item.bewitchment.belladonna_seeds:0> - 3
+Seed: <item.bewitchment.hellebore_seeds:0> - 3
+Seed: <item.bewitchment.mandrake_seeds:0> - 3
+Seed: <item.bewitchment.wormwood_seeds:0> - 3
+Seed: <item.immersiveengineering.seed.hemp:0> - 5
+Seed: <item.terra_spores:0> - 5
+Seed: <item.wildroot:0> - 5
+Seed: <item.aubergine_seed:0> - 5
+Seed: <item.hops:0> - 5

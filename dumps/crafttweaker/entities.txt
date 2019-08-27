@@ -136,6 +136,8 @@ enderzoo:fallenmount -- fallenmount
 enderzoo:owl -- owl
 enderzoo:withercat -- withercat
 enderzoo:witherwitch -- witherwitch
+extraanvils:aether_anvil -- aether_anvil
+extraanvils:falling_anvil -- falling_anvil
 fluxnetworks:flux -- Flux
 immersivepetroleum:speedboat -- speedboat
 incorporeal:cygnus_spark -- incorporeal.cygnus_spark

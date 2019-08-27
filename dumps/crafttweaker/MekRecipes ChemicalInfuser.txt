@@ -1,0 +1,5 @@
+chemicalInfuser:
+mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogen>, <gas:chlorine>, <gas:hydrogenchloride>)
+mods.mekanism.chemical.infuser.addRecipe(<gas:oxygen>, <gas:sulfurdioxide> * 2, <gas:sulfurtrioxide> * 2)
+mods.mekanism.chemical.infuser.addRecipe(<gas:sulfurtrioxide>, <gas:water>, <gas:sulfuricacid>)
+mods.mekanism.chemical.infuser.addRecipe(<gas:deuterium>, <gas:tritium>, <gas:fusionfuel> * 2)

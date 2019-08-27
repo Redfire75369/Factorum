@@ -80,6 +80,7 @@ Ore entries for <ore:logWood> :
 -<naturalpledge:calico_log>
 -<roots:wildwood_log>
 -<mysticalworld:charred_log>
+-<xencraft:xen_log>
 Ore entries for <ore:plankWood> :
 -<minecraft:planks:*>
 -<techreborn:rubber_planks:*>
@@ -222,64 +223,6 @@ Ore entries for <ore:plankWood> :
 -<naturalpledge:calico_planks>
 -<roots:wildwood_planks>
 -<mysticalworld:charred_planks>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_15>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_14>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_13>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_12>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_11>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_10>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_9>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_8>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_7>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_6>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_5>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_4>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_3>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_2>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_1>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_0>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_12>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_11>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_10>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_9>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_8>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_7>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_6>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_5>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_4>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_3>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_2>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_1>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_0>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_15>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_14>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_13>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_12>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_11>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_10>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_9>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_8>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_7>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_6>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_5>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_4>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_3>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_2>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_1>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_0>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_12>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_11>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_10>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_9>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_8>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_7>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_6>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_5>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_4>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_3>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_2>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_1>
--<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_0>
 -<unlimitedchiselworks:chisel_planks_oak_extratrees_planks_0_15>
 -<unlimitedchiselworks:chisel_planks_oak_extratrees_planks_0_14>
 -<unlimitedchiselworks:chisel_planks_oak_extratrees_planks_0_13>
@@ -353,6 +296,64 @@ Ore entries for <ore:plankWood> :
 -<unlimitedchiselworks:chisel_planks_oak_extratrees_planks_fireproof_2_1>
 -<unlimitedchiselworks:chisel_planks_oak_extratrees_planks_fireproof_2_0>
 -<unlimitedchiselworks:chisel_planks_oak_techreborn_rubber_planks_0>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_15>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_14>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_13>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_12>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_11>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_10>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_9>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_8>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_7>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_6>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_5>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_4>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_3>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_2>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_1>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_0_0>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_12>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_11>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_10>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_9>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_8>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_7>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_6>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_5>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_4>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_3>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_2>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_1>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_1_0>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_15>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_14>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_13>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_12>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_11>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_10>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_9>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_8>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_7>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_6>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_5>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_4>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_3>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_2>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_1>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_0_0>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_12>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_11>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_10>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_9>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_8>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_7>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_6>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_5>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_4>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_3>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_2>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_1>
+-<unlimitedchiselworks:chisel_planks_oak_forestry_planks_fireproof_1_0>
 -<thaumicbases:enderplanks>
 -<thaumicbases:goldenplanks>
 -<thaumicbases:netherplanks>
@@ -380,10 +381,10 @@ Ore entries for <ore:slabWood> :
 -<extratrees:slabs.fireproof.4:*>
 -<thaumcraft:slab_greatwood>
 -<thaumcraft:slab_silverwood>
--<bewitchment:juniper_wood_slab>
 -<bewitchment:elder_wood_slab>
--<bewitchment:yew_wood_slab>
 -<bewitchment:cypress_wood_slab>
+-<bewitchment:juniper_wood_slab>
+-<bewitchment:yew_wood_slab>
 -<roots:wildwood_slab>
 -<mysticalworld:charred_slab>
 -<naturalpledge:aurora_planks_slab>
@@ -811,6 +812,7 @@ Ore entries for <ore:doorWood> :
 -<roots:wildwood_door>
 Ore entries for <ore:stickWood> :
 -<minecraft:stick>
+-<sct:stone_stick>
 Ore entries for <ore:treeSapling> :
 -<minecraft:sapling:*>
 -<techreborn:rubber_sapling>
@@ -830,6 +832,7 @@ Ore entries for <ore:treeSapling> :
 -<naturalpledge:thunder_sapling>
 -<naturalpledge:circuit_sapling>
 -<naturalpledge:calico_sapling>
+-<xencraft:xen_sapling>
 Ore entries for <ore:treeLeaves> :
 -<minecraft:leaves:*>
 -<minecraft:leaves2:*>
@@ -933,6 +936,7 @@ Ore entries for <ore:treeLeaves> :
 -<naturalpledge:thunder_leaves>
 -<naturalpledge:circuit_leaves>
 -<naturalpledge:calico_leaves>
+-<xencraft:xen_leaves>
 Ore entries for <ore:vine> :
 -<minecraft:vine>
 -<minecraft:vine:*>
@@ -1211,6 +1215,7 @@ Ore entries for <ore:cropNetherWart> :
 -<minecraft:nether_wart>
 Ore entries for <ore:sugarcane> :
 -<minecraft:reeds>
+-<tp:dead_reed>
 Ore entries for <ore:blockCactus> :
 -<minecraft:cactus>
 -<minecraft:cactus:*>
@@ -2733,6 +2738,7 @@ Ore entries for <ore:blockSteel> :
 -<bigreactors:blocksteel>
 -<mekanism:basicblock:5>
 -<tcomplement:storage:1>
+-<tp:steel_block>
 Ore entries for <ore:blockElectrum> :
 -<thermalfoundation:storage_alloy:1>
 -<techreborn:storage:7>
@@ -2818,6 +2824,7 @@ Ore entries for <ore:blockCharcoal> :
 -<mekanism:basicblock:3>
 -<tcomplement:storage>
 -<actuallyadditions:block_misc:5>
+-<tp:charcoal_block>
 Ore entries for <ore:blockFuelCoke> :
 -<thermalfoundation:storage_resource:1>
 -<chisel:block_coal_coke>
@@ -3087,6 +3094,7 @@ Ore entries for <ore:ingotSteel> :
 -<bigreactors:ingotsteel>
 -<mekanism:ingot:4>
 -<tcomplement:materials:10>
+-<tp:steel_ingot>
 Ore entries for <ore:ingotElectrum> :
 -<thermalfoundation:material:161>
 -<techreborn:ingot:5>
@@ -3310,16 +3318,19 @@ Ore entries for <ore:dustCoal> :
 -<nuclearcraft:gem_dust:7>
 -<actuallyadditions:item_dust:6>
 -<enderio:item_material:23>
+-<tp:tiny_coal>
 -<bloodmagic:component:21>
 Ore entries for <ore:dustCharcoal> :
 -<thermalfoundation:material:769>
 -<techreborn:dust:9>
+-<tp:tiny_charcoal>
 Ore entries for <ore:dustObsidian> :
 -<thermalfoundation:material:770>
 -<techreborn:dust:35>
 -<nuclearcraft:gem_dust:3>
 -<mekanism:otherdust:6>
 -<enderio:item_material:29>
+-<tp:obsidian_dust>
 Ore entries for <ore:dustSulfur> :
 -<thermalfoundation:material:771>
 -<techreborn:dust:52>
@@ -4153,6 +4164,10 @@ Ore entries for <ore:craftingTableWood> :
 Ore entries for <ore:trapdoorWood> :
 -<minecraft:trapdoor>
 -<minecraft:trapdoor:*>
+Ore entries for <ore:emptiedLetter> :
+-<forestry:letters:3>
+-<forestry:letters:19>
+-<forestry:letters:35>
 Ore entries for <ore:dropHoney> :
 -<forestry:honey_drop>
 -<gendustry:honey_drop:*>
@@ -4185,10 +4200,6 @@ Ore entries for <ore:beeComb> :
 -<magicbees:beecomb:17>
 -<magicbees:beecomb:18>
 -<gendustry:honey_comb:*>
-Ore entries for <ore:emptiedLetter> :
--<forestry:letters:3>
--<forestry:letters:19>
--<forestry:letters:35>
 Ore entries for <ore:blockAmethyst> :
 -<bewitchment:block_of_amethyst>
 -<mysticalworld:amethyst_block>
@@ -4362,6 +4373,7 @@ Ore entries for <ore:cropGrapefruit> :
 Ore entries for <ore:cropPeach> :
 -<extratrees:food:12>
 -<extratrees:food:19>
+-<tp:plump_peach>
 Ore entries for <ore:cropSatsuma> :
 -<extratrees:food:13>
 Ore entries for <ore:cropBuddhaHand> :
@@ -4383,6 +4395,7 @@ Ore entries for <ore:cropTangerine> :
 -<extratrees:food:21>
 Ore entries for <ore:cropPear> :
 -<extratrees:food:22>
+-<tp:plump_pear>
 Ore entries for <ore:cropSandPear> :
 -<extratrees:food:23>
 Ore entries for <ore:cropHazelnut> :
@@ -4433,10 +4446,13 @@ Ore entries for <ore:cropRedcurrant> :
 -<extratrees:food:42>
 Ore entries for <ore:cropBlackberry> :
 -<extratrees:food:43>
+-<tp:blackberry_berry>
 Ore entries for <ore:cropRaspberry> :
 -<extratrees:food:44>
+-<tp:raspberry_berry>
 Ore entries for <ore:cropBlueberry> :
 -<extratrees:food:45>
+-<tp:blueberry_berry>
 Ore entries for <ore:cropCranberry> :
 -<extratrees:food:46>
 Ore entries for <ore:cropJuniper> :
@@ -5388,6 +5404,8 @@ Ore entries for <ore:crystalAethium> :
 -<environmentaltech:aethium_crystal>
 Ore entries for <ore:ingotThaumium> :
 -<thaumcraft:ingot>
+Ore entries for <ore:ingotAstralStarmetal> :
+-<astralsorcery:itemcraftingcomponent:1>
 Ore entries for <ore:oreEndDraconium> :
 -<draconicevolution:draconium_ore:2>
 Ore entries for <ore:oreDraconiumEnd> :
@@ -5410,7 +5428,6 @@ Ore entries for <ore:oreQuartzBlack> :
 -<actuallyadditions:block_misc:3>
 Ore entries for <ore:oreCertusQuartz> :
 -<appliedenergistics2:quartz_ore>
--<appliedenergistics2:charged_quartz_ore>
 Ore entries for <ore:nuggetMithrillium> :
 -<thaumadditions:mithrillium_nugget>
 Ore entries for <ore:nuggetAdaminite> :
@@ -7273,6 +7290,7 @@ Ore entries for <ore:crystalPureFluix> :
 -<appliedenergistics2:material:12>
 Ore entries for <ore:dustEnder> :
 -<appliedenergistics2:material:46>
+-<tp:ender_dust>
 Ore entries for <ore:itemIlluminatedPanel> :
 -<appliedenergistics2:part:160>
 -<appliedenergistics2:part:180>
@@ -7294,22 +7312,22 @@ Ore entries for <ore:oreCrystalEntropy> :
 Ore entries for <ore:oreCrystalTaint> :
 -<thaumcraft:crystal_vitium:*>
 Ore entries for <ore:nitor> :
--<thaumcraft:nitor_pink>
--<thaumcraft:nitor_lightblue>
--<thaumcraft:nitor_orange>
--<thaumcraft:nitor_purple>
--<thaumcraft:nitor_gray>
--<thaumcraft:nitor_lime>
--<thaumcraft:nitor_green>
--<thaumcraft:nitor_white>
--<thaumcraft:nitor_yellow>
--<thaumcraft:nitor_brown>
--<thaumcraft:nitor_black>
 -<thaumcraft:nitor_silver>
 -<thaumcraft:nitor_cyan>
--<thaumcraft:nitor_blue>
--<thaumcraft:nitor_red>
+-<thaumcraft:nitor_black>
+-<thaumcraft:nitor_brown>
+-<thaumcraft:nitor_lime>
+-<thaumcraft:nitor_white>
+-<thaumcraft:nitor_orange>
+-<thaumcraft:nitor_gray>
+-<thaumcraft:nitor_pink>
 -<thaumcraft:nitor_magenta>
+-<thaumcraft:nitor_red>
+-<thaumcraft:nitor_green>
+-<thaumcraft:nitor_yellow>
+-<thaumcraft:nitor_blue>
+-<thaumcraft:nitor_lightblue>
+-<thaumcraft:nitor_purple>
 Ore entries for <ore:quicksilver> :
 -<thaumcraft:quicksilver>
 Ore entries for <ore:nuggetQuicksilver> :
@@ -7354,166 +7372,86 @@ Ore entries for <ore:clusterCinnabar> :
 -<thaumcraft:cluster:6>
 Ore entries for <ore:clusterQuartz> :
 -<thaumcraft:cluster:7>
-Ore entries for <ore:mysticFlowerWhite> :
--<botania:flower>
-Ore entries for <ore:petalWhite> :
--<botania:mushroom>
--<botania:petal>
-Ore entries for <ore:mysticFlowerOrange> :
--<botania:flower:1>
-Ore entries for <ore:petalOrange> :
--<botania:mushroom:1>
--<botania:petal:1>
-Ore entries for <ore:mysticFlowerMagenta> :
--<botania:flower:2>
-Ore entries for <ore:petalMagenta> :
--<botania:mushroom:2>
--<botania:petal:2>
-Ore entries for <ore:mysticFlowerLightBlue> :
--<botania:flower:3>
-Ore entries for <ore:petalLightBlue> :
--<botania:mushroom:3>
--<botania:petal:3>
-Ore entries for <ore:mysticFlowerYellow> :
--<botania:flower:4>
-Ore entries for <ore:petalYellow> :
--<botania:mushroom:4>
--<botania:petal:4>
-Ore entries for <ore:mysticFlowerLime> :
--<botania:flower:5>
-Ore entries for <ore:petalLime> :
--<botania:mushroom:5>
--<botania:petal:5>
-Ore entries for <ore:mysticFlowerPink> :
--<botania:flower:6>
-Ore entries for <ore:petalPink> :
--<botania:mushroom:6>
--<botania:petal:6>
-Ore entries for <ore:mysticFlowerGray> :
--<botania:flower:7>
-Ore entries for <ore:petalGray> :
--<botania:mushroom:7>
--<botania:petal:7>
-Ore entries for <ore:mysticFlowerLightGray> :
--<botania:flower:8>
-Ore entries for <ore:petalLightGray> :
--<botania:mushroom:8>
--<botania:petal:8>
-Ore entries for <ore:mysticFlowerCyan> :
--<botania:flower:9>
-Ore entries for <ore:petalCyan> :
--<botania:mushroom:9>
--<botania:petal:9>
-Ore entries for <ore:mysticFlowerPurple> :
--<botania:flower:10>
-Ore entries for <ore:petalPurple> :
--<botania:mushroom:10>
--<botania:petal:10>
-Ore entries for <ore:mysticFlowerBlue> :
--<botania:flower:11>
-Ore entries for <ore:petalBlue> :
--<botania:mushroom:11>
--<botania:petal:11>
-Ore entries for <ore:mysticFlowerBrown> :
--<botania:flower:12>
-Ore entries for <ore:petalBrown> :
--<botania:mushroom:12>
--<botania:petal:12>
-Ore entries for <ore:mysticFlowerGreen> :
--<botania:flower:13>
-Ore entries for <ore:petalGreen> :
--<botania:mushroom:13>
--<botania:petal:13>
-Ore entries for <ore:mysticFlowerRed> :
--<botania:flower:14>
-Ore entries for <ore:petalRed> :
--<botania:mushroom:14>
--<botania:petal:14>
-Ore entries for <ore:mysticFlowerBlack> :
--<botania:flower:15>
-Ore entries for <ore:petalBlack> :
--<botania:mushroom:15>
--<botania:petal:15>
-Ore entries for <ore:livingrock> :
--<botania:livingrock>
-Ore entries for <ore:livingwood> :
--<botania:livingwood>
-Ore entries for <ore:dreamwood> :
--<botania:dreamwood>
-Ore entries for <ore:mysticFlowerWhiteDouble> :
--<botania:doubleflower1>
-Ore entries for <ore:mysticFlowerLightGrayDouble> :
--<botania:doubleflower2>
-Ore entries for <ore:mysticFlowerOrangeDouble> :
--<botania:doubleflower1:1>
-Ore entries for <ore:mysticFlowerCyanDouble> :
--<botania:doubleflower2:1>
-Ore entries for <ore:mysticFlowerMagentaDouble> :
--<botania:doubleflower1:2>
-Ore entries for <ore:mysticFlowerPurpleDouble> :
--<botania:doubleflower2:2>
-Ore entries for <ore:mysticFlowerLightBlueDouble> :
--<botania:doubleflower1:3>
-Ore entries for <ore:mysticFlowerBlueDouble> :
--<botania:doubleflower2:3>
-Ore entries for <ore:mysticFlowerYellowDouble> :
--<botania:doubleflower1:4>
-Ore entries for <ore:mysticFlowerBrownDouble> :
--<botania:doubleflower2:4>
-Ore entries for <ore:mysticFlowerLimeDouble> :
--<botania:doubleflower1:5>
-Ore entries for <ore:mysticFlowerGreenDouble> :
--<botania:doubleflower2:5>
-Ore entries for <ore:mysticFlowerPinkDouble> :
--<botania:doubleflower1:6>
-Ore entries for <ore:mysticFlowerRedDouble> :
--<botania:doubleflower2:6>
-Ore entries for <ore:mysticFlowerGrayDouble> :
--<botania:doubleflower1:7>
-Ore entries for <ore:mysticFlowerBlackDouble> :
--<botania:doubleflower2:7>
-Ore entries for <ore:blockBlaze> :
--<botania:blazeblock>
-Ore entries for <ore:snowLayer> :
--<minecraft:snow_layer>
-Ore entries for <ore:mycelium> :
--<minecraft:mycelium>
-Ore entries for <ore:podzol> :
--<minecraft:dirt:2>
-Ore entries for <ore:soulSand> :
--<minecraft:soul_sand>
 Ore entries for <ore:lexicaBotania> :
 -<botania:lexicon>
+Ore entries for <ore:petalWhite> :
+-<botania:petal>
+-<botania:mushroom>
 Ore entries for <ore:runeWaterB> :
 -<botania:rune>
+Ore entries for <ore:petalOrange> :
+-<botania:petal:1>
+-<botania:mushroom:1>
 Ore entries for <ore:runeFireB> :
 -<botania:rune:1>
+Ore entries for <ore:petalMagenta> :
+-<botania:petal:2>
+-<botania:mushroom:2>
 Ore entries for <ore:runeEarthB> :
 -<botania:rune:2>
+Ore entries for <ore:petalLightBlue> :
+-<botania:petal:3>
+-<botania:mushroom:3>
 Ore entries for <ore:runeAirB> :
 -<botania:rune:3>
+Ore entries for <ore:petalYellow> :
+-<botania:petal:4>
+-<botania:mushroom:4>
 Ore entries for <ore:runeSpringB> :
 -<botania:rune:4>
+Ore entries for <ore:petalLime> :
+-<botania:petal:5>
+-<botania:mushroom:5>
 Ore entries for <ore:runeSummerB> :
 -<botania:rune:5>
+Ore entries for <ore:petalPink> :
+-<botania:petal:6>
+-<botania:mushroom:6>
 Ore entries for <ore:runeAutumnB> :
 -<botania:rune:6>
+Ore entries for <ore:petalGray> :
+-<botania:petal:7>
+-<botania:mushroom:7>
 Ore entries for <ore:runeWinterB> :
 -<botania:rune:7>
+Ore entries for <ore:petalLightGray> :
+-<botania:petal:8>
+-<botania:mushroom:8>
 Ore entries for <ore:runeManaB> :
 -<botania:rune:8>
+Ore entries for <ore:petalCyan> :
+-<botania:petal:9>
+-<botania:mushroom:9>
 Ore entries for <ore:runeLustB> :
 -<botania:rune:9>
+Ore entries for <ore:petalPurple> :
+-<botania:petal:10>
+-<botania:mushroom:10>
 Ore entries for <ore:runeGluttonyB> :
 -<botania:rune:10>
+Ore entries for <ore:petalBlue> :
+-<botania:petal:11>
+-<botania:mushroom:11>
 Ore entries for <ore:runeGreedB> :
 -<botania:rune:11>
+Ore entries for <ore:petalBrown> :
+-<botania:petal:12>
+-<botania:mushroom:12>
 Ore entries for <ore:runeSlothB> :
 -<botania:rune:12>
+Ore entries for <ore:petalGreen> :
+-<botania:petal:13>
+-<botania:mushroom:13>
 Ore entries for <ore:runeWrathB> :
 -<botania:rune:13>
+Ore entries for <ore:petalRed> :
+-<botania:petal:14>
+-<botania:mushroom:14>
 Ore entries for <ore:runeEnvyB> :
 -<botania:rune:14>
+Ore entries for <ore:petalBlack> :
+-<botania:petal:15>
+-<botania:mushroom:15>
 Ore entries for <ore:runePrideB> :
 -<botania:rune:15>
 Ore entries for <ore:quartzDark> :
@@ -7585,6 +7523,86 @@ Ore entries for <ore:bFlask> :
 -<botania:vial:1>
 Ore entries for <ore:powderBlaze> :
 -<minecraft:blaze_powder>
+Ore entries for <ore:mysticFlowerWhite> :
+-<botania:flower>
+Ore entries for <ore:mysticFlowerOrange> :
+-<botania:flower:1>
+Ore entries for <ore:mysticFlowerMagenta> :
+-<botania:flower:2>
+Ore entries for <ore:mysticFlowerLightBlue> :
+-<botania:flower:3>
+Ore entries for <ore:mysticFlowerYellow> :
+-<botania:flower:4>
+Ore entries for <ore:mysticFlowerLime> :
+-<botania:flower:5>
+Ore entries for <ore:mysticFlowerPink> :
+-<botania:flower:6>
+Ore entries for <ore:mysticFlowerGray> :
+-<botania:flower:7>
+Ore entries for <ore:mysticFlowerLightGray> :
+-<botania:flower:8>
+Ore entries for <ore:mysticFlowerCyan> :
+-<botania:flower:9>
+Ore entries for <ore:mysticFlowerPurple> :
+-<botania:flower:10>
+Ore entries for <ore:mysticFlowerBlue> :
+-<botania:flower:11>
+Ore entries for <ore:mysticFlowerBrown> :
+-<botania:flower:12>
+Ore entries for <ore:mysticFlowerGreen> :
+-<botania:flower:13>
+Ore entries for <ore:mysticFlowerRed> :
+-<botania:flower:14>
+Ore entries for <ore:mysticFlowerBlack> :
+-<botania:flower:15>
+Ore entries for <ore:livingrock> :
+-<botania:livingrock>
+Ore entries for <ore:livingwood> :
+-<botania:livingwood>
+Ore entries for <ore:dreamwood> :
+-<botania:dreamwood>
+Ore entries for <ore:mysticFlowerWhiteDouble> :
+-<botania:doubleflower1>
+Ore entries for <ore:mysticFlowerLightGrayDouble> :
+-<botania:doubleflower2>
+Ore entries for <ore:mysticFlowerOrangeDouble> :
+-<botania:doubleflower1:1>
+Ore entries for <ore:mysticFlowerCyanDouble> :
+-<botania:doubleflower2:1>
+Ore entries for <ore:mysticFlowerMagentaDouble> :
+-<botania:doubleflower1:2>
+Ore entries for <ore:mysticFlowerPurpleDouble> :
+-<botania:doubleflower2:2>
+Ore entries for <ore:mysticFlowerLightBlueDouble> :
+-<botania:doubleflower1:3>
+Ore entries for <ore:mysticFlowerBlueDouble> :
+-<botania:doubleflower2:3>
+Ore entries for <ore:mysticFlowerYellowDouble> :
+-<botania:doubleflower1:4>
+Ore entries for <ore:mysticFlowerBrownDouble> :
+-<botania:doubleflower2:4>
+Ore entries for <ore:mysticFlowerLimeDouble> :
+-<botania:doubleflower1:5>
+Ore entries for <ore:mysticFlowerGreenDouble> :
+-<botania:doubleflower2:5>
+Ore entries for <ore:mysticFlowerPinkDouble> :
+-<botania:doubleflower1:6>
+Ore entries for <ore:mysticFlowerRedDouble> :
+-<botania:doubleflower2:6>
+Ore entries for <ore:mysticFlowerGrayDouble> :
+-<botania:doubleflower1:7>
+Ore entries for <ore:mysticFlowerBlackDouble> :
+-<botania:doubleflower2:7>
+Ore entries for <ore:blockBlaze> :
+-<botania:blazeblock>
+Ore entries for <ore:snowLayer> :
+-<minecraft:snow_layer>
+Ore entries for <ore:mycelium> :
+-<minecraft:mycelium>
+Ore entries for <ore:podzol> :
+-<minecraft:dirt:2>
+Ore entries for <ore:soulSand> :
+-<minecraft:soul_sand>
 Ore entries for <ore:fish> :
 -<minecraft:fish:*>
 Ore entries for <ore:boneWithered> :
@@ -7681,33 +7699,18 @@ Ore entries for <ore:blockSlimeGrass> :
 -<tconstruct:slime_grass:*>
 Ore entries for <ore:rodStone> :
 -<tconstruct:stone_stick:*>
-Ore entries for <ore:cropWhiteSage> :
--<bewitchment:white_sage>
-Ore entries for <ore:gemGarnet> :
--<bewitchment:garnet>
-Ore entries for <ore:gemAll> :
--<bewitchment:garnet>
--<bewitchment:amethyst>
--<bewitchment:opal>
--<minecraft:quartz>
--<minecraft:diamond>
--<minecraft:emerald>
--<minecraft:dye:4>
 Ore entries for <ore:listAllseed> :
--<bewitchment:white_sage_seeds>
 -<bewitchment:aconitum_seeds>
--<bewitchment:garlic_seeds>
--<bewitchment:mandrake_seeds>
 -<bewitchment:wormwood_seeds>
--<bewitchment:belladonna_seeds>
+-<bewitchment:garlic_seeds>
 -<bewitchment:hellebore_seeds>
-Ore entries for <ore:cropAconitum> :
--<bewitchment:aconitum>
-Ore entries for <ore:gemAmethyst> :
--<bewitchment:amethyst>
--<mysticalworld:amethyst_gem>
+-<bewitchment:belladonna_seeds>
+-<bewitchment:mandrake_seeds>
+-<bewitchment:white_sage_seeds>
 Ore entries for <ore:cropMandrake> :
 -<bewitchment:mandrake_root>
+Ore entries for <ore:cropWormwood> :
+-<bewitchment:wormwood>
 Ore entries for <ore:materialWax> :
 -<bewitchment:tallow>
 Ore entries for <ore:materialBeeswax> :
@@ -7724,20 +7727,24 @@ Ore entries for <ore:beeswax> :
 -<bewitchment:tallow>
 Ore entries for <ore:itemWax> :
 -<bewitchment:tallow>
-Ore entries for <ore:gemOpal> :
--<bewitchment:opal>
 Ore entries for <ore:nuggetColdIron> :
 -<bewitchment:cold_iron_nugget>
+Ore entries for <ore:gemGarnet> :
+-<bewitchment:garnet>
+Ore entries for <ore:gemAll> :
+-<bewitchment:garnet>
+-<bewitchment:amethyst>
+-<bewitchment:opal>
+-<minecraft:quartz>
+-<minecraft:diamond>
+-<minecraft:emerald>
+-<minecraft:dye:4>
+Ore entries for <ore:cropBelladonna> :
+-<bewitchment:belladonna>
 Ore entries for <ore:cropGarlic> :
 -<bewitchment:garlic>
 Ore entries for <ore:listAllherb> :
 -<bewitchment:garlic>
-Ore entries for <ore:cropBelladonna> :
--<bewitchment:belladonna>
-Ore entries for <ore:cropWormwood> :
--<bewitchment:wormwood>
-Ore entries for <ore:cropHellebore> :
--<bewitchment:hellebore>
 Ore entries for <ore:salt> :
 -<bewitchment:salt>
 Ore entries for <ore:itemSalt> :
@@ -7764,8 +7771,19 @@ Ore entries for <ore:lumpSalt> :
 -<bewitchment:salt>
 Ore entries for <ore:materialSalt> :
 -<bewitchment:salt>
+Ore entries for <ore:cropAconitum> :
+-<bewitchment:aconitum>
+Ore entries for <ore:cropHellebore> :
+-<bewitchment:hellebore>
+Ore entries for <ore:cropWhiteSage> :
+-<bewitchment:white_sage>
+Ore entries for <ore:gemAmethyst> :
+-<bewitchment:amethyst>
+-<mysticalworld:amethyst_gem>
 Ore entries for <ore:ingotColdIron> :
 -<bewitchment:cold_iron_ingot>
+Ore entries for <ore:gemOpal> :
+-<bewitchment:opal>
 Ore entries for <ore:blockBloodBronze> :
 -<bloodtinker:blood_bronze_block>
 Ore entries for <ore:drawerBasic> :
@@ -7897,14 +7915,6 @@ Ore entries for <ore:scaffoldingAluminum> :
 -<immersiveengineering:metal_decoration1:7>
 Ore entries for <ore:blockPackedIce> :
 -<minecraft:packed_ice>
-Ore entries for <ore:fencegateAluminium> :
--<engineersdoors:fencegate_aluminium>
-Ore entries for <ore:fencegateAluminum> :
--<engineersdoors:fencegate_aluminium>
-Ore entries for <ore:fencegateSteel> :
--<engineersdoors:fencegate_steel>
-Ore entries for <ore:fencegateTreatedWood> :
--<engineersdoors:fencegate_treated>
 Ore entries for <ore:doorConcrete> :
 -<engineersdoors:door_concrete>
 -<engineersdoors:door_concrete_ornate>
@@ -7921,6 +7931,14 @@ Ore entries for <ore:trapdoorSteel> :
 -<engineersdoors:trapdoor_steel>
 Ore entries for <ore:trapdoorTreatedWood> :
 -<engineersdoors:trapdoor_treated>
+Ore entries for <ore:fencegateAluminium> :
+-<engineersdoors:fencegate_aluminium>
+Ore entries for <ore:fencegateAluminum> :
+-<engineersdoors:fencegate_aluminium>
+Ore entries for <ore:fencegateSteel> :
+-<engineersdoors:fencegate_steel>
+Ore entries for <ore:fencegateTreatedWood> :
+-<engineersdoors:fencegate_treated>
 Ore entries for <ore:blockBlackIron> :
 -<extendedcrafting:storage>
 Ore entries for <ore:blockLuminessence> :
@@ -7935,16 +7953,16 @@ Ore entries for <ore:nuggetBlackIron> :
 -<extendedcrafting:material:1>
 Ore entries for <ore:ingotCrystaltine> :
 -<extendedcrafting:material:24>
+Ore entries for <ore:ingotBlackIron> :
+-<extendedcrafting:material>
 Ore entries for <ore:ingotUltimate> :
 -<extendedcrafting:material:32>
 Ore entries for <ore:nuggetUltimate> :
 -<extendedcrafting:material:33>
-Ore entries for <ore:nuggetNetherStar> :
--<extendedcrafting:material:140>
-Ore entries for <ore:ingotBlackIron> :
--<extendedcrafting:material>
 Ore entries for <ore:nuggetCrystaltine> :
 -<extendedcrafting:material:25>
+Ore entries for <ore:nuggetNetherStar> :
+-<extendedcrafting:material:140>
 Ore entries for <ore:ingotPhotonium> :
 -<extrabotany:material:8>
 Ore entries for <ore:goldweave> :
@@ -8127,320 +8145,87 @@ Ore entries for <ore:blockSuperiumCoal> :
 -<mysticalagriculture:coal_block:3>
 Ore entries for <ore:blockSupremiumCoal> :
 -<mysticalagriculture:coal_block:4>
-Ore entries for <ore:essenceTier2> :
--<mysticalagriculture:basalt_essence>
--<mysticalagriculture:aluminum_essence>
--<mysticalagriculture:coal_essence>
--<mysticalagriculture:pig_essence>
--<mysticalagriculture:nether_essence>
--<mysticalagriculture:slime_essence>
--<mysticalagriculture:fire_essence>
--<mysticalagriculture:limestone_essence>
--<mysticalagriculture:dye_essence>
--<mysticalagriculture:copper_essence>
--<mysticalagriculture:grains_of_infinity_essence>
--<mysticalagriculture:menril_essence>
--<mysticalagriculture:cow_essence>
--<mysticalagriculture:sulfur_essence>
--<mysticalagriculture:sheep_essence>
--<mysticalagriculture:rubber_essence>
--<mysticalagriculture:chicken_essence>
--<mysticalagriculture:mystical_flower_essence>
--<mysticalagriculture:aluminum_brass_essence>
--<mysticalagriculture:apatite_essence>
--<mysticalagriculture:silicon_essence>
--<mysticalagriculture:marble_essence>
-Ore entries for <ore:essenceTier4> :
--<mysticalagriculture:compressed_iron_essence>
--<mysticalagriculture:ghast_essence>
--<mysticalagriculture:peridot_essence>
--<mysticalagriculture:osmium_essence>
--<mysticalagriculture:lithium_essence>
--<mysticalagriculture:boron_essence>
--<mysticalagriculture:dark_steel_essence>
--<mysticalagriculture:amber_essence>
--<mysticalagriculture:sapphire_essence>
--<mysticalagriculture:thorium_essence>
--<mysticalagriculture:soularium_essence>
--<mysticalagriculture:constantan_essence>
--<mysticalagriculture:energetic_alloy_essence>
--<mysticalagriculture:lapis_lazuli_essence>
--<mysticalagriculture:enderman_essence>
--<mysticalagriculture:fluix_essence>
--<mysticalagriculture:dawnstone_essence>
--<mysticalagriculture:elementium_essence>
--<mysticalagriculture:ruby_essence>
--<mysticalagriculture:alumite_essence>
--<mysticalagriculture:electrum_essence>
--<mysticalagriculture:end_essence>
--<mysticalagriculture:steel_essence>
--<mysticalagriculture:hop_graphite_essence>
--<mysticalagriculture:glowstone_ingot_essence>
--<mysticalagriculture:void_metal_essence>
--<mysticalagriculture:mithril_essence>
--<mysticalagriculture:experience_essence>
--<mysticalagriculture:blaze_essence>
--<mysticalagriculture:nickel_essence>
--<mysticalagriculture:gold_essence>
--<mysticalagriculture:lumium_essence>
--<mysticalagriculture:cobalt_essence>
--<mysticalagriculture:signalum_essence>
--<mysticalagriculture:magnesium_essence>
--<mysticalagriculture:pulsating_iron_essence>
--<mysticalagriculture:invar_essence>
--<mysticalagriculture:fluxed_electrum_essence>
-Ore entries for <ore:seedsTier3> :
--<mysticalagriculture:conductive_iron_seeds>
--<mysticalagriculture:thaumium_seeds>
--<mysticalagriculture:tin_seeds>
--<mysticalagriculture:brass_seeds>
--<mysticalagriculture:saltpeter_seeds>
--<mysticalagriculture:nether_quartz_seeds>
--<mysticalagriculture:blizz_seeds>
--<mysticalagriculture:redstone_alloy_seeds>
--<mysticalagriculture:guardian_seeds>
--<mysticalagriculture:ardite_seeds>
--<mysticalagriculture:redstone_seeds>
--<mysticalagriculture:aquamarine_seeds>
--<mysticalagriculture:bronze_seeds>
--<mysticalagriculture:skeleton_seeds>
--<mysticalagriculture:knightslime_seeds>
--<mysticalagriculture:blitz_seeds>
--<mysticalagriculture:quicksilver_seeds>
--<mysticalagriculture:silver_seeds>
--<mysticalagriculture:rabbit_seeds>
--<mysticalagriculture:manasteel_seeds>
--<mysticalagriculture:certus_quartz_seeds>
--<mysticalagriculture:lead_seeds>
--<mysticalagriculture:electrical_steel_seeds>
--<mysticalagriculture:black_quartz_seeds>
--<mysticalagriculture:iron_seeds>
--<mysticalagriculture:sky_stone_seeds>
--<mysticalagriculture:zinc_seeds>
--<mysticalagriculture:glowstone_seeds>
--<mysticalagriculture:obsidian_seeds>
--<mysticalagriculture:graphite_seeds>
--<mysticalagriculture:spider_seeds>
--<mysticalagriculture:creeper_seeds>
--<mysticalagriculture:basalz_seeds>
--<jaopca:item_mysticalseedsastralstarmetal>
--<jaopca:item_mysticalseedsdimensionalshard>
--<jaopca:item_mysticalseedsgarnet>
--<jaopca:item_mysticalseedsopal>
--<jaopca:item_mysticalseedsquartzblack>
--<jaopca:item_mysticalseedsbauxite>
--<jaopca:item_mysticalseedscinnabar>
--<jaopca:item_mysticalseedsgalena>
--<jaopca:item_mysticalseedspyrite>
--<jaopca:item_mysticalseedssalt>
--<jaopca:item_mysticalseedssodalite>
--<jaopca:item_mysticalseedssphalerite>
--<jaopca:item_mysticalseedsadaminite>
--<jaopca:item_mysticalseedsadvancedalloy>
--<jaopca:item_mysticalseedsalubrass>
--<jaopca:item_mysticalseedsalumite>
--<jaopca:item_mysticalseedsamericium243oxide>
--<jaopca:item_mysticalseedsblackiron>
--<jaopca:item_mysticalseedsbloodbronze>
--<jaopca:item_mysticalseedsblutonium>
--<jaopca:item_mysticalseedschocolate>
--<jaopca:item_mysticalseedscocoabutter>
--<jaopca:item_mysticalseedsconstructionalloy>
--<jaopca:item_mysticalseedscosmicneutronium>
--<jaopca:item_mysticalseedscrudesteel>
--<jaopca:item_mysticalseedscrystallinealloy>
--<jaopca:item_mysticalseedscrystallinepinkslime>
--<jaopca:item_mysticalseedscrystalmatrix>
--<jaopca:item_mysticalseedscrystaltine>
--<jaopca:item_mysticalseedscyanite>
--<jaopca:item_mysticalseedsdarkchocolate>
--<jaopca:item_mysticalseedselectricalsteel>
--<jaopca:item_mysticalseedselectrumflux>
--<jaopca:item_mysticalseedselvenelementium>
--<jaopca:item_mysticalseedsenergeticsilver>
--<jaopca:item_mysticalseedsextreme>
--<jaopca:item_mysticalseedsferroboron>
--<jaopca:item_mysticalseedsgelidenderium>
--<jaopca:item_mysticalseedshardcarbon>
--<jaopca:item_mysticalseedshopgraphite>
--<jaopca:item_mysticalseedshottungstensteel>
--<jaopca:item_mysticalseedshslasteel>
--<jaopca:item_mysticalseedsinfinity>
--<jaopca:item_mysticalseedsiridiumalloy>
--<jaopca:item_mysticalseedsleadplatinum>
--<jaopca:item_mysticalseedslithium6>
--<jaopca:item_mysticalseedslithium7>
--<jaopca:item_mysticalseedslithiummanganesedioxide>
--<jaopca:item_mysticalseedsludicrite>
--<jaopca:item_mysticalseedsmagnesiumdiboride>
--<jaopca:item_mysticalseedsmanganese>
--<jaopca:item_mysticalseedsmanganesedioxide>
--<jaopca:item_mysticalseedsmanganeseoxide>
--<jaopca:item_mysticalseedsmelodicalloy>
--<jaopca:item_mysticalseedsmirion>
--<jaopca:item_mysticalseedsmithminite>
--<jaopca:item_mysticalseedsmithrillium>
--<jaopca:item_mysticalseedsmixedmetal>
--<jaopca:item_mysticalseedsorichalcos>
--<jaopca:item_mysticalseedsosgloglas>
--<jaopca:item_mysticalseedsosmiridium>
--<jaopca:item_mysticalseedsphotonium>
--<jaopca:item_mysticalseedspigiron>
--<jaopca:item_mysticalseedsplutonium>
--<jaopca:item_mysticalseedsrefinediron>
--<jaopca:item_mysticalseedsshadowium>
--<jaopca:item_mysticalseedsshibuichi>
--<jaopca:item_mysticalseedssicsiccmc>
--<jaopca:item_mysticalseedssiliconcarbide>
--<jaopca:item_mysticalseedsstellaralloy>
--<jaopca:item_mysticalseedsthermoconducting>
--<jaopca:item_mysticalseedsthoriumoxide>
--<jaopca:item_mysticalseedstinsilver>
--<jaopca:item_mysticalseedstough>
--<jaopca:item_mysticalseedstungstensteel>
--<jaopca:item_mysticalseedsultimate>
--<jaopca:item_mysticalseedsunsweetenedchocolate>
--<jaopca:item_mysticalseedsuraniumoxide>
--<jaopca:item_mysticalseedsvividalloy>
--<jaopca:item_mysticalseedszircaloy>
--<jaopca:item_mysticalseedszirconium>
--<jaopca:item_mysticalseedsboronarsenide>
--<jaopca:item_mysticalseedsboronnitride>
--<jaopca:item_mysticalseedscarobbiite>
--<jaopca:item_mysticalseedscrystalflux>
--<jaopca:item_mysticalseedsfluorite>
--<jaopca:item_mysticalseedsgelid>
--<jaopca:item_mysticalseedsobsidian>
--<jaopca:item_mysticalseedsredgarnet>
--<jaopca:item_mysticalseedsrhodochrosite>
--<jaopca:item_mysticalseedsvilliaumite>
--<jaopca:item_mysticalseedsyellowgarnet>
-Ore entries for <ore:seedsTier2> :
--<mysticalagriculture:apatite_seeds>
--<mysticalagriculture:grains_of_infinity_seeds>
--<mysticalagriculture:menril_seeds>
--<mysticalagriculture:fire_seeds>
--<mysticalagriculture:marble_seeds>
--<mysticalagriculture:aluminum_brass_seeds>
--<mysticalagriculture:copper_seeds>
--<mysticalagriculture:sulfur_seeds>
--<mysticalagriculture:silicon_seeds>
--<mysticalagriculture:limestone_seeds>
--<mysticalagriculture:chicken_seeds>
--<mysticalagriculture:sheep_seeds>
--<mysticalagriculture:cow_seeds>
--<mysticalagriculture:rubber_seeds>
--<mysticalagriculture:coal_seeds>
--<mysticalagriculture:nether_seeds>
--<mysticalagriculture:aluminum_seeds>
--<mysticalagriculture:dye_seeds>
--<mysticalagriculture:pig_seeds>
--<mysticalagriculture:slime_seeds>
--<mysticalagriculture:mystical_flower_seeds>
--<mysticalagriculture:basalt_seeds>
+Ore entries for <ore:essenceTier1> :
+-<mysticalagriculture:wood_essence>
+-<mysticalagriculture:nature_essence>
+-<mysticalagriculture:water_essence>
+-<mysticalagriculture:stone_essence>
+-<mysticalagriculture:zombie_essence>
+-<mysticalagriculture:dirt_essence>
+-<mysticalagriculture:ice_essence>
 Ore entries for <ore:seedsTier4> :
--<mysticalagriculture:sapphire_seeds>
--<mysticalagriculture:amber_seeds>
--<mysticalagriculture:experience_seeds>
--<mysticalagriculture:mithril_seeds>
--<mysticalagriculture:fluix_seeds>
--<mysticalagriculture:pulsating_iron_seeds>
--<mysticalagriculture:nickel_seeds>
--<mysticalagriculture:hop_graphite_seeds>
--<mysticalagriculture:peridot_seeds>
--<mysticalagriculture:magnesium_seeds>
--<mysticalagriculture:enderman_seeds>
--<mysticalagriculture:electrum_seeds>
--<mysticalagriculture:blaze_seeds>
--<mysticalagriculture:end_seeds>
--<mysticalagriculture:boron_seeds>
--<mysticalagriculture:dark_steel_seeds>
 -<mysticalagriculture:lumium_seeds>
--<mysticalagriculture:ghast_seeds>
+-<mysticalagriculture:mithril_seeds>
+-<mysticalagriculture:lapis_lazuli_seeds>
+-<mysticalagriculture:dark_steel_seeds>
+-<mysticalagriculture:end_seeds>
+-<mysticalagriculture:blaze_seeds>
+-<mysticalagriculture:void_metal_seeds>
+-<mysticalagriculture:osmium_seeds>
 -<mysticalagriculture:lithium_seeds>
+-<mysticalagriculture:energetic_alloy_seeds>
+-<mysticalagriculture:glowstone_ingot_seeds>
+-<mysticalagriculture:fluix_seeds>
 -<mysticalagriculture:thorium_seeds>
 -<mysticalagriculture:compressed_iron_seeds>
--<mysticalagriculture:steel_seeds>
--<mysticalagriculture:signalum_seeds>
--<mysticalagriculture:invar_seeds>
--<mysticalagriculture:soularium_seeds>
--<mysticalagriculture:ruby_seeds>
--<mysticalagriculture:cobalt_seeds>
--<mysticalagriculture:void_metal_seeds>
--<mysticalagriculture:energetic_alloy_seeds>
--<mysticalagriculture:dawnstone_seeds>
--<mysticalagriculture:lapis_lazuli_seeds>
--<mysticalagriculture:glowstone_ingot_seeds>
--<mysticalagriculture:constantan_seeds>
--<mysticalagriculture:osmium_seeds>
--<mysticalagriculture:alumite_seeds>
+-<mysticalagriculture:sapphire_seeds>
 -<mysticalagriculture:fluxed_electrum_seeds>
+-<mysticalagriculture:constantan_seeds>
+-<mysticalagriculture:experience_seeds>
+-<mysticalagriculture:ruby_seeds>
+-<mysticalagriculture:electrum_seeds>
+-<mysticalagriculture:magnesium_seeds>
+-<mysticalagriculture:alumite_seeds>
+-<mysticalagriculture:soularium_seeds>
+-<mysticalagriculture:hop_graphite_seeds>
+-<mysticalagriculture:dawnstone_seeds>
+-<mysticalagriculture:boron_seeds>
+-<mysticalagriculture:signalum_seeds>
+-<mysticalagriculture:amber_seeds>
 -<mysticalagriculture:elementium_seeds>
+-<mysticalagriculture:invar_seeds>
+-<mysticalagriculture:steel_seeds>
+-<mysticalagriculture:nickel_seeds>
+-<mysticalagriculture:cobalt_seeds>
+-<mysticalagriculture:ghast_seeds>
 -<mysticalagriculture:gold_seeds>
-Ore entries for <ore:ingotSupremium> :
--<mysticalagriculture:crafting:37>
-Ore entries for <ore:seedsTier5> :
--<mysticalagriculture:end_steel_seeds>
--<mysticalagriculture:manyullyn_seeds>
--<mysticalagriculture:platinum_seeds>
--<mysticalagriculture:refined_obsidian_seeds>
--<mysticalagriculture:iridium_seeds>
--<mysticalagriculture:rock_crystal_seeds>
--<mysticalagriculture:draconium_seeds>
--<mysticalagriculture:chrome_seeds>
--<mysticalagriculture:enderium_seeds>
--<mysticalagriculture:titanium_seeds>
--<mysticalagriculture:wither_skeleton_seeds>
--<mysticalagriculture:vibrant_alloy_seeds>
--<mysticalagriculture:starmetal_seeds>
--<mysticalagriculture:tungsten_seeds>
--<mysticalagriculture:diamond_seeds>
--<mysticalagriculture:terrasteel_seeds>
--<mysticalagriculture:emerald_seeds>
--<mysticalagriculture:uranium_seeds>
--<mysticalagriculture:yellorium_seeds>
-Ore entries for <ore:seedsTier1> :
--<mysticalagriculture:dirt_seeds>
--<mysticalagriculture:nature_seeds>
--<mysticalagriculture:water_seeds>
--<mysticalagriculture:stone_seeds>
--<mysticalagriculture:ice_seeds>
--<mysticalagriculture:zombie_seeds>
--<mysticalagriculture:wood_seeds>
+-<mysticalagriculture:pulsating_iron_seeds>
+-<mysticalagriculture:peridot_seeds>
+-<mysticalagriculture:enderman_seeds>
 Ore entries for <ore:essenceTier3> :
--<mysticalagriculture:obsidian_essence>
--<mysticalagriculture:nether_quartz_essence>
--<mysticalagriculture:certus_quartz_essence>
--<mysticalagriculture:spider_essence>
--<mysticalagriculture:thaumium_essence>
--<mysticalagriculture:blizz_essence>
--<mysticalagriculture:lead_essence>
--<mysticalagriculture:blitz_essence>
 -<mysticalagriculture:glowstone_essence>
--<mysticalagriculture:black_quartz_essence>
--<mysticalagriculture:quicksilver_essence>
--<mysticalagriculture:creeper_essence>
--<mysticalagriculture:conductive_iron_essence>
--<mysticalagriculture:zinc_essence>
--<mysticalagriculture:electrical_steel_essence>
--<mysticalagriculture:aquamarine_essence>
--<mysticalagriculture:iron_essence>
--<mysticalagriculture:graphite_essence>
--<mysticalagriculture:redstone_alloy_essence>
--<mysticalagriculture:basalz_essence>
--<mysticalagriculture:guardian_essence>
--<mysticalagriculture:silver_essence>
--<mysticalagriculture:ardite_essence>
--<mysticalagriculture:saltpeter_essence>
--<mysticalagriculture:brass_essence>
--<mysticalagriculture:tin_essence>
--<mysticalagriculture:sky_stone_essence>
+-<mysticalagriculture:thaumium_essence>
+-<mysticalagriculture:spider_essence>
 -<mysticalagriculture:rabbit_essence>
+-<mysticalagriculture:blizz_essence>
+-<mysticalagriculture:iron_essence>
 -<mysticalagriculture:manasteel_essence>
--<mysticalagriculture:skeleton_essence>
--<mysticalagriculture:redstone_essence>
+-<mysticalagriculture:aquamarine_essence>
+-<mysticalagriculture:obsidian_essence>
+-<mysticalagriculture:tin_essence>
+-<mysticalagriculture:silver_essence>
+-<mysticalagriculture:sky_stone_essence>
+-<mysticalagriculture:black_quartz_essence>
 -<mysticalagriculture:bronze_essence>
+-<mysticalagriculture:blitz_essence>
+-<mysticalagriculture:graphite_essence>
+-<mysticalagriculture:zinc_essence>
+-<mysticalagriculture:redstone_alloy_essence>
+-<mysticalagriculture:saltpeter_essence>
 -<mysticalagriculture:knightslime_essence>
+-<mysticalagriculture:guardian_essence>
+-<mysticalagriculture:brass_essence>
+-<mysticalagriculture:nether_quartz_essence>
+-<mysticalagriculture:redstone_essence>
+-<mysticalagriculture:skeleton_essence>
+-<mysticalagriculture:ardite_essence>
+-<mysticalagriculture:quicksilver_essence>
+-<mysticalagriculture:conductive_iron_essence>
+-<mysticalagriculture:basalz_essence>
+-<mysticalagriculture:creeper_essence>
+-<mysticalagriculture:lead_essence>
+-<mysticalagriculture:electrical_steel_essence>
+-<mysticalagriculture:certus_quartz_essence>
 -<jaopca:item_essenceastralstarmetal>
 -<jaopca:item_essencedimensionalshard>
 -<jaopca:item_essencegarnet>
@@ -8457,11 +8242,9 @@ Ore entries for <ore:essenceTier3> :
 -<jaopca:item_essenceadvancedalloy>
 -<jaopca:item_essencealubrass>
 -<jaopca:item_essencealumite>
--<jaopca:item_essenceamericium243oxide>
 -<jaopca:item_essenceblackiron>
 -<jaopca:item_essencebloodbronze>
 -<jaopca:item_essenceblutonium>
--<jaopca:item_essencechocolate>
 -<jaopca:item_essencecocoabutter>
 -<jaopca:item_essenceconstructionalloy>
 -<jaopca:item_essencecosmicneutronium>
@@ -8471,13 +8254,13 @@ Ore entries for <ore:essenceTier3> :
 -<jaopca:item_essencecrystalmatrix>
 -<jaopca:item_essencecrystaltine>
 -<jaopca:item_essencecyanite>
--<jaopca:item_essencedarkchocolate>
 -<jaopca:item_essenceelectricalsteel>
 -<jaopca:item_essenceelectrumflux>
 -<jaopca:item_essenceelvenelementium>
 -<jaopca:item_essenceenergeticsilver>
 -<jaopca:item_essenceextreme>
 -<jaopca:item_essenceferroboron>
+-<jaopca:item_essenceflint>
 -<jaopca:item_essencegelidenderium>
 -<jaopca:item_essencehardcarbon>
 -<jaopca:item_essencehopgraphite>
@@ -8486,8 +8269,6 @@ Ore entries for <ore:essenceTier3> :
 -<jaopca:item_essenceinfinity>
 -<jaopca:item_essenceiridiumalloy>
 -<jaopca:item_essenceleadplatinum>
--<jaopca:item_essencelithium6>
--<jaopca:item_essencelithium7>
 -<jaopca:item_essencelithiummanganesedioxide>
 -<jaopca:item_essenceludicrite>
 -<jaopca:item_essencemagnesiumdiboride>
@@ -8504,8 +8285,8 @@ Ore entries for <ore:essenceTier3> :
 -<jaopca:item_essenceosmiridium>
 -<jaopca:item_essencephotonium>
 -<jaopca:item_essencepigiron>
--<jaopca:item_essenceplutonium>
 -<jaopca:item_essencerefinediron>
+-<jaopca:item_essencereinforcedobsidian>
 -<jaopca:item_essenceshadowium>
 -<jaopca:item_essenceshibuichi>
 -<jaopca:item_essencesicsiccmc>
@@ -8517,9 +8298,9 @@ Ore entries for <ore:essenceTier3> :
 -<jaopca:item_essencetough>
 -<jaopca:item_essencetungstensteel>
 -<jaopca:item_essenceultimate>
--<jaopca:item_essenceunsweetenedchocolate>
 -<jaopca:item_essenceuraniumoxide>
 -<jaopca:item_essencevividalloy>
+-<jaopca:item_essencewub>
 -<jaopca:item_essencezircaloy>
 -<jaopca:item_essencezirconium>
 -<jaopca:item_essenceboronarsenide>
@@ -8533,82 +8314,311 @@ Ore entries for <ore:essenceTier3> :
 -<jaopca:item_essencerhodochrosite>
 -<jaopca:item_essencevilliaumite>
 -<jaopca:item_essenceyellowgarnet>
+Ore entries for <ore:essenceTier2> :
+-<mysticalagriculture:nether_essence>
+-<mysticalagriculture:apatite_essence>
+-<mysticalagriculture:slime_essence>
+-<mysticalagriculture:limestone_essence>
+-<mysticalagriculture:aluminum_essence>
+-<mysticalagriculture:cow_essence>
+-<mysticalagriculture:dye_essence>
+-<mysticalagriculture:menril_essence>
+-<mysticalagriculture:silicon_essence>
+-<mysticalagriculture:rubber_essence>
+-<mysticalagriculture:fire_essence>
+-<mysticalagriculture:mystical_flower_essence>
+-<mysticalagriculture:sulfur_essence>
+-<mysticalagriculture:basalt_essence>
+-<mysticalagriculture:aluminum_brass_essence>
+-<mysticalagriculture:marble_essence>
+-<mysticalagriculture:pig_essence>
+-<mysticalagriculture:copper_essence>
+-<mysticalagriculture:grains_of_infinity_essence>
+-<mysticalagriculture:coal_essence>
+-<mysticalagriculture:chicken_essence>
+-<mysticalagriculture:sheep_essence>
+Ore entries for <ore:seedsTier3> :
+-<mysticalagriculture:spider_seeds>
+-<mysticalagriculture:redstone_alloy_seeds>
+-<mysticalagriculture:bronze_seeds>
+-<mysticalagriculture:saltpeter_seeds>
+-<mysticalagriculture:tin_seeds>
+-<mysticalagriculture:graphite_seeds>
+-<mysticalagriculture:sky_stone_seeds>
+-<mysticalagriculture:zinc_seeds>
+-<mysticalagriculture:iron_seeds>
+-<mysticalagriculture:aquamarine_seeds>
+-<mysticalagriculture:lead_seeds>
+-<mysticalagriculture:redstone_seeds>
+-<mysticalagriculture:ardite_seeds>
+-<mysticalagriculture:brass_seeds>
+-<mysticalagriculture:manasteel_seeds>
+-<mysticalagriculture:certus_quartz_seeds>
+-<mysticalagriculture:basalz_seeds>
+-<mysticalagriculture:skeleton_seeds>
+-<mysticalagriculture:knightslime_seeds>
+-<mysticalagriculture:quicksilver_seeds>
+-<mysticalagriculture:black_quartz_seeds>
+-<mysticalagriculture:thaumium_seeds>
+-<mysticalagriculture:nether_quartz_seeds>
+-<mysticalagriculture:glowstone_seeds>
+-<mysticalagriculture:rabbit_seeds>
+-<mysticalagriculture:guardian_seeds>
+-<mysticalagriculture:silver_seeds>
+-<mysticalagriculture:electrical_steel_seeds>
+-<mysticalagriculture:blitz_seeds>
+-<mysticalagriculture:obsidian_seeds>
+-<mysticalagriculture:blizz_seeds>
+-<mysticalagriculture:conductive_iron_seeds>
+-<mysticalagriculture:creeper_seeds>
+-<jaopca:item_mysticalseedsastralstarmetal>
+-<jaopca:item_mysticalseedsdimensionalshard>
+-<jaopca:item_mysticalseedsgarnet>
+-<jaopca:item_mysticalseedsopal>
+-<jaopca:item_mysticalseedsquartzblack>
+-<jaopca:item_mysticalseedsbauxite>
+-<jaopca:item_mysticalseedscinnabar>
+-<jaopca:item_mysticalseedsgalena>
+-<jaopca:item_mysticalseedspyrite>
+-<jaopca:item_mysticalseedssalt>
+-<jaopca:item_mysticalseedssodalite>
+-<jaopca:item_mysticalseedssphalerite>
+-<jaopca:item_mysticalseedsadaminite>
+-<jaopca:item_mysticalseedsadvancedalloy>
+-<jaopca:item_mysticalseedsalubrass>
+-<jaopca:item_mysticalseedsalumite>
+-<jaopca:item_mysticalseedsblackiron>
+-<jaopca:item_mysticalseedsbloodbronze>
+-<jaopca:item_mysticalseedsblutonium>
+-<jaopca:item_mysticalseedscocoabutter>
+-<jaopca:item_mysticalseedsconstructionalloy>
+-<jaopca:item_mysticalseedscosmicneutronium>
+-<jaopca:item_mysticalseedscrudesteel>
+-<jaopca:item_mysticalseedscrystallinealloy>
+-<jaopca:item_mysticalseedscrystallinepinkslime>
+-<jaopca:item_mysticalseedscrystalmatrix>
+-<jaopca:item_mysticalseedscrystaltine>
+-<jaopca:item_mysticalseedscyanite>
+-<jaopca:item_mysticalseedselectricalsteel>
+-<jaopca:item_mysticalseedselectrumflux>
+-<jaopca:item_mysticalseedselvenelementium>
+-<jaopca:item_mysticalseedsenergeticsilver>
+-<jaopca:item_mysticalseedsextreme>
+-<jaopca:item_mysticalseedsferroboron>
+-<jaopca:item_mysticalseedsflint>
+-<jaopca:item_mysticalseedsgelidenderium>
+-<jaopca:item_mysticalseedshardcarbon>
+-<jaopca:item_mysticalseedshopgraphite>
+-<jaopca:item_mysticalseedshottungstensteel>
+-<jaopca:item_mysticalseedshslasteel>
+-<jaopca:item_mysticalseedsinfinity>
+-<jaopca:item_mysticalseedsiridiumalloy>
+-<jaopca:item_mysticalseedsleadplatinum>
+-<jaopca:item_mysticalseedslithiummanganesedioxide>
+-<jaopca:item_mysticalseedsludicrite>
+-<jaopca:item_mysticalseedsmagnesiumdiboride>
+-<jaopca:item_mysticalseedsmanganese>
+-<jaopca:item_mysticalseedsmanganesedioxide>
+-<jaopca:item_mysticalseedsmanganeseoxide>
+-<jaopca:item_mysticalseedsmelodicalloy>
+-<jaopca:item_mysticalseedsmirion>
+-<jaopca:item_mysticalseedsmithminite>
+-<jaopca:item_mysticalseedsmithrillium>
+-<jaopca:item_mysticalseedsmixedmetal>
+-<jaopca:item_mysticalseedsorichalcos>
+-<jaopca:item_mysticalseedsosgloglas>
+-<jaopca:item_mysticalseedsosmiridium>
+-<jaopca:item_mysticalseedsphotonium>
+-<jaopca:item_mysticalseedspigiron>
+-<jaopca:item_mysticalseedsrefinediron>
+-<jaopca:item_mysticalseedsreinforcedobsidian>
+-<jaopca:item_mysticalseedsshadowium>
+-<jaopca:item_mysticalseedsshibuichi>
+-<jaopca:item_mysticalseedssicsiccmc>
+-<jaopca:item_mysticalseedssiliconcarbide>
+-<jaopca:item_mysticalseedsstellaralloy>
+-<jaopca:item_mysticalseedsthermoconducting>
+-<jaopca:item_mysticalseedsthoriumoxide>
+-<jaopca:item_mysticalseedstinsilver>
+-<jaopca:item_mysticalseedstough>
+-<jaopca:item_mysticalseedstungstensteel>
+-<jaopca:item_mysticalseedsultimate>
+-<jaopca:item_mysticalseedsuraniumoxide>
+-<jaopca:item_mysticalseedsvividalloy>
+-<jaopca:item_mysticalseedswub>
+-<jaopca:item_mysticalseedszircaloy>
+-<jaopca:item_mysticalseedszirconium>
+-<jaopca:item_mysticalseedsboronarsenide>
+-<jaopca:item_mysticalseedsboronnitride>
+-<jaopca:item_mysticalseedscarobbiite>
+-<jaopca:item_mysticalseedscrystalflux>
+-<jaopca:item_mysticalseedsfluorite>
+-<jaopca:item_mysticalseedsgelid>
+-<jaopca:item_mysticalseedsobsidian>
+-<jaopca:item_mysticalseedsredgarnet>
+-<jaopca:item_mysticalseedsrhodochrosite>
+-<jaopca:item_mysticalseedsvilliaumite>
+-<jaopca:item_mysticalseedsyellowgarnet>
+Ore entries for <ore:essenceTier4> :
+-<mysticalagriculture:compressed_iron_essence>
+-<mysticalagriculture:blaze_essence>
+-<mysticalagriculture:enderman_essence>
+-<mysticalagriculture:dark_steel_essence>
+-<mysticalagriculture:steel_essence>
+-<mysticalagriculture:ghast_essence>
+-<mysticalagriculture:nickel_essence>
+-<mysticalagriculture:ruby_essence>
+-<mysticalagriculture:end_essence>
+-<mysticalagriculture:fluix_essence>
+-<mysticalagriculture:cobalt_essence>
+-<mysticalagriculture:fluxed_electrum_essence>
+-<mysticalagriculture:thorium_essence>
+-<mysticalagriculture:peridot_essence>
+-<mysticalagriculture:electrum_essence>
+-<mysticalagriculture:sapphire_essence>
+-<mysticalagriculture:elementium_essence>
+-<mysticalagriculture:glowstone_ingot_essence>
+-<mysticalagriculture:constantan_essence>
+-<mysticalagriculture:osmium_essence>
+-<mysticalagriculture:boron_essence>
+-<mysticalagriculture:gold_essence>
+-<mysticalagriculture:lumium_essence>
+-<mysticalagriculture:experience_essence>
+-<mysticalagriculture:alumite_essence>
+-<mysticalagriculture:amber_essence>
+-<mysticalagriculture:energetic_alloy_essence>
+-<mysticalagriculture:pulsating_iron_essence>
+-<mysticalagriculture:signalum_essence>
+-<mysticalagriculture:lapis_lazuli_essence>
+-<mysticalagriculture:magnesium_essence>
+-<mysticalagriculture:soularium_essence>
+-<mysticalagriculture:hop_graphite_essence>
+-<mysticalagriculture:lithium_essence>
+-<mysticalagriculture:void_metal_essence>
+-<mysticalagriculture:mithril_essence>
+-<mysticalagriculture:invar_essence>
+-<mysticalagriculture:dawnstone_essence>
 Ore entries for <ore:essenceTier5> :
--<mysticalagriculture:refined_obsidian_essence>
--<mysticalagriculture:wither_skeleton_essence>
--<mysticalagriculture:draconium_essence>
--<mysticalagriculture:emerald_essence>
--<mysticalagriculture:chrome_essence>
--<mysticalagriculture:yellorium_essence>
--<mysticalagriculture:uranium_essence>
--<mysticalagriculture:iridium_essence>
--<mysticalagriculture:end_steel_essence>
--<mysticalagriculture:terrasteel_essence>
--<mysticalagriculture:titanium_essence>
--<mysticalagriculture:rock_crystal_essence>
--<mysticalagriculture:starmetal_essence>
--<mysticalagriculture:manyullyn_essence>
--<mysticalagriculture:enderium_essence>
--<mysticalagriculture:tungsten_essence>
--<mysticalagriculture:vibrant_alloy_essence>
 -<mysticalagriculture:diamond_essence>
+-<mysticalagriculture:end_steel_essence>
 -<mysticalagriculture:platinum_essence>
-Ore entries for <ore:ingotBaseEssence> :
--<mysticalagriculture:crafting:32>
-Ore entries for <ore:nuggetSoulium> :
--<mysticalagriculture:crafting:45>
-Ore entries for <ore:ingotSoulium> :
--<mysticalagriculture:crafting:38>
-Ore entries for <ore:essenceTier1> :
--<mysticalagriculture:ice_essence>
--<mysticalagriculture:dirt_essence>
--<mysticalagriculture:water_essence>
--<mysticalagriculture:wood_essence>
--<mysticalagriculture:stone_essence>
--<mysticalagriculture:nature_essence>
--<mysticalagriculture:zombie_essence>
-Ore entries for <ore:ingotPrudentium> :
--<mysticalagriculture:crafting:34>
-Ore entries for <ore:ingotIntermedium> :
--<mysticalagriculture:crafting:35>
-Ore entries for <ore:nuggetBaseEssence> :
--<mysticalagriculture:crafting:39>
-Ore entries for <ore:coalIntermedium> :
--<mysticalagriculture:coal:2>
-Ore entries for <ore:essenceIntermedium> :
--<mysticalagriculture:crafting:2>
-Ore entries for <ore:nuggetSuperium> :
--<mysticalagriculture:crafting:43>
-Ore entries for <ore:essenceInferium> :
--<mysticalagriculture:crafting>
-Ore entries for <ore:essenceSuperium> :
--<mysticalagriculture:crafting:3>
-Ore entries for <ore:nuggetIntermedium> :
--<mysticalagriculture:crafting:42>
-Ore entries for <ore:nuggetInferium> :
--<mysticalagriculture:crafting:40>
-Ore entries for <ore:coalSuperium> :
--<mysticalagriculture:coal:3>
+-<mysticalagriculture:vibrant_alloy_essence>
+-<mysticalagriculture:emerald_essence>
+-<mysticalagriculture:starmetal_essence>
+-<mysticalagriculture:wither_skeleton_essence>
+-<mysticalagriculture:enderium_essence>
+-<mysticalagriculture:uranium_essence>
+-<mysticalagriculture:chrome_essence>
+-<mysticalagriculture:manyullyn_essence>
+-<mysticalagriculture:terrasteel_essence>
+-<mysticalagriculture:refined_obsidian_essence>
+-<mysticalagriculture:draconium_essence>
+-<mysticalagriculture:yellorium_essence>
+-<mysticalagriculture:iridium_essence>
+-<mysticalagriculture:titanium_essence>
+-<mysticalagriculture:tungsten_essence>
+-<mysticalagriculture:rock_crystal_essence>
+Ore entries for <ore:seedsTier2> :
+-<mysticalagriculture:limestone_seeds>
+-<mysticalagriculture:aluminum_brass_seeds>
+-<mysticalagriculture:chicken_seeds>
+-<mysticalagriculture:grains_of_infinity_seeds>
+-<mysticalagriculture:aluminum_seeds>
+-<mysticalagriculture:slime_seeds>
+-<mysticalagriculture:sheep_seeds>
+-<mysticalagriculture:basalt_seeds>
+-<mysticalagriculture:rubber_seeds>
+-<mysticalagriculture:dye_seeds>
+-<mysticalagriculture:pig_seeds>
+-<mysticalagriculture:mystical_flower_seeds>
+-<mysticalagriculture:copper_seeds>
+-<mysticalagriculture:sulfur_seeds>
+-<mysticalagriculture:cow_seeds>
+-<mysticalagriculture:marble_seeds>
+-<mysticalagriculture:fire_seeds>
+-<mysticalagriculture:nether_seeds>
+-<mysticalagriculture:menril_seeds>
+-<mysticalagriculture:apatite_seeds>
+-<mysticalagriculture:silicon_seeds>
+-<mysticalagriculture:coal_seeds>
 Ore entries for <ore:coalSupremium> :
 -<mysticalagriculture:coal:4>
-Ore entries for <ore:ingotInferium> :
--<mysticalagriculture:crafting:33>
-Ore entries for <ore:coalPrudentium> :
--<mysticalagriculture:coal:1>
-Ore entries for <ore:nuggetPrudentium> :
--<mysticalagriculture:crafting:41>
-Ore entries for <ore:coalInferium> :
--<mysticalagriculture:coal>
-Ore entries for <ore:ingotSuperium> :
--<mysticalagriculture:crafting:36>
-Ore entries for <ore:nuggetSupremium> :
--<mysticalagriculture:crafting:44>
-Ore entries for <ore:essenceSupremium> :
--<mysticalagriculture:crafting:4>
-Ore entries for <ore:shardProsperity> :
--<mysticalagriculture:crafting:5>
+Ore entries for <ore:seedsTier5> :
+-<mysticalagriculture:diamond_seeds>
+-<mysticalagriculture:enderium_seeds>
+-<mysticalagriculture:wither_skeleton_seeds>
+-<mysticalagriculture:chrome_seeds>
+-<mysticalagriculture:tungsten_seeds>
+-<mysticalagriculture:emerald_seeds>
+-<mysticalagriculture:vibrant_alloy_seeds>
+-<mysticalagriculture:titanium_seeds>
+-<mysticalagriculture:uranium_seeds>
+-<mysticalagriculture:refined_obsidian_seeds>
+-<mysticalagriculture:draconium_seeds>
+-<mysticalagriculture:iridium_seeds>
+-<mysticalagriculture:manyullyn_seeds>
+-<mysticalagriculture:platinum_seeds>
+-<mysticalagriculture:terrasteel_seeds>
+-<mysticalagriculture:yellorium_seeds>
+-<mysticalagriculture:starmetal_seeds>
+-<mysticalagriculture:end_steel_seeds>
+-<mysticalagriculture:rock_crystal_seeds>
+Ore entries for <ore:seedsTier1> :
+-<mysticalagriculture:wood_seeds>
+-<mysticalagriculture:ice_seeds>
+-<mysticalagriculture:zombie_seeds>
+-<mysticalagriculture:nature_seeds>
+-<mysticalagriculture:water_seeds>
+-<mysticalagriculture:dirt_seeds>
+-<mysticalagriculture:stone_seeds>
 Ore entries for <ore:essencePrudentium> :
 -<mysticalagriculture:crafting:1>
+Ore entries for <ore:coalSuperium> :
+-<mysticalagriculture:coal:3>
+Ore entries for <ore:essenceSupremium> :
+-<mysticalagriculture:crafting:4>
+Ore entries for <ore:ingotIntermedium> :
+-<mysticalagriculture:crafting:35>
+Ore entries for <ore:nuggetSupremium> :
+-<mysticalagriculture:crafting:44>
+Ore entries for <ore:ingotSupremium> :
+-<mysticalagriculture:crafting:37>
+Ore entries for <ore:ingotPrudentium> :
+-<mysticalagriculture:crafting:34>
+Ore entries for <ore:nuggetPrudentium> :
+-<mysticalagriculture:crafting:41>
+Ore entries for <ore:nuggetSoulium> :
+-<mysticalagriculture:crafting:45>
+Ore entries for <ore:ingotBaseEssence> :
+-<mysticalagriculture:crafting:32>
+Ore entries for <ore:coalPrudentium> :
+-<mysticalagriculture:coal:1>
+Ore entries for <ore:shardProsperity> :
+-<mysticalagriculture:crafting:5>
+Ore entries for <ore:ingotSuperium> :
+-<mysticalagriculture:crafting:36>
+Ore entries for <ore:essenceSuperium> :
+-<mysticalagriculture:crafting:3>
+Ore entries for <ore:ingotSoulium> :
+-<mysticalagriculture:crafting:38>
+Ore entries for <ore:nuggetSuperium> :
+-<mysticalagriculture:crafting:43>
+Ore entries for <ore:ingotInferium> :
+-<mysticalagriculture:crafting:33>
+Ore entries for <ore:essenceIntermedium> :
+-<mysticalagriculture:crafting:2>
+Ore entries for <ore:nuggetInferium> :
+-<mysticalagriculture:crafting:40>
+Ore entries for <ore:nuggetIntermedium> :
+-<mysticalagriculture:crafting:42>
+Ore entries for <ore:nuggetBaseEssence> :
+-<mysticalagriculture:crafting:39>
+Ore entries for <ore:coalInferium> :
+-<mysticalagriculture:coal>
+Ore entries for <ore:coalIntermedium> :
+-<mysticalagriculture:coal:2>
+Ore entries for <ore:essenceInferium> :
+-<mysticalagriculture:crafting>
 Ore entries for <ore:blockInsaniumEssence> :
 -<mysticalagradditions:storage>
 Ore entries for <ore:blockInsanium> :
@@ -8622,15 +8632,15 @@ Ore entries for <ore:ingotInsanium> :
 Ore entries for <ore:nuggetInsanium> :
 -<mysticalagradditions:insanium:3>
 Ore entries for <ore:essenceTier6> :
--<mysticalagradditions:dragon_egg_essence>
--<mysticalagradditions:nether_star_essence>
--<mysticalagradditions:awakened_draconium_essence>
 -<mysticalagradditions:neutronium_essence>
+-<mysticalagradditions:nether_star_essence>
+-<mysticalagradditions:dragon_egg_essence>
+-<mysticalagradditions:awakened_draconium_essence>
 Ore entries for <ore:seedsTier6> :
--<mysticalagradditions:dragon_egg_seeds>
--<mysticalagradditions:awakened_draconium_seeds>
--<mysticalagradditions:nether_star_seeds>
 -<mysticalagradditions:neutronium_seeds>
+-<mysticalagradditions:dragon_egg_seeds>
+-<mysticalagradditions:nether_star_seeds>
+-<mysticalagradditions:awakened_draconium_seeds>
 Ore entries for <ore:nuggetMirion> :
 -<plustic:mirionnugget>
 Ore entries for <ore:ingotMirion> :
@@ -8788,16 +8798,12 @@ Ore entries for <ore:blockMarble> :
 -<astralsorcery:blockmarble:6>
 Ore entries for <ore:oreAstralStarmetal> :
 -<astralsorcery:blockcustomore:1>
-Ore entries for <ore:ingotAstralStarmetal> :
--<astralsorcery:itemcraftingcomponent:1>
 Ore entries for <ore:dustAstralStarmetal> :
 -<astralsorcery:itemcraftingcomponent:2>
 Ore entries for <ore:oreAquamarine> :
 -<astralsorcery:blockcustomsandore>
 Ore entries for <ore:gemAquamarine> :
 -<astralsorcery:itemcraftingcomponent>
--<naturalpledge:resource:4>
--<naturalpledge:resource:5>
 Ore entries for <ore:slimeballPink> :
 -<industrialforegoing:pink_slime>
 Ore entries for <ore:gearAluminium> :
@@ -8840,6 +8846,7 @@ Ore entries for <ore:nuggetAluminium> :
 -<thermalfoundation:material:196>
 -<techreborn:nuggets>
 -<immersiveengineering:metal:21>
+-<agricraft:agri_nugget:8>
 Ore entries for <ore:plateAluminium> :
 -<embers:plate_aluminum>
 -<thermalfoundation:material:324>
@@ -9054,6 +9061,12 @@ Ore entries for <ore:toolHoe> :
 -<minecraft:stone_hoe:*>
 -<minecraft:diamond_hoe:*>
 -<minecraft:golden_hoe:*>
+-<mekanismtools:bronzehoe:*>
+-<mekanismtools:steelhoe:*>
+-<mekanismtools:obsidianhoe:*>
+-<mekanismtools:lapislazulihoe:*>
+-<mekanismtools:osmiumhoe:*>
+-<mekanismtools:glowstonehoe:*>
 -<thermalfoundation:tool.hoe_invar:*>
 -<thermalfoundation:tool.hoe_copper:*>
 -<thermalfoundation:tool.hoe_bronze:*>
@@ -9066,18 +9079,11 @@ Ore entries for <ore:toolHoe> :
 -<thermalfoundation:tool.hoe_aluminum:*>
 -<thermalfoundation:tool.hoe_steel:*>
 -<thermalfoundation:tool.hoe_constantan:*>
--<techreborn:bronzehoe:*>
--<techreborn:rubyhoe:*>
--<techreborn:sapphirehoe:*>
--<techreborn:peridothoe:*>
+-<thaumcraft:thaumium_hoe:*>
+-<thaumcraft:void_hoe:*>
+-<thaumcraft:elemental_hoe:*>
 -<appliedenergistics2:nether_quartz_hoe:*>
 -<appliedenergistics2:certus_quartz_hoe:*>
--<mekanismtools:bronzehoe:*>
--<mekanismtools:steelhoe:*>
--<mekanismtools:obsidianhoe:*>
--<mekanismtools:lapislazulihoe:*>
--<mekanismtools:osmiumhoe:*>
--<mekanismtools:glowstonehoe:*>
 -<actuallyadditions:item_hoe_quartz:*>
 -<actuallyadditions:item_hoe_emerald:*>
 -<actuallyadditions:item_hoe_obsidian:*>
@@ -9087,15 +9093,16 @@ Ore entries for <ore:toolHoe> :
 -<actuallyadditions:item_hoe_crystal_black:*>
 -<actuallyadditions:item_hoe_crystal_green:*>
 -<actuallyadditions:item_hoe_crystal_white:*>
--<draconicevolution:draconic_hoe:*>
--<thaumcraft:thaumium_hoe:*>
--<thaumcraft:void_hoe:*>
--<thaumcraft:elemental_hoe:*>
 -<mysticalagriculture:inferium_hoe:*>
 -<mysticalagriculture:prudentium_hoe:*>
 -<mysticalagriculture:intermedium_hoe:*>
 -<mysticalagriculture:superium_hoe:*>
 -<mysticalagriculture:supremium_hoe:*>
+-<draconicevolution:draconic_hoe:*>
+-<techreborn:bronzehoe:*>
+-<techreborn:rubyhoe:*>
+-<techreborn:sapphirehoe:*>
+-<techreborn:peridothoe:*>
 -<tconstruct:mattock:*>
 Ore entries for <ore:eggOwl> :
 -<enderio:item_owl_egg>
@@ -9119,12 +9126,63 @@ Ore entries for <ore:hearthstone> :
 -<naturalpledge:resource:8>
 Ore entries for <ore:ingotThundersteel> :
 -<naturalpledge:resource>
--<naturalpledge:resource:1>
 Ore entries for <ore:divineSpiritAwakened> :
 -<naturalpledge:resource:10>
 Ore entries for <ore:lifeRoot> :
 -<naturalpledge:resource:2>
 -<naturalpledge:resource:3>
+Ore entries for <ore:oreNetherWubOre> :
+-<tp:nether_wub_ore>
+Ore entries for <ore:ingotReinforcedObsidian> :
+-<tp:reinforced_obsidian_ingot>
+Ore entries for <ore:blockBone> :
+-<tp:bone_block>
+-<minecraft:bone_block>
+Ore entries for <ore:blockReinforcedGlass> :
+-<tp:reinforced_glass>
+Ore entries for <ore:stickNether> :
+-<tp:nether_rod>
+Ore entries for <ore:ingotRedstone> :
+-<tp:redstone_ingot>
+Ore entries for <ore:blockGlassGlowstone> :
+-<tp:glowstone_glass>
+Ore entries for <ore:ingotFlint> :
+-<tp:flint_ingot>
+Ore entries for <ore:juicer> :
+-<tp:juicer>
+Ore entries for <ore:blockFlint> :
+-<tp:flint_block>
+Ore entries for <ore:oreEnderOre> :
+-<tp:ender_ore>
+Ore entries for <ore:oreWubOre> :
+-<tp:wub_ore>
+Ore entries for <ore:witherRib> :
+-<tp:wither_rib>
+Ore entries for <ore:chainmail> :
+-<tp:chainmail_part>
+Ore entries for <ore:ingotWub> :
+-<tp:wub_ingot>
+Ore entries for <ore:dragonScale> :
+-<tp:dragon_scale>
+Ore entries for <ore:stickCane> :
+-<tp:bsc_rod>
+Ore entries for <ore:gemWub> :
+-<tp:wub_gem>
+Ore entries for <ore:blockGlassDirty> :
+-<tp:dirty_glass>
+Ore entries for <ore:ingotQuartz> :
+-<tp:quartz_ingot>
+Ore entries for <ore:cropMaloberry> :
+-<tp:maloberry_berry>
+Ore entries for <ore:oreWaterBlock> :
+-<tp:water_block>
+Ore entries for <ore:ingotLapis> :
+-<tp:lapis_ingot>
+Ore entries for <ore:blockReinforcedObsidian> :
+-<tp:reinforced_obsidian>
+Ore entries for <ore:oreLavaBlock> :
+-<tp:lava_block>
+-<tp:nether_lava_block>
 Ore entries for <ore:allFlowers> :
 -<minecraft:yellow_flower>
 -<minecraft:red_flower>
@@ -9257,16 +9315,12 @@ Ore entries for <ore:mysticalCropsAlubrass> :
 -<jaopca:block_mysticalcropsalubrass>
 Ore entries for <ore:mysticalCropsAlumite> :
 -<jaopca:block_mysticalcropsalumite>
-Ore entries for <ore:mysticalCropsAmericium243Oxide> :
--<jaopca:block_mysticalcropsamericium243oxide>
 Ore entries for <ore:mysticalCropsBlackIron> :
 -<jaopca:block_mysticalcropsblackiron>
 Ore entries for <ore:mysticalCropsBloodBronze> :
 -<jaopca:block_mysticalcropsbloodbronze>
 Ore entries for <ore:mysticalCropsBlutonium> :
 -<jaopca:block_mysticalcropsblutonium>
-Ore entries for <ore:mysticalCropsChocolate> :
--<jaopca:block_mysticalcropschocolate>
 Ore entries for <ore:mysticalCropsCocoaButter> :
 -<jaopca:block_mysticalcropscocoabutter>
 Ore entries for <ore:mysticalCropsConstructionAlloy> :
@@ -9285,8 +9339,6 @@ Ore entries for <ore:mysticalCropsCrystaltine> :
 -<jaopca:block_mysticalcropscrystaltine>
 Ore entries for <ore:mysticalCropsCyanite> :
 -<jaopca:block_mysticalcropscyanite>
-Ore entries for <ore:mysticalCropsDarkChocolate> :
--<jaopca:block_mysticalcropsdarkchocolate>
 Ore entries for <ore:mysticalCropsElectricalSteel> :
 -<jaopca:block_mysticalcropselectricalsteel>
 Ore entries for <ore:mysticalCropsElectrumFlux> :
@@ -9299,6 +9351,8 @@ Ore entries for <ore:mysticalCropsExtreme> :
 -<jaopca:block_mysticalcropsextreme>
 Ore entries for <ore:mysticalCropsFerroboron> :
 -<jaopca:block_mysticalcropsferroboron>
+Ore entries for <ore:mysticalCropsFlint> :
+-<jaopca:block_mysticalcropsflint>
 Ore entries for <ore:mysticalCropsGelidEnderium> :
 -<jaopca:block_mysticalcropsgelidenderium>
 Ore entries for <ore:mysticalCropsHardCarbon> :
@@ -9315,10 +9369,6 @@ Ore entries for <ore:mysticalCropsIridiumAlloy> :
 -<jaopca:block_mysticalcropsiridiumalloy>
 Ore entries for <ore:mysticalCropsLeadPlatinum> :
 -<jaopca:block_mysticalcropsleadplatinum>
-Ore entries for <ore:mysticalCropsLithium6> :
--<jaopca:block_mysticalcropslithium6>
-Ore entries for <ore:mysticalCropsLithium7> :
--<jaopca:block_mysticalcropslithium7>
 Ore entries for <ore:mysticalCropsLithiumManganeseDioxide> :
 -<jaopca:block_mysticalcropslithiummanganesedioxide>
 Ore entries for <ore:mysticalCropsLudicrite> :
@@ -9351,10 +9401,10 @@ Ore entries for <ore:mysticalCropsPhotonium> :
 -<jaopca:block_mysticalcropsphotonium>
 Ore entries for <ore:mysticalCropsPigiron> :
 -<jaopca:block_mysticalcropspigiron>
-Ore entries for <ore:mysticalCropsPlutonium> :
--<jaopca:block_mysticalcropsplutonium>
 Ore entries for <ore:mysticalCropsRefinedIron> :
 -<jaopca:block_mysticalcropsrefinediron>
+Ore entries for <ore:mysticalCropsReinforcedObsidian> :
+-<jaopca:block_mysticalcropsreinforcedobsidian>
 Ore entries for <ore:mysticalCropsShadowium> :
 -<jaopca:block_mysticalcropsshadowium>
 Ore entries for <ore:mysticalCropsShibuichi> :
@@ -9377,12 +9427,12 @@ Ore entries for <ore:mysticalCropsTungstensteel> :
 -<jaopca:block_mysticalcropstungstensteel>
 Ore entries for <ore:mysticalCropsUltimate> :
 -<jaopca:block_mysticalcropsultimate>
-Ore entries for <ore:mysticalCropsUnsweetenedChocolate> :
--<jaopca:block_mysticalcropsunsweetenedchocolate>
 Ore entries for <ore:mysticalCropsUraniumOxide> :
 -<jaopca:block_mysticalcropsuraniumoxide>
 Ore entries for <ore:mysticalCropsVividAlloy> :
 -<jaopca:block_mysticalcropsvividalloy>
+Ore entries for <ore:mysticalCropsWub> :
+-<jaopca:block_mysticalcropswub>
 Ore entries for <ore:mysticalCropsZircaloy> :
 -<jaopca:block_mysticalcropszircaloy>
 Ore entries for <ore:mysticalCropsZirconium> :
@@ -9438,17 +9488,8 @@ Ore entries for <ore:blockAdaminite> :
 -<jaopca:block_blockadaminite>
 Ore entries for <ore:blockAdvancedAlloy> :
 -<jaopca:block_blockadvancedalloy>
-Ore entries for <ore:blockAmericium243Oxide> :
--<jaopca:block_blockamericium243oxide>
-Ore entries for <ore:blockChocolate> :
--<jaopca:block_blockchocolate>
 Ore entries for <ore:blockCocoaButter> :
 -<jaopca:block_blockcocoabutter>
-Ore entries for <ore:blockDarkChocolate> :
--<jaopca:block_blockdarkchocolate>
-Ore entries for <ore:blockElvenElementium> :
--<jaopca:block_blockelvenelementium>
--<botania:storage:2>
 Ore entries for <ore:blockExtreme> :
 -<jaopca:block_blockextreme>
 Ore entries for <ore:blockFerroboron> :
@@ -9465,17 +9506,10 @@ Ore entries for <ore:blockIridiumAlloy> :
 -<jaopca:block_blockiridiumalloy>
 Ore entries for <ore:blockLeadPlatinum> :
 -<jaopca:block_blockleadplatinum>
-Ore entries for <ore:blockLithium6> :
--<jaopca:block_blocklithium6>
-Ore entries for <ore:blockLithium7> :
--<jaopca:block_blocklithium7>
 Ore entries for <ore:blockLithiumManganeseDioxide> :
 -<jaopca:block_blocklithiummanganesedioxide>
 Ore entries for <ore:blockMagnesiumDiboride> :
 -<jaopca:block_blockmagnesiumdiboride>
-Ore entries for <ore:blockManasteel> :
--<jaopca:block_blockmanasteel>
--<botania:storage>
 Ore entries for <ore:blockManganeseDioxide> :
 -<jaopca:block_blockmanganesedioxide>
 Ore entries for <ore:blockManganeseOxide> :
@@ -9490,8 +9524,6 @@ Ore entries for <ore:blockOrichalcos> :
 -<jaopca:block_blockorichalcos>
 Ore entries for <ore:blockPhotonium> :
 -<jaopca:block_blockphotonium>
-Ore entries for <ore:blockPlutonium> :
--<jaopca:block_blockplutonium>
 Ore entries for <ore:blockRefinedIron> :
 -<jaopca:block_blockrefinediron>
 Ore entries for <ore:blockShadowium> :
@@ -9502,9 +9534,6 @@ Ore entries for <ore:blockSiCSiCCMC> :
 -<jaopca:block_blocksicsiccmc>
 Ore entries for <ore:blockSiliconCarbide> :
 -<jaopca:block_blocksiliconcarbide>
-Ore entries for <ore:blockTerrasteel> :
--<jaopca:block_blockterrasteel>
--<botania:storage:1>
 Ore entries for <ore:blockThermoconducting> :
 -<jaopca:block_blockthermoconducting>
 Ore entries for <ore:blockThoriumOxide> :
@@ -9513,10 +9542,10 @@ Ore entries for <ore:blockTinSilver> :
 -<jaopca:block_blocktinsilver>
 Ore entries for <ore:blockTough> :
 -<jaopca:block_blocktough>
-Ore entries for <ore:blockUnsweetenedChocolate> :
--<jaopca:block_blockunsweetenedchocolate>
 Ore entries for <ore:blockUraniumOxide> :
 -<jaopca:block_blockuraniumoxide>
+Ore entries for <ore:blockWub> :
+-<jaopca:block_blockwub>
 Ore entries for <ore:blockZircaloy> :
 -<jaopca:block_blockzircaloy>
 Ore entries for <ore:blockBoronArsenide> :
@@ -9569,16 +9598,12 @@ Ore entries for <ore:essenceAlubrass> :
 -<jaopca:item_essencealubrass>
 Ore entries for <ore:essenceAlumite> :
 -<jaopca:item_essencealumite>
-Ore entries for <ore:essenceAmericium243Oxide> :
--<jaopca:item_essenceamericium243oxide>
 Ore entries for <ore:essenceBlackIron> :
 -<jaopca:item_essenceblackiron>
 Ore entries for <ore:essenceBloodBronze> :
 -<jaopca:item_essencebloodbronze>
 Ore entries for <ore:essenceBlutonium> :
 -<jaopca:item_essenceblutonium>
-Ore entries for <ore:essenceChocolate> :
--<jaopca:item_essencechocolate>
 Ore entries for <ore:essenceCocoaButter> :
 -<jaopca:item_essencecocoabutter>
 Ore entries for <ore:essenceConstructionAlloy> :
@@ -9597,8 +9622,6 @@ Ore entries for <ore:essenceCrystaltine> :
 -<jaopca:item_essencecrystaltine>
 Ore entries for <ore:essenceCyanite> :
 -<jaopca:item_essencecyanite>
-Ore entries for <ore:essenceDarkChocolate> :
--<jaopca:item_essencedarkchocolate>
 Ore entries for <ore:essenceElectricalSteel> :
 -<jaopca:item_essenceelectricalsteel>
 Ore entries for <ore:essenceElectrumFlux> :
@@ -9611,6 +9634,8 @@ Ore entries for <ore:essenceExtreme> :
 -<jaopca:item_essenceextreme>
 Ore entries for <ore:essenceFerroboron> :
 -<jaopca:item_essenceferroboron>
+Ore entries for <ore:essenceFlint> :
+-<jaopca:item_essenceflint>
 Ore entries for <ore:essenceGelidEnderium> :
 -<jaopca:item_essencegelidenderium>
 Ore entries for <ore:essenceHardCarbon> :
@@ -9627,10 +9652,6 @@ Ore entries for <ore:essenceIridiumAlloy> :
 -<jaopca:item_essenceiridiumalloy>
 Ore entries for <ore:essenceLeadPlatinum> :
 -<jaopca:item_essenceleadplatinum>
-Ore entries for <ore:essenceLithium6> :
--<jaopca:item_essencelithium6>
-Ore entries for <ore:essenceLithium7> :
--<jaopca:item_essencelithium7>
 Ore entries for <ore:essenceLithiumManganeseDioxide> :
 -<jaopca:item_essencelithiummanganesedioxide>
 Ore entries for <ore:essenceLudicrite> :
@@ -9663,10 +9684,10 @@ Ore entries for <ore:essencePhotonium> :
 -<jaopca:item_essencephotonium>
 Ore entries for <ore:essencePigiron> :
 -<jaopca:item_essencepigiron>
-Ore entries for <ore:essencePlutonium> :
--<jaopca:item_essenceplutonium>
 Ore entries for <ore:essenceRefinedIron> :
 -<jaopca:item_essencerefinediron>
+Ore entries for <ore:essenceReinforcedObsidian> :
+-<jaopca:item_essencereinforcedobsidian>
 Ore entries for <ore:essenceShadowium> :
 -<jaopca:item_essenceshadowium>
 Ore entries for <ore:essenceShibuichi> :
@@ -9689,12 +9710,12 @@ Ore entries for <ore:essenceTungstensteel> :
 -<jaopca:item_essencetungstensteel>
 Ore entries for <ore:essenceUltimate> :
 -<jaopca:item_essenceultimate>
-Ore entries for <ore:essenceUnsweetenedChocolate> :
--<jaopca:item_essenceunsweetenedchocolate>
 Ore entries for <ore:essenceUraniumOxide> :
 -<jaopca:item_essenceuraniumoxide>
 Ore entries for <ore:essenceVividAlloy> :
 -<jaopca:item_essencevividalloy>
+Ore entries for <ore:essenceWub> :
+-<jaopca:item_essencewub>
 Ore entries for <ore:essenceZircaloy> :
 -<jaopca:item_essencezircaloy>
 Ore entries for <ore:essenceZirconium> :
@@ -9753,16 +9774,12 @@ Ore entries for <ore:mysticalSeedsAlubrass> :
 -<jaopca:item_mysticalseedsalubrass>
 Ore entries for <ore:mysticalSeedsAlumite> :
 -<jaopca:item_mysticalseedsalumite>
-Ore entries for <ore:mysticalSeedsAmericium243Oxide> :
--<jaopca:item_mysticalseedsamericium243oxide>
 Ore entries for <ore:mysticalSeedsBlackIron> :
 -<jaopca:item_mysticalseedsblackiron>
 Ore entries for <ore:mysticalSeedsBloodBronze> :
 -<jaopca:item_mysticalseedsbloodbronze>
 Ore entries for <ore:mysticalSeedsBlutonium> :
 -<jaopca:item_mysticalseedsblutonium>
-Ore entries for <ore:mysticalSeedsChocolate> :
--<jaopca:item_mysticalseedschocolate>
 Ore entries for <ore:mysticalSeedsCocoaButter> :
 -<jaopca:item_mysticalseedscocoabutter>
 Ore entries for <ore:mysticalSeedsConstructionAlloy> :
@@ -9781,8 +9798,6 @@ Ore entries for <ore:mysticalSeedsCrystaltine> :
 -<jaopca:item_mysticalseedscrystaltine>
 Ore entries for <ore:mysticalSeedsCyanite> :
 -<jaopca:item_mysticalseedscyanite>
-Ore entries for <ore:mysticalSeedsDarkChocolate> :
--<jaopca:item_mysticalseedsdarkchocolate>
 Ore entries for <ore:mysticalSeedsElectricalSteel> :
 -<jaopca:item_mysticalseedselectricalsteel>
 Ore entries for <ore:mysticalSeedsElectrumFlux> :
@@ -9795,6 +9810,8 @@ Ore entries for <ore:mysticalSeedsExtreme> :
 -<jaopca:item_mysticalseedsextreme>
 Ore entries for <ore:mysticalSeedsFerroboron> :
 -<jaopca:item_mysticalseedsferroboron>
+Ore entries for <ore:mysticalSeedsFlint> :
+-<jaopca:item_mysticalseedsflint>
 Ore entries for <ore:mysticalSeedsGelidEnderium> :
 -<jaopca:item_mysticalseedsgelidenderium>
 Ore entries for <ore:mysticalSeedsHardCarbon> :
@@ -9811,10 +9828,6 @@ Ore entries for <ore:mysticalSeedsIridiumAlloy> :
 -<jaopca:item_mysticalseedsiridiumalloy>
 Ore entries for <ore:mysticalSeedsLeadPlatinum> :
 -<jaopca:item_mysticalseedsleadplatinum>
-Ore entries for <ore:mysticalSeedsLithium6> :
--<jaopca:item_mysticalseedslithium6>
-Ore entries for <ore:mysticalSeedsLithium7> :
--<jaopca:item_mysticalseedslithium7>
 Ore entries for <ore:mysticalSeedsLithiumManganeseDioxide> :
 -<jaopca:item_mysticalseedslithiummanganesedioxide>
 Ore entries for <ore:mysticalSeedsLudicrite> :
@@ -9847,10 +9860,10 @@ Ore entries for <ore:mysticalSeedsPhotonium> :
 -<jaopca:item_mysticalseedsphotonium>
 Ore entries for <ore:mysticalSeedsPigiron> :
 -<jaopca:item_mysticalseedspigiron>
-Ore entries for <ore:mysticalSeedsPlutonium> :
--<jaopca:item_mysticalseedsplutonium>
 Ore entries for <ore:mysticalSeedsRefinedIron> :
 -<jaopca:item_mysticalseedsrefinediron>
+Ore entries for <ore:mysticalSeedsReinforcedObsidian> :
+-<jaopca:item_mysticalseedsreinforcedobsidian>
 Ore entries for <ore:mysticalSeedsShadowium> :
 -<jaopca:item_mysticalseedsshadowium>
 Ore entries for <ore:mysticalSeedsShibuichi> :
@@ -9873,12 +9886,12 @@ Ore entries for <ore:mysticalSeedsTungstensteel> :
 -<jaopca:item_mysticalseedstungstensteel>
 Ore entries for <ore:mysticalSeedsUltimate> :
 -<jaopca:item_mysticalseedsultimate>
-Ore entries for <ore:mysticalSeedsUnsweetenedChocolate> :
--<jaopca:item_mysticalseedsunsweetenedchocolate>
 Ore entries for <ore:mysticalSeedsUraniumOxide> :
 -<jaopca:item_mysticalseedsuraniumoxide>
 Ore entries for <ore:mysticalSeedsVividAlloy> :
 -<jaopca:item_mysticalseedsvividalloy>
+Ore entries for <ore:mysticalSeedsWub> :
+-<jaopca:item_mysticalseedswub>
 Ore entries for <ore:mysticalSeedsZircaloy> :
 -<jaopca:item_mysticalseedszircaloy>
 Ore entries for <ore:mysticalSeedsZirconium> :
@@ -9935,16 +9948,12 @@ Ore entries for <ore:dustAlubrass> :
 -<jaopca:item_dustalubrass>
 Ore entries for <ore:dustAlumite> :
 -<jaopca:item_dustalumite>
-Ore entries for <ore:dustAmericium243Oxide> :
--<jaopca:item_dustamericium243oxide>
 Ore entries for <ore:dustBaseEssence> :
 -<jaopca:item_dustbaseessence>
 Ore entries for <ore:dustBlackIron> :
 -<jaopca:item_dustblackiron>
 Ore entries for <ore:dustBloodBronze> :
 -<jaopca:item_dustbloodbronze>
-Ore entries for <ore:dustChocolate> :
--<jaopca:item_dustchocolate>
 Ore entries for <ore:dustCocoaButter> :
 -<jaopca:item_dustcocoabutter>
 Ore entries for <ore:dustColdIron> :
@@ -9965,8 +9974,6 @@ Ore entries for <ore:dustCrystalMatrix> :
 -<jaopca:item_dustcrystalmatrix>
 Ore entries for <ore:dustCrystaltine> :
 -<jaopca:item_dustcrystaltine>
-Ore entries for <ore:dustDarkChocolate> :
--<jaopca:item_dustdarkchocolate>
 Ore entries for <ore:dustDarkSteel> :
 -<jaopca:item_dustdarksteel>
 Ore entries for <ore:dustDawnstone> :
@@ -10007,10 +10014,6 @@ Ore entries for <ore:dustKnightslime> :
 -<jaopca:item_dustknightslime>
 Ore entries for <ore:dustLeadPlatinum> :
 -<jaopca:item_dustleadplatinum>
-Ore entries for <ore:dustLithium6> :
--<jaopca:item_dustlithium6>
-Ore entries for <ore:dustLithium7> :
--<jaopca:item_dustlithium7>
 Ore entries for <ore:dustLithiumManganeseDioxide> :
 -<jaopca:item_dustlithiummanganesedioxide>
 Ore entries for <ore:dustMagnesiumDiboride> :
@@ -10049,6 +10052,8 @@ Ore entries for <ore:dustRefinedGlowstone> :
 -<jaopca:item_dustrefinedglowstone>
 Ore entries for <ore:dustRefinedIron> :
 -<jaopca:item_dustrefinediron>
+Ore entries for <ore:dustReinforcedObsidian> :
+-<jaopca:item_dustreinforcedobsidian>
 Ore entries for <ore:dustShadowium> :
 -<jaopca:item_dustshadowium>
 Ore entries for <ore:dustShibuichi> :
@@ -10079,14 +10084,14 @@ Ore entries for <ore:dustTungstensteel> :
 -<jaopca:item_dusttungstensteel>
 Ore entries for <ore:dustUltimate> :
 -<jaopca:item_dustultimate>
-Ore entries for <ore:dustUnsweetenedChocolate> :
--<jaopca:item_dustunsweetenedchocolate>
 Ore entries for <ore:dustVibrantAlloy> :
 -<jaopca:item_dustvibrantalloy>
 Ore entries for <ore:dustVividAlloy> :
 -<jaopca:item_dustvividalloy>
 Ore entries for <ore:dustVoid> :
 -<jaopca:item_dustvoid>
+Ore entries for <ore:dustWub> :
+-<jaopca:item_dustwub>
 Ore entries for <ore:dustZircaloy> :
 -<jaopca:item_dustzircaloy>
 Ore entries for <ore:dustBoronArsenide> :
@@ -10144,20 +10149,18 @@ Ore entries for <ore:nuggetBloodBronze> :
 -<jaopca:item_nuggetbloodbronze>
 Ore entries for <ore:nuggetBlutonium> :
 -<jaopca:item_nuggetblutonium>
-Ore entries for <ore:nuggetChocolate> :
--<jaopca:item_nuggetchocolate>
 Ore entries for <ore:nuggetCocoaButter> :
 -<jaopca:item_nuggetcocoabutter>
 Ore entries for <ore:nuggetCrystalMatrix> :
 -<jaopca:item_nuggetcrystalmatrix>
 Ore entries for <ore:nuggetCyanite> :
 -<jaopca:item_nuggetcyanite>
-Ore entries for <ore:nuggetDarkChocolate> :
--<jaopca:item_nuggetdarkchocolate>
 Ore entries for <ore:nuggetExtreme> :
 -<jaopca:item_nuggetextreme>
 Ore entries for <ore:nuggetFerroboron> :
 -<jaopca:item_nuggetferroboron>
+Ore entries for <ore:nuggetFlint> :
+-<jaopca:item_nuggetflint>
 Ore entries for <ore:nuggetGraphite> :
 -<jaopca:item_nuggetgraphite>
 Ore entries for <ore:nuggetHardCarbon> :
@@ -10192,8 +10195,8 @@ Ore entries for <ore:nuggetOrichalcos> :
 -<jaopca:item_nuggetorichalcos>
 Ore entries for <ore:nuggetPhotonium> :
 -<jaopca:item_nuggetphotonium>
-Ore entries for <ore:nuggetPlutonium> :
--<jaopca:item_nuggetplutonium>
+Ore entries for <ore:nuggetReinforcedObsidian> :
+-<jaopca:item_nuggetreinforcedobsidian>
 Ore entries for <ore:nuggetShadowium> :
 -<jaopca:item_nuggetshadowium>
 Ore entries for <ore:nuggetShibuichi> :
@@ -10210,10 +10213,10 @@ Ore entries for <ore:nuggetTinSilver> :
 -<jaopca:item_nuggettinsilver>
 Ore entries for <ore:nuggetTough> :
 -<jaopca:item_nuggettough>
-Ore entries for <ore:nuggetUnsweetenedChocolate> :
--<jaopca:item_nuggetunsweetenedchocolate>
 Ore entries for <ore:nuggetUraniumOxide> :
 -<jaopca:item_nuggeturaniumoxide>
+Ore entries for <ore:nuggetWub> :
+-<jaopca:item_nuggetwub>
 Ore entries for <ore:nuggetZircaloy> :
 -<jaopca:item_nuggetzircaloy>
 Ore entries for <ore:nuggetZirconium> :
@@ -10276,8 +10279,6 @@ Ore entries for <ore:coinAlubrass> :
 -<jaopca:item_coinalubrass>
 Ore entries for <ore:coinAlumite> :
 -<jaopca:item_coinalumite>
-Ore entries for <ore:coinAmericium243Oxide> :
--<jaopca:item_coinamericium243oxide>
 Ore entries for <ore:coinBaseEssence> :
 -<jaopca:item_coinbaseessence>
 Ore entries for <ore:coinBlackIron> :
@@ -10288,8 +10289,6 @@ Ore entries for <ore:coinBlutonium> :
 -<jaopca:item_coinblutonium>
 Ore entries for <ore:coinBrass> :
 -<jaopca:item_coinbrass>
-Ore entries for <ore:coinChocolate> :
--<jaopca:item_coinchocolate>
 Ore entries for <ore:coinChromium> :
 -<jaopca:item_coinchromium>
 Ore entries for <ore:coinChrome> :
@@ -10316,8 +10315,6 @@ Ore entries for <ore:coinCrystaltine> :
 -<jaopca:item_coincrystaltine>
 Ore entries for <ore:coinCyanite> :
 -<jaopca:item_coincyanite>
-Ore entries for <ore:coinDarkChocolate> :
--<jaopca:item_coindarkchocolate>
 Ore entries for <ore:coinDarkSteel> :
 -<jaopca:item_coindarksteel>
 Ore entries for <ore:coinDawnstone> :
@@ -10340,6 +10337,8 @@ Ore entries for <ore:coinExtreme> :
 -<jaopca:item_coinextreme>
 Ore entries for <ore:coinFerroboron> :
 -<jaopca:item_coinferroboron>
+Ore entries for <ore:coinFlint> :
+-<jaopca:item_coinflint>
 Ore entries for <ore:coinGelidEnderium> :
 -<jaopca:item_coingelidenderium>
 Ore entries for <ore:coinGraphite> :
@@ -10366,10 +10365,6 @@ Ore entries for <ore:coinKnightslime> :
 -<jaopca:item_coinknightslime>
 Ore entries for <ore:coinLeadPlatinum> :
 -<jaopca:item_coinleadplatinum>
-Ore entries for <ore:coinLithium6> :
--<jaopca:item_coinlithium6>
-Ore entries for <ore:coinLithium7> :
--<jaopca:item_coinlithium7>
 Ore entries for <ore:coinLithiumManganeseDioxide> :
 -<jaopca:item_coinlithiummanganesedioxide>
 Ore entries for <ore:coinLudicrite> :
@@ -10406,8 +10401,6 @@ Ore entries for <ore:coinPhotonium> :
 -<jaopca:item_coinphotonium>
 Ore entries for <ore:coinPigiron> :
 -<jaopca:item_coinpigiron>
-Ore entries for <ore:coinPlutonium> :
--<jaopca:item_coinplutonium>
 Ore entries for <ore:coinPrudentium> :
 -<jaopca:item_coinprudentium>
 Ore entries for <ore:coinPulsatingIron> :
@@ -10420,6 +10413,8 @@ Ore entries for <ore:coinRefinedIron> :
 -<jaopca:item_coinrefinediron>
 Ore entries for <ore:coinRefinedObsidian> :
 -<jaopca:item_coinrefinedobsidian>
+Ore entries for <ore:coinReinforcedObsidian> :
+-<jaopca:item_coinreinforcedobsidian>
 Ore entries for <ore:coinShadowium> :
 -<jaopca:item_coinshadowium>
 Ore entries for <ore:coinShibuichi> :
@@ -10456,8 +10451,6 @@ Ore entries for <ore:coinTungstensteel> :
 -<jaopca:item_cointungstensteel>
 Ore entries for <ore:coinUltimate> :
 -<jaopca:item_coinultimate>
-Ore entries for <ore:coinUnsweetenedChocolate> :
--<jaopca:item_coinunsweetenedchocolate>
 Ore entries for <ore:coinUraniumOxide> :
 -<jaopca:item_coinuraniumoxide>
 Ore entries for <ore:coinVibrantAlloy> :
@@ -10466,6 +10459,8 @@ Ore entries for <ore:coinVividAlloy> :
 -<jaopca:item_coinvividalloy>
 Ore entries for <ore:coinVoid> :
 -<jaopca:item_coinvoid>
+Ore entries for <ore:coinWub> :
+-<jaopca:item_coinwub>
 Ore entries for <ore:coinZinc> :
 -<jaopca:item_coinzinc>
 Ore entries for <ore:coinZircaloy> :
@@ -10536,8 +10531,6 @@ Ore entries for <ore:gearAlubrass> :
 -<jaopca:item_gearalubrass>
 Ore entries for <ore:gearAlumite> :
 -<jaopca:item_gearalumite>
-Ore entries for <ore:gearAmericium243Oxide> :
--<jaopca:item_gearamericium243oxide>
 Ore entries for <ore:gearBaseEssence> :
 -<jaopca:item_gearbaseessence>
 Ore entries for <ore:gearBlackIron> :
@@ -10549,8 +10542,6 @@ Ore entries for <ore:gearBlutonium> :
 Ore entries for <ore:gearBrass> :
 -<jaopca:item_gearbrass>
 -<thaumicperiphery:gear_brass>
-Ore entries for <ore:gearChocolate> :
--<jaopca:item_gearchocolate>
 Ore entries for <ore:gearChromium> :
 -<jaopca:item_gearchromium>
 Ore entries for <ore:gearChrome> :
@@ -10573,8 +10564,6 @@ Ore entries for <ore:gearCrystaltine> :
 -<jaopca:item_gearcrystaltine>
 Ore entries for <ore:gearCyanite> :
 -<jaopca:item_gearcyanite>
-Ore entries for <ore:gearDarkChocolate> :
--<jaopca:item_geardarkchocolate>
 Ore entries for <ore:gearDarkSteel> :
 -<jaopca:item_geardarksteel>
 Ore entries for <ore:gearDawnstone> :
@@ -10594,6 +10583,8 @@ Ore entries for <ore:gearExtreme> :
 -<jaopca:item_gearextreme>
 Ore entries for <ore:gearFerroboron> :
 -<jaopca:item_gearferroboron>
+Ore entries for <ore:gearFlint> :
+-<jaopca:item_gearflint>
 Ore entries for <ore:gearGraphite> :
 -<jaopca:item_geargraphite>
 Ore entries for <ore:gearHardCarbon> :
@@ -10616,10 +10607,6 @@ Ore entries for <ore:gearKnightslime> :
 -<jaopca:item_gearknightslime>
 Ore entries for <ore:gearLeadPlatinum> :
 -<jaopca:item_gearleadplatinum>
-Ore entries for <ore:gearLithium6> :
--<jaopca:item_gearlithium6>
-Ore entries for <ore:gearLithium7> :
--<jaopca:item_gearlithium7>
 Ore entries for <ore:gearLithiumManganeseDioxide> :
 -<jaopca:item_gearlithiummanganesedioxide>
 Ore entries for <ore:gearLudicrite> :
@@ -10654,8 +10641,6 @@ Ore entries for <ore:gearPhotonium> :
 -<jaopca:item_gearphotonium>
 Ore entries for <ore:gearPigiron> :
 -<jaopca:item_gearpigiron>
-Ore entries for <ore:gearPlutonium> :
--<jaopca:item_gearplutonium>
 Ore entries for <ore:gearPrudentium> :
 -<jaopca:item_gearprudentium>
 Ore entries for <ore:gearPulsatingIron> :
@@ -10668,6 +10653,8 @@ Ore entries for <ore:gearRefinedIron> :
 -<jaopca:item_gearrefinediron>
 Ore entries for <ore:gearRefinedObsidian> :
 -<jaopca:item_gearrefinedobsidian>
+Ore entries for <ore:gearReinforcedObsidian> :
+-<jaopca:item_gearreinforcedobsidian>
 Ore entries for <ore:gearShadowium> :
 -<jaopca:item_gearshadowium>
 Ore entries for <ore:gearShibuichi> :
@@ -10700,14 +10687,14 @@ Ore entries for <ore:gearTungstensteel> :
 -<jaopca:item_geartungstensteel>
 Ore entries for <ore:gearUltimate> :
 -<jaopca:item_gearultimate>
-Ore entries for <ore:gearUnsweetenedChocolate> :
--<jaopca:item_gearunsweetenedchocolate>
 Ore entries for <ore:gearUraniumOxide> :
 -<jaopca:item_gearuraniumoxide>
 Ore entries for <ore:gearVibrantAlloy> :
 -<jaopca:item_gearvibrantalloy>
 Ore entries for <ore:gearVividAlloy> :
 -<jaopca:item_gearvividalloy>
+Ore entries for <ore:gearWub> :
+-<jaopca:item_gearwub>
 Ore entries for <ore:gearZinc> :
 -<jaopca:item_gearzinc>
 Ore entries for <ore:gearZircaloy> :
@@ -10788,8 +10775,6 @@ Ore entries for <ore:plateAlubrass> :
 -<jaopca:item_platealubrass>
 Ore entries for <ore:plateAlumite> :
 -<jaopca:item_platealumite>
-Ore entries for <ore:plateAmericium243Oxide> :
--<jaopca:item_plateamericium243oxide>
 Ore entries for <ore:plateBaseEssence> :
 -<jaopca:item_platebaseessence>
 Ore entries for <ore:plateBlackIron> :
@@ -10798,8 +10783,6 @@ Ore entries for <ore:plateBloodBronze> :
 -<jaopca:item_platebloodbronze>
 Ore entries for <ore:plateBlutonium> :
 -<jaopca:item_plateblutonium>
-Ore entries for <ore:plateChocolate> :
--<jaopca:item_platechocolate>
 Ore entries for <ore:plateCocoaButter> :
 -<jaopca:item_platecocoabutter>
 Ore entries for <ore:plateColdIron> :
@@ -10822,8 +10805,6 @@ Ore entries for <ore:plateCrystaltine> :
 -<jaopca:item_platecrystaltine>
 Ore entries for <ore:plateCyanite> :
 -<jaopca:item_platecyanite>
-Ore entries for <ore:plateDarkChocolate> :
--<jaopca:item_platedarkchocolate>
 Ore entries for <ore:plateDarkSteel> :
 -<jaopca:item_platedarksteel>
 Ore entries for <ore:plateDraconiumAwakened> :
@@ -10842,6 +10823,8 @@ Ore entries for <ore:plateExtreme> :
 -<jaopca:item_plateextreme>
 Ore entries for <ore:plateFerroboron> :
 -<jaopca:item_plateferroboron>
+Ore entries for <ore:plateFlint> :
+-<jaopca:item_plateflint>
 Ore entries for <ore:plateGraphite> :
 -<jaopca:item_plategraphite>
 Ore entries for <ore:plateHardCarbon> :
@@ -10864,10 +10847,6 @@ Ore entries for <ore:plateKnightslime> :
 -<jaopca:item_plateknightslime>
 Ore entries for <ore:plateLeadPlatinum> :
 -<jaopca:item_plateleadplatinum>
-Ore entries for <ore:plateLithium6> :
--<jaopca:item_platelithium6>
-Ore entries for <ore:plateLithium7> :
--<jaopca:item_platelithium7>
 Ore entries for <ore:plateLithiumManganeseDioxide> :
 -<jaopca:item_platelithiummanganesedioxide>
 Ore entries for <ore:plateLudicrite> :
@@ -10900,8 +10879,6 @@ Ore entries for <ore:platePhotonium> :
 -<jaopca:item_platephotonium>
 Ore entries for <ore:platePigiron> :
 -<jaopca:item_platepigiron>
-Ore entries for <ore:platePlutonium> :
--<jaopca:item_plateplutonium>
 Ore entries for <ore:platePrudentium> :
 -<jaopca:item_plateprudentium>
 Ore entries for <ore:platePulsatingIron> :
@@ -10912,6 +10889,8 @@ Ore entries for <ore:plateRefinedGlowstone> :
 -<jaopca:item_platerefinedglowstone>
 Ore entries for <ore:plateRefinedObsidian> :
 -<jaopca:item_platerefinedobsidian>
+Ore entries for <ore:plateReinforcedObsidian> :
+-<jaopca:item_platereinforcedobsidian>
 Ore entries for <ore:plateShadowium> :
 -<jaopca:item_plateshadowium>
 Ore entries for <ore:plateShibuichi> :
@@ -10942,14 +10921,14 @@ Ore entries for <ore:plateTough> :
 -<jaopca:item_platetough>
 Ore entries for <ore:plateUltimate> :
 -<jaopca:item_plateultimate>
-Ore entries for <ore:plateUnsweetenedChocolate> :
--<jaopca:item_plateunsweetenedchocolate>
 Ore entries for <ore:plateUraniumOxide> :
 -<jaopca:item_plateuraniumoxide>
 Ore entries for <ore:plateVibrantAlloy> :
 -<jaopca:item_platevibrantalloy>
 Ore entries for <ore:plateVividAlloy> :
 -<jaopca:item_platevividalloy>
+Ore entries for <ore:plateWub> :
+-<jaopca:item_platewub>
 Ore entries for <ore:plateZircaloy> :
 -<jaopca:item_platezircaloy>
 Ore entries for <ore:plateZirconium> :
@@ -11060,8 +11039,6 @@ Ore entries for <ore:stickAlubrass> :
 -<jaopca:item_stickalubrass>
 Ore entries for <ore:stickAlumite> :
 -<jaopca:item_stickalumite>
-Ore entries for <ore:stickAmericium243Oxide> :
--<jaopca:item_stickamericium243oxide>
 Ore entries for <ore:stickBaseEssence> :
 -<jaopca:item_stickbaseessence>
 Ore entries for <ore:stickBlackIron> :
@@ -11074,8 +11051,6 @@ Ore entries for <ore:stickBrass> :
 -<jaopca:item_stickbrass>
 Ore entries for <ore:stickBronze> :
 -<jaopca:item_stickbronze>
-Ore entries for <ore:stickChocolate> :
--<jaopca:item_stickchocolate>
 Ore entries for <ore:stickChromium> :
 -<jaopca:item_stickchromium>
 Ore entries for <ore:stickChrome> :
@@ -11104,8 +11079,6 @@ Ore entries for <ore:stickCrystaltine> :
 -<jaopca:item_stickcrystaltine>
 Ore entries for <ore:stickCyanite> :
 -<jaopca:item_stickcyanite>
-Ore entries for <ore:stickDarkChocolate> :
--<jaopca:item_stickdarkchocolate>
 Ore entries for <ore:stickDarkSteel> :
 -<jaopca:item_stickdarksteel>
 Ore entries for <ore:stickDawnstone> :
@@ -11132,6 +11105,8 @@ Ore entries for <ore:stickExtreme> :
 -<jaopca:item_stickextreme>
 Ore entries for <ore:stickFerroboron> :
 -<jaopca:item_stickferroboron>
+Ore entries for <ore:stickFlint> :
+-<jaopca:item_stickflint>
 Ore entries for <ore:stickGelidEnderium> :
 -<jaopca:item_stickgelidenderium>
 Ore entries for <ore:stickGraphite> :
@@ -11160,10 +11135,6 @@ Ore entries for <ore:stickKnightslime> :
 -<jaopca:item_stickknightslime>
 Ore entries for <ore:stickLeadPlatinum> :
 -<jaopca:item_stickleadplatinum>
-Ore entries for <ore:stickLithium6> :
--<jaopca:item_sticklithium6>
-Ore entries for <ore:stickLithium7> :
--<jaopca:item_sticklithium7>
 Ore entries for <ore:stickLithiumManganeseDioxide> :
 -<jaopca:item_sticklithiummanganesedioxide>
 Ore entries for <ore:stickLudicrite> :
@@ -11202,8 +11173,6 @@ Ore entries for <ore:stickPhotonium> :
 -<jaopca:item_stickphotonium>
 Ore entries for <ore:stickPigiron> :
 -<jaopca:item_stickpigiron>
-Ore entries for <ore:stickPlutonium> :
--<jaopca:item_stickplutonium>
 Ore entries for <ore:stickPrudentium> :
 -<jaopca:item_stickprudentium>
 Ore entries for <ore:stickPulsatingIron> :
@@ -11216,6 +11185,8 @@ Ore entries for <ore:stickRefinedIron> :
 -<jaopca:item_stickrefinediron>
 Ore entries for <ore:stickRefinedObsidian> :
 -<jaopca:item_stickrefinedobsidian>
+Ore entries for <ore:stickReinforcedObsidian> :
+-<jaopca:item_stickreinforcedobsidian>
 Ore entries for <ore:stickShadowium> :
 -<jaopca:item_stickshadowium>
 Ore entries for <ore:stickShibuichi> :
@@ -11254,8 +11225,6 @@ Ore entries for <ore:stickTungstensteel> :
 -<jaopca:item_sticktungstensteel>
 Ore entries for <ore:stickUltimate> :
 -<jaopca:item_stickultimate>
-Ore entries for <ore:stickUnsweetenedChocolate> :
--<jaopca:item_stickunsweetenedchocolate>
 Ore entries for <ore:stickUraniumOxide> :
 -<jaopca:item_stickuraniumoxide>
 Ore entries for <ore:stickVibrantAlloy> :
@@ -11264,6 +11233,8 @@ Ore entries for <ore:stickVividAlloy> :
 -<jaopca:item_stickvividalloy>
 Ore entries for <ore:stickVoid> :
 -<jaopca:item_stickvoid>
+Ore entries for <ore:stickWub> :
+-<jaopca:item_stickwub>
 Ore entries for <ore:stickZinc> :
 -<jaopca:item_stickzinc>
 Ore entries for <ore:stickZircaloy> :
@@ -11396,8 +11367,6 @@ Ore entries for <ore:dustTinyAlubrass> :
 -<jaopca:item_dusttinyalubrass>
 Ore entries for <ore:dustTinyAlumite> :
 -<jaopca:item_dusttinyalumite>
-Ore entries for <ore:dustTinyAmericium243Oxide> :
--<jaopca:item_dusttinyamericium243oxide>
 Ore entries for <ore:dustTinyBaseEssence> :
 -<jaopca:item_dusttinybaseessence>
 Ore entries for <ore:dustTinyBlackIron> :
@@ -11410,8 +11379,6 @@ Ore entries for <ore:dustTinyBrass> :
 -<jaopca:item_dusttinybrass>
 Ore entries for <ore:dustTinyBronze> :
 -<jaopca:item_dusttinybronze>
-Ore entries for <ore:dustTinyChocolate> :
--<jaopca:item_dusttinychocolate>
 Ore entries for <ore:dustTinyChromium> :
 -<jaopca:item_dusttinychromium>
 Ore entries for <ore:dustTinyChrome> :
@@ -11440,8 +11407,6 @@ Ore entries for <ore:dustTinyCrystaltine> :
 -<jaopca:item_dusttinycrystaltine>
 Ore entries for <ore:dustTinyCyanite> :
 -<jaopca:item_dusttinycyanite>
-Ore entries for <ore:dustTinyDarkChocolate> :
--<jaopca:item_dusttinydarkchocolate>
 Ore entries for <ore:dustTinyDarkSteel> :
 -<jaopca:item_dusttinydarksteel>
 Ore entries for <ore:dustTinyDawnstone> :
@@ -11468,6 +11433,8 @@ Ore entries for <ore:dustTinyExtreme> :
 -<jaopca:item_dusttinyextreme>
 Ore entries for <ore:dustTinyFerroboron> :
 -<jaopca:item_dusttinyferroboron>
+Ore entries for <ore:dustTinyFlint> :
+-<jaopca:item_dusttinyflint>
 Ore entries for <ore:dustTinyGelidEnderium> :
 -<jaopca:item_dusttinygelidenderium>
 Ore entries for <ore:dustTinyGraphite> :
@@ -11496,10 +11463,6 @@ Ore entries for <ore:dustTinyKnightslime> :
 -<jaopca:item_dusttinyknightslime>
 Ore entries for <ore:dustTinyLeadPlatinum> :
 -<jaopca:item_dusttinyleadplatinum>
-Ore entries for <ore:dustTinyLithium6> :
--<jaopca:item_dusttinylithium6>
-Ore entries for <ore:dustTinyLithium7> :
--<jaopca:item_dusttinylithium7>
 Ore entries for <ore:dustTinyLithiumManganeseDioxide> :
 -<jaopca:item_dusttinylithiummanganesedioxide>
 Ore entries for <ore:dustTinyLudicrite> :
@@ -11538,8 +11501,6 @@ Ore entries for <ore:dustTinyPhotonium> :
 -<jaopca:item_dusttinyphotonium>
 Ore entries for <ore:dustTinyPigiron> :
 -<jaopca:item_dusttinypigiron>
-Ore entries for <ore:dustTinyPlutonium> :
--<jaopca:item_dusttinyplutonium>
 Ore entries for <ore:dustTinyPrudentium> :
 -<jaopca:item_dusttinyprudentium>
 Ore entries for <ore:dustTinyPulsatingIron> :
@@ -11552,6 +11513,8 @@ Ore entries for <ore:dustTinyRefinedIron> :
 -<jaopca:item_dusttinyrefinediron>
 Ore entries for <ore:dustTinyRefinedObsidian> :
 -<jaopca:item_dusttinyrefinedobsidian>
+Ore entries for <ore:dustTinyReinforcedObsidian> :
+-<jaopca:item_dusttinyreinforcedobsidian>
 Ore entries for <ore:dustTinyShadowium> :
 -<jaopca:item_dusttinyshadowium>
 Ore entries for <ore:dustTinyShibuichi> :
@@ -11592,8 +11555,6 @@ Ore entries for <ore:dustTinyTungstensteel> :
 -<jaopca:item_dusttinytungstensteel>
 Ore entries for <ore:dustTinyUltimate> :
 -<jaopca:item_dusttinyultimate>
-Ore entries for <ore:dustTinyUnsweetenedChocolate> :
--<jaopca:item_dusttinyunsweetenedchocolate>
 Ore entries for <ore:dustTinyUraniumOxide> :
 -<jaopca:item_dusttinyuraniumoxide>
 Ore entries for <ore:dustTinyVibrantAlloy> :
@@ -11602,6 +11563,8 @@ Ore entries for <ore:dustTinyVividAlloy> :
 -<jaopca:item_dusttinyvividalloy>
 Ore entries for <ore:dustTinyVoid> :
 -<jaopca:item_dusttinyvoid>
+Ore entries for <ore:dustTinyWub> :
+-<jaopca:item_dusttinywub>
 Ore entries for <ore:dustTinyZinc> :
 -<jaopca:item_dusttinyzinc>
 Ore entries for <ore:dustTinyZircaloy> :
@@ -11690,8 +11653,6 @@ Ore entries for <ore:dustSmallAlubrass> :
 -<jaopca:item_dustsmallalubrass>
 Ore entries for <ore:dustSmallAlumite> :
 -<jaopca:item_dustsmallalumite>
-Ore entries for <ore:dustSmallAmericium243Oxide> :
--<jaopca:item_dustsmallamericium243oxide>
 Ore entries for <ore:dustSmallBaseEssence> :
 -<jaopca:item_dustsmallbaseessence>
 Ore entries for <ore:dustSmallBlackIron> :
@@ -11700,8 +11661,6 @@ Ore entries for <ore:dustSmallBloodBronze> :
 -<jaopca:item_dustsmallbloodbronze>
 Ore entries for <ore:dustSmallBlutonium> :
 -<jaopca:item_dustsmallblutonium>
-Ore entries for <ore:dustSmallChocolate> :
--<jaopca:item_dustsmallchocolate>
 Ore entries for <ore:dustSmallCocoaButter> :
 -<jaopca:item_dustsmallcocoabutter>
 Ore entries for <ore:dustSmallColdIron> :
@@ -11726,8 +11685,6 @@ Ore entries for <ore:dustSmallCrystaltine> :
 -<jaopca:item_dustsmallcrystaltine>
 Ore entries for <ore:dustSmallCyanite> :
 -<jaopca:item_dustsmallcyanite>
-Ore entries for <ore:dustSmallDarkChocolate> :
--<jaopca:item_dustsmalldarkchocolate>
 Ore entries for <ore:dustSmallDarkSteel> :
 -<jaopca:item_dustsmalldarksteel>
 Ore entries for <ore:dustSmallDawnstone> :
@@ -11778,10 +11735,6 @@ Ore entries for <ore:dustSmallKnightslime> :
 -<jaopca:item_dustsmallknightslime>
 Ore entries for <ore:dustSmallLeadPlatinum> :
 -<jaopca:item_dustsmallleadplatinum>
-Ore entries for <ore:dustSmallLithium6> :
--<jaopca:item_dustsmalllithium6>
-Ore entries for <ore:dustSmallLithium7> :
--<jaopca:item_dustsmalllithium7>
 Ore entries for <ore:dustSmallLithiumManganeseDioxide> :
 -<jaopca:item_dustsmalllithiummanganesedioxide>
 Ore entries for <ore:dustSmallLudicrite> :
@@ -11818,8 +11771,6 @@ Ore entries for <ore:dustSmallPhotonium> :
 -<jaopca:item_dustsmallphotonium>
 Ore entries for <ore:dustSmallPigiron> :
 -<jaopca:item_dustsmallpigiron>
-Ore entries for <ore:dustSmallPlutonium> :
--<jaopca:item_dustsmallplutonium>
 Ore entries for <ore:dustSmallPrudentium> :
 -<jaopca:item_dustsmallprudentium>
 Ore entries for <ore:dustSmallPulsatingIron> :
@@ -11832,6 +11783,8 @@ Ore entries for <ore:dustSmallRefinedIron> :
 -<jaopca:item_dustsmallrefinediron>
 Ore entries for <ore:dustSmallRefinedObsidian> :
 -<jaopca:item_dustsmallrefinedobsidian>
+Ore entries for <ore:dustSmallReinforcedObsidian> :
+-<jaopca:item_dustsmallreinforcedobsidian>
 Ore entries for <ore:dustSmallShadowium> :
 -<jaopca:item_dustsmallshadowium>
 Ore entries for <ore:dustSmallShibuichi> :
@@ -11868,8 +11821,6 @@ Ore entries for <ore:dustSmallTungstensteel> :
 -<jaopca:item_dustsmalltungstensteel>
 Ore entries for <ore:dustSmallUltimate> :
 -<jaopca:item_dustsmallultimate>
-Ore entries for <ore:dustSmallUnsweetenedChocolate> :
--<jaopca:item_dustsmallunsweetenedchocolate>
 Ore entries for <ore:dustSmallUraniumOxide> :
 -<jaopca:item_dustsmalluraniumoxide>
 Ore entries for <ore:dustSmallVibrantAlloy> :
@@ -11878,6 +11829,8 @@ Ore entries for <ore:dustSmallVividAlloy> :
 -<jaopca:item_dustsmallvividalloy>
 Ore entries for <ore:dustSmallVoid> :
 -<jaopca:item_dustsmallvoid>
+Ore entries for <ore:dustSmallWub> :
+-<jaopca:item_dustsmallwub>
 Ore entries for <ore:dustSmallZircaloy> :
 -<jaopca:item_dustsmallzircaloy>
 Ore entries for <ore:dustSmallZirconium> :
@@ -11994,8 +11947,6 @@ Ore entries for <ore:plateDenseAlubrass> :
 -<jaopca:item_platedensealubrass>
 Ore entries for <ore:plateDenseAlumite> :
 -<jaopca:item_platedensealumite>
-Ore entries for <ore:plateDenseAmericium243Oxide> :
--<jaopca:item_platedenseamericium243oxide>
 Ore entries for <ore:plateDenseBaseEssence> :
 -<jaopca:item_platedensebaseessence>
 Ore entries for <ore:plateDenseBlackIron> :
@@ -12008,8 +11959,6 @@ Ore entries for <ore:plateDenseBrass> :
 -<jaopca:item_platedensebrass>
 Ore entries for <ore:plateDenseBronze> :
 -<jaopca:item_platedensebronze>
-Ore entries for <ore:plateDenseChocolate> :
--<jaopca:item_platedensechocolate>
 Ore entries for <ore:plateDenseChromium> :
 -<jaopca:item_platedensechromium>
 Ore entries for <ore:plateDenseChrome> :
@@ -12038,8 +11987,6 @@ Ore entries for <ore:plateDenseCrystaltine> :
 -<jaopca:item_platedensecrystaltine>
 Ore entries for <ore:plateDenseCyanite> :
 -<jaopca:item_platedensecyanite>
-Ore entries for <ore:plateDenseDarkChocolate> :
--<jaopca:item_platedensedarkchocolate>
 Ore entries for <ore:plateDenseDarkSteel> :
 -<jaopca:item_platedensedarksteel>
 Ore entries for <ore:plateDenseDawnstone> :
@@ -12066,6 +12013,8 @@ Ore entries for <ore:plateDenseExtreme> :
 -<jaopca:item_platedenseextreme>
 Ore entries for <ore:plateDenseFerroboron> :
 -<jaopca:item_platedenseferroboron>
+Ore entries for <ore:plateDenseFlint> :
+-<jaopca:item_platedenseflint>
 Ore entries for <ore:plateDenseGelidEnderium> :
 -<jaopca:item_platedensegelidenderium>
 Ore entries for <ore:plateDenseGraphite> :
@@ -12094,10 +12043,6 @@ Ore entries for <ore:plateDenseKnightslime> :
 -<jaopca:item_platedenseknightslime>
 Ore entries for <ore:plateDenseLeadPlatinum> :
 -<jaopca:item_platedenseleadplatinum>
-Ore entries for <ore:plateDenseLithium6> :
--<jaopca:item_platedenselithium6>
-Ore entries for <ore:plateDenseLithium7> :
--<jaopca:item_platedenselithium7>
 Ore entries for <ore:plateDenseLithiumManganeseDioxide> :
 -<jaopca:item_platedenselithiummanganesedioxide>
 Ore entries for <ore:plateDenseLudicrite> :
@@ -12136,8 +12081,6 @@ Ore entries for <ore:plateDensePhotonium> :
 -<jaopca:item_platedensephotonium>
 Ore entries for <ore:plateDensePigiron> :
 -<jaopca:item_platedensepigiron>
-Ore entries for <ore:plateDensePlutonium> :
--<jaopca:item_platedenseplutonium>
 Ore entries for <ore:plateDensePrudentium> :
 -<jaopca:item_platedenseprudentium>
 Ore entries for <ore:plateDensePulsatingIron> :
@@ -12150,6 +12093,8 @@ Ore entries for <ore:plateDenseRefinedIron> :
 -<jaopca:item_platedenserefinediron>
 Ore entries for <ore:plateDenseRefinedObsidian> :
 -<jaopca:item_platedenserefinedobsidian>
+Ore entries for <ore:plateDenseReinforcedObsidian> :
+-<jaopca:item_platedensereinforcedobsidian>
 Ore entries for <ore:plateDenseShadowium> :
 -<jaopca:item_platedenseshadowium>
 Ore entries for <ore:plateDenseShibuichi> :
@@ -12190,8 +12135,6 @@ Ore entries for <ore:plateDenseTungstensteel> :
 -<jaopca:item_platedensetungstensteel>
 Ore entries for <ore:plateDenseUltimate> :
 -<jaopca:item_platedenseultimate>
-Ore entries for <ore:plateDenseUnsweetenedChocolate> :
--<jaopca:item_platedenseunsweetenedchocolate>
 Ore entries for <ore:plateDenseUraniumOxide> :
 -<jaopca:item_platedenseuraniumoxide>
 Ore entries for <ore:plateDenseVibrantAlloy> :
@@ -12200,6 +12143,8 @@ Ore entries for <ore:plateDenseVividAlloy> :
 -<jaopca:item_platedensevividalloy>
 Ore entries for <ore:plateDenseVoid> :
 -<jaopca:item_platedensevoid>
+Ore entries for <ore:plateDenseWub> :
+-<jaopca:item_platedensewub>
 Ore entries for <ore:plateDenseZinc> :
 -<jaopca:item_platedensezinc>
 Ore entries for <ore:plateDenseZircaloy> :
@@ -12490,8 +12435,6 @@ Ore entries for <ore:rodAlubrass> :
 -<jaopca:item_stickalubrass>
 Ore entries for <ore:rodAlumite> :
 -<jaopca:item_stickalumite>
-Ore entries for <ore:rodAmericium243Oxide> :
--<jaopca:item_stickamericium243oxide>
 Ore entries for <ore:rodBaseEssence> :
 -<jaopca:item_stickbaseessence>
 Ore entries for <ore:rodBlackIron> :
@@ -12504,8 +12447,6 @@ Ore entries for <ore:rodBrass> :
 -<jaopca:item_stickbrass>
 Ore entries for <ore:rodBronze> :
 -<jaopca:item_stickbronze>
-Ore entries for <ore:rodChocolate> :
--<jaopca:item_stickchocolate>
 Ore entries for <ore:rodChromium> :
 -<jaopca:item_stickchromium>
 Ore entries for <ore:rodCocoaButter> :
@@ -12532,8 +12473,6 @@ Ore entries for <ore:rodCrystaltine> :
 -<jaopca:item_stickcrystaltine>
 Ore entries for <ore:rodCyanite> :
 -<jaopca:item_stickcyanite>
-Ore entries for <ore:rodDarkChocolate> :
--<jaopca:item_stickdarkchocolate>
 Ore entries for <ore:rodDarkSteel> :
 -<jaopca:item_stickdarksteel>
 Ore entries for <ore:rodDawnstone> :
@@ -12560,6 +12499,8 @@ Ore entries for <ore:rodExtreme> :
 -<jaopca:item_stickextreme>
 Ore entries for <ore:rodFerroboron> :
 -<jaopca:item_stickferroboron>
+Ore entries for <ore:rodFlint> :
+-<jaopca:item_stickflint>
 Ore entries for <ore:rodGelidEnderium> :
 -<jaopca:item_stickgelidenderium>
 Ore entries for <ore:rodGraphite> :
@@ -12588,10 +12529,6 @@ Ore entries for <ore:rodKnightslime> :
 -<jaopca:item_stickknightslime>
 Ore entries for <ore:rodLeadPlatinum> :
 -<jaopca:item_stickleadplatinum>
-Ore entries for <ore:rodLithium6> :
--<jaopca:item_sticklithium6>
-Ore entries for <ore:rodLithium7> :
--<jaopca:item_sticklithium7>
 Ore entries for <ore:rodLithiumManganeseDioxide> :
 -<jaopca:item_sticklithiummanganesedioxide>
 Ore entries for <ore:rodLudicrite> :
@@ -12630,8 +12567,6 @@ Ore entries for <ore:rodPhotonium> :
 -<jaopca:item_stickphotonium>
 Ore entries for <ore:rodPigiron> :
 -<jaopca:item_stickpigiron>
-Ore entries for <ore:rodPlutonium> :
--<jaopca:item_stickplutonium>
 Ore entries for <ore:rodPrudentium> :
 -<jaopca:item_stickprudentium>
 Ore entries for <ore:rodPulsatingIron> :
@@ -12644,6 +12579,8 @@ Ore entries for <ore:rodRefinedIron> :
 -<jaopca:item_stickrefinediron>
 Ore entries for <ore:rodRefinedObsidian> :
 -<jaopca:item_stickrefinedobsidian>
+Ore entries for <ore:rodReinforcedObsidian> :
+-<jaopca:item_stickreinforcedobsidian>
 Ore entries for <ore:rodShadowium> :
 -<jaopca:item_stickshadowium>
 Ore entries for <ore:rodShibuichi> :
@@ -12682,8 +12619,6 @@ Ore entries for <ore:rodTungstensteel> :
 -<jaopca:item_sticktungstensteel>
 Ore entries for <ore:rodUltimate> :
 -<jaopca:item_stickultimate>
-Ore entries for <ore:rodUnsweetenedChocolate> :
--<jaopca:item_stickunsweetenedchocolate>
 Ore entries for <ore:rodUraniumOxide> :
 -<jaopca:item_stickuraniumoxide>
 Ore entries for <ore:rodVibrantAlloy> :
@@ -12692,6 +12627,8 @@ Ore entries for <ore:rodVividAlloy> :
 -<jaopca:item_stickvividalloy>
 Ore entries for <ore:rodVoid> :
 -<jaopca:item_stickvoid>
+Ore entries for <ore:rodWub> :
+-<jaopca:item_stickwub>
 Ore entries for <ore:rodZinc> :
 -<jaopca:item_stickzinc>
 Ore entries for <ore:rodZircaloy> :
@@ -12992,6 +12929,12 @@ Ore entries for <ore:ingotAntimony> :
 -<soot:ingot_antimony>
 Ore entries for <ore:ingotUnstable> :
 -<unstabletools:unstable_ingot>
+Ore entries for <ore:gemXen> :
+-<xencraft:xen_gem>
+Ore entries for <ore:blockXen> :
+-<xencraft:xen_gem_block:*>
+Ore entries for <ore:ingotXen> :
+-<xencraft:xen_ingot>
 Ore entries for <ore:gemPearl> :
 -<darkutils:shulker_pearl>
 Ore entries for <ore:blockPearl> :
@@ -13001,6 +12944,14 @@ Ore entries for <ore:blockPearl> :
 -<unlimitedchiselworks:chisel_stonebrick2_darkutils_pearl_block_1>
 Ore entries for <ore:bed> :
 -<minecraft:bed>
+Ore entries for <ore:blockTerrasteel> :
+-<botania:storage:1>
+Ore entries for <ore:blockManasteel> :
+-<botania:storage>
+Ore entries for <ore:blockElvenElementium> :
+-<botania:storage:2>
+Ore entries for <ore:blockEnder> :
+-<extendedcrafting:storage:5>
 Ore entries for <ore:blockBloodInfusedWood> :
 -<bloodarsenal:blood_infused_wooden_planks>
 Ore entries for <ore:stoneVoid> :
@@ -13020,6 +12971,38 @@ Ore entries for <ore:particleCustomizer> :
 -<simplyjetpacks:metaitem:3>
 Ore entries for <ore:ingot_dark_soularium> :
 -<simplyjetpacks:metaitemmods:3>
+Ore entries for <ore:flint> :
+-<minecraft:flint>
+Ore entries for <ore:dustWhiteGlowstone> :
+-<tp:colored_dust>
+Ore entries for <ore:dustOrangeGlowstone> :
+-<tp:colored_dust:1>
+Ore entries for <ore:dustMagentaGlowstone> :
+-<tp:colored_dust:2>
+Ore entries for <ore:dustLightBlueGlowstone> :
+-<tp:colored_dust:3>
+Ore entries for <ore:dustLimeGlowstone> :
+-<tp:colored_dust:4>
+Ore entries for <ore:dustPinkGlowstone> :
+-<tp:colored_dust:5>
+Ore entries for <ore:dustGrayGlowstone> :
+-<tp:colored_dust:6>
+Ore entries for <ore:dustLightGrayGlowstone> :
+-<tp:colored_dust:7>
+Ore entries for <ore:dustCyanGlowstone> :
+-<tp:colored_dust:8>
+Ore entries for <ore:dustPurpleGlowstone> :
+-<tp:colored_dust:9>
+Ore entries for <ore:dustBlueGlowstone> :
+-<tp:colored_dust:10>
+Ore entries for <ore:dustBrownGlowstone> :
+-<tp:colored_dust:11>
+Ore entries for <ore:dustGreenGlowstone> :
+-<tp:colored_dust:12>
+Ore entries for <ore:dustRedGlowstone> :
+-<tp:colored_dust:13>
+Ore entries for <ore:dustBlackGlowstone> :
+-<tp:colored_dust:14>
 Ore entries for <ore:dyeRainbow> :
 -<naturalpledge:iris_dye:16>
 -<naturalpledge:iris_dye_awakened:16>
@@ -13027,6 +13010,208 @@ Ore entries for <ore:dyeRainbow> :
 -<botania:bifrostperm>
 Ore entries for <ore:oreInferium> :
 -<mysticalagriculture:inferium_ore>
+Ore entries for <ore:oreWub> :
+-<tp:wub_ore>
+Ore entries for <ore:ingotEnder> :
+-<extendedcrafting:material:36>
+Ore entries for <ore:oreEnder> :
+-<tp:ender_ore>
+Ore entries for <ore:oreLight> :
+-<tg:ore_light>
+Ore entries for <ore:oreQuicksilver> :
+-<thaumcraft:ore_cinnabar>
+Ore entries for <ore:oreShade> :
+-<tg:ore_shade>
+Ore entries for <ore:oreStygianIron> :
+-<woot:stygianironore>
+Ore entries for <ore:ingotAlkimium> :
+-<planarartifice:alkimium_ingot>
+Ore entries for <ore:ingotDarkSoularium> :
+-<simplyjetpacks:metaitemmods:3>
+Ore entries for <ore:ingotEnderEnhanced> :
+-<extendedcrafting:material:48>
+Ore entries for <ore:ingotGaia> :
+-<botania:manaresource:14>
+Ore entries for <ore:ingotGaiasteel> :
+-<botanicadds:gaiasteel_ingot>
+Ore entries for <ore:ingotGlitchInfused> :
+-<deepmoblearning:glitch_infused_ingot>
+Ore entries for <ore:ingotLight> :
+-<tg:ingot_light>
+Ore entries for <ore:ingotLivium> :
+-<thaumic_arcana:ingot_livium>
+Ore entries for <ore:ingotMeatCooked> :
+-<industrialmeat:cooked_meat_ingot>
+Ore entries for <ore:ingotMeatRaw> :
+-<industrialmeat:raw_meat_ingot>
+Ore entries for <ore:ingotShade> :
+-<tg:ingot_shade>
+Ore entries for <ore:ingotSlimePink> :
+-<industrialforegoing:pink_slime_ingot>
+Ore entries for <ore:ingotSpectre> :
+-<randomthings:ingredient:3>
+Ore entries for <ore:ingotStygianIron> :
+-<woot:stygianironingot>
+Ore entries for <ore:ingotVoidMetal> :
+-<thaumcraft:ingot:1>
+Ore entries for <ore:gemNjordAquamarine> :
+-<naturalpledge:resource:4>
+Ore entries for <ore:gemCharcoal> :
+-<minecraft:coal:1>
+Ore entries for <ore:gemDiamondMana> :
+-<botania:manaresource:2>
+Ore entries for <ore:gemDragonstone> :
+-<botania:manaresource:9>
+Ore entries for <ore:gemLapisElven> :
+-<botanicadds:elven_lapis>
+Ore entries for <ore:gemLapisMana> :
+-<botanicadds:mana_lapis>
+Ore entries for <ore:gemQuicksilver> :
+-<thaumcraft:quicksilver>
+Ore entries for <ore:crystalAmber> :
+-<cyclicmagic:crystallized_amber>
+Ore entries for <ore:crystalDiamantine> :
+-<actuallyadditions:item_crystal:2>
+Ore entries for <ore:crystalDiamantineEmpowered> :
+-<actuallyadditions:item_crystal_empowered:2>
+Ore entries for <ore:crystalEmeradic> :
+-<actuallyadditions:item_crystal:4>
+Ore entries for <ore:crystalEmeradicEmpowered> :
+-<actuallyadditions:item_crystal_empowered:4>
+Ore entries for <ore:crystalEnori> :
+-<actuallyadditions:item_crystal:5>
+Ore entries for <ore:crystalEnoriEmpowered> :
+-<actuallyadditions:item_crystal_empowered:5>
+Ore entries for <ore:crystalObsidian> :
+-<cyclicmagic:crystallized_obsidian>
+Ore entries for <ore:crystalPalis> :
+-<actuallyadditions:item_crystal:1>
+Ore entries for <ore:crystalPalisEmpowered> :
+-<actuallyadditions:item_crystal_empowered:1>
+Ore entries for <ore:crystalRestonia> :
+-<actuallyadditions:item_crystal>
+Ore entries for <ore:crystalRestoniaEmpowered> :
+-<actuallyadditions:item_crystal_empowered>
+Ore entries for <ore:crystalVoid> :
+-<actuallyadditions:item_crystal:3>
+Ore entries for <ore:crystalVoidEmpowered> :
+-<actuallyadditions:item_crystal_empowered:3>
+Ore entries for <ore:dustBloodInfusedGlowstone> :
+-<bloodarsenal:base_item:2>
+Ore entries for <ore:dustElvenPixie> :
+-<botania:manaresource:8>
+Ore entries for <ore:dustEmber> :
+-<embers:dust_ember>
+Ore entries for <ore:dustFlux> :
+-<fluxnetworks:flux>
+Ore entries for <ore:dustIllumination> :
+-<astralsorcery:itemusabledust>
+Ore entries for <ore:dustMetallurgic> :
+-<embers:dust_metallurgic>
+Ore entries for <ore:dustNocturnal> :
+-<astralsorcery:itemusabledust:1>
+Ore entries for <ore:dustSoot> :
+-<deepmoblearning:soot_covered_redstone>
+Ore entries for <ore:dustStygianIron> :
+-<woot:stygianirondust>
+Ore entries for <ore:dustVoidMetal> :
+-<jaopca:item_dustvoid>
+Ore entries for <ore:dustWither> :
+-<darkutils:material>
+Ore entries for <ore:plateAlkimium> :
+-<planarartifice:alkimium_plate>
+Ore entries for <ore:plateResonating> :
+-<deepresonance:resonating_plate>
+Ore entries for <ore:plateStygianIron> :
+-<woot:stygianironplate>
+Ore entries for <ore:plateVoidMetal> :
+-<thaumcraft:plate:3>
+Ore entries for <ore:plateDenseVoidMetal> :
+-<jaopca:item_platedensevoid>
+Ore entries for <ore:rodAluminium> :
+-<immersiveengineering:material:3>
+Ore entries for <ore:rodIron> :
+-<immersiveengineering:material:1>
+Ore entries for <ore:rodSteel> :
+-<immersiveengineering:material:2>
+Ore entries for <ore:rodVoidMetal> :
+-<jaopca:item_stickvoid>
+Ore entries for <ore:gearProven> :
+-<extratrees:misc:2>
+Ore entries for <ore:gearRedstone> :
+-<mysticalmechanics:gear_gold_off>
+Ore entries for <ore:gearRedstoneInverted> :
+-<mysticalmechanics:gear_gold_on>
+Ore entries for <ore:gearScented> :
+-<extrabees:misc>
+Ore entries for <ore:gearVoidMetal> :
+-<mystgears:gear_void>
+Ore entries for <ore:nuggetMeatRaw> :
+-<industrialmeat:raw_meat_nugget>
+Ore entries for <ore:nuggetLight> :
+-<tg:nugget_light>
+Ore entries for <ore:nuggetShade> :
+-<tg:nugget_shade>
+Ore entries for <ore:nuggetVoidMetal> :
+-<thaumcraft:nugget:7>
+Ore entries for <ore:blockAlkimium> :
+-<planarartifice:alkimium_block>
+Ore entries for <ore:blockBloodInfusedIron> :
+-<bloodarsenal:blood_infused_iron_block>
+Ore entries for <ore:blockDiamantine> :
+-<actuallyadditions:block_crystal:2>
+Ore entries for <ore:blockDiamantineEmpowered> :
+-<actuallyadditions:block_crystal_empowered:2>
+Ore entries for <ore:blockDiamondMana> :
+-<botania:storage:3>
+Ore entries for <ore:blockDragonstone> :
+-<botania:storage:4>
+Ore entries for <ore:blockDraconiumCharged> :
+-<draconicevolution:draconium_block:1>
+Ore entries for <ore:blockEbonyPsi> :
+-<planarartifice:alkimium_ingot>
+Ore entries for <ore:blockEmeradic> :
+-<actuallyadditions:block_crystal:4>
+Ore entries for <ore:blockEmeradicEmpowered> :
+-<actuallyadditions:block_crystal_empowered:4>
+Ore entries for <ore:blockEnderEnhanced> :
+-<extendedcrafting:storage:7>
+Ore entries for <ore:blockEnderPearl> :
+-<actuallyadditions:block_misc:6>
+Ore entries for <ore:blockEnderStar> :
+-<extendedcrafting:storage:6>
+Ore entries for <ore:blockEnori> :
+-<actuallyadditions:block_crystal:5>
+Ore entries for <ore:blockEnoriEmpowered> :
+-<actuallyadditions:block_crystal_empowered:5>
+Ore entries for <ore:blockFlux> :
+-<fluxnetworks:fluxblock>
+Ore entries for <ore:blockGlitchInfused> :
+-<deepmoblearning:infused_ingot_block>
+Ore entries for <ore:blockIvoryPsi> :
+-<planarartifice:alkimium_ingot>
+Ore entries for <ore:oreXen> :
+-<xencraft:xen_ore>
+Ore entries for <ore:oreProsperity> :
+-<mysticalagriculture:prosperity_ore>
+Ore entries for <ore:ingotThaumiumPerditio> :
+-<thaumicrestoration:item_ingot:5>
+Ore entries for <ore:ingotThaumiumTerra> :
+-<thaumicrestoration:item_ingot:3>
+Ore entries for <ore:ingotThaumiumOrdo> :
+-<thaumicrestoration:item_ingot:4>
+Ore entries for <ore:ingotThaumiumAqua> :
+-<thaumicrestoration:item_ingot:2>
+Ore entries for <ore:ingotThauminite> :
+-<thaumicbases:thauminite_ingot>
+Ore entries for <ore:ingotThaumiumAer> :
+-<thaumicrestoration:item_ingot>
+Ore entries for <ore:ingotThaumiumIgnis> :
+-<thaumicrestoration:item_ingot:1>
+Ore entries for <ore:ingotEnderiumBase> :
+-<enderio:item_material:39>
+Ore entries for <ore:gemNjordAquamarineAwakened> :
+-<naturalpledge:resource:5>
 Ore entries for <ore:oc:adapter> :
 -<opencomputers:adapter>
 Ore entries for <ore:oc:assembler> :
@@ -13291,6 +13476,8 @@ Ore entries for <ore:oc:hdd3> :
 -<opencomputers:storage:4>
 Ore entries for <ore:hopper> :
 -<minecraft:hopper>
+Ore entries for <ore:glassBottle> :
+-<minecraft:glass_bottle>
 Ore entries for <ore:blockHopper> :
 -<minecraft:hopper>
 Ore entries for <ore:itemCoal> :
@@ -13329,8 +13516,6 @@ Ore entries for <ore:blockMagma> :
 -<minecraft:magma>
 Ore entries for <ore:blockNetherWart> :
 -<minecraft:nether_wart_block>
-Ore entries for <ore:blockBone> :
--<minecraft:bone_block>
 Ore entries for <ore:shulkerShell> :
 -<minecraft:shulker_shell>
 Ore entries for <ore:shulkerBox> :
@@ -13371,8 +13556,6 @@ Ore entries for <ore:blockLonsdaleite> :
 -<environmentaltech:lonsdaleite_paver>
 -<environmentaltech:lonsdaleite_bricks>
 -<environmentaltech:lonsdaleite_tiles>
-Ore entries for <ore:oreProsperity> :
--<mysticalagriculture:prosperity_ore>
 Ore entries for <ore:oreNetherProsperity> :
 -<mysticalagriculture:nether_prosperity_ore>
 Ore entries for <ore:oreEndProsperity> :
@@ -13393,11 +13576,6 @@ Ore entries for <ore:pneumaticGunAmmo> :
 -<pneumaticcraft:gun_ammo_incendiary>
 -<pneumaticcraft:gun_ammo_explosive>
 -<pneumaticcraft:gun_ammo_weighted>
-Ore entries for <ore:gemNjordAquamarine> :
--<naturalpledge:resource:4>
--<naturalpledge:resource:5>
-Ore entries for <ore:gemNjordAquamarineAwakened> :
--<naturalpledge:resource:5>
 Ore entries for <ore:plankThunder> :
 -<naturalpledge:thunder_planks:*>
 Ore entries for <ore:plankSeal> :
@@ -13411,18 +13589,6 @@ Ore entries for <ore:irisDirt> :
 Ore entries for <ore:seedsStems> :
 -<minecraft:melon_seeds>
 -<minecraft:pumpkin_seeds>
-Ore entries for <ore:ingotThaumiumAer> :
--<thaumicrestoration:item_ingot>
-Ore entries for <ore:ingotThaumiumIgnis> :
--<thaumicrestoration:item_ingot:1>
-Ore entries for <ore:ingotThaumiumAqua> :
--<thaumicrestoration:item_ingot:2>
-Ore entries for <ore:ingotThaumiumTerra> :
--<thaumicrestoration:item_ingot:3>
-Ore entries for <ore:ingotThaumiumOrdo> :
--<thaumicrestoration:item_ingot:4>
-Ore entries for <ore:ingotThaumiumPerditio> :
--<thaumicrestoration:item_ingot:5>
 Ore entries for <ore:plateThaumiumAer> :
 -<thaumicrestoration:item_plate>
 Ore entries for <ore:plateThaumiumIgnis> :
@@ -13435,10 +13601,10 @@ Ore entries for <ore:plateThaumiumOrdo> :
 -<thaumicrestoration:item_plate:4>
 Ore entries for <ore:plateThaumiumPerditio> :
 -<thaumicrestoration:item_plate:5>
+Ore entries for <ore:blockGravel> :
+-<minecraft:gravel>
 Ore entries for <ore:blockUnstable> :
 -<unstabletools:unstable_block>
-Ore entries for <ore:ingotEnderiumBase> :
--<enderio:item_material:39>
 Ore entries for <ore:blockQuicksilver> :
 -<thaumicbases:quicksilverblock>
 -<thaumicbases:quicksilverbrick>
@@ -13451,10 +13617,6 @@ Ore entries for <ore:bread> :
 -<xreliquary:glowing_bread>
 Ore entries for <ore:nuggetThauminite> :
 -<thaumicbases:nuggetthauminite>
-Ore entries for <ore:ingotThauminite> :
--<thaumicbases:thauminite_ingot>
-Ore entries for <ore:flint> :
--<minecraft:flint>
 Ore entries for <ore:plankGreatwood> :
 -<thaumcraft:plank_greatwood>
 Ore entries for <ore:tobbacoLeaves> :
