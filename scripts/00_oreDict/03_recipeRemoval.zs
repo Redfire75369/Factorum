@@ -80,11 +80,11 @@ recipes.remove(hashCrystal["Obsidian"]);
 
 /***** Clathrates *****/
 /* Pulverizer (Ores)[Input] */
-for key, ore in hashOre {
+/*for key, ore in hashOre {
 	for itemstack in ore.items {
 		mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
 	}
-}
+}*/
 /* (Clathrates)[Output] */
 for key, clathrate in hashClathrate {
 	for itemstack in clathrate.items {
@@ -94,7 +94,7 @@ for key, clathrate in hashClathrate {
 
 /***** Dusts *****/
 /* Grindstone, Sag Mill, Crusher, Squuezer, Enrichment Chamber, Manufactory, Grinder, Industrial Grinder Pulverizer (Ores)[Input] */
-for key, ore in hashOre {
+/*for key, ore in hashOre {
 	for itemstack in ore.items {
 		mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
 		mods.enderio.SagMill.removeRecipe(itemstack);
@@ -107,7 +107,7 @@ for key, ore in hashOre {
 		mods.techreborn.industrialGrinder.removeInputRecipe(itemstack);
 		mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
 	}
-}
+}*/
 
 /* Crusher, Grindstone, Crusher, Squeezer, Crusher, Manufactory, Grinder, Industrial Grinder (Dusts)[Input] */
 for key, dust in hashDust {
