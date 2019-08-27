@@ -303,9 +303,9 @@ recipes.replaceAllOccurences(<mysticalmechanics:gear_gold_on>, hashGear["Redston
 hashGear["Scented"].add(<extrabees:misc>);
 recipes.replaceAllOccurences(<extrabees:misc>, hashGear["Scented"]);
 
-hashGear["VoidMetal"].add(<jaopca:item_gearvoid>);
+hashGear["VoidMetal"].add(<mystgears:gear_void>);
 recipes.replaceAllOccurences(oreDict["gearVoid"], hashGear["VoidMetal"]);
-recipes.replaceAllOccurences(<jaopca:item_gearvoid>, hashGear["VoidMetal"]);
+recipes.replaceAllOccurences(<mystgears:gear_void>, hashGear["VoidMetal"]);
 
 if (!<ore:gearAluminum>.empty) {
     for item in oreDict["gearAluminum"].items {
@@ -500,7 +500,7 @@ if (!<ore:clumpAluminum>.empty) {
 }
 
 /***** Shards *****/
-(!<ore:shardAluminum>.empty) {
+if (!<ore:shardAluminum>.empty) {
     for item in oreDict["shardAluminum"].items {
         hashShard["Aluminium"].add(item);
     }

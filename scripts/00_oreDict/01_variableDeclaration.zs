@@ -299,7 +299,7 @@ val stringIngot = [
     "UraniumOxide",
     "VibrantAlloy",
     "VividAlloy",
-    "Void",
+    "VoidMetal",
     "Wub",
     "Xen",
     "Yellorium",
@@ -2131,7 +2131,7 @@ val stringDustSmall = [
     "Osmium",
     "Peridot",
     "Phosphorous",
-    "Photonium" 
+    "Photonium", 
     "Pigiron", 
     "Platinum",
     "Prismarine", 
@@ -2189,7 +2189,7 @@ val stringDustSmall = [
     "Wub", 
     "Yellorium",
     "YellowGarnet",
-    "Zinc"
+    "Zinc",
     "Zircaloy", 
     "Zirconium"
 //SILK_SORTING: END@SmallDust
@@ -2297,7 +2297,7 @@ for shard in stringShard {
     hashShard[shard] = oreDict["shard" ~ shard];
 }
 
-if /***** Ender IO *****/
+/***** Ender IO *****/
 global hashEnderIO as IOreDictEntry[string] = {} as IOreDictEntry[string];
 val stringEnderIO = [
 //SILK_SORTING: BEGIN@EnderIO

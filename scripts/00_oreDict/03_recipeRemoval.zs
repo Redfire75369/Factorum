@@ -99,7 +99,6 @@ for key, ore in hashOre {
 		mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
 		mods.enderio.SagMill.removeRecipe(itemstack);
 		mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
-		mods.integrateddynamics.MechanicalSqueezer
 		mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemstack);
 		mods.integrateddynamics.Squeezer.removeRecipe(itemstack);
 		mods.mekanism.enrichment.removeRecipe(itemstack);
@@ -116,9 +115,9 @@ for key, dust in hashDust {
 		mods.actuallyadditions.Crusher.removeRecipe(itemstack);
 		mods.astralsorcery.Grindstone.removeRecipe(itemstack);
 		mods.immersiveengineering.Crusher.removeRecipe(itemstack);
-		mods.integrateddynamics.MechanicalSqueezer.removRecipesWithOutput(itemstack);
+		mods.integrateddynamics.MechanicalSqueezer.removeRecipesWithOutput(itemstack);
 		mods.integrateddynamics.Squeezer.removeRecipesWithOutput(itemstack);
-		mods.mekanism.Crusher.removeRecipe(itemstack);
+		mods.mekanism.crusher.removeRecipe(itemstack);
 		mods.nuclearcraft.manufactory.removeRecipeWithOutput([itemstack]);
 		mods.techreborn.grinder.removeRecipe(itemstack);
 		mods.techreborn.industrialGrinder.removeRecipe(itemstack);

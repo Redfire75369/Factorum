@@ -1,412 +1,435 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
-<meta HTTP-EQUIV="Expires" CONTENT="-1">
-<link rel="shortcut icon" href="images/favicon.png">
-<link rel="icon" href="images/favicon.png">
-<title>ASUS Wireless Router RT-AC1200G+ - Blocking Page</title>
-<script type="text/JavaScript" src="/js/jquery.js"></script>
-<style>
-body{
-color:#FFF;
-font-family: Arial;
-}
-.wrapper{
-background:url(images/New_ui/login_bg.png) #283437 no-repeat;
-background-size: 1280px 1076px;
-background-position: center 0%;
-margin: 0px;
-}
-.title_name {
-font-size: 32px;
-color:#93D2D9;
-}
-.title_text{
-width:520px;
-}
-.prod_madelName{
-font-size: 26px;
-color:#fff;
-margin-left:78px;
-margin-top: 10px;
-}
-.login_img{
-width:43px;
-height:43px;
-background-image: url('images/New_ui/icon_titleName.png');
-background-repeat: no-repeat;
-}
-.p1{
-font-size: 16px;
-color:#fff;
-width: 480px;
-}
-.button{
-background-color:#279FD9;
-/*background:rgba(255,255,255,0.1);
-border: solid 1px #6e8385;*/
-border-radius: 4px ;
-transition: visibility 0s linear 0.218s,opacity 0.218s,background-color 0.218s;
-height: 68px;
-width: 300px;
-font-size: 28px;
-color:#fff;
-color:#000\9; /* IE6 IE7 IE8 */
-text-align: center;
-float:right;
-margin:25px 0 0 78px;
-line-height:68px;
-}
-.form_input{
-background-color:rgba(255,255,255,0.2);
-border-radius: 4px;
-padding:26px 22px;
-width: 480px;
-border: 0;
-height:25px;
-color:#fff;
-color:#000\9; /* IE6 IE7 IE8 */
-font-size:28px
-}
-.nologin{
-margin:10px 0px 0px 78px;
-background-color:rgba(255,255,255,0.2);
-padding:20px;
-line-height:36px;
-border-radius: 5px;
-width: 600px;
-border: 0;
-color:#fff;
-color:#000\9; /* IE6 IE7 IE8 */
-font-size: 18px;
-}
-.div_table{
-display:table;
-}
-.div_tr{
-display:table-row;
-}
-.div_td{
-display:table-cell;
-}
-.title_gap{
-margin:10px 0px 0px 78px;
-}
-.img_gap{
-padding-right:30px;
-vertical-align:middle;
-}
-.password_gap{
-margin:30px 0px 0px 78px;
-}
-.error_hint{
-color: rgb(255, 204, 0);
-margin:10px 0px -10px 78px;
-font-size: 18px;
-font-weight: bolder;
-}
-.main_field_gap{
-margin:100px auto 0;
-}
-ul{
-margin: 0;
-}
-li{
-margin: 10px 0;
-}
-#wanLink{
-cursor: pointer;
-}
-.button_background{
-background-color: transparent;
-}
-.tm_logo{
-background:url('images/New_ui/tm_logo_1.png') no-repeat;
-width:487px;
-height:90px;
-background-size: 80%;
-margin-left: -20px;
-}
-.desc_info{
-font-weight:bold;
-}
-#tm_block{
-margin: 0 20px;
-}
-/*for mobile device*/
-@media screen and (max-width: 1000px){
-.title_name {
-font-size: 1.2em;
-color:#93d2d9;
-margin-left:15px;
-}
-.prod_madelName{
-font-size: 1.2em;
-margin-left: 15px;
-}
-.p1{
-font-size: 16px;
-width:100%;
-}
-.login_img{
-background-size: 75%;
-}
-.title_text{
-width: 100%;
-}
-.form_input{
-padding:13px 11px;
-width: 100%;
-height:25px;
-font-size:16px
-}
-.button{
-height: 50px;
-width: 100%;
-font-size: 16px;
-text-align: center;
-float:right;
-margin: 25px -30px 0 0;
-line-height:50px;
-padding: 0 10px;
-}
-.nologin{
-margin-left:10px;
-padding:5px;
-line-height:18px;
-width: 100%;
-font-size:14px;
-}
-.error_hint{
-margin-left:10px;
-}
-.main_field_gap{
-width:80%;
-margin:30px 0 0 15px;
-/*margin:30px auto 0;*/
-}
-.title_gap{
-margin-left:15px;
-}
-.password_gap{
-margin-left:15px;
-}
-.img_gap{
-padding-right:0;
-vertical-align:middle;
-}
-ul{
-margin-left:-20px;
-}
-li{
-margin: 10px 0;
-}
-.tm_logo{
-width: 400px;
-background-repeat: no-repeat;
-background-size: 100%;
-}
-}
-</style>
-<script type="text/javascript">
-var bwdpi_support = ('mssid 2.4G 5G usbX1 switchctrl manual_stb WIFI_LOGO update meoVoda movistarTriple reboot_schedule ipv6 ipv6pt PARENTAL2 loclist pptpd printer modem media diskutility HTTPS ssh vpnc psta wl6 optimize_xbox user_low_rssi tcode usericon cfg_wps_btn realip bcmwifi'.search('bwdpi') == -1) ? false : true;
-var casenum = '';
-var flag = '';
-var block_info = '';
-if(block_info != "")
-block_info = JSON.parse(block_info);
-var category_info = [ ["Parental Controls", "1", "Adult", "Pornography", "Sites with profane or vulgar content generally considered inappropriate for minors; includes sites that offer erotic content or ads for sexual services, but excludes sites with sexually explicit images."],
-["Parental Controls", "2", "Adult", "Pornography", "Sites that provide information about or software for sharing and transferring files related to child pornography."],
-["Parental Controls", "3", "Adult", "Pornography", "Sites with sexually explicit imagery designed for sexual arousal, including sites that offer sexual services."],
-["Parental Controls", "4", "Adult", "Pornography", "Sites with or without explicit images that discuss reproduction, sexuality, birth control, sexually transmitted disease, safe sex, or coping with sexual trauma."],
-["Parental Controls", "5", "Adult", "Pornography", "Sites that sell swimsuits or intimate apparel with images of models wearing them."],
-["Parental Controls", "6", "Adult", "Pornography", "Sites showing nude or partially nude images that are generally considered artistic, not vulgar or pornographic."],
-["Parental Controls", "8", "Adult", "Pornography", "Sites that promote, sell, or provide information about alcohol or tobacco products."],
-["Parental Controls", "9", "Adult", "Illegal and Violence", "Sites that promote and discuss how to perpetrate nonviolent crimes, including burglary, fraud, intellectual property theft, and plagiarism; includes sites that sell plagiarized or stolen materials."],
-["Parental Controls", "10", "Adult", "Illegal and Violence", "Sites with content that is gratuitously offensive and shocking; includes sites that show extreme forms of body modification or mutilation and animal cruelty."],
-["Parental Controls", "14", "Adult", "Illegal and Violence", "Sites that promote hate and violence; includes sites that espouse prejudice against a social group, extremely violent and dangerous activities, mutilation and gore, or the creation of destructive devices."],
-["Parental Controls", "15", "Adult", "Illegal and Violence", "Sites about weapons, including their accessories and use; excludes sites about military institutions or sites that discuss weapons as sporting or recreational equipment."],
-["Parental Controls", "16", "Adult", "Illegal and Violence", "Sites that promote, encourage, or discuss abortion, including sites that cover moral or political views on abortion."],
-["Parental Controls", "25", "Adult", "Illegal and Violence", "Sites that promote, glamorize, supply, sell, or explain how to use illicit or illegal intoxicants."],
-["Parental Controls", "26", "Adult", "Illegal and Violence", "Sites that discuss the cultivation, use, or preparation of marijuana, or sell related paraphernalia."],
-["Parental Controls", "11", "Adult", "Gambling", "Sites that promote or provide information on gambling, including online gambling sites."],
-["Parental Controls", "24", "Instant Message and Communication", "Internet Telephony", "Sites that provide web-based services or downloadable software for Voice over Internet Protocol (VoIP) calls."],
-["Parental Controls", "51", "Instant Message and Communication", "Instant Messaging", "Sites that send malicious tracking cookies to visiting web browsers."],
-["Parental Controls", "53", "Instant Message and Communication", "Virtual Community", "Sites that provide software for bypassing computer security systems."],
-["Parental Controls", "89", "Instant Message and Communication", "Virtual Community", "Malicious Domain or website, Domains that host malicious payloads."],
-["Parental Controls", "42", "Instant Message and Communication", "Blog", "Content servers, image servers, or sites used to gather, process, and present data and data analysis, including web analytics tools and network monitors."],
-["Parental Controls", "56", "P2P and File Transfer", "File transfer", "Sites that provide downloadable 'joke' software, including applications that can unsettle users."],
-["Parental Controls", "70", "P2P and File Transfer", "File transfer", "Sites that use scraped or copied content to pollute search engines with redundant and generally unwanted results."],
-["Parental Controls", "71", "P2P and File Transfer", "File transfer", "Sites dedicated to displaying advertisements, including sites used to display banner or popup advertisement."],
-["Parental Controls", "57", "P2P and File Transfer", "Peer to Peer", "Sites that distribute password cracking software."],
-["Parental Controls", "69", "Streaming and Entertainment", "Media Streaming", "Sites that provide tools for remotely monitoring and controlling computers."],
-["Parental Controls", "23", "Streaming and Entertainment", "Internet Radio and TV", "Sites that primarily provide streaming radio or TV programming; excludes sites that provide other kinds of streaming content."],
-["Home Protection", "91", "Anti-Trojan detecting and blocked", "", "Anti-Trojan detecting and blocked."],
-["Home Protection", "39", "Malicious site blocked", "", "Sites about bypassing proxy servers or web filtering systems, including sites that provide tools for that purpose."],
-["Home Protection", "73", "Malicious site blocked", "", "Sites that contain potentially harmful downloads."],
-["Home Protection", "74", "Malicious site blocked", "", "Sites with downloads that gather and transmit data from computers owned by unsuspecting users."],
-["Home Protection", "75", "Malicious site blocked", "", "Fraudulent sites that mimic legitimate sites to gather sensitive information, such as usernames and passwords."],
-["Home Protection", "76", "Malicious site blocked", "", "Sites whose addresses have been found in spam messages."],
-["Home Protection", "77", "Malicious site blocked", "", "Sites with downloads that display advertisements or other promotional content; includes sites that install browser helper objects."],
-["Home Protection", "78", "Malicious site blocked", "", "Sites used by malicious programs, including sites used to host upgrades or store stolen information."],
-["Home Protection", "79", "Malicious site blocked", "", "Sites that directly or indirectly facilitate the distribution of malicious software or source code."],
-["Home Protection", "80", "Malicious site blocked", "", "Sites that send malicious tracking cookies to visiting web browsers."],
-["Home Protection", "81", "Malicious site blocked", "", "Sites with downloads that dial into other networks without user consent."],
-["Home Protection", "82", "Malicious site blocked", "", "Sites that provide software for bypassing computer security systems."],
-["Home Protection", "83", "Malicious site blocked", "", "Sites that provide downloadable 'joke' software, including applications that can unsettle users."],
-["Home Protection", "84", "Malicious site blocked", "", "Sites that distribute password cracking software."],
-["Home Protection", "85", "Malicious site blocked", "", "Sites that provide tools for remotely monitoring and controlling computers."],
-["Home Protection", "86", "Malicious site blocked", "", "Sites that use scraped or copied content to pollute search engines with redundant and generally unwanted results."],
-["Home Protection", "88", "Malicious site blocked", "", "Sites dedicated to displaying advertisements, including sites used to display banner or popup advertisement."],
-["Home Protection", "92", "Malicious site blocked", "", "Malicious Domain or website, Domains that host malicious payloads."],
-["Home Protection", "94", "Malicious site blocked", "", "Sites that attempt to defraud a person or group after first gaining their confidence, used in the classical sense of trust."],
-["Home Protection", "95", "Malicious site blocked", "", "Sites that directly or indirectly facilitate the distribution of ransomware."]
-];
-var target_info = {
-url: "",
-category_id: "",
-category_type: "",
-content_category: "",
-desc: ""
-}
-function initial(){
-get_target_info();
-show_information();
-}
-function get_target_info(){
-if(casenum != ""){ //for AiProtection
-target_info.url = block_info[1];
-target_info.category_id = block_info[2];
-get_category_info();
-}
-else{ //for Parental Controls (Time Scheduling)
-target_info.desc = "This device is blocked to access the internet at this time.";
-}
-}
-function get_category_info(){
-var cat_id = target_info.category_id;
-var category_string = "";
-for(i=0;i< category_info.length;i++){
-if(category_info[i][1] == cat_id){
-category_string = category_info[i][2];
-if(category_info[i][3] != ""){
-category_string += " - " + category_info[i][3];
-}
-target_info.category_type = category_info[i][0];
-target_info.content_category = category_string;
-target_info.desc = category_info[i][4];
-}
-}
-}
-function show_information(){
-var code = "";
-var code_suggestion = "";
-var code_title = "";
-var parental_string = "";
-code = "<ul>";
-code += "<li><div><span class='desc_info'>Description:</span><br>" + target_info.desc + "</div></li>";
-if(casenum != "")
-code += "<li><div><span class='desc_info'>URL: </span>" + target_info.url +"</div></li>";
-if(target_info.category_type == "Parental Controls")
-code += "<li><div><span class='desc_info'>Content Category :</span>" + target_info.content_category + "</div></li>";
-code += "</ul>";
-document.getElementById('detail_info').innerHTML = code;
-if(target_info.category_type == "Parental Controls"){ //Webs Apps filter
-code_title = "<div class='er_title' style='height:auto;'>The web page category is filtered</div>";
-code_suggestion = "<ul>";
-code_suggestion += "<li><span>If you are a manager and still want to visit this website, please go to Parental Controls for configuration change.</span></li>";
-code_suggestion += "<li><span>If you are a client and have any problems, please contact your manager.</span></li>";
-code_suggestion += '<li>Consider the website as the other category?<a href="https://global.sitesafety.trendmicro.com/index.php" target="_blank">Reclassify request to Trend Micro</a></li>';
-code_suggestion += "</ul>";
-document.getElementById('tm_block').style.display = "none";
-$("#go_btn").click(function(){
-location.href = "AiProtection_WebProtector.asp";
-});
-document.getElementById('go_btn').style.display = "";
-}
-else if(target_info.category_type == "Home Protection"){
-code_title = "<div class='er_title' style='height:auto;'>Warning! The website contains malware. Visiting this site may harm your computer</div>"//untranslated string
-code_suggestion = "<ul>";
-code_suggestion += "<li>If you are a manager and consider to disable this protection, please go to Home Protection page for configuration.</li>";//untranslated string
-code_suggestion += '<li>Consider the website as safe?<a href="https://global.sitesafety.trendmicro.com/index.php" target="_blank">Report to Trend Micro</a></li>';
-code_suggestion += "</ul>";
-document.getElementById('tm_block').style.display = "";
-$("#go_btn").click(function(){
-location.href = "AiProtection_HomeProtection.asp";
-});
-document.getElementById('go_btn').style.display = "";
-}
-else if(flag != ""){
-code_title = "<div class='er_title' style='height:auto;'>You failed to access to the web page that you want to view.</div>"//untranslated string
-document.getElementById('main_reason').innerHTML = "Reason for failed connection";
-code = "";
-code += "<div>The total traffic reaches limited. Internet connection was cut off temporarily.</div>";
-document.getElementById('detail_info').innerHTML = code;
-code_suggestion = "<ul>";
-code_suggestion += "<li><span>Disable cut-off Internet function in traffic limiter to restore Internet connection.</span></li>";//untranslated string
-code_suggestion += "<li><span>Raise max value of cut-off Internet.</span></li>"; //untranslated string
-code_suggestion += "</ul>";
-$("#go_btn").click(function(){
-location.href = "AdaptiveQoS_TrafficLimiter.asp";
-});
-document.getElementById('go_btn').style.display = "";
-}
-else{ //for Parental Control(Time Scheduling)
-code_title = "<div class='er_title' style='height:auto;'>Warning! The device can’t access the internet now.</div>"
-code_suggestion = "<ul>";
-if(bwdpi_support)
-parental_string = "Time Scheduling";
-else
-parental_string = "Parental Controls";
-code_suggestion += "<li>If you are a manager and want to access the internet, please go to "+ parental_string +" for configuration change.</li>";
-code_suggestion += "<li>If you are a client and have any problems, please contact your manager.</li>";
-code_suggestion += "</ul>";
-$("#go_btn").click(function(){
-location.href = "ParentalControl.asp";
-});
-document.getElementById('go_btn').style.display = "";
-document.getElementById('tm_block').style.display = "none";
-}
-document.getElementById('page_title').innerHTML = code_title;
-document.getElementById('suggestion').innerHTML = code_suggestion;
-}
-</script>
-</head>
-<body class="wrapper" onload="initial();">
-<div class="div_table main_field_gap">
-<div class="title_name">
-<div class="div_td img_gap">
-<div class="login_img"></div>
-</div>
-<div id="page_title" class="div_td title_text"></div>
-</div>
-<div class="prod_madelName">RT-AC1200G+</div>
-<div id="main_reason" class="p1 title_gap">Detailed informations:</div>
-<div ></div>
-<div>
-<div class="p1 title_gap"></div>
-<div class="nologin">
-<div id="detail_info"></div>
-</div>
-</div>
-<div class="p1 title_gap">We suggest you</div>
-<div>
-<div class="p1 title_gap"></div>
-<div class="nologin">
-<div id="case_content"></div>
-<div id="suggestion"></div>
-<div id="tm_block" style="display:none">
-<div>For more completed security protection for your endpoint sides, Trend Micro offers you a more advanced home security solution. Please click the <a href="http://bit.do/bcLqZ" target="_blank">download</a> link for the free trial or <a href="http://www.trendmicro.com" target="_blank">visit the site</a> online scan service.</div>
-<div class="tm_logo"></div>
-</div>
-</div>
-</div>
-<div id="go_btn" class='button' style="display:none;">GO</div>
-</div>
-</body>
-</html>
+[
+  {
+    "name": "brandon3055", "ign": "brandon3055", "contribution": "Creator",
+    "details": "Hello! I am the creator of Draconic Evolution and i really hope you are enjoying the mod! The following people have all helped draconic evolution in one way or another and i am eternally grateful for their support! I am also a supporter of the Lolnet Minecraft Community!",
+    "website": "http://www.brandon3055.com/", "contributionLevel": 3
+  }, {
+  "name": "GreatOrator", "ign": "GreatOrator", "contribution": "All the things!!! and now a Patreon",
+  "details": "GreatOrator has been my BIGGEST supporter from day 1! He has helped with everything from feature ideas and textures to to PR and Web design. Draconic Evolution would not be what it is today without him. Thank You GreatOrator! Also a member of the lolnet community!",
+  "website": "http://www.tolkiencraft.com/", "contributionLevel": 3
+}, {
+  "name": "Sn0wShepherd", "ign": "snowshepherd", "contribution": "Texture and Model creator",
+  "details": "Sn0w is responsible fore all of the new 16x textures added in version 1.0.2. As well as all of the new 3D tool and armor models.",
+  "website": "http://www.aleciashepherd.com/", "contributionLevel": 3
+}, {
+  "name": "Hachiseiko", "ign": "Hachiseiko", "contribution": "Texture creator",
+  "details": "Hachiseiko created the original textures for the Draconic Evolution tools and weapons.", "website": "",
+  "contributionLevel": 0
+}, {
+  "name": "Skeletonpunk", "ign": "Skeletonpunk", "contribution": "Model creator",
+  "details": "Skeletonpunk created the original 3D armor models that were in use for a short period before being replaced by models created by Sn0wShepherd. Although they weren't around long i still appreciate the work that went into them.",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "covers1624", "ign": "covers1624", "contribution": "Maintains Code Chicken Lib",
+  "details": "Covers is an awesome guy! He didnt just give me permission to use CCL he actively insisted because its awesome! He also tells me when im doing things wrong and in exchange i am teaching him basic math. Also a member of the lolnet community!",
+  "website": "https://twitter.com/covers1624", "contributionLevel": 3
+}, {
+  "name": "TheMattaBase", "ign": "TheMattaBase", "contribution": "Friend of brandon3055", "details": "[UNLISTED]",
+  "website": "", "contributionLevel": 3
+}, {
+  "name": "Jake_Evans", "ign": "Jake_Evans", "contribution": "", "details": "[UNLISTED]", "website": "",
+  "contributionLevel": 3
+}, {
+  "name": "Gigabit101", "ign": "Gigabit101", "contribution": "Friend of brandon3055",
+  "details": "[UNLISTED] Gigabti404", "website": "", "contributionLevel": 3
+}, {
+  "name": "dezil_nz", "ign": "dezil_nz", "contribution": "One of the founders of the lolnet minecraft comminity!",
+  "details": "[UNLISTED]", "website": "", "contributionLevel": 3
+}, {
+  "name": "LX_Gaming", "ign": "LX_Gaming", "contribution": "Lolnet Staff", "details": "[UNLISTED]", "website": "",
+  "contributionLevel": 3
+}, {
+  "name": "Direwolf20", "ign": "direwolf20", "contribution": "Awesome Person",
+  "details": "Direwolf20's videos are the reason i first started playing modded minecraft soo long ago. This of course eventually lead to me creating Draconic Evolution and all my other mods. So in a way he is responsible for the existance my mods. Thanks Dire!",
+  "website": "https://www.youtube.com/user/direwolf20", "contributionLevel": 3
+}, {
+  "name": "Soaryn", "ign": "Soaryn", "contribution": "Awesome Person",
+  "details": "Soaryn inspires me every day to continue working on my mods and releasing new update by providing a perfect example of what NOT to do! Thanks Soaryn!",
+  "website": "", "contributionLevel": 3
+}, {
+  "name": "Trinity4261", "ign": "Trinity4261", "contribution": "My Brother",
+  "details": "[UNLISTED] He wanted wings so why not? He is my brother after all.", "website": "", "contributionLevel": 3
+}, {
+  "name": "texcubsf", "ign": "texcubsf", "contribution": "Patreon",
+  "details": "robertwsf is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "pxoxd", "ign": "pxoxd", "contribution": "Patreon",
+  "details": "pxoxd is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Antric83", "ign": "Antric83", "contribution": "Patreon",
+  "details": "Antric83 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "FaMatrix", "ign": "FaMatrix", "contribution": "Patreon",
+  "details": "FaMatrix is currently supporting me via Patreon, He is also an Awesome member of Lolnet!",
+  "website": "lolnet.co.nz", "contributionLevel": 1
+}, {
+  "name": "AmberSienna", "ign": "AmberSienna", "contribution": "Patreon",
+  "details": "AmberSienna is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Teraphina", "ign": "Teraphina", "contribution": "Patreon",
+  "details": "Teraphina is currently supporting me via Patreon. Teraphina was also one of the beta testers for Draconic Evolution via Tolkiencraft",
+  "website": "disciplesoftherockministries.org", "contributionLevel": 1
+}, {
+  "name": "Soulrift", "ign": "Soulrift", "contribution": "Patreon",
+  "details": "Soulrift is currently supporting me via Patreon for which i am very grateful!",
+  "website": "https://www.twitch.tv/soulriftx", "contributionLevel": 1
+}, {
+  "name": "Drekryan", "ign": "Drekryan", "contribution": "Patreon",
+  "details": "Drekryan is currently supporting me via Patreon for which i am very grateful!",
+  "website": "http://twitter.com/dreklamb", "contributionLevel": 1
+}, {
+  "name": "xSquibbyx", "ign": "xSquibbyx", "contribution": "Patreon",
+  "details": "xSquibbyx is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "The_Swordsmen", "ign": "The_Swordsmen", "contribution": "Patreon",
+  "details": "The_Swordsmen is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "EricBrian", "ign": "EricBrian", "contribution": "Patreon",
+  "details": "EricBrian is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "ModAPI", "ign": "ModAPI", "contribution": "Patreon",
+  "details": "ModAPI is currently supporting me via Patreon for which i am very grateful!",
+  "website": "https://twitter.com/AmathewsGaming", "contributionLevel": 1
+}, {
+  "name": "Mikepet", "ign": "Mikepet", "contribution": "Patreon",
+  "details": "Mikepet is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Halacon", "ign": "halacon", "contribution": "Patreon",
+  "details": "Halacon is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Nick_J_M", "ign": "Nick_J_M", "contribution": "Patreon",
+  "details": "Nick is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Edward", "ign": "WintrAU", "contribution": "Patreon",
+  "details": "Edward is currently supporting me via Patreon for which i am very grateful! He is also a member of the Lolnet Minecraft community.",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Der DracheTV", "ign": "Der1Drache", "contribution": "Patreon",
+  "details": "Der1Drache is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 0
+}, {
+  "name": "WolufHD", "ign": "WolufHD", "contribution": "Patreon",
+  "details": "WolufHD is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Morpheus1101", "ign": "Morpheus1101", "contribution": "Patreon",
+  "details": "Morpheus1101 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Duomaz", "ign": "Duomaz", "contribution": "Patreon",
+  "details": "Duomaz is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Zudakai", "ign": "Zudakai", "contribution": "Patreon",
+  "details": "Zudakai is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Nexus_Chris", "ign": "Nexus_Chris", "contribution": "Patreon",
+  "details": "Nexus_Chris is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Snakemgr12", "ign": "Snakemgr12", "contribution": "Patreon",
+  "details": "Snakemgr12 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Freman_Scum", "ign": "JonathanKish", "contribution": "Patreon",
+  "details": "Freman_Scum is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Mhoku", "ign": "Mhoku_", "contribution": "Patreon",
+  "details": "Mhoku is currently supporting me via Patreon for which i am very grateful!",
+  "website": "https://twitter.com/Mhoku_", "contributionLevel": 1
+}, {
+  "name": "Keith Wagner", "ign": "Om3gagam3r", "contribution": "Patreon",
+  "details": "Keith Wagner is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Aurelio", "ign": "AureIio", "contribution": "Patreon",
+  "details": "Aurelio is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "awk1995", "ign": "awk1995", "contribution": "Patreon",
+  "details": "awk1995 is currently supporting me via Patreon for which i am very grateful!",
+  "website": "https://www.youtube.com/channel/UCqZw7qE3zPgvJY0gDR9Yzxg", "contributionLevel": 1
+}, {
+  "name": "boredi", "ign": "boredi", "contribution": "Patreon",
+  "details": "boredi is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "Jason C", "ign": "DeadHunter", "contribution": "Patreon",
+  "details": "Jason C is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "stjern82", "ign": "stjern82", "contribution": "Patreon",
+  "details": "stjern82 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+}, {
+  "name": "King_Kookie", "ign": "King_Kookie_", "contribution": "Patreon",
+  "details": "King_Kookie is currently supporting me via Patreon for which i am very grateful! Also helped track down an impersonator.",
+  "website": "", "contributionLevel": 3
+}, {
+  "name": "lucid4", "ign": "lucid4", "contribution": "Patreon",
+  "details": "lucid4 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+ {
+  "name": "paddycboy", "ign": "paddycboy", "contribution": "Patreon",
+  "details": "Paddycboy is currently supporting me via Patreon for which i am very grateful!", "website": "twitter.com/spectatorpaddy",
+  "contributionLevel": 1
+ },
+  {
+  "name": "Kris K", "ign": "Krystal_Disc", "contribution": "Patreon",
+  "details": "Kris K is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+  {
+  "name": "Connor Love", "ign": "connorlove9", "contribution": "Patreon",
+  "details": "Connor is currently supporting me via Patreon for which i am very grateful!", "website": "https://www.twitch.tv/connorlove9",
+  "contributionLevel": 1
+ },
+  {
+  "name": "Quarnds", "ign": "Quarnds", "contribution": "Patreon",
+  "details": "Quarnds is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+ {
+  "name": "xtrux", "ign": "xtrux", "contribution": "Patreon",
+  "details": "xtrux is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+ {
+  "name": "Andrew", "ign": "ItzHDGaming", "contribution": "Patreon",
+  "details": "Andrew is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+ {
+  "name": "TanLorik4", "ign": "TanLorik4", "contribution": "Patreon",
+  "details": "[UNLISTED]", "website": "",
+  "contributionLevel": 1
+ },
+ {
+  "name": "_apollox_", "ign": "_apollox_", "contribution": "Patreon",
+  "details": "ApolloX is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 0
+ },
 
+
+
+ {
+  "name": "OneEyeMaker", "ign": "OneEyeMaker", "contribution": "Code Contributor",
+  "details": "OneEyeMaker is responsible for the config overhall in 1.0.2f", "website": "", "contributionLevel": 1
+}, {
+  "name": "KWPUGH", "ign": "KWPUGH", "contribution": "Donator",
+  "details": "I would just like to say thankyou to KWPUGH for supporting the development of Draconic Evolution.",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Straymaverick", "ign": "Straymaverick", "contribution": "Cool streamer guy!!",
+  "details": "[UNLISTED]", "website": "", "contributionLevel": 3
+}, {
+  "name": "mikhaila666", "ign": "mikhaila666", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 2
+}, {
+  "name": "Rustynator", "ign": "Rustynator", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "SalTDS", "ign": "SalTDS", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "uradox", "ign": "uradox", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "Rohdon", "ign": "Rohdon", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "ArcaneAscension", "ign": "ArcaneAscension", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "soul_lighter", "ign": "soul_lighter", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "Haigen", "ign": "Haigen", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "modulateddreams", "ign": "modulateddreams", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "ChickenMobile", "ign": "ChickenMobile", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "Handyman_Sam", "ign": "Handyman_Sam", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "jarakii4", "ign": "jarakii4", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "kristyellen", "ign": "kristyellen", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "willo33", "ign": "willo33", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "123zane321", "ign": "123zane321", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "CrowbarJr", "ign": "CrowbarJr", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "Fluro_", "ign": "Fluro_", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "OnyxSentinel04", "ign": "OnyxSentinel04", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "raider_880", "ign": "raider_880", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "deamonbite", "ign": "deamonbite", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "Skittzman", "ign": "Skittzman", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "Skittzman", "ign": "Skittzman", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "Willo33", "ign": "Willo33", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2017 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 0
+}, {
+  "name": "44shades44", "ign": "44shades44", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Dr_Teath", "ign": "Dr_Teath", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "fwb2700", "ign": "fwb2700", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "rhodesy523", "ign": "rhodesy523", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Waylandor", "ign": "Waylandor", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "alizdor", "ign": "alizdor", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "yampertx", "ign": "yampertx", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "raider880", "ign": "raider880", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Glitchunter", "ign": "Glitchunter", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "MuadDib912", "ign": "MuadDib912", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Oztin", "ign": "Oztin", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Sarkazo", "ign": "Sarkazo", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "MJW87", "ign": "MJW87", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Dobsonium", "ign": "Dobsonium", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "chocofish31", "ign": "chocofish31", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Dingasm", "ign": "Dingasm", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Microjet", "ign": "Microjet", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "scurry21", "ign": "scurry21", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "anarki99nz", "ign": "anarki99nz", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Cluracan", "ign": "Cluracan", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Deathnz1", "ign": "Deathnz1", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Ae0lian", "ign": "Ae0lian", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Death4999901", "ign": "Death4999901", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "Igneel32", "ign": "Igneel32", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "StabbyInc", "ign": "StabbyInc", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}, {
+  "name": "xElementzx", "ign": "xElementzx", "contribution": "lolnet Badge Enabled",
+  "details": "[UNLISTED] This user contributed to Lolnet during the 2018 donation drive. Lolnet is a large Minecraft community that i support. Check them out at lolnet.co.nz",
+  "website": "", "contributionLevel": 1
+}
+]
