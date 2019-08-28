@@ -1,1 +1,17 @@
-crafttweaker_dump/tree3.html linguist-documentation=false
+*.java  text
+*.xml   text
+*.html  text
+*.md    text
+*.txt   text
+*.properties text
+*.zs    text
+*.log   text
+
+*.png   -text
+*.ogg   -text
+*.zip   -text
+*.jar   -text
+
+crafttweaker_dump/* linguist-generated=true
+dumps/* linguist-generated=true
+*.log linguist-generated=true
