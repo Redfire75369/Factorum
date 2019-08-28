@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   This section is used to track changes to a yet not specified build of the pack.
   Add all not yet "built" changes here.
 -->
+## [v0.0.0-pre.1+build.10] - 28/08/19 **PR**
 ### Added
 - Mods: Avaritia's Complement;version 1.12.2-1.2a
 - Mods: Advanced Lifting Methods; version 1.12.2-1.0.0
@@ -112,7 +113,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Mekanism JEI Fix
 - Mods: OpenBlocks Elevators
 
-## [v0.0.0-pre.1+build.9] - 2019-08-04 **PR**
+## [v0.0.0-pre.1+build.9] - 04-08-2019 **PR**
 ### Added
 - Mods: BeeBetterAtBees; version 1.12.2-2.0.3
 - Mods: Embers Rekindled; version 1.13-hotfix2
@@ -221,7 +222,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: JEI Bees
 - Quests: All quests and all chapters
 
-## [v0.0.0-pre.1+build.8] - 2019-07-28 **PR**
+## [v0.0.0-pre.1+build.8] - 28-07-2019 **PR**
 ### Added
 - Mods: [SBM] Baggable Mobs; version 1.12.2-1.0.0b20190122172253
 - Mods: AE2 Wireless Terminal Library; version 1.12.2-1.0.30
@@ -244,7 +245,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Extra Utilities 2
 - Mods: Too Many Efficiency Losses
 
-## [v0.0.0-pre.1+build.7] - 2019-07-27 **PR**
+## [v0.0.0-pre.1+build.7] - 27-07-2019 **PR**
 ### Added
 - Mods: AE2 Stuff; version 0.7.0.4-mc1.12.2
 - Quests: Added quest **xxx** for quest "Tier 4 Items" in chapter "Resource Generation"
@@ -261,7 +262,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Simple Generators
 - Mods: Simple Storage Network
 
-## [v0.0.0-pre.1+build.6] - 2019-07-20 **PR**
+## [v0.0.0-pre.1+build.6] - 20-07-2019 **PR**
 ### Added
 - Mods: Better Questing - Standard Expansion; version 3.4.159
 - Mods: Caliper; version 1.12.2-1.1.44
@@ -277,7 +278,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 ### Removed
 - Scripts: JEI removal script
 
-## [v0.0.0-pre.1+build.5] - 2019-07-10 **PR**
+## [v0.0.0-pre.1+build.5] - 10-07-2019 **PR**
 ### Added
 - Scripts: JEI removal script
 - Scripts: Variables for new ore dictionary entries
@@ -295,7 +296,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Thermal Innovation; updated to 1.12.2-0.3.3.12
 - Mods: Unlimited Chisel Works; updated to 0.2.2
 
-## [v0.0.0-pre.1+build.4] - 2019-07-04 **PR**
+## [v0.0.0-pre.1+build.4] - 04-07-2019 **PR**
 ### Added
 - Mods: CompactStorage; version 3.1-12
 - Mods: Ender Storage; version 1.12.2-2.4.5.135
@@ -443,6 +444,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Yoyos; version 1.12.2-1.2.2.20
 
 [Unreleased]: https://github.com/Redfire75369/FactorumUltimationExpert/compare/edfb929afa607c6a0f814936b0b02b371a752c99...HEAD
+[v0.0.0-pre.1+build.10]: 
 [v0.0.0-pre.1+build.9]: https://github.com/Redfire75369/FactorumUltimationExpert/compare/70b27c364d8307650206b9123f521f0def9c2bc5...edfb929afa607c6a0f814936b0b02b371a752c99
 [v0.0.0-pre.1+build.8]: https://github.com/Redfire75369/FactorumUltimationExpert/compare/c26fb98adcaa51215ede33990aed4c241eb7a4cb...70b27c364d8307650206b9123f521f0def9c2bc5
 [v0.0.0-pre.1+build.7]: https://github.com/Redfire75369/FactorumUltimationExpert/compare/fdd2137708dedaab8217d9bbaa8e93ff5b3dfa65...c26fb98adcaa51215ede33990aed4c241eb7a4cb
