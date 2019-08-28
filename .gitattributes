@@ -12,6 +12,6 @@
 *.zip   -text
 *.jar   -text
 
-crafttweaker_dump/* linguist-generated=true
-dumps/* linguist-generated=true
+crafttweaker_dump/*.* linguist-generated=true
+dumps/*.* linguist-generated=true
 *.log linguist-generated=true
