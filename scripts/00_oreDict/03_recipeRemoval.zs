@@ -6,9 +6,11 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 /***** Ores *****/
-/* Combiner (Dusts)[Input] (Ores)[Output] */
+/* Input: */
+
+/* Output: Combiner */
 for key, ore in hashOre {
-	if (hashDust.contains(key)) {
+	if (hashDust.contains(key) {
 		for itemstack in ore.items {
 			mods.mekanism.combiner.removeRecipe(itemstack);
 		}
@@ -16,7 +18,9 @@ for key, ore in hashOre {
 }
 
 /***** Clusters *****/
-/* Crucible (Ores)[Input] (Clusters)[Output] */
+/* Input: */
+
+/* Output: Crucible */
 for key, cluster in hashCluster {
 	if (hashOre.contains(key)) {
 		for itemstack in cluster.items {
@@ -26,30 +30,46 @@ for key, cluster in hashCluster {
 }
 
 /***** Ingots *****/
-/* Induction Smelter, Redstone Furnace (Ores)[Input] (Ingots)[Output] */
-for key, ore in hashOre {
-	if (hashIngot.contains(key)) {
-		for itemstack in ore.items {
+/* Crafting */
+for key, ingot in hashIngot {
+	if (hashOre.contains(key)) {
+		recipes.removeShapeless(ingot, [hashOre[key], hashDust["Pyrotheum"]]);
+	if (hashDust.contains(key)) {
+		recipes.removeShapeless(ingot, [hashOre[key], hashDust["Petrotheum"], hashDust["Pyrotheum"]]);
+	}
+	if (key=="BaseEssence"|key=="Blutonium"|key=="Bronze"|key=="CrystalMatrix"|key=="EbonyPsi"|key=="Inferium"|key=="Insanium"|key=="Intermedium"|key=="IridiumAlloy"|key=="IvoryPsi"|key=="Superium"|key=="Supremium") {
+		recipes.remove(ingot);
+	}
+	if (hashBlock.contains(key)) {
+		recipes.removeShapeless(hashBlock[key], [ingot, ingot, ingot, ingot, ingot, ingot, ingot, ingot, ingot]);
+		recipes.removeShaped(hashBlock[key], [[ingot, ingot, ingot], [ingot, ingot, ingot], [ingot, ingot, ingot]]);
+	}
+}
+
+/* Input: Energized Smelter, Blast Furnace, Induction Smelter, Redstone Furnace */
+for key, ingot in hashIngot {
+	if (hashOre.contains(key)) {
+		mods.mekanism.smelter.removeRecipe(hashDust[key]);
+		mods.techreborn.blastFurnace.removeInputRecipe(hashDust[key]);
+		for itemstack in hashOre[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, cinnabar);
 			mods.thermalexpansion.RedstoneFurnace.removeRecipe(itemstack);
 		}
 	}
-}
-/* Induction Smelter, Redstone Furnace (Clusters)[Input] (Ingots)[Output] */
-for key, cluster in hashCluster{
-	if (hashIngot.contains(key)) {
-		for itemstack in cluster.items {
+	if (hashCluster.contains(key)) {
+		mods.mekanism.smelter.removeRecipe(hashDust[key]);
+		mods.techreborn.blastFurnace.removeInputRecipe(hashDust[key]);
+		for itemstack in hashCluster[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, cinnabar);
 			mods.thermalexpansion.RedstoneFurnace.removeRecipe(itemstack);
 		}
 	}
-}
-/* Induction Smelter, Redstone Furnace (Dusts)[Input] (Ingots)[Output] */
-for key, dust in hashDust{
-	if (hashIngot.contains(key)) {
-		for itemstack in dust.items {
+	if (hashDust.contains(key)) {
+		mods.mekanism.smelter.removeRecipe(hashDust[key]);
+		mods.techreborn.blastFurnace.removeInputRecipe(hashDust[key]);
+		for itemstack in hashDust[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, cinnabar);
 			mods.thermalexpansion.RedstoneFurnace.removeRecipe(itemstack);
@@ -57,71 +77,91 @@ for key, dust in hashDust{
 	}
 }
 
-/* Furnace, Arc Furnace, Energized Smelter, Casting Table, Blast Furnace (Ores|Dusts)[Input] (Ingots)[Output] */
+/* Output: Furnace, Arc Furnace, Energized Smelter, Casting Table, Blast Furnace */
 for key, ingot in hashIngot {
 	if (hashOre.contains(key)|hashCluster.contains(key)|hashDust.contains(key)) {
+		furnace.remove(ingot);
 		for itemstack in ingot.items {
-		furnace.remove(itemstack);
-		mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
-		mods.mekanism.smelter.removeRecipe(itemstack);
-		mods.tconstruct.Casting.removeTableRecipe(itemstack);
-		mods.techreborn.blastFurnace.removeRecipe(itemstack);
-		}
-	}
-}
-
-/***** Gems *****/
-/* Furnace, Arc Furnace, Casting Table, Blast Furnace (Gems)[Output] */
-for key, gem in hashGem {
-	if  (hashOre.contains(key)|hashCluster.contains(key)|hashDust.contains(key)) {
-		for itemstack in gem.items {
-			furnace.remove(itemstack);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
 			mods.tconstruct.Casting.removeTableRecipe(itemstack);
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
 		}
 	}
-	if (hashOre.contains(key)) {
-		for itemstack in gem.items {
-			mods.actuallyadditions.Crusher.removeRecipe(itemstack);
-			mods.astralsorcery.Grindstone.removeRecipe(itemstack);
-			mods.nuclearcraft.manufactory.removeRecipeWithOutput([itemstack]);
-			mods.techreborn.grinder.removeRecipe(itemstack);
-			mods.techreborn.industrialGrinder.removeRecipe(itemstack);
-		}
-	}
 }
-/* Grindstone, Sag Mill, Crusher, Enrichment Chamber, Manufactory, Grinder, Industrial Grinder, Pulverizer (Ores)[Input] (Gems)[Output] */
-for key, ore in hashOre {
-	if (hashGem.contains(key)) {
-		for itemstack in ore.items {
+
+/***** Gems *****/
+/* Input: Energized Smelter, Quartz Grindstone, SAG Mill, Enrichment Chamber, Manufactory, Grinder, Industrial Grinder, Pulverizer */
+for key, gem in hashGem {
+	if (hashOre.contains(key)) {
+		mods.mekanism.smelter.removeRecipe(hashOre[key]);
+		mods.techreborn.blastFurnace.removeInputRecipe(hashOre[key]);
+		for itemstack in hashOre[key].items {
+			
+		}
+	if (hashOre.contains(key)) {
+		mods.nuclearcraft.manufactory.removeRecipeWithInput([gem]);
+		mods.techreborn.grinder.removeInputRecipe(itemstack);
+		mods.techreborn.industrialGrinder.removeInputRecipe(itemstack);
+		for itemstack in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
 			mods.enderio.SagMill.removeRecipe(itemstack);
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
 			mods.mekanism.enrichment.removeRecipe(itemstack);
-			mods.nuclearcraft.manufactory.removeRecipeWithInput([itemstack]);
-			mods.techreborn.grinder.removeInputRecipe(itemstack);
-			mods.techreborn.industrialGrinder.removeInputRecipe(itemstack);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
 		}
 	}
 }
 
-/***** Crystals *****/
-/* Empowerer, Chemical Crystallizer (Crystals)[Output] */
-for key, crystal in hashCrystal {
-	for itemstack in crystal.items {
-		mods.actuallyadditions.Empowerer.removeRecipe(itemstack);
-		mods.mekanism.chemical.crystallizer.removeRecipe(itemstack);
+/* Output: Furnace, Arc Furnace, Casting Table, Blast Furnace */
+for key, gem in hashGem {
+	if  (hashOre.contains(key)|hashCluster.contains(key)|hashDust.contains(key)) {
+		furnace.remove(gem);
+		for itemstack in gem.items {
+			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
+			mods.tconstruct.Casting.removeTableRecipe(itemstack);
+			mods.techreborn.blastFurnace.removeRecipe(itemstack);
+		}
+	}
+	if (hashOre.contains(key) {
+		mods.nuclearcraft.manufactory.removeRecipeWithOutput([gem]);
+		for itemstack in gem.items {
+			mods.actuallyadditions.Crusher.removeRecipe(itemstack);
+			mods.astralsorcery.Grindstone.removeRecipe(itemstack);
+			mods.techreborn.grinder.removeRecipe(itemstack);
+			mods.techreborn.industrialGrinder.removeRecipe(itemstack);
+		}
 	}
 }
 
-/* Crafting Recipes (crystalAmber, crystalObsidian)[Output] */
-recipes.remove(hashCrystal["Amber"]);
-recipes.remove(hashCrystal["Obsidian"]);
+/***** Crystals *****/
+/*Output: Crafting Recipes */
+for key, crystal in hashCrystal {
+	if (key=="Amber"|key=="Obsidian") {
+		recipes.remove(crystal);
+	}
+}
+
+/* Input: */
+
+/* Output: Chemical Crystallizer, Empowerer */
+for key, crystal in hashCrystal {
+	if (hashOre.contains(key)) {
+		for itemstack in crystal.items {
+			mods.mekanism.chemical.crystallizer.removeRecipe(itemstack);
+		}
+	}
+	for key2, crystal2 in hashCrystal {
+		if (key1 ~ "Empowered" == key) {
+			for itemstack in crystals.items {
+				mods.actuallyadditions.Empowerer.removeRecipe(itemstack);
+			}
+		}
+	}
+}
+
 
 /***** Clathrates *****/
-/* Pulverizer (Ores)[Input] */
+/* Input: Pulverizer */
 for key, ore in hashOre {
 	for key2, clathrate in hashClathrate {
 		if ("Clathrate" ~ key2 == key) {
@@ -132,13 +172,13 @@ for key, ore in hashOre {
 	}
 }
 
-/* (Clathrates)[Output] */
-for key, clathrate in hashClathrate {
-		for itemstack in clathrate.items {
-			
-		}
-	}
-}
+/* Output: */
+
+/***** Dusts *****
+
+
+
+
 
 /***** Dusts *****/
 /* Grindstone, Sag Mill, Crusher, Squuezer, Enrichment Chamber, Manufactory, Grinder, Industrial Grinder Pulverizer (Ores)[Input] */

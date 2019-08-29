@@ -244,7 +244,7 @@ val stringIngot = [
     "MixedMetal",
     "Nickel",
     "Orichalcos",
-    "Osglosglas",
+    "Osgloglas",
     "Osmiridium",
     "Osmium",
 	"Photonium",

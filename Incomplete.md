@@ -8,11 +8,13 @@
 
 ## Additions to Arrays? 
 - oreLavaBlock
+
 ## Additions?
 - IOreDictEntry:
 	- blockChorus to integrateddynamics:crystallised_chorus_block
 	- blockMenril to integrateddynamics:crystallised_menril_block
 - IItemStack:
+	- Wyvern Ingot
 	- Chaos Ingot
 - ILiquidStack:
 	- Seawater/ Salt Water
@@ -36,7 +38,6 @@
 	- dustNiter & dustSaltpeter
 
 ## Recipe Changes
-- Nuclearcraft Machines in 00/03
 - Actually Additions Basic Machines require Actually Additions Casing/ Wood Casing
 - Actually Additions Advanced Machines require Actually Additions Ender Casing
 - AIOTs/ Paxels require higher tier rods (Metal Rods/ Blaze Rods/ End Rods)
