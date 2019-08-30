@@ -1,4 +1,4 @@
-#priority -0003
+#priority -0002
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -34,15 +34,21 @@ for key, cluster in hashCluster {
 for key, ingot in hashIngot {
 	if (hashOre.contains(key)) {
 		recipes.removeShapeless(ingot, [hashOre[key], hashDust["Pyrotheum"]]);
-	if (hashDust.contains(key)) {
 		recipes.removeShapeless(ingot, [hashOre[key], hashDust["Petrotheum"], hashDust["Pyrotheum"]]);
+	}
+	if (hashDust.contains(key)) {
+		recipes.removeShapeless(ingot, [hashDust[key], hashDust["Pyrotheum"]]);
 	}
 	if (key=="BaseEssence"|key=="Blutonium"|key=="Bronze"|key=="CrystalMatrix"|key=="EbonyPsi"|key=="Inferium"|key=="Insanium"|key=="Intermedium"|key=="IridiumAlloy"|key=="IvoryPsi"|key=="Superium"|key=="Supremium") {
 		recipes.remove(ingot);
 	}
 	if (hashBlock.contains(key)) {
-		recipes.removeShapeless(hashBlock[key], [ingot, ingot, ingot, ingot, ingot, ingot, ingot, ingot, ingot]);
-		recipes.removeShaped(hashBlock[key], [[ingot, ingot, ingot], [ingot, ingot, ingot], [ingot, ingot, ingot]]);
+		recipes.removeShapeless(ingot, [hashBlock[key]]);
+	}
+	if (hashNugget.contains(key)) {
+		nugget = hashNugget[key];
+		recipes.removeShaped(ingot, [[nugget, nugget, nugget], [nugget, nugget, nugget], [nugget, nugget, nugget]]);
+		recipes.removeShapeless(ingot, [nugget, nugget, nugget, nugget, nugget, nugget, nugget, nugget, nugget]);
 	}
 }
 
@@ -134,7 +140,7 @@ for key, gem in hashGem {
 }
 
 /***** Crystals *****/
-/*Output: Crafting Recipes */
+/* Crafting */
 for key, crystal in hashCrystal {
 	if (key=="Amber"|key=="Obsidian") {
 		recipes.remove(crystal);
@@ -151,7 +157,7 @@ for key, crystal in hashCrystal {
 		}
 	}
 	for key2, crystal2 in hashCrystal {
-		if (key1 ~ "Empowered" == key) {
+		if (key2 ~ "Empowered" == key) {
 			for itemstack in crystals.items {
 				mods.actuallyadditions.Empowerer.removeRecipe(itemstack);
 			}
@@ -174,34 +180,64 @@ for key, ore in hashOre {
 
 /* Output: */
 
-/***** Dusts *****
-
-
-
-
-
 /***** Dusts *****/
-/* Grindstone, Sag Mill, Crusher, Squuezer, Enrichment Chamber, Manufactory, Grinder, Industrial Grinder Pulverizer (Ores)[Input] */
-for key, ore in hashOre {
-	if (hashDust.contains(key)) {
-		for itemstack in ore.items {
+/* Crafting */
+for key, dust in hashDust {
+	if (hashOre.contains(key)) {
+		recipes.removeShapeless(dust, [hashOre[key], hashDust["Petrotheum"]]);
+		recipes.removeShapeless(dust, [hashOre[key], <immersiveengineering:tool>]);
+	}
+	if (hashIngot.contains(key)) {
+		recipes.removeShapeless(dust, [hashIngot[key], hashDust["Petrotheum"]]);
+	}
+}
+
+/* Input: Manufactory, Grinder, Industrial Grinder, Grindstone, SAG Mill, Squeezer, Mechanical Squeezer, Crusher, Enrichment Chamber, Pulverizer */
+for key, dust in hashDust {
+	if (hashOre.contains(key)) {
+		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashOre[key]]);
+		mods.techreborn.grinder.removeInputRecipe(hashOre[key]);
+		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
+		for itemstack in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
 			mods.enderio.SagMill.removeRecipe(itemstack);
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
 			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemstack);
 			mods.integrateddynamics.Squeezer.removeRecipe(itemstack);
 			mods.mekanism.enrichment.removeRecipe(itemstack);
-			mods.nuclearcraft.manufactory.removeRecipeWithInput([itemstack]);
-			mods.techreborn.grinder.removeInputRecipe(itemstack);
-			mods.techreborn.industrialGrinder.removeInputRecipe(itemstack);
+			mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
+		}
+	}
+	if (hashIngot.contains(key)) {
+		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashIngot[key]]);
+		mods.techreborn.grinder.removeInputRecipe(hashIngot[key]);
+		mods.techreborn.industrialGrinder.removeInputRecipe(hashIngot[key]);
+		for itemstack in hashIngot[key].items {
+			mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
+			mods.enderio.SagMill.removeRecipe(itemstack);
+			mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
+			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemstack);
+			mods.integrateddynamics.Squeezer.removeRecipe(itemstack);
+			mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
+		}
+	}
+	if (hashGem.contains(key)) {
+		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashGem[key]]);
+		mods.techreborn.grinder.removeInputRecipe(hashGem[key]);
+		mods.techreborn.industrialGrinder.removeInputRecipe(hashGem[key]);
+		for itemstack in hashGem[key].items {
+			mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
+			mods.enderio.SagMill.removeRecipe(itemstack);
+			mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
+			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemstack);
+			mods.integrateddynamics.Squeezer.removeRecipe(itemstack);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
 		}
 	}
 }
-
-/* Crusher, Grindstone, Crusher, Squeezer, Crusher, Manufactory, Grinder, Industrial Grinder (Dusts)[Input] */
+/* Output: Crusher, Grindstone, Manufactory, Grinder, Industrial Grinder */
 for key, dust in hashDust {
-	if (!hashOre.contains(key)) {
+	if ((hashOre.contains(key)|(hashIngot.contains(key)|(hashGem.contains(key)) {
 		for itemstack in dust.items {
 			mods.actuallyadditions.Crusher.removeRecipe(itemstack);
 			mods.astralsorcery.Grindstone.removeRecipe(itemstack);
