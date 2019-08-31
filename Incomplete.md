@@ -6,8 +6,10 @@
 - Apotheosis: Everything
 - Applied Energistics 2: Vibration Chamber
 
-## Additions to Arrays? 
-- oreLavaBlock
+## Additions to Arrays?
+- oreNether*
+- oreEnd*
+- oreDense*
 
 ## Additions?
 - IOreDictEntry:
@@ -113,8 +115,6 @@
 - bricksStone to minecraft:stonebrick:3
 - energyTablet to mekanism:energytablet
 
-
-
 ## Ore Dictionary Removal
 - dreamwood from botania:dreamwood
 - livingrock from botania:livingrock
@@ -124,8 +124,7 @@
 - livingwoodTwig from botania:manaresource:3
 - redstoneRoot from botania:manaresource:6
 - elvenDragonstone from botania:manaresource:9
-- bPlaceholder from
-- botania:manaresource:11
+- bPlaceholder from botania:manaresource:11
 - bRedString from botania:manaresource:12
 - dreamwoodTwig from botania:manaresource:13
 - bEnderAirBottle from botania:manaresource:15
@@ -149,9 +148,6 @@
 - runePrideB from botania:rune:15
 - bVial from botania:vial
 - bFlask from botania:vial:1
-
-
-
 
 ## Scaffolding For Unifying Ore Dictionaries
 for ingredient, product in hashFurnace{
