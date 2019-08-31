@@ -5,6 +5,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+/******************** Manipulating Ore Dictionaries and their contents ********************/
+/********** Items **********/
 /***** Ores *****/
 hashOre["CertusQuartz"].remove(<appliedenergistics2:charged_quartz_ore>);
 
@@ -41,6 +43,107 @@ if (!<ore:clusterAluminum>.empty) {
         hashCluster["Aluminium"].add(item);
     }
     recipes.replaceAllOccurences(oreDict["clusterAluminum"], hashCluster["Aluminium"]);
+}
+
+/***** Clathrate Ores *****/
+hashClathrateOre["Ender"].add(<thermalfoundation:ore_fluid:4>);
+recipes.replaceAllOccurences(oreDict["oreClathrateEnder"], hashClathrateOre["Ender"]);
+recipes.replaceAllOccurences(<thermalfoundation:ore_fluid:4>, hashClathrateOre["Ender"]);
+
+hashClathrateOre["Glowstone"].add(<thermalfoundation:ore_fluid:3>);
+recipes.replaceAllOccurences(oreDict["oreClathrateGlowstone"], hashClathrateOre["Glowstone"]);
+recipes.replaceAllOccurences(<thermalfoundation:ore_fluid:3>, hashClathrateOre["Glowstone"]);
+
+hashClathrateOre["Oil"].add(<thermalfoundation:ore_fluid>);
+hashClathrateOre["Oil"].add(<thermalfoundation:ore_fluid:5>);
+recipes.replaceAllOccurences(oreDict["oreClathrateOilSand"], hashClathrateOre["Oil"]);
+recipes.replaceAllOccurences(<thermalfoundation:ore_fluid>, hashClathrateOre["Oil"]);
+recipes.replaceAllOccurences(<thermalfoundation:ore_fluid:5>, hashClathrateOre["Oil"]);
+
+hashClathrateOre["Oil"].add(<thermalfoundation:ore_fluid:1>);
+recipes.replaceAllOccurences(oreDict["oreClathrateOilShale"], hashClathrateOre["Oil"]);
+recipes.replaceAllOccurences(<thermalfoundation:ore_fluid:1>, hashClathrateOre["Oil"]);
+
+hashClathrateOre["Redstone"].add(<thermalfoundation:ore_fluid:4>);
+recipes.replaceAllOccurences(oreDict["oreClathrateRedstone"], hashClathrateOre["Redstone"]);
+recipes.replaceAllOccurences(<thermalfoundation:ore_fluid:4>, hashClathrateOre["Redstone"]);
+
+/***** Vis Ores *****/
+
+/***** Clusters *****/
+
+/***** Dirty Dusts *****/
+if (!<ore:dustDirtyAluminum>.empty) {
+    for item in oreDict["dustDirtyAluminum"].items {
+        hashDustDirty["Aluminium"].add(item);
+    }
+    recipes.replaceAllOccurences(oreDict["dustDirtyAluminum"], hashDustDirty["Aluminium"]);
+}
+
+/***** Clumps *****/
+if (!<ore:clumpAluminum>.empty) {
+    for item in oreDict["clumpAluminum"].items {
+        hashClump["Aluminium"].add(item);
+    }
+    recipes.replaceAllOccurences(oreDict["clumpAluminum"], hashClump["Aluminium"]);
+}
+
+/***** Shards *****/
+if (!<ore:shardAluminum>.empty) {
+    for item in oreDict["shardAluminum"].items {
+        hashShard["Aluminium"].add(item);
+    }
+    recipes.replaceAllOccurences(oreDict["shardAluminum"], hashShard["Aluminium"]);
+}
+
+/*****  Crystals *****/
+hashCrystal["Amber"].add(<cyclicmagic:crystallized_amber>);
+recipes.replaceAllOccurences(<cyclicmagic:crystallized_amber>, hashCrystal["Amber"]);
+
+hashCrystal["Diamantine"].add(<actuallyadditions:item_crystal:2>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:2>, hashCrystal["Diamantine"]);
+
+hashCrystal["DiamantineEmpowered"].add(<actuallyadditions:item_crystal_empowered:2>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:2>, hashCrystal["DiamantineEmpowered"]);
+
+hashCrystal["Emeradic"].add(<actuallyadditions:item_crystal:4>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:4>, hashCrystal["Emeradic"]);
+
+hashCrystal["EmeradicEmpowered"].add(<actuallyadditions:item_crystal_empowered:4>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:4>, hashCrystal["EmeradicEmpowered"]);
+
+hashCrystal["Enori"].add(<actuallyadditions:item_crystal:5>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:5>, hashCrystal["Enori"]);
+
+hashCrystal["EnoriEmpowered"].add(<actuallyadditions:item_crystal_empowered:5>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:5>, hashCrystal["EnoriEmpowered"]);
+
+hashCrystal["Obsidian"].add(<cyclicmagic:crystallized_obsidian>);
+recipes.replaceAllOccurences(<cyclicmagic:crystallized_obsidian>, hashCrystal["Obsidian"]);
+
+hashCrystal["Palis"].add(<actuallyadditions:item_crystal:1>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:1>, hashCrystal["Palis"]);
+
+hashCrystal["PalisEmpowered"].add(<actuallyadditions:item_crystal_empowered:1>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:1>, hashCrystal["PalisEmpowered"]);
+
+hashCrystal["Restonia"].add(<actuallyadditions:item_crystal>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal>, hashCrystal["Restonia"]);
+
+hashCrystal["RestoniaEmpowered"].add(<actuallyadditions:item_crystal_empowered>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered>, hashCrystal["RestoniaEmpowered"]);
+
+hashCrystal["Void"].add(<actuallyadditions:item_crystal:3>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal:3>, hashCrystal["Void"]);
+
+hashCrystal["VoidEmpowered"].add(<actuallyadditions:item_crystal_empowered:3>);
+recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:3>, hashCrystal["VoidEmpowered"]);
+
+if (!<ore:crystalAluminum>.empty) {
+    for item in oreDict["crystalAluminum"].items {
+        hashCrystal["Aluminium"].add(item);
+    }
+    recipes.replaceAllOccurences(oreDict["crystalAluminum"], hashCrystal["Aluminium"]);
 }
 
 /***** Ingots *****/
@@ -131,58 +234,28 @@ hashGem["Quicksilver"].add(<thaumcraft:quicksilver>);
 recipes.replaceAllOccurences(oreDict["quicksilver"], hashGem["Quicksilver"]);
 recipes.replaceAllOccurences(<thaumcraft:quicksilver>, hashGem["Quicksilver"]);
 
-/*****  Crystals *****/
-hashCrystal["Amber"].add(<cyclicmagic:crystallized_amber>);
-recipes.replaceAllOccurences(<cyclicmagic:crystallized_amber>, hashCrystal["Amber"]);
-
-hashCrystal["Diamantine"].add(<actuallyadditions:item_crystal:2>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:2>, hashCrystal["Diamantine"]);
-
-hashCrystal["DiamantineEmpowered"].add(<actuallyadditions:item_crystal_empowered:2>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:2>, hashCrystal["DiamantineEmpowered"]);
-
-hashCrystal["Emeradic"].add(<actuallyadditions:item_crystal:4>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:4>, hashCrystal["Emeradic"]);
-
-hashCrystal["EmeradicEmpowered"].add(<actuallyadditions:item_crystal_empowered:4>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:4>, hashCrystal["EmeradicEmpowered"]);
-
-hashCrystal["Enori"].add(<actuallyadditions:item_crystal:5>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:5>, hashCrystal["Enori"]);
-
-hashCrystal["EnoriEmpowered"].add(<actuallyadditions:item_crystal_empowered:5>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:5>, hashCrystal["EnoriEmpowered"]);
-
-hashCrystal["Obsidian"].add(<cyclicmagic:crystallized_obsidian>);
-recipes.replaceAllOccurences(<cyclicmagic:crystallized_obsidian>, hashCrystal["Obsidian"]);
-
-hashCrystal["Palis"].add(<actuallyadditions:item_crystal:1>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:1>, hashCrystal["Palis"]);
-
-hashCrystal["PalisEmpowered"].add(<actuallyadditions:item_crystal_empowered:1>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:1>, hashCrystal["PalisEmpowered"]);
-
-hashCrystal["Restonia"].add(<actuallyadditions:item_crystal>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal>, hashCrystal["Restonia"]);
-
-hashCrystal["RestoniaEmpowered"].add(<actuallyadditions:item_crystal_empowered>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered>, hashCrystal["RestoniaEmpowered"]);
-
-hashCrystal["Void"].add(<actuallyadditions:item_crystal:3>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal:3>, hashCrystal["Void"]);
-
-hashCrystal["VoidEmpowered"].add(<actuallyadditions:item_crystal_empowered:3>);
-recipes.replaceAllOccurences(<actuallyadditions:item_crystal_empowered:3>, hashCrystal["VoidEmpowered"]);
-
-if (!<ore:crystalAluminum>.empty) {
-    for item in oreDict["crystalAluminum"].items {
-        hashCrystal["Aluminium"].add(item);
-    }
-    recipes.replaceAllOccurences(oreDict["crystalAluminum"], hashCrystal["Aluminium"]);
-}
-
 /***** Clathrates *****/
 
+/***** Nuggets *****/
+hashNugget["MeatRaw"].add(<industrialmeat:raw_meat_nugget>);
+recipes.replaceAllOccurences(<industrialmeat:raw_meat_nugget>, hashNugget["MeatRaw"]);
+
+hashNugget["Light"].add(<tg:nugget_light>);
+recipes.replaceAllOccurences(<tg:nugget_light>, hashNugget["Light"]);
+
+hashNugget["Shade"].add(<tg:nugget_shade>);
+recipes.replaceAllOccurences(<tg:nugget_shade>, hashNugget["Shade"]);
+
+hashNugget["VoidMetal"].add(<thaumcraft:nugget:7>);
+recipes.replaceAllOccurences(oreDict["nuggetVoid"], hashNugget["VoidMetal"]);
+recipes.replaceAllOccurences(<thaumcraft:nugget:7>, hashNugget["VoidMetal"]);
+
+if (!<ore:nuggetAluminum>.empty) {
+    for item in oreDict["nuggetAluminum"].items {
+        hashNugget["Aluminium"].add(item);
+    }
+    recipes.replaceAllOccurences(oreDict["nuggetAluminum"], hashNugget["Aluminium"]);
+}
 
 /***** Dusts *****/
 recipes.replaceAllOccurences(oreDict["dustAshes"], hashDust["Ash"]);
@@ -229,6 +302,30 @@ if (!<ore:dustAluminum>.empty) {
         hashDust["Aluminium"].add(item);
     }
     recipes.replaceAllOccurences(oreDict["dustAluminum"], hashDust["Aluminium"]);
+}
+
+/***** Small Dusts *****/
+hashDustSmall["VoidMetal"].add(<jaopca:item_dustsmallvoid>);
+recipes.replaceAllOccurences(oreDict["dustSmallVoid"], hashDustSmall["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_dustsmallvoid>, hashDustSmall["VoidMetal"]);
+
+if (!<ore:dustSmallAluminum>.empty) {
+    for item in oreDict["dustSmallAluminum"].items {
+        hashDustSmall["Aluminium"].add(item);
+    }
+    recipes.replaceAllOccurences(oreDict["dustSmallAluminum"], hashDustSmall["Aluminium"]);
+}
+
+/***** Tiny Dusts *****/
+hashDustTiny["VoidMetal"].add(<jaopca:item_dusttinyvoid>);
+recipes.replaceAllOccurences(oreDict["dustTinyVoid"], hashDustTiny["VoidMetal"]);
+recipes.replaceAllOccurences(<jaopca:item_dusttinyvoid>, hashDustTiny["VoidMetal"]);
+
+if (!<ore:dustTinyAluminum>.empty) {
+    for item in oreDict["dustTinyAluminum"].items {
+        hashDustTiny["Aluminium"].add(item);
+    }
+    recipes.replaceAllOccurences(oreDict["dustTinyAluminum"], hashDustTiny["Aluminium"]);
 }
 
 /***** Plates *****/
@@ -314,27 +411,7 @@ if (!<ore:gearAluminum>.empty) {
     recipes.replaceAllOccurences(oreDict["gearAluminum"], hashGear["Aluminium"]);
 }
 
-/***** Nuggets *****/
-hashNugget["MeatRaw"].add(<industrialmeat:raw_meat_nugget>);
-recipes.replaceAllOccurences(<industrialmeat:raw_meat_nugget>, hashNugget["MeatRaw"]);
-
-hashNugget["Light"].add(<tg:nugget_light>);
-recipes.replaceAllOccurences(<tg:nugget_light>, hashNugget["Light"]);
-
-hashNugget["Shade"].add(<tg:nugget_shade>);
-recipes.replaceAllOccurences(<tg:nugget_shade>, hashNugget["Shade"]);
-
-hashNugget["VoidMetal"].add(<thaumcraft:nugget:7>);
-recipes.replaceAllOccurences(oreDict["nuggetVoid"], hashNugget["VoidMetal"]);
-recipes.replaceAllOccurences(<thaumcraft:nugget:7>, hashNugget["VoidMetal"]);
-
-if (!<ore:nuggetAluminum>.empty) {
-    for item in oreDict["nuggetAluminum"].items {
-        hashNugget["Aluminium"].add(item);
-    }
-    recipes.replaceAllOccurences(oreDict["nuggetAluminum"], hashNugget["Aluminium"]);
-}
-
+/********** Blocks **********/
 /***** Blocks *****/
 hashBlock["Alkimium"].add(<planarartifice:alkimium_block>);
 recipes.replaceAllOccurences(oreDict["blockAlchemical"], hashBlock["Alkimium"]);
@@ -459,53 +536,10 @@ if (!<ore:blockAluminum>.empty) {
     recipes.replaceAllOccurences(oreDict["blockAluminum"], hashBlock["Aluminium"]);
 }
 
-/***** Tiny Dusts *****/
-hashDustTiny["VoidMetal"].add(<jaopca:item_dusttinyvoid>);
-recipes.replaceAllOccurences(oreDict["dustTinyVoid"], hashDustTiny["VoidMetal"]);
-recipes.replaceAllOccurences(<jaopca:item_dusttinyvoid>, hashDustTiny["VoidMetal"]);
+/********** Liquids **********/
+/***** Molten *****/
 
-if (!<ore:dustTinyAluminum>.empty) {
-    for item in oreDict["dustTinyAluminum"].items {
-        hashDustTiny["Aluminium"].add(item);
-    }
-    recipes.replaceAllOccurences(oreDict["dustTinyAluminum"], hashDustTiny["Aluminium"]);
-}
+/********** Gases **********/
+/***** Slurry *****/
 
-/***** Small Dusts *****/
-hashDustSmall["VoidMetal"].add(<jaopca:item_dustsmallvoid>);
-recipes.replaceAllOccurences(oreDict["dustSmallVoid"], hashDustSmall["VoidMetal"]);
-recipes.replaceAllOccurences(<jaopca:item_dustsmallvoid>, hashDustSmall["VoidMetal"]);
-
-if (!<ore:dustSmallAluminum>.empty) {
-    for item in oreDict["dustSmallAluminum"].items {
-        hashDustSmall["Aluminium"].add(item);
-    }
-    recipes.replaceAllOccurences(oreDict["dustSmallAluminum"], hashDustSmall["Aluminium"]);
-}
-
-/***** Dirty Dusts *****/
-if (!<ore:dustDirtyAluminum>.empty) {
-    for item in oreDict["dustDirtyAluminum"].items {
-        hashDustDirty["Aluminium"].add(item);
-    }
-    recipes.replaceAllOccurences(oreDict["dustDirtyAluminum"], hashDustDirty["Aluminium"]);
-}
-
-/***** Clumps *****/
-if (!<ore:clumpAluminum>.empty) {
-    for item in oreDict["clumpAluminum"].items {
-        hashClump["Aluminium"].add(item);
-    }
-    recipes.replaceAllOccurences(oreDict["clumpAluminum"], hashClump["Aluminium"]);
-}
-
-/***** Shards *****/
-if (!<ore:shardAluminum>.empty) {
-    for item in oreDict["shardAluminum"].items {
-        hashShard["Aluminium"].add(item);
-    }
-    recipes.replaceAllOccurences(oreDict["shardAluminum"], hashShard["Aluminium"]);
-}
-
-/***** Ender IO *****/
-
+/***** Clean Slurry *****/
