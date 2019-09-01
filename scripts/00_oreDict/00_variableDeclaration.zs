@@ -2049,7 +2049,6 @@ for gear in stringGear {
     hashGear[gear] = oreDict["gear" ~ gear];
 }
 
-
 /********** Blocks **********/
 /***** Blocks *****/
 global hashBlock as IOreDictEntry[string] = {} as IOreDictEntry[string];
