@@ -10,9 +10,55 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   This section is used to track changes to a yet not specified build of the pack.
   Add all not yet "built" changes here.
 -->
+## Added
+- Mods: PackMode; version 1.12.2-1.2.0
+- Mods: Requious Frakto; version 0.3
+
+## Changed
+- Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
+- Mods: Actually Additions; updated to 1.12.2-r150
+- Mods: Apotheosis; updated to 1.12.2-1.10.5
+- Mods: Arcane Archives; updated to 0.2.0.8
+- Mods: Building Gadgets; updated to 2.7.3
+- Mods: Compact Drawers; updated to 1.12.2-1.0.5.124
+- Mods: Cyclic; updated to 1.12.2-1.19.15
+- Mods: EnderCore; updated to 1.12.2-0.5.68
+- Mods: Ender IO AE2 Conduits; updated to 1.12.2-5.0.51
+- Mods: Ender IO Base; updated to 1.12.2-5.0.51
+- Mods: Ender IO Conduits; updated to 1.12.2-5.0.51
+- Mods: Ender IO Endergy; updated to 1.12.2-5.0.51
+- Mods: Ender IO Forestry; updated to 1.12.2-5.0.51
+- Mods: Ender IO Machines; updated to 1.12.2-5.0.51
+- Mods: Ender IO OC Conduits; updated to 1.12.2-5.0.51
+- Mods: Ender IO TiC; updated to 1.12.2-5.0.51
+- Mods: Ender Utilities; updated to 1.12.2-0.7.14
+- Mods: FTB Lib; updated to 5.4.3.133
+- Mods: FTB Utilities; updated to 5.4.0.102
+- Mods: Hammer (Lib) Core; updated to 1.12.2-2.0.5.0
+- Mods: Incorporeal; updated to 1.2.2
+- Mods: JAOPCAAgriculture; updated to 1.12.2-1.2.1.16
+- Mods: Just Enough Items (JEI); updated to 1.12.2-4.15.0.289
+- Mods: Just Enough IDs; updated to 1.0.3-44
+- Mods: Mystic World; updated to 1.12.2-1.4.3
+- Mods: MysticalLib; updated to 1.12.2-1.3.5
+- Mods: NuclearCraft; updated to 2.18g-1.12.2
+- Mods: PlusTiC; updated to 7.1.3.0
+- Mods: RandomPatches; updated to 1.12.2-1.18.1.1
+- Mods: Recipe Stages; updated to 1.1.3
+- Mods: Roots; updated to 1.12.2-3.0.10
+- Mods: Thaumic Augmentation; updated to 1.12.2-1.1.8
+- Mods: Thaumic Computers; updated to MC1.12.2-0.5.0
+- Mods: Thaumic Periphery; updated to 0.3.1
+- Mods: Torchmaster; updated to 1.12.2-1.8.0.79
+- Mods: Yoyos; updated to 1.12.2-1.3.3.25
+- Scripts: Reorganised Contents of Scripts
+- Scripts: Made Removal of Recipes more efficient
+
+### Removed
+
 ## [v0.0.0-pre.1+build.10] - 28/08/19 **PR**
 ### Added
-- Mods: Avaritia's Complement;version 1.12.2-1.2a
+- Mods: Avaritia's Complement; version 1.12.2-1.2a
 - Mods: Advanced Lifting Methods; version 1.12.2-1.0.0
 - Mods: AE2 Wireless Fluid Terminal; version 1.12.2-1.0.1
 - Mods: AE2 Wireless Interface Terminal; version 1.12.2-1.0.0
@@ -48,7 +94,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Recipe Removals for Ores, Clusters, Ingots, Dusts
 
 ### Changed
-- Mod: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
+- Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
 - Mods: Apotheosis; updated to 1.12.2-1.10.3
 - Mods: Astral Sorcery; updated to 1.12.2-1.10.20
 - Mods: Better Questing; updated to 3.5.309
