@@ -10,9 +10,9 @@ import crafttweaker.oredict.IOreDictEntry;
 
 /* Output: Combiner */
 for key, ore in hashOre {
-	if (hashDust.contains(key) {
+	if (hashDust.contains(key)) {
 		for itemstack in ore.items {
-			mods.mekanism.combiner.removeRecipe(itemstack);
+			mods.mekanism.combiner.removeRecipe(itemstack, hashDust[key]);
 		}
 	}
 }
@@ -35,7 +35,7 @@ for key, cluster in hashCluster {
 /* Output: Crusher */
 for key, dustDirty in hashDustDirty {
 	if (hashClump.contains(key)) {
-		mods.mekanism.crusher.removeRecipe(dustDirty);
+		mods.mekanism.crusher.removeRecipe(dustDirty, hashClump[key]);
 	}
 }
 
@@ -44,9 +44,12 @@ for key, dustDirty in hashDustDirty {
 
 /* Output: Purification Chamber */
 for key, clump in hashClump {
-	if (hashShard.contains(key)) {
-		mods.mekanism.puritfication.removeRecipe(clump);
+	if (hashOre.contains(key)) {
+		mods.mekanism.puritfication.removeRecipe(clump, hashOre[key], hashGas["Oxygen"]);
 	}
+	if (hashShard.contains(key)) {
+		mods.mekanism.puritfication.removeRecipe(clump, hashShard[key], hashGas["Oxygen"]);
+	} 
 }
 
 /***** Shards *****/
@@ -54,8 +57,10 @@ for key, clump in hashClump {
 
 /* Output: Chemical Injection Chamber */
 for key, shard in hashShard {
+	if (hashOre.contains(key)) {
+		mods.mekanism.injection.removeRecipe(shard, hashOre[key], hashGas["HydrogenChloride"]);
 	if (hashCrystal.contains(key)) {
-		mods.mekanism.injection.removeRecipe(shard);
+		mods.mekanism.injection.removeRecipe(shard, hashCrystal[key], hashGas["HydrogenChloride"]);
 	}
 }
 
@@ -63,7 +68,7 @@ for key, shard in hashShard {
 /* Crafting */
 for key, crystal in hashCrystal {
 	if (key=="Amber"|key=="Obsidian") {
-		recipes.remove(crystal);
+		recipes.removeShaped(crystal);
 	}
 }
 
@@ -71,9 +76,9 @@ for key, crystal in hashCrystal {
 
 /* Output: Chemical Crystallizer, Empowerer */
 for key, crystal in hashCrystal {
-	if (hashOre.contains(key)) {
+	if (hashCleanSlurry.contains(key)) {
 		for itemstack in crystal.items {
-			mods.mekanism.chemical.crystallizer.removeRecipe(itemstack);
+			mods.mekanism.chemical.crystallizer.removeRecipe(itemstack, hashCleanSlurry[key]);
 		}
 	}
 	if (key has "Empowered") {
@@ -107,8 +112,8 @@ for key, ingot in hashIngot {
 /* Input: Energized Smelter, Blast Furnace, Induction Smelter, Redstone Furnace */
 for key, ingot in hashIngot {
 	if (hashOre.contains(key)) {
-		mods.mekanism.smelter.removeRecipe(hashDust[key]);
-		mods.techreborn.blastFurnace.removeInputRecipe(hashDust[key]);
+		mods.mekanism.smelter.removeRecipe(hashOre[key], ingot);
+		mods.techreborn.blastFurnace.removeInputRecipe(hashOre[key]);
 		for itemstack in hashOre[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, cinnabar);
@@ -116,8 +121,8 @@ for key, ingot in hashIngot {
 		}
 	}
 	if (hashCluster.contains(key)) {
-		mods.mekanism.smelter.removeRecipe(hashDust[key]);
-		mods.techreborn.blastFurnace.removeInputRecipe(hashDust[key]);
+		mods.mekanism.smelter.removeRecipe(hashCluster[key], ingot);
+		mods.techreborn.blastFurnace.removeInputRecipe(hashCluster[key]);
 		for itemstack in hashCluster[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, cinnabar);
@@ -125,7 +130,7 @@ for key, ingot in hashIngot {
 		}
 	}
 	if (hashDust.contains(key)) {
-		mods.mekanism.smelter.removeRecipe(hashDust[key]);
+		mods.mekanism.smelter.removeRecipe(hashDust[key], ingot);
 		mods.techreborn.blastFurnace.removeInputRecipe(hashDust[key]);
 		for itemstack in hashDust[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
@@ -135,10 +140,10 @@ for key, ingot in hashIngot {
 	}
 }
 
-/* Output: Furnace, Arc Furnace, Energized Smelter, Casting Table, Blast Furnace */
+/* Output: Furnace, Arc Furnace, Energized Smelter, Blast Furnace, Stamper, Casting Table */
 for key, ingot in hashIngot {
 	if (hashOre.contains(key)|hashCluster.contains(key)|hashDust.contains(key)) {
-		furnace.remove(ingot);
+		furnace.remove(ingot, hashOre[key]|hashCluster[key]|hashDust[key]);
 		for itemstack in ingot.items {
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
@@ -146,19 +151,21 @@ for key, ingot in hashIngot {
 	}
 	if (hashMolten.contains(key) {
 		for itemstack in ingot.items {
+			mods.embers.Stamper.remove(itemstack);
 			mods.tconstruct.Casting.removeTableRecipe(itemstack);
 		}
 	}
 }
 
 /***** Gems *****/
-/* Input: Energized Smelter, Quartz Grindstone, SAG Mill, Enrichment Chamber, Manufactory, Grinder, Industrial Grinder, Pulverizer */
+/* Input: Energized Smelter, Blast Furnace, Manufactory, Grinder, Industrial Grinder Quartz Grindstone, SAG Mill, Pulverizer */
 for key, gem in hashGem {
 	if (hashOre.contains(key)) {
-		mods.mekanism.smelter.removeRecipe(hashOre[key]);
+		mods.mekanism.smelter.removeRecipe(hashOre[key], gem);
 		mods.techreborn.blastFurnace.removeInputRecipe(hashOre[key]);
 	}
 	if (hashOre.contains(key)) {
+		mods.mekanism.enrichment.removeRecipe(itemstack, gem);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([gem]);
 		mods.techreborn.grinder.removeInputRecipe(itemstack);
 		mods.techreborn.industrialGrinder.removeInputRecipe(itemstack);
@@ -166,13 +173,12 @@ for key, gem in hashGem {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
 			mods.enderio.SagMill.removeRecipe(itemstack);
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
-			mods.mekanism.enrichment.removeRecipe(itemstack);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
 		}
 	}
 }
 
-/* Output: Furnace, Arc Furnace, Casting Table, Blast Furnace */
+/* Output: Furnace, Arc Furnace, Blast Furnace, Enrichment Chamber, Manufactory, Crusher, Grindstone, Grinder, Industrial Grinder, Casting Table */
 for key, gem in hashGem {
 	if (hashOre.contains(key)|hashCluster.contains(key)|hashDust.contains(key)) {
 		furnace.remove(gem);
@@ -181,7 +187,7 @@ for key, gem in hashGem {
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
 		}
 	}
-	if (hashOre.contains(key) {
+	if (hashOre.contains(key)) {
 		mods.nuclearcraft.manufactory.removeRecipeWithOutput([gem]);
 		for itemstack in gem.items {
 			mods.actuallyadditions.Crusher.removeRecipe(itemstack);
@@ -209,10 +215,6 @@ for key, clathrate in hashClathrate {
 }
 
 /* Output: */
-/***** Clathrates *****/
-/* Input: */
-
-/* Output: */
 
 /***** Nuggets *****/
 /* Crafting */
@@ -221,16 +223,19 @@ for key, nugget in hashNugget {
 		recipes.removeShapeless(nugget, [hashIngot[key]]);
 	}
 	if (hashGem.contains(key)) {
-		recipes.removeShapeless(nugget, hashGem[key]]);
+		recipes.removeShapeless(nugget, [hashGem[key]]);
 	}
 }
 
 /* Input: */
 
-/* Output: */
+/* Output: Stamper, Casting Table */
 for key, nugget in hashNugget {
 	if (hashMolten.contains(key)) {
-		mods.tconstruct.Casting.removeTableRecipe(nugget);
+		for itemstack in nugget.items {
+			mods.embers.Stamper.remove(itemstack);
+			mods.tconstruct.Casting.removeTableRecipe(nugget);
+		}
 	}
 }
 
@@ -249,6 +254,7 @@ for key, dust in hashDust {
 /* Input: Manufactory, Grinder, Industrial Grinder, Grindstone, Alchemy Table, SAG Mill, Squeezer, Mechanical Squeezer, Crusher, Enrichment Chamber, Pulverizer */
 for key, dust in hashDust {
 	if (hashOre.contains(key)) {
+		mods.mekanism.enrichment.removeRecipe(hashOre[key], dust);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashOre[key]]);
 		mods.techreborn.grinder.removeInputRecipe(hashOre[key]);
 		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
@@ -259,7 +265,6 @@ for key, dust in hashDust {
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
 			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemstack);
 			mods.integrateddynamics.Squeezer.removeRecipe(itemstack);
-			mods.mekanism.enrichment.removeRecipe(itemstack);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
 		}
 	}
@@ -301,19 +306,81 @@ for key, dust in hashDust {
 			mods.techreborn.industrialGrinder.removeRecipe(itemstack);
 		}
 	}
-	if (!(hashOre.contains(key)|hashIngot.contains(key)|hashGem.contains(key)) {
-		for itemstack in 
-	mods.mekanism.infuser.removeRecipe(<mekanism:enrichediron>);
+	if (hashIngot.contains(key)|hashGem.contains(key)) {
+		mods.mekanism.crusher.removeRecipe(dust, hashIngot[key]|hashGem[key]);
+	}
+	if (hashDustDirty.contains(key)) {
+		mods.mekanism.crusher.removeRecipe(dust, hashDustDirty[key]);
+	}
 	if (key=="Bronze"|key=="Steel") {
 		mods.mekanism.infuser.removeRecipe(dust);
 	}
 }
 
 /***** Small Dusts *****/
+/* Crafting */
+for key, dustSmall in hashDustSmall {
+	if (hashDust.contains(key)) {
+		recipes.remove(dustSmall);
+	}
+}
+
+/* Input: */
+
+/* Output: Industrial Electrolyzer, Industrial Grinder */
+for key, dustSmall in hashDustSmall {
+	if (hashOre.contains(key)) {
+		for itemstack in dustSmall.items {
+			mods.techreborn.industrialElectrolyzer.removeRecipe(itemstack);
+			mods.techreborn.industrialGrinder.removeRecipe(itemstack);
+		}
+	}
+}
 
 /***** Tiny Dusts *****/
+/* Crafting */
+for key, dustTiny in hashDustTiny {
+	if (hashDust.contains(key)) {
+		recipes.remove(dustTiny);
+	}
+}
+
+/* Input: */
+
+/* Output: */
 
 /***** Plates *****/
+/* Crafting */
+for key, plate in hashPlate {
+	if (hashIngot.contains(key)) {
+		recipes.removeShapeless(plate, [hashIngot[key], <embers:tinker_hammer>]);
+		recipes.removeShapeless(plate, [hashIngot[key], <immersiveengineering:tool>]);
+	} 
+}
+/* Input: Compressor, Compactor */
+for key, plate in hashPlate {
+	if (hashIngot.contains(key)) {
+		for itemstack in plate.items {
+			mods.techreborn.compressor.removeRecipe(itemstack);
+			mods.thermalexpansion.Compactor.removePressRecipe(itemstack);
+		}
+	}
+}
+
+/* Output: Metal Press, Stamper, Casting Table */
+for key, plate in hashPlate {
+	if (hashIngot.contains(key)) {
+		for itemstack in plate.items {
+			mods.immersiveengineering.MetalPress.removeRecipe(itemstack);
+		}
+	}
+	if (hashMolten.contains(key)) {
+		for itemstack in plate.items {
+			mods.embers.Stamper.remove(itemstack);
+			mods.tconstruct.Casting.removeTableRecipe(itemstack);
+		}
+	}
+}
 
 /***** Dense Plates *****/
 
@@ -323,3 +390,11 @@ for key, dust in hashDust {
 
 /********** Blocks **********/
 /***** Blocks *****/
+
+/********** Liquids **********/
+/***** Molten *****/
+
+/********** Gases **********/
+/***** Slurry *****/
+
+/***** Clean Slurry *****/

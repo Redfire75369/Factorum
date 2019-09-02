@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.mekanism.MekanismHelper.getGas;
 
 /* Declaring Other Variables */
 global sand as IItemStack = <minecraft:sand> as IItemStack;
@@ -2320,9 +2321,268 @@ for block in stringBlock {
 
 
 /********** Liquids **********/
+/***** Liquids *****/
+
 /***** Molten *****/
+global hashMolten as ILiquidStack[string] = {} as ILiquidStack[string];
+val stringMolten = [
+
+	"Adaminite",
+	"AdvancedAlloy",
+	"Alubrass",
+    "Aluminium",
+    "Alumite",
+    "Amber",
+    "Amethyst",
+    "Apatite",
+    "Aquamarine",
+    "Ardite",
+    "AstralStarmetal",
+    "BaseEssence",
+    "BlackIron",
+    "BloodBronze",
+    "Blutonium",
+    "Boron",
+    "BoronArsenide",
+    "BoronNitride",
+    "Brass",
+    "Bronze",
+    "Carobbiite",
+    "CertusQuartz",
+    "ChargedCertusQuartz",
+    "Chrome",
+    "Coal",
+    "Cobalt",
+    "ColdIron",
+    "ConductiveIron",
+    "Constantan",
+    "ConstructionAlloy",
+    "Copper",
+    "CosmicNeutronium",
+    "CrudeSteel",
+    "CrystalFlux",
+    "CrystallineAlloy",
+    "CrystallinePinkSlime",
+    "CrystalMatrix",
+    "Crystaltine",
+    "Cyanite",
+    "DarkSteel",
+    "Dawnstone",
+    "Diamond",
+    "DimensionalShard",
+    "Draconium",
+    "DraconiumAwakened",
+    "ElectricalSteel",
+    "Electrum",
+    "ElectrumFlux",
+    "ElvenElementium",
+    "Emerald",
+    "Enderium",
+    "EndSteel",
+    "EnergeticAlloy",
+    "EnergeticSilver",
+    "Extreme",
+    "Ferroboron",
+    "Flint",
+    "Fluix",
+    "Fluorite",
+    "Garnet",
+    "Gelid",
+    "GelidEnderium",
+    "Gold",
+    "Graphite",
+    "HardCarbon",
+    "HOPGraphite",
+    "HotTungstensteel",
+    "HSLASteel",
+    "Inferium",
+    "Infinity",
+    "Insanium",
+    "Intermedium",
+    "Invar",
+    "Iridium",
+    "IridiumAlloy",
+    "Iron",
+    "Knightslime",
+    "Lapis",
+    "Lead",
+    "LeadPlatinum",
+    "Lithium",
+    "LithiumManganeseDioxide",
+    "Ludicrite",
+    "Lumium",
+    "Magnesium",
+    "MagnesiumDiboride",
+    "Manasteel",
+    "Manganese",
+    "ManganeseDioxide",
+    "ManganeseOxide",
+    "Manyullyn",
+    "MelodicAlloy",
+    "Mirion",
+    "Mithminite",
+    "Mithril",
+    "Mithrillium",
+    "MixedMetal",
+    "Nickel",
+    "Obsidian",
+    "Opal",
+    "Orichalcos",
+    "Osgloglas",
+    "Osmiridium",
+    "Osmium",
+    "Peridot",
+    "Photonium",
+    "Pigiron",
+    "Platinum",
+    "Prismarine",
+    "Prudentium",
+    "PulsatingIron",
+    "Quartz",
+    "QuartzBlack",
+    "RedGarnet",
+    "RedstoneAlloy",
+    "RefinedGlowstone",
+    "RefinedIron",
+    "RefinedObsidian",
+    "ReinforcedObsidian", 
+    "Rhodocrosite",
+    "Ruby",
+    "Sapphire",
+    "Shadowium",
+    "Shibuichi",
+    "SiCSiCCMC",
+    "Signalum",
+    "SiliconCarbide",
+    "Silver",
+    "Soularium",
+    "Soulium",
+    "Steel",
+    "StellarAlloy",
+    "Superium",
+    "Supremium",
+    "Terrasteel",
+    "Thaumium",
+    "Thermoconducting",
+    "Thorium",
+    "ThoriumOxide",
+    "Tin",
+    "TinSilver",
+    "Titanium",
+    "Tough",
+    "Tungsten",
+    "Tungstensteel",
+    "Ultimate",
+    "Uranium",
+    "UraniumOxide",
+    "VibrantAlloy",
+    "Villiaumite",
+    "VividAlloy",
+    "VoidMetal",
+    "Wub",
+    "Yellorium",
+    "YellowGarnet",
+    "Zinc",
+    "Zircaloy",
+    "Zirconium" 
+    
+] as string[];
+
+/***** Searing *****/
+
+/***** Hot *****/
+
+/***** Cool *****/
 
 /********** Gases **********/
+/***** Other Gases *****/
+global hashGas as ILiquidStack[string] = {} as ILiquidStack[string];
+val stringGas = [
+ 
+	"Brine", 
+	"Chlorine",,
+	"Deuterium", 
+	"Ethene", 
+	"FusionFuel", 
+	"Hydrogen", 
+	"HydrogenChloride", 
+	"Lithium", 
+	"LiquidOsmium", 
+	"Oxygen", 
+	"Sodium", 
+	"SulfurDioxide", 
+	"Sulfuric Acid", 
+	"SulfurTrioxide", 
+	"Tritium", 
+	"Water"
+	
+] as string[];
+for gas in stringGas {
+	hashGas[gas] = getGas(gas);
+}
+
 /***** Slurry *****/
+global hashSlurry as ILiquidStack[string] = {} as ILiquidStack[string];
+val stringSlurry = [
+ 
+	"Aluminium",
+    "Ardite",
+    "AstralStarmetal",
+    "Boron",
+    "Cobalt",
+    "Copper",
+    "Draconium",
+    "Gold",
+    "Iridium",
+    "Iron",
+    "Lead",
+    "Lithium",
+    "Magnesium",
+    "Mithril",
+    "Nickel",
+    "Osmium",
+    "Platinum",
+    "Silver",
+    "Thorium",
+    "Tin",
+    "Tungsten",
+    "Uranium",
+    "Yellorium"
+	
+] as string[];
+for slurry in stringSlurry {
+	hashSlurry[slurry] = getGas("slurry" ~ slurry);
+}
 
 /***** Clean Slurry *****/
+global hashSlurryClean as ILiquidStack[string] = {} as ILiquidStack[string];
+val stringSlurryClean = [
+ 
+	"Aluminium",
+    "Ardite",
+    "AstralStarmetal",
+    "Boron",
+    "Cobalt",
+    "Copper",
+    "Draconium",
+    "Gold",
+    "Iridium",
+    "Iron",
+    "Lead",
+    "Lithium",
+    "Magnesium",
+    "Mithril",
+    "Nickel",
+    "Osmium",
+    "Platinum",
+    "Silver",
+    "Thorium",
+    "Tin",
+    "Tungsten",
+    "Uranium",
+    "Yellorium"
+	
+] as string[];
+for slurryClean in stringSlurryClean {
+	hashSlurryClean[slurryClean] = getGas("slurryClean" ~ slurryClean);
+}
