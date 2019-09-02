@@ -149,7 +149,7 @@ for key, ingot in hashIngot {
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
 		}
 	}
-	if (hashMolten.contains(key) {
+	if (hashMolten.contains(key)) {
 		for itemstack in ingot.items {
 			mods.embers.Stamper.remove(itemstack);
 			mods.tconstruct.Casting.removeTableRecipe(itemstack);
@@ -208,7 +208,7 @@ for key, gem in hashGem {
 /* Input: Pulverizer */
 for key, clathrate in hashClathrate {
 	if (hashClathrateOre.contains(key)) {
-		for itemstack in hashOre[key].items(
+		for itemstack in hashOre[key].items {
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
 		}
 	}
@@ -260,7 +260,7 @@ for key, dust in hashDust {
 		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
 		for itemstack in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemstack);
-			mods.bloodmagic.AlchemyTable.removeRecipe(itemstack, <bloodmagic:cutting fluid>]);
+			mods.bloodmagic.AlchemyTable.removeRecipe([itemstack, <bloodmagic:cutting_fluid>]);
 			mods.enderio.SagMill.removeRecipe(itemstack);
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemstack);
 			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemstack);

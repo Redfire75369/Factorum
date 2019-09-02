@@ -1,15 +1,59 @@
 # Incomplete Things for Pack
+## CraftTweaker Log
+- Investigate Line 231
+- Investigate Line 320
+
+## Scripts
+### 00_oreDict/00_variableDeclaration.zs
+#### IItemStack[string]
+- Add hashOreNether
+- Add hashOreEnd
+- Add hashOreDense
+
+#### ILiquidStack[string]
+- Add hashLiquid
+- Add hashMolten
+- Add hashSearing
+- Add hashHot
+- Add hashCool
+
+### 00_oreDict/01_oreDictionaryManipulation.zs
+- Find a way to make ore dictionary replacement in one loop
+	- <ore:*Void> to <ore:*VoidMetal>
+	- <ore:*Aluminum> to <ore:*Aluminium>
+
+### 00_oreDict/02_recipeRemoval.zs
+- Make sure all recipes are removed for:
+	- Ores
+	- Clusters 
+	- Dirty Dusts
+	- Clumps
+	- Shards
+	- Crystals
+	- Ingots 
+	- Gems
+	- Clathrates
+	- Dusts
+	
+- Remove all recipes for
+	- Small Dusts
+	- Tiny Dusts
+	- Plates
+	- Dense Plates
+	- Rods
+	- Gears 
+	- Blocks
+	- Gases
+	- Slurries 
+	- Clean Slurries 
+### 00_oreDict/03_oreDictRemoval.zs
+
 ## Check What these Items are:
 - EnderIO: Redstone Filter Base and Owl Egg
 - Mekanism: PlaStick
 - Actually Additions: Knife, Paper Cone, Bio-mash, Knife Handle, Knife Blade, Biomass
 - Apotheosis: Everything
 - Applied Energistics 2: Vibration Chamber
-
-## Additions to Arrays?
-- oreNether*
-- oreEnd*
-- oreDense*
 
 ## Additions?
 - IOreDictEntry:
