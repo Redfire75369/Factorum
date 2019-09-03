@@ -152,7 +152,11 @@ for key, ingot in hashIngot {
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
 		}
 	}
+<<<<<<< HEAD
 	if (hashMolten has key) {
+=======
+	if (hashMolten.contains(key)) {
+>>>>>>> master
 		for itemstack in ingot.items {
 			mods.embers.Stamper.remove(itemstack);
 			mods.tconstruct.Casting.removeTableRecipe(itemstack);
@@ -210,7 +214,11 @@ for key, gem in hashGem {
 /***** Clathrates *****/
 /* Input: Pulverizer */
 for key, clathrate in hashClathrate {
+<<<<<<< HEAD
 	if (hashClathrateOre has key) {
+=======
+	if (hashClathrateOre.contains(key)) {
+>>>>>>> master
 		for itemstack in hashOre[key].items {
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemstack);
 		}

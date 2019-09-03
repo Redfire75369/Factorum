@@ -5,7 +5,11 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
+<<<<<<< HEAD
 [PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 2ms
+=======
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
+>>>>>>> master
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
 [PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}, enabling debugmode
@@ -20,6 +24,7 @@
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [INITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}
+<<<<<<< HEAD
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
 [INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error loading {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}: java.lang.NullPointerException
@@ -29,6 +34,148 @@ java.lang.NullPointerException
 	at stanhebben.zenscript.statements.Statement.read(Statement.java:80)
 	at stanhebben.zenscript.ZenParsedFile.<init>(ZenParsedFile.java:144)
 	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:193)
+=======
+[INITIALIZATION][CLIENT][ERROR] 00_oreDict\00_variableDeclaration.zs:2521 > Cannot cast ZenTypeNative: mod.mekanism.gas.IGasStack to ZenTypeNative: crafttweaker.liquid.ILiquidStack
+[INITIALIZATION][CLIENT][ERROR] 00_oreDict\00_variableDeclaration.zs:2554 > Cannot cast ZenTypeNative: mod.mekanism.gas.IGasStack to ZenTypeNative: crafttweaker.liquid.ILiquidStack
+[INITIALIZATION][CLIENT][ERROR] 00_oreDict\00_variableDeclaration.zs:2587 > Cannot cast ZenTypeNative: mod.mekanism.gas.IGasStack to ZenTypeNative: crafttweaker.liquid.ILiquidStack
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}
+[INITIALIZATION][CLIENT][INFO] Removing Charged Certus Quartz Ore from ore dictionary entry oreCertusQuartz
+[INITIALIZATION][CLIENT][INFO] Adding Ender Ore to ore dictionary entry oreEnder
+[INITIALIZATION][CLIENT][INFO] Adding Light Ore to ore dictionary entry oreLight
+[INITIALIZATION][CLIENT][INFO] Adding Cinnabar Ore to ore dictionary entry oreQuicksilver
+[INITIALIZATION][CLIENT][INFO] Adding Shaded Ore to ore dictionary entry oreShade
+[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Ore to ore dictionary entry oreStygianIron
+[INITIALIZATION][CLIENT][INFO] Adding Wub Wub Ore to ore dictionary entry oreWub
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Bauxite Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Native Aluminium Cluster to ore dictionary entry clusterAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Resonant End Stone to ore dictionary entry oreEnder
+[INITIALIZATION][CLIENT][INFO] Adding Energized Netherrack to ore dictionary entry oreGlowstone
+[INITIALIZATION][CLIENT][INFO] Adding Oil Sand to ore dictionary entry oreOil
+[INITIALIZATION][CLIENT][INFO] Adding Oil Sand to ore dictionary entry oreOil
+[INITIALIZATION][CLIENT][INFO] Adding Oil Shale to ore dictionary entry oreOil
+[INITIALIZATION][CLIENT][INFO] Adding Resonant End Stone to ore dictionary entry oreRedstone
+[INITIALIZATION][CLIENT][INFO] Adding Dirty Aluminium Dust to ore dictionary entry dustDirtyAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Clump to ore dictionary entry clumpAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Shard to ore dictionary entry shardAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Crystallized Amber to ore dictionary entry crystalAmber
+[INITIALIZATION][CLIENT][INFO] Adding Diamatine Crystal to ore dictionary entry crystalDiamantine
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Diamatine Crystal to ore dictionary entry crystalDiamantineEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Emeradic Crystal to ore dictionary entry crystalEmeradic
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Emeradic Crystal to ore dictionary entry crystalEmeradicEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Enori Crystal to ore dictionary entry crystalEnori
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Enori Crystal to ore dictionary entry crystalEnoriEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Crystallized Obsidian to ore dictionary entry crystalObsidian
+[INITIALIZATION][CLIENT][INFO] Adding Palis Crystal to ore dictionary entry crystalPalis
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Palis Crystal to ore dictionary entry crystalPalisEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Restonia Crystal to ore dictionary entry crystalRestonia
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Restonia Crystal to ore dictionary entry crystalRestoniaEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Void Crystal to ore dictionary entry crystalVoid
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Void Crystal to ore dictionary entry crystalVoidEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Crystal to ore dictionary entry crystalAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Alkimium Ingot to ore dictionary entry ingotAlkimium
+[INITIALIZATION][CLIENT][INFO] Adding Dark Soularium Ingot to ore dictionary entry ingotDarkSoularium
+[INITIALIZATION][CLIENT][INFO] Adding Ender Ingot to ore dictionary entry ingotEnder
+[INITIALIZATION][CLIENT][INFO] Adding Enhanced Ender Ingot to ore dictionary entry ingotEnderEnhanced
+[INITIALIZATION][CLIENT][INFO] Adding Gaia Spirit Ingot to ore dictionary entry ingotGaia
+[INITIALIZATION][CLIENT][INFO] Adding Gaiasteel Ingot to ore dictionary entry ingotGaiasteel
+[INITIALIZATION][CLIENT][INFO] Adding Glitch Infused Ingot to ore dictionary entry ingotGlitchInfused
+[INITIALIZATION][CLIENT][INFO] Adding Ingot of Light to ore dictionary entry ingotLight
+[INITIALIZATION][CLIENT][INFO] Adding Livium Ingot to ore dictionary entry ingotLivium
+[INITIALIZATION][CLIENT][INFO] Adding Meat Ingot to ore dictionary entry ingotMeatCooked
+[INITIALIZATION][CLIENT][INFO] Adding Raw Meat Ingot to ore dictionary entry ingotMeatRaw
+[INITIALIZATION][CLIENT][INFO] Adding Shaded Ingot to ore dictionary entry ingotShade
+[INITIALIZATION][CLIENT][INFO] Adding Pink Slime Ingot to ore dictionary entry ingotSlimePink
+[INITIALIZATION][CLIENT][INFO] Adding Spectre Ingot to ore dictionary entry ingotSpectre
+[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Ingot to ore dictionary entry ingotStygianIron
+[INITIALIZATION][CLIENT][INFO] Adding Void Metal Ingot to ore dictionary entry ingotVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Ingot to ore dictionary entry ingotAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Ingot to ore dictionary entry ingotAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Charcoal to ore dictionary entry gemCharcoal
+[INITIALIZATION][CLIENT][INFO] Adding Mana Diamond to ore dictionary entry gemDiamondMana
+[INITIALIZATION][CLIENT][INFO] Adding Dragonstone to ore dictionary entry gemDragonstone
+[INITIALIZATION][CLIENT][INFO] Adding Elven Lapis to ore dictionary entry gemLapisElven
+[INITIALIZATION][CLIENT][INFO] Adding Mana Lapis to ore dictionary entry gemLapisMana
+[INITIALIZATION][CLIENT][INFO] Adding Quicksilver to ore dictionary entry gemQuicksilver
+[INITIALIZATION][CLIENT][INFO] Adding Raw Meat Nugget to ore dictionary entry nuggetMeatRaw
+[INITIALIZATION][CLIENT][INFO] Adding Nugget of Light to ore dictionary entry nuggetLight
+[INITIALIZATION][CLIENT][INFO] Adding Shaded Nugget to ore dictionary entry nuggetShade
+[INITIALIZATION][CLIENT][INFO] Adding Void Metal Nugget to ore dictionary entry nuggetVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Nugget to ore dictionary entry nuggetAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Nugget to ore dictionary entry nuggetAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Nugget to ore dictionary entry nuggetAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Nugget to ore dictionary entry nuggetAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Nugget to ore dictionary entry nuggetAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Blood Infused Glowstone Dust to ore dictionary entry dustBloodInfusedGlowstone
+[INITIALIZATION][CLIENT][INFO] Adding Pixie Dust to ore dictionary entry dustElvenPixie
+[INITIALIZATION][CLIENT][INFO] Adding Ember Grit to ore dictionary entry dustEmber
+[INITIALIZATION][CLIENT][INFO] Adding Flux to ore dictionary entry dustFlux
+[INITIALIZATION][CLIENT][INFO] Adding Illumination Powder to ore dictionary entry dustIllumination
+[INITIALIZATION][CLIENT][INFO] Adding Metallurgic Dust to ore dictionary entry dustMetallurgic
+[INITIALIZATION][CLIENT][INFO] Adding Nocturnal Powder to ore dictionary entry dustNocturnal
+[INITIALIZATION][CLIENT][INFO] Adding Soot-covered Redstone to ore dictionary entry dustSoot
+[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Dust to ore dictionary entry dustStygianIron
+[INITIALIZATION][CLIENT][INFO] Adding Void Dust to ore dictionary entry dustVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Wither Dust to ore dictionary entry dustWither
+[INITIALIZATION][CLIENT][INFO] Adding Pulverized Aluminum to ore dictionary entry dustAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Dust to ore dictionary entry dustAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Dust to ore dictionary entry dustAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Grit to ore dictionary entry dustAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Small Pile of Void Dust to ore dictionary entry dustSmallVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Small Pile of Aluminium Dust to ore dictionary entry dustSmallAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Tiny Pile of Void Dust to ore dictionary entry dustTinyVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Tiny Pile of Aluminium Dust to ore dictionary entry dustTinyAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Alkimium Plate to ore dictionary entry plateAlkimium
+[INITIALIZATION][CLIENT][INFO] Adding Resonating Plate to ore dictionary entry plateResonating
+[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Plate to ore dictionary entry plateStygianIron
+[INITIALIZATION][CLIENT][INFO] Adding Void Metal Plate to ore dictionary entry plateVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Plate to ore dictionary entry plateAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Plate to ore dictionary entry plateAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Plate to ore dictionary entry plateAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Plate to ore dictionary entry plateAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Dense Void Plate to ore dictionary entry plateDenseVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Dense Aluminium Plate to ore dictionary entry plateDenseAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Rod to ore dictionary entry rodAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Iron Rod to ore dictionary entry rodIron
+[INITIALIZATION][CLIENT][INFO] Adding Steel Rod to ore dictionary entry rodSteel
+[INITIALIZATION][CLIENT][INFO] Adding Void Rod to ore dictionary entry rodVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Proven Gear to ore dictionary entry gearProven
+[INITIALIZATION][CLIENT][INFO] Adding Redstone Gear to ore dictionary entry gearRedstone
+[INITIALIZATION][CLIENT][INFO] Adding Redstone Gear (Inverted) to ore dictionary entry gearRedstoneInverted
+[INITIALIZATION][CLIENT][INFO] Adding Scented Gear to ore dictionary entry gearScented
+[INITIALIZATION][CLIENT][INFO] Adding Void Metal Gear to ore dictionary entry gearVoidMetal
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Gear to ore dictionary entry gearAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Gear to ore dictionary entry gearAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Block of Alkimium to ore dictionary entry blockAlkimium
+[INITIALIZATION][CLIENT][INFO] Adding Blood Infused Iron Block to ore dictionary entry blockBloodInfusedIron
+[INITIALIZATION][CLIENT][INFO] Adding Block of Cobalt to ore dictionary entry blockCobalt
+[INITIALIZATION][CLIENT][INFO] Adding Diamatine Crystal Block to ore dictionary entry blockDiamantine
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Diamatine Crystal Block to ore dictionary entry blockDiamantineEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Block of Mana Diamond to ore dictionary entry blockDiamondMana
+[INITIALIZATION][CLIENT][INFO] Adding Block of Dragonstone to ore dictionary entry blockDragonstone
+[INITIALIZATION][CLIENT][INFO] Adding Charged Draconium Block to ore dictionary entry blockDraconiumCharged
+[INITIALIZATION][CLIENT][INFO] Adding Alkimium Ingot to ore dictionary entry blockEbonyPsi
+[INITIALIZATION][CLIENT][INFO] Adding Emeradic Crystal Block to ore dictionary entry blockEmeradic
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Emeradic Crystal Block to ore dictionary entry blockEmeradicEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Block of Ender to ore dictionary entry blockEnder
+[INITIALIZATION][CLIENT][INFO] Adding Block of Enhanced Ender to ore dictionary entry blockEnderEnhanced
+[INITIALIZATION][CLIENT][INFO] Adding Block of Enderpearl to ore dictionary entry blockEnderPearl
+[INITIALIZATION][CLIENT][INFO] Adding Block of Ender Stars to ore dictionary entry blockEnderStar
+[INITIALIZATION][CLIENT][INFO] Adding Enori Crystal Block to ore dictionary entry blockEnori
+[INITIALIZATION][CLIENT][INFO] Adding Empowered Enori Crystal Block to ore dictionary entry blockEnoriEmpowered
+[INITIALIZATION][CLIENT][INFO] Adding Flux Block to ore dictionary entry blockFlux
+[INITIALIZATION][CLIENT][INFO] Adding Glitch Infused Block to ore dictionary entry blockGlitchInfused
+[INITIALIZATION][CLIENT][INFO] Adding Alkimium Ingot to ore dictionary entry blockIvoryPsi
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}: null
+java.lang.NullPointerException
+	at 00_oreDict\01_oreDictionaryManipulation.__script__(00_oreDict\01_oreDictionaryManipulation.zs:477)
+	at __ZenMain__.run(00_oreDict\01_oreDictionaryManipulation)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
+>>>>>>> master
 	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
 	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1842_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
@@ -48,9 +195,775 @@ java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+<<<<<<< HEAD
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
 [INITIALIZATION][CLIENT][INFO] Completed script loading in: 1432ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+=======
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing 00_oreDict\02_recipeRemoval.zs:212 -- ) expected
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 2054ms
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreEnderOre> and replacing them with <ore:oreEnder>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tp:ender_ore> and replacing them with <ore:oreEnder>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tg:ore_light> and replacing them with <ore:oreLight>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thaumcraft:ore_cinnabar> and replacing them with <ore:oreQuicksilver>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tg:ore_shade> and replacing them with <ore:oreShade>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <woot:stygianironore> and replacing them with <ore:oreStygianIron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreWubOre> and replacing them with <ore:oreWub>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tp:wub_ore> and replacing them with <ore:oreWub>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreAluminum> and replacing them with <ore:oreAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:clusterAluminum> and replacing them with <ore:clusterAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreClathrateEnder> and replacing them with <ore:oreEnder>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thermalfoundation:ore_fluid:4> and replacing them with <ore:oreEnder>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreClathrateGlowstone> and replacing them with <ore:oreGlowstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thermalfoundation:ore_fluid:3> and replacing them with <ore:oreGlowstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreClathrateOilSand> and replacing them with <ore:oreOil>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thermalfoundation:ore_fluid> and replacing them with <ore:oreOil>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thermalfoundation:ore_fluid:5> and replacing them with <ore:oreOil>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreClathrateOilShale> and replacing them with <ore:oreOil>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thermalfoundation:ore_fluid:1> and replacing them with <ore:oreOil>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreClathrateRedstone> and replacing them with <ore:oreRedstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thermalfoundation:ore_fluid:4> and replacing them with <ore:oreRedstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustDirtyAluminum> and replacing them with <ore:dustDirtyAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:clumpAluminum> and replacing them with <ore:clumpAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:shardAluminum> and replacing them with <ore:shardAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <cyclicmagic:crystallized_amber> and replacing them with <ore:crystalAmber>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal:2> and replacing them with <ore:crystalDiamantine>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal_empowered:2> and replacing them with <ore:crystalDiamantineEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal:4> and replacing them with <ore:crystalEmeradic>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal_empowered:4> and replacing them with <ore:crystalEmeradicEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal:5> and replacing them with <ore:crystalEnori>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal_empowered:5> and replacing them with <ore:crystalEnoriEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <cyclicmagic:crystallized_obsidian> and replacing them with <ore:crystalObsidian>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal:1> and replacing them with <ore:crystalPalis>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal_empowered:1> and replacing them with <ore:crystalPalisEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal> and replacing them with <ore:crystalRestonia>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal_empowered> and replacing them with <ore:crystalRestoniaEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal:3> and replacing them with <ore:crystalVoid>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:item_crystal_empowered:3> and replacing them with <ore:crystalVoidEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:crystalAluminum> and replacing them with <ore:crystalAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotAlchemical> and replacing them with <ore:ingotAlkimium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <planarartifice:alkimium_ingot> and replacing them with <ore:ingotAlkimium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingot_dark_soularium> and replacing them with <ore:ingotDarkSoularium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <simplyjetpacks:metaitemmods:3> and replacing them with <ore:ingotDarkSoularium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extendedcrafting:material:36> and replacing them with <ore:ingotEnder>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extendedcrafting:material:48> and replacing them with null
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gaiaIngot> and replacing them with <ore:ingotGaia>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:manaresource:14> and replacing them with <ore:ingotGaia>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botanicadds:gaiasteel_ingot> and replacing them with <ore:ingotGaiasteel>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <deepmoblearning:glitch_infused_ingot> and replacing them with <ore:ingotGlitchInfused>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tg:ingot_light> and replacing them with <ore:ingotLight>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thaumic_arcana:ingot_livium> and replacing them with <ore:ingotLivium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <industrialmeat:cooked_meat_ingot> and replacing them with <ore:ingotMeatCooked>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <industrialmeat:raw_meat_ingot> and replacing them with <ore:ingotMeatRaw>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tg:ingot_shade> and replacing them with <ore:ingotShade>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <industrialforegoing:pink_slime_ingot> and replacing them with <ore:ingotSlimePink>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <randomthings:ingredient:3> and replacing them with <ore:ingotSpectre>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <woot:stygianironingot> and replacing them with <ore:ingotStygianIron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotVoid> and replacing them with <ore:ingotVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thaumcraft:ingot:1> and replacing them with <ore:ingotVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotAluminum> and replacing them with <ore:ingotAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:charcoal> and replacing them with <ore:gemCharcoal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:itemCharcoal> and replacing them with <ore:gemCharcoal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <minecraft:coal:1> and replacing them with <ore:gemCharcoal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:manaresource:2> and replacing them with <ore:gemDiamondMana>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:manaresource:9> and replacing them with <ore:gemDragonstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botanicadds:elven_lapis> and replacing them with <ore:gemLapisElven>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botanicadds:mana_lapis> and replacing them with <ore:gemLapisMana>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:quicksilver> and replacing them with <ore:gemQuicksilver>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thaumcraft:quicksilver> and replacing them with <ore:gemQuicksilver>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <industrialmeat:raw_meat_nugget> and replacing them with <ore:nuggetMeatRaw>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tg:nugget_light> and replacing them with <ore:nuggetLight>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tg:nugget_shade> and replacing them with <ore:nuggetShade>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:nuggetVoid> and replacing them with <ore:nuggetVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thaumcraft:nugget:7> and replacing them with <ore:nuggetVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:nuggetAluminum> and replacing them with <ore:nuggetAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustAshes> and replacing them with <ore:dustAsh>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustEnder> and replacing them with <ore:dustEnderPearl>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustNetherQuartz> and replacing them with <ore:dustQuartz>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <bloodarsenal:base_item:2> and replacing them with <ore:dustBloodInfusedGlowstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:elvenPixieDust> and replacing them with <ore:dustElvenPixie>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:manaresource:8> and replacing them with <ore:dustElvenPixie>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <embers:dust_ember> and replacing them with <ore:dustEmber>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <fluxnetworks:flux> and replacing them with <ore:dustFlux>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <astralsorcery:itemusabledust> and replacing them with <ore:dustIllumination>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <embers:dust_metallurgic> and replacing them with <ore:dustMetallurgic>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <astralsorcery:itemusabledust:1> and replacing them with <ore:dustNocturnal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <deepmoblearning:soot_covered_redstone> and replacing them with <ore:dustSoot>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <woot:stygianirondust> and replacing them with <ore:dustStygianIron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustVoid> and replacing them with <ore:dustVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <jaopca:item_dustvoid> and replacing them with <ore:dustVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <darkutils:material> and replacing them with <ore:dustWither>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustAluminum> and replacing them with <ore:dustAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustSmallVoid> and replacing them with <ore:dustSmallVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <jaopca:item_dustsmallvoid> and replacing them with <ore:dustSmallVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustSmallAluminum> and replacing them with <ore:dustSmallAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustTinyVoid> and replacing them with <ore:dustTinyVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <jaopca:item_dusttinyvoid> and replacing them with <ore:dustTinyVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustTinyAluminum> and replacing them with <ore:dustTinyAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:plateAlchemical> and replacing them with <ore:plateAlkimium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <planarartifice:alkimium_plate> and replacing them with <ore:plateAlkimium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <deepresonance:resonating_plate> and replacing them with <ore:plateResonating>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <woot:stygianironplate> and replacing them with <ore:plateStygianIron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:plateVoid> and replacing them with <ore:plateVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <thaumcraft:plate:3> and replacing them with <ore:plateVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:plateAluminum> and replacing them with <ore:plateAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:plateDenseVoid> and replacing them with <ore:plateDenseVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <jaopca:item_platedensevoid> and replacing them with <ore:plateDenseVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:plateDenseAluminum> and replacing them with <ore:plateDenseAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:stickAluminium> and replacing them with <ore:rodAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:stickAluminum> and replacing them with <ore:rodAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <immersiveengineering:material:3> and replacing them with <ore:rodAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:stickIron> and replacing them with <ore:rodIron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:manaresource:8> and replacing them with <ore:rodIron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:stickSteel> and replacing them with <ore:rodSteel>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:manaresource:8> and replacing them with <ore:rodSteel>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:rodVoid> and replacing them with <ore:rodVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <jaopca:item_stickvoid> and replacing them with <ore:rodVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extratrees:misc:2> and replacing them with <ore:gearProven>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <mysticalmechanics:gear_gold_off> and replacing them with <ore:gearRedstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <mysticalmechanics:gear_gold_on> and replacing them with <ore:gearRedstoneInverted>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extrabees:misc> and replacing them with <ore:gearScented>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gearVoid> and replacing them with <ore:gearVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <mystgears:gear_void> and replacing them with <ore:gearVoidMetal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gearAluminum> and replacing them with <ore:gearAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:blockAlchemical> and replacing them with <ore:blockAlkimium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <planarartifice:alkimium_block> and replacing them with <ore:blockAlkimium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <bloodarsenal:blood_infused_iron_block> and replacing them with <ore:blockBloodInfusedIron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <tconstruct:metal> and replacing them with <ore:blockCobalt>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:block_crystal:2> and replacing them with <ore:blockDiamantine>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:block_crystal_empowered:2> and replacing them with <ore:blockDiamantineEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:storage:3> and replacing them with <ore:blockDiamondMana>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <botania:storage:4> and replacing them with <ore:blockDragonstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <draconicevolution:draconium_block:1> and replacing them with <ore:blockDraconiumCharged>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <planarartifice:alkimium_ingot> and replacing them with <ore:blockEbonyPsi>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:block_crystal:4> and replacing them with <ore:blockEmeradic>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:block_crystal_empowered:4> and replacing them with <ore:blockEmeradicEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extendedcrafting:storage:5> and replacing them with <ore:blockEnder>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extendedcrafting:storage:7> and replacing them with <ore:blockEnderEnhanced>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:block_misc:6> and replacing them with <ore:blockEnderPearl>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <extendedcrafting:storage:6> and replacing them with <ore:blockEnderStar>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:block_crystal:5> and replacing them with <ore:blockEnori>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <actuallyadditions:block_crystal_empowered:5> and replacing them with <ore:blockEnoriEmpowered>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <fluxnetworks:fluxblock> and replacing them with <ore:blockFlux>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <deepmoblearning:infused_ingot_block> and replacing them with <ore:blockGlitchInfused>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <planarartifice:alkimium_ingot> and replacing them with <ore:blockIvoryPsi>
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Epic Squid with name mysticalworld-epic_squid-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Frickin' laser beam with name plethora-module_laser-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Grit with name immersiveengineering-hammercrushing_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Grit with name immersiveengineering-hammercrushing_aluminium-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_118-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_120-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_122-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_146-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingot_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingot_aluminum_2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Advanced Leaf Blower with name actuallyadditions-recipes48-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Block with name actuallyadditions-recipes196-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Light Blue Crystal Shard with name actuallyadditions-recipes201-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Pickaxe with name actuallyadditions-recipes297-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Sword with name actuallyadditions-recipes298-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Axe with name actuallyadditions-recipes299-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Shovel with name actuallyadditions-recipes300-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Hoe with name actuallyadditions-recipes301-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Helmet with name actuallyadditions-recipes302-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Chestplate with name actuallyadditions-recipes303-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Pants with name actuallyadditions-recipes304-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal Boots with name actuallyadditions-recipes305-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lens of Disenchanting with name actuallyadditions-recipes16-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Liquid Banning with name actuallyadditions-recipes42-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quintuple Battery with name actuallyadditions-quintuple_battery-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Casing with name actuallyadditions-recipes125-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Player Interface with name actuallyadditions-recipes135-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Diamatine Crystal Block with name actuallyadditions-recipes198-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Block with name actuallyadditions-recipes208-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Green Crystal Shard with name actuallyadditions-recipes213-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Pickaxe with name actuallyadditions-recipes279-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Sword with name actuallyadditions-recipes280-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Axe with name actuallyadditions-recipes281-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Shovel with name actuallyadditions-recipes282-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Hoe with name actuallyadditions-recipes283-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Helmet with name actuallyadditions-recipes284-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Chest with name actuallyadditions-recipes285-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Pants with name actuallyadditions-recipes286-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal Boots with name actuallyadditions-recipes287-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fishing Net with name actuallyadditions-recipes150-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Emeradic Crystal Block with name actuallyadditions-recipes210-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Silk Touch Augment with name actuallyadditions-recipes37-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Laser Wrench with name actuallyadditions-recipes22-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Leaf Blower with name actuallyadditions-recipes26-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Speed Augment II with name actuallyadditions-recipes31-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Block Placing Augment with name actuallyadditions-recipes38-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Double Battery with name actuallyadditions-double_battery-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Firework Box with name actuallyadditions-recipes90-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Canola Press with name actuallyadditions-recipes132-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fermenting Barrel with name actuallyadditions-recipes133-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Heat Collector with name actuallyadditions-recipes153-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for ESD (Expelling Sugar Dagger) with name actuallyadditions-recipes156-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Powered Furnace with name actuallyadditions-recipes160-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Block with name actuallyadditions-recipes214-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for White Crystal Shard with name actuallyadditions-recipes219-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Pickaxe with name actuallyadditions-recipes288-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Sword with name actuallyadditions-recipes289-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Axe with name actuallyadditions-recipes290-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Shovel with name actuallyadditions-recipes291-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Hoe with name actuallyadditions-recipes292-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Helmet with name actuallyadditions-recipes293-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Chest with name actuallyadditions-recipes294-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Pants with name actuallyadditions-recipes295-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal Boots with name actuallyadditions-recipes296-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Mining Augment I with name actuallyadditions-recipes35-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Growth with name actuallyadditions-recipes41-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Triple Battery with name actuallyadditions-triple_battery-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quadruple Battery with name actuallyadditions-quadruple_battery-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bio Reactor with name actuallyadditions-recipes144-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Enori Crystal Block with name actuallyadditions-recipes216-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Mining Augment II with name actuallyadditions-recipes36-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Solar Panel with name actuallyadditions-recipes152-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Speed Augment III with name actuallyadditions-recipes32-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystallized Obsidian Boots with name cyclicmagic-item.purple_boots_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystallized Obsidian Leggings with name cyclicmagic-item.purple_leggings_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystallized Obsidian Chestplate with name cyclicmagic-item.purple_chestplate_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystallized Obsidian Helmet with name cyclicmagic-item.purple_helmet_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystal Pickaxe with name cyclicmagic-item.crystal_pickaxe_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystal Axe with name cyclicmagic-item.crystal_axe_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystal Axe with name cyclicmagic-item.crystal_axe_1_2_3-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystal Shovel with name cyclicmagic-item.crystal_spade_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystal Hoe with name cyclicmagic-item.crystal_hoe_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystal Hoe with name cyclicmagic-item.crystal_hoe_1_2_3-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystal Sword with name cyclicmagic-item.crystal_sword_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sword of Atrophy with name cyclicmagic-item.sword_weakness_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sword of Decay with name cyclicmagic-item.sword_slowness_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sword of Evasion with name cyclicmagic-item.sword_ender_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Duskflame Hex with name cyclicmagic-item.ender_blaze_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Obsidian Seeds with name jaopca-item_mysticalseedsobsidian_07402n-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Obsidian Nugget with name jaopca-item_nuggetobsidian_9js5ny-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Obsidian with name jaopca-block_blockobsidian_1v1fam-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Obsidian Gear with name jaopca-item_gearobsidian_6ibzje-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Obsidian Rod with name jaopca-item_stickobsidian_2t7dnf-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Auto-Placer with name actuallyadditions-recipes164-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Automatic Precision Dropper with name actuallyadditions-recipes166-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for White Lamp with name actuallyadditions-recipes167-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Orange Lamp with name actuallyadditions-recipes168-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Magenta Lamp with name actuallyadditions-recipes169-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Light Blue Lamp with name actuallyadditions-recipes170-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Yellow Lamp with name actuallyadditions-recipes171-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lime Lamp with name actuallyadditions-recipes172-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pink Lamp with name actuallyadditions-recipes173-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gray Lamp with name actuallyadditions-recipes174-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Light Gray Lamp with name actuallyadditions-recipes175-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cyan Lamp with name actuallyadditions-recipes176-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Purple Lamp with name actuallyadditions-recipes177-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blue Lamp with name actuallyadditions-recipes178-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Brown Lamp with name actuallyadditions-recipes179-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Green Lamp with name actuallyadditions-recipes180-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Red Lamp with name actuallyadditions-recipes181-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Black Lamp with name actuallyadditions-recipes182-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Block with name actuallyadditions-recipes190-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blue Crystal Shard with name actuallyadditions-recipes195-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Pickaxe with name actuallyadditions-recipes306-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Sword with name actuallyadditions-recipes307-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Axe with name actuallyadditions-recipes308-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Shovel with name actuallyadditions-recipes309-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Hoe with name actuallyadditions-recipes310-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Helmet with name actuallyadditions-recipes311-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Chestplate with name actuallyadditions-recipes312-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Pants with name actuallyadditions-recipes313-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Palis Crystal Boots with name actuallyadditions-recipes314-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Handheld Filler with name actuallyadditions-recipes4-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Greenhouse Glass with name actuallyadditions-recipes163-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Palis Crystal Block with name actuallyadditions-recipes192-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Engineer's Goggles with name actuallyadditions-recipes1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Laser Relay Modifier: Range with name actuallyadditions-recipes3-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Coil with name actuallyadditions-recipes44-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowerer with name actuallyadditions-recipes87-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Laser Relay with name actuallyadditions-recipes110-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Advanced Item Laser Relay with name actuallyadditions-recipes113-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Item Interface with name actuallyadditions-recipes114-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energizer with name actuallyadditions-recipes128-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enervator with name actuallyadditions-recipes129-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Advanced ESD (Ending Serious Daughter) with name actuallyadditions-recipes157-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crusher with name actuallyadditions-recipes158-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lamp Controller with name actuallyadditions-recipes183-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Block with name actuallyadditions-recipes184-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Red Crystal Shard with name actuallyadditions-recipes189-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Pickaxe with name actuallyadditions-recipes270-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Sword with name actuallyadditions-recipes271-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Axe with name actuallyadditions-recipes272-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Shovel with name actuallyadditions-recipes273-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Hoe with name actuallyadditions-recipes274-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Helmet with name actuallyadditions-recipes275-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Chestplate with name actuallyadditions-recipes276-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Pants with name actuallyadditions-recipes277-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Restonia Crystal Boots with name actuallyadditions-recipes278-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Phantom Booster with name actuallyadditions-recipes126-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Extreme Energy Laser Relay with name actuallyadditions-recipes112-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Speed Augment I with name actuallyadditions-recipes30-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Single Battery with name actuallyadditions-recipes39-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Magnetizing with name actuallyadditions-recipes40-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Advanced Energy Laser Relay with name actuallyadditions-recipes111-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Engineer's Infrared Goggles with name actuallyadditions-recipes0-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Fortune Augment II (Gives Fortune III!) with name actuallyadditions-recipes34-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Player Probe with name actuallyadditions-recipes50-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Phantom Energyface with name actuallyadditions-recipes138-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Phantom Redstoneface with name actuallyadditions-recipes139-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Restonia Crystal Block with name actuallyadditions-recipes186-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Leaf-Eating Generator with name actuallyadditions-recipes146-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Laser Relay Modifier: Invisibility with name actuallyadditions-recipes2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ranged Collector with name actuallyadditions-recipes116-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Long-Range Breaker with name actuallyadditions-recipes117-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Coffee Maker with name actuallyadditions-recipes127-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Auto-Breaker with name actuallyadditions-recipes165-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Block with name actuallyadditions-recipes202-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Black Crystal Shard with name actuallyadditions-recipes207-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Pickaxe with name actuallyadditions-recipes315-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Sword with name actuallyadditions-recipes316-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Axe with name actuallyadditions-recipes317-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Shovel with name actuallyadditions-recipes318-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Hoe with name actuallyadditions-recipes319-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Helmet with name actuallyadditions-recipes320-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Chestplate with name actuallyadditions-recipes321-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Pants with name actuallyadditions-recipes322-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Crystal Boots with name actuallyadditions-recipes323-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shock Absorber with name actuallyadditions-recipes91-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Void Crystal Block with name actuallyadditions-recipes204-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Dark Soularium JetPlate with name simplyjetpacks-upgraderecipe5-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Dark Soularium Thruster with name simplyjetpacks-recipes9-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Glider Wing with name simplyjetpacks-recipes10-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flight Control Unit (Empty) with name simplyjetpacks-recipes11-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Nugget with name extendedcrafting-ender_ingot_from-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Crafter with name extendedcrafting-ender_crafter-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Alternator with name extendedcrafting-ender_alternator-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Ender with name extendedcrafting-block_of_ender_to-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Enhanced Ender with name extendedcrafting-block_of_enhanced_ender_to-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Package Crafter with name packagedexcrafting-ender_crafter-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Buffer with name extrabotany-recipe_manabarrel-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Headgear with name extrabotany-recipe_cmhelm-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Suit with name extrabotany-recipe_cmchest-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Skirt with name extrabotany-recipe_cmlegs-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Boots with name extrabotany-recipe_cmboots-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Judah Oath with name extrabotany-recipe_judahoath-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Challenge Ticket with name extrabotany-recipe_ticket-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gaia Block with name avaritiatweaks-gaia_ingots_to_block-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Terra Protector with name botanicadds-terra_protector-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gaia Band of Aura with name botanicadds-ring_aura_gaia-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Stealing Blade with name botanicadds-mana_stealer_sword-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Glitch Infused Block with name deepmoblearning-recipe6_ingot_to_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Glitch Infused Greaves with name deepmoblearning-armor_tools/recipe5_boots-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Glitch Infused Leggings with name deepmoblearning-armor_tools/recipe4_leggings-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Glitch Infused Chestplate with name deepmoblearning-armor_tools/recipe3_chestplate-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Glitch Infused Helmet with name deepmoblearning-armor_tools/recipe2_helm-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Glitch Infused Sword with name deepmoblearning-armor_tools/recipe1_sword-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Light Metal with name tg-light_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nugget of Light with name tg-light_nugget-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Livium Pickaxe with name thaumic_arcana-create_livium_pickaxe-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Livium Axe with name thaumic_arcana-create_livium_axe-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Livium Shovel with name thaumic_arcana-create_livium_shovel-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Livium Sword with name thaumic_arcana-create_livium_sword-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cooked Meat Block with name industrialmeat-cooked_meat_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Raw Meat Block with name industrialmeat-raw_meat_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shaded Metal Block with name tg-shade_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shaded Nugget with name tg-shade_nugget-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Washing Factory with name industrialforegoing-ore_washer_enderio-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Washing Factory with name industrialforegoing-ore_washer-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Field Addon with name industrialforegoing-energy_field_addon-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Black Hole Controller v2.0 with name industrialforegoing-black_hole_controller_reworked-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Washing Factory with name industrialforegoing-ore_washer_mekanism-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Black Hole Controller v2.0 with name industrialforegoing-black_hole_controller_reworked_thermal-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Washing Factory with name industrialforegoing-ore_washer_thermal-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Black Hole Controller v2.0 with name industrialforegoing-black_hole_controller_reworked_enderio-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Infinity Drill with name industrialforegoing-infinity_drill_0-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Black Hole Controller v2.0 with name industrialforegoing-black_hole_controller_reworked_mekanism-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fortune Addon with name industrialforegoing-fortune_addon-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectre Sword with name randomthings-spectresword-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectre Shovel with name randomthings-spectreshovel-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectre Pickaxe with name randomthings-spectrepickaxe-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectre Lens with name randomthings-spectrelens-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectre Key with name randomthings-spectrekey-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectre Coil with name randomthings-spectrecoil_normal-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectre Charger with name randomthings-spectrecharger_normal-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectre Axe with name randomthings-spectreaxe-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stygian Iron Plate with name woot-stygianironplate-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stygian Iron Block with name woot-stygianiron-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Stygian Iron Anvil with name woot-anvil-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Metal Plate with name immersiveengineering-compat/plate_thaumium_void-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Metal Nugget with name thaumcraft-voidtonuggets-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Metal Block with name thaumcraft-voidingotstoblock-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Metal Plate with name thaumcraft-voidplate-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Helm with name thaumcraft-voidhelm-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Chestplate with name thaumcraft-voidchest-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Leggings with name thaumcraft-voidlegs-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Boots with name thaumcraft-voidboots-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Shovel with name thaumcraft-voidshovel-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Pickaxe with name thaumcraft-voidpick-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Axe with name thaumcraft-voidaxe-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Hoe with name thaumcraft-voidhoe-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Sword with name thaumcraft-voidsword-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Metal Seeds with name mysticalagriculture-void_metal_seeds-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Scythe with name tg-scythe_void-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Rod with name jaopca-item_stickvoid_9tr5fu-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Nugget with name immersiveengineering-metal_storage/aluminum_ingot_uncraft-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Aluminium with name immersiveengineering-metal_storage/aluminum_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tesla Coil with name immersiveengineering-metal_devices/tesla_coil-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Capacitor with name immersiveengineering-metal_devices/capacitor_hv-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Rod with name immersiveengineering-material/stick_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Plate with name immersiveengineering-material/plate_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Relay with name immersiveengineering-connectors/relay_hv-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Connector with name immersiveengineering-connectors/connector_hv-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Engineer's Blueprint with name immersiveengineering-blueprints/components-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Fence Gate with name engineersdoors-fencegate_aluminium-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Divining Rod with name randomthings-diviningrod_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Anvil with name extraanvils-aluminumanvil-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Aluminum with name thermalfoundation-storage_4-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Nugget with name thermalfoundation-material_16-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Gear with name thermalfoundation-material_69-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_119-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_147-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Helmet with name thermalfoundation-armor.helmet_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Chestplate with name thermalfoundation-armor.plate_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Leggings with name thermalfoundation-armor.legs_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Boots with name thermalfoundation-armor.boots_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Sword with name thermalfoundation-tool.sword_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Shovel with name thermalfoundation-tool.shovel_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Pickaxe with name thermalfoundation-tool.pickaxe_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Axe with name thermalfoundation-tool.axe_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Hoe with name thermalfoundation-tool.hoe_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Reinforced Bow with name thermalfoundation-tool.bow_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Fishing Rod with name thermalfoundation-tool.fishing_rod_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Shears with name thermalfoundation-tool.shears_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Sickle with name thermalfoundation-tool.sickle_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Hammer with name thermalfoundation-tool.hammer_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Excavator with name thermalfoundation-tool.excavator_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Shield with name thermalfoundation-tool.shield_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Horse Armor with name thermalfoundation-horse_armor_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Block with name embers-ingotaluminum_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Nugget with name embers-ingotaluminum_ingot_decomp-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Sword with name embers-ingotaluminum_sword-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Pickaxe with name embers-ingotaluminum_pickaxe-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Shovel with name embers-ingotaluminum_shovel-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Axe with name embers-ingotaluminum_axe-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Hoe with name embers-ingotaluminum_hoe-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Plate with name embers-ingotaluminum_plate-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Seeds with name mysticalagriculture-aluminum_seeds-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Aluminium with name techreborn-storage_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Nugget with name techreborn-nuggets-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_47-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_48-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_49-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_50-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_51-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_56-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_57-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_58-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_59-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_60-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_69-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_70-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_71-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_72-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_73-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_74-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_75-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_76-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_77-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_78-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_83-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_84-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_85-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_86-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_87-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Computer Monitor with name techreborn-part_7-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Aluminum with name nuclearcraft-tile.thermalfoundation.storage.aluminum.name-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Turbine Dynamo Coil with name nuclearcraft-tile.nuclearcraft.turbine_dynamo_coil.aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Solid Fuel with name tinker_io-solidfuel_0-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Upgrade with name tinker_io-upgbase_0-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Slot Upgrade II with name tinker_io-slotupg2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Energy Conduit with name enderio-conduit_endergy_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Energy Conduit with name enderio-conduit_endergy_aluminium-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mortar with name roots-mortar-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Incense Altar with name bloodmagic-incense_altar-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Filter Material with name deepresonance-filter_alt-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gunpowder with name immersiveengineering-material/gunpowder0-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Charcoal Block with name mekanism-basicblock_3-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Charcoal with name tcomplement-steelworks/charcoal_block-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Zech with name xtones-xtone/zech-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Charcoal with name chisel-charcoal-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tiny Charcoal with name actuallyadditions-recipes54-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Charcoal with name actuallyadditions-recipes121-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Charcoal with name thermalfoundation-storage_resource-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enriched Peat with name cyclicmagic-item.peat_fuel_enriched_1-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carbon Paper with name cyclicmagic-item.carbon_paper_1_2-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tiny Charcoal with name tp-tiny_charcoal-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Ingot with name tp-steel_ingot1-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Charcoal Block with name tp-charcoal_block-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chamelium with name opencomputers-material54-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Charcoal with name forestry-charcoal_block-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Thundercaller with name botania-thundersword-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Third Eye with name botania-thirdeye-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Mana Diamond with name botania-storage_3-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Pylon with name botania-pylon_0-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Blaster with name botania-managun-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Benevolent Goddess' Charm with name botania-goddesscharm-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rod of the Plentiful Mantle with name botania-diviningrod-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tainted Blood Pendant with name botania-bloodpendant-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Livingwood Avatar with name botania-avatar-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Manufactory Halo with name botania-autocraftinghalo-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Priestly Emblem: Njord with name naturalpledge-njord-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fist of Thunder with name naturalpledge-fist-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Terrestrial Focus with name naturalpledge-focus-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Reader with name extrabotany-recipe_manareader-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener1-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener0-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener4-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener3-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener2-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for World Seed with name botania-worldseed-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Dragonstone with name botania-storage_4-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Starcaller with name botania-starsword-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Life Aggregator with name botania-spawnermover-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rod of the Unstable Reservoir with name botania-missilerod-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Luminizer with name botania-lightrelay_0-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shard of Laputa with name botania-laputashard_0-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rod of the Shaded Mesa with name botania-gravityrod-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crystal Bow with name botania-crystalbow-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Master Corporea Spark with name botania-corporeaspark_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Corporea Index with name botania-corporeaindex-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gaia Mana Spreader with name botania-spreader_3-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Position Reader with name extrabotany-recipe_binder-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nature Orb with name extrabotany-recipe_natureorb-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Lens: Potion with name extrabotany-recipe_lenspotion-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Lens: Cloud with name extrabotany-recipe_lenscloud-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Elven Altar with name botanicadds-elven_altar-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Elven Lapis Block with name botanicadds-elven_lapis_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Lapis Block with name botanicadds-mana_lapis_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quicksilver Drop with name thaumcraft-quicksilvertonuggets-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mirrored Glass with name thaumcraft-mirrorglass-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quicksilver Seeds with name mysticalagriculture-quicksilver_seeds-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Raw Meat Ingot with name industrialmeat-cooked_meat_ingot_nugget-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ingot of Light with name tg-light_ingot2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shaded Ingot with name tg-shade_ingot2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Metal Ingot with name thaumcraft-nuggetstovoid-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Metal Gear with name mystgears-recipe_gear_void-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Spikes with name minecraft-tb.voidspike-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name immersiveengineering-metal_storage/aluminum_ingot-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_15-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name agricraft-combine_nugget_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name embers-ingotaluminum_ingot-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name techreborn-ingot_19-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Gear with name mystgears-recipe_gear_aluminium-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Pile of Ashes with name techreborn-smalldust_3-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Pearl with name tp-enderpearl-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nether Quartz Seed with name appliedenergistics2-misc/seeds_nether-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quartz Ingot with name thermalfoundation-quartz_ingot_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quartz Cooler with name nuclearcraft-tile.nuclearcraft.cooler.quartz-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quartz Cooler with name nuclearcraft-tile.nuclearcraft.cooler.quartz_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quartz Cooler with name nuclearcraft-tile.nuclearcraft.cooler.quartz_2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quartz Cooler with name nuclearcraft-tile.nuclearcraft.cooler.quartz_3-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Solar Panel with name nuclearcraft-tile.nuclearcraft.solar_panel_basic-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Solar Panel with name nuclearcraft-tile.nuclearcraft.solar_panel_basic_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Upgrade with name nuclearcraft-item.nuclearcraft.upgrade.energy-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Upgrade with name nuclearcraft-item.nuclearcraft.upgrade.energy_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tiny Pile of Quartz Dust with name jaopca-item_dusttinyquartz_n0qbp3-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Pile of Quartz Dust with name jaopca-item_dustsmallquartz_i97h4v-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Industrial Dye Blend with name enderio-machine_dye-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enhanced Dye Blend with name enderio-enhanced_machine_dye-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soul Attuned Dye Blend with name enderio-soul_machine_dye-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blood Infused Glowstone with name bloodarsenal-blood_infused_glowstone-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flux Configurator with name fluxnetworks-item.fluxconfigurator86-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flux Block with name fluxnetworks-tile.fluxblock87-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flux Core with name fluxnetworks-item.fluxcore88-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Deep Mob Learning with name deepmoblearning-recipe8_guide_book-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soot-covered Plate with name deepmoblearning-recipe3_soot_covered_plate-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soot-covered Machine Casing with name deepmoblearning-recipe2_machine_casing-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Deep Learner with name deepmoblearning-recipe1_deep_learner-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blank Data Model with name deepmoblearning-data_model/data_model_blank-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tiny Pile of Void Dust with name jaopca-item_dusttinyvoid_ibadr2-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Pile of Void Dust with name jaopca-item_dustsmallvoid_ms2pra-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wither Trap with name darkutils-trap_wither-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Dwindle Cream with name darkutils-dwindlecream-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Unstable Ender Pearl with name darkutils-unstable_pearl-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wither Dust Block with name darkutils-compact_wither-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_121-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingot_aluminum_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hardened Aluminum Glass with name thermalfoundation-glass_5-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Pile of Aluminium Dust with name techreborn-smalldust_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Solid Fuel with name tinker_io-solidfuel_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tiny Pile of Aluminium Dust with name jaopca-item_dusttinyaluminium_cfv1bj-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Dust with name jaopca-item_dustvoid_o9sd3q-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Dust with name techreborn-dust_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Dust with name jaopca-item_dustvoid_c7tah8-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name jaopca-material_ed8yi9-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Essentia Smeltery with name planarartifice-alkimium_smeltery-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Thaumium Smeltery with name planarartifice-alkimium_smeltery_thaumium-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Alchemical Construct with name planarartifice-alchemical_alkimium_construct-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Radiation Suit Leggings (WIP) with name deepresonance-leggings-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Smelter with name deepresonance-smelter-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tank with name deepresonance-tank-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Radiation Suit Boots (WIP) with name deepresonance-boots-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Radiation Suit Helmet (WIP) with name deepresonance-helmet-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Resonating Plate Block with name deepresonance-resonating_block-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Radiation Screen Module with name deepresonance-radiation_module-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Radiation Monitor with name deepresonance-radiation_monitor-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lens with name deepresonance-lens-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for RCL Screen Module with name deepresonance-rcl_module-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Radiation Suit Chestplate (WIP) with name deepresonance-chest-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Resonating Machine Frame with name deepresonance-machine_frame-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Factory Base with name woot-factorybase-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Metal Essentia Smeltery with name thaumcraft-essentiasmeltervoid-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Advanced Alchemical Construct with name thaumcraft-advalchemyconstruct-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Void Foritified Jar with name thaumadditions-eldritch_jar-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Void Smeltery with name planarartifice-alkimium_smeltery_void-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flashbulb with name immersiveengineering-toolupgrades/shield_flash-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Engineer's Toolbox with name immersiveengineering-tool/toolbox-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Sheetmetal with name immersiveengineering-sheetmetal/aluminum_sheetmetal-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Wire with name immersiveengineering-material/wire_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Faraday Leggings with name immersiveengineering-armor/faraday_legs-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Faraday Helmet with name immersiveengineering-armor/faraday_helm-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Faraday Chestplate with name immersiveengineering-armor/faraday_chest-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Faraday Boots with name immersiveengineering-armor/faraday_boots-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lithium Batpack with name techreborn-lithiumbatpack-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lithium Battery with name techreborn-lithiumbattery-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Standard Machine Casing with name techreborn-machine_casing_2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Semi Fluid Generator with name techreborn-semi_fluid_generator_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diesel Generator with name techreborn-diesel_generator_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gas Turbine with name techreborn-gas_turbine_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Industrial Centrifuge with name techreborn-industrial_centrifuge_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Assembling Machine with name techreborn-assembling_machine_1-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Digital Chest with name techreborn-digital_chest-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Wallmount with name immersiveengineering-metal_decoration/aluminum_wallmount-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Scaffolding with name immersiveengineering-metal_decoration/aluminum_scaffolding-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Fence with name immersiveengineering-metal_decoration/aluminum_fence-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Storage Crate with name immersiveengineering-wooden_devices/reinforced_crate-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shock Emitters with name immersiveengineering-toolupgrades/shield_shock-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Maintenance Kit with name immersiveengineering-tool/maintenance_kit-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ear Defenders with name immersiveengineering-armor/earmuffs-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Maneuvering Rudders with name immersivepetroleum-speedboat/rudders-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nullodermal Virus with name botania-virus_1-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Necrodermal Virus with name botania-virus_0-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flare Chakram with name botania-thornchakram_1-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Starfield Creator with name botania-starfield-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spark Augment: Isolated with name botania-sparkupgrade_3-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spark Augment: Recessive with name botania-sparkupgrade_2-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spark Augment: Dominant with name botania-sparkupgrade_1-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spark Augment: Dispersive with name botania-sparkupgrade_0-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rod of the Highlands with name botania-skydirtrod-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gaia Pylon with name botania-pylon_2-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spectral Platform with name botania-platform_1-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Great Fairy Ring with name botania-pixiering-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Red String with name botania-manaresource_12_alt-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Red String with name botania-manaresource_12-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Lens: Warp with name botania-lens_18-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Resolute Ivy with name botania-keepivy-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Corporea Spark with name botania-corporeaspark_0-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Conjuration Catalyst with name botania-conjurationcatalyst-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cocoon of Caprice with name botania-cocoon-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Traveller's Ration Belt with name naturalpledge-foodbelt-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flarebringer the Bane with name naturalpledge-flarebringer-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tome of the Ages with name naturalpledge-xptome-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bottled Pixie with name extrabotany-recipe_bottledpixie-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Mana Drive with name extrabotany-recipe_manadriverring-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Power Frame with name extrabotany-recipe_chargepad-reremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rod of the Bifrost with name botania-rainbowrod-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Amplifier Electron Tubes with name immersiveengineering-toolupgrades/revolver_electro-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Wallmount with name immersiveengineering-metal_decoration/steel_wallmount-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Scaffolding with name immersiveengineering-metal_decoration/steel_scaffolding-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Fence with name immersiveengineering-metal_decoration/steel_fence-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Revolver Barrel with name immersiveengineering-material/gunpart_barrel-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Structural Cable Connector with name immersiveengineering-connectors/connector_structural-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Fence Gate with name engineersdoors-fencegate_steel-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lumbermill with name extratrees-lumbermill-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Woodworker with name extratrees-woodworker-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Panelworker with name extratrees-panelworker-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Glassworker with name extratrees-glassworker-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Redstone Dynamo with name mystgears-recipe_redstone_dynamo-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Psi-Cuffs Key with name rpsideas-blaster_cad - copy-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Frosty Soles with name conarm-frosty_soles-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled XOR Gate with name complex-logic-xor-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Viewer Gate with name complex-logic-viewer-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Text Display (2-Character) with name complex-logic-textdisplay-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Subtractor Gate with name complex-logic-subtractor-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Shifter Gate with name complex-logic-shifter-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Real-Time Clock with name complex-logic-rtc-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Random Value Generator with name complex-logic-random-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Patch Panel with name complex-logic-patchpanel-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled AND Gate with name complex-logic-nand-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-multiplication-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Multiplexer Gate with name complex-logic-multiplexer-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-modulo-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Memory Gate with name complex-logic-memory-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hex Driver with name complex-logic-hexdriver-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Global OR Gate with name complex-logic-globalor-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-division-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 7-Segment Display (2-Digit) with name complex-logic-display-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Digital-Analog Converter with name complex-logic-dac-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Counter with name complex-logic-counter-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Button Panel with name complex-logic-buttonpanel-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for BIN-TO-BCD with name complex-logic-bintobcd-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for BIN-TO-7SEG with name complex-logic-binto7seg-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled AND Gate with name complex-logic-and-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Adder Gate with name complex-logic-adder-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Analog-Digital Converter with name complex-logic-adc-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Arrow of Ascension with name naturalpledge-ascension-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockchocolate-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockpsi-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockreinforcedpinkslime-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockchocolate-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockpsi-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockreinforcedpinkslime-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Saturated Tobacco Pile with name minecraft-tb.hunger-rererererererererererererererererererererererererererererererererererererererererererereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Ingot with name planarartifice-alkimium_ingot-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockalchemical-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockalchemical-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blood Infused Iron Ingot with name bloodarsenal-blood_infused_iron_ingot-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Inert Blood Diamond with name bloodarsenal-blood_diamond_inert-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blood Capacitor with name bloodarsenal-blood_capacitor-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Altare Aenigmatica with name bloodarsenal-altare_aenigmatica-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Speed with name actuallyadditions-recipes60-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Haste with name actuallyadditions-recipes62-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Strength with name actuallyadditions-recipes64-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Jump Boost with name actuallyadditions-recipes66-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Regeneration with name actuallyadditions-recipes68-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Resistance with name actuallyadditions-recipes70-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Fire Resistance with name actuallyadditions-recipes72-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Water Breathing with name actuallyadditions-recipes74-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Invisibility with name actuallyadditions-recipes76-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ring of Night Vision with name actuallyadditions-recipes78-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Diamatine Crystal with name actuallyadditions-recipes197-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Spawner Changer with name actuallyadditions-recipes21-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Fortune Augment I with name actuallyadditions-recipes33-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wings Of The Bats with name actuallyadditions-recipes43-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Experience Solidifier with name actuallyadditions-recipes120-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Diamatine Crystal with name actuallyadditions-recipes199-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Item Repairer with name actuallyadditions-recipes151-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Diamond with name botania-manaresource_2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Dragonstone with name botania-manaresource_9-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Emeradic Crystal with name actuallyadditions-recipes209-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Emeradic Crystal with name actuallyadditions-recipes211-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Ingot with name extendedcrafting-block_of_ender_from-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockender-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockender-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enhanced Ender Ingot with name extendedcrafting-block_of_enhanced_ender_from-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Pearl with name actuallyadditions-recipes148-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Teleport Staff with name actuallyadditions-recipes29-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Phantomface with name actuallyadditions-recipes134-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ender Star with name extendedcrafting-block_of_ender_stars_from-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Farmer with name actuallyadditions-recipes86-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Casing with name actuallyadditions-recipes131-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enori Crystal with name actuallyadditions-recipes215-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill with name actuallyadditions-recipes27-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Drill Core with name actuallyadditions-recipes28-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lava Factory Controller with name actuallyadditions-recipes130-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Empowered Enori Crystal with name actuallyadditions-recipes217-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flux Plug with name fluxnetworks-tile.fluxplug90-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Flux Storage with name fluxnetworks-tile.fluxstorage-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flux Controller with name fluxnetworks-tile.fluxcontroller89-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Glitch Infused Ingot with name deepmoblearning-recipe7_block_to_ingot-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Plate with name planarartifice-alkimium_plate-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alkimium Nugget with name planarartifice-alkimium_nugget-rereremodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Alkimium with name planarartifice-alkimium_block-rereremodified
+>>>>>>> master
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
 [SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}, enabling debugmode
@@ -61,6 +974,7 @@ java.lang.NullPointerException
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}
+<<<<<<< HEAD
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
 [SERVER_STARTED][SERVER][ERROR] 00_oreDict\02_recipeRemoval.zs:13 > Could not find matching constructor with 1 arguments!
@@ -195,6 +1109,20 @@ This is usually an error in your script, not in the mod
 removeTableRecipe(ZenTypeNative: crafttweaker.item.IItemStack, Optional ZenTypeNative: crafttweaker.liquid.ILiquidStack)
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 142ms
+=======
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2501 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2501 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2527 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2527 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2560 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2560 > could not find type IGasStack
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\02_recipeRemoval.zs:263: Could not resolve <bloodmagic : cutting fluid>
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing 00_oreDict\02_recipeRemoval.zs:263 -- ) expected
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 395ms
+>>>>>>> master
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
 [SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
@@ -204,6 +1132,7 @@ removeTableRecipe(ZenTypeNative: crafttweaker.item.IItemStack, Optional ZenTypeN
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}
+<<<<<<< HEAD
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
 [SERVER_STARTED][SERVER][ERROR] 00_oreDict\02_recipeRemoval.zs:82 > could not find hashCleanSlurry
@@ -238,6 +1167,20 @@ This is usually an error in your script, not in the mod
 removeTableRecipe(ZenTypeNative: crafttweaker.item.IItemStack, Optional ZenTypeNative: crafttweaker.liquid.ILiquidStack)
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 93ms
+=======
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2501 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2501 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2527 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2527 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2560 > could not find type IGasStack
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\00_variableDeclaration.zs:2560 > could not find type IGasStack
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
+[SERVER_STARTED][SERVER][ERROR] 00_oreDict\02_recipeRemoval.zs:263: Could not resolve <bloodmagic : cutting fluid>
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing 00_oreDict\02_recipeRemoval.zs:263 -- ) expected
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 245ms
+>>>>>>> master
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
 [SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
@@ -249,6 +1192,7 @@ removeTableRecipe(ZenTypeNative: crafttweaker.item.IItemStack, Optional ZenTypeN
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
+<<<<<<< HEAD
 [SERVER_STARTED][SERVER][ERROR] 00_oreDict\02_recipeRemoval.zs:82 > could not find hashCleanSlurry
 [SERVER_STARTED][SERVER][ERROR] 00_oreDict\02_recipeRemoval.zs:109 > could not find nugget
 [SERVER_STARTED][SERVER][ERROR] 00_oreDict\02_recipeRemoval.zs:109 > not a valid lvalue
@@ -308,6 +1252,11 @@ removeTableRecipe(ZenTypeNative: crafttweaker.item.IItemStack, Optional ZenTypeN
 [SERVER_STARTED][SERVER][ERROR] 00_oreDict\02_recipeRemoval.zs:111 > No such static member in crafttweaker.item.IIngredient: nugget
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 81ms
+=======
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing 00_oreDict\02_recipeRemoval.zs:263 -- ) expected
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 168ms
+>>>>>>> master
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
 [SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
@@ -319,5 +1268,36 @@ removeTableRecipe(ZenTypeNative: crafttweaker.item.IItemStack, Optional ZenTypeN
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: 00_oreDict\00_variableDeclaration.zs}
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-1:crafttweaker]: 00_oreDict\01_oreDictionaryManipulation.zs}
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}
+<<<<<<< HEAD
 [SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 64ms
+=======
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker | SIDE_CLIENT]: Error loading {[-2:crafttweaker]: 00_oreDict\02_recipeRemoval.zs}: java.lang.NullPointerException
+java.lang.NullPointerException
+	at stanhebben.zenscript.statements.Statement.read(Statement.java:24)
+	at stanhebben.zenscript.statements.Statement.read(Statement.java:29)
+	at stanhebben.zenscript.statements.Statement.read(Statement.java:80)
+	at stanhebben.zenscript.ZenParsedFile.<init>(ZenParsedFile.java:144)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:193)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
+	at crafttweaker.mc1120.commands.Commands$27.executeCommand(Commands.java:858)
+	at crafttweaker.mc1120.commands.CTChatCommand.func_184881_a(CTChatCommand.java:73)
+	at com.feed_the_beast.ftbutilities.ranks.CommandOverride.func_184881_a(CommandOverride.java:88)
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119)
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91)
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962)
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941)
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37)
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9)
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at net.minecraft.util.Util.func_181617_a(SourceFile:529)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:819)
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-3:crafttweaker]: 00_oreDict\03_oreDictRemoval.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 244ms
+>>>>>>> master
