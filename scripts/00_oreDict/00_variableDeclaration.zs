@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mod.mekanism.gas.IGasStack;
 import mods.mekanism.MekanismHelper.getGas;
 
 /* Declaring Other Variables */
@@ -2182,6 +2183,8 @@ val stringBlock = [
     "Knightslime",
     "Kyronite",
     "Lapis",
+	"LapisElven",
+	"LapisMana",
     "Lead",
     "LeadPlatinum",
     "Litherite",
@@ -2496,11 +2499,11 @@ val stringMolten = [
 
 /********** Gases **********/
 /***** Other Gases *****/
-global hashGas as ILiquidStack[string] = {} as ILiquidStack[string];
+global hashGas as IGasStack[string] = {} as IGasStack[string];
 val stringGas = [
  
 	"Brine", 
-	"Chlorine",,
+	"Chlorine",
 	"Deuterium", 
 	"Ethene", 
 	"FusionFuel", 
@@ -2522,7 +2525,7 @@ for gas in stringGas {
 }
 
 /***** Slurry *****/
-global hashSlurry as ILiquidStack[string] = {} as ILiquidStack[string];
+global hashSlurry as IGasStack[string] = {} as IGasStack[string];
 val stringSlurry = [
  
 	"Aluminium",
@@ -2555,7 +2558,7 @@ for slurry in stringSlurry {
 }
 
 /***** Clean Slurry *****/
-global hashSlurryClean as ILiquidStack[string] = {} as ILiquidStack[string];
+global hashSlurryClean as IGasStack[string] = {} as IGasStack[string];
 val stringSlurryClean = [
  
 	"Aluminium",
