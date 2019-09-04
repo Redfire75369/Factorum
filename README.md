@@ -27,27 +27,59 @@ Play the Pack to find out more.
 
 ## Mod Information
 ### Energy's Matter
+#### Power Conversion Values
+- 1 kWh = 9.0 × 10<sup>6</sup> T
+- 1 W = 9.0 T/t
+
 #### Resource Generation
 - A 2x2 section will be used as the reaction chamber, where a small amount of particles get used in a nuclear reaction.
 - The particles are added to the chamber with a particle injector, which passively injects particles from the surroundings into the chamber for a small input of power or a Particle Storage, which injects large quantities of particles in at once but requires an external source of particles.
 - The generator outputs one item to a nearby inventory (up, down, clockwise).
 - The controller requires a molecular schema so that it can combine the items. That molecular schema needs to be created from another machine and consumes a certain quantity of items according to the difficulty settings and the complexity of it.
-- Fusion Reactor
-  - Materials Required
-    - Cooling Pumps (1 to 3){3 Tiers}
-      - Tiers Varying on Efficiency and Power Required
-    - Injector (Not Needed if Particle Storage is used)
-      - Injects Particles from a Collector Extremely Slowly
-    - Particle Storage {2 Tiers}
-      - Tier 1: Uses <sup>2</sup>H and <sup>3</sup>H
-      - Tier 2: Uses C, N and O
-    - Power Controller {1 Tier}
-      - Distributes power to the multi block
-    - Reactor Control Panel {1 Tier}
-      - Controls the Multiblock, the Reaction Status, Shutting Down Mechanisms and More
-    - Exhaust Pipes (0 to 4)
-      - If Present, Augement the Efficiency of Cooling and Speed of the Reactor
-    - Output pipe
+##### Molecular Transmutator
+- Overview
+	- First way to generate Resources
+	- Transforms certains items into other items at a ratio of 4:1
+		- Example: 4 Cobblestone &rarr; Oak Plank
+	- Upon Input of items, Output can be selected and provided energy, the Output will be built
+	- No knowledge of structures beforehand
+	- Ability to create Items that have been used up once by Transmutator
+	- Unable to create machines due to complexity
+	- Unable to create its own circuitry 
+- Inputs and Outputs
+	- Energy
+		- 5 Wh
+	- Time
+		- 80 ticks
+- Building Materials
+	- Upgrades:
+		- Speed Upgrade (0 to 4)
+			- Time: -6 ticks
+			- Power: 1.5×
+			
+##### Fusion Reactor
+- Overview
+	- 
+- Inputs and Outputs
+	- Energy
+		- Initial Input: 2.0 × 10<sup>7</cup> W
+		- Input: 5.0 × 10<sup>3</sup> W
+		- Output: 1.0 × 10<sup>9</sup> W
+- Building Materials
+	- Cooling Pumps (1 to 3){3 Tiers}
+		- Tiers Vary on Efficiency and Power Requirement
+	- Injector (Not Needed if Particle Storage is used)
+		- Injects Particles from a Collector Extremely Slowly
+	- Particle Storage {2 Tiers}
+		- Tier 1: Uses <sup>2</sup>H and <sup>3</sup>H
+		- Tier 2: Uses C, N and O
+	- Power Controller {1 Tier}
+		- Distributes power to the Fusion Reactor
+	- Reactor Control Panel {1 Tier}
+		- Controls the Fusion Reactor, Reaction Status, Shut Down of Mechanisms and More
+	- Exhaust Pipes (0 to 4)
+		- Augments Efficiency of Cooling and Speed of Fusion Reactor
+	- Output Pipe
 
 ### Advanced Generators
 #### Heat Exchanger
