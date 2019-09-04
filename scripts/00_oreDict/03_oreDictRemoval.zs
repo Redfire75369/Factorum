@@ -484,132 +484,132 @@ val arrayRemoveDictShard = [
 
 /***** Removing Ore Dictionaries *****/
 
-if (!arrayRemoveDictOre.length == 0) {
+if (!(arrayRemoveDictOre.length == 0)) {
 	for ore in arrayRemoveDictOre {
 	    for dict in ore.ores {
 	        dict.remove(ore);
 	    }
 	}
 }
-if (!arrayRemoveDictCluster.length == 0) {
+if (!(arrayRemoveDictCluster.length == 0)) {
 	for cluster in arrayRemoveDictCluster {
 	    for dict in cluster.ores {
 	        dict.remove(cluster);
 	    }
 	}
 }
-if (!arrayRemoveDictIngot.length == 0) {
+if (!(arrayRemoveDictIngot.length == 0)) {
 	for ingot in arrayRemoveDictIngot {
 	    for dict in ingot.ores {
 	        dict.remove(ingot);
 	    }
 	}
 }
-if (!arrayRemoveDictGem.length == 0) {
+if (!(arrayRemoveDictGem.length == 0)) {
 	for gem in arrayRemoveDictGem {
 	    for dict in gem.ores {
 	        dict.remove(gem);
 	    }
 	}
 }
-if (!arrayRemoveDictCrystal.length == 0) {
+if (!(arrayRemoveDictCrystal.length == 0)) {
 	for crystal in arrayRemoveDictCrystal {
 	    for dict in crystal.ores {
 	        dict.remove(crystal);
 	    }
 	}
 }
-if (!arrayRemoveDictEnderIO.length == 0) {
+if (!(arrayRemoveDictEnderIO.length == 0)) {
 	for enderIO in arrayRemoveDictEnderIO {
 	    for dict in enderIO.ores {
 	        dict.remove(enderIO);
 	    }
 	}
 }
-if (!arrayRemoveDictClathrate.length == 0) {
+if (!(arrayRemoveDictClathrate.length == 0)) {
 	for clathrate in arrayRemoveDictClathrate {
 	    for dict in clathrate.ores {
 	        dict.remove(clathrate);
 	    }
 	}
 }
-if (!arrayRemoveDictDust.length == 0) {
+if (!(arrayRemoveDictDust.length == 0)) {
 	for dust in arrayRemoveDictDust {
 	    for dict in dust.ores {
 	        dict.remove(dust);
 	    }
 	}
 }
-if (!arrayRemoveDictPlate.length == 0) {
+if (!(arrayRemoveDictPlate.length == 0)) {
 	for plate in arrayRemoveDictPlate {
 	    for dict in plate.ores {
 	        dict.remove(plate);
 	    }
 	}
 }
-if (!arrayRemoveDictPlateDense.length == 0) {
+if (!(arrayRemoveDictPlateDense.length == 0)) {
 	for plateDense in arrayRemoveDictPlateDense {
 	    for dict in plateDense.ores {
 	        dict.remove(plateDense);
 	    }
 	}
-}if (!arrayRemoveDictRod.length == 0) {
+}if (!(arrayRemoveDictRod.length == 0)) {
 	for rod in arrayRemoveDictRod {
 	    for dict in rod.ores {
 	        dict.remove(rod);
 	    }
 	}
 }
-if (!arrayRemoveDictGear.length == 0) {
+if (!(arrayRemoveDictGear.length == 0)) {
 	for gear in arrayRemoveDictGear {
 	    for dict in gear.ores {
 	        dict.remove(gear);
 	    }
 	}
 }
-if (!arrayRemoveDictNugget.length == 0) {
+if (!(arrayRemoveDictNugget.length == 0)) {
 	for nugget in arrayRemoveDictNugget {
 	    for dict in nugget.ores {
 	        dict.remove(nugget);
 	    }
 	}
 }
-if (!arrayRemoveDictBlock.length == 0) {
+if (!(arrayRemoveDictBlock.length == 0)) {
 	for block in arrayRemoveDictBlock {
 	    for dict in block.ores {
 	        dict.remove(block);
 	    }
 	}
 }
-if (!arrayRemoveDictDustTiny.length == 0) {
+if (!(arrayRemoveDictDustTiny.length == 0)) {
 	for dustTiny in arrayRemoveDictDustTiny {
 	    for dict in dustTiny.ores {
 	        dict.remove(dustTiny);
 	    }
 	}
 }
-if (!arrayRemoveDictDustSmall.length == 0) {
+if (!(arrayRemoveDictDustSmall.length == 0)) {
 	for dustSmall in arrayRemoveDictDustSmall {
 	    for dict in dustSmall.ores {
 	        dict.remove(dustSmall);
 	    }
 	}
 }
-if (!arrayRemoveDictDustDirty.length == 0) {
+if (!(arrayRemoveDictDustDirty.length == 0)) {
 	for dustDirty in arrayRemoveDictDustDirty {
 	    for dict in dustDirty.ores {
 	        dict.remove(dustDirty);
 	    }
 	}
 }
-if (!arrayRemoveDictClump.length == 0) {
+if (!(arrayRemoveDictClump.length == 0)) {
 	for clump in arrayRemoveDictClump {
 	    for dict in clump.ores {
 	        dict.remove(clump);
 	    }
 	}
 }
-if (!arrayRemoveDictShard.length == 0) {
+if (!(arrayRemoveDictShard.length == 0)) {
 	for shard in arrayRemoveDictShard {
 	    for dict in shard.ores {
 	        dict.remove(shard);

@@ -112,10 +112,9 @@ for key, ingot in hashIngot {
 	}
 }
 
-/* Input: Energized Smelter, Blast Furnace, Induction Smelter, Redstone Furnace */
+/* Input: Blast Furnace, Induction Smelter, Redstone Furnace */
 for key, ingot in hashIngot {
 	if (hashOre has key) {
-		mods.mekanism.smelter.removeRecipe(hashOre[key], ingot);
 		mods.techreborn.blastFurnace.removeInputRecipe(hashOre[key]);
 		for itemstack in hashOre[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
@@ -124,8 +123,6 @@ for key, ingot in hashIngot {
 		}
 	}
 	if (hashCluster has key) {
-		mods.mekanism.smelter.removeRecipe(hashCluster[key], ingot);
-		mods.techreborn.blastFurnace.removeInputRecipe(hashCluster[key]);
 		for itemstack in hashCluster[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, cinnabar);
@@ -133,7 +130,6 @@ for key, ingot in hashIngot {
 		}
 	}
 	if (hashDust has key) {
-		mods.mekanism.smelter.removeRecipe(hashDust[key], ingot);
 		mods.techreborn.blastFurnace.removeInputRecipe(hashDust[key]);
 		for itemstack in hashDust[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
@@ -143,11 +139,11 @@ for key, ingot in hashIngot {
 	}
 }
 
-/* Output: Furnace, Arc Furnace, Energized Smelter, Blast Furnace, Stamper, Casting Table */
+/* Output: Furnace, Arc Furnace, Blast Furnace, Stamper, Casting Table */
 for key, ingot in hashIngot {
 	if (hashOre has key|hashCluster has key|hashDust has key) {
-		furnace.remove(ingot, hashOre[key]|hashCluster[key]|hashDust[key]);
 		for itemstack in ingot.items {
+			furnace.remove(itemstack, hashOre[key]|hashCluster[key]|hashDust[key]);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
 		}
@@ -161,10 +157,9 @@ for key, ingot in hashIngot {
 }
 
 /***** Gems *****/
-/* Input: Energized Smelter, Blast Furnace, Manufactory, Grinder, Industrial Grinder Quartz Grindstone, SAG Mill, Pulverizer */
+/* Input: EBlast Furnace,Enrichment Chamber, Manufactory, Grinder, Industrial Grinder, Quartz Grindstone, SAG Mill, Crusher, Pulverizer */
 for key, gem in hashGem {
 	if (hashOre has key) {
-		mods.mekanism.smelter.removeRecipe(hashOre[key], gem);
 		mods.techreborn.blastFurnace.removeInputRecipe(hashOre[key]);
 	}
 	if (hashOre has key) {
@@ -186,6 +181,7 @@ for key, gem in hashGem {
 	if (hashOre has key|hashCluster has key|hashDust has key) {
 		furnace.remove(gem);
 		for itemstack in gem.items {
+			furnace.remove(itemstack, hashOre[key]|hashCluster[key]|hashDust[key])
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
 		}
@@ -254,7 +250,7 @@ for key, dust in hashDust {
 	}
 }
 
-/* Input: Manufactory, Grinder, Industrial Grinder, Grindstone, Alchemy Table, SAG Mill, Squeezer, Mechanical Squeezer, Crusher, Enrichment Chamber, Pulverizer */
+/* Input: Enrichment Chamber, Manufactory, Grinder, Industrial Grinder, Grindstone, Alchemy Table, SAG Mill, Squeezer, Mechanical Squeezer, Crusher, Enrichment Chamber, Pulverizer */
 for key, dust in hashDust {
 	if (hashOre has key) {
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dust);
