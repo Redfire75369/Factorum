@@ -1,28 +1,22 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: "[BUG] Bug"
-labels: ''
-assignees: ''
-
+Name: Bug report
+About: Report a bug that shoudl get fixed
+Title: "[BUG]"
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**What Version of the Modpack is being used?**
 
-**To Reproduce**
+**Are you playing in singleplayer or multiplayer?**
+
+**What did you try to do and what did you expect to happen?**
+
+**What actually happened? (Attach Screenshots as needed)**
+
+**Steps to reproduce (If possible)**
 Steps to reproduce the behaviour:
 1.
 2.
 
-**Expected behaviour**
-A clear and concise description of what you expected to happen.
+**What do you propose to fix the bug?**
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
 
-**Suggestions to fix bug**
-Write suggestions that could fix bug
-
-**Additional context**
-Add any other context about the problem here.
