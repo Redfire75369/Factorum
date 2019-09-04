@@ -8,9 +8,9 @@ foamfixcore - FoamFixCore - 7.7.4
 opencomputers|core - OpenComputers (Core) - 1.7.4.153
 rpintegration - RandomPatches Integration - 1.12.2-1.5.1.0
 botania_tweaks_core - Botania Tweaks Core - -100
-randompatches - RandomPatches - 1.12.2-1.17.2.1
+randompatches - RandomPatches - 1.12.2-1.18.1.1
 fastbench - FastWorkbench - 1.7.2
-actuallyadditions - Actually Additions - 1.12.2-r149
+actuallyadditions - Actually Additions - 1.12.2-r150
 baubles - Baubles - 1.5.2
 actuallybaubles - Actually Baubles - 1.1
 opencomputers - OpenComputers - 1.7.4.153
@@ -20,8 +20,9 @@ ctm - CTM - MC1.12.2-0.3.3.22
 appliedenergistics2 - Applied Energistics 2 - rv6-stable-7
 bdlib - BD Lib - 1.14.3.12
 ae2stuff - AE2 Stuff - 0.7.0.4
-roots - Roots - 1.12.2-3.0.6
-endercore - EnderCore - 1.12.2-0.5.65
+roots - Roots - 1.12.2-3.0.10
+mysticalworld - Mystical World - 1.12.2-1.4.3
+endercore - EnderCore - 1.12.2-0.5.68
 charset - Charset - 0.5.6.3
 crafttweaker - CraftTweaker2 - 4.1.19
 endertweaker - EnderTweaker - 1.1.7
@@ -32,7 +33,7 @@ forgelin - Shadowfacts' Forgelin - 1.8.3
 thaumcraft - Thaumcraft - 6.1.BETA26
 thaumcraftresearchloader - Thaumcraft Research Loader - 1.0
 thaumic_arcana - Thaumic Arcana - 1.2.0
-jei - Just Enough Items - 4.15.0.287
+jei - Just Enough Items - 4.15.0.289
 codechickenlib - CodeChicken Lib - 3.2.3.357
 redstoneflux - Redstone Flux - 2.1.0
 cofhcore - CoFH Core - 4.6.3
@@ -41,10 +42,10 @@ cofhworld - CoFH World - 1.3.1
 thermalfoundation - Thermal Foundation - 2.6.3
 draconicevolution - Draconic Evolution - 2.3.24
 thermalexpansion - Thermal Expansion - 5.5.4
-enderio - Ender IO - 5.0.50
+enderio - Ender IO - 5.1.51
 mantle - Mantle - 1.12-1.3.3.55
 chisel - Chisel - MC1.12.2-0.2.1.35
-enderiointegrationtic - Ender IO Integration with Tinkers' Construct - 5.0.50
+enderiointegrationtic - Ender IO Integration with Tinkers' Construct - 5.1.51
 botania_tweaks - Botania Tweaks - 1.8.6
 botania - Botania - r1.10-361
 librarianlib - LibrarianLib - 4.19.2
@@ -60,15 +61,15 @@ ae2wtlib - AE2 Wireless Terminals (AE2WTLib) - 1.0.30
 infinitylib - InfinityLib - 1.12.2-1.12.0
 agricraft - AgriCraft - 2.12.0-1.12.0-a6
 aiotbotania - AIOT Botania - 0.7
-cyclicmagic - Cyclic - 1.19.14
+cyclicmagic - Cyclic - 1.19.15
 guideapi - Guide-API - 1.12-2.1.8-63
 bloodmagic - Blood Magic: Alchemical Wizardry - 1.12.2-2.4.1-103
 animus - Animus - 1
 placebo - Placebo - 1.6.0
-apotheosis - Apotheosis - 1.10.3
+apotheosis - Apotheosis - 1.10.4
 appleskin - AppleSkin - 1.0.9
 gbook_snapshot - Guidebook - 2.9.1.s5
-arcanearchives - Arcane Archives - 0.2.0.3
+arcanearchives - Arcane Archives - 0.2.0.8
 artifacts - Artifacts - 1.12.2-1.1.0
 astralsorcery - Astral Sorcery - 1.10.20
 avaritia - Avaritia - 3.3.0
@@ -82,7 +83,7 @@ beebetteratbees - Bee Better at Bees - 2.0.3
 betterbuilderswands - Better Builder's Wands - 0.13.2
 betterquesting - Better Questing - 3.5.309
 patchouli - Patchouli - 1.0-20
-bewitchment - Bewitchment - 0.20.7
+bewitchment - Bewitchment - 0.20.8
 bibliocraft - BiblioCraft - 2.4.5
 binniecore - Binnie Core - 2.5.1.188
 binniedesign - Binnie's Design - 2.5.1.188
@@ -94,9 +95,9 @@ bloodarsenal - Blood Arsenal - 1.12.2-2.2.0-28
 conarm - Construct's Armory - 1.2.4
 bloodtinker - Tinkering With Blood Magic - 1.0.5
 bookshelf - Bookshelf - 2.3.588
-hammercore - Hammer Core - 2.0.4.8
+hammercore - Hammer Core - 2.0.5.0
 botanicadds - Botanic Additions - 3r
-buildinggadgets - Building Gadgets - 2.7.2
+buildinggadgets - Building Gadgets - 2.7.3
 caliper - Caliper - 1.1.45
 cctweaked - CC: Tweaked - 1.84.0
 computercraft - CC: Tweaked - 1.84.0
@@ -109,7 +110,7 @@ colorfulhealthbar - Colorful Health Bar - @VERSION@
 cyclopscore - Cyclops Core - 1.5.0
 commoncapabilities - CommonCapabilities - 2.4.4
 storagedrawers - Storage Drawers - 1.12-5.3.5
-compactdrawers - Compact Drawers - 1.12.2-1.0.5.123
+compactdrawers - Compact Drawers - 1.12.2-1.0.5.124
 compacter - Compacter - 1.3.0.3
 compactmachines3 - Compact Machines 3 - 3.0.18
 compactstorage - CompactStorage - 3.1
@@ -142,18 +143,18 @@ dym - Document Your Mod Mod - 1.1.1
 dummycore - DummyCoreUnofficial - 2.4.112.5.
 mysticalmechanics - Mystical Mechanics - 0.10
 embers - Embers Rekindled - 1.13-hotfix2
-enderiobase - Ender IO Base - 5.0.50
-enderioconduits - Ender IO Conduits - 5.0.50
-enderiopowertools - Ender IO Powertools - 5.0.50
-enderioconduitsappliedenergistics - Ender IO Applied Energistics Conduits - 5.0.50
-enderioconduitsopencomputers - Ender IO Open Computers Conduits - 5.0.50
-enderioendergy - Ender IO endergy - 5.0.50
-enderiointegrationforestry - Ender IO Integration with Forestry - 5.0.50
-enderiointegrationticlate - Ender IO Integration with Tinkers' Construct - 5.0.50
-ftblib - FTB Library - 5.4.3.130
-enderiomachines - Ender IO Machines - 5.0.50
+enderiobase - Ender IO Base - 5.1.51
+enderioconduits - Ender IO Conduits - 5.1.51
+enderiopowertools - Ender IO Powertools - 5.1.51
+enderioconduitsappliedenergistics - Ender IO Applied Energistics Conduits - 5.1.51
+enderioconduitsopencomputers - Ender IO Open Computers Conduits - 5.1.51
+enderioendergy - Ender IO endergy - 5.1.51
+enderiointegrationforestry - Ender IO Integration with Forestry - 5.1.51
+enderiointegrationticlate - Ender IO Integration with Tinkers' Construct - 5.1.51
+ftblib - FTB Library - 5.4.3.133
+enderiomachines - Ender IO Machines - 5.1.51
 enderstorage - EnderStorage - 2.4.6.137
-enderutilities - Ender Utilities - 0.7.13
+enderutilities - Ender Utilities - 0.7.14
 enderzoo - Ender Zoo - 1.12.1-1.4.0.49
 ieclochecompat - IE Cloche Compat - 2.1.7-dev.454
 immersiveengineering - Immersive Engineering - 0.12-89
@@ -172,7 +173,7 @@ zerocore - Zero CORE - 1.12.2-0.1.2.8
 bigreactors - Extreme Reactors - 1.12.2-0.4.5.67
 farmeradditions - AA Farmer Compat - 1.0.0
 fastfurnace - FastFurnace - 1.3.1
-nuclearcraft - NuclearCraft - 2.18a
+nuclearcraft - NuclearCraft - 2.18g
 fbnc - Fission Based Neutron Collector - 2.1.0
 flatcoloredblocks - Flat Colored Blocks - mc1.12-6.8
 mcmultipart - MCMultiPart - 2.5.3
@@ -181,7 +182,7 @@ sonarcore - SonarCore - 5.0.19
 fluxnetworks - Flux Networks - 3.0.19
 foamfix - FoamFix - 0.10.5-1.12.2
 ftbbanners - FTB Banners - 1.1.0.11
-ftbutilities - FTB Utilities - 5.4.0.100
+ftbutilities - FTB Utilities - 5.4.0.102
 ftbbackups - FTB Utilities: Backups - 0.0.0.ftbbackups
 gasconduits - GasConduits - 1.12.2-1.2.1
 gendustry - GenDustry - 1.6.5.8
@@ -197,7 +198,7 @@ igwmod - In-Game wiki Mod - 1.4.4-15
 immersivecables - Immersive Cables - 1.3.2
 immersivepetroleum - Immersive Petroleum - 1.1.9
 immersivetech - Immersive Tech - 1.3.10
-incorporeal - Incorporeal - 1.2.1
+incorporeal - Incorporeal - 1.2.2
 teslacorelib - Tesla Core Lib - 1.0.15
 industrialforegoing - Industrial Foregoing - 1.12.2-1.12.2
 industrialmeat - Industrial Meat - 1.12-1.0.2
@@ -220,12 +221,12 @@ inworldcrafting - InWorldCrafting - 1.12.2-1.2.0
 ironchest - Iron Chest - 1.12.2-7.0.67.844
 itemfilters - Item Filters - 1.0.3.12
 itemstages - Item Stages - 2.0.50
-jaopcaagriculture - JAOPCAAgriculture - 1.12.2-1.2.1.13
+jaopcaagriculture - JAOPCAAgriculture - 1.12.2-1.2.1.16
 jaopca - JAOPCA - 1.12.2-2.2.8.103
 oredictinit - OreDictInit - 1.12.2-2.2.1.71
 jetif - Just Enough Throwing In Fluids - 1.5.1
 jee - Just Enough Energistics - 1.0.7
-jeid - JustEnoughIDs - 1.0.2-26
+jeid - JustEnoughIDs - 1.0.3-44
 justenoughreactors - Just Enough Reactors - 1.1.3.61
 jeresources - Just Enough Resources - 0.9.2.60
 laggoggles - LagGoggles - FAT-1.12.2-4.8
@@ -249,14 +250,14 @@ morpheus - Morpheus - 1.12.2-3.5.106
 mousetweaks - Mouse Tweaks - 2.10
 multiblockstages - Multiblockstages - 1.1.1
 multithreadednoise - Multithreaded Noise - 0.0.2
+thaumicperiphery - Thaumic Periphery - 0.3.1
 mystgears - Mystical Gears - 1.0.5
-mysticalworld - Mystical World - 1.12.2-1.4.1
 naturalpledge - Natural Pledge - 3.0.3
 redstonearsenal - Redstone Arsenal - 2.6.3
 redstonerepository - Redstone Repository - 1.3.2
 thermaldynamics - Thermal Dynamics - 2.5.5
 simplyjetpacks - Simply Jetpacks 2 - 2.2.13.66
-plustic - PlusTiC - 7.1.1.2
+plustic - PlusTiC - 7.1.3.0
 netherendingores - Netherending Ores - 1.12.2-1.3-hotfix1
 netherportalfix - NetherPortalFix - 5.3.17
 nonausea - NoNausea - 1.0
@@ -274,6 +275,7 @@ overpoweredarmorbar - Overloaded Armor Bar - @VERSION@
 packagedauto - PackagedAuto - 1.12.2-1.0.2.7
 packagedavaritia - PackagedAvaritia - 1.12.2-1.0.1.4
 packagedexcrafting - PackagedExCrafting - 1.12.2-1.0.1.1
+packmode - PackMode - 1.2.0
 planarartifice - Planar Artifice - 0.13
 plethora-core - Plethora Core - 1.2.2
 plethora - Plethora - 1.2.2
@@ -282,8 +284,9 @@ randomconfigs - RandomConfigs - 1.12.2-1.3.2.3
 randomportals - RandomPortals - 1.12.2-1.8.1.1
 randomthings - Random Things - 4.2.7.3
 randomtweaks - RandomTweaks - 1.12.2-2.7.1.0
-recipestages - RecipeStages - 1.1.1
+recipestages - RecipeStages - 1.1.3
 xreliquary - Reliquary - 1.12.2-1.3.4.796
+requious - Requious Frakto - 1.0
 resourceloader - Resource Loader - 1.5.3
 rftoolscontrol - RFTools Control - 2.0.2
 rftoolspower - RFToolsPower - 1.2.0
@@ -308,13 +311,12 @@ tesslocator - Tesslocator - 1.1.0.15
 texfix - TextureFix - 4.0
 tg - Thaumic Gadgets - 0.1.5.0
 thaumadditions - Thaumic Additions: Reconstructed - 19r
-thaumicaugmentation - Thaumic Augmentation - 1.12.2-1.1.7
+thaumicaugmentation - Thaumic Augmentation - 1.12.2-1.1.8
 thaumicbases - Thaumic Bases - 3.3.400.6r
 thaumicbrewing - Thaumic Brewing - 1.0.2
-thaumcomp - Thaumic Computers - 0.4.4
+thaumcomp - Thaumic Computers - 0.5.0
 tcinventoryscan - Thaumcrafft Inventory Scanning - 2.0.10
 thaumicjei - ThaumicJEI - 1.6.0
-thaumicperiphery - Thaumic Periphery - 0.3.0
 thaumicrestoration - Thaumic Restoration - 1.3.1
 thaumictinkerer - Thaumic Tinkerer - 1.12.2-5.0-353c71c
 thermalcultivation - Thermal Cultivation - 0.3.3
@@ -329,7 +331,7 @@ tinkerstages - Tinker Stages - 2.0.17
 tinkertoolleveling - Tinkers Tool Leveling - 1.12.2-1.1.0.DEV.b23e769
 tp - Tiny Progressions - 3.2.34
 tipthescales - TipTheScales - 1.0.4
-torchmaster - TorchMaster - 1.7.1.74
+torchmaster - TorchMaster - 1.8.0.79
 torohealthmod - ToroHealth Damage Indicators - 1.12.2-11
 trm - Industrial Magic - TechReborn Crossover - 1.0
 unlimitedchiselworks - Unlimited Chisel Works - 0.2.4
@@ -350,14 +352,14 @@ witherskelefix - Wither Skeleton Tweaks - 2.6.3
 woot - Woot - 1.12.2-1.4.11
 xencraft - XenCraft - 1.0.0.4
 xtones - Xtones - 1.12-1.0.8-11
-yoyos - Yoyos - 1.12.2-1.3.3.24
+yoyos - Yoyos - 1.12.2-1.3.3.25
 jade - Jade - 0.1.0
 llibrary - LLibrary - 1.7.19
 phosphor-lighting - Phosphor Lighting Engine - 1.12.2-0.2.6
 techreborn_compat - Tech Reborn Mod Compatibility - 1.0.0
 eleccoreloader - ElecCoreLoader - 1.9.452
 librarianliblate - LibrarianLib Stage 2 - 4.19.2
-mysticallib - Mystical Lib - 1.12.2-1.3.2
+mysticallib - Mystical Lib - 1.12.2-1.3.5
 ocsensors - OpenComputers Sensors - 1.0.4
 teslacorelib_registries - Tesla Core Lib Registries - 1.0.15
 wrapup - WrapUp - 1.12-1.1.3

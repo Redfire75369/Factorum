@@ -248,6 +248,7 @@
 | packagedauto                      | PackagedAuto                                 |
 | packagedavaritia                  | PackagedAvaritia                             |
 | packagedexcrafting                | PackagedExCrafting                           |
+| packmode                          | PackMode                                     |
 | patchouli                         | Patchouli                                    |
 | phosphor-lighting                 | Phosphor Lighting Engine                     |
 | placebo                           | Placebo                                      |
@@ -270,6 +271,7 @@
 | redstonearsenal                   | Redstone Arsenal                             |
 | redstoneflux                      | Redstone Flux                                |
 | redstonerepository                | Redstone Repository                          |
+| requious                          | Requious Frakto                              |
 | resourceloader                    | Resource Loader                              |
 | rftools                           | RFTools                                      |
 | rftoolscontrol                    | RFTools Control                              |
