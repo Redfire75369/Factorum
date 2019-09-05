@@ -1,12 +1,15 @@
 ---
-Name: Bug report
-About: Report a bug that shoudl get fixed
-Title: "[BUG]"
+name: Bug report
+about: Report a bug that shoudl get fixed
+title: "[BUG]"
+labels: "
+assignees:" 
+
 ---
 
 **What Version of the Modpack is being used?**
 
-**Are you playing in singleplayer or multiplayer?**
+**Are you playing on a server?**
 
 **What did you try to do and what did you expect to happen?**
 

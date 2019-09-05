@@ -5,6 +5,46 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+/******************** Defining Functions ********************/
+function replace(IItemStack item, IOreDictEntry oredict) {
+	oredict.add(item);
+	for ore in item.ores {
+		recipes.replaceAllOccurences(ore, oredict);
+	}
+	recipes.replaceAllOccurences(item, oredict);
+}
+
+function oreSynonym(string toReplace, string replaceWith) {
+	var allOres = {
+		"ore": oreDict["ore" ~ toReplace], 
+		"cluster": oreDict["cluster" ~ toReplace], 
+		"dustDirty": oreDict["dustDirty" ~ toReplace], 
+		"clump": oreDict["clump" ~ toReplace], 
+		"shard": oreDict["shard" ~ toReplace], 
+		"crystal": oreDict["crystal" ~ toReplace], 
+		"ingot": oreDict["ingot" ~ toReplace], 
+		"gem": oreDict["gem" ~ toReplace], 
+		"clathrate": oreDict["clathrate" ~ toReplace], 
+		"nugget": oreDict["nugget" ~ toReplace], 
+		"dust": oreDict["dust" ~ toReplace], 
+		"dustSmall": oreDict["dustSmall" ~ toReplace], 
+		"dustTiny": oreDict["dustTiny" ~ toReplace], 
+		"plate": oreDict["plate" ~ toReplace], 
+		"plateDense": oreDict["plateDense" ~ toReplace], 
+		"rod": oreDict["rod" ~ toReplace], 
+		"gear": oreDict["gear" ~ toReplace], 
+		"block": oreDict["block" ~ toReplace]
+	} as IOreDictEntry[string];
+	for key, oredict in allOres {
+		if (!(ore.empty)) {
+			for item in oredict.items {
+				oreDict[key ~ replaceWith].add(item);
+			}
+			recipes.replaceAllOccurences(oredict, oreDict[key ~ replaceWith]);
+		}
+	}
+}
+
 /******************** Manipulating Ore Dictionaries and their contents ********************/
 /********** Items **********/
 /***** Ores *****/

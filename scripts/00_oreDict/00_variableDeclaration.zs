@@ -2189,6 +2189,7 @@ val stringBlock = [
 	"LapisMana",
     "Lead",
     "LeadPlatinum",
+    "Light",
     "Litherite",
     "Lithium",
     "LithiumManganeseDioxide",

@@ -37,10 +37,6 @@
 - Edit Modifier Appliers
 - Ask Expert For Help with "The amount each item changes this stat" 
 
-## AppliedEnergistics2/VersionChecker.cfg
-- S:level=Beta
-	- Change to Alpha
-
 ## astralsorcery/aevitas_ore_perk.cfg- Edit Weights of Ores
 
 ## astralsorcery/amulet_enchantments.cfg
