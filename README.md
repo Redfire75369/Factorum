@@ -12,7 +12,7 @@ regions outside the asteroid belt, with rockets so powerful that could withstand
 army. We were fighting with all we've had, but the destruction was imminent. Weapons were too powerful, too strong for
 us to even comprehend their destructive power. And then, the ultimate resource: a fusion bomb that made the old
 Hiroshima and Nagasaki ones look like the smallest firework in the smallest firework display. We had four of them, but
-suddenly there were only two.  
+suddenly there were only two. <br/>
 I knew what was about to happen. I managed to escape the camp and started to run. I reached the nearest city and stole a
 legacy model of rocket, made by a dead company known as SpaceX. While boarding it, I salvaged an old fusion reactor that
 was nearby, a Molecular Transmutator, some saplings and seeds, and a book containing the molecular structure of all the
@@ -22,7 +22,7 @@ there wasn't anybody. The rocket wasn't made to land though, so I decided to go 
 space. My calculations were correct: I grabbed the external dome and made my way inside the structure. Now I am here,
 all alone, last survivor for all I know of a species that once ruled the world and far beyond. But I must not give up:
 I'll rebuild everything from scratch. I still don't believe I am the only human alive. I have to do this. I NEED to fix
-that Reactor. For the human race, for my friends, for Max.
+that Reactor. For the human race, for my friends, for Max. <br/>
 
 ## Endgame
 The Ingot that transcends reality itself and the Gem that shatters the fabric of the universe, combined forming
