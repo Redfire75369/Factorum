@@ -27,7 +27,7 @@ outputs intense current that only be withstood by custom wires. The particles ar
 or a Particle Storage. Security measures help to ensure the energy of the reactor is used safely. They balance the energy 
 levels inside the reactor and prevent catastrphy. They cause excess energy to be discharged into the ground or atmosphere. 
 At its lowest tier, its efficiency of electrical energy collected to mass input is only 0.7%. At the highest tier, its 
-efficiency is around 60%. 
+efficiency is around 60%. <br/>
 **Note: If the reactor is not switched off when editing the multiblock or the security measures fail to activate, a Stargate explosion will happen.**
 
 - Inputs and Outputs
@@ -102,7 +102,7 @@ approach closer to ProjectE in the beginning and then FTB Achievements in the la
 The Molecular Transmutator transform items into other items by rearranging its molecules. After feeding inputs into Molecular 
 Transmutator, the player chooses an item out of a variety of output items. Output item will start to be materialised from 
 the input items. The Molecular Transmutator can items that have already been scanned,but cannot formulate any original items. 
-The Molecular Transmutator can only materialise raw and basic materials and not complex items or machinery. 
+The Molecular Transmutator can only materialise raw and basic materials and not complex items or machinery. <br/>
 **Note: If not provided adequate energy, inputs and energy are voided.**
 
 - Inputs and Outputs
@@ -140,7 +140,7 @@ Injector to start a fusion reaction.
 - Overview
 The Quantum Computational Engine scans items and outputs a molecular schema of the item, a schematic showing the location of every particle 
 in the item. Due to the immense amount of operations and memory needed to map out the location of every particle, it takes 6 minutes to produce 
-one molecular schema. The Molecular Fabricator can use the molceular schema to form items.
+one molecular schema. The Molecular Fabricator can use the molceular schema to form items. <br/>
 **Note: The molecular schema lasts indefinitely.**
 
 - Inputs and Outputs
