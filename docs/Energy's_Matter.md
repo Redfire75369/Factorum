@@ -22,7 +22,7 @@ the colant directly under it. The Seebeck Generator produces energy linearly acc
 ![Seebeck Effect](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/images/Seebeck_Effect.png)
 
 | Process | Type | Use | Amount |
-| - - - - - - - | - - - - | - - - - | - - - - - - - |
+| ------------- | ------- | ------- | ------------- |
 | Generate Power | Power | Output | 0.1 T/tK |
 | Increase Temperature | Temperature | Output | 1 K/t |
 
@@ -35,53 +35,53 @@ discharged into the ground or atmosphere. At its lowest tier, its efficiency of 
 highest tier, its efficiency is around 60%. <br/>
 **Note: If the reactor is not switched off when editing the multiblock or the security measures fail to activate, a Stargate explosion will happen.**
 
-- Inputs and Outputs
-	- Energy
-		- Initial Input: 
-		- Input: 1.25 × 10<sup>4</sup> T/t
-		- Output: 2.5 × 10<sup>9</sup> T/t
+--Inputs and Outputs
+	--Energy
+		--Initial Input: 
+		--Input: 1.25 × 10<sup>4</sup> T/t
+		--Output: 2.5 × 10<sup>9</sup> T/t
 	
-- Building Materials
-	- Cooling Pump (1 to 3){3 Tiers}
-		- Tiers vary on efficiency and power requirements.
-		- The higher the tier, the more power they require, but at the same time the energy produced by the reactor is
+--Building Materials
+	--Cooling Pump (1 to 3){3 Tiers}
+		--Tiers vary on efficiency and power requirements.
+		--The higher the tier, the more power they require, but at the same time the energy produced by the reactor is
 		  larger due to better security measures taken
-		- Tiers 2 and 3 require a coolant. Tier 1 can also work with pure water
-	- Particle Injector (0 to 2; Useless if Particle Storage is used)
-		- Injects <sup>1</sup>H, Hydrogen from an Atmospheric Collector
-			- Base Efficiency: 0.7%
-		- Process is slow due to limitations in the motors of the Atmospheric Collector
-	- Particle Storage {2 Tiers}
-		- Tier 1: Uses <sup>2</sup>H, Deuterium and <sup>3</sup>H, Tritium
-			- Base Efficiency: 1.9%
-		- Tier 2: Uses <sup>12</sup>C, Carbon-12, <sup>15</sup>N, Nitrogen-15 and <sup>16</sup>O, Oxygen-16
-			- Base Efficiency: 5.0%
-	- Power Controller {1 Tier}
-		- Distributes power to the Fusion Reactor
-	- Reactor Control Panel {2 Tiers}
-		- Tier 1:
-			- Can handle only the basic form of reactor (Collector and <sup>1</sup>H)
-		- Tier 2:
-			- Can handle both <sup>2</sup>H and <sup>3</sup>H & <sup>12</sup>C, <sup>15</sup>N and <sup>16</sup>O, 
+		--Tiers 2 and 3 require a coolant. Tier 1 can also work with pure water
+	--Particle Injector (0 to 2; Useless if Particle Storage is used)
+		--Injects <sup>1</sup>H, Hydrogen from an Atmospheric Collector
+			--Base Efficiency: 0.7%
+		--Process is slow due to limitations in the motors of the Atmospheric Collector
+	--Particle Storage {2 Tiers}
+		--Tier 1: Uses <sup>2</sup>H, Deuterium and <sup>3</sup>H, Tritium
+			--Base Efficiency: 1.9%
+		--Tier 2: Uses <sup>12</sup>C, Carbon-12, <sup>15</sup>N, Nitrogen-15 and <sup>16</sup>O, Oxygen-16
+			--Base Efficiency: 5.0%
+	--Power Controller {1 Tier}
+		--Distributes power to the Fusion Reactor
+	--Reactor Control Panel {2 Tiers}
+		--Tier 1:
+			--Can handle only the basic form of reactor (Collector and <sup>1</sup>H)
+		--Tier 2:
+			--Can handle both <sup>2</sup>H and <sup>3</sup>H & <sup>12</sup>C, <sup>15</sup>N and <sup>16</sup>O, 
 			  but cannot communicate with the Particle Injector
-			- Controls the Fusion Reactor, the reaction status, the security mechanisms and more...
-			- Faster than Tier 1 when dealing with reactions
-			- Supports upgrades
-	- Exhaust Pipes (4) {4 Tiers}
-		- They all must be of the same tier.
-		- Each tier augments the efficiency of the reactor, by increasing the security measures and thus the energy
+			--Controls the Fusion Reactor, the reaction status, the security mechanisms and more...
+			--Faster than Tier 1 when dealing with reactions
+			--Supports upgrades
+	--Exhaust Pipes (4) {4 Tiers}
+		--They all must be of the same tier.
+		--Each tier augments the efficiency of the reactor, by increasing the security measures and thus the energy
 		  output
-	- Output Collector (1 to 4)
-		- Collects the energy gained and outputs it to the pipe it is attached to. If there is no pipe connected to it,
+	--Output Collector (1 to 4)
+		--Collects the energy gained and outputs it to the pipe it is attached to. If there is no pipe connected to it,
 		  the energy is grounded through the structure of the reactor
-		- Using more than one Output Collector means that the energy is divided between all of the collectors available
+		--Using more than one Output Collector means that the energy is divided between all of the collectors available
 		  on the machine. This division is done randomly, so it may not necessarily be equal
-	- Ground Turret (0 to 1)
-		- It allows to discharge the unused energy into the atmosphere rather than the ground. Useful if you have no
+	--Ground Turret (0 to 1)
+		--It allows to discharge the unused energy into the atmosphere rather than the ground. Useful if you have no
 		  sustainable structure under the reactor.
 
 | Process | Type | Use | Amount |
-| - - - - - - - | - - - - | - - - - | - - - - - - - |
+| ------------- | ------- | ------- | ------------- |
 | Begin H-H Fusion | Fuel | Input | ??? |
 | Begin H-H Fusion | Energy | Input | ??? |
 | Maintain H-H Fusion | Fuel | Input | ??? |
@@ -99,7 +99,7 @@ highest tier, its efficiency is around 60%. <br/>
 | Generate Power with C-N-O Fusion | Power | Output | ??? |
 
 | Upgrade | Type | Use | Change | Max Number |
-| - - - - - - - | - - - - - | - - - | - - - - - - - | - - - - - - - - - - - |
+| ------------- | --------- | ----- | ------------- | --------------------- |
 | Speed | Fuel | Input | +??? | 4 |
 | Speed | Power | Output | +??? | 4 |
 | Speed | Security | Safety | -??? | 4 |
@@ -109,8 +109,8 @@ highest tier, its efficiency is around 60%. <br/>
 | Efficiency | Power | Output | +??? | 20 |
 | Green<sup>^</sup> | Fuel | Input | +??? | 1 |
 | Green<sup>^</sup> | Power | Output | +??? | 1 |
-**Note: All Upgrades for the Fusion Reactor require a Tier 2 Reactor Control Panel**
-<sup>^</sup> - Green Upgrade requires a fully upgraded Fusion Reactor to be installed
+**Note: All Upgrades for the Fusion Reactor require a Tier 2 Reactor Control Panel** <br/>
+<sup>^</sup> - Green Upgrade requires a fully upgraded Fusion Reactor to be installed <br/>
 <sup>^</sup> - Green Upgrade allows about 50% of particles that are produced through the fusion reaction to be reinjected into the chamber, actively participating in secondary reactions
 
 
@@ -140,14 +140,14 @@ items. The Molecular Transmutator can only materialise raw and basic materials, 
 **Note: If not provided adequate energy, inputs and energy are voided.**
 
 | Process | Type | Use | Amount |
-| - - - - - - - | - - - - | - - - - | - - - - - - - |
+| ------------- | ------- | ------- | ------------- |
 | Transmutation | Item | Input | 10 |
 | Transmutation | Item | Output | 1 |
 | Transmutation | Energy | Input | ??? |
 | Transmutation | Time | Input | 80 t |
 
 | Upgrade | Type | Use | Change | Max Number |
-| - - - - - - - | - - - - - | - - - | - - - - - - - | - - - - - - - - - - - |
+| ------------- | --------- | ----- | ------------- | --------------------- |
 | Speed | Power | Input | +??? | 4 |
 | Speed | Time | Input | -??? | 4 |
 | Efficiency | Item | Input | -3% | 5 |
@@ -172,7 +172,7 @@ information is accidentally tampered by the Molecular Fabricator, the broken sch
 Engine along with a copy of the original item and it will be fixed over the course of 1 minute.When attempting to fix the schema, the item 
 has a chance to be consumed as part of the process.
 
-- Building Materials
+--Building Materials
 
 | Process | Type | Use | Amount |
 | Scanning Original Item | Item | Input | Unmapped Molecular Schema + Item to be Scanned|
@@ -194,7 +194,7 @@ has a chance to be consumed as part of the process.
 The Molecular Fabricator uses the mappings inside a molecular schema to replicate the item with every particle in the same location. 
 This is an energy intensive process, leading to a large energy draw to produce even one item.
 
-- Building Materials 
+--Building Materials 
 
 ## Other Machines
 
@@ -206,7 +206,7 @@ The hydrogen is then output into the Particle Injector. <br/>
 **Note: If no Particle Injector is found, the hydrogen will be output back into the atmosphere, effectively voiding the operation**
 
 | Process | Type | Use | Amount |
-| - - - - - - - | - - - - | - - - - | - - - - - - - |
+| ------------- | ------- | ------- | ------------- |
 | Collection of Hydrogen | Energy | Input | ??? |
 | Collection of Hydrogen | Time | Input | ??? |
 
@@ -226,7 +226,7 @@ The hydrogen is then output into the Particle Injector. <br/>
 
 ## List of Heat Sources
 | Heat Source | Temperature |
-| - - - - - - - - - - - | - - - - - - - - - - - |
+| --------------------- | --------------------- |
 | Torch | 10 K |
 | Uranium Block | 473 K |
 | Lit Furnace | 500 K |
@@ -245,7 +245,7 @@ The hydrogen is then output into the Particle Injector. <br/>
 
 ## List of Coolants
 | Heat Source | Temperature |
-| - - - | - - - |
+| ------------------- | ------------------- |
 | Water | 300 K |
 | Snow Block | 268 K |
 | Crushed Ice | 265 K |
