@@ -176,6 +176,7 @@ has a chance to be consumed as part of the process.
 - Building Materials
 
 | Process | Type | Use | Amount |
+| ------------ | -------- | ------ | ------------ |
 | Scanning Original Item | Item | Input | Unmapped Molecular Schema + Item to be Scanned|
 | Scanning Original Item | Item | Output | Mapped Molecular Schema |
 | Scanning Original Item | Power | Input | ??? |
