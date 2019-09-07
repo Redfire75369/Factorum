@@ -1,6 +1,6 @@
 # Factorum Ultimation: Expert
-This is the repository for the Modpack Factorum Ultimation. This is a skyblock modpack for 1.12.  
-**Note:** This Pack is still a Work In Progress.
+This is the official repository for the Modpack Factorum Ultimation. This is a skyblock modpack for 1.12. <br/>
+**Note: This Pack is still a Work In Progress.**
 
 ## Lore
 31st century. Limits were overcome, barriers were shattered. The advancements in technology made possible by private
@@ -26,5 +26,10 @@ that Reactor. For the human race, for my friends, for Max. <br/>
 
 ## Endgame
 The Ingot that transcends reality itself and the Gem that shatters the fabric of the universe, combined forming
-something that breaks all Boundaries.  
-Play the Pack to find out more.
+something that breaks all Boundaries. **Play the Pack to find out more**
+
+## Pack-Specific Mod Information
+- [Advanced Generators](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Advanced_Generators.md)
+- [Energy's Matter](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md)
+- [Modular Machinery](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Modular_Machinery.md)
+- [Requious Frakto](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Requious_Frakto.md)

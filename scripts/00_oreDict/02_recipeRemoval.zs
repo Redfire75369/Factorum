@@ -181,7 +181,7 @@ for key, gem in hashGem {
 	if (hashOre has key|hashCluster has key|hashDust has key) {
 		furnace.remove(gem);
 		for itemstack in gem.items {
-			furnace.remove(itemstack, hashOre[key]|hashCluster[key]|hashDust[key])
+			furnace.remove(itemstack, hashOre[key]|hashCluster[key]|hashDust[key]);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
 		}

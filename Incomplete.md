@@ -30,15 +30,24 @@
 	- Clumps
 	- Shards
 	- Crystals
-	- Ingots 
+		- Factorizer
+	- Ingots
+		- Factorizer
 	- Gems
+		- Factorizer
 	- Clathrates
+	- Nuggets
+		- Factorizer
 	- Dusts
+		- Factorizer
+	- Small Dusts
+		- Factorizer
+	- Tiny Dust
+		- Factorizer
+	- Plates
+		- Pressurizer
 	
 - Remove all recipes for
-	- Small Dusts
-	- Tiny Dusts
-	- Plates
 	- Dense Plates
 	- Rods
 	- Gears 

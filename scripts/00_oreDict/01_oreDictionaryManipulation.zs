@@ -6,7 +6,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 /******************** Defining Functions ********************/
-function replace(IItemStack item, IOreDictEntry oredict) {
+function replace(item as IItemStack, oredict as IOreDictEntry) {
 	oredict.add(item);
 	for ore in item.ores {
 		recipes.replaceAllOccurences(ore, oredict);
@@ -14,7 +14,7 @@ function replace(IItemStack item, IOreDictEntry oredict) {
 	recipes.replaceAllOccurences(item, oredict);
 }
 
-function oreSynonym(string toReplace, string replaceWith) {
+function oreSynonym(toReplace as string, replaceWith as string) {
 	var allOres = {
 		"ore": oreDict["ore" ~ toReplace], 
 		"cluster": oreDict["cluster" ~ toReplace], 
