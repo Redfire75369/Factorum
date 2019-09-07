@@ -109,6 +109,7 @@ highest tier, its efficiency is around 60%. <br/>
 | Efficiency | Power | Output | +??? | 20 |
 | Green<sup>^</sup> | Fuel | Input | +??? | 1 |
 | Green<sup>^</sup> | Power | Output | +??? | 1 |
+
 **Note: All Upgrades for the Fusion Reactor require a Tier 2 Reactor Control Panel** <br/>
 <sup>^</sup> - Green Upgrade requires a fully upgraded Fusion Reactor to be installed <br/>
 <sup>^</sup> - Green Upgrade allows about 50% of particles that are produced through the fusion reaction to be reinjected into the chamber, actively participating in secondary reactions
