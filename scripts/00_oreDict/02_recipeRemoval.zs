@@ -10,11 +10,15 @@ import crafttweaker.oredict.IOreDictEntry;
 
 /* Output: Combiner */
 for key, ore in hashOre {
-	if (hashDust has key) {
+	if (hashDust has key&(!hashGem has key)) {
 		for itemstack in ore.items {
 			mods.mekanism.combiner.removeRecipe(itemstack, hashDust[key]);
 		}
 	}
+	if (hashGem has key) {
+		mods.mekanism.combiner.removeRecipe(itemstack, hashGem[key]);
+	}
+	if (hashDust=="Inferium"|hashDust=="Insanium"|hashDust=="Intermedium"|hashDust=="Prudentium"|hashDust 
 }
 
 /***** Clusters *****/
@@ -69,7 +73,7 @@ for key, shard in hashShard {
 /* Crafting */
 for key, crystal in hashCrystal {
 	if (key=="Amber"|key=="Obsidian") {
-		recipes.removeShaped(crystal);
+		recipes.remove(crystal);
 	}
 }
 
@@ -115,7 +119,6 @@ for key, ingot in hashIngot {
 /* Input: Blast Furnace, Induction Smelter, Redstone Furnace */
 for key, ingot in hashIngot {
 	if (hashOre has key) {
-		mods.techreborn.blastFurnace.removeInputRecipe(hashOre[key]);
 		for itemstack in hashOre[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, sand);
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemstack, cinnabar);
@@ -155,13 +158,16 @@ for key, ingot in hashIngot {
 		}
 	}
 }
+mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:3>);
+mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:12>);
+mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:14>);
+mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:15>);
+mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:16>);
+mods.techreborn.vacuumFreezer.removeRecipe(<techreborn:ingot:17>);
 
 /***** Gems *****/
-/* Input: EBlast Furnace,Enrichment Chamber, Manufactory, Grinder, Industrial Grinder, Quartz Grindstone, SAG Mill, Crusher, Pulverizer */
+/* Input: Enrichment Chamber, Manufactory, Grinder, Industrial Grinder, Quartz Grindstone, SAG Mill, Crusher, Pulverizer */
 for key, gem in hashGem {
-	if (hashOre has key) {
-		mods.techreborn.blastFurnace.removeInputRecipe(hashOre[key]);
-	}
 	if (hashOre has key) {
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], gem);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashOre[key]]);

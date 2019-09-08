@@ -259,7 +259,9 @@ The hydrogen is then output into the Particle Injector. <br/>
 
 
 ### Powered Crafting Table
-
+The Powered Crafting Table is a machine that allows you to craft things using both items and power. The amount of power required can 
+either be the same across all crafting processes or increase exponentially. It can also act as a vanilla crafting table, allowing you to craft 
+every recipe with a power cost of 0. There are various tiers that vary in the amount of energy that can be stored in the batteries.
 
 ## Scientific Explanations
 - Seebeck Generator
