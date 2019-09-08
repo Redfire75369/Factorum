@@ -36,7 +36,7 @@ function oreSynonym(toReplace as string, replaceWith as string) {
 		"block": oreDict["block" ~ toReplace]
 	} as IOreDictEntry[string];
 	for key, oredict in allOres {
-		if (!(ore.empty)) {
+		if (!(oredict.empty)) {
 			for item in oredict.items {
 				oreDict[key ~ replaceWith].add(item);
 			}

@@ -2266,6 +2266,7 @@ val stringBlock = [
     "Sapphire",
     "Seared",
     "Shadowium",
+	"Shade",
     "Shibuichi",
     "SiCSiCCMC",
     "Signalum",
@@ -2524,7 +2525,7 @@ val stringGas = [
 	
 ] as string[];
 for gas in stringGas {
-	hashGas[gas] = getGas(gas);
+	hashGas[gas] = getGas(gas.toLowerCase);
 }
 
 /***** Slurry *****/
