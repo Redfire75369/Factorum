@@ -11,18 +11,27 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ## Added
+- Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
+- Mods: JAOPCACustom; version 1.12-2.2.2.14
+- Mods: Just Enough Petroleum; version 0.1
+- Mods: Magneticraft; version 1.12-2.8.1-dev
 - Mods: PackMode; version 1.12.2-1.2.0
-- Mods: Requious Frakto; version 0.3
+- Mods: Powered Thingies; version 1.12.2-1.0.15
+- Mods: Redstone PCB; version 0.2
+- Mods: Requious Frakto; version 0.5
 
 ## Changed
 - Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
 - Mods: Actually Additions; updated to 1.12.2-r150
 - Mods: Apotheosis; updated to 1.12.2-1.10.5
 - Mods: Arcane Archives; updated to 0.2.0.8
+- Mods: Blood Magic; updated to 1.12.2-2.4.2-104
 - Mods: Building Gadgets; updated to 2.7.3
+- Mods: CodeChicken Lib; updated to 1.12.2-3.2.3.358-universal
 - Mods: Compact Drawers; updated to 1.12.2-1.0.5.124
-- Mods: Cyclic; updated to 1.12.2-1.19.15
-- Mods: EnderCore; updated to 1.12.2-0.5.68
+- Mods: Culinary Construct; updated to 1.3.3.1
+- Mods: Cyclic; updated to 1.12.2-1.19.16
+- Mods: EnderCore; updated to 1.12.2-0.5.69
 - Mods: Ender IO AE2 Conduits; updated to 1.12.2-5.0.51
 - Mods: Ender IO Base; updated to 1.12.2-5.0.51
 - Mods: Ender IO Conduits; updated to 1.12.2-5.0.51
@@ -32,22 +41,32 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Ender IO OC Conduits; updated to 1.12.2-5.0.51
 - Mods: Ender IO TiC; updated to 1.12.2-5.0.51
 - Mods: Ender Utilities; updated to 1.12.2-0.7.14
-- Mods: FTB Lib; updated to 5.4.3.133
+- Mods: Extended Crafting; updated to 1.12.2-1.5.6
+- Mods: FTB Banners; updated to 1.1.0.12
+- Mods: FTB Lib; updated to 5.4.3.134
 - Mods: FTB Utilities; updated to 5.4.0.102
 - Mods: Hammer (Lib) Core; updated to 1.12.2-2.0.5.0
+- Mods: Immersive Engineering; updated to 0.12-91
 - Mods: Incorporeal; updated to 1.2.2
+- Mods: Integrated Dynamics; updated to 1.12.2-1.1.0
+- Mods: Integrated Terminals; updated to 1.12.2-1.0.10
 - Mods: JAOPCAAgriculture; updated to 1.12.2-1.2.1.16
 - Mods: Just Enough Items (JEI); updated to 1.12.2-4.15.0.289
 - Mods: Just Enough IDs; updated to 1.0.3-44
-- Mods: Mystic World; updated to 1.12.2-1.4.3
-- Mods: MysticalLib; updated to 1.12.2-1.3.5
-- Mods: NuclearCraft; updated to 2.18g-1.12.2
-- Mods: PlusTiC; updated to 7.1.3.0
+- Mods: Mystic World; updated to 1.12.2-1.4.4
+- Mods: MysticalLib; updated to 1.12.2-1.3.7
+- Mods: NuclearCraft; updated to 2.18h-1.12.2
+- Mods: OpenLights; updated to MC1.12.2-0.1.0.8
+- Mods: PlusTiC; updated to 7.1.5.0
 - Mods: RandomPatches; updated to 1.12.2-1.18.1.1
+- Mods: RebornCore; updated to 1.12.2-3.16.2.473-universal
 - Mods: Recipe Stages; updated to 1.1.3
-- Mods: Roots; updated to 1.12.2-3.0.10
+- Mods: Roots; updated to 1.12.2-3.0.13
+- Mods: Storage Drawers; updated to 1.12.2-5.4.0
+- Mods: Super Factory Manager; updated to 1.12.2-2.0.22
+- Mods: Tech Reborn; updated to 1.12.2-2.24.1.1032-universal
 - Mods: Thaumic Augmentation; updated to 1.12.2-1.1.8
-- Mods: Thaumic Computers; updated to MC1.12.2-0.5.0
+- Mods: Thaumic Computers; updated to MC1.12.2-0.5.1
 - Mods: Thaumic Periphery; updated to 0.3.1
 - Mods: Torchmaster; updated to 1.12.2-1.8.0.79
 - Mods: Yoyos; updated to 1.12.2-1.3.3.25
