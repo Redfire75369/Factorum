@@ -1,2 +1,0 @@
-solarneutronactivator:
-mods.mekanism.solarneutronactivator.addRecipe(<gas:lithium>, <gas:tritium>)

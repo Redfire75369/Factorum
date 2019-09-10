@@ -1,3 +1,0 @@
-prc:
-mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:liquidethene> * 50, <gas:oxygen> * 10, <mekanism:polyethene>, <gas:oxygen> * 5, 1000.0, 60)
-mods.mekanism.reaction.addRecipe(<mekanism:substrate>, <liquid:water> * 200, <gas:ethene> * 100, <mekanism:substrate> * 8, <gas:oxygen> * 10, 200.0, 400)

@@ -1,4 +1,0 @@
-crystallizer:
-mods.mekanism.chemical.crystallizer.addRecipe(<gas:brine> * 15, <mekanism:salt>)
-mods.mekanism.chemical.crystallizer.addRecipe(<gas:lithium> * 100, <mekanism:otherdust:4>)
-mods.mekanism.chemical.crystallizer.addRecipe(<gas:slurryCleanNickel> * 200, <jaopca:item_crystalnickel>)
