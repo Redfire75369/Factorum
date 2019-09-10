@@ -1,9 +1,5 @@
-#priority -0002
-
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.oredict.IOreDictEntry;
+#loader crafttweaker
+#priority -0202
 
 /***** Ores *****/
 /* Input: */
@@ -150,9 +146,23 @@ for key, ingot in hashIngot {
 
 /* Output: Furnace, Arc Furnace, Blast Furnace, Stamper, Casting Table */
 for key, ingot in hashIngot {
-	if ((hashOre has key)||(hashCluster has key)||(hashDust has key)) {
+	if (hashOre has key) {
 		for itemstack in ingot.items {
-			furnace.remove(itemstack, (hashOre[key]|hashCluster[key]|hashDust[key]));
+			furnace.remove(itemstack, hashOre[key]);
+			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
+			mods.techreborn.blastFurnace.removeRecipe(itemstack);
+		}
+	}
+	if (hashCluster has key) {
+		for itemstack in ingot.items {
+			furnace.remove(itemstack, hashCluster[key]);
+			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
+			mods.techreborn.blastFurnace.removeRecipe(itemstack);
+		}
+	}
+	if (hashDust has key) {
+		for itemstack in ingot.items {
+			furnace.remove(itemstack, hashDust[key]);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemstack);
 			mods.techreborn.blastFurnace.removeRecipe(itemstack);
 		}
@@ -346,6 +356,7 @@ mods.techreborn.industrialElectrolyzer.removeRecipe(<techreborn:smalldust:10>);
 mods.techreborn.industrialElectrolyzer.removeRecipe(<techreborn:smalldust:54>);
 mods.techreborn.industrialElectrolyzer.removeRecipe(<techreborn:smalldust:59>);
 mods.techreborn.industrialGrinder.removeRecipe(<techreborn:smalldust:5>);
+mods.techreborn.industrialGrinder.removeRecipe(<techreborn:smalldust:59>);
 
 /***** Tiny Dusts *****/
 /* Crafting */

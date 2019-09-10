@@ -1,9 +1,7 @@
-#priority -0003
+#loader crafttweaker
+#priority -0203
 
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.oredict.IOreDictEntry;
 
 /***** Declaring Arrays of Items to Have Ore Dictionary Removed *****/
 

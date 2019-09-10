@@ -1,8 +1,7 @@
-#priority -0001
+#loader crafttweaker
+#priority -0201
 
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 /******************** Defining Functions ********************/

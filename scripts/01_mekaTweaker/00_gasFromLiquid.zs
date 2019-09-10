@@ -1,5 +1,5 @@
-#priority -0100
 #loader mekatweaker
+#priority -0100
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

@@ -1,8 +1,8 @@
 #debug
-#priority -0000
+#loader crafttweaker
+#priority -0200
 
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mod.mekanism.gas.IGasStack;

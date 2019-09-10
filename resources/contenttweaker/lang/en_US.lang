@@ -1,6 +1,52 @@
 #CreativeTabs
-group.currency.name=Currency
-group.endgame.name=EndGame
+group.currency.name=ContentTweaker Currency
+group.endgame.name=ContentTweaker EndGame
+group.other.name=ContentTweaker Others
+
+
+#Currency
+items.contenttweaker.coin_chemist.name=Copper Chemist Coin
+items.contenttweaker.coin_chemist_compressed.name=Silver Chemist Coin
+items.contenttweaker.coin_chemist_compressed_double.name=Gold Chemist Coin
+items.contenttweaker.coin_chemist_compressed_triple.name=Platinum Chemist Coin
+
+items.contenttweaker.coin_farming.name=Copper Farming Coin
+items.contenttweaker.coin_farming_compressed.name=Silver Farming Coin
+items.contenttweaker.coin_farming_compressed_double.name=Gold Farming Coin
+items.contenttweaker.coin_farming_compressed_triple.name=Platinum Farming Coin
+
+items.contenttweaker.coin_forestry.name=Copper Forestry Coin
+items.contenttweaker.coin_forestry_compressed.name=Silver Forestry Coin
+items.contenttweaker.coin_forestry_compressed_double.name=Gold Forestry Coin
+items.contenttweaker.coin_forestry_compressed_triple.name=Platinum Forestry Coin
+
+items.contenttweaker.coin_hunter.name=Copper Hunter Coin
+items.contenttweaker.coin_hunter_compressed.name=Silver Hunter Coin
+items.contenttweaker.coin_hunter_compressed_double.name=Gold Hunter Coin
+items.contenttweaker.coin_hunter_compressed_triple.name=Platinum Hunter Coin
+
+items.contenttweaker.coin_magician.name=Copper Magician Coin
+items.contenttweaker.coin_magician_compressed.name=Silver Magician Coin
+items.contenttweaker.coin_magician_compressed_double.name=Gold Magician Coin
+items.contenttweaker.coin_magician_compressed_triple.name=Platinum Magician Coin
+
+items.contenttweaker.coin_nuclear.name=Copper Nuclear Coin
+items.contenttweaker.coin_nuclear_compressed.name=Silver Nuclear Coin
+items.contenttweaker.coin_nuclear_compressed_double.name=Gold Nuclear Coin
+items.contenttweaker.coin_nuclear_compressed_triple.name=Platinum Nuclear Coin
+
+items.contenttweaker.coin_technician.name=Copper Technician Coin
+items.contenttweaker.coin_technician_compressed.name=Silver Technician Coin
+items.contenttweaker.coin_technician_compressed_double.name=Gold Technician Coin
+items.contenttweaker.coin_technician_compressed_triple.name=Platinum Technician Coin
+
+#EndGame
+items.contenttweaker.chaos_ingot.name=Chaos Ingot
+
+#Other
+items.contenttweaker.file.name=Engineer's File
+items.contenttweaker.wrench.name=Engineer's Wrench
+
 
 #JAOPCALocalisation
 jaopca.entry.CrystalFlux=Flux Crystal
