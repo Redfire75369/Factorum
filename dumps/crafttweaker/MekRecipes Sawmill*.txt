@@ -1,0 +1,4 @@
+sawmill:
+mods.mekanism.sawmill.addRecipe(<chisel:planks-acacia:12>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25)
+mods.mekanism.sawmill.addRecipe(<chisel:planks-acacia:13>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25)
+mods.mekanism.sawmill.addRecipe(<chisel:planks-acacia:14>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25)

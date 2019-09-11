@@ -1,0 +1,218 @@
++-------+--------------------------------------------+--------------------------------------+-------------------------------------------------------------------------------------+
+| Index | Name                                       | Translated Name                      | Icon Item                                                                           |
++-------+--------------------------------------------+--------------------------------------+-------------------------------------------------------------------------------------+
+|     0 | buildingBlocks                             | Building Blocks                      | [minecraft:brick_block@0 - 'Bricks']                                                |
+|     1 | decorations                                | Decoration Blocks                    | [minecraft:double_plant@5 - 'Peony']                                                |
+|     2 | redstone                                   | Redstone                             | [minecraft:redstone@0 - 'Redstone']                                                 |
+|     3 | transportation                             | Transportation                       | [minecraft:golden_rail@0 - 'Powered Rail']                                          |
+|     4 | hotbar                                     | Saved Toolbars                       | [minecraft:bookshelf@0 - 'Bookshelf']                                               |
+|     5 | search                                     | Search Items                         | [minecraft:compass@0 - 'Compass']                                                   |
+|     6 | misc                                       | Miscellaneous                        | [minecraft:lava_bucket@0 - 'Lava Bucket']                                           |
+|     7 | food                                       | Foodstuffs                           | [minecraft:apple@0 - 'Apple']                                                       |
+|     8 | tools                                      | Tools                                | [minecraft:iron_axe@0 - 'Iron Axe']                                                 |
+|     9 | combat                                     | Combat                               | [minecraft:golden_sword@0 - 'Golden Sword']                                         |
+|    10 | brewing                                    | Brewing                              | [minecraft:potion@0 - 'Water Bottle']                                               |
+|    11 | inventory                                  | Survival Inventory                   | [minecraft:chest@0 - 'Chest']                                                       |
+|    12 | actuallybaubles                            | Actually Baubles                     | [actuallyadditions:item_misc@6 - 'Ring']                                            |
+|    13 | actuallyadditions                          | Actually Additions                   | [actuallyadditions:item_booklet@0 - 'Actually Additions Manual']                    |
+|    14 | roots                                      | Roots                                | [roots:pestle@0 - 'Pestle']                                                         |
+|    15 | mysticalworld                              | Mystical World                       | [mysticalworld:carapace@0 - 'Carapace']                                             |
+|    16 | charset                                    | The Charset Project                  | [charset:icon@0 - 'a']                                                              |
+|    17 | preston                                    | Preston                              | [preston:compressed_block@0 - 'Single Compressed Cobblestone']                      |
+|    18 | thaumic_arcana                             | Thaumic Arcana                       | [thaumic_arcana:creature_enchanter@0 - 'Creature Disenchanter']                     |
+|    19 | toolsAndWeapons                            | Draconic Evolution Tools & weapons   | [draconicevolution:draconic_staff_of_power@0 - 'Draconic Staff of Power']           |
+|    20 | blocksAndItems                             | Draconic Evolution Blocks & Items    | [draconicevolution:chaotic_core@0 - 'Chaotic Core']                                 |
+|    21 | botania_tweaks                             | Botania Tweaks                       | [botania_tweaks:compressed_tiny_potato_8@0 - 'Galactic Potato']                     |
+|    22 | aiotbotania                                | AIOT Botania                         | [aiotbotania:manasteelaiot@0 - 'Manasteel AIOT']                                    |
+|    23 | cyclicmagic                                | Cyclic                               | [cyclicmagic:cyclic_wand_build@0 - 'Cyclic Building Scepter']                       |
+|    24 | bloodmagic.creativeTab                     | Blood Magic                          | [bloodmagic:blood_orb@0 - 'Weak Blood Orb']                                         |
+|    25 | bloodmagic.creativeTabTome                 | Blood Magic | Tomes                  | [bloodmagic:upgrade_tome@0 - 'Living Armour Upgrade Tome']                          |
+|    26 | animus                                     | Animus                               | [animus:altardiviner@0 - 'Altar Diviner']                                           |
+|    27 | gbook_snapshot                             | Guidebook                            | [gbook_snapshot:guidebook@0 - 'Guidebook']                                          |
+|    28 | arcanearchives                             | Arcane Archives                      | [arcanearchives:shaped_quartz@0 - 'Shaped Radiant Quartz']                          |
+|    29 | artifacts.creativetab                      | Artifacts                            | [artifacts:panic_necklace@0 - 'Panic Necklace']                                     |
+|    30 | avaritia                                   | Avaritia                             | [avaritia:resource@5 - 'Infinity Catalyst']                                         |
+|    31 | avaritiatweaks                             | Avaritia Tweaks                      | [avaritiatweaks:enhancement_crystal@0 - 'Enhancement Crystal']                      |
+|    32 | betterquesting                             | Better Questing                      | [betterquesting:extra_life@0 - 'Extra Life']                                        |
+|    33 | bewitchment                                | Bewitchment                          | [bewitchment:stone_witches_altar@0 - 'Stone Witches' Altar']                        |
+|    34 | bloodarsenal.creative_tab                  | §4Blood Arsenal                      | [bloodarsenal:stasis_sword@0 - 'Stasis Blade']                                      |
+|    35 | hammercore                                 | Hammer Core                          | [hammercore:gold_bordered_cobblestone@0 - 'Gold-Bordered Cobblestone']              |
+|    36 | botanicadds                                | Botanic Additions                    | [botanicadds:mana_tesseract@0 - 'Mana Tesseract']                                   |
+|    37 | buildingGadgets                            | Building Gadgets                     | [buildinggadgets:buildingtool@0 - 'Building Gadget']                                |
+|    38 | compactmachines3                           | Compact Machines 3                   | [compactmachines3:psd@0 - 'Personal Shrinking Device']                              |
+|    39 | compactStorage                             | CompactStorage                       | [minecraft:chest@0 - 'Chest']                                                       |
+|    40 | cookingforblockheads                       | Cooking for Blockheads               | [cookingforblockheads:recipe_book@1 - 'Cooking for Blockheads I']                   |
+|    41 | darkutils                                  | Dark Utilities                       | [darkutils:trap_move@0 - 'Vector Plate']                                            |
+|    42 | deepmoblearning                            | Deep Mob Learning                    |                                                                                     |
+|    43 | deepmoblearningbm                          | DML - Blood Magic Addon              |                                                                                     |
+|    44 | densemetals                                | itemGroup.densemetals                | [densemetals:dense_diamond_ore@0 - 'Dense Diamond Ore']                             |
+|    45 | embers                                     | Embers                               | [embers:crystal_ember@0 - 'Ember Crystal']                                          |
+|    46 | embers_resources                           | Embers (Metals)                      | [embers:ingot_dawnstone@0 - 'Dawnstone Ingot']                                      |
+|    47 | immersiveengineering                       | Immersive Engineering                |                                                                                     |
+|    48 | engineersworkshop                          | Engineer's Workshop                  | [engineersworkshop:blocktable@0 - 'Workshop Table']                                 |
+|    49 | valkyrielib.tab                            | §bValkyrieLib                        | [valkyrielib:guide@0 - 'Digital Guide']                                             |
+|    50 | environmentaltech.et_resources             | §aEnvironmental Tech Resources       | [environmentaltech:aethium_crystal@0 - 'Aethium Crystal']                           |
+|    51 | environmentaltech.et_controllers           | §aEnvironmental Tech Controllers     | [environmentaltech:void_ore_miner_cont_6@0 - 'Void Ore Miner Controller Tier 6']    |
+|    52 | environmentaltech.et_multiblock_components | §aEnvironmental Tech Components      | [environmentaltech:solar_cell_aethium@0 - 'Aethium Solar Cell']                     |
+|    53 | environmentaltech.et_other                 | §aEnvironmental Tech Other           | [environmentaltech:tool_multiblock_assembler@0 - 'Assembler']                       |
+|    54 | eternalsingularity                         | Eternal Singularity                  | [eternalsingularity:eternal_singularity@0 - 'Eternal Singularity']                  |
+|    55 | etlunar.etlunar                            | §5ET Lunar                           | [etlunar:lunar_cont_6@0 - 'Lunar Array Controller Tier 6']                          |
+|    56 | extendedcrafting                           | Extended Crafting                    | [extendedcrafting:crafting_core@0 - 'Crafting Core']                                |
+|    57 | extraanvils                                | Extra Anvils                         | [extraanvils:diamond_anvil@0 - 'Diamond Anvil']                                     |
+|    58 | bigreactors                                | Extreme Reactors                     | [bigreactors:oreyellorite@0 - 'Yellorite Ore']                                      |
+|    59 | tabMekanism                                | Mekanism                             | [mekanism:atomicalloy@0 - 'Atomic Alloy']                                           |
+|    60 | SonarCore                                  | Sonar Core                           | [sonarcore:reinforcedstoneblock@0 - 'Reinforced Stone']                             |
+|    61 | Flux Networks                              | Flux Networks                        | [fluxnetworks:fluxplug@0 - 'Flux Plug']                                             |
+|    62 | immersivepetroleum                         | Immersive Petroleum                  |                                                                                     |
+|    63 | immersivetech                              | Immersive Tech                       |                                                                                     |
+|    64 | incorporeal                                | Incorporeal                          | [incorporeal:ticket_conjurer@0 - 'Ticket Conjurer']                                 |
+|    65 | tesla_core_lib                             | Tesla Core Lib                       | [teslacorelib:wrench@0 - 'Tesla Wrench']                                            |
+|    66 | industrialforegoing                        | Industrial Foregoing                 | [industrialforegoing:black_hole_unit@0 - 'Black Hole Unit']                         |
+|    67 | mysticalagriculture                        | Mystical Agriculture                 | [mysticalagriculture:crafting@4 - 'Supremium Essence']                              |
+|    68 | tab.mystical_agradditions.name             | Mystical Agradditions                | [mysticalagradditions:insanium@0 - 'Insanium Essence']                              |
+|    69 | jaopca                                     | JAOPCA                               | [minecraft:glowstone_dust@0 - 'Glowstone Dust']                                     |
+|    70 | malisisdoors                               | MalisisDoors                         | [malisisdoors:jail_door@0 - 'Jail Door']                                            |
+|    71 | tab_matc                                   | Mystical Agriculture Tiered Crystals | [matc:supremiumcrystal@0 - 'Supremium Infusion Crystal']                            |
+|    72 | mob_grinding_utils                         | Mob Grinding Utils                   | [mob_grinding_utils:spikes@0 - 'Iron Spikes']                                       |
+|    73 | thaumicperiphery                           | Thaumic Periphery                    | [thaumicperiphery:caster_ember@0 - 'Clockwork Caster's Gauntlet']                   |
+|    74 | simplyjetpacks                             | Simply Jetpacks 2                    | [simplyjetpacks:itemjetpack@0 - 'Creative Jetpack']                                 |
+|    75 | OpenPrinter                                | OpenPrinter                          | [openprinter:printer@0 - 'Open Printer']                                            |
+|    76 | openscreens                                | OpenScreens                          | [openscreens:backflatscreen1@0 - 'Flatscreen (Back) (Tier 1)']                      |
+|    77 | OpenComputers                              | OpenComputers                        | [opencomputers:case1@0 - 'Computer Case (Tier 1)']                                  |
+|    78 | tabOpenSecurity                            | OpenSecurity                         | [opensecurity:security_terminal@0 - 'Security Terminal']                            |
+|    79 | packagedauto                               | itemGroup.packagedauto               | [packagedauto:package@0 - 'Recipe Package']                                         |
+|    80 | packagedavaritia                           | itemGroup.packagedavaritia           | [packagedavaritia:extreme_crafter@0 - 'Extreme Package Crafter']                    |
+|    81 | packagedexcrafting                         | itemGroup.packagedexcrafting         | [packagedexcrafting:ultimate_crafter@0 - 'Ultimate Package Crafter']                |
+|    82 | planarartifice.tab.name                    | Planar Artifice                      | [planarartifice:magic_apple@0 - 'Thaumaturge's Fruit']                              |
+|    83 | Tesla Powered Thingies                     | Tesla Powered Thingies               | [teslathingies:fluid_burner@0 - 'Fluid Burner']                                     |
+|    84 | xreliquary                                 | Reliquary                            | [xreliquary:mercy_cross@0 - 'Cross of Mercy']                                       |
+|    85 | baggablemobs                               | Baggable Mobs                        | [baggablemobs:mob_bag@0 - 'Mob Bag']                                                |
+|    86 | simple_trophies                            | Simple Trophies                      | [simple_trophies:trophy@0 - 'Add your own trophies here in the config!']            |
+|    87 | spike_tab                                  | Spike Mod                            | [spikemod:diamond_spike@0 - 'Diamond Spike']                                        |
+|    88 | SC2Modules                                 | Steve's Carts 2 Modules              |                                                                                     |
+|    89 | SC2Items                                   | Steve's Carts 2 Components           |                                                                                     |
+|    90 | SC2Blocks                                  | Steve's Carts 2 Blocks               |                                                                                     |
+|    91 | sfm                                        | Super Factory Manager                | [superfactorymanager:manager@0 - 'Machine Inventory Manager']                       |
+|    92 | gadgets                                    | Thaumic Gadgets                      | [tg:tg@0 - 'item.tg.name']                                                          |
+|    93 | TinkerIO_Tabs                              | Tinker I/O                           | [tconstruct:large_plate@0 - 'Large Plate']                                          |
+|    94 | TinkerGeneral                              | Tinkers' General Items               | [tconstruct:edible@1 - 'Slime Ball']                                                |
+|    95 | TinkerTools                                | Tinkers' Tools                       | [tconstruct:pickaxe@0 - 'material._internal_render2.name Pickaxe']                  |
+|    96 | TinkerToolParts                            | Tinkers' Toolparts                   | [tconstruct:pick_head@0 - 'material._internal_render3.name Pickaxe Head']           |
+|    97 | TinkerSmeltery                             | Tinkers' Smeltery                    | [tconstruct:seared_tank@0 - 'Seared Tank']                                          |
+|    98 | TinkerWorld                                | Tinkers' World                       | [tconstruct:slime_sapling@0 - 'Blue Slime Sapling']                                 |
+|    99 | TinkerGadgets                              | Tinkers' Gadgets                     | [tconstruct:slimesling@0 - 'Slimesling']                                            |
+|   100 | tiny_progressions                          | Tiny Progressions                    | [minecraft:nether_star@0 - 'Nether Star']                                           |
+|   101 | unstabletools                              | Unstable Tools                       | [unstabletools:unstable_pickaxe@0 - 'Unstable Pickaxe']                             |
+|   102 | woot                                       | Woot                                 | [woot:factory@0 - 'Factory Heart']                                                  |
+|   103 | xencraft                                   | XenCraft                             | [xencraft:xen_gem@0 - 'Xen']                                                        |
+|   104 | xtones                                     | Xtones                               | [xtones:base@0 - 'Xtone Tile']                                                      |
+|   105 | yoyos                                      | Yoyos                                | [yoyos:creative_yoyo@0 - 'Rainbowyo']                                               |
+|   106 | advancedliftingmethods                     | Advanced Lifting Methods             | [advancedliftingmethods:advanced_ender_elevator@0 - 'Advanced Ender Elevator']      |
+|   107 | appliedenergistics2                        | Applied Energistics 2                | [appliedenergistics2:controller@0 - 'ME Controller']                                |
+|   108 | appliedenergistics2.facades                | Applied Energistics 2 - Facades      | [appliedenergistics2:facade@0 - 'Cable Facade - Stone']                             |
+|   109 | bdew.ae2stuff                              | AE2 Stuff                            | [ae2stuff:encoder@0 - 'Pattern Encoder']                                            |
+|   110 | thermalseries.creativeTabBlocks            | Thermal Series: Blocks               | [thermalfoundation:ore@6 - 'Platinum Ore']                                          |
+|   111 | thermalseries.creativeTabItems             | Thermal Series: Items                | [thermalfoundation:material@65 - 'Pulverized Tin']                                  |
+|   112 | thermalseries.creativeTabUtils             | Thermal Series: Utilities            | [thermalfoundation:tome_lexicon@0 - 'Forge Lexicon']                                |
+|   113 | thermalseries.creativeTabTools             | Thermal Series: Tools                | [thermalexpansion:satchel@0 - 'Satchel (Basic)']                                    |
+|   114 | thermalseries.creativeTabMisc              | Thermal Series: Miscellaneous        | [thermalexpansion:morb@1 - 'Reusable Morb (Empty)']                                 |
+|   115 | botania                                    | Botania                              | [botania:lexicon@0 - 'Lexica Botania']                                              |
+|   116 | psi                                        | Psi                                  | [psi:cad_assembly@0 - 'Iron CAD Assembly']                                          |
+|   117 | rpsideas                                   | Random PSIdeas                       | [rpsideas:flash_ring@0 - 'Flash Ring']                                              |
+|   118 | astralsorcery                              | Astral Sorcery                       | [astralsorcery:itemjournal@0 - 'Astral Tome']                                       |
+|   119 | astralsorcery.papers                       | [AS] Constellation Papers            | [astralsorcery:itemconstellationpaper@0 - 'Constellation Paper']                    |
+|   120 | astralsorcery.crystals                     | [AS] Attuned Crystals                | [astralsorcery:itemtunedrockcrystal@0 - 'Attuned Rock Crystal']                     |
+|   121 | techreborn                                 | Tech Reborn                          | [techreborn:part@25 - 'Machine Parts']                                              |
+|   122 | agriculture                                | Forestry Agriculture                 | [forestry:ffarm@0 - 'Farm Block']                                                   |
+|   123 | apiculture                                 | Forestry Apiculture                  | [forestry:bee_drone_ge@0 - 'Forest Drone']                                          |
+|   124 | arboriculture                              | Forestry Arboriculture               | [forestry:sapling@0 - 'Apple Oak Sapling']                                          |
+|   125 | lepidopterology                            | Forestry Lepidopterology             | [forestry:butterfly_ge@0 - 'Brimstone Butterfly']                                   |
+|   126 | forestry                                   | Forestry                             | [forestry:wrench@0 - 'Wrench']                                                      |
+|   127 | BiblioCraft                                | BiblioCraft                          | [bibliocraft:bookcase@0 - 'Oak Bookcase']                                           |
+|   128 | BiblioCraftLights                          | BiblioCraft Lighting                 | [bibliocraft:lanterngold@0 - 'Fancy Lantern']                                       |
+|   129 | Genetics                                   | Genetics                             | [genetics:misc@6 - 'Empty Serum Vial']                                              |
+|   130 | Botany                                     | Botany                               | [minecraft:red_flower@5 - 'Orange Tulip']                                           |
+|   131 | Carpentry                                  | Carpentry                            | [forestry:carpenter@0 - 'Carpenter']                                                |
+|   132 | computercraft                              | CC: Tweaked                          | [computercraft:computer@0 - 'Computer']                                             |
+|   133 | chiselsandbits                             | Chisels & Bits                       | [chiselsandbits:chisel_diamond@0 - 'Diamond Chisel']                                |
+|   134 | chiselsandbits.Clipboard                   | Chisels & Bits Clipboard             | [chiselsandbits:positiveprint@0 - 'Positive Chisel Design']                         |
+|   135 | RfTools                                    | RFTools                              | [rftools:rftools_manual@0 - 'RFTools Manual']                                       |
+|   136 | DeepResonance                              | Deep Resonance                       | [deepresonance:resonating_crystal@0 - 'Resonating Crystal']                         |
+|   137 | mysticalmechanics.name                     | Mystical Mechanics                   | [mysticalmechanics:gear_iron@0 - 'Iron Gear']                                       |
+|   138 | enderzoo                                   | Ender Zoo                            | [enderzoo:enderzooicon@0 - 'item.enderZooIcon.name']                                |
+|   139 | Extra_Cells                                | Extra Cells 2                        | [extracells:storage.fluid@0 - 'ME 1k Fluid Storage Cell']                           |
+|   140 | nuclearcraftBaseBlockMaterials             | NuclearCraft Base Blocks             | [nuclearcraft:ore@2 - 'Lead Ore']                                                   |
+|   141 | nuclearcraftBaseItemMaterials              | NuclearCraft Base Items              | [nuclearcraft:alloy@1 - 'Tough Alloy']                                              |
+|   142 | nuclearcraftRadiation                      | NuclearCraft Radiation               | [nuclearcraft:geiger_counter@0 - 'Geiger Counter']                                  |
+|   143 | nuclearcraftMachines                       | NuclearCraft Machines                | [nuclearcraft:manufactory_active@0 - 'Manufactory']                                 |
+|   144 | nuclearcraftFissionBlocks                  | NuclearCraft Fission Blocks          | [nuclearcraft:fission_controller_new_active@0 - 'Fission Controller']               |
+|   145 | nuclearcraftFissionMaterials               | NuclearCraft Fission Materials       | [nuclearcraft:uranium@4 - 'Uranium-235']                                            |
+|   146 | nuclearcraftFissionFuels                   | NuclearCraft Fission Fuels           | [nuclearcraft:fuel_uranium@0 - 'LEU-233 Fuel']                                      |
+|   147 | nuclearcraftFusion                         | NuclearCraft Fusion                  | [nuclearcraft:fusion_core@0 - 'Fusion Core']                                        |
+|   148 | nuclearcraftSaltFissionBlocks              | NuclearCraft Molten Salt Fission     | [nuclearcraft:salt_fission_controller@0 - 'Molten Salt Reactor Controller']         |
+|   149 | nuclearcraftHeatExchangerBlocks            | NuclearCraft Heat Exchanger          | [nuclearcraft:salt_fission_controller@0 - 'Molten Salt Reactor Controller']         |
+|   150 | nuclearcraftTurbineBlocks                  | NuclearCraft Turbine                 | [nuclearcraft:turbine_controller@0 - 'Turbine Controller']                          |
+|   151 | nuclearcraftAccelerator                    | NuclearCraft Accelerator             | [nuclearcraft:accelerator_electromagnet_active@0 - 'Superconducting Electromagnet'] |
+|   152 | nuclearcraftMisc                           | NuclearCraft Miscellaneous           | [nuclearcraft:spaxelhoe_tough@0 - 'Tough Alloy Spaxelhoe']                          |
+|   153 | FlatColoredBlocks                          | Flat Colored Blocks                  | [minecraft:cobblestone@0 - 'Cobblestone']                                           |
+|   154 | bdew.gendustry                             | Gendustry                            | [gendustry:industrial_apiary@0 - 'Industrial Apiary']                               |
+|   155 | bdew.samples                               | Genetic Samples                      | [gendustry:gene_sample@0 - 'INVALID Sample - ERROR']                                |
+|   156 | bdew.templates                             | Genetic Templates                    | [gendustry:gene_template@0 - 'Genetic Template']                                    |
+|   157 | bdew.pressure                              | Pressure Pipes                       | [pressure:interface@0 - 'Pressure System Interface']                                |
+|   158 | bdew.canisters                             | Fluid Canisters                      | [pressure:canister@0 - 'Canister']                                                  |
+|   159 | bdew.generators                            | Advanced Generators                  | [advgenerators:turbine_rotor_iron@0 - 'Iron Turbine Rotor']                         |
+|   160 | integrateddynamics                         | Integrated Dynamics                  | [integrateddynamics:cable@0 - 'Logic Cable']                                        |
+|   161 | integratedcrafting                         | Integrated Crafting                  | [integratedcrafting:part_interface_crafting_item@0 - 'Crafting Interface']          |
+|   162 | integratedterminals                        | Integrated Terminals                 | [integratedterminals:part_terminal_storage_item@0 - 'Storage Terminal']             |
+|   163 | integratedtunnels                          | Integrated Tunnels                   | [integratedtunnels:part_interface_item_item@0 - 'Item Interface']                   |
+|   164 | magicbees                                  | Magic Bees                           | [magicbees:frames.magic@0 - 'Magic Frame']                                          |
+|   165 | magneticraft                               | Magneticraft                         | [magneticraft:guide_book@0 - 'Magneticraft Manual']                                 |
+|   166 | modularmachinery                           | Modular Machinery                    | [modularmachinery:blockcontroller@0 - 'Machine Controller']                         |
+|   167 | tabPneumaticCraft                          | PneumaticCraft                       | [pneumaticcraft:air_cannon@0 - 'Air Cannon']                                        |
+|   168 | naturalpledge.divine                       | Natural Pledge                       | [naturalpledge:holy_symbol@0 - 'Holy Symbol']                                       |
+|   169 | redstonearsenal.creativeTab                | Redstone Arsenal                     | [redstonearsenal:tool.sword_flux@0 - 'Flux-Infused Sword']                          |
+|   170 | redstonerepository.creativeTab             | Redstone Repository                  |                                                                                     |
+|   171 | NotEnoughWands                             | Not Enough Wands                     | [notenoughwands:teleportation_wand@0 - 'Teleportation Wand']                        |
+|   172 | XNet                                       | XNet                                 | [minecraft:anvil@0 - 'Anvil']                                                       |
+|   173 | plethora                                   | Plethora                             | [plethora:neuralinterface@0 - 'Neural interface']                                   |
+|   174 | psipherals                                 | Psionic Peripherals                  | [psipherals:psimetal_bow@0 - 'Psimetal Bow']                                        |
+|   175 | rt.name                                    | Random Things                        | [randomthings:magichood@0 - 'Magic Hood']                                           |
+|   176 | spawnEggs                                  | Spawn Eggs                           | [minecraft:spawn_egg@0 - 'Spawn Chicken']                                           |
+|   177 | RFToolsControl                             | RFTools Control                      | [rftoolscontrol:rftoolscontrol_manual@0 - 'RFTools Control Manual']                 |
+|   178 | RFToolsPower                               | RFTools Power                        | [rftoolspower:cell1@0 - 'Powercell (Low)']                                          |
+|   179 | soot                                       | Soot                                 | [embers:dust_ash@0 - 'Ash Pile']                                                    |
+|   180 | thaumcraft                                 | Thaumcraft                           | [thaumcraft:goggles@0 - 'Goggles of Revealing']                                     |
+|   181 | thaumadditions                             | Thaumic Additions: Reconstructed     | [thaumadditions:seal_globe@0 - 'Seal Globe']                                        |
+|   182 | Thaumic Bases Blocks                       | Thaumic Bases Blocks                 | [minecraft:crafting_table@0 - 'Crafting Table']                                     |
+|   183 | Thaumic Bases Items                        | Thaumic Bases Items                  | [minecraft:iron_axe@0 - 'Iron Axe']                                                 |
+|   184 | thaumicbases                               | Thaumic Bases                        | [thaumicbases:overchanter@0 - 'Overchanting Table']                                 |
+|   185 | tabrestoration                             | Thaumic Restoration                  | [thaumicrestoration:item_wand@0 - 'Novice Wand']                                    |
+|   186 | trm                                        | Industrial Magic - TechReborn        | [techreborn:irondrill@0 - 'Steel Drill']                                            |
+|   187 | ae2wtlib                                   | AE2 Wireless Terminals (AE2WTLib)    | [ae2wtlib:wut@0 - 'Wireless Ultimate Terminal']                                     |
+|   188 | enderio.machines                           | EnderIO Machines                     | [enderio:item_enderface@3 - 'Enderface']                                            |
+|   189 | enderio.items                              | EnderIO Items                        | [enderio:item_enderface@1 - 'Enderface']                                            |
+|   190 | enderio.materials                          | EnderIO Materials                    | [enderio:item_enderface@2 - 'Enderface']                                            |
+|   191 | enderio.main                               | EnderIO Blocks                       | [enderio:item_enderface@0 - 'Enderface']                                            |
+|   192 | enderio.mobs                               | EnderIO Souls                        | [enderio:item_enderface@4 - 'Enderface']                                            |
+|   193 | enderio.conduits                           | EnderIO Conduits                     | [enderio:item_enderface@5 - 'Enderface']                                            |
+|   194 | enderio.invpanel                           | EnderIO Inventory Panel              | [enderio:item_enderface@6 - 'Enderface']                                            |
+|   195 | chiselCreativeTab                          | Chisel                               | [chisel:chisel_iron@0 - 'Chisel']                                                   |
+|   196 | storagedrawers                             | Storage Drawers                      | [storagedrawers:basicdrawers@1 - 'Basic Drawers 1x2']                               |
+|   197 | enderutilities                             | Ender Utilities                      | [enderutilities:enderpearlreusable@1 - 'Elite Ender Pearl (reusable)']              |
+|   198 | extrabotany                                | ExtraBotany                          | [extrabotany:kinggarden@0 - 'Garden of King's Law']                                 |
+|   199 | immersivecables                            | Immersive Cables                     | [immersivecables:wire_coil@0 - 'Fluix Wire Coil']                                   |
+|   200 | ironchest                                  | Iron Chests                          | [ironchest:iron_chest@0 - 'Iron Chest']                                             |
+|   201 | netherendingores                           | Netherending Ores                    | [netherendingores:creative_tab@0 - 'Creative Tab Block']                            |
+|   202 | storagedrawersextra                        | Storage Drawers Extras               | [storagedrawersextra:extra_drawers@1 - 'Basic Drawer 1x2']                          |
+|   203 | thaumicaugmentation                        | Thaumic Augmentation                 | [thaumicaugmentation:material@2 - 'Amalgamated Gear']                               |
+|   204 | thaumictinkerer                            | Thaumic Tinkerer                     | [thaumictinkerer:share_book@0 - 'Tome of Knowledge Sharing']                        |
+|   205 | TCompGeneral                               | Tinkers' Complement General          | [tcomplement:melter@0 - 'Melter']                                                   |
+|   206 | TCompTools                                 | Tinkers' Complement Tools            | [tcomplement:chisel@0 - 'Iron Chisel']                                              |
+|   207 | torchmaster                                | TorchMaster                          | [torchmaster:mega_torch@0 - 'Mega Torch']                                           |
+|   208 | simplelogic                                | SimpleLogic                          | [minecraft:redstone@0 - 'Redstone']                                                 |
+|   209 | agricraft                                  | AgriCraft                            | [agricraft:debugger@0 - 'Debugger']                                                 |
+|   210 | agricraft_seeds                            | AgriCraft Seeds                      | [agricraft:agri_seed@0 - 'Carrot Seeds']                                            |
+|   211 | portals                                    | Portals                              | [minecraft:end_portal_frame@0 - 'Lateral End Portal Frame']                         |
++-------+--------------------------------------------+--------------------------------------+-------------------------------------------------------------------------------------+
+| Index | Name                                       | Translated Name                      | Icon Item                                                                           |
++-------+--------------------------------------------+--------------------------------------+-------------------------------------------------------------------------------------+

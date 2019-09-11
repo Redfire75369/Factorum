@@ -1,0 +1,4 @@
+separator:
+mods.mekanism.separator.addRecipe(<liquid:heavywater> * 2, 800.0, <gas:deuterium> * 2, <gas:oxygen>)
+mods.mekanism.separator.addRecipe(<liquid:brine> * 10, 400.0, <gas:sodium>, <gas:chlorine>)
+mods.mekanism.separator.addRecipe(<liquid:water> * 2, 400.0, <gas:hydrogen> * 2, <gas:oxygen>)

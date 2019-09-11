@@ -1,0 +1,440 @@
+"Mod name","Registry name","Entity class name","ID"
+"Actually Additions","actuallyadditions:worm","EntityWorm",0
+"Applied Energistics 2","appliedenergistics2:appeng.entity.entitychargedquartz","EntityChargedQuartz",12
+"Applied Energistics 2","appliedenergistics2:appeng.entity.entitygrowingcrystal","EntityGrowingCrystal",13
+"Applied Energistics 2","appliedenergistics2:appeng.entity.entitysingularity","EntitySingularity",11
+"Applied Energistics 2","appliedenergistics2:appeng.entity.entitytinytntprimed","EntityTinyTNTPrimed",10
+"Arcane Archives","arcanearchives:weight","EntityWeight",0
+"Artifacts","artifacts:hallow_star","EntityHallowStar",1
+"Artifacts","artifacts:mimic","EntityMimic",0
+"Astral Sorcery","astralsorcery:entitycrystal","EntityCrystal",2
+"Astral Sorcery","astralsorcery:entitycrystaltool","EntityCrystalTool",7
+"Astral Sorcery","astralsorcery:entityflare","EntityFlare",3
+"Astral Sorcery","astralsorcery:entitygrapplinghook","EntityGrapplingHook",8
+"Astral Sorcery","astralsorcery:entityhighlighted","EntityItemHighlighted",0
+"Astral Sorcery","astralsorcery:entityilluminationspark","EntityIlluminationSpark",5
+"Astral Sorcery","astralsorcery:entityitemdamageresistant","EntityItemExplosionResistant",13
+"Astral Sorcery","astralsorcery:entityliquidspark","EntityLiquidSpark",10
+"Astral Sorcery","astralsorcery:entitynocturnalspark","EntityNocturnalSpark",6
+"Astral Sorcery","astralsorcery:entityobservatoryhelper","EntityObservatoryHelper",11
+"Astral Sorcery","astralsorcery:entityshootingstar","EntityShootingStar",12
+"Astral Sorcery","astralsorcery:entityspectraltool","EntitySpectralTool",9
+"Astral Sorcery","astralsorcery:entitystarburst","EntityStarburst",4
+"Astral Sorcery","astralsorcery:entitystardust","EntityItemStardust",1
+"Avaritia","avaritia:endest_pearl","EntityEndestPearl",1
+"Avaritia","avaritia:gaping_void","EntityGapingVoid",2
+"Avaritia","avaritia:heaven_arrow","EntityHeavenArrow",3
+"Avaritia","avaritia:heaven_sub_arrow","EntityHeavenSubArrow",4
+"Better Questing","betterquesting:placeholder","EntityPlaceholder",0
+"Bewitchment","bewitchment:arrow","ModEntityTippedArrow",17
+"Bewitchment","bewitchment:black_dog","EntityBlackDog",10
+"Bewitchment","bewitchment:cypress_broom","EntityCypressBroom",0
+"Bewitchment","bewitchment:demon","EntityDemon",13
+"Bewitchment","bewitchment:demoness","EntityDemoness",14
+"Bewitchment","bewitchment:elder_broom","EntityElderBroom",1
+"Bewitchment","bewitchment:hellhound","EntityHellhound",11
+"Bewitchment","bewitchment:imp","EntityImp",15
+"Bewitchment","bewitchment:juniper_broom","EntityJuniperBroom",2
+"Bewitchment","bewitchment:lizard","EntityLizard",4
+"Bewitchment","bewitchment:newt","EntityNewt",5
+"Bewitchment","bewitchment:owl","EntityOwl",6
+"Bewitchment","bewitchment:potion","ModEntityPotion",16
+"Bewitchment","bewitchment:raven","EntityRaven",7
+"Bewitchment","bewitchment:serpent","EntitySerpent",12
+"Bewitchment","bewitchment:snake","EntitySnake",8
+"Bewitchment","bewitchment:toad","EntityToad",9
+"Bewitchment","bewitchment:yew_broom","EntityYewBroom",3
+"BiblioCraft","bibliocraft:biblioseat","EntitySeat",0
+"Blood Arsenal","bloodarsenal:summoned_tool","EntitySummonedTool",1
+"Blood Arsenal","bloodarsenal:warp_blade","EntityWarpBlade",2
+"Blood Magic: Alchemical Wizardry","bloodmagic:blood_light","EntityBloodLight",1
+"Blood Magic: Alchemical Wizardry","bloodmagic:corrupted_chicken","EntityCorruptedChicken",9
+"Blood Magic: Alchemical Wizardry","bloodmagic:corrupted_sheep","EntityCorruptedSheep",8
+"Blood Magic: Alchemical Wizardry","bloodmagic:corrupted_spider","EntityCorruptedSpider",10
+"Blood Magic: Alchemical Wizardry","bloodmagic:corrupted_zombie","EntityCorruptedZombie",7
+"Blood Magic: Alchemical Wizardry","bloodmagic:meteor","EntityMeteor",4
+"Blood Magic: Alchemical Wizardry","bloodmagic:mimic","EntityMimic",6
+"Blood Magic: Alchemical Wizardry","bloodmagic:sentient_specter","EntitySentientSpecter",5
+"Blood Magic: Alchemical Wizardry","bloodmagic:soul_arrow","EntitySentientArrow",3
+"Blood Magic: Alchemical Wizardry","bloodmagic:soul_snare","EntitySoulSnare",2
+"Botania","botania:babylon_weapon","EntityBabylonWeapon",17
+"Botania","botania:corporea_spark","EntityCorporeaSpark",11
+"Botania","botania:doppleganger","EntityDoppleganger",5
+"Botania","botania:ender_air_bottle","EntityEnderAirBottle",12
+"Botania","botania:falling_star","EntityFallingStar",18
+"Botania","botania:flame_ring","EntityFlameRing",3
+"Botania","botania:magic_landmine","EntityMagicLandmine",6
+"Botania","botania:magic_missile","EntityMagicMissile",9
+"Botania","botania:mana_burst","EntityManaBurst",0
+"Botania","botania:mana_storm","EntityManaStorm",16
+"Botania","botania:pink_wither","EntityPinkWither",14
+"Botania","botania:pixie","EntityPixie",2
+"Botania","botania:player_mover","EntityPlayerMover",15
+"Botania","botania:pool_minecart","EntityPoolMinecart",13
+"Botania","botania:signal_flare","EntitySignalFlare",1
+"Botania","botania:spark","EntitySpark",7
+"Botania","botania:thorn_chakram","EntityThornChakram",10
+"Botania","botania:thrown_item","EntityThrownItem",8
+"Botania","botania:vine_ball","EntityVineBall",4
+"Building Gadgets","buildinggadgets:blockbuildentity","BlockBuildEntity",1
+"Building Gadgets","buildinggadgets:constructionblockentity","ConstructionBlockEntity",2
+"CC: Tweaked","computercraft:turtle_player","TurtlePlayer",0
+"Clumps","clumps:xp_orb_big","EntityXPOrbBig",0
+"Cyclic","cyclicmagic:blazebolt","EntityBlazeBolt",1102
+"Cyclic","cyclicmagic:boomerang","EntityBoomerang",1113
+"Cyclic","cyclicmagic:dungeonbolt","EntityDungeonEye",1105
+"Cyclic","cyclicmagic:ender_eye_orb","EntityEnderEyeUnbreakable",1103
+"Cyclic","cyclicmagic:firecannon","EntityGolemLaser",1031
+"Cyclic","cyclicmagic:frostbolt","EntitySnowballBolt",1111
+"Cyclic","cyclicmagic:lightningbolt","EntityLightningballBolt",1106
+"Cyclic","cyclicmagic:magic_missile","EntityHomingProjectile",1112
+"Cyclic","cyclicmagic:magicnetempty","EntityMagicNetEmpty",1110
+"Cyclic","cyclicmagic:magicnetfull","EntityMagicNetFull",1109
+"Cyclic","cyclicmagic:robot","EntityRobot",1030
+"Cyclic","cyclicmagic:slingshot_bullet","EntitySlingshot",1114
+"Cyclic","cyclicmagic:tntblocksafebolt","EntityDynamiteBlockSafe",1100
+"Cyclic","cyclicmagic:tntbolt","EntityDynamite",1107
+"Cyclic","cyclicmagic:tntminingbolt","EntityDynamiteMining",1101
+"Cyclic","cyclicmagic:torchbolt","EntityTorchBolt",1104
+"Cyclic","cyclicmagic:woolbolt","EntityShearingBolt",1108
+"Dark Utilities","darkutils:fake_tnt","EntityFakeTNT",0
+"Deep Mob Learning","deepmoblearning:glitch","EntityGlitch",0
+"Deep Mob Learning","deepmoblearning:glitch_orb","EntityGlitchOrb",1
+"Deep Mob Learning","deepmoblearning:item_glitch_fragment","EntityItemGlitchFragment",6
+"Deep Mob Learning","deepmoblearning:trial_cave_spider","EntityTrialCaveSpider",4
+"Deep Mob Learning","deepmoblearning:trial_enderman","EntityTrialEnderman",2
+"Deep Mob Learning","deepmoblearning:trial_slime","EntityTrialSlime",5
+"Deep Mob Learning","deepmoblearning:trial_spider","EntityTrialSpider",3
+"Draconic Evolution","draconicevolution:chaosguardian","EntityChaosGuardian",6
+"Draconic Evolution","draconicevolution:customarrow","EntityCustomArrow",11
+"Draconic Evolution","draconicevolution:dragonheartitem","EntityDragonHeart",5
+"Draconic Evolution","draconicevolution:enderenergymanipulator","EntityEnderEnergyManipulator",13
+"Draconic Evolution","draconicevolution:entitychaosenergyvortex","EntityChaosImplosion",10
+"Draconic Evolution","draconicevolution:guardiancrystal","EntityGuardianCrystal",8
+"Draconic Evolution","draconicevolution:guardianprojectile","EntityGuardianProjectile",7
+"Draconic Evolution","draconicevolution:lootcore","EntityLootCore",12
+"Draconic Evolution","draconicevolution:persistentitem","EntityPersistentItem",1
+"Embers Rekindled","embers:ancient_golem","EntityAncientGolem",2
+"Embers Rekindled","embers:ember_light","EntityEmberLight",3
+"Embers Rekindled","embers:ember_packet","EntityEmberPacket",0
+"Embers Rekindled","embers:ember_projectile","EntityEmberProjectile",1
+"Ender IO","enderio:falling_machine","EntityFallingMachine",1
+"Ender IO","enderio:owl_egg","EntityOwlEgg",9
+"Ender IO","enderio:primed_charge","EntityPrimedCharge",0
+"Ender IO","enderiomachines:weather_rocket","EntityWeatherRocket",33
+"Ender Utilities","enderutilities:chair","EntityChair",3
+"Ender Utilities","enderutilities:enderarrow","EntityEnderArrow",0
+"Ender Utilities","enderutilities:endermanfighter","EntityEndermanFighter",2
+"Ender Utilities","enderutilities:enderpearlreusable","EntityEnderPearlReusable",1
+"Ender Utilities","enderutilities:fallingblock","EntityFallingBlockEU",4
+"Ender Zoo","enderzoo:concussioncreeper","EntityConcussionCreeper",689991
+"Ender Zoo","enderzoo:direslime","EntityDireSlime",689997
+"Ender Zoo","enderzoo:direwolf","EntityDireWolf",689996
+"Ender Zoo","enderzoo:enderminy","EntityEnderminy",689990
+"Ender Zoo","enderzoo:entityowlegg","EntityOwlEgg",679991
+"Ender Zoo","enderzoo:entityprimedcharge","EntityPrimedCharge",699998
+"Ender Zoo","enderzoo:fallenknight","EntityFallenKnight",689992
+"Ender Zoo","enderzoo:fallenmount","EntityFallenMount",689993
+"Ender Zoo","enderzoo:owl","EntityOwl",689998
+"Ender Zoo","enderzoo:withercat","EntityWitherCat",689995
+"Ender Zoo","enderzoo:witherwitch","EntityWitherWitch",689994
+"Extra Anvils","extraanvils:aether_anvil","EntityAetherAnvil",1
+"Extra Anvils","extraanvils:falling_anvil","EntityFallingAnvil",0
+"ExtraBotany","extrabotany:aurafire","EntityAuraFire",20
+"ExtraBotany","extrabotany:bottledstar","EntityBottledStar",16
+"ExtraBotany","extrabotany:darkpixie","EntityDarkPixie",8
+"ExtraBotany","extrabotany:domain","EntityDomain",10
+"ExtraBotany","extrabotany:fb","EntityFlyingBoat",7
+"ExtraBotany","extrabotany:flower_weapon","EntityFlowerWeapon",0
+"ExtraBotany","extrabotany:gaiaiii","EntityGaiaIII",1
+"ExtraBotany","extrabotany:judahoath","EntityJudahOath",14
+"ExtraBotany","extrabotany:judahspear","EntityJudahSpear",13
+"ExtraBotany","extrabotany:magicarrow","EntityMagicArrow",5
+"ExtraBotany","extrabotany:petpixie","EntityPetPixie",15
+"ExtraBotany","extrabotany:skulllandmine","EntitySkullLandmine",3
+"ExtraBotany","extrabotany:skullminion","EntitySkullMinion",4
+"ExtraBotany","extrabotany:skullmissile","EntitySkullMissile",2
+"ExtraBotany","extrabotany:splashgrenade","EntitySplashGrenade",6
+"ExtraBotany","extrabotany:subspace","EntitySubspace",11
+"ExtraBotany","extrabotany:subspacelance","EntitySubspaceLance",19
+"ExtraBotany","extrabotany:subspacespear","EntitySubspaceSpear",12
+"ExtraBotany","extrabotany:sworddomain","EntitySwordDomain",9
+"ExtraBotany","extrabotany:void","EntityVoid",17
+"ExtraBotany","extrabotany:voidherrscher","EntityVoidHerrscher",18
+"Flux Networks","fluxnetworks:flux","EntityFireItem",0
+"Forestry","forestry:butterflyge","EntityButterfly",0
+"Forestry","forestry:cart.apiary","EntityMinecartApiary",2
+"Forestry","forestry:cart.beehouse","EntityMinecartBeehouse",1
+"Immersive Engineering","immersiveengineering:chemthrowershot","EntityChemthrowerShot",4
+"Immersive Engineering","immersiveengineering:explosive","EntityIEExplosive",7
+"Immersive Engineering","immersiveengineering:fluorescenttube","EntityFluorescentTube",8
+"Immersive Engineering","immersiveengineering:railgunshot","EntityRailgunShot",5
+"Immersive Engineering","immersiveengineering:revolvershot","EntityRevolvershot",0
+"Immersive Engineering","immersiveengineering:revolvershotflare","EntityRevolvershotFlare",6
+"Immersive Engineering","immersiveengineering:revolvershothoming","EntityRevolvershotHoming",2
+"Immersive Engineering","immersiveengineering:revolvershotwolfpack","EntityWolfpackShot",3
+"Immersive Engineering","immersiveengineering:skylinehook","EntitySkylineHook",1
+"Immersive Petroleum","immersivepetroleum:speedboat","EntitySpeedboat",0
+"Incorporeal","incorporeal:cygnus_spark","EntityCygnusRegularSpark",1
+"Incorporeal","incorporeal:fractured_space_collector","EntityFracturedSpaceCollector",2
+"Incorporeal","incorporeal:master_cygnus_spark","EntityCygnusMasterSpark",0
+"Incorporeal","incorporeal:potion_soul_core_collector","EntityPotionSoulCoreCollector",3
+"Industrial Foregoing","industrialforegoing:pink_slime","EntityPinkSlime",135135
+"Integrated Dynamics","integrateddynamics:entityitemtargetted","EntityItemTargetted",0
+"Mekanism","mekanism:babyskeleton","EntityBabySkeleton",3
+"Mekanism","mekanism:balloon","EntityBalloon",2
+"Mekanism","mekanism:flame","EntityFlame",4
+"Mekanism","mekanism:obsidiantnt","EntityObsidianTNT",0
+"Mekanism","mekanism:robit","EntityRobit",1
+"Minecraft","minecraft:area_effect_cloud","EntityAreaEffectCloud",3
+"Minecraft","minecraft:armor_stand","EntityArmorStand",30
+"Minecraft","minecraft:arrow","EntityTippedArrow",10
+"Minecraft","minecraft:bat","EntityBat",65
+"Minecraft","minecraft:blaze","EntityBlaze",61
+"Minecraft","minecraft:boat","EntityBoat",41
+"Minecraft","minecraft:cave_spider","EntityCaveSpider",59
+"Minecraft","minecraft:chest_minecart","EntityMinecartChest",43
+"Minecraft","minecraft:chicken","EntityChicken",93
+"Minecraft","minecraft:commandblock_minecart","EntityMinecartCommandBlock",40
+"Minecraft","minecraft:cow","EntityCow",92
+"Minecraft","minecraft:creeper","EntityCreeper",50
+"Minecraft","minecraft:donkey","EntityDonkey",31
+"Minecraft","minecraft:dragon_fireball","EntityDragonFireball",26
+"Minecraft","minecraft:egg","EntityEgg",7
+"Minecraft","minecraft:elder_guardian","EntityElderGuardian",4
+"Minecraft","minecraft:ender_crystal","EntityEnderCrystal",200
+"Minecraft","minecraft:ender_dragon","EntityDragon",63
+"Minecraft","minecraft:ender_pearl","EntityEnderPearl",14
+"Minecraft","minecraft:enderman","EntityEnderman",58
+"Minecraft","minecraft:endermite","EntityEndermite",67
+"Minecraft","minecraft:evocation_fangs","EntityEvokerFangs",33
+"Minecraft","minecraft:evocation_illager","EntityEvoker",34
+"Minecraft","minecraft:eye_of_ender_signal","EntityEnderEye",15
+"Minecraft","minecraft:falling_block","EntityFallingBlock",21
+"Minecraft","minecraft:fireball","EntityLargeFireball",12
+"Minecraft","minecraft:fireworks_rocket","EntityFireworkRocket",22
+"Minecraft","minecraft:furnace_minecart","EntityMinecartFurnace",44
+"Minecraft","minecraft:ghast","EntityGhast",56
+"Minecraft","minecraft:giant","EntityGiantZombie",53
+"Minecraft","minecraft:guardian","EntityGuardian",68
+"Minecraft","minecraft:hopper_minecart","EntityMinecartHopper",46
+"Minecraft","minecraft:horse","EntityHorse",100
+"Minecraft","minecraft:husk","EntityHusk",23
+"Minecraft","minecraft:illusion_illager","EntityIllusionIllager",37
+"Minecraft","minecraft:item","EntityItem",1
+"Minecraft","minecraft:item_frame","EntityItemFrame",18
+"Minecraft","minecraft:leash_knot","EntityLeashKnot",8
+"Minecraft","minecraft:llama","EntityLlama",103
+"Minecraft","minecraft:llama_spit","EntityLlamaSpit",104
+"Minecraft","minecraft:magma_cube","EntityMagmaCube",62
+"Minecraft","minecraft:minecart","EntityMinecartEmpty",42
+"Minecraft","minecraft:mooshroom","EntityMooshroom",96
+"Minecraft","minecraft:mule","EntityMule",32
+"Minecraft","minecraft:ocelot","EntityOcelot",98
+"Minecraft","minecraft:painting","EntityPainting",9
+"Minecraft","minecraft:parrot","EntityParrot",105
+"Minecraft","minecraft:pig","EntityPig",90
+"Minecraft","minecraft:polar_bear","EntityPolarBear",102
+"Minecraft","minecraft:potion","EntityPotion",16
+"Minecraft","minecraft:rabbit","EntityRabbit",101
+"Minecraft","minecraft:sheep","EntitySheep",91
+"Minecraft","minecraft:shulker","EntityShulker",69
+"Minecraft","minecraft:shulker_bullet","EntityShulkerBullet",25
+"Minecraft","minecraft:silverfish","EntitySilverfish",60
+"Minecraft","minecraft:skeleton","EntitySkeleton",51
+"Minecraft","minecraft:skeleton_horse","EntitySkeletonHorse",28
+"Minecraft","minecraft:slime","EntitySlime",55
+"Minecraft","minecraft:small_fireball","EntitySmallFireball",13
+"Minecraft","minecraft:snowball","EntitySnowball",11
+"Minecraft","minecraft:snowman","EntitySnowman",97
+"Minecraft","minecraft:spawner_minecart","EntityMinecartMobSpawner",47
+"Minecraft","minecraft:spectral_arrow","EntitySpectralArrow",24
+"Minecraft","minecraft:spider","EntitySpider",52
+"Minecraft","minecraft:squid","EntitySquid",94
+"Minecraft","minecraft:stray","EntityStray",6
+"Minecraft","minecraft:tnt","EntityTNTPrimed",20
+"Minecraft","minecraft:tnt_minecart","EntityMinecartTNT",45
+"Minecraft","minecraft:vex","EntityVex",35
+"Minecraft","minecraft:villager","EntityVillager",120
+"Minecraft","minecraft:villager_golem","EntityIronGolem",99
+"Minecraft","minecraft:vindication_illager","EntityVindicator",36
+"Minecraft","minecraft:witch","EntityWitch",66
+"Minecraft","minecraft:wither","EntityWither",64
+"Minecraft","minecraft:wither_skeleton","EntityWitherSkeleton",5
+"Minecraft","minecraft:wither_skull","EntityWitherSkull",19
+"Minecraft","minecraft:wolf","EntityWolf",95
+"Minecraft","minecraft:xp_bottle","EntityExpBottle",17
+"Minecraft","minecraft:xp_orb","EntityXPOrb",2
+"Minecraft","minecraft:zombie","EntityZombie",54
+"Minecraft","minecraft:zombie_horse","EntityZombieHorse",29
+"Minecraft","minecraft:zombie_pigman","EntityPigZombie",57
+"Minecraft","minecraft:zombie_villager","EntityZombieVillager",27
+"Mystical Agriculture","mysticalagriculture:inferium_arrow","EntityInferiumArrow",0
+"Mystical Agriculture","mysticalagriculture:intermedium_arrow","EntityIntermediumArrow",2
+"Mystical Agriculture","mysticalagriculture:prudentium_arrow","EntityPrudentiumArrow",1
+"Mystical Agriculture","mysticalagriculture:superium_arrow","EntitySuperiumArrow",3
+"Mystical Agriculture","mysticalagriculture:supremium_arrow","EntitySupremiumArrow",4
+"Mystical Lib","mysticalworld:entity_beetle","EntityBeetle",20
+"Mystical Lib","mysticalworld:entity_deer","EntityDeer",22
+"Mystical Lib","mysticalworld:entity_endermini","EntityEndermini",23
+"Mystical Lib","mysticalworld:entity_fox","EntityFox",18
+"Mystical Lib","mysticalworld:entity_frog","EntityFrog",19
+"Mystical Lib","mysticalworld:entity_owl","EntityOwl",24
+"Mystical Lib","mysticalworld:entity_sprout","EntitySprout",21
+"Mystical Lib","roots:entity_boost","EntityBoost",4
+"Mystical Lib","roots:entity_fire_jet","EntityFireJet",0
+"Mystical Lib","roots:entity_flare","EntityFlare",9
+"Mystical Lib","roots:entity_natural_grove","EntityNaturalGrove",17
+"Mystical Lib","roots:entity_petal_shell","EntityPetalShell",2
+"Mystical Lib","roots:entity_ritual_divine_protection","EntityRitualDivineProtection",7
+"Mystical Lib","roots:entity_ritual_fire_storm","EntityRitualFireStorm",8
+"Mystical Lib","roots:entity_ritual_flower_growth","EntityRitualFlowerGrowth",15
+"Mystical Lib","roots:entity_ritual_frost_lands","EntityRitualFrostLands",14
+"Mystical Lib","roots:entity_ritual_healing_aura","EntityRitualHealingAura",5
+"Mystical Lib","roots:entity_ritual_heavy_storms","EntityRitualHeavyStorms",6
+"Mystical Lib","roots:entity_ritual_overgrowth","EntityRitualOvergrowth",13
+"Mystical Lib","roots:entity_ritual_spreading_forest","EntityRitualSpreadingForest",10
+"Mystical Lib","roots:entity_ritual_warding_protection","EntityRitualWardingProtection",12
+"Mystical Lib","roots:entity_ritual_windwall","EntityRitualWindwall",11
+"Mystical Lib","roots:entity_thorn_trap","EntityThornTrap",1
+"Mystical Lib","roots:entity_time_stop","EntityTimeStop",3
+"Mystical Lib","roots:entity_wild_grove","EntityWildGrove",16
+"Natural Pledge","naturalpledge:sealarrow","EntitySealedArrow",0
+"NuclearCraft","nuclearcraft:feral_ghoul","EntityFeralGhoul",0
+"OpenComputers","opencomputers:drone","Drone",0
+"OpenSecurity","opensecurity:energybolt","EntityEnergyBolt",0
+"OpenSecurity","opensecurity:nanofogswarm","EntityNanoFogSwarm",1
+"Plethora","plethora:fakeplayer","PlethoraFakePlayer",1
+"Plethora","plethora:laser","EntityLaser",0
+"Plethora","plethora:minecartcomputer","EntityMinecartComputer",2
+"PlusTiC","plustic:blindbandit","EntityBlindBandit",1
+"PlusTiC","plustic:supremeleader","EntitySupremeLeader",0
+"PneumaticCraft: Repressurized","pneumaticcraft:drone","EntityDrone",2
+"PneumaticCraft: Repressurized","pneumaticcraft:harvesting_drone","EntityHarvestingDrone",4
+"PneumaticCraft: Repressurized","pneumaticcraft:logistic_drone","EntityLogisticsDrone",3
+"PneumaticCraft: Repressurized","pneumaticcraft:micromissile","EntityMicromissile",5
+"PneumaticCraft: Repressurized","pneumaticcraft:ring","EntityRing",7
+"PneumaticCraft: Repressurized","pneumaticcraft:tumbling_block","EntityTumblingBlock",6
+"PneumaticCraft: Repressurized","pneumaticcraft:vortex","EntityVortex",1
+"Psi","psi:spell_charge","EntitySpellCharge",3
+"Psi","psi:spell_circle","EntitySpellCircle",1
+"Psi","psi:spell_grenade","EntitySpellGrenade",2
+"Psi","psi:spell_mine","EntitySpellMine",4
+"Psi","psi:spell_projectile","EntitySpellProjectile",0
+"Random PSIdeas","rpsideas:entity_conjured_text","EntityConjuredText",2
+"Random PSIdeas","rpsideas:entity_fancy_circle","EntityFancyCircle",3
+"Random PSIdeas","rpsideas:entity_hail_particle","EntityHailParticle",4
+"Random PSIdeas","rpsideas:entity_summoned_clone","EntityClone",5
+"Random PSIdeas","rpsideas:gauss","EntityGaussPulse",0
+"Random PSIdeas","rpsideas:psi_firework","EntityPsireworkRocket",1
+"Random PSIdeas","rpsideas:psi_mana_burst","EntityPsiManaBurst",6
+"Random Things","randomthings:artificialendportal","EntityArtificialEndPortal",3
+"Random Things","randomthings:eclipsedclock","EntityEclipsedClock",13
+"Random Things","randomthings:fallingblockspecial","EntityFallingBlockSpecial",6
+"Random Things","randomthings:floofireplace","EntityTemporaryFlooFireplace",5
+"Random Things","randomthings:goldenchicken","EntityGoldenChicken",7
+"Random Things","randomthings:goldenegg","EntityGoldenEgg",8
+"Random Things","randomthings:playersoul","EntitySoul",0
+"Random Things","randomthings:projecteditem","EntityProjectedItem",4
+"Random Things","randomthings:revivecircle","EntityReviveCircle",1
+"Random Things","randomthings:spectreilluminator","EntitySpectreIlluminator",12
+"Random Things","randomthings:spirit","EntitySpirit",2
+"Random Things","randomthings:thrownweatheregg","EntityThrownWeatherEgg",9
+"Random Things","randomthings:timeaccelerator","EntityTimeAccelerator",11
+"Random Things","randomthings:weathercloud","EntityWeatherCloud",10
+"Redstone Arsenal","redstonearsenal:flux_arrow","EntityArrowFlux",0
+"Reliquary","xreliquary:blaze_shot","EntityBlazeShot",5
+"Reliquary","xreliquary:buster_shot","EntityBusterShot",8
+"Reliquary","xreliquary:concussive_shot","EntityConcussiveShot",7
+"Reliquary","xreliquary:ender_shot","EntityEnderShot",6
+"Reliquary","xreliquary:ender_staff_projectile","EntityEnderStaffProjectile",23
+"Reliquary","xreliquary:exorcism_shot","EntityExorcismShot",4
+"Reliquary","xreliquary:hand_grenade","EntityHolyHandGrenade",0
+"Reliquary","xreliquary:holy_water","EntityGlowingWater",1
+"Reliquary","xreliquary:kraken_slime","EntityKrakenSlime",22
+"Reliquary","xreliquary:lyssa_hook","EntityLyssaHook",14
+"Reliquary","xreliquary:neutral_shot","EntityNeutralShot",3
+"Reliquary","xreliquary:sand_shot","EntitySandShot",10
+"Reliquary","xreliquary:seeker_shot","EntitySeekerShot",9
+"Reliquary","xreliquary:special_snowball","EntitySpecialSnowball",2
+"Reliquary","xreliquary:storm_shot","EntityStormShot",11
+"Reliquary","xreliquary:thrown_aphrodite","EntityAttractionPotion",12
+"Reliquary","xreliquary:thrown_fertility","EntityFertilePotion",21
+"Reliquary","xreliquary:thrown_potion","EntityThrownXRPotion",13
+"Reliquary","xreliquary:tipped arrow","EntityXRTippedArrow",24
+"Requious Frakto","requious:spear","EntitySpark",0
+"Soot","soot:cloud","EntityCustomCloud",3
+"Soot","soot:firecloud","EntityFireCloud",0
+"Soot","soot:muse","EntityMuse",2
+"Soot","soot:snowpoff","EntitySnowpoff",1
+"Steve's Carts 2","stevescarts:cake","EntityCake",3
+"Steve's Carts 2","stevescarts:cart.0","EntityMinecartModular",0
+"Steve's Carts 2","stevescarts:egg","EntityEasterEgg",2
+"Tech Reborn","techreborn:nuke","EntityNukePrimed",0
+"Thaumcraft","thaumcraft:alumentum","EntityAlumentum",6
+"Thaumcraft","thaumcraft:arcanebore","EntityArcaneBore",18
+"Thaumcraft","thaumcraft:bottletaint","EntityBottleTaint",9
+"Thaumcraft","thaumcraft:brainyzombie","EntityBrainyZombie",24
+"Thaumcraft","thaumcraft:causalitycollapser","EntityCausalityCollapser",12
+"Thaumcraft","thaumcraft:cultistcleric","EntityCultistCleric",33
+"Thaumcraft","thaumcraft:cultistknight","EntityCultistKnight",32
+"Thaumcraft","thaumcraft:cultistleader","EntityCultistLeader",22
+"Thaumcraft","thaumcraft:cultistportalgreater","EntityCultistPortalGreater",0
+"Thaumcraft","thaumcraft:cultistportallesser","EntityCultistPortalLesser",1
+"Thaumcraft","thaumcraft:eldritchcrab","EntityEldritchCrab",34
+"Thaumcraft","thaumcraft:eldritchgolem","EntityEldritchGolem",21
+"Thaumcraft","thaumcraft:eldritchguardian","EntityEldritchGuardian",31
+"Thaumcraft","thaumcraft:eldritchorb","EntityEldritchOrb",8
+"Thaumcraft","thaumcraft:eldritchwarden","EntityEldritchWarden",20
+"Thaumcraft","thaumcraft:fallingtaint","EntityFallingTaint",5
+"Thaumcraft","thaumcraft:firebat","EntityFireBat",27
+"Thaumcraft","thaumcraft:fluxrift","EntityFluxRift",2
+"Thaumcraft","thaumcraft:focuscloud","EntityFocusCloud",14
+"Thaumcraft","thaumcraft:focusmine","EntityFocusMine",15
+"Thaumcraft","thaumcraft:focusprojectile","EntityFocusProjectile",13
+"Thaumcraft","thaumcraft:followitem","EntityFollowingItem",4
+"Thaumcraft","thaumcraft:giantbrainyzombie","EntityGiantBrainyZombie",25
+"Thaumcraft","thaumcraft:golem","EntityThaumcraftGolem",19
+"Thaumcraft","thaumcraft:golemdart","EntityGolemDart",7
+"Thaumcraft","thaumcraft:golemorb","EntityGolemOrb",10
+"Thaumcraft","thaumcraft:grapple","EntityGrapple",11
+"Thaumcraft","thaumcraft:inhabitedzombie","EntityInhabitedZombie",35
+"Thaumcraft","thaumcraft:mindspider","EntityMindSpider",30
+"Thaumcraft","thaumcraft:pech","EntityPech",29
+"Thaumcraft","thaumcraft:specialitem","EntitySpecialItem",3
+"Thaumcraft","thaumcraft:spellbat","EntitySpellBat",28
+"Thaumcraft","thaumcraft:taintacle","EntityTaintacle",38
+"Thaumcraft","thaumcraft:taintaclegiant","EntityTaintacleGiant",23
+"Thaumcraft","thaumcraft:taintacletiny","EntityTaintacleSmall",39
+"Thaumcraft","thaumcraft:taintcrawler","EntityTaintCrawler",37
+"Thaumcraft","thaumcraft:taintseed","EntityTaintSeed",41
+"Thaumcraft","thaumcraft:taintseedprime","EntityTaintSeedPrime",42
+"Thaumcraft","thaumcraft:taintswarm","EntityTaintSwarm",40
+"Thaumcraft","thaumcraft:thaumslime","EntityThaumicSlime",36
+"Thaumcraft","thaumcraft:turretadvanced","EntityTurretCrossbowAdvanced",17
+"Thaumcraft","thaumcraft:turretbasic","EntityTurretCrossbow",16
+"Thaumcraft","thaumcraft:wisp","EntityWisp",26
+"Thaumic Additions: Reconstructed","thaumadditions:chester","EntityChester",0
+"Thaumic Augmentation","thaumicaugmentation:dimensional_fracture","EntityDimensionalFracture",0
+"Thaumic Gadgets","tg:observer","EntityObserver",120
+"Thaumic Periphery","thaumicperiphery:magic_arrow","EntityMagicArrow",0
+"Thermal Dynamics","thermaldynamics:transport","EntityTransport",0
+"Thermal Expansion","thermalexpansion:florb","EntityFlorb",0
+"Thermal Expansion","thermalexpansion:morb","EntityMorb",1
+"Thermal Foundation","thermalfoundation:basalz","EntityBasalz",2
+"Thermal Foundation","thermalfoundation:basalz_bolt","EntityBasalzBolt",5
+"Thermal Foundation","thermalfoundation:blitz","EntityBlitz",1
+"Thermal Foundation","thermalfoundation:blitz_bolt","EntityBlitzBolt",4
+"Thermal Foundation","thermalfoundation:blizz","EntityBlizz",0
+"Thermal Foundation","thermalfoundation:blizz_bolt","EntityBlizzBolt",3
+"Tinkers' Construct","tconstruct:arrow","EntityArrow",10
+"Tinkers' Construct","tconstruct:blueslime","EntityBlueSlime",1
+"Tinkers' Construct","tconstruct:bolt","EntityBolt",11
+"Tinkers' Construct","tconstruct:fancy_frame","EntityFancyItemFrame",2
+"Tinkers' Construct","tconstruct:indestructible","IndestructibleEntityItem",0
+"Tinkers' Construct","tconstruct:shuriken","EntityShuriken",12
+"Tinkers' Construct","tconstruct:throwball","EntityThrowball",3
+"Yoyos","yoyos:yoyo","EntityYoyo",0
+"Yoyos","yoyos:yoyo_chaser","EntityChaserYoyo",3
+"Yoyos","yoyos:yoyo_sticky","EntityStickyYoyo",1
+"p455w0rd's Library","p455w0rdslib:sitting_entity","EntitySittableBlock",0

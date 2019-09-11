@@ -1,0 +1,12 @@
+oxidizer:
+mods.mekanism.chemical.oxidizer.addRecipe(<nuclearcraft:gem_dust:6>, <gas:sulfurdioxide> * 100)
+mods.mekanism.chemical.oxidizer.addRecipe(<mekanism:otherdust:3>, <gas:sulfurdioxide> * 100)
+mods.mekanism.chemical.oxidizer.addRecipe(<mekanism:salt>, <gas:brine> * 15)
+mods.mekanism.chemical.oxidizer.addRecipe(<nuclearcraft:dust:6>, <gas:lithium> * 100)
+mods.mekanism.chemical.oxidizer.addRecipe(<soot:sulfur>, <gas:sulfurdioxide> * 100)
+mods.mekanism.chemical.oxidizer.addRecipe(<magneticraft:crafting>, <gas:sulfurdioxide> * 100)
+mods.mekanism.chemical.oxidizer.addRecipe(<mekanism:otherdust:4>, <gas:lithium> * 100)
+mods.mekanism.chemical.oxidizer.addRecipe(<bewitchment:salt>, <gas:brine> * 15)
+mods.mekanism.chemical.oxidizer.addRecipe(<thermalfoundation:material:771>, <gas:sulfurdioxide> * 100)
+mods.mekanism.chemical.oxidizer.addRecipe(<immersiveengineering:material:25>, <gas:sulfurdioxide> * 100)
+mods.mekanism.chemical.oxidizer.addRecipe(<techreborn:dust:52>, <gas:sulfurdioxide> * 100)

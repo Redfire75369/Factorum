@@ -117,8 +117,8 @@ minecraft:stone,64,3,{NBT}
 
 
 ### Notes ###
-The order in which you add/remove recipes dose not matter when replacing recipes. 
+The order in which you add/remove recipes does not matter when replacing recipes. 
 Meaning for example you can add a recipe for a DE item then remove the original recipe and it will not remove the one you jsut added.
 
-You can use ore dictionary items for the catalyst and result when adding recipes but the default fusion implementation dose not support that. 
+You can use ore dictionary items for the catalyst and result when adding recipes but the default fusion implementation does not support that. 
 So they will be replaced with the first item stack from the ore dictionary that matches that name.

@@ -1,0 +1,17 @@
+Botania Daisy Recipes
+mods.botania.PureDaisy.addRecipe(<ore:irisDirt>, <minecraft:dirt>);
+Botania Daisy Recipes
+mods.botania.PureDaisy.addRecipe(<ore:treeSapling>, <naturalpledge:iris_sapling>);
+Botania Daisy Recipes
+mods.botania.PureDaisy.addRecipe(<ore:stone>, <botania:livingrock>);
+Botania Daisy Recipes
+mods.botania.PureDaisy.addRecipe(<ore:logWood>, <botania:livingwood>);
+Botania Daisy Recipes
+mods.botania.PureDaisy.addRecipe(<ore:netherrack>, <minecraft:cobblestone>);
+Botania Daisy Recipes
+mods.botania.PureDaisy.addRecipe(<ore:soulSand>, <minecraft:sand>);
+Botania Daisy Recipes
+mods.botania.PureDaisy.addRecipe(<ore:ice>, <minecraft:packed_ice>);
+Botania Daisy Recipes
+mods.botania.PureDaisy.addRecipe(<ore:blockBlaze>, <minecraft:obsidian>);
+Botania Daisy Recipes

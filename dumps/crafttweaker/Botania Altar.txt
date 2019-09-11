@@ -1,0 +1,140 @@
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:specialflower>.withTag({type: "soarleander"}), [<botania:specialflower>.withTag({type: "gourmaryllis"}), <minecraft:chicken>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:chicken>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:dye:15>, <ore:sugarcane>, <minecraft:fishing_rod>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <ore:ingotBrickNether>, <ore:gunpowder>, <ore:cropNetherWart>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:2> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <ore:stone>, <ore:blockCoal>, <minecraft:brown_mushroom>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:2> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <ore:stone>, <ore:blockCoal>, <minecraft:red_mushroom>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:1>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:2>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:3>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:4>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:5>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:6>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:7>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:8>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:9>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:10>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:11>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:12>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:13>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:14>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2, [<ore:powderMana>, <ore:ingotManasteel>, <minecraft:carpet:15>, <ore:feather>, <ore:string>], 5200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:4>, [<ore:runeWaterB>, <ore:runeFireB>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:cropWheat>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:5>, [<ore:runeEarthB>, <ore:runeAirB>, <minecraft:sand>, <minecraft:sand>, <ore:slimeball>, <minecraft:melon>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:6>, [<ore:runeFireB>, <ore:runeAirB>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <minecraft:spider_eye>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:1>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:2>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:3>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:4>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:5>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:6>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:7>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:8>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:9>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:10>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:11>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:12>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:13>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:14>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <minecraft:wool:15>, <minecraft:cake>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:8>, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:manaPearl>], 8000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:9>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeSummerB>, <ore:runeAirB>], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:10>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeWinterB>, <ore:runeFireB>], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:11>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeSpringB>, <ore:runeWaterB>], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:12>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeAutumnB>, <ore:runeAirB>], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:13>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeWinterB>, <ore:runeEarthB>], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:14>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeWinterB>, <ore:runeWaterB>], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botania:rune:15>, [<ore:manaDiamond>, <ore:manaDiamond>, <ore:runeSummerB>, <ore:runeFireB>], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<minecraft:skull:3>, [<minecraft:skull>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <minecraft:name_tag>, <minecraft:golden_apple>], 22500);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botanicadds:rune_tp>, [<ore:runeManaB>, <ore:enderpearl>, <ore:manaDiamond>, <ore:manaDiamond>], 18000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botanicadds:rune_energy>, [<ore:runeFireB>, <ore:runeAirB>, <ore:manaDiamond>, <ore:manaDiamond>, <ore:dustRedstone>, <ore:dustRedstone>], 18000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<botanicadds:mana_tesseract>, [<botanicadds:rune_tp>, <botanicadds:dreamrock>, <ore:ingotTerrasteel>, <ore:bRedString>], 50000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:2>, [<minecraft:potato>, <minecraft:gold_nugget>], 800);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:2>.withTag({ench: [{lvl: 5 as short, id: 1}, {lvl: 5 as short, id: 4}, {lvl: 5 as short, id: 3}, {lvl: 5 as short, id: 0}]}), [<ore:ingotManasteel>, <ore:ingotTerrasteel>, "gaiaIngot", <ore:ingotElvenElementium>, <ore:manaDiamond>, <ore:elvenDragonstone>], 100000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:froststar>, [<ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:ice>, <minecraft:ice>, <ore:runeManaB>], 2000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:deathring>, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:manaDiamond>, <minecraft:skull:1>, <ore:runeEnvyB>], 2000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:ultimatehammer>, [<extrabotany:terrasteelhammer>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <extrabotany:gildedmashedpotato>, <minecraft:gold_block>], 100000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:5>, [<ore:ingotElvenElementium>, <extrabotany:nightmarefuel>, <extrabotany:nightmarefuel>, <extrabotany:gildedmashedpotato>, <extrabotany:nightmarefuel>], 2200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:combatmaidchestdarkened>, [<extrabotany:combatmaidchest>, <extrabotany:shadowwarriorhelm>, <extrabotany:shadowwarriorchest>, <extrabotany:shadowwarriorlegs>, <extrabotany:shadowwarriorboots>], 50000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:1>, ["gaiaIngot", "gaiaIngot", <extrabotany:material:3>, <extrabotany:gildedmashedpotato>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>], 150000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:walljumping>, [<ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:wheat_seeds>, <ore:runeEarthB>, <minecraft:sticky_piston>], 2000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:wallrunning>, [<ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:wheat_seeds>, <ore:runeEarthB>, <ore:stone>], 2000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:elvenking>, [<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:quartzElven>, <ore:quartzElven>, <ore:runeSpringB>], 4000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:allforone>, [<extrabotany:elvenking>, <extrabotany:material:3>, <ore:runeLustB>, <ore:runeGluttonyB>, <ore:runeGreedB>, <ore:runeSlothB>, <ore:runeWrathB>, <ore:runeEnvyB>, <ore:runePrideB>], 50000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:8>, [<ore:ingotElvenElementium>, <extrabotany:material>, <extrabotany:material>, <extrabotany:gildedmashedpotato>, <extrabotany:material>], 2200);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<incorporeal:lokiw>, [<minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"}), <minecraft:skull:3>.withTag({SkullOwner: "Loki270"})], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<incorporeal:soul_core_frame>, [<minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <botania:manaresource:8>, <minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <minecraft:ice>, <botania:manaresource:8>], 12000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<incorporeal:ender_soul_core>, [<incorporeal:soul_core_frame>, <botania:manaresource:9>, <botania:manaresource:9>, <botania:manaresource:22>, <botania:manaresource:22>, <botania:enderhand>], 25000);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<incorporeal:corporea_soul_core>, [<incorporeal:soul_core_frame>, <botania:manaresource:9>, <botania:manaresource:9>, <botania:manaresource:22>, <botania:manaresource:22>, <botania:corporeaspark>], 300);
+Botania Altar Recipes
+mods.botania.RuneAltar.addRecipe(<incorporeal:potion_soul_core>, [<incorporeal:soul_core_frame>, <botania:manaresource:9>, <botania:manaresource:9>, <botania:manaresource:22>, <botania:manaresource:22>, <botania:bloodpendant>], 25000);

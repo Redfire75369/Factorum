@@ -1,0 +1,3 @@
+thermalevaporation:
+mods.mekanism.thermalevaporation.addRecipe(<liquid:brine> * 10, <liquid:liquidlithium>)
+mods.mekanism.thermalevaporation.addRecipe(<liquid:water> * 10, <liquid:brine>)

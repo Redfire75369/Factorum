@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ## Added
+- Mods: ContentTweaker; version 
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
 - Mods: Just Enough Petroleum; version 0.1
