@@ -1,1274 +1,272 @@
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 02_oreDict\00_variableDeclaration.zs}, enabling debugmode
+[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_contentTweaker\02_endgame.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_contentTweaker\03_other.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_mekaTweaker\00_gasFromLiquid.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-200:crafttweaker]: 02_oreDict\00_variableDeclaration.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-201:crafttweaker]: 02_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-202:crafttweaker]: 02_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-203:crafttweaker]: 02_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 7ms
-[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [mekatweaker]]
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_mekaTweaker\00_infuseMaterial.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_requiousFrakto\00_atm.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_oreDict\00_variableDeclaration.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_oreDict\04_oreAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 9ms
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
+[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}, enabling debugmode
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs}
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:6: Could not resolve <thermalfoundation : coin : 1>
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:9: Could not resolve <avaritia : resource : 6>
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:12: Could not resolve <immersiveengineering : tool>
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:6 > 4 methods available but none matches the parameters (string, any)
+This is usually an error in your script, not in the mod
+createCreativeTab(string, ZenTypeNative: crafttweaker.item.IItemStack)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.Item)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.Block)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.IItemStackSupplier)
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:7 > any values not yet supported
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:9 > 4 methods available but none matches the parameters (string, any)
+This is usually an error in your script, not in the mod
+createCreativeTab(string, ZenTypeNative: crafttweaker.item.IItemStack)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.Item)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.Block)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.IItemStackSupplier)
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:10 > any values not yet supported
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:12 > 4 methods available but none matches the parameters (string, any)
+This is usually an error in your script, not in the mod
+createCreativeTab(string, ZenTypeNative: crafttweaker.item.IItemStack)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.Item)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.Block)
+createCreativeTab(string, ZenTypeNative: mods.contenttweaker.IItemStackSupplier)
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\00_creativeTab.zs:13 > any values not yet supported
+[PREINITIALIZATION][CLIENT][ERROR] [contenttweaker]: Error executing {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs}: null
+java.lang.NullPointerException
+	at 00_contentTweaker\00_creativeTab.__script__(00_contentTweaker\00_creativeTab.zs:7)
+	at __ZenMain__.run(00_contentTweaker\00_creativeTab)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:96)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:100)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:78)
+	at com.teamacronymcoders.contenttweaker.ContentTweaker.afterModuleHandlerInit(ContentTweaker.java:45)
+	at com.teamacronymcoders.base.BaseModFoundation.preInit(BaseModFoundation.java:112)
+	at com.teamacronymcoders.contenttweaker.ContentTweaker.preInit(ContentTweaker.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs}
+[PREINITIALIZATION][CLIENT][ERROR] Could not find Material for name: currency
+[PREINITIALIZATION][CLIENT][ERROR] [contenttweaker]: Error executing {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs}: java.lang.NullPointerException
+net.minecraftforge.fml.relauncher.ReflectionHelper$UnableToAccessFieldException: java.lang.NullPointerException
+	at net.minecraftforge.fml.relauncher.ReflectionHelper.getPrivateValue(ReflectionHelper.java:197)
+	at com.teamacronymcoders.contenttweaker.modules.vanilla.resources.creativetab.MCCreativeTab.<init>(MCCreativeTab.java:12)
+	at com.teamacronymcoders.contenttweaker.modules.vanilla.resources.creativetab.CreativeTabBracketHandler.getCreativeTab(CreativeTabBracketHandler.java:21)
+	at 00_contentTweaker\01_currency.__script__(00_contentTweaker\01_currency.zs:9)
+	at __ZenMain__.run(00_contentTweaker\01_currency)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:96)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:100)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:78)
+	at com.teamacronymcoders.contenttweaker.ContentTweaker.afterModuleHandlerInit(ContentTweaker.java:45)
+	at com.teamacronymcoders.base.BaseModFoundation.preInit(BaseModFoundation.java:112)
+	at com.teamacronymcoders.contenttweaker.ContentTweaker.preInit(ContentTweaker.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.lang.NullPointerException
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:57)
+	at sun.reflect.UnsafeQualifiedObjectFieldAccessorImpl.get(UnsafeQualifiedObjectFieldAccessorImpl.java:38)
+	at java.lang.reflect.Field.get(Field.java:393)
+	at net.minecraftforge.fml.relauncher.ReflectionHelper.getPrivateValue(ReflectionHelper.java:193)
+	... 51 more
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-2:contenttweaker]: 00_contentTweaker\02_endgame.zs}
+[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\02_endgame.zs:9 > No such static member in mods.contenttweaker.CreativeTab: endgame
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-3:contenttweaker]: 00_contentTweaker\03_other.zs}
+[PREINITIALIZATION][CLIENT][ERROR] [contenttweaker | SIDE_CLIENT]: Error loading {[-3:contenttweaker]: 00_contentTweaker\03_other.zs}: stanhebben.zenscript.parser.TokenException: Invalid character at 00_contentTweaker\03_other.zs:18 - ń
+stanhebben.zenscript.parser.TokenException: Invalid character at 00_contentTweaker\03_other.zs:18 - ń
+	at stanhebben.zenscript.parser.TokenStream.advanceToken(TokenStream.java:238)
+	at stanhebben.zenscript.parser.TokenStream.advance(TokenStream.java:203)
+	at stanhebben.zenscript.parser.TokenStream.next(TokenStream.java:170)
+	at stanhebben.zenscript.parser.TokenStream.required(TokenStream.java:115)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:291)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:246)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:217)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:197)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:153)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:143)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:133)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:123)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:113)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:103)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:90)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:45)
+	at stanhebben.zenscript.parser.expression.ParsedExpression.read(ParsedExpression.java:32)
+	at stanhebben.zenscript.statements.Statement.read(Statement.java:53)
+	at stanhebben.zenscript.ZenParsedFile.<init>(ZenParsedFile.java:144)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:193)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:96)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:100)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:78)
+	at com.teamacronymcoders.contenttweaker.ContentTweaker.afterModuleHandlerInit(ContentTweaker.java:45)
+	at com.teamacronymcoders.base.BaseModFoundation.preInit(BaseModFoundation.java:112)
+	at com.teamacronymcoders.contenttweaker.ContentTweaker.preInit(ContentTweaker.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_mekaTweaker\00_infuseMaterial.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-200:contenttweaker]: 02_requiousFrakto\00_atm.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_oreDict\00_variableDeclaration.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_oreDict\04_oreAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1059ms
+[PREINITIALIZATION][CLIENT][ERROR] Found Errors with Material System Loading. Saving Back up
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 02_oreDict\00_variableDeclaration.zs}, enabling debugmode
+[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_contentTweaker\02_endgame.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_contentTweaker\03_other.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Loading Script: {[-100:mekatweaker]: 01_mekaTweaker\00_gasFromLiquid.zs}
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-200:crafttweaker]: 02_oreDict\00_variableDeclaration.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-201:crafttweaker]: 02_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-202:crafttweaker]: 02_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-203:crafttweaker]: 02_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 956ms
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Loading Script: {[-100:mekatweaker]: 01_mekaTweaker\00_infuseMaterial.zs}
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_requiousFrakto\00_atm.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_oreDict\00_variableDeclaration.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_oreDict\04_oreAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 5ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
-[INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [mekatweaker], [recipeevent | crafttweaker]]
+[INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [mekatweaker], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[INITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 02_oreDict\00_variableDeclaration.zs}, enabling debugmode
+[INITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}, enabling debugmode
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_contentTweaker\02_endgame.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_contentTweaker\03_other.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_mekaTweaker\00_gasFromLiquid.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-200:crafttweaker]: 02_oreDict\00_variableDeclaration.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-201:crafttweaker]: 02_oreDict\01_oreDictionaryManipulation.zs}
-[INITIALIZATION][CLIENT][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:332: Could not resolve <jaopca : item_dustvoid>
-[INITIALIZATION][CLIENT][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:347: Could not resolve <jaopca : item_dustsmallvoid>
-[INITIALIZATION][CLIENT][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:359: Could not resolve <jaopca : item_dusttinyvoid>
-[INITIALIZATION][CLIENT][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:393: Could not resolve <jaopca : item_platedensevoid>
-[INITIALIZATION][CLIENT][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:418: Could not resolve <jaopca : item_stickvoid>
-[INITIALIZATION][CLIENT][INFO] Removing Charged Certus Quartz Ore from ore dictionary entry oreCertusQuartz
-[INITIALIZATION][CLIENT][INFO] Adding Ender Ore to ore dictionary entry oreEnder
-[INITIALIZATION][CLIENT][INFO] Adding Light Ore to ore dictionary entry oreLight
-[INITIALIZATION][CLIENT][INFO] Adding Cinnabar Ore to ore dictionary entry oreQuicksilver
-[INITIALIZATION][CLIENT][INFO] Adding Shaded Ore to ore dictionary entry oreShade
-[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Ore to ore dictionary entry oreStygianIron
-[INITIALIZATION][CLIENT][INFO] Adding Wub Wub Ore to ore dictionary entry oreWub
-[INITIALIZATION][CLIENT][INFO] Adding Aluminum Ore to ore dictionary entry oreAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Bauxite Ore to ore dictionary entry oreAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ore to ore dictionary entry oreAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Native Aluminium Cluster to ore dictionary entry clusterAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Resonant End Stone to ore dictionary entry oreEnder
-[INITIALIZATION][CLIENT][INFO] Adding Energized Netherrack to ore dictionary entry oreGlowstone
-[INITIALIZATION][CLIENT][INFO] Adding Oil Sand to ore dictionary entry oreOil
-[INITIALIZATION][CLIENT][INFO] Adding Oil Sand to ore dictionary entry oreOil
-[INITIALIZATION][CLIENT][INFO] Adding Oil Shale to ore dictionary entry oreOil
-[INITIALIZATION][CLIENT][INFO] Adding Resonant End Stone to ore dictionary entry oreRedstone
-[INITIALIZATION][CLIENT][INFO] Adding Dirty Aluminium Dust to ore dictionary entry dustDirtyAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Clump to ore dictionary entry clumpAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Shard to ore dictionary entry shardAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Crystallized Amber to ore dictionary entry crystalAmber
-[INITIALIZATION][CLIENT][INFO] Adding Diamatine Crystal to ore dictionary entry crystalDiamantine
-[INITIALIZATION][CLIENT][INFO] Adding Empowered Diamatine Crystal to ore dictionary entry crystalDiamantineEmpowered
-[INITIALIZATION][CLIENT][INFO] Adding Emeradic Crystal to ore dictionary entry crystalEmeradic
-[INITIALIZATION][CLIENT][INFO] Adding Empowered Emeradic Crystal to ore dictionary entry crystalEmeradicEmpowered
-[INITIALIZATION][CLIENT][INFO] Adding Enori Crystal to ore dictionary entry crystalEnori
-[INITIALIZATION][CLIENT][INFO] Adding Empowered Enori Crystal to ore dictionary entry crystalEnoriEmpowered
-[INITIALIZATION][CLIENT][INFO] Adding Crystallized Obsidian to ore dictionary entry crystalObsidian
-[INITIALIZATION][CLIENT][INFO] Adding Palis Crystal to ore dictionary entry crystalPalis
-[INITIALIZATION][CLIENT][INFO] Adding Empowered Palis Crystal to ore dictionary entry crystalPalisEmpowered
-[INITIALIZATION][CLIENT][INFO] Adding Restonia Crystal to ore dictionary entry crystalRestonia
-[INITIALIZATION][CLIENT][INFO] Adding Empowered Restonia Crystal to ore dictionary entry crystalRestoniaEmpowered
-[INITIALIZATION][CLIENT][INFO] Adding Void Crystal to ore dictionary entry crystalVoid
-[INITIALIZATION][CLIENT][INFO] Adding Empowered Void Crystal to ore dictionary entry crystalVoidEmpowered
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Crystal to ore dictionary entry crystalAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Alkimium Ingot to ore dictionary entry ingotAlkimium
-[INITIALIZATION][CLIENT][INFO] Adding Dark Soularium Ingot to ore dictionary entry ingotDarkSoularium
-[INITIALIZATION][CLIENT][INFO] Adding Ender Ingot to ore dictionary entry ingotEnder
-[INITIALIZATION][CLIENT][INFO] Adding Enhanced Ender Ingot to ore dictionary entry ingotEnderEnhanced
-[INITIALIZATION][CLIENT][INFO] Adding Gaia Spirit Ingot to ore dictionary entry ingotGaia
-[INITIALIZATION][CLIENT][INFO] Adding Gaiasteel Ingot to ore dictionary entry ingotGaiasteel
-[INITIALIZATION][CLIENT][INFO] Adding Glitch Infused Ingot to ore dictionary entry ingotGlitchInfused
-[INITIALIZATION][CLIENT][INFO] Adding Ingot of Light to ore dictionary entry ingotLight
-[INITIALIZATION][CLIENT][INFO] Adding Livium Ingot to ore dictionary entry ingotLivium
-[INITIALIZATION][CLIENT][INFO] Adding Meat Ingot to ore dictionary entry ingotMeatCooked
-[INITIALIZATION][CLIENT][INFO] Adding Raw Meat Ingot to ore dictionary entry ingotMeatRaw
-[INITIALIZATION][CLIENT][INFO] Adding Shaded Ingot to ore dictionary entry ingotShade
-[INITIALIZATION][CLIENT][INFO] Adding Pink Slime Ingot to ore dictionary entry ingotSlimePink
-[INITIALIZATION][CLIENT][INFO] Adding Spectre Ingot to ore dictionary entry ingotSpectre
-[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Ingot to ore dictionary entry ingotStygianIron
-[INITIALIZATION][CLIENT][INFO] Adding Void Metal Ingot to ore dictionary entry ingotVoidMetal
-[INITIALIZATION][CLIENT][INFO] Adding Aluminum Ingot to ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminum Ingot to ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ingot to ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Charcoal to ore dictionary entry gemCharcoal
-[INITIALIZATION][CLIENT][INFO] Adding Mana Diamond to ore dictionary entry gemDiamondMana
-[INITIALIZATION][CLIENT][INFO] Adding Dragonstone to ore dictionary entry gemDragonstone
-[INITIALIZATION][CLIENT][INFO] Adding Elven Lapis to ore dictionary entry gemLapisElven
-[INITIALIZATION][CLIENT][INFO] Adding Mana Lapis to ore dictionary entry gemLapisMana
-[INITIALIZATION][CLIENT][INFO] Adding Quicksilver to ore dictionary entry gemQuicksilver
-[INITIALIZATION][CLIENT][INFO] Adding Raw Meat Nugget to ore dictionary entry nuggetMeatRaw
-[INITIALIZATION][CLIENT][INFO] Adding Nugget of Light to ore dictionary entry nuggetLight
-[INITIALIZATION][CLIENT][INFO] Adding Shaded Nugget to ore dictionary entry nuggetShade
-[INITIALIZATION][CLIENT][INFO] Adding Void Metal Nugget to ore dictionary entry nuggetVoidMetal
-[INITIALIZATION][CLIENT][INFO] Adding Aluminum Nugget to ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Nugget to ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Nugget to ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Nugget to ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminium Nugget to ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Aluminum Nugget to ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Adding Blood Infused Glowstone Dust to ore dictionary entry dustBloodInfusedGlowstone
-[INITIALIZATION][CLIENT][INFO] Adding Pixie Dust to ore dictionary entry dustElvenPixie
-[INITIALIZATION][CLIENT][INFO] Adding Ember Grit to ore dictionary entry dustEmber
-[INITIALIZATION][CLIENT][INFO] Adding Flux to ore dictionary entry dustFlux
-[INITIALIZATION][CLIENT][INFO] Adding Illumination Powder to ore dictionary entry dustIllumination
-[INITIALIZATION][CLIENT][INFO] Adding Metallurgic Dust to ore dictionary entry dustMetallurgic
-[INITIALIZATION][CLIENT][INFO] Adding Nocturnal Powder to ore dictionary entry dustNocturnal
-[INITIALIZATION][CLIENT][INFO] Adding Soot-covered Redstone to ore dictionary entry dustSoot
-[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Dust to ore dictionary entry dustStygianIron
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-201:crafttweaker]: 02_oreDict\01_oreDictionaryManipulation.zs}: null
-java.lang.NullPointerException
-	at crafttweaker.mc1120.oredict.MCOreDictEntry.add(MCOreDictEntry.java:106)
-	at 02_oreDict\01_oreDictionaryManipulation.__script__(02_oreDict\01_oreDictionaryManipulation.zs:332)
-	at __ZenMain__.run(02_oreDict\01_oreDictionaryManipulation)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
-	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1852_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:629)
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742)
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-202:crafttweaker]: 02_oreDict\02_recipeRemoval.zs}
-[INITIALIZATION][CLIENT][ERROR] 02_oreDict\02_recipeRemoval.zs:115 > could not find type IOreDictEntry
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-202:crafttweaker]: 02_oreDict\02_recipeRemoval.zs}: JVMCFRE113 unexpected EOF; class=crafttweaker/api/oredict/IOreDictEntryAny, offset=0
-java.lang.ClassFormatError: JVMCFRE113 unexpected EOF; class=crafttweaker/api/oredict/IOreDictEntryAny, offset=0
-	at java.lang.ClassLoader.defineClassImpl(Native Method)
-	at java.lang.ClassLoader.defineClassInternal(ClassLoader.java:391)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:360)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:315)
-	at stanhebben.zenscript.ZenModule$MyClassLoader.loadClass(ZenModule.java:419)
-	at 02_oreDict\02_recipeRemoval.__script__(02_oreDict\02_recipeRemoval.zs:115)
-	at __ZenMain__.run(02_oreDict\02_recipeRemoval)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
-	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1852_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:629)
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742)
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-203:crafttweaker]: 02_oreDict\03_oreDictRemoval.zs}
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Removing End Coal Ore from ore dictionary entry oreCoal
-[INITIALIZATION][CLIENT][INFO] Removing End Coal Ore from ore dictionary entry oreEndCoal
-[INITIALIZATION][CLIENT][INFO] Removing End Diamond Ore from ore dictionary entry oreDiamond
-[INITIALIZATION][CLIENT][INFO] Removing End Diamond Ore from ore dictionary entry oreEndDiamond
-[INITIALIZATION][CLIENT][INFO] Removing End Emerald Ore from ore dictionary entry oreEmerald
-[INITIALIZATION][CLIENT][INFO] Removing End Emerald Ore from ore dictionary entry oreEndEmerald
-[INITIALIZATION][CLIENT][INFO] Removing End Gold Ore from ore dictionary entry oreGold
-[INITIALIZATION][CLIENT][INFO] Removing End Gold Ore from ore dictionary entry oreEndGold
-[INITIALIZATION][CLIENT][INFO] Removing End Iron Ore from ore dictionary entry oreIron
-[INITIALIZATION][CLIENT][INFO] Removing End Iron Ore from ore dictionary entry oreEndIron
-[INITIALIZATION][CLIENT][INFO] Removing End Lapis Ore from ore dictionary entry oreLapis
-[INITIALIZATION][CLIENT][INFO] Removing End Lapis Ore from ore dictionary entry oreEndLapis
-[INITIALIZATION][CLIENT][INFO] Removing End Redstone Ore from ore dictionary entry oreRedstone
-[INITIALIZATION][CLIENT][INFO] Removing End Redstone Ore from ore dictionary entry oreEndRedstone
-[INITIALIZATION][CLIENT][INFO] Removing Nether Coal Ore from ore dictionary entry oreCoal
-[INITIALIZATION][CLIENT][INFO] Removing Nether Coal Ore from ore dictionary entry oreNetherCoal
-[INITIALIZATION][CLIENT][INFO] Removing Nether Diamond Ore from ore dictionary entry oreDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Nether Diamond Ore from ore dictionary entry oreNetherDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Nether Emerald Ore from ore dictionary entry oreEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Nether Emerald Ore from ore dictionary entry oreNetherEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Nether Gold Ore from ore dictionary entry oreGold
-[INITIALIZATION][CLIENT][INFO] Removing Nether Gold Ore from ore dictionary entry oreNetherGold
-[INITIALIZATION][CLIENT][INFO] Removing Nether Iron Ore from ore dictionary entry oreIron
-[INITIALIZATION][CLIENT][INFO] Removing Nether Iron Ore from ore dictionary entry oreNetherIron
-[INITIALIZATION][CLIENT][INFO] Removing Nether Lapis Ore from ore dictionary entry oreLapis
-[INITIALIZATION][CLIENT][INFO] Removing Nether Lapis Ore from ore dictionary entry oreNetherLapis
-[INITIALIZATION][CLIENT][INFO] Removing Nether Redstone Ore from ore dictionary entry oreRedstone
-[INITIALIZATION][CLIENT][INFO] Removing Nether Redstone Ore from ore dictionary entry oreNetherRedstone
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ore from ore dictionary entry oreAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ore from ore dictionary entry oreAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ore from ore dictionary entry oreNickel
-[INITIALIZATION][CLIENT][INFO] Removing Quartz Ore from ore dictionary entry oreQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Bauxite Ore from ore dictionary entry oreAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Bauxite Ore from ore dictionary entry oreAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ore from ore dictionary entry oreNickel
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Ore from ore dictionary entry oreUranium
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Amethyst Ore from ore dictionary entry oreAmethyst
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Ore from ore dictionary entry oreIridium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ore from ore dictionary entry oreLead
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ore from ore dictionary entry oreSilver
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ore from ore dictionary entry oreCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ore from ore dictionary entry oreTin
-[INITIALIZATION][CLIENT][INFO] Removing Cinnabar Ore from ore dictionary entry oreCinnabar
-[INITIALIZATION][CLIENT][INFO] Removing Cinnabar Ore from ore dictionary entry oreQuicksilver
-[INITIALIZATION][CLIENT][INFO] Removing Ender Ore from ore dictionary entry oreEnderOre
-[INITIALIZATION][CLIENT][INFO] Removing Ender Ore from ore dictionary entry oreEnder
-[INITIALIZATION][CLIENT][INFO] Removing Lava Source Stone from ore dictionary entry oreLavaBlock
-[INITIALIZATION][CLIENT][INFO] Removing Nether Lava Source Stone from ore dictionary entry oreLavaBlock
-[INITIALIZATION][CLIENT][INFO] Removing Wub Wub Ore from ore dictionary entry oreWubOre
-[INITIALIZATION][CLIENT][INFO] Removing Wub Wub Ore from ore dictionary entry oreWub
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Graphite Bar from ore dictionary entry ingotGraphite
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Gaia Spirit Ingot from ore dictionary entry gaiaIngot
-[INITIALIZATION][CLIENT][INFO] Removing Gaia Spirit Ingot from ore dictionary entry ingotGaia
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Ingot from ore dictionary entry ingotElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Ingot from ore dictionary entry ingotUranium
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Ingot from ore dictionary entry ingotConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Ingot from ore dictionary entry ingotElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Ingot from ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Invar Ingot from ore dictionary entry ingotInvar
-[INITIALIZATION][CLIENT][INFO] Removing Dark Soularium Ingot from ore dictionary entry ingotDarkSoularium
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Ingot from ore dictionary entry ingotAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Ingot from ore dictionary entry ingotBronze
-[INITIALIZATION][CLIENT][INFO] Removing Copper Ingot from ore dictionary entry ingotCopper
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Ingot from ore dictionary entry ingotElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Invar Ingot from ore dictionary entry ingotInvar
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Ingot from ore dictionary entry ingotIridium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Ingot from ore dictionary entry ingotLead
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Ingot from ore dictionary entry ingotNickel
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Ingot from ore dictionary entry ingotPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Silver Ingot from ore dictionary entry ingotSilver
-[INITIALIZATION][CLIENT][INFO] Removing Steel Ingot from ore dictionary entry ingotSteel
-[INITIALIZATION][CLIENT][INFO] Removing Tin Ingot from ore dictionary entry ingotTin
-[INITIALIZATION][CLIENT][INFO] Removing Crystallized Amber from ore dictionary entry gemAmber
-[INITIALIZATION][CLIENT][INFO] Removing Crystallized Amber from ore dictionary entry crystalAmber
-[INITIALIZATION][CLIENT][INFO] Removing Quicksilver from ore dictionary entry quicksilver
-[INITIALIZATION][CLIENT][INFO] Removing Quicksilver from ore dictionary entry gemQuicksilver
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Iron from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Gold from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Diamond from ore dictionary entry dustDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Emerald from ore dictionary entry dustEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Lapis from ore dictionary entry dustLapis
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Quartz from ore dictionary entry dustQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Quartz from ore dictionary entry dustNetherQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Coal from ore dictionary entry dustCoal
-[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Dust from ore dictionary entry dustQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Nether Quartz Dust from ore dictionary entry dustNetherQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Ender Dust from ore dictionary entry dustEnderPearl
-[INITIALIZATION][CLIENT][INFO] Removing Ender Dust from ore dictionary entry dustEnder
-[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Graphite Dust from ore dictionary entry dustGraphite
-[INITIALIZATION][CLIENT][INFO] Removing Steel Dust from ore dictionary entry dustSteel
-[INITIALIZATION][CLIENT][INFO] Removing Iron Sand from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Gold Sand from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Coal Sand from ore dictionary entry dustCoal
-[INITIALIZATION][CLIENT][INFO] Removing Flour from ore dictionary entry dustWheat
-[INITIALIZATION][CLIENT][INFO] Removing Coal Powder from ore dictionary entry dustCoal
-[INITIALIZATION][CLIENT][INFO] Removing Iron Powder from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Gold Powder from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Obsidian Powder from ore dictionary entry dustObsidian
-[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry pulpWood
-[INITIALIZATION][CLIENT][INFO] Removing Ash from ore dictionary entry dustAsh
-[INITIALIZATION][CLIENT][INFO] Removing Nitrate Dust from ore dictionary entry dustSaltpeter
-[INITIALIZATION][CLIENT][INFO] Removing Nitrate Dust from ore dictionary entry dustNiter
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulfur
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulphur
-[INITIALIZATION][CLIENT][INFO] Removing Copper Grit from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Grit from ore dictionary entry dustAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Grit from ore dictionary entry dustAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Grit from ore dictionary entry dustLead
-[INITIALIZATION][CLIENT][INFO] Removing Silver Grit from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Grit from ore dictionary entry dustNickel
-[INITIALIZATION][CLIENT][INFO] Removing Uranium Grit from ore dictionary entry dustUranium
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Grit from ore dictionary entry dustConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Grit from ore dictionary entry dustElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Steel Grit from ore dictionary entry dustSteel
-[INITIALIZATION][CLIENT][INFO] Removing Iron Grit from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Gold Grit from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
-[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Lead Dust from ore dictionary entry dustLead
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Dust from ore dictionary entry dustDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Steel Dust from ore dictionary entry dustSteel
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulfur
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur Dust from ore dictionary entry dustSulphur
-[INITIALIZATION][CLIENT][INFO] Removing Lithium Dust from ore dictionary entry dustLithium
-[INITIALIZATION][CLIENT][INFO] Removing Obsidian Dust from ore dictionary entry dustObsidian
-[INITIALIZATION][CLIENT][INFO] Removing Salt from ore dictionary entry itemSalt
-[INITIALIZATION][CLIENT][INFO] Removing Salt from ore dictionary entry dustSalt
-[INITIALIZATION][CLIENT][INFO] Removing Salt from ore dictionary entry foodSalt
-[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry dustWood
-[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry pulpWood
-[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Gold Dust from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Iron Dust from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing LightGray Glowstone Dust from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Copper Dust from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Dust from ore dictionary entry dustTin
-[INITIALIZATION][CLIENT][INFO] Removing Lead Dust from ore dictionary entry dustLead
-[INITIALIZATION][CLIENT][INFO] Removing Magnesium Dust from ore dictionary entry dustMagnesium
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Dust from ore dictionary entry dustAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Dust from ore dictionary entry dustAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Silver Dust from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Diamond from ore dictionary entry dustDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Quartz from ore dictionary entry dustQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Quartz from ore dictionary entry dustNetherQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Obsidian from ore dictionary entry dustObsidian
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur from ore dictionary entry dustSulfur
-[INITIALIZATION][CLIENT][INFO] Removing Sulfur from ore dictionary entry dustSulphur
-[INITIALIZATION][CLIENT][INFO] Removing Crushed Coal from ore dictionary entry dustCoal
-[INITIALIZATION][CLIENT][INFO] Removing Crushed End Stone from ore dictionary entry dustEndstone
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Iron from ore dictionary entry dustIron
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Gold from ore dictionary entry dustGold
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Copper from ore dictionary entry dustCopper
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Tin from ore dictionary entry dustTin
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Silver from ore dictionary entry dustSilver
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Lead from ore dictionary entry dustLead
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Aluminum from ore dictionary entry dustAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Aluminum from ore dictionary entry dustAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Nickel from ore dictionary entry dustNickel
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Platinum from ore dictionary entry dustPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Iridium from ore dictionary entry dustIridium
-[INITIALIZATION][CLIENT][INFO] Removing Steel Blend from ore dictionary entry dustSteel
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Blend from ore dictionary entry dustElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Invar Blend from ore dictionary entry dustInvar
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Blend from ore dictionary entry dustBronze
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Coal from ore dictionary entry dustCoal
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Charcoal from ore dictionary entry dustCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Pulverized Obsidian from ore dictionary entry dustObsidian
-[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry dustWood
-[INITIALIZATION][CLIENT][INFO] Removing Sawdust from ore dictionary entry itemSawdust
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Plate from ore dictionary entry plateBronze
-[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
-[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
-[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
-[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
-[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
-[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Plate from ore dictionary entry plateAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
-[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Plate from ore dictionary entry plateConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
-[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
-[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
-[INITIALIZATION][CLIENT][INFO] Removing Brass Plate from ore dictionary entry plateBrass
-[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
-[INITIALIZATION][CLIENT][INFO] Removing Iron Plate from ore dictionary entry plateIron
-[INITIALIZATION][CLIENT][INFO] Removing Gold Plate from ore dictionary entry plateGold
-[INITIALIZATION][CLIENT][INFO] Removing Copper Plate from ore dictionary entry plateCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Plate from ore dictionary entry plateTin
-[INITIALIZATION][CLIENT][INFO] Removing Silver Plate from ore dictionary entry plateSilver
-[INITIALIZATION][CLIENT][INFO] Removing Lead Plate from ore dictionary entry plateLead
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Plate from ore dictionary entry plateAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Plate from ore dictionary entry plateNickel
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Plate from ore dictionary entry platePlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Plate from ore dictionary entry plateIridium
-[INITIALIZATION][CLIENT][INFO] Removing Mana Infused Plate from ore dictionary entry plateMithril
-[INITIALIZATION][CLIENT][INFO] Removing Steel Plate from ore dictionary entry plateSteel
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Plate from ore dictionary entry plateElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Invar Plate from ore dictionary entry plateInvar
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Plate from ore dictionary entry plateBronze
-[INITIALIZATION][CLIENT][INFO] Removing Wooden Gear from ore dictionary entry gearWood
-[INITIALIZATION][CLIENT][INFO] Removing Wooden Gear from ore dictionary entry gearWood
-[INITIALIZATION][CLIENT][INFO] Removing Stone Compound Gear from ore dictionary entry gearStone
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Gear from ore dictionary entry gearBronze
-[INITIALIZATION][CLIENT][INFO] Removing Copper Gear from ore dictionary entry gearCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Gear from ore dictionary entry gearTin
-[INITIALIZATION][CLIENT][INFO] Removing Wooden Gear from ore dictionary entry gearWood
-[INITIALIZATION][CLIENT][INFO] Removing Stone Gear from ore dictionary entry gearStone
-[INITIALIZATION][CLIENT][INFO] Removing Iron Gear from ore dictionary entry gearIron
-[INITIALIZATION][CLIENT][INFO] Removing Gold Gear from ore dictionary entry gearGold
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Gear from ore dictionary entry gearDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Copper Gear from ore dictionary entry gearCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Gear from ore dictionary entry gearTin
-[INITIALIZATION][CLIENT][INFO] Removing Silver Gear from ore dictionary entry gearSilver
-[INITIALIZATION][CLIENT][INFO] Removing Lead Gear from ore dictionary entry gearLead
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Gear from ore dictionary entry gearAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Gear from ore dictionary entry gearAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Gear from ore dictionary entry gearNickel
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Gear from ore dictionary entry gearElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Gear from ore dictionary entry gearBronze
-[INITIALIZATION][CLIENT][INFO] Removing Emerald Nugget from ore dictionary entry nuggetEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Nugget from ore dictionary entry nuggetDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Quartz Shard from ore dictionary entry nuggetQuartz
-[INITIALIZATION][CLIENT][INFO] Removing Iron Nugget from ore dictionary entry nuggetIron
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Nugget from ore dictionary entry nuggetAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Nugget from ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Nugget from ore dictionary entry nuggetNickel
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Nugget from ore dictionary entry nuggetPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Osmium Nugget from ore dictionary entry nuggetOsmium
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Nugget from ore dictionary entry nuggetAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Nugget from ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Nugget from ore dictionary entry nuggetElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Nugget from ore dictionary entry nuggetNickel
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Nugget from ore dictionary entry nuggetDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Emerald Nugget from ore dictionary entry nuggetEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Nugget from ore dictionary entry nuggetAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Nugget from ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Nugget from ore dictionary entry nuggetNickel
-[INITIALIZATION][CLIENT][INFO] Removing Constantan Nugget from ore dictionary entry nuggetConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Nugget from ore dictionary entry nuggetElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
-[INITIALIZATION][CLIENT][INFO] Removing Iron Nugget from ore dictionary entry nuggetIron
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Shard from ore dictionary entry nuggetDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Emerald Shard from ore dictionary entry nuggetEmerald
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
-[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Nugget from ore dictionary entry nuggetAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Nugget from ore dictionary entry nuggetAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Nugget from ore dictionary entry nuggetBronze
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Nugget from ore dictionary entry nuggetElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Invar Nugget from ore dictionary entry nuggetInvar
-[INITIALIZATION][CLIENT][INFO] Removing Iridium Nugget from ore dictionary entry nuggetIridium
-[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Nugget from ore dictionary entry nuggetNickel
-[INITIALIZATION][CLIENT][INFO] Removing Platinum Nugget from ore dictionary entry nuggetPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Steel Nugget from ore dictionary entry nuggetSteel
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Iron Nugget from ore dictionary entry nuggetIron
-[INITIALIZATION][CLIENT][INFO] Removing Diamond Nugget from ore dictionary entry nuggetDiamond
-[INITIALIZATION][CLIENT][INFO] Removing Iron Nugget from ore dictionary entry nuggetIron
-[INITIALIZATION][CLIENT][INFO] Removing Copper Nugget from ore dictionary entry nuggetCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Nugget from ore dictionary entry nuggetTin
-[INITIALIZATION][CLIENT][INFO] Removing Silver Nugget from ore dictionary entry nuggetSilver
-[INITIALIZATION][CLIENT][INFO] Removing Lead Nugget from ore dictionary entry nuggetLead
-[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Graphite Block from ore dictionary entry blockGraphite
-[INITIALIZATION][CLIENT][INFO] Removing Steel Block from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Block from ore dictionary entry blockAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminium Block from ore dictionary entry blockAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Block from ore dictionary entry blockBronze
-[INITIALIZATION][CLIENT][INFO] Removing Copper Block from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Electrum Block from ore dictionary entry blockElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Lead Block from ore dictionary entry blockLead
-[INITIALIZATION][CLIENT][INFO] Removing Nickel Block from ore dictionary entry blockNickel
-[INITIALIZATION][CLIENT][INFO] Removing Silver Block from ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Removing Tin Block from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Block of Tin from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Block of Bronze from ore dictionary entry blockBronze
-[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Block of Aluminium from ore dictionary entry blockAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Aluminium from ore dictionary entry blockAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Lead from ore dictionary entry blockLead
-[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Removing Block of Nickel from ore dictionary entry blockNickel
-[INITIALIZATION][CLIENT][INFO] Removing Block of Uranium from ore dictionary entry blockUranium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Constantan from ore dictionary entry blockConstantan
-[INITIALIZATION][CLIENT][INFO] Removing Block of Electrum from ore dictionary entry blockElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Steel from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Bronze Block from ore dictionary entry blockBronze
-[INITIALIZATION][CLIENT][INFO] Removing Charcoal Block from ore dictionary entry blockCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Steel Block from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Copper Block from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Block from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Salt Block from ore dictionary entry blockSalt
-[INITIALIZATION][CLIENT][INFO] Removing Block of Amethyst from ore dictionary entry blockAmethyst
-[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Removing Copper Block from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Tin Block from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Lead Block from ore dictionary entry blockLead
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Block from ore dictionary entry blockAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Aluminum Block from ore dictionary entry blockAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Silver Block from ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Removing Invar Block from ore dictionary entry blockInvar
-[INITIALIZATION][CLIENT][INFO] Removing Block of Charcoal from ore dictionary entry blockCharcoal
-[INITIALIZATION][CLIENT][INFO] Removing Block of Steel from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Block of Cobalt from ore dictionary entry blockCobalt
-[INITIALIZATION][CLIENT][INFO] Removing Block of Silver from ore dictionary entry blockSilver
-[INITIALIZATION][CLIENT][INFO] Removing Block of Aluminium from ore dictionary entry blockAluminum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Aluminium from ore dictionary entry blockAluminium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Steel from ore dictionary entry blockSteel
-[INITIALIZATION][CLIENT][INFO] Removing Block of Lead from ore dictionary entry blockLead
-[INITIALIZATION][CLIENT][INFO] Removing Block of Electrum from ore dictionary entry blockElectrum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Platinum from ore dictionary entry blockPlatinum
-[INITIALIZATION][CLIENT][INFO] Removing Block of Nickel from ore dictionary entry blockNickel
-[INITIALIZATION][CLIENT][INFO] Removing Block of Invar from ore dictionary entry blockInvar
-[INITIALIZATION][CLIENT][INFO] Removing Block of Iridium from ore dictionary entry blockIridium
-[INITIALIZATION][CLIENT][INFO] Removing Block of Bronze from ore dictionary entry blockBronze
-[INITIALIZATION][CLIENT][INFO] Removing Block of Copper from ore dictionary entry blockCopper
-[INITIALIZATION][CLIENT][INFO] Removing Block of Tin from ore dictionary entry blockTin
-[INITIALIZATION][CLIENT][INFO] Removing Brass Block from ore dictionary entry blockBrass
-[INITIALIZATION][CLIENT][INFO] Removing Tiny Pile of Gold Dust from ore dictionary entry dustTinyGold
-[INITIALIZATION][CLIENT][INFO] Removing Tiny Pile of Iron Dust from ore dictionary entry dustTinyIron
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 3910ms
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_mekaTweaker\00_infuseMaterial.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_requiousFrakto\00_atm.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-300:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-301:crafttweaker]: 03_oreDict\01_oreDictionaryManipulation.zs}
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing 03_oreDict\01_oreDictionaryManipulation.zs:10 -- ) expected
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-302:crafttweaker]: 03_oreDict\02_recipeRemoval.zs}
+[INITIALIZATION][CLIENT][ERROR] 03_oreDict\02_recipeRemoval.zs:238: Could not resolve <techreborn : ingot : for key , clathrate in hashClathrate { if ( hashClathrateOre has key ) { for itemstack in hashClathrateOre [ key ] . items { mods . thermalexpansion . Pulverizer . removeRecipe ( itemstack ) ; } } } for key , nugget in hashNugget { if ( hashIngot has key ) { recipes . removeShapeless ( nugget , [ hashIngot [ key ] ] ) ; } if ( hashGem has key ) { recipes . removeShapeless ( nugget , [ hashGem [ key ] ] ) ; } } for key , nugget in hashNugget { if ( hashMolten has key ) { for itemstack in nugget . items { mods . embers . Stamper . remove ( itemstack ) ; mods . tconstruct . Casting . removeTableRecipe ( itemstack ) ; } } } for key , dust in hashDust { if ( hashOre has key ) { recipes . removeShapeless ( dust , [ hashOre [ key ] , hashDust [ "Petrotheum" ] ] ) ; recipes . removeShapeless ( dust , [ hashOre [ key ] , < immersiveengineering : tool>
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing 03_oreDict\02_recipeRemoval.zs:280 -- ) expected
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-303:crafttweaker]: 03_oreDict\03_oreDictRemoval.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-304:crafttweaker]: 03_oreDict\04_oreAddition.zs}
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 751ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreAluminum> and replacing them with <ore:oreAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:clusterAluminum> and replacing them with <ore:clusterAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustDirtyAluminum> and replacing them with <ore:dustDirtyAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:clumpAluminum> and replacing them with <ore:clumpAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:shardAluminum> and replacing them with <ore:shardAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:crystalAluminum> and replacing them with <ore:crystalAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotAluminum> and replacing them with <ore:ingotAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:nuggetAluminum> and replacing them with <ore:nuggetAluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:ingotKnightslime>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 0 Shapeless recipes.
-[POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:ingotKnightslime>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Epic Squid with name mysticalworld-epic_squid-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Frickin' laser beam with name plethora-module_laser-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Grit with name immersiveengineering-hammercrushing_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Grit with name immersiveengineering-hammercrushing_aluminium-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_118-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_120-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_122-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Dust with name thermalfoundation-dusts_2-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingots_6-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingots_8-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tesla Coil with name immersiveengineering-metal_devices/tesla_coil-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Capacitor with name immersiveengineering-metal_devices/capacitor_hv-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Wallmount with name immersiveengineering-metal_decoration/aluminum_wallmount-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Scaffolding with name immersiveengineering-metal_decoration/aluminum_scaffolding-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Fence with name immersiveengineering-metal_decoration/aluminum_fence-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Rod with name immersiveengineering-material/stick_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Plate with name immersiveengineering-material/plate_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Relay with name immersiveengineering-connectors/relay_hv-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for HV Wire Connector with name immersiveengineering-connectors/connector_hv-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Engineer's Blueprint with name immersiveengineering-blueprints/components-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Fence Gate with name engineersdoors-fencegate_aluminium-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Nugget with name magneticraft-nuggets_aluminium-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Divining Rod with name randomthings-diviningrod_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Anvil with name extraanvils-aluminumanvil-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Aluminum with name thermalfoundation-storage_4-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Nugget with name thermalfoundation-material_16-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Gear with name thermalfoundation-material_69-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_119-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Dust with name thermalfoundation-dusts_3-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Helmet with name thermalfoundation-armor.helmet_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Chestplate with name thermalfoundation-armor.plate_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Leggings with name thermalfoundation-armor.legs_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Boots with name thermalfoundation-armor.boots_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Sword with name thermalfoundation-tool.sword_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Shovel with name thermalfoundation-tool.shovel_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Pickaxe with name thermalfoundation-tool.pickaxe_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Axe with name thermalfoundation-tool.axe_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Hoe with name thermalfoundation-tool.hoe_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Reinforced Bow with name thermalfoundation-tool.bow_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Fishing Rod with name thermalfoundation-tool.fishing_rod_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Shears with name thermalfoundation-tool.shears_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Sickle with name thermalfoundation-tool.sickle_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Hammer with name thermalfoundation-tool.hammer_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Excavator with name thermalfoundation-tool.excavator_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Shield with name thermalfoundation-tool.shield_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Horse Armor with name thermalfoundation-horse_armor_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Block with name embers-ingotaluminum_block-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Nugget with name embers-ingotaluminum_ingot_decomp-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Sword with name embers-ingotaluminum_sword-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Pickaxe with name embers-ingotaluminum_pickaxe-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Shovel with name embers-ingotaluminum_shovel-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Axe with name embers-ingotaluminum_axe-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Hoe with name embers-ingotaluminum_hoe-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Plate with name embers-ingotaluminum_plate-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Seeds with name mysticalagriculture-aluminum_seeds-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Block of Aluminium with name techreborn-storage_1-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Nugget with name techreborn-nuggets-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_47-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_48-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_49-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_50-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_51-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_56-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_57-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_58-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_59-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_60-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_69-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_70-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_71-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_72-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_73-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_74-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_75-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_76-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_77-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_78-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_83-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_84-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_85-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_86-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mixed Metal Ingot with name techreborn-ingot_87-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Computer Monitor with name techreborn-part_7-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Turbine Dynamo Coil with name nuclearcraft-tile.nuclearcraft.turbine_dynamo_coil.aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Solid Fuel with name tinker_io-solidfuel_0-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Upgrade with name tinker_io-upgbase_0-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Slot Upgrade II with name tinker_io-slotupg2-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Energy Conduit with name enderio-conduit_endergy_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Energy Conduit with name enderio-conduit_endergy_aluminium-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name magneticraft-ingots_aluminium-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_15-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name agricraft-combine_nugget_aluminum-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name embers-ingotaluminum_ingot-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name techreborn-ingot_19-modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Gear with name mystgears-recipe_gear_aluminium-remodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Paper with name thermalfoundation-paper-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Psi-Cuffs Key with name rpsideas-blaster_cad - copy-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Frosty Soles with name conarm-frosty_soles-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled XOR Gate with name complex-logic-xor-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Viewer Gate with name complex-logic-viewer-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Text Display (2-Character) with name complex-logic-textdisplay-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Subtractor Gate with name complex-logic-subtractor-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Shifter Gate with name complex-logic-shifter-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Real-Time Clock with name complex-logic-rtc-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Random Value Generator with name complex-logic-random-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Patch Panel with name complex-logic-patchpanel-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled AND Gate with name complex-logic-nand-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-multiplication-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Multiplexer Gate with name complex-logic-multiplexer-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-modulo-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Memory Gate with name complex-logic-memory-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hex Driver with name complex-logic-hexdriver-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Global OR Gate with name complex-logic-globalor-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-division-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 7-Segment Display (2-Digit) with name complex-logic-display-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Digital-Analog Converter with name complex-logic-dac-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Counter with name complex-logic-counter-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Button Panel with name complex-logic-buttonpanel-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for BIN-TO-BCD with name complex-logic-bintobcd-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for BIN-TO-7SEG with name complex-logic-binto7seg-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled AND Gate with name complex-logic-and-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Adder Gate with name complex-logic-adder-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Analog-Digital Converter with name complex-logic-adc-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener1-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener0-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Arrow of Ascension with name naturalpledge-ascension-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener4-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener3-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Divine Ritual Core with name naturalpledge-awakener2-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blocktough-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockhardcarbon-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockchocolate-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockpsi-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockmanganesedioxide-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockferroboron-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockreinforcedpinkslime-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockender-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blocktough-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockhardcarbon-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockchocolate-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockpsi-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockmanganesedioxide-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockferroboron-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockreinforcedpinkslime-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockender-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Buffer with name extrabotany-recipe_manabarrel-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Headgear with name extrabotany-recipe_cmhelm-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Suit with name extrabotany-recipe_cmchest-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Skirt with name extrabotany-recipe_cmlegs-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pleiades Combat Maid Boots with name extrabotany-recipe_cmboots-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Challenge Ticket with name extrabotany-recipe_ticket-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Phyto-Gro with name thermalfoundation-fertilizer-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rich Phyto-Gro with name thermalfoundation-fertilizer_2-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aqua-Chow with name thermalfoundation-bait-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aqua-Chow with name thermalfoundation-bait_1-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rich Aqua-Chow with name thermalfoundation-bait_2-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rich Aqua-Chow with name thermalfoundation-bait_3-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulped Bioblend with name thermalfoundation-material_4-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Compressed Sawdust with name thermalfoundation-material_92-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quartz Ingot with name thermalfoundation-quartz_ingot_1-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Florb (Empty) with name thermalexpansion-florb-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Magmatic Florb (Empty) with name thermalexpansion-florb_1-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Magmatic Florb (Empty) with name thermalexpansion-florb_2-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Florb (Empty) with name thermalexpansion-florb_3-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Magmatic Florb (Empty) with name thermalexpansion-florb_4-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quicksilver Seeds with name mysticalagriculture-quicksilver_seeds-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quartz Cooler with name nuclearcraft-tile.nuclearcraft.cooler.quartz-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quartz Cooler with name nuclearcraft-tile.nuclearcraft.cooler.quartz_1-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Solar Panel with name nuclearcraft-tile.nuclearcraft.solar_panel_basic-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Upgrade with name nuclearcraft-item.nuclearcraft.upgrade.energy-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Saturated Tobacco Pile with name minecraft-tb.hunger-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tiny Pile of Quartz Dust with name jaopca-item_dusttinyquartz_n0qbp3-rererererereremodified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Small Pile of Quartz Dust with name jaopca-item_dustsmallquartz_i97h4v-rererererereremodified
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemCertusQuartz>' and output: '<appliedenergistics2:quartz_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemAmber>' and output: '<thaumcraft:ore_amber>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustStygianIron>' and output: '<woot:stygianironore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemAmethyst>' and output: '<bewitchment:amethyst_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemAmethyst>' and output: '<mysticalworld:amethyst_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <tconstruct:ore>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCobalt>' and output: '<netherendingores:ore_other_1:4>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCobalt>' and output: '<netherendingores:ore_other_1:5>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCobalt>' and output: '<magneticraft:ores:2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <bigreactors:oreyellorite>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustSphalerite>' and output: '<techreborn:ore:7>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustBauxite>' and output: '<techreborn:ore:4>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:5>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemAquamarine>' and output: '<astralsorcery:blockcustomsandore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCinnabar>' and output: '<techreborn:ore:6>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCinnabar>' and output: '<thaumcraft:ore_cinnabar>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <minecraft:coal_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <cyclicmagic:nether_coal_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <cyclicmagic:end_coal_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <astralsorcery:blockcustomore:1>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:7>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore>, <thermalfoundation:ore>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCopper>' and output: '<techreborn:ore2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCopper>' and output: '<forestry:resources:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCopper>' and output: '<nuclearcraft:ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCopper>' and output: '<immersiveengineering:ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCopper>' and output: '<mekanism:oreblock:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCopper>' and output: '<magneticraft:ores>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCopper>' and output: '<embers:ore_copper>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustCopper>' and output: '<mysticalworld:copper_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemQuicksilver>' and output: '<thaumcraft:ore_cinnabar>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <minecraft:gold_ore>, <minecraft:gold_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <cyclicmagic:nether_gold_ore>, <cyclicmagic:nether_gold_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <cyclicmagic:end_gold_ore>, <cyclicmagic:end_gold_ore>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustSodalite>' and output: '<techreborn:ore:11>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemWub>' and output: '<tp:wub_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustAluminium>' and output: '<embers:ore_aluminum>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:4>, <thermalfoundation:ore:4>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustAluminium>' and output: '<immersiveengineering:ore:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemDimensionalShard>' and output: '<rftools:dimensional_shard_ore:*>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemDimensionalShard>' and output: '<rftools:dimensional_shard_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <minecraft:redstone_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <cyclicmagic:nether_redstone_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <cyclicmagic:end_redstone_ore>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustRedstone>' and output: '<thermalfoundation:ore_fluid:4>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemApatite>' and output: '<forestry:resources>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemLapis>' and output: '<minecraft:lapis_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <cyclicmagic:nether_lapis_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <cyclicmagic:end_lapis_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:7>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustIridium>' and output: '<techreborn:ore:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:3>, <nuclearcraft:ore:3>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:6>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemOpal>' and output: '<bewitchment:opal_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <minecraft:iron_ore>, <minecraft:iron_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <cyclicmagic:nether_iron_ore>, <cyclicmagic:nether_iron_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <cyclicmagic:end_iron_ore>, <cyclicmagic:end_iron_ore>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemGarnet>' and output: '<bewitchment:garnet_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustSalt>' and output: '<bewitchment:salt_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <nuclearcraft:ore:4>, <nuclearcraft:ore:4>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustUranium>' and output: '<immersiveengineering:ore:5>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:6>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemSapphire>' and output: '<techreborn:ore:3>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemEmerald>' and output: '<minecraft:emerald_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <cyclicmagic:nether_emerald_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <cyclicmagic:end_emerald_ore>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <techreborn:ore:8>, <techreborn:ore:8>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustTungsten>' and output: '<magneticraft:ores:3>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustGalena>' and output: '<techreborn:ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustGalena>' and output: '<magneticraft:ores:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:3>, <thermalfoundation:ore:3>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustLead>' and output: '<techreborn:ore:12>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustLead>' and output: '<nuclearcraft:ore:2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustLead>' and output: '<immersiveengineering:ore:2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustLead>' and output: '<magneticraft:ores:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustLead>' and output: '<embers:ore_lead>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <draconicevolution:draconium_ore>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustDraconium>' and output: '<draconicevolution:draconium_ore:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustDraconium>' and output: '<draconicevolution:draconium_ore:2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemRuby>' and output: '<techreborn:ore:2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:8>, <thermalfoundation:ore:8>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Combiner Recipe(s) for <tconstruct:ore:1>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustArdite>' and output: '<netherendingores:ore_other_1:2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustArdite>' and output: '<netherendingores:ore_other_1:3>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemDiamond>' and output: '<minecraft:diamond_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemDiamond>' and output: '<cyclicmagic:nether_diamond_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemDiamond>' and output: '<cyclicmagic:end_diamond_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemQuartz>' and output: '<minecraft:quartz_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemQuartz>' and output: '<thaumcraft:ore_quartz>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemQuartz>' and output: '<netherendingores:ore_other_1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemQuartz>' and output: '<netherendingores:ore_other_1:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemQuartz>' and output: '<embers:ore_quartz>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemChargedCertusQuartz>' and output: '<appliedenergistics2:charged_quartz_ore>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <mekanism:oreblock>, <mekanism:oreblock>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustPyrite>' and output: '<techreborn:ore:5>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustPyrite>' and output: '<magneticraft:ores:4>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:1>, <thermalfoundation:ore:1>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustTin>' and output: '<techreborn:ore2:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustTin>' and output: '<forestry:resources:2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustTin>' and output: '<nuclearcraft:ore:1>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustTin>' and output: '<mekanism:oreblock:2>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustTin>' and output: '<embers:ore_tin>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Combiner Recipe(s) for <thermalfoundation:ore:5>, <thermalfoundation:ore:5>
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustNickel>' and output: '<immersiveengineering:ore:4>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:dustNickel>' and output: '<embers:ore_nickel>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemQuartzBlack>' and output: '<actuallyadditions:block_misc:3>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][WARNING] No Mekanism Combiner recipe found for input: '<ore:gemPeridot>' and output: '<techreborn:ore:10>'. Command ignored!
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dirtydust:1>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtymithril>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtyardite>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtylithium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtyaluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dirtydust>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtycobalt>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtyyellorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dirtydust:2>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dirtydust:5>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtyboron>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtyuranium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtyplatinum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtytungsten>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtyastralstarmetal>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dirtydust:6>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dirtydust:4>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtynickel>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtyiridium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtymagnesium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <mekanism:dirtydust:3>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtydraconium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Crusher Recipe(s) for <jaopca:item_dustdirtythorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:1> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:1>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpmithril> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpmithril>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 3 Mekanism Purification Recipe(s) for <jaopca:item_clumpardite> * 3, <jaopca:item_clumpardite> * 3, <jaopca:item_clumpardite> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpardite>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumplithium> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumplithium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpaluminium> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpaluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 5 Mekanism Purification Recipe(s) for <jaopca:item_clumpcobalt> * 3, <jaopca:item_clumpcobalt> * 3, <jaopca:item_clumpcobalt> * 3, <jaopca:item_clumpcobalt> * 3, <jaopca:item_clumpcobalt> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpcobalt>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpyellorium> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpyellorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:2> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:2>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:5> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:5>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpboron> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpboron>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpuranium> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpuranium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpplatinum> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpplatinum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Purification Recipe(s) for <jaopca:item_clumptungsten> * 3, <jaopca:item_clumptungsten> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumptungsten>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpastralstarmetal> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpastralstarmetal>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Purification Recipe(s) for <mekanism:clump:6> * 3, <mekanism:clump:6> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:6>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:4> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:4>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpnickel> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpnickel>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpiridium> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpiridium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpmagnesium> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpmagnesium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Purification Recipe(s) for <mekanism:clump:3> * 3, <mekanism:clump:3> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <mekanism:clump:3>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 3 Mekanism Purification Recipe(s) for <jaopca:item_clumpdraconium> * 3, <jaopca:item_clumpdraconium> * 3, <jaopca:item_clumpdraconium> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpdraconium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpthorium> * 3
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Purification Recipe(s) for <jaopca:item_clumpthorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:1> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:1>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardmithril> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardmithril>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 3 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardardite> * 4, <jaopca:item_shardardite> * 4, <jaopca:item_shardardite> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardardite>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardlithium> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardlithium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardaluminium> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardaluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 5 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardcobalt> * 4, <jaopca:item_shardcobalt> * 4, <jaopca:item_shardcobalt> * 4, <jaopca:item_shardcobalt> * 4, <jaopca:item_shardcobalt> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardcobalt>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardyellorium> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardyellorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:2> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:2>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:5> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:5>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardboron> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardboron>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_sharduranium> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_sharduranium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardplatinum> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardplatinum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardtungsten> * 4, <jaopca:item_shardtungsten> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardtungsten>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardastralstarmetal> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardastralstarmetal>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:6> * 4, <mekanism:shard:6> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:6>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:4> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:4>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardnickel> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardnickel>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardiridium> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardiridium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardmagnesium> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardmagnesium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 2 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:3> * 4, <mekanism:shard:3> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <mekanism:shard:3>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 3 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_sharddraconium> * 4, <jaopca:item_sharddraconium> * 4, <jaopca:item_sharddraconium> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_sharddraconium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardthorium> * 4
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Injection Chamber Recipe(s) for <jaopca:item_shardthorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalcobalt>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalyellorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalboron>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalastralstarmetal>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalmagnesium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <mekanism:crystal:3>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <mekanism:crystal:1>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalaluminium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <mekanism:crystal:5>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystaliridium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalthorium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystallithium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <mekanism:crystal>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystaluranium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalplatinum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystaltungsten>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <mekanism:crystal:6>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystaldraconium>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalmithril>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalardite>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <mekanism:crystal:2>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <mekanism:crystal:4>
-[POSTINITIALIZATION][CLIENT][INFO] Removing 1 Mekanism Chemical Crystallizer Recipe(s) for <jaopca:item_crystalnickel>
-[AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Removing 0 Empowerer Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Removing 0 Empowerer Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Removing 0 Empowerer Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Removing 0 Empowerer Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Removing 0 Empowerer Recipe(s) for Unknown item
-[AVAILABLE][CLIENT][INFO] Removing 0 Empowerer Recipe(s) for Unknown item
-
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
-[SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 02_oreDict\00_variableDeclaration.zs}, enabling debugmode
-[SERVER_STARTED][SERVER][INFO] [preinit | SIDE_CLIENT]: Loading Script: {[0:preinit]: 00_contentTweaker\00_creativeTab.zs}
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\00_creativeTab.zs:4 > No such member: contenttweaker
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\00_creativeTab.zs:4 > Not a valid type
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\00_creativeTab.zs:6 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\00_creativeTab.zs:7 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\00_creativeTab.zs:9 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\00_creativeTab.zs:10 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\00_creativeTab.zs:12 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\00_creativeTab.zs:13 > any values not yet supported
-[SERVER_STARTED][SERVER][INFO] [preinit | SIDE_CLIENT]: Loading Script: {[-1:preinit]: 00_contentTweaker\01_currency.zs}
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:4 > No such member: contenttweaker
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:4 > Not a valid type
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:5 > No such member: contenttweaker
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:5 > Not a valid type
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:9 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:10 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:10 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:11 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:11 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:12 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:14 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:15 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:15 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:16 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:16 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:17 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:19 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:20 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:20 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:21 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:21 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:22 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:24 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:25 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:25 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:26 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:26 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:27 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:30 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:31 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:31 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:32 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:32 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:33 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:35 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:36 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:36 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:37 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:37 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:38 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:40 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:41 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:41 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:42 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:42 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:43 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:45 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:46 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:46 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:47 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:47 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:48 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:51 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:52 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:52 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:53 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:53 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:54 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:56 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:57 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:57 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:58 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:58 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:59 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:61 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:62 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:62 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:63 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:63 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:64 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:66 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:67 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:67 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:68 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:68 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:69 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:72 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:73 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:73 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:74 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:74 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:75 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:77 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:78 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:78 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:79 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:79 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:80 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:82 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:83 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:83 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:84 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:84 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:85 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:87 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:88 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:88 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:89 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:89 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:90 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:93 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:94 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:94 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:95 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:95 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:96 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:98 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:99 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:99 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:100 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:100 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:101 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:103 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:104 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:104 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:105 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:105 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:106 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:108 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:109 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:109 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:110 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:110 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:111 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:114 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:115 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:115 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:116 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:116 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:117 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:119 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:120 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:120 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:121 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:121 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:122 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:124 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:125 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:125 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:126 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:126 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:127 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:129 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:130 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:130 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:131 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:131 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:132 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:135 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:136 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:136 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:137 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:137 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:138 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:140 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:141 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:141 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:142 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:142 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:143 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:145 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:146 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:146 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:147 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:147 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:148 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:150 > could not find VanillaFactory
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:151 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:151 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:152 > any values not yet supported
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:152 > not a valid lvalue
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\01_currency.zs:153 > any values not yet supported
-[SERVER_STARTED][SERVER][INFO] [preinit | SIDE_CLIENT]: Loading Script: {[-2:preinit]: 00_contentTweaker\02_endgame.zs}
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\02_endgame.zs:5 > No such member: contenttweaker
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\02_endgame.zs:5 > Not a valid type
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\02_endgame.zs:6 > No such member: contenttweaker
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\02_endgame.zs:6 > Not a valid type
-[SERVER_STARTED][SERVER][ERROR] [preinit | SIDE_CLIENT]: Error parsing 00_contentTweaker\02_endgame.zs:11 -- ; expected
-[SERVER_STARTED][SERVER][INFO] [preinit | SIDE_CLIENT]: Loading Script: {[-3:preinit]: 00_contentTweaker\03_other.zs}
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\03_other.zs:4 > No such member: contenttweaker
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\03_other.zs:4 > Not a valid type
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\03_other.zs:5 > No such member: contenttweaker
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\03_other.zs:5 > Not a valid type
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\03_other.zs:6 > No such member: contenttweaker
-[SERVER_STARTED][SERVER][ERROR] 00_contentTweaker\03_other.zs:6 > Not a valid type
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 687ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [mekatweaker]
-[SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 02_oreDict\00_variableDeclaration.zs}, enabling debugmode
-[SERVER_STARTED][SERVER][INFO] [mekatweaker | SIDE_CLIENT]: Loading Script: {[-100:mekatweaker]: 01_mekaTweaker\00_gasFromLiquid.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[SERVER_STARTED][SERVER][INFO] Debug Preprocessor found in {[0:crafttweaker]: 02_oreDict\00_variableDeclaration.zs}, enabling debugmode
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-200:crafttweaker]: 02_oreDict\00_variableDeclaration.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-201:crafttweaker]: 02_oreDict\01_oreDictionaryManipulation.zs}
-[SERVER_STARTED][SERVER][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:332: Could not resolve <jaopca : item_dustvoid>
-[SERVER_STARTED][SERVER][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:347: Could not resolve <jaopca : item_dustsmallvoid>
-[SERVER_STARTED][SERVER][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:359: Could not resolve <jaopca : item_dusttinyvoid>
-[SERVER_STARTED][SERVER][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:393: Could not resolve <jaopca : item_platedensevoid>
-[SERVER_STARTED][SERVER][ERROR] 02_oreDict\01_oreDictionaryManipulation.zs:418: Could not resolve <jaopca : item_stickvoid>
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-202:crafttweaker]: 02_oreDict\02_recipeRemoval.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-203:crafttweaker]: 02_oreDict\03_oreDictRemoval.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 303ms

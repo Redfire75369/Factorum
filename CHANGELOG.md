@@ -11,7 +11,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ### Added
-- Mods: ContentTweaker; version 
+- Mods: ContentTweaker; version 1.12.2-4.9.1
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
 - Mods: Just Enough Petroleum; version 0.1
@@ -25,8 +25,9 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
 - Mods: Actually Additions; updated to 1.12.2-r150
 - Mods: Apotheosis; updated to 1.12.2-1.10.5
-- Mods: Arcane Archives; updated to 0.2.0.8
+- Mods: Arcane Archives; updated to 0.2.0.9
 - Mods: Blood Magic; updated to 1.12.2-2.4.2-104
+- Mods: Botania; updated to r1.10-362
 - Mods: Building Gadgets; updated to 2.7.3
 - Mods: CodeChicken Lib; updated to 1.12.2-3.2.3.358-universal
 - Mods: Compact Drawers; updated to 1.12.2-1.0.5.124
@@ -44,8 +45,8 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Ender Utilities; updated to 1.12.2-0.7.14
 - Mods: Extended Crafting; updated to 1.12.2-1.5.6
 - Mods: FTB Banners; updated to 1.1.0.12
-- Mods: FTB Lib; updated to 5.4.3.134
-- Mods: FTB Utilities; updated to 5.4.0.102
+- Mods: FTB Lib; updated to 5.4.3.138
+- Mods: FTB Utilities; updated to 5.4.0.103
 - Mods: Hammer (Lib) Core; updated to 1.12.2-2.0.5.0
 - Mods: Immersive Engineering; updated to 0.12-91
 - Mods: Incorporeal; updated to 1.2.2
@@ -54,8 +55,10 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: JAOPCAAgriculture; updated to 1.12.2-1.2.1.16
 - Mods: Just Enough Items (JEI); updated to 1.12.2-4.15.0.289
 - Mods: Just Enough IDs; updated to 1.0.3-44
+- Mods: MekaTweaker; updated to 1.12-1.2.0
 - Mods: Mystic World; updated to 1.12.2-1.4.4
 - Mods: MysticalLib; updated to 1.12.2-1.3.7
+- Mods: Mystical Mechanics; updated to 0.11
 - Mods: NuclearCraft; updated to 2.18h-1.12.2
 - Mods: OpenLights; updated to MC1.12.2-0.1.0.8
 - Mods: PlusTiC; updated to 7.1.5.0
@@ -64,7 +67,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Recipe Stages; updated to 1.1.3
 - Mods: Roots; updated to 1.12.2-3.0.13
 - Mods: Storage Drawers; updated to 1.12.2-5.4.0
-- Mods: Super Factory Manager; updated to 1.12.2-2.0.22
+- Mods: Super Factory Manager; updated to 1.12.2-2.0.23
 - Mods: Tech Reborn; updated to 1.12.2-2.24.1.1032-universal
 - Mods: Thaumic Augmentation; updated to 1.12.2-1.1.8
 - Mods: Thaumic Computers; updated to MC1.12.2-0.5.1
