@@ -46,11 +46,15 @@ items.contenttweaker.chaos_ingot.name=Chaos Ingot
 #Other
 items.contenttweaker.file.name=Engineer's File
 items.contenttweaker.wrench.name=Engineer's Wrench
+items.contenttweaker.block_burnt_wood.name=Burnt Wood
+items.contenttweaker.seared_paste.name=Seared Paste
+items.contenttweaker.low_grade_charcoal=Low Grade Charcoal
+items.contenttweaker.block_low_grade_charcoal=Block of Low Grade Charcoal
 
 
 #JAOPCALocalisation
 jaopca.entry.CrystalFlux=Flux Crystal
-jaopca.entry.Gelid=GelidGem
+jaopca.entry.Gelid=Gelid Gem
 jaopca.entry.Lapis=Lapis Lazuli
 jaopca.entry.QuartzBlack=Black Quartz
 

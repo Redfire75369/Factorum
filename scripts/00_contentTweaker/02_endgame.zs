@@ -7,5 +7,5 @@ import mods.contenttweaker.VanillaFactory;
 
 var ingotChaos = VanillaFactory.createItem("chaos_ingot");
 ingotChaos.creativeTab = endgame;
-ingotChaos.glowing = true
+ingotChaos.glowing = true;
 ingotChaos.register();

@@ -10,7 +10,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   This section is used to track changes to a yet not specified build of the pack.
   Add all not yet "built" changes here.
 -->
-## Added
+### Added
 - Mods: ContentTweaker; version 
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
@@ -21,7 +21,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Redstone PCB; version 0.2
 - Mods: Requious Frakto; version 0.5
 
-## Changed
+### Changed
 - Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
 - Mods: Actually Additions; updated to 1.12.2-r150
 - Mods: Apotheosis; updated to 1.12.2-1.10.5
@@ -75,6 +75,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Made Removal of Recipes more efficient
 
 ### Removed
+- Mods: Item Filters
 
 ## [v0.0.0-pre.1+build.10] - 28/08/19 **PR**
 ### Added

@@ -1,0 +1,14 @@
+Botania Lexicon Categories
+botania.category.basics
+botania.category.mana
+botania.category.generationFlowers
+botania.category.functionalFlowers
+botania.category.devices
+botania.category.tools
+botania.category.baubles
+botania.category.ender
+botania.category.alfhomancy
+botania.category.misc
+botania.category.botanicadds
+botania.category.dream
+naturalpledge.category.divinity
