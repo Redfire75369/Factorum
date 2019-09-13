@@ -7,11 +7,10 @@ import crafttweaker.oredict.IOreDictEntry;
 /******************** Defining Functions ********************/
 function replace(item as IItemStack, oredict as IOreDictEntry) {
 	oredict.add(item);
-	if (!(item.ores.empty) {
+	if (!(item.ores.empty)) {
 		for ore in item.ores {
 			recipes.replaceAllOccurences(ore, oredict);
-		}
-		else {
+		} else {
 		recipes.replaceAllOccurences(item, oredict);
 		}
 	}

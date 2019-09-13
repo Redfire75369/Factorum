@@ -11,7 +11,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ### Added
-- Mods: ContentTweaker; version 
+- Mods: ContentTweaker; version 1.12.2-4.9.1
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
 - Mods: Just Enough Petroleum; version 0.1
@@ -75,7 +75,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Made Removal of Recipes more efficient
 
 ### Removed
-- Mods: Item Filters
+
 
 ## [v0.0.0-pre.1+build.10] - 28/08/19 **PR**
 ### Added
@@ -95,6 +95,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: InGame Info XML Addon - Deep Resonance; version 1.1
 - Mods: InGame Info XML Addon - Thaumcraft; version 1.0a
 - Mods: In-Game Wiki Mod; version 1.12.2-1.4.4-15-universal
+- Mods: Item Filters; version 1.0.3.12
 - Mods: LagGoggles; version FAT-1.12.2-4.8
 - Mods: MMD OreSpawn; version 1.12-3.3.1.172
 - Mods: Netherending Ores; version 1.12.2-1.3-hotfix1

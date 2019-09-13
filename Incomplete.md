@@ -4,11 +4,20 @@
 - Investigate Line 320
 
 ## Scripts
-### 00_oreDict/00_variableDeclaration.zs
+### 03_oreDict/00_variableDeclaration.zs
 #### IItemStack[string]
 - Add hashOreNether
 - Add hashOreEnd
 - Add hashOreDense
+- Add hashChunk
+- Add hashChunkRocky
+- Add hashLumpAugmented
+- Add hashLumpTesla
+- Add hashGlassHardened
+- Add hashWall
+- Add hashFence
+- Add hashStairs
+- Add hashSlab
 
 #### ILiquidStack[string]
 - Add hashLiquid
@@ -17,12 +26,10 @@
 - Add hashHot
 - Add hashCool
 
-### 00_oreDict/01_oreDictionaryManipulation.zs
-- Find a way to make ore dictionary replacement in one loop
-	- <ore:*Void> to <ore:*VoidMetal>
-	- <ore:*Aluminum> to <ore:*Aluminium>
+### 03_oreDict/01_oreDictionaryManipulation.zs
+Use Functions for OreDictionary Replacement
 
-### 00_oreDict/02_recipeRemoval.zs
+### 03_oreDict/02_recipeRemoval.zs
 - Make sure all recipes are removed for:
 	- Ores
 	- Clusters 
@@ -30,22 +37,14 @@
 	- Clumps
 	- Shards
 	- Crystals
-		- Factorizer
 	- Ingots
-		- Factorizer
 	- Gems
-		- Factorizer
 	- Clathrates
 	- Nuggets
-		- Factorizer
 	- Dusts
-		- Factorizer
 	- Small Dusts
-		- Factorizer
 	- Tiny Dust
-		- Factorizer
 	- Plates
-		- Pressurizer
 	
 - Remove all recipes for
 	- Dense Plates
@@ -55,7 +54,6 @@
 	- Gases
 	- Slurries 
 	- Clean Slurries 
-### 00_oreDict/03_oreDictRemoval.zs
 
 ## Check What these Items are:
 - EnderIO: Redstone Filter Base and Owl Egg
@@ -70,7 +68,6 @@
 	- blockMenril to integrateddynamics:crystallised_menril_block
 - IItemStack:
 	- Wyvern Ingot
-	- Chaos Ingot
 - ILiquidStack:
 	- Seawater/ Salt Water
 
