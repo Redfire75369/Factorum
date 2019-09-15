@@ -1,27 +1,13 @@
 Foods:
-- <thaumcraft:brain> Heal amount: 4 Saturation amount: 0.2
 - <minecraft:rabbit_stew> Heal amount: 10 Saturation amount: 0.6
-- <extrabotany:nightmarefuel> Heal amount: 0 Saturation amount: 0.0
-- <tp:bacon_eggs> Heal amount: 6 Saturation amount: 0.7
-- <minecraft:cooked_rabbit> Heal amount: 5 Saturation amount: 0.6
-- <bewitchment:yew_aril> Heal amount: 1 Saturation amount: 0.5
 - <botania:manacookie> Heal amount: 0 Saturation amount: 0.1
-- <avaritia:ultimate_stew> Heal amount: 20 Saturation amount: 20.0
 - <bewitchment:elderberries> Heal amount: 1 Saturation amount: 0.5
 - <mysticalworld:aubergine> Heal amount: 4 Saturation amount: 0.6
 - <cyclicmagic:inventory_food> Heal amount: 10 Saturation amount: 0.6
 - <minecraft:cooked_fish> Heal amount: 5 Saturation amount: 0.6
 - <minecraft:cooked_fish:1> Heal amount: 6 Saturation amount: 0.8
-- <mysticalagriculture:superium_apple> Heal amount: 15 Saturation amount: 0.7
-- <minecraft:rabbit> Heal amount: 3 Saturation amount: 0.3
-- <tp:pear_juice> Heal amount: 4 Saturation amount: 0.3
 - <avaritia:cosmic_meatballs> Heal amount: 20 Saturation amount: 20.0
-- <tp:blackberry_berry> Heal amount: 3 Saturation amount: 0.15
-- <minecraft:cooked_chicken> Heal amount: 6 Saturation amount: 0.6
-- <forestry:honey_pot> Heal amount: 2 Saturation amount: 0.2
 - <minecraft:cookie> Heal amount: 2 Saturation amount: 0.1
-- <actuallyadditions:item_coffee_beans> Heal amount: 1 Saturation amount: 1.0
-- <minecraft:pumpkin_pie> Heal amount: 8 Saturation amount: 0.3
 - <tp:plump_peach> Heal amount: 3 Saturation amount: 0.25
 - <roots:wildewheet_bread> Heal amount: 7 Saturation amount: 0.6
 - <tp:potatoe_juice> Heal amount: 4 Saturation amount: 0.3
@@ -35,16 +21,202 @@ Foods:
 - <actuallyadditions:item_jam:5> Heal amount: 6 Saturation amount: 0.1
 - <actuallyadditions:item_jam:6> Heal amount: 6 Saturation amount: 0.1
 - <mysticalworld:cooked_squid> Heal amount: 3 Saturation amount: 0.6
-- <extrabotany:gildedmashedpotato> Heal amount: 4 Saturation amount: 0.2
-- <tp:blueberry_berry> Heal amount: 3 Saturation amount: 0.15
 - <mysticalworld:cooked_aubergine> Heal amount: 5 Saturation amount: 0.6
 - <industrialmeat:cooked_meat_ingot> Heal amount: 6 Saturation amount: 0.8
 - <xreliquary:glowing_bread> Heal amount: 20 Saturation amount: 1.0
-- <nuclearcraft:cocoa_butter> Heal amount: 2 Saturation amount: 0.2
 - <tp:cactus_juice> Heal amount: 4 Saturation amount: 0.3
+- <mysticalworld:raw_squid> Heal amount: 1 Saturation amount: 0.6
+- <nuclearcraft:unsweetened_chocolate> Heal amount: 2 Saturation amount: 0.2
+- <industrialmeat:raw_meat_ingot> Heal amount: 6 Saturation amount: 0.8
+- <extrabotany:manadrink> Heal amount: 1 Saturation amount: 0.1
+- <mysticalworld:cooked_venison> Heal amount: 7 Saturation amount: 0.6
+- <extratrees:drink>.withTag({glassware: 0 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 1 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 2 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 3 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 4 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 5 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 6 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 7 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 8 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 9 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 10 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 11 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 12 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 13 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 14 as short}) Heal amount: 0 Saturation amount: 0.0
+- <extratrees:drink>.withTag({glassware: 11 as short}) Heal amount: 0 Saturation amount: 0.0
+- <tp:peach_juice> Heal amount: 4 Saturation amount: 0.3
+- <actuallyadditions:item_canola_seed> Heal amount: 1 Saturation amount: 0.01
+- <tp:fried_egg> Heal amount: 4 Saturation amount: 0.6
+- <tp:plump_pear> Heal amount: 3 Saturation amount: 0.25
+- <minecraft:fish> Heal amount: 2 Saturation amount: 0.1
+- <minecraft:fish:1> Heal amount: 2 Saturation amount: 0.1
+- <minecraft:fish:2> Heal amount: 1 Saturation amount: 0.1
+- <minecraft:fish:3> Heal amount: 1 Saturation amount: 0.1
+- <minecraft:golden_carrot> Heal amount: 6 Saturation amount: 1.2
+- <minecraft:porkchop> Heal amount: 3 Saturation amount: 0.3
+- <minecraft:potato> Heal amount: 1 Saturation amount: 0.3
+- <tp:beet_juice> Heal amount: 4 Saturation amount: 0.3
+- <mysticalworld:stuffed_aubergine> Heal amount: 10 Saturation amount: 0.6
+- <mysticalagriculture:prudentium_apple> Heal amount: 8 Saturation amount: 0.4
+- <nuclearcraft:moresmore> Heal amount: 20 Saturation amount: 3.8
+- <mysticalworld:epic_squid> Heal amount: 20 Saturation amount: 0.6
+- <tp:little_candy> Heal amount: 1 Saturation amount: 0.6
+- <nuclearcraft:dominos> Heal amount: 16 Saturation amount: 1.8
+- <cyclicmagic:heart_toxic> Heal amount: 2 Saturation amount: 0.6
+- <bewitchment:garlic> Heal amount: 2 Saturation amount: 0.2
+- <thaumcraft:chunk> Heal amount: 1 Saturation amount: 0.3
+- <thaumcraft:chunk:1> Heal amount: 1 Saturation amount: 0.3
+- <thaumcraft:chunk:2> Heal amount: 1 Saturation amount: 0.3
+- <thaumcraft:chunk:3> Heal amount: 1 Saturation amount: 0.3
+- <thaumcraft:chunk:4> Heal amount: 1 Saturation amount: 0.3
+- <thaumcraft:chunk:5> Heal amount: 1 Saturation amount: 0.3
+- <minecraft:poisonous_potato> Heal amount: 2 Saturation amount: 0.3
+- <tp:raw_bacon> Heal amount: 1 Saturation amount: 0.1
+- <nuclearcraft:ground_cocoa_nibs> Heal amount: 1 Saturation amount: 0.2
+- <tp:bacon_sandwhich> Heal amount: 6 Saturation amount: 1.0
+- <minecraft:cooked_beef> Heal amount: 8 Saturation amount: 0.8
+- <tp:redstone_apple> Heal amount: 4 Saturation amount: 1.0
+- <tp:wheat_juice> Heal amount: 4 Saturation amount: 0.3
+- <tp:iron_apple> Heal amount: 4 Saturation amount: 1.0
+- <nuclearcraft:milk_chocolate> Heal amount: 4 Saturation amount: 0.6
+- <roots:cooked_pereskia> Heal amount: 5 Saturation amount: 0.6
+- <tp:bams_pizza> Heal amount: 10 Saturation amount: 1.0
+- <minecraft:golden_apple> Heal amount: 4 Saturation amount: 1.2
+- <minecraft:golden_apple:1> Heal amount: 4 Saturation amount: 1.2
+- <tp:beef_sandwhich> Heal amount: 10 Saturation amount: 1.0
+- <cyclicmagic:food_step> Heal amount: 4 Saturation amount: 0.6
+- <tp:blueberry_juice> Heal amount: 4 Saturation amount: 0.3
+- <thaumic_arcana:nutrient_mix> Heal amount: 5 Saturation amount: 0.3
+- <cyclicmagic:glowing_chorus> Heal amount: 4 Saturation amount: 0.6
+- <binniecore:cylinder> Heal amount: 0 Saturation amount: 0.0
+- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.growth.medium", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
+- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.bacteria", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
+- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.bacteria.poly", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
+- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.dna.raw", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
+- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.bacteria.vector", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
+- <nuclearcraft:foursmore> Heal amount: 44 Saturation amount: 8.6
+- <bloodarsenal:blood_orange> Heal amount: 4 Saturation amount: 2.0
+- <extratrees:food> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:1> Heal amount: 4 Saturation amount: 0.4
+- <extratrees:food:2> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:3> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:4> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:5> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:6> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:7> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:8> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:9> Heal amount: 1 Saturation amount: 0.1
+- <extratrees:food:10> Heal amount: 4 Saturation amount: 0.4
+- <extratrees:food:11> Heal amount: 4 Saturation amount: 0.4
+- <extratrees:food:12> Heal amount: 4 Saturation amount: 0.4
+- <extratrees:food:13> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:14> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:15> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:16> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:17> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:18> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:19> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:20> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:21> Heal amount: 3 Saturation amount: 0.3
+- <extratrees:food:22> Heal amount: 4 Saturation amount: 0.4
+- <extratrees:food:23> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:24> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:25> Heal amount: 1 Saturation amount: 0.1
+- <extratrees:food:26> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:27> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:28> Heal amount: 4 Saturation amount: 0.4
+- <extratrees:food:29> Heal amount: 4 Saturation amount: 0.4
+- <extratrees:food:30> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:31> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:32> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:33> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:34> Heal amount: 1 Saturation amount: 0.1
+- <extratrees:food:35> Heal amount: 1 Saturation amount: 0.1
+- <extratrees:food:36> Heal amount: 1 Saturation amount: 0.1
+- <extratrees:food:37> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:38> Heal amount: 1 Saturation amount: 0.1
+- <extratrees:food:39> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:40> Heal amount: 8 Saturation amount: 0.8
+- <extratrees:food:41> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:42> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:43> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:44> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:45> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:46> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:47> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:48> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:49> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:50> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:51> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:52> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:53> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:54> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:55> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:56> Heal amount: 0 Saturation amount: 0.0
+- <extratrees:food:57> Heal amount: 4 Saturation amount: 0.4
+- <extratrees:food:58> Heal amount: 2 Saturation amount: 0.2
+- <extratrees:food:59> Heal amount: 0 Saturation amount: 0.0
+- <tp:succ_pearls> Heal amount: 5 Saturation amount: 0.25
+- <tp:pumpkin_juice> Heal amount: 4 Saturation amount: 0.3
+- <minecraft:beetroot_soup> Heal amount: 6 Saturation amount: 0.6
+- <tp:cooked_mushroom_brown> Heal amount: 2 Saturation amount: 0.3
+- <tp:rabbit_sandwhich> Heal amount: 8 Saturation amount: 1.0
+- <minecraft:chicken> Heal amount: 2 Saturation amount: 0.3
+- <minecraft:beef> Heal amount: 3 Saturation amount: 0.3
+- <tp:raspberry_berry> Heal amount: 3 Saturation amount: 0.15
+- <planarartifice:magic_apple> Heal amount: 6 Saturation amount: 1.4
+- <tp:bsc_sugar_cookie> Heal amount: 1 Saturation amount: 1.0
+- <forestry:honeyed_slice> Heal amount: 8 Saturation amount: 0.6
+- <tp:bacon_eggs_sandwhich> Heal amount: 9 Saturation amount: 1.0
+- <minecraft:mushroom_stew> Heal amount: 6 Saturation amount: 0.6
+- <tp:cooked_apple> Heal amount: 8 Saturation amount: 0.75
+- <bewitchment:juniper_berries> Heal amount: 1 Saturation amount: 0.5
+- <roots:cooked_seeds> Heal amount: 1 Saturation amount: 0.4
+- <tconstruct:edible> Heal amount: 4 Saturation amount: 0.6
+- <tconstruct:edible:1> Heal amount: 1 Saturation amount: 1.0
+- <tconstruct:edible:2> Heal amount: 1 Saturation amount: 2.0
+- <tconstruct:edible:3> Heal amount: 1 Saturation amount: 1.5
+- <tconstruct:edible:4> Heal amount: 2 Saturation amount: 1.0
+- <tconstruct:edible:10> Heal amount: 4 Saturation amount: 0.4
+- <tconstruct:edible:11> Heal amount: 8 Saturation amount: 1.0
+- <tconstruct:edible:12> Heal amount: 6 Saturation amount: 0.8
+- <tconstruct:edible:13> Heal amount: 8 Saturation amount: 1.0
+- <tconstruct:edible:14> Heal amount: 6 Saturation amount: 1.0
+- <tconstruct:edible:15> Heal amount: 5 Saturation amount: 0.8
+- <tconstruct:edible:20> Heal amount: 5 Saturation amount: 0.8
+- <tconstruct:edible:21> Heal amount: 6 Saturation amount: 1.0
+- <tconstruct:edible:22> Heal amount: 3 Saturation amount: 0.8
+- <tconstruct:edible:23> Heal amount: 3 Saturation amount: 0.8
+- <tconstruct:edible:30> Heal amount: 1 Saturation amount: 1.0
+- <tconstruct:edible:31> Heal amount: 3 Saturation amount: 1.0
+- <tconstruct:edible:32> Heal amount: 3 Saturation amount: 2.0
+- <tconstruct:edible:33> Heal amount: 3 Saturation amount: 1.5
+- <tconstruct:edible:34> Heal amount: 6 Saturation amount: 1.0
+- <tp:blackberry_juice> Heal amount: 4 Saturation amount: 0.3
+- <randomthings:beanstew> Heal amount: 8 Saturation amount: 0.6
+- <tp:melon_juice> Heal amount: 4 Saturation amount: 0.3
+- <nuclearcraft:smore> Heal amount: 8 Saturation amount: 1.4
+- <thaumcraft:brain> Heal amount: 4 Saturation amount: 0.2
+- <extrabotany:nightmarefuel> Heal amount: 0 Saturation amount: 0.0
+- <tp:bacon_eggs> Heal amount: 6 Saturation amount: 0.7
+- <minecraft:cooked_rabbit> Heal amount: 5 Saturation amount: 0.6
+- <bewitchment:yew_aril> Heal amount: 1 Saturation amount: 0.5
+- <avaritia:ultimate_stew> Heal amount: 20 Saturation amount: 20.0
+- <mysticalagriculture:superium_apple> Heal amount: 15 Saturation amount: 0.7
+- <minecraft:rabbit> Heal amount: 3 Saturation amount: 0.3
+- <tp:pear_juice> Heal amount: 4 Saturation amount: 0.3
+- <tp:blackberry_berry> Heal amount: 3 Saturation amount: 0.15
+- <minecraft:cooked_chicken> Heal amount: 6 Saturation amount: 0.6
+- <forestry:honey_pot> Heal amount: 2 Saturation amount: 0.2
+- <actuallyadditions:item_coffee_beans> Heal amount: 1 Saturation amount: 1.0
+- <minecraft:pumpkin_pie> Heal amount: 8 Saturation amount: 0.3
+- <extrabotany:gildedmashedpotato> Heal amount: 4 Saturation amount: 0.2
+- <tp:blueberry_berry> Heal amount: 3 Saturation amount: 0.15
+- <nuclearcraft:cocoa_butter> Heal amount: 2 Saturation amount: 0.2
 - <tp:raspberry_juice> Heal amount: 4 Saturation amount: 0.3
 - <minecraft:rotten_flesh> Heal amount: 4 Saturation amount: 0.1
-- <mysticalworld:raw_squid> Heal amount: 1 Saturation amount: 0.6
 - <minecraft:spider_eye> Heal amount: 2 Saturation amount: 0.8
 - <binniecore:glass> Heal amount: 0 Saturation amount: 0.0
 - <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.apple", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
@@ -139,78 +311,22 @@ Foods:
 - <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.liqueur.blackcurrant", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
 - <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.liqueur.blackberry", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
 - <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.liqueur.raspberry", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
-- <nuclearcraft:unsweetened_chocolate> Heal amount: 2 Saturation amount: 0.2
 - <actuallyadditions:item_coffee> Heal amount: 8 Saturation amount: 5.0
 - <minecraft:cooked_mutton> Heal amount: 6 Saturation amount: 0.8
-- <industrialmeat:raw_meat_ingot> Heal amount: 6 Saturation amount: 0.8
-- <extrabotany:manadrink> Heal amount: 1 Saturation amount: 0.1
-- <mysticalworld:cooked_venison> Heal amount: 7 Saturation amount: 0.6
-- <extratrees:drink>.withTag({glassware: 0 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 1 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 2 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 3 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 4 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 5 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 6 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 7 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 8 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 9 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 10 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 11 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 12 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 13 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 14 as short}) Heal amount: 0 Saturation amount: 0.0
-- <extratrees:drink>.withTag({glassware: 11 as short}) Heal amount: 0 Saturation amount: 0.0
-- <tp:peach_juice> Heal amount: 4 Saturation amount: 0.3
-- <actuallyadditions:item_canola_seed> Heal amount: 1 Saturation amount: 0.01
-- <tp:fried_egg> Heal amount: 4 Saturation amount: 0.6
-- <tp:plump_pear> Heal amount: 3 Saturation amount: 0.25
-- <minecraft:fish> Heal amount: 2 Saturation amount: 0.1
-- <minecraft:fish:1> Heal amount: 2 Saturation amount: 0.1
-- <minecraft:fish:2> Heal amount: 1 Saturation amount: 0.1
-- <minecraft:fish:3> Heal amount: 1 Saturation amount: 0.1
-- <minecraft:golden_carrot> Heal amount: 6 Saturation amount: 1.2
-- <minecraft:porkchop> Heal amount: 3 Saturation amount: 0.3
-- <minecraft:potato> Heal amount: 1 Saturation amount: 0.3
 - <cyclicmagic:crafting_food> Heal amount: 10 Saturation amount: 0.6
 - <tp:maloberry_juice> Heal amount: 4 Saturation amount: 0.3
-- <tp:beet_juice> Heal amount: 4 Saturation amount: 0.3
 - <minecraft:melon> Heal amount: 2 Saturation amount: 0.3
 - <minecraft:mutton> Heal amount: 2 Saturation amount: 0.3
 - <tp:apple_juice> Heal amount: 4 Saturation amount: 0.3
-- <mysticalworld:stuffed_aubergine> Heal amount: 10 Saturation amount: 0.6
-- <mysticalagriculture:prudentium_apple> Heal amount: 8 Saturation amount: 0.4
-- <nuclearcraft:moresmore> Heal amount: 20 Saturation amount: 3.8
 - <mysticalworld:venison> Heal amount: 3 Saturation amount: 0.6
 - <tp:cooked_bacon> Heal amount: 3 Saturation amount: 0.3
 - <extrabotany:spiritfuel> Heal amount: 0 Saturation amount: 0.0
 - <tp:diamond_apple> Heal amount: 4 Saturation amount: 1.0
-- <mysticalworld:epic_squid> Heal amount: 20 Saturation amount: 0.6
-- <tp:little_candy> Heal amount: 1 Saturation amount: 0.6
-- <nuclearcraft:dominos> Heal amount: 16 Saturation amount: 1.8
-- <cyclicmagic:heart_toxic> Heal amount: 2 Saturation amount: 0.6
-- <bewitchment:garlic> Heal amount: 2 Saturation amount: 0.2
-- <thaumcraft:chunk> Heal amount: 1 Saturation amount: 0.3
-- <thaumcraft:chunk:1> Heal amount: 1 Saturation amount: 0.3
-- <thaumcraft:chunk:2> Heal amount: 1 Saturation amount: 0.3
-- <thaumcraft:chunk:3> Heal amount: 1 Saturation amount: 0.3
-- <thaumcraft:chunk:4> Heal amount: 1 Saturation amount: 0.3
-- <thaumcraft:chunk:5> Heal amount: 1 Saturation amount: 0.3
 - <tp:monster_jerky> Heal amount: 4 Saturation amount: 0.5
-- <minecraft:poisonous_potato> Heal amount: 2 Saturation amount: 0.3
 - <minecraft:apple> Heal amount: 4 Saturation amount: 0.3
-- <tp:raw_bacon> Heal amount: 1 Saturation amount: 0.1
-- <nuclearcraft:ground_cocoa_nibs> Heal amount: 1 Saturation amount: 0.2
 - <cyclicmagic:corrupted_chorus> Heal amount: 2 Saturation amount: 0.6
-- <tp:bacon_sandwhich> Heal amount: 6 Saturation amount: 1.0
 - <mysticalagriculture:inferium_apple> Heal amount: 6 Saturation amount: 0.3
-- <minecraft:cooked_beef> Heal amount: 8 Saturation amount: 0.8
-- <tp:redstone_apple> Heal amount: 4 Saturation amount: 1.0
-- <tp:wheat_juice> Heal amount: 4 Saturation amount: 0.3
-- <tp:iron_apple> Heal amount: 4 Saturation amount: 1.0
-- <nuclearcraft:milk_chocolate> Heal amount: 4 Saturation amount: 0.6
 - <tp:dead_reed> Heal amount: 1 Saturation amount: 0.15
-- <roots:cooked_pereskia> Heal amount: 5 Saturation amount: 0.6
 - <nuclearcraft:marshmallow> Heal amount: 1 Saturation amount: 0.4
 - <bewitchment:stew_of_the_grotesque> Heal amount: 8 Saturation amount: 1.25
 - <bewitchment:heart> Heal amount: 8 Saturation amount: 0.8
@@ -237,103 +353,20 @@ Foods:
 - <actuallyadditions:item_food:19> Heal amount: 5 Saturation amount: 0.2
 - <actuallyadditions:item_food:20> Heal amount: 4 Saturation amount: 0.1
 - <minecraft:cooked_porkchop> Heal amount: 8 Saturation amount: 0.8
-- <tp:bams_pizza> Heal amount: 10 Saturation amount: 1.0
-- <minecraft:golden_apple> Heal amount: 4 Saturation amount: 1.2
-- <minecraft:golden_apple:1> Heal amount: 4 Saturation amount: 1.2
 - <thaumic_arcana:slime_meat_cooked> Heal amount: 10 Saturation amount: 0.9
-- <tp:beef_sandwhich> Heal amount: 10 Saturation amount: 1.0
-- <cyclicmagic:food_step> Heal amount: 4 Saturation amount: 0.6
 - <mysticalagriculture:supremium_apple> Heal amount: 20 Saturation amount: 0.9
 - <tp:maloberry_berry> Heal amount: 3 Saturation amount: 0.15
 - <minecraft:chorus_fruit> Heal amount: 4 Saturation amount: 0.3
 - <tp:chicken_sandwhich> Heal amount: 8 Saturation amount: 1.0
-- <tp:blueberry_juice> Heal amount: 4 Saturation amount: 0.3
-- <thaumic_arcana:nutrient_mix> Heal amount: 5 Saturation amount: 0.3
-- <cyclicmagic:glowing_chorus> Heal amount: 4 Saturation amount: 0.6
 - <tp:slime_juice> Heal amount: 4 Saturation amount: 0.3
-- <binniecore:cylinder> Heal amount: 0 Saturation amount: 0.0
-- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.growth.medium", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
-- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.bacteria", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
-- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.bacteria.poly", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
-- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.dna.raw", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
-- <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.bacteria.vector", Amount: 1000}}) Heal amount: 0 Saturation amount: 0.0
-- <nuclearcraft:foursmore> Heal amount: 44 Saturation amount: 8.6
 - <nuclearcraft:dark_chocolate> Heal amount: 3 Saturation amount: 0.4
 - <minecraft:carrot> Heal amount: 3 Saturation amount: 0.6
 - <tp:cooked_mushroom_red> Heal amount: 2 Saturation amount: 0.3
-- <bloodarsenal:blood_orange> Heal amount: 4 Saturation amount: 2.0
-- <extratrees:food> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:1> Heal amount: 4 Saturation amount: 0.4
-- <extratrees:food:2> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:3> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:4> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:5> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:6> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:7> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:8> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:9> Heal amount: 1 Saturation amount: 0.1
-- <extratrees:food:10> Heal amount: 4 Saturation amount: 0.4
-- <extratrees:food:11> Heal amount: 4 Saturation amount: 0.4
-- <extratrees:food:12> Heal amount: 4 Saturation amount: 0.4
-- <extratrees:food:13> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:14> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:15> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:16> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:17> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:18> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:19> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:20> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:21> Heal amount: 3 Saturation amount: 0.3
-- <extratrees:food:22> Heal amount: 4 Saturation amount: 0.4
-- <extratrees:food:23> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:24> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:25> Heal amount: 1 Saturation amount: 0.1
-- <extratrees:food:26> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:27> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:28> Heal amount: 4 Saturation amount: 0.4
-- <extratrees:food:29> Heal amount: 4 Saturation amount: 0.4
-- <extratrees:food:30> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:31> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:32> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:33> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:34> Heal amount: 1 Saturation amount: 0.1
-- <extratrees:food:35> Heal amount: 1 Saturation amount: 0.1
-- <extratrees:food:36> Heal amount: 1 Saturation amount: 0.1
-- <extratrees:food:37> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:38> Heal amount: 1 Saturation amount: 0.1
-- <extratrees:food:39> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:40> Heal amount: 8 Saturation amount: 0.8
-- <extratrees:food:41> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:42> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:43> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:44> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:45> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:46> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:47> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:48> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:49> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:50> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:51> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:52> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:53> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:54> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:55> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:56> Heal amount: 0 Saturation amount: 0.0
-- <extratrees:food:57> Heal amount: 4 Saturation amount: 0.4
-- <extratrees:food:58> Heal amount: 2 Saturation amount: 0.2
-- <extratrees:food:59> Heal amount: 0 Saturation amount: 0.0
-- <tp:succ_pearls> Heal amount: 5 Saturation amount: 0.25
-- <tp:pumpkin_juice> Heal amount: 4 Saturation amount: 0.3
 - <thaumicrestoration:item_toast> Heal amount: 3 Saturation amount: 3.0
 - <cyclicmagic:heart_food> Heal amount: 2 Saturation amount: 0.6
-- <minecraft:beetroot_soup> Heal amount: 6 Saturation amount: 0.6
 - <tp:bread_slice> Heal amount: 1 Saturation amount: 0.1
-- <tp:cooked_mushroom_brown> Heal amount: 2 Saturation amount: 0.3
-- <tp:rabbit_sandwhich> Heal amount: 8 Saturation amount: 1.0
 - <nuclearcraft:graham_cracker> Heal amount: 1 Saturation amount: 0.2
-- <minecraft:chicken> Heal amount: 2 Saturation amount: 0.3
 - <tp:emerald_apple> Heal amount: 4 Saturation amount: 1.0
-- <minecraft:beef> Heal amount: 3 Saturation amount: 0.3
 - <industrialmeat:raw_meat_nugget> Heal amount: 6 Saturation amount: 0.8
 - <tp:carrot_juice> Heal amount: 4 Saturation amount: 0.3
 - <forestry:fruits> Heal amount: 1 Saturation amount: 0.2
@@ -343,51 +376,18 @@ Foods:
 - <forestry:fruits:4> Heal amount: 1 Saturation amount: 0.2
 - <forestry:fruits:5> Heal amount: 1 Saturation amount: 0.2
 - <forestry:fruits:6> Heal amount: 1 Saturation amount: 0.2
-- <tp:raspberry_berry> Heal amount: 3 Saturation amount: 0.15
 - <extrabotany:candy> Heal amount: 2 Saturation amount: 0.15
 - <extrabotany:candy:1> Heal amount: 2 Saturation amount: 0.15
 - <extrabotany:candy:2> Heal amount: 2 Saturation amount: 0.15
 - <culinaryconstruct:sandwich>.withTag({Size: 5, Saturation: 1.0 as float, Ingredients: {Items: [{Slot: 0 as byte, id: "minecraft:nether_star", Count: 1 as byte, Damage: 0 as short}, {Slot: 1 as byte, id: "minecraft:nether_star", Count: 1 as byte, Damage: 0 as short}, {Slot: 2 as byte, id: "minecraft:nether_star", Count: 1 as byte, Damage: 0 as short}, {Slot: 3 as byte, id: "minecraft:nether_star", Count: 1 as byte, Damage: 0 as short}, {Slot: 4 as byte, id: "minecraft:nether_star", Count: 1 as byte, Damage: 0 as short}, {Slot: 5 as byte, id: "minecraft:bread", Count: 1 as byte, Damage: 0 as short}]}, Bonus: 2, Depth: 0, Food: 20}) Heal amount: 20 Saturation amount: 1.0
 - <mysticalagriculture:intermedium_apple> Heal amount: 10 Saturation amount: 0.5
 - <integrateddynamics:menril_berries> Heal amount: 4 Saturation amount: 0.3
-- <planarartifice:magic_apple> Heal amount: 6 Saturation amount: 1.4
-- <tp:bsc_sugar_cookie> Heal amount: 1 Saturation amount: 1.0
-- <forestry:honeyed_slice> Heal amount: 8 Saturation amount: 0.6
-- <tp:bacon_eggs_sandwhich> Heal amount: 9 Saturation amount: 1.0
-- <minecraft:mushroom_stew> Heal amount: 6 Saturation amount: 0.6
 - <forestry:ambrosia> Heal amount: 8 Saturation amount: 0.6
 - <enderio:item_ender_food> Heal amount: 10 Saturation amount: 0.8
-- <tp:cooked_apple> Heal amount: 8 Saturation amount: 0.75
 - <tp:toasted_bread> Heal amount: 6 Saturation amount: 0.7
 - <minecraft:beetroot> Heal amount: 1 Saturation amount: 0.6
-- <bewitchment:juniper_berries> Heal amount: 1 Saturation amount: 0.5
-- <roots:cooked_seeds> Heal amount: 1 Saturation amount: 0.4
 - <extrabotany:friedchicken> Heal amount: 8 Saturation amount: 0.45
-- <tconstruct:edible> Heal amount: 4 Saturation amount: 0.6
-- <tconstruct:edible:1> Heal amount: 1 Saturation amount: 1.0
-- <tconstruct:edible:2> Heal amount: 1 Saturation amount: 2.0
-- <tconstruct:edible:3> Heal amount: 1 Saturation amount: 1.5
-- <tconstruct:edible:4> Heal amount: 2 Saturation amount: 1.0
-- <tconstruct:edible:10> Heal amount: 4 Saturation amount: 0.4
-- <tconstruct:edible:11> Heal amount: 8 Saturation amount: 1.0
-- <tconstruct:edible:12> Heal amount: 6 Saturation amount: 0.8
-- <tconstruct:edible:13> Heal amount: 8 Saturation amount: 1.0
-- <tconstruct:edible:14> Heal amount: 6 Saturation amount: 1.0
-- <tconstruct:edible:15> Heal amount: 5 Saturation amount: 0.8
-- <tconstruct:edible:20> Heal amount: 5 Saturation amount: 0.8
-- <tconstruct:edible:21> Heal amount: 6 Saturation amount: 1.0
-- <tconstruct:edible:22> Heal amount: 3 Saturation amount: 0.8
-- <tconstruct:edible:23> Heal amount: 3 Saturation amount: 0.8
-- <tconstruct:edible:30> Heal amount: 1 Saturation amount: 1.0
-- <tconstruct:edible:31> Heal amount: 3 Saturation amount: 1.0
-- <tconstruct:edible:32> Heal amount: 3 Saturation amount: 2.0
-- <tconstruct:edible:33> Heal amount: 3 Saturation amount: 1.5
-- <tconstruct:edible:34> Heal amount: 6 Saturation amount: 1.0
 - <thaumic_arcana:nutritious_mix> Heal amount: 8 Saturation amount: 0.1
-- <tp:blackberry_juice> Heal amount: 4 Saturation amount: 0.3
 - <animus:bloodapple> Heal amount: 3 Saturation amount: 0.6
 - <naturalpledge:apple_immortality> Heal amount: 4 Saturation amount: 1.2
 - <thaumcraft:triple_meat_treat> Heal amount: 6 Saturation amount: 0.8
-- <randomthings:beanstew> Heal amount: 8 Saturation amount: 0.6
-- <tp:melon_juice> Heal amount: 4 Saturation amount: 0.3
-- <nuclearcraft:smore> Heal amount: 8 Saturation amount: 1.4

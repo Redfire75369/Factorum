@@ -31,7 +31,7 @@ Gases:
 <gas:lead>, Lead Slurry
 <gas:slurryCleanAluminium>, Clean Aluminium Slurry
 <gas:slurryCleanArdite>, Clean Ardite Slurry
-<gas:slurryCleanAstralStarmetal>, Clean Astral Starmetal Slurry
+<gas:slurryCleanAstralStarmetal>, Clean Starmetal Slurry
 <gas:slurryCleanBoron>, Clean Boron Slurry
 <gas:slurryCleanCobalt>, Clean Cobalt Slurry
 <gas:slurryCleanDraconium>, Clean Draconium Slurry
@@ -47,7 +47,7 @@ Gases:
 <gas:slurryCleanYellorium>, Clean Yellorium Slurry
 <gas:slurryAluminium>, Aluminium Slurry
 <gas:slurryArdite>, Ardite Slurry
-<gas:slurryAstralStarmetal>, Astral Starmetal Slurry
+<gas:slurryAstralStarmetal>, Starmetal Slurry
 <gas:slurryBoron>, Boron Slurry
 <gas:slurryCobalt>, Cobalt Slurry
 <gas:slurryDraconium>, Draconium Slurry

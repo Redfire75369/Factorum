@@ -7,6 +7,22 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
+<liquid:adaminite>
+- Name: adaminite
+- Display Name: Molten Adaminite
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:advanced_alloy>
+- Name: advanced_alloy
+- Display Name: Molten Advanced Alloy
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:aerotheum>
 - Name: aerotheum
 - Display Name: Zephyrean Aerotheum
@@ -177,7 +193,7 @@ Liquids:
 - Gaseous: false
 <liquid:astral_starmetal>
 - Name: astral_starmetal
-- Display Name: Molten Astral Starmetal
+- Display Name: Molten Starmetal
 - Luminosity:10
 - Density: 2000
 - Temperature: 500
@@ -1127,6 +1143,14 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1200
 - Gaseous: false
+<liquid:black_iron>
+- Name: black_iron
+- Display Name: Molten Black Iron
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:blockfluidantimatter>
 - Name: blockfluidantimatter
 - Display Name: Liquid Antimatter
@@ -1151,6 +1175,14 @@ Liquids:
 - Temperature: 420
 - Viscosity: 1000
 - Gaseous: false
+<liquid:blood_bronze>
+- Name: blood_bronze
+- Display Name: Molten Blood Bronze
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:bloodarsenal.molten_blood_infused_iron>
 - Name: bloodarsenal.molten_blood_infused_iron
 - Display Name: Molten Blood Infused Iron
@@ -1174,6 +1206,14 @@ Liquids:
 - Density: 1500
 - Temperature: 310
 - Viscosity: 1500
+- Gaseous: false
+<liquid:blutonium>
+- Name: blutonium
+- Display Name: Molten Blutonium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:boiling_beetroot_soup>
 - Name: boiling_beetroot_soup
@@ -1415,6 +1455,14 @@ Liquids:
 - Temperature: 330
 - Viscosity: 5000
 - Gaseous: false
+<liquid:chromium>
+- Name: chromium
+- Display Name: Molten Chrome
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:clay>
 - Name: clay
 - Display Name: Molten Clay
@@ -1462,6 +1510,14 @@ Liquids:
 - Density: 1325
 - Temperature: 330
 - Viscosity: 5000
+- Gaseous: false
+<liquid:cold_iron>
+- Name: cold_iron
+- Display Name: Molten Cold Iron
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:concrete>
 - Name: concrete
@@ -1535,6 +1591,14 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
+<liquid:cosmic_neutronium>
+- Name: cosmic_neutronium
+- Display Name: Molten Neutronium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:creosote>
 - Name: creosote
 - Display Name: Creosote Oil
@@ -1591,6 +1655,14 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1200
 - Gaseous: false
+<liquid:crystal_matrix>
+- Name: crystal_matrix
+- Display Name: Molten Crystal Matrix
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:crystal_water>
 - Name: crystal_water
 - Display Name: Crystal Water
@@ -1622,6 +1694,14 @@ Liquids:
 - Density: 1000
 - Temperature: 300
 - Viscosity: 1000
+- Gaseous: false
+<liquid:crystaltine>
+- Name: crystaltine
+- Display Name: Molten Crystaltine
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:curium_243>
 - Name: curium_243
@@ -2423,6 +2503,14 @@ Liquids:
 - Temperature: 500
 - Viscosity: 10000
 - Gaseous: false
+<liquid:draconium_awakened>
+- Name: draconium_awakened
+- Display Name: Molten Awakened Draconium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:dwarven_ale>
 - Name: dwarven_ale
 - Display Name: Ale
@@ -2633,7 +2721,7 @@ Liquids:
 - Gaseous: false
 <liquid:ec.internal.slurryastralstarmetal>
 - Name: ec.internal.slurryastralstarmetal
-- Display Name: Astral Starmetal Slurry
+- Display Name: Starmetal Slurry
 - Luminosity:0
 - Density: 1000
 - Temperature: 300
@@ -2665,7 +2753,7 @@ Liquids:
 - Gaseous: false
 <liquid:ec.internal.slurrycleanastralstarmetal>
 - Name: ec.internal.slurrycleanastralstarmetal
-- Display Name: Clean Astral Starmetal Slurry
+- Display Name: Clean Starmetal Slurry
 - Luminosity:0
 - Density: 1000
 - Temperature: 300
@@ -2943,12 +3031,28 @@ Liquids:
 - Temperature: 500
 - Viscosity: 10000
 - Gaseous: false
+<liquid:electrum_flux>
+- Name: electrum_flux
+- Display Name: Molten Fluxed Electrum
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:elementium>
 - Name: elementium
 - Display Name: Molten Elementium
 - Luminosity:10
 - Density: 2000
 - Temperature: 800
+- Viscosity: 10000
+- Gaseous: false
+<liquid:elven_elementium>
+- Name: elven_elementium
+- Display Name: Molten Elementium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
 - Viscosity: 10000
 - Gaseous: false
 <liquid:emerald>
@@ -3095,6 +3199,14 @@ Liquids:
 - Temperature: 300
 - Viscosity: 200
 - Gaseous: true
+<liquid:extreme>
+- Name: extreme
+- Display Name: Molten Extreme
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:ferroboron>
 - Name: ferroboron
 - Display Name: Molten Ferroboron
@@ -3118,6 +3230,14 @@ Liquids:
 - Density: 5000
 - Temperature: 1200
 - Viscosity: 8000
+- Gaseous: false
+<liquid:flint>
+- Name: flint
+- Display Name: Molten Flint
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:fluid_molten_aer>
 - Name: fluid_molten_aer
@@ -4127,6 +4247,14 @@ Liquids:
 - Temperature: 350
 - Viscosity: 8000
 - Gaseous: false
+<liquid:gelid_enderium>
+- Name: gelid_enderium
+- Display Name: Molten Gelid Enderium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:glass>
 - Name: glass
 - Display Name: Liquid Glass
@@ -4181,6 +4309,14 @@ Liquids:
 - Luminosity:7
 - Density: 4000
 - Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:graphite>
+- Name: graphite
+- Display Name: Molten Graphite
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
 - Viscosity: 10000
 - Gaseous: false
 <liquid:hard_carbon>
@@ -4239,6 +4375,14 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
+<liquid:hop_graphite>
+- Name: hop_graphite
+- Display Name: Molten HOP Graphite
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:hot_crude>
 - Name: hot_crude
 - Display Name: Hot Crude
@@ -4247,6 +4391,22 @@ Liquids:
 - Temperature: 873
 - Viscosity: 20
 - Gaseous: true
+<liquid:hot_tungstensteel>
+- Name: hot_tungstensteel
+- Display Name: Molten Hot Tungstensteel
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:hsla_steel>
+- Name: hsla_steel
+- Display Name: Molten HSLA Steel
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:hydrated_gelatin>
 - Name: hydrated_gelatin
 - Display Name: Hydrated Gelatin
@@ -4343,6 +4503,14 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
+<liquid:insanium>
+- Name: insanium
+- Display Name: Molten Insanium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:intermedium>
 - Name: intermedium
 - Display Name: Molten Intermedium
@@ -4366,6 +4534,14 @@ Liquids:
 - Density: 1000
 - Temperature: 1400
 - Viscosity: 1000
+- Gaseous: false
+<liquid:iridium_alloy>
+- Name: iridium_alloy
+- Display Name: Molten Iridium Alloy
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:iron>
 - Name: iron
@@ -4469,6 +4645,14 @@ Liquids:
 - Luminosity:10
 - Density: 2000
 - Temperature: 400
+- Viscosity: 10000
+- Gaseous: false
+<liquid:lead_platinum>
+- Name: lead_platinum
+- Display Name: Molten Lead Platinum
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
 - Viscosity: 10000
 - Gaseous: false
 <liquid:lif>
@@ -4687,6 +4871,14 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
+<liquid:lithium_manganese_dioxide>
+- Name: lithium_manganese_dioxide
+- Display Name: Molten Lithium Manganese Dioxide
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:low_pressure_steam>
 - Name: low_pressure_steam
 - Display Name: Low Pressure Steam
@@ -4719,6 +4911,14 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
+<liquid:ludicrite>
+- Name: ludicrite
+- Display Name: Molten Ludicrite
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:lumium>
 - Name: lumium
 - Display Name: Molten Lumium
@@ -4734,6 +4934,14 @@ Liquids:
 - Density: 5000
 - Temperature: 1200
 - Viscosity: 8000
+- Gaseous: false
+<liquid:magnesium_diboride>
+- Name: magnesium_diboride
+- Display Name: Molten Magnesium Diboride
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:magnesium_nak>
 - Name: magnesium_nak
@@ -4782,6 +4990,14 @@ Liquids:
 - Density: 5000
 - Temperature: 1200
 - Viscosity: 8000
+- Gaseous: false
+<liquid:manganese_oxide>
+- Name: manganese_oxide
+- Display Name: Molten Manganese Oxide
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:manyullyn>
 - Name: manyullyn
@@ -4855,9 +5071,33 @@ Liquids:
 - Temperature: 777
 - Viscosity: 10000
 - Gaseous: false
+<liquid:mithminite>
+- Name: mithminite
+- Display Name: Molten Mithminite
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:mithril>
 - Name: mithril
 - Display Name: Molten Mithril
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:mithrillium>
+- Name: mithrillium
+- Display Name: Molten Mithrillium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:mixed_metal>
+- Name: mixed_metal
+- Display Name: Molten Mixed Metal
 - Luminosity:10
 - Density: 2000
 - Temperature: 500
@@ -5055,6 +5295,14 @@ Liquids:
 - Temperature: 298
 - Viscosity: 2000
 - Gaseous: false
+<liquid:orichalcos>
+- Name: orichalcos
+- Display Name: Molten Orichalcos
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:osgloglas>
 - Name: osgloglas
 - Display Name: Molten Osgloglas
@@ -5102,6 +5350,14 @@ Liquids:
 - Density: 4000
 - Temperature: 350
 - Viscosity: 1500
+- Gaseous: false
+<liquid:photonium>
+- Name: photonium
+- Display Name: Molten Photonium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:pigiron>
 - Name: pigiron
@@ -5487,6 +5743,22 @@ Liquids:
 - Temperature: 300
 - Viscosity: 800
 - Gaseous: false
+<liquid:refined_glowstone>
+- Name: refined_glowstone
+- Display Name: Molten Refined Glowstone
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:refined_iron>
+- Name: refined_iron
+- Display Name: Molten Refined Iron
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:refined_life_essence>
 - Name: refined_life_essence
 - Display Name: Refined Life Essence
@@ -5494,6 +5766,14 @@ Liquids:
 - Density: 1200
 - Temperature: 300
 - Viscosity: 1200
+- Gaseous: false
+<liquid:refined_obsidian>
+- Name: refined_obsidian
+- Display Name: Molten Refined Obsidian
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:refined_oil>
 - Name: refined_oil
@@ -5525,6 +5805,14 @@ Liquids:
 - Luminosity:10
 - Density: 2000
 - Temperature: 860
+- Viscosity: 10000
+- Gaseous: false
+<liquid:reinforced_obsidian>
+- Name: reinforced_obsidian
+- Display Name: Molten Reinforced Obsidian
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
 - Viscosity: 10000
 - Gaseous: false
 <liquid:resin>
@@ -5575,6 +5863,22 @@ Liquids:
 - Temperature: 300
 - Viscosity: 6000
 - Gaseous: false
+<liquid:shadowium>
+- Name: shadowium
+- Display Name: Molten Shadowium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:shibuichi>
+- Name: shibuichi
+- Display Name: Molten Shibuichi
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:short.mead>
 - Name: short.mead
 - Display Name: Short Mead
@@ -5582,6 +5886,14 @@ Liquids:
 - Density: 1000
 - Temperature: 295
 - Viscosity: 1200
+- Gaseous: false
+<liquid:si_c_si_ccmc>
+- Name: si_c_si_ccmc
+- Display Name: Molten Si C Si CCMC
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:sic_vapor>
 - Name: sic_vapor
@@ -5598,6 +5910,14 @@ Liquids:
 - Density: 1000
 - Temperature: 1000
 - Viscosity: 1000
+- Gaseous: false
+<liquid:silicon_carbide>
+- Name: silicon_carbide
+- Display Name: Molten Silicon Carbide
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:silver>
 - Name: silver
@@ -5823,6 +6143,14 @@ Liquids:
 - Temperature: 945
 - Viscosity: 10000
 - Gaseous: false
+<liquid:thermoconducting>
+- Name: thermoconducting
+- Display Name: Molten Thermoconducting
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:thorium>
 - Name: thorium
 - Display Name: Molten Thorium
@@ -5871,6 +6199,14 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
+<liquid:thorium_oxide>
+- Name: thorium_oxide
+- Display Name: Molten Thorium Oxide
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:tin>
 - Name: tin
 - Display Name: Molten Tin
@@ -5893,6 +6229,22 @@ Liquids:
 - Luminosity:7
 - Density: 4000
 - Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:tin_silver>
+- Name: tin_silver
+- Display Name: Molten Tin Silver
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:titanium>
+- Name: titanium
+- Display Name: Molten Titanium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
 - Viscosity: 10000
 - Gaseous: false
 <liquid:tough>
@@ -5922,6 +6274,22 @@ Liquids:
 <liquid:tungsten>
 - Name: tungsten
 - Display Name: Molten Tungsten
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:tungstensteel>
+- Name: tungstensteel
+- Display Name: Molten Tungstensteel
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:ultimate>
+- Name: ultimate
+- Display Name: Molten Ultimate
 - Luminosity:10
 - Density: 2000
 - Temperature: 500
@@ -6039,6 +6407,14 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
+<liquid:uranium_oxide>
+- Name: uranium_oxide
+- Display Name: Molten Uranium Oxide
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:vapor_of_levity>
 - Name: vapor_of_levity
 - Display Name: Vapor of Levity
@@ -6079,6 +6455,14 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
+<liquid:void>
+- Name: void
+- Display Name: Molten Void
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:water>
 - Name: water
 - Display Name: Water
@@ -6095,6 +6479,14 @@ Liquids:
 - Temperature: 373
 - Viscosity: 10
 - Gaseous: true
+<liquid:wub>
+- Name: wub
+- Display Name: Molten Wub
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
 <liquid:xpjuice>
 - Name: xpjuice
 - Display Name: Liquid XP
@@ -6117,5 +6509,21 @@ Liquids:
 - Luminosity:10
 - Density: 2000
 - Temperature: 375
+- Viscosity: 10000
+- Gaseous: false
+<liquid:zircaloy>
+- Name: zircaloy
+- Display Name: Molten Zircaloy
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
+- Gaseous: false
+<liquid:zirconium>
+- Name: zirconium
+- Display Name: Molten Zirconium
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
 - Viscosity: 10000
 - Gaseous: false

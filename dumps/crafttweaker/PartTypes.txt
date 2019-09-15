@@ -1,0 +1,9 @@
+parttypes:
+<parttypes:item>
+<parttypes:minecart>
+<parttypes:ore>
+<parttypes:armor>
+<parttypes:block>
+<parttypes:fluid>
+<parttypes:storage>
+<parttypes:ore sample>

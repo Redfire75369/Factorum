@@ -88,8 +88,8 @@ for ore in stringOre {
 }
 
 /***** Clathrate Ores *****/
-global hashClathrateOre as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringClathrateOre = [
+global hashOreClathrate as IOreDictEntry[string] = {} as IOreDictEntry[string];
+val stringOreClathrate = [
 	
 	"Ender", 
 	"Glowstone", 
@@ -97,13 +97,13 @@ val stringClathrateOre = [
 	"Redstone" 
 
 ] as string[];
-for clathrateOre in stringClathrateOre{ 
-    hashClathrateOre[clathrateOre] = oreDict["ore" ~ clathrateOre];
+for oreClathrate in stringOreClathrate{ 
+    hashOreClathrate[oreClathrate] = oreDict["ore" ~ oreClathrate];
 }
 
 /***** Vis Ores *****/
-global hashVisOre as IOreDictEntry[string] = {} as IOreDictEntry[string];
-val stringVisOre = [
+global hashOreVis as IOreDictEntry[string] = {} as IOreDictEntry[string];
+val stringOreVis = [
 	
 	"Air", 
 	"Earth", 
@@ -114,8 +114,8 @@ val stringVisOre = [
 	"Water" 
 
 ] as string[];
-for visOre in stringVisOre{ 
-    hashVisOre[visOre] = oreDict["oreCrystal" ~ visOre];
+for oreVis in stringOreVis{ 
+    hashOreVis[oreVis] = oreDict["oreCrystal" ~ oreVis];
 }
 
 /***** Clusters *****/

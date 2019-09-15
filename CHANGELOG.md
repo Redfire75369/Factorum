@@ -46,30 +46,33 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Extended Crafting; updated to 1.12.2-1.5.6
 - Mods: FTB Banners; updated to 1.1.0.12
 - Mods: FTB Lib; updated to 5.4.3.138
-- Mods: FTB Utilities; updated to 5.4.0.103
+- Mods: FTB Utilities; updated to 5.4.0.105
 - Mods: Hammer (Lib) Core; updated to 1.12.2-2.0.5.0
 - Mods: Immersive Engineering; updated to 0.12-91
 - Mods: Incorporeal; updated to 1.2.2
 - Mods: Integrated Dynamics; updated to 1.12.2-1.1.0
 - Mods: Integrated Terminals; updated to 1.12.2-1.0.10
 - Mods: JAOPCAAgriculture; updated to 1.12.2-1.2.1.16
+- Mods: Just Enough Energistics; updated to 1.12.2-1.0.8
 - Mods: Just Enough Items (JEI); updated to 1.12.2-4.15.0.289
 - Mods: Just Enough IDs; updated to 1.0.3-44
 - Mods: MekaTweaker; updated to 1.12-1.2.0
 - Mods: Mystic World; updated to 1.12.2-1.4.4
 - Mods: MysticalLib; updated to 1.12.2-1.3.7
 - Mods: Mystical Mechanics; updated to 0.11
-- Mods: NuclearCraft; updated to 2.18h-1.12.2
+- Mods: NuclearCraft; updated to 2.18i-1.12.2
 - Mods: OpenLights; updated to MC1.12.2-0.1.0.8
 - Mods: PlusTiC; updated to 7.1.5.0
 - Mods: RandomPatches; updated to 1.12.2-1.18.1.1
 - Mods: RebornCore; updated to 1.12.2-3.16.2.473-universal
 - Mods: Recipe Stages; updated to 1.1.3
 - Mods: Roots; updated to 1.12.2-3.0.13
+- Mods: Shadowfacts' Forgelin; updated to 1.8.4
 - Mods: Storage Drawers; updated to 1.12.2-5.4.0
 - Mods: Super Factory Manager; updated to 1.12.2-2.0.23
 - Mods: Tech Reborn; updated to 1.12.2-2.24.1.1032-universal
-- Mods: Thaumic Augmentation; updated to 1.12.2-1.1.8
+- Mods: Thaumic Additions: Reconstructed; updated to 1.12.2-20r
+- Mods: Thaumic Augmentation; updated to 1.12.2-1.1.9
 - Mods: Thaumic Computers; updated to MC1.12.2-0.5.1
 - Mods: Thaumic Periphery; updated to 0.3.1
 - Mods: Torchmaster; updated to 1.12.2-1.8.0.79

@@ -3,6 +3,7 @@ mods/**
 
 *.log
 !crafttweaker.log
+!dumpzs.log
 
 *.jar
 *.jar.meta

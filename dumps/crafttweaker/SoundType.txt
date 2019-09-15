@@ -1,0 +1,13 @@
+soundtype:
+<soundtype:sand>
+<soundtype:glass>
+<soundtype:ladder>
+<soundtype:snow>
+<soundtype:anvil>
+<soundtype:plant>
+<soundtype:field_185859_l>
+<soundtype:metal>
+<soundtype:wood>
+<soundtype:ground>
+<soundtype:stone>
+<soundtype:cloth>

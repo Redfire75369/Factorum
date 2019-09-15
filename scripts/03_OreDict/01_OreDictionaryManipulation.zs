@@ -10,9 +10,9 @@ function replace(item as IItemStack, oredict as IOreDictEntry) {
 	if (!(item.ores.empty)) {
 		for ore in item.ores {
 			recipes.replaceAllOccurences(ore, oredict);
-		} else {
+		} 
+	} else {
 		recipes.replaceAllOccurences(item, oredict);
-		}
 	}
 }
 
@@ -86,22 +86,22 @@ if (!<ore:clusterAluminum>.empty) {
 }
 
 /***** Clathrate Ores *****/
-hashClathrateOre["Ender"].add(<thermalfoundation:ore_fluid:4>);
-//recipes.replaceAllOccurences(oreDict["oreClathrateEnder"], hashClathrateOre["Ender"]);
+hashOreClathrate["Ender"].add(<thermalfoundation:ore_fluid:4>);
+//recipes.replaceAllOccurences(oreDict["oreClathrateEnder"], hashOreClathrate["Ender"]);
 
-hashClathrateOre["Glowstone"].add(<thermalfoundation:ore_fluid:3>);
-//recipes.replaceAllOccurences(oreDict["oreClathrateGlowstone"], hashClathrateOre["Glowstone"]);
+hashOreClathrate["Glowstone"].add(<thermalfoundation:ore_fluid:3>);
+//recipes.replaceAllOccurences(oreDict["oreClathrateGlowstone"], hashOreClathrate["Glowstone"]);
 
-hashClathrateOre["Oil"].add(<thermalfoundation:ore_fluid>);
-hashClathrateOre["Oil"].add(<thermalfoundation:ore_fluid:5>);
-//recipes.replaceAllOccurences(oreDict["oreClathrateOilSand"], hashClathrateOre["Oil"]);
+hashOreClathrate["Oil"].add(<thermalfoundation:ore_fluid>);
+hashOreClathrate["Oil"].add(<thermalfoundation:ore_fluid:5>);
+//recipes.replaceAllOccurences(oreDict["oreClathrateOilSand"], hashOreClathrate["Oil"]);
 
-hashClathrateOre["Oil"].add(<thermalfoundation:ore_fluid:1>);
-//recipes.replaceAllOccurences(oreDict["oreClathrateOilShale"], hashClathrateOre["Oil"]);
+hashOreClathrate["Oil"].add(<thermalfoundation:ore_fluid:1>);
+//recipes.replaceAllOccurences(oreDict["oreClathrateOilShale"], hashOreClathrate["Oil"]);
 
 
-hashClathrateOre["Redstone"].add(<thermalfoundation:ore_fluid:4>);
-//recipes.replaceAllOccurences(oreDict["oreClathrateRedstone"], hashClathrateOre["Redstone"]);
+hashOreClathrate["Redstone"].add(<thermalfoundation:ore_fluid:4>);
+//recipes.replaceAllOccurences(oreDict["oreClathrateRedstone"], hashOreClathrate["Redstone"]);
 
 /***** Vis Ores *****/
 

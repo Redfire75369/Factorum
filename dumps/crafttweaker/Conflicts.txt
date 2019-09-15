@@ -133,6 +133,7 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output appliedenergistics2:part:140
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output appliedenergistics2:part:140
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output appliedenergistics2:part:140
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 53 for recipe with output appliedenergistics2:part:120
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output appliedenergistics2:chest:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output appliedenergistics2:chest:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output appliedenergistics2:spatial_io_port:0
@@ -1294,6 +1295,7 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output randomthings:chunkanalyzer:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output randomthings:biomeradar:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output randomthings:biomeradar:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output enderio:item_fluid_conduit:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 148 for recipe with output stevescarts:upgrade:6
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output stevescarts:cartmodule:37
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output stevescarts:cartmodule:37
@@ -1574,30 +1576,55 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output actuallyadditions:block_greenhouse_glass:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output actuallyadditions:block_greenhouse_glass:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output actuallyadditions:block_greenhouse_glass:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:upgrade:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:upgrade:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:2
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:3
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:5
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:7
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass:8
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass_alloy:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass_alloy:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass_alloy:2
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass_alloy:3
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass_alloy:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass_alloy:5
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass_alloy:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalfoundation:glass_alloy:7
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 244 for recipe with output draconicevolution:diss_enchanter:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 244 for recipe with output draconicevolution:diss_enchanter:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output draconicevolution:potentiometer:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output thermalexpansion:machine:2
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output thermalexpansion:machine:2
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:machine:6
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:machine:7
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:machine:7
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:machine:8
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:machine:8
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:machine:12
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:machine:12
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:machine:15
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:device:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:device:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output thermalexpansion:device:3
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output thermalexpansion:device:3
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:device:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:device:9
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:tank:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:tank:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:tank:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:capacitor:2
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalexpansion:capacitor:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalexpansion:capacitor:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalexpansion:capacitor:2
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalexpansion:capacitor:3
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalexpansion:capacitor:4
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:reservoir:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:reservoir:2
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalexpansion:reservoir:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalexpansion:reservoir:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalexpansion:reservoir:2
@@ -1630,9 +1657,17 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:frame:128
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:frame:128
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:frame:128
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:augment:303
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:augment:320
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:augment:368
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:augment:368
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:augment:401
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:augment:401
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:augment:402
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:augment:432
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:augment:433
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermalexpansion:augment:448
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalexpansion:augment:576
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 88 for recipe with output cyclicmagic:sandstone_pickaxe:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 88 for recipe with output cyclicmagic:sandstone_pickaxe:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 88 for recipe with output cyclicmagic:sandstone_pickaxe:0
@@ -1688,7 +1723,7 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 57 for recipe with output astralsorcery:blockmarble:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 57 for recipe with output astralsorcery:blockmarble:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 57 for recipe with output astralsorcery:blockmarble:1
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 51779 for recipe with output botanicadds:mana_tesseract:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 54274 for recipe with output botanicadds:mana_tesseract:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output embers:ember_jar:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output embers:ember_cartridge:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output embers:ember_cartridge:0
@@ -1730,12 +1765,45 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermaldynamics:retriever:3
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermaldynamics:retriever:4
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermaldynamics:duct_0:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_0:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_0:9
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_0:9
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_0:9
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_0:9
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermaldynamics:duct_16:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:2
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:7
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:7
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:7
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:7
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_32:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_64:3
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_64:3
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_64:3
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_64:3
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_64:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_64:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_64:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_64:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_32:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_32:2
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_32:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_32:6
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:2
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermaldynamics:duct_16:6
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output thermaldynamics:duct_16:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output simplyjetpacks:metaitem:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output simplyjetpacks:metaitem:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output simplyjetpacks:metaitem:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output simplyjetpacks:metaitem:1
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output simplyjetpacks:metaitemmods:5
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output simplyjetpacks:metaitemmods:20
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output thermalcultivation:watering_can:2
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalcultivation:watering_can:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalcultivation:watering_can:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output thermalcultivation:watering_can:2
@@ -1866,6 +1934,10 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output techreborn:cable:4
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output techreborn:cable:4
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output techreborn:cable:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output techreborn:part:24
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output techreborn:part:24
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output techreborn:part:24
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output techreborn:part:24
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output nuclearcraft:reactor_casing_transparent:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output nuclearcraft:reactor_casing_transparent:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output nuclearcraft:reactor_casing_transparent:0
@@ -1943,55 +2015,64 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:bee_house:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:bee_house:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:bee_house:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:wood_pile:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:wood_pile:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:wood_pile:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:wood_pile:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:habitat_former:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:habitat_former:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:genetic_filter:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:genetic_filter:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:genetic_filter:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:forester_bag:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:forester_bag:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 703 for recipe with output forestry:bottler:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:wood_pile:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:wood_pile:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:wood_pile:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output forestry:wood_pile:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 754 for recipe with output forestry:bottler:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:bottler:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 703 for recipe with output forestry:bottler:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 754 for recipe with output forestry:bottler:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:bottler:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:bottler:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 703 for recipe with output forestry:bottler:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 754 for recipe with output forestry:bottler:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:bottler:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 703 for recipe with output forestry:bottler:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 754 for recipe with output forestry:bottler:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:carpenter:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:carpenter:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:centrifuge:0
@@ -2019,86 +2100,77 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:fabricator:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:raintank:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:raintank:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:database:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:tree_chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:butterfly_chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:genetic_filter:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:arboretum:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:arboretum:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:arboretum:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:arboretum:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_crops:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_crops:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_crops:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_crops:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:peat_bog:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:peat_bog:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:peat_bog:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:peat_bog:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_mushroom:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_mushroom:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_mushroom:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_mushroom:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_gourd:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_gourd:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_gourd:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_gourd:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_nether:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_nether:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_nether:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_nether:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_ender:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_ender:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_ender:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_ender:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:engine_peat:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:engine_biogas:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:engine_clockwork:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:engine_clockwork:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output forestry:engine_clockwork:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:engine_clockwork:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:tree_chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:butterfly_chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 179 for recipe with output forestry:ffarm:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:ffarm:4
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:arboretum:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:arboretum:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:arboretum:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:arboretum:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_crops:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_crops:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_crops:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_crops:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:peat_bog:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:peat_bog:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:peat_bog:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:peat_bog:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_mushroom:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_mushroom:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_mushroom:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_mushroom:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_gourd:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_gourd:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_gourd:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_gourd:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_nether:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_nether:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_nether:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_nether:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_ender:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_ender:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_ender:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:farm_ender:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:habitat_former:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output forestry:habitat_former:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output botany:trowel_wood:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output extratrees:hammer:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 405 for recipe with output extratrees:hammer:0
@@ -2127,6 +2199,12 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:hopper:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:hopper:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output enderio:block_reservoir:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output enderio:block_reservoir:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output enderio:block_reservoir:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output enderio:block_reservoir:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output enderio:block_reservoir:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output enderio:block_reservoir:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_omni_reservoir:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_omni_reservoir:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_omni_reservoir:0
@@ -2134,6 +2212,7 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_omni_reservoir:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_omni_reservoir:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_tank:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 145 for recipe with output enderio:block_tank:1
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_electric_light:2
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_electric_light:2
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output enderio:block_electric_light:2
@@ -2168,27 +2247,23 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output gendustry:apiary.upgrade:4
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output gendustry:apiary.upgrade:6
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output gendustry:apiary.upgrade:7
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:stick:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:stick:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output sct:stone_stick:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output sct:stone_stick:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:hopper:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:hopper:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 271 for recipe with output charset:logic_gate:0
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 271 for recipe with output charset:logic_gate:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 173 for recipe with output plethora:module:1
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output techreborn:part:24
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output techreborn:part:24
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output techreborn:part:24
-[SERVER_STARTED][SERVER][INFO] trimming list of size = 118 for recipe with output techreborn:part:24
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 271 for recipe with output charset:logic_gate:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 271 for recipe with output charset:logic_gate:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:stick:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:stick:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output sct:stone_stick:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output sct:stone_stick:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:chest:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:hopper:0
+[SERVER_STARTED][SERVER][INFO] trimming list of size = 191 for recipe with output minecraft:hopper:0
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 4970 for recipe with output extratrees:multifence:16387
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 4970 for recipe with output extratrees:multifence:16387
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 4970 for recipe with output extratrees:multifence:16387
@@ -2261,30 +2336,89 @@
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 4970 for recipe with output extratrees:multifence:16387
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 4970 for recipe with output extratrees:multifence:16387
 [SERVER_STARTED][SERVER][INFO] trimming list of size = 4970 for recipe with output extratrees:multifence:16387
-[SERVER_STARTED][SERVER][INFO] Conflicting: 471
+[SERVER_STARTED][SERVER][INFO] Conflicting: 733
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_ingot_to_nugget](Silver Nugget) <mysticalworld:silver_nugget:0> * 9 conflicts with [Shaped] [thaumcraft:silvertonuggets](Silver Nugget) <thaumcraft:nugget:3> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_block_to_ingot](Silver Ingot) <mysticalworld:silver_ingot:0> * 9 conflicts with [Shaped] [chisel:uncraft_blocksilver](Silver Ingot) <thermalfoundation:material:130> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_ingot_to_nugget](Copper Nugget) <mysticalworld:copper_nugget:0> * 9 conflicts with [Shaped] [mekanism:nugget_5](Copper Nugget) <mekanism:nugget:5> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_ingot_to_nugget](Copper Nugget) <mysticalworld:copper_nugget:0> * 9 conflicts with [Shaped] [thaumcraft:coppertonuggets](Copper Nugget) <thaumcraft:nugget:1> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_block_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 9 conflicts with [Shaped] [magneticraft:ingots_copper_from_block](Copper Ingot) <magneticraft:ingots:2> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_block_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 9 conflicts with [Shaped] [chisel:uncraft_blockcopper](Copper Ingot) <thermalfoundation:material:128> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:silver_nugget](Silver Nugget) <bewitchment:silver_nugget:0> * 9 conflicts with [Shapeless] [immersiveengineering:metal_storage/silver_ingot_uncraft](Silver Nugget) <immersiveengineering:metal:23> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:silver_nugget](Silver Nugget) <bewitchment:silver_nugget:0> * 9 conflicts with [Shapeless] [thermalfoundation:material_12](Silver Nugget) <thermalfoundation:material:194> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:silver_nugget](Silver Nugget) <bewitchment:silver_nugget:0> * 9 conflicts with [Shapeless] [embers:ingotsilver_ingot_decomp](Silver Nugget) <embers:nugget_silver:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:silver_nugget](Silver Nugget) <bewitchment:silver_nugget:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_11](Silver Nugget) <techreborn:nuggets:11> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:block_of_silver_to_resource](Silver Ingot) <bewitchment:silver_ingot:0> * 9 conflicts with [Shapeless] [immersiveengineering:metal_storage/silver_block_uncraft](Silver Ingot) <immersiveengineering:metal:3> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:block_of_silver_to_resource](Silver Ingot) <bewitchment:silver_ingot:0> * 9 conflicts with [Shapeless] [thermalfoundation:material_43](Silver Ingot) <thermalfoundation:material:130> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:block_of_silver_to_resource](Silver Ingot) <bewitchment:silver_ingot:0> * 9 conflicts with [Shapeless] [embers:ingotsilver_block_decomp](Silver Ingot) <embers:ingot_silver:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:block_of_silver_to_resource](Silver Ingot) <bewitchment:silver_ingot:0> * 9 conflicts with [Shapeless] [techreborn:ingot](Silver Ingot) <techreborn:ingot:11> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [bewitchment:block_of_silver_to_resource](Silver Ingot) <bewitchment:silver_ingot:0> * 9 conflicts with [Shapeless] [nuclearcraft:item.thermalfoundation.material.ingotsilver](Silver Ingot) <thermalfoundation:material:130> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:stone_decoration/cokeblock_uncraft](Coal Coke) <immersiveengineering:material:6> * 9 conflicts with [Shapeless] [thermalfoundation:material_58](Coal Coke) <thermalfoundation:material:802> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/steel_ingot_uncraft](Steel Nugget) <immersiveengineering:metal:28> * 9 conflicts with [Shapeless] [tcomplement:steelworks/steel_nugget](Steel Nugget) <tcomplement:materials:20> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/steel_ingot_uncraft](Steel Nugget) <immersiveengineering:metal:28> * 9 conflicts with [Shapeless] [thermalfoundation:material_26](Steel Nugget) <thermalfoundation:material:224> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/steel_ingot_uncraft](Steel Nugget) <immersiveengineering:metal:28> * 9 conflicts with [Shapeless] [techreborn:nuggets_12](Steel Nugget) <techreborn:nuggets:12> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/steel_block_uncraft](Steel Ingot) <immersiveengineering:metal:8> * 9 conflicts with [Shapeless] [tcomplement:steelworks/steel_ingot_from_block](Steel Ingot) <tcomplement:materials:10> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/steel_block_uncraft](Steel Ingot) <immersiveengineering:metal:8> * 9 conflicts with [Shapeless] [thermalfoundation:material_50](Steel Ingot) <thermalfoundation:material:160> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/silver_ingot_uncraft](Silver Nugget) <immersiveengineering:metal:23> * 9 conflicts with [Shapeless] [thermalfoundation:material_12](Silver Nugget) <thermalfoundation:material:194> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/silver_ingot_uncraft](Silver Nugget) <immersiveengineering:metal:23> * 9 conflicts with [Shapeless] [embers:ingotsilver_ingot_decomp](Silver Nugget) <embers:nugget_silver:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/silver_ingot_uncraft](Silver Nugget) <immersiveengineering:metal:23> * 9 conflicts with [Shapeless] [techreborn:nuggets_11](Silver Nugget) <techreborn:nuggets:11> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/silver_block_uncraft](Silver Ingot) <immersiveengineering:metal:3> * 9 conflicts with [Shapeless] [thermalfoundation:material_43](Silver Ingot) <thermalfoundation:material:130> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/silver_block_uncraft](Silver Ingot) <immersiveengineering:metal:3> * 9 conflicts with [Shapeless] [embers:ingotsilver_block_decomp](Silver Ingot) <embers:ingot_silver:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/nickel_ingot_uncraft](Nickel Nugget) <immersiveengineering:metal:24> * 9 conflicts with [Shapeless] [thermalfoundation:material_18](Nickel Nugget) <thermalfoundation:material:197> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/nickel_ingot_uncraft](Nickel Nugget) <immersiveengineering:metal:24> * 9 conflicts with [Shapeless] [embers:ingotnickel_ingot_decomp](Nickel Nugget) <embers:nugget_nickel:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/nickel_ingot_uncraft](Nickel Nugget) <immersiveengineering:metal:24> * 9 conflicts with [Shapeless] [techreborn:nuggets_9](Nickel Nugget) <techreborn:nuggets:9> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/nickel_block_uncraft](Nickel Ingot) <immersiveengineering:metal:4> * 9 conflicts with [Shapeless] [thermalfoundation:material_46](Nickel Ingot) <thermalfoundation:material:133> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/nickel_block_uncraft](Nickel Ingot) <immersiveengineering:metal:4> * 9 conflicts with [Shapeless] [embers:ingotnickel_block_decomp](Nickel Ingot) <embers:ingot_nickel:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/lead_ingot_uncraft](Lead Nugget) <immersiveengineering:metal:22> * 9 conflicts with [Shapeless] [thermalfoundation:material_14](Lead Nugget) <thermalfoundation:material:195> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/lead_ingot_uncraft](Lead Nugget) <immersiveengineering:metal:22> * 9 conflicts with [Shapeless] [embers:ingotlead_ingot_decomp](Lead Nugget) <embers:nugget_lead:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/lead_ingot_uncraft](Lead Nugget) <immersiveengineering:metal:22> * 9 conflicts with [Shapeless] [techreborn:nuggets_8](Lead Nugget) <techreborn:nuggets:8> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/lead_block_uncraft](Lead Ingot) <immersiveengineering:metal:2> * 9 conflicts with [Shapeless] [thermalfoundation:material_44](Lead Ingot) <thermalfoundation:material:131> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/lead_block_uncraft](Lead Ingot) <immersiveengineering:metal:2> * 9 conflicts with [Shapeless] [embers:ingotlead_block_decomp](Lead Ingot) <embers:ingot_lead:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/iron_ingot_uncraft](Iron Nugget) <immersiveengineering:metal:29> * 9 conflicts with [Shapeless] [techreborn:nuggets_20](Iron Nugget) <techreborn:nuggets:23> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/electrum_ingot_uncraft](Electrum Nugget) <immersiveengineering:metal:27> * 9 conflicts with [Shapeless] [thermalfoundation:material_28](Electrum Nugget) <thermalfoundation:material:225> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/electrum_ingot_uncraft](Electrum Nugget) <immersiveengineering:metal:27> * 9 conflicts with [Shapeless] [embers:ingotelectrum_ingot_decomp](Electrum Nugget) <embers:nugget_electrum:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/electrum_ingot_uncraft](Electrum Nugget) <immersiveengineering:metal:27> * 9 conflicts with [Shapeless] [techreborn:nuggets_5](Electrum Nugget) <techreborn:nuggets:5> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/electrum_block_uncraft](Electrum Ingot) <immersiveengineering:metal:7> * 9 conflicts with [Shapeless] [thermalfoundation:material_51](Electrum Ingot) <thermalfoundation:material:161> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/electrum_block_uncraft](Electrum Ingot) <immersiveengineering:metal:7> * 9 conflicts with [Shapeless] [embers:ingotelectrum_block_decomp](Electrum Ingot) <embers:ingot_electrum:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/copper_ingot_uncraft](Copper Nugget) <immersiveengineering:metal:20> * 9 conflicts with [Shapeless] [thermalfoundation:material_8](Copper Nugget) <thermalfoundation:material:192> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/copper_ingot_uncraft](Copper Nugget) <immersiveengineering:metal:20> * 9 conflicts with [Shapeless] [embers:ingotcopper_ingot_decomp](Copper Nugget) <embers:nugget_copper:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/copper_ingot_uncraft](Copper Nugget) <immersiveengineering:metal:20> * 9 conflicts with [Shapeless] [techreborn:nuggets_4](Copper Nugget) <techreborn:nuggets:4> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/copper_block_uncraft](Copper Ingot) <immersiveengineering:metal:0> * 9 conflicts with [Shapeless] [thermalfoundation:material_41](Copper Ingot) <thermalfoundation:material:128> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/copper_block_uncraft](Copper Ingot) <immersiveengineering:metal:0> * 9 conflicts with [Shapeless] [embers:ingotcopper_block_decomp](Copper Ingot) <embers:ingot_copper:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/copper_block_uncraft](Copper Ingot) <immersiveengineering:metal:0> * 9 conflicts with [Shapeless] [forestry:block_to_copper](Copper Ingot) <forestry:ingot_copper:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/constantan_ingot_uncraft](Constantan Nugget) <immersiveengineering:metal:26> * 9 conflicts with [Shapeless] [thermalfoundation:material_34](Constantan Nugget) <thermalfoundation:material:228> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/constantan_block_uncraft](Constantan Ingot) <immersiveengineering:metal:6> * 9 conflicts with [Shapeless] [thermalfoundation:material_54](Constantan Ingot) <thermalfoundation:material:164> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/aluminum_ingot_uncraft](Aluminium Nugget) <immersiveengineering:metal:21> * 9 conflicts with [Shapeless] [thermalfoundation:material_16](Aluminum Nugget) <thermalfoundation:material:196> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/aluminum_ingot_uncraft](Aluminium Nugget) <immersiveengineering:metal:21> * 9 conflicts with [Shapeless] [embers:ingotaluminum_ingot_decomp](Aluminium Nugget) <embers:nugget_aluminum:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/aluminum_ingot_uncraft](Aluminium Nugget) <immersiveengineering:metal:21> * 9 conflicts with [Shapeless] [techreborn:nuggets](Aluminium Nugget) <techreborn:nuggets:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/aluminum_block_uncraft](Aluminium Ingot) <immersiveengineering:metal:1> * 9 conflicts with [Shapeless] [thermalfoundation:material_45](Aluminum Ingot) <thermalfoundation:material:132> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:metal_storage/aluminum_block_uncraft](Aluminium Ingot) <immersiveengineering:metal:1> * 9 conflicts with [Shapeless] [embers:ingotaluminum_block_decomp](Aluminium Ingot) <embers:ingot_aluminum:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [extendedcrafting:emerald_nugget_from](Diamond Nugget) <extendedcrafting:material:128> * 9 conflicts with [Shapeless] [thermalfoundation:material_5](Diamond Nugget) <thermalfoundation:material:16> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [extendedcrafting:emerald_nugget_from](Diamond Nugget) <extendedcrafting:material:128> * 9 conflicts with [Shapeless] [techreborn:nuggets_21](Diamond Nugget) <techreborn:nuggets:24> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [extendedcrafting:diamond_nugget_from](Emerald Nugget) <extendedcrafting:material:129> * 9 conflicts with [Shapeless] [thermalfoundation:material_6](Emerald Nugget) <thermalfoundation:material:17> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [bigreactors:ingot_steel](Steel Ingot) <bigreactors:ingotsteel:0> * 9 conflicts with [Shapeless] [tcomplement:steelworks/steel_ingot_from_block](Steel Ingot) <tcomplement:materials:10> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [bigreactors:ingot_steel](Steel Ingot) <bigreactors:ingotsteel:0> * 9 conflicts with [Shapeless] [thermalfoundation:material_50](Steel Ingot) <thermalfoundation:material:160> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:nugget_6](Tin Nugget) <mekanism:nugget:6> * 9 conflicts with [Shaped] [magneticraft:nuggets_tin](Tin Nugget) <magneticraft:nuggets:13> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:nugget_6](Tin Nugget) <mekanism:nugget:6> * 9 conflicts with [Shaped] [thaumcraft:tintonuggets](Tin Nugget) <thaumcraft:nugget:2> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:nugget_5](Copper Nugget) <mekanism:nugget:5> * 9 conflicts with [Shaped] [magneticraft:nuggets_copper](Copper Nugget) <magneticraft:nuggets:2> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:nugget_5](Copper Nugget) <mekanism:nugget:5> * 9 conflicts with [Shaped] [thaumcraft:coppertonuggets](Copper Nugget) <thaumcraft:nugget:1> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:nugget_4](Steel Nugget) <mekanism:nugget:4> * 9 conflicts with [Shaped] [magneticraft:nuggets_steel](Steel Nugget) <magneticraft:nuggets:6> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:nugget_1](Osmium Nugget) <mekanism:nugget:1> * 9 conflicts with [Shaped] [magneticraft:nuggets_osmium](Osmium Nugget) <magneticraft:nuggets:11> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_6](Tin Ingot) <mekanism:ingot:6> * 9 conflicts with [Shaped] [chisel:uncraft_blocktin](Tin Ingot) <thermalfoundation:material:129> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_5](Copper Ingot) <mekanism:ingot:5> * 9 conflicts with [Shaped] [magneticraft:ingots_copper_from_block](Copper Ingot) <magneticraft:ingots:2> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_5](Copper Ingot) <mekanism:ingot:5> * 9 conflicts with [Shaped] [chisel:uncraft_blockcopper](Copper Ingot) <thermalfoundation:material:128> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_4](Steel Ingot) <mekanism:ingot:4> * 9 conflicts with [Shaped] [chisel:uncraft_blocksteel](Steel Ingot) <thermalfoundation:material:160> * 9
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_2](Bronze Ingot) <mekanism:ingot:2> * 9 conflicts with [Shaped] [chisel:uncraft_blockbronze](Bronze Ingot) <thermalfoundation:material:163> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_lead_from_block](Lead Ingot) <magneticraft:ingots:3> * 9 conflicts with [Shaped] [chisel:uncraft_blocklead](Lead Ingot) <thermalfoundation:material:131> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_copper_from_block](Copper Ingot) <magneticraft:ingots:2> * 9 conflicts with [Shaped] [chisel:uncraft_blockcopper](Copper Ingot) <thermalfoundation:material:128> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_cobalt_from_block](Cobalt Ingot) <magneticraft:ingots:4> * 9 conflicts with [Shaped] [chisel:uncraft_blockcobalt](Cobalt Ingot) <tconstruct:ingots:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [naturalpledge:aquadeconvert](Aquamarine Shard) <naturalpledge:resource:4> * 9 conflicts with [Shapeless] [jaopca:itemcraftingcomponent_jez31p](Aquamarine) <astralsorcery:itemcraftingcomponent:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [plustic:metals/invar_nugget](Invar Nugget) <plustic:invarnugget:0> * 9 conflicts with [Shapeless] [thermalfoundation:material_30](Invar Nugget) <thermalfoundation:material:226> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [plustic:metals/invar_nugget](Invar Nugget) <plustic:invarnugget:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_6](Invar Nugget) <techreborn:nuggets:6> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [plustic:metals/invar_ingot](Invar Ingot) <plustic:invaringot:0> * 9 conflicts with [Shapeless] [thermalfoundation:material_52](Invar Ingot) <thermalfoundation:material:162> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [tcomplement:steelworks/steel_nugget](Steel Nugget) <tcomplement:materials:20> * 9 conflicts with [Shapeless] [thermalfoundation:material_26](Steel Nugget) <thermalfoundation:material:224> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [tcomplement:steelworks/steel_nugget](Steel Nugget) <tcomplement:materials:20> * 9 conflicts with [Shapeless] [techreborn:nuggets_12](Steel Nugget) <techreborn:nuggets:12> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [tcomplement:steelworks/steel_ingot_from_block](Steel Ingot) <tcomplement:materials:10> * 9 conflicts with [Shapeless] [thermalfoundation:material_50](Steel Ingot) <thermalfoundation:material:160> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [tcomplement:steelworks/steel_ingot_from_block](Steel Ingot) <tcomplement:materials:10> * 9 conflicts with [Shapeless] [techreborn:ingot_4](Steel Ingot) <techreborn:ingot:12> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [tcomplement:steelworks/steel_ingot_from_block](Steel Ingot) <tcomplement:materials:10> * 9 conflicts with [Shapeless] [tp:steel_block2](Steel Ingot) <tp:steel_ingot:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [actuallyadditions:recipes53](Tiny Coal) <actuallyadditions:item_misc:10> * 8 conflicts with [Shapeless] [jaopca:item_nuggetcoal_7y63g2](Coal Nugget) <jaopca:item_nuggetcoal:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [actuallyadditions:recipes241](Toast) <actuallyadditions:item_food:10> * 2 conflicts with [Shapeless] [tp:bread_slice](Bread Slice) <tp:bread_slice:0> * 10
@@ -2297,6 +2431,8 @@
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_12](Silver Nugget) <thermalfoundation:material:194> * 9 conflicts with [Shapeless] [techreborn:nuggets_11](Silver Nugget) <techreborn:nuggets:11> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_14](Lead Nugget) <thermalfoundation:material:195> * 9 conflicts with [Shapeless] [embers:ingotlead_ingot_decomp](Lead Nugget) <embers:nugget_lead:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_14](Lead Nugget) <thermalfoundation:material:195> * 9 conflicts with [Shapeless] [techreborn:nuggets_8](Lead Nugget) <techreborn:nuggets:8> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_16](Aluminum Nugget) <thermalfoundation:material:196> * 9 conflicts with [Shapeless] [embers:ingotaluminum_ingot_decomp](Aluminium Nugget) <embers:nugget_aluminum:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_16](Aluminum Nugget) <thermalfoundation:material:196> * 9 conflicts with [Shapeless] [techreborn:nuggets](Aluminium Nugget) <techreborn:nuggets:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_18](Nickel Nugget) <thermalfoundation:material:197> * 9 conflicts with [Shapeless] [embers:ingotnickel_ingot_decomp](Nickel Nugget) <embers:nugget_nickel:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_18](Nickel Nugget) <thermalfoundation:material:197> * 9 conflicts with [Shapeless] [techreborn:nuggets_9](Nickel Nugget) <techreborn:nuggets:9> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_20](Platinum Nugget) <thermalfoundation:material:198> * 9 conflicts with [Shapeless] [techreborn:nuggets_10](Platinum Nugget) <techreborn:nuggets:10> * 9
@@ -2308,31 +2444,59 @@
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_32](Bronze Nugget) <thermalfoundation:material:227> * 9 conflicts with [Shapeless] [embers:ingotbronze_ingot_decomp](Bronze Nugget) <embers:nugget_bronze:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_32](Bronze Nugget) <thermalfoundation:material:227> * 9 conflicts with [Shapeless] [techreborn:nuggets_2](Bronze Nugget) <techreborn:nuggets:2> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_41](Copper Ingot) <thermalfoundation:material:128> * 9 conflicts with [Shapeless] [embers:ingotcopper_block_decomp](Copper Ingot) <embers:ingot_copper:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_41](Copper Ingot) <thermalfoundation:material:128> * 9 conflicts with [Shapeless] [techreborn:ingot_16](Copper Ingot) <techreborn:ingot:4> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_41](Copper Ingot) <thermalfoundation:material:128> * 9 conflicts with [Shapeless] [forestry:block_to_copper](Copper Ingot) <forestry:ingot_copper:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_42](Tin Ingot) <thermalfoundation:material:129> * 9 conflicts with [Shapeless] [embers:ingottin_block_decomp](Tin Ingot) <embers:ingot_tin:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_42](Tin Ingot) <thermalfoundation:material:129> * 9 conflicts with [Shapeless] [techreborn:ingot_17](Tin Ingot) <techreborn:ingot:13> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_42](Tin Ingot) <thermalfoundation:material:129> * 9 conflicts with [Shapeless] [forestry:block_to_tin](Tin Ingot) <forestry:ingot_tin:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_43](Silver Ingot) <thermalfoundation:material:130> * 9 conflicts with [Shapeless] [embers:ingotsilver_block_decomp](Silver Ingot) <embers:ingot_silver:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_43](Silver Ingot) <thermalfoundation:material:130> * 9 conflicts with [Shapeless] [techreborn:ingot](Silver Ingot) <techreborn:ingot:11> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_44](Lead Ingot) <thermalfoundation:material:131> * 9 conflicts with [Shapeless] [embers:ingotlead_block_decomp](Lead Ingot) <embers:ingot_lead:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_44](Lead Ingot) <thermalfoundation:material:131> * 9 conflicts with [Shapeless] [techreborn:ingot_6](Lead Ingot) <techreborn:ingot:8> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_45](Aluminum Ingot) <thermalfoundation:material:132> * 9 conflicts with [Shapeless] [embers:ingotaluminum_block_decomp](Aluminium Ingot) <embers:ingot_aluminum:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_45](Aluminum Ingot) <thermalfoundation:material:132> * 9 conflicts with [Shapeless] [techreborn:ingot_1](Aluminium Ingot) <techreborn:ingot:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_46](Nickel Ingot) <thermalfoundation:material:133> * 9 conflicts with [Shapeless] [embers:ingotnickel_block_decomp](Nickel Ingot) <embers:ingot_nickel:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_46](Nickel Ingot) <thermalfoundation:material:133> * 9 conflicts with [Shapeless] [techreborn:ingot_11](Nickel Ingot) <techreborn:ingot:9> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_47](Platinum Ingot) <thermalfoundation:material:134> * 9 conflicts with [Shapeless] [techreborn:ingot_9](Platinum Ingot) <techreborn:ingot:10> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_48](Iridium Ingot) <thermalfoundation:material:135> * 9 conflicts with [Shapeless] [techreborn:ingot_13](Iridium Ingot) <techreborn:ingot:7> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_50](Steel Ingot) <thermalfoundation:material:160> * 9 conflicts with [Shapeless] [techreborn:ingot_4](Steel Ingot) <techreborn:ingot:12> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_50](Steel Ingot) <thermalfoundation:material:160> * 9 conflicts with [Shapeless] [tp:steel_block2](Steel Ingot) <tp:steel_ingot:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_51](Electrum Ingot) <thermalfoundation:material:161> * 9 conflicts with [Shapeless] [embers:ingotelectrum_block_decomp](Electrum Ingot) <embers:ingot_electrum:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_51](Electrum Ingot) <thermalfoundation:material:161> * 9 conflicts with [Shapeless] [techreborn:ingot_7](Electrum Ingot) <techreborn:ingot:5> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_52](Invar Ingot) <thermalfoundation:material:162> * 9 conflicts with [Shapeless] [techreborn:ingot_12](Invar Ingot) <techreborn:ingot:6> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_53](Bronze Ingot) <thermalfoundation:material:163> * 9 conflicts with [Shapeless] [embers:ingotbronze_block_decomp](Bronze Ingot) <embers:ingot_bronze:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_53](Bronze Ingot) <thermalfoundation:material:163> * 9 conflicts with [Shapeless] [techreborn:ingot_14](Bronze Ingot) <techreborn:ingot:2> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_53](Bronze Ingot) <thermalfoundation:material:163> * 9 conflicts with [Shapeless] [forestry:block_to_bronze](Bronze Ingot) <forestry:ingot_bronze:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotlead_block_decomp](Lead Ingot) <embers:ingot_lead:0> * 9 conflicts with [Shapeless] [techreborn:ingot_6](Lead Ingot) <techreborn:ingot:8> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotlead_block_decomp](Lead Ingot) <embers:ingot_lead:0> * 9 conflicts with [Shapeless] [nuclearcraft:item.thermalfoundation.material.ingotlead](Lead Ingot) <thermalfoundation:material:131> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotlead_ingot_decomp](Lead Nugget) <embers:nugget_lead:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_8](Lead Nugget) <techreborn:nuggets:8> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotcopper_block_decomp](Copper Ingot) <embers:ingot_copper:0> * 9 conflicts with [Shapeless] [techreborn:ingot_16](Copper Ingot) <techreborn:ingot:4> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotcopper_block_decomp](Copper Ingot) <embers:ingot_copper:0> * 9 conflicts with [Shapeless] [nuclearcraft:item.thermalfoundation.material.ingotcopper](Copper Ingot) <thermalfoundation:material:128> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotcopper_block_decomp](Copper Ingot) <embers:ingot_copper:0> * 9 conflicts with [Shapeless] [forestry:block_to_copper](Copper Ingot) <forestry:ingot_copper:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotcopper_ingot_decomp](Copper Nugget) <embers:nugget_copper:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_4](Copper Nugget) <techreborn:nuggets:4> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotsilver_block_decomp](Silver Ingot) <embers:ingot_silver:0> * 9 conflicts with [Shapeless] [techreborn:ingot](Silver Ingot) <techreborn:ingot:11> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotsilver_block_decomp](Silver Ingot) <embers:ingot_silver:0> * 9 conflicts with [Shapeless] [nuclearcraft:item.thermalfoundation.material.ingotsilver](Silver Ingot) <thermalfoundation:material:130> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotsilver_ingot_decomp](Silver Nugget) <embers:nugget_silver:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_11](Silver Nugget) <techreborn:nuggets:11> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotaluminum_block_decomp](Aluminium Ingot) <embers:ingot_aluminum:0> * 9 conflicts with [Shapeless] [techreborn:ingot_1](Aluminium Ingot) <techreborn:ingot:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotaluminum_block_decomp](Aluminium Ingot) <embers:ingot_aluminum:0> * 9 conflicts with [Shapeless] [nuclearcraft:item.thermalfoundation.material.ingotaluminum](Aluminum Ingot) <thermalfoundation:material:132> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotaluminum_ingot_decomp](Aluminium Nugget) <embers:nugget_aluminum:0> * 9 conflicts with [Shapeless] [techreborn:nuggets](Aluminium Nugget) <techreborn:nuggets:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotbronze_block_decomp](Bronze Ingot) <embers:ingot_bronze:0> * 9 conflicts with [Shapeless] [techreborn:ingot_14](Bronze Ingot) <techreborn:ingot:2> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotbronze_block_decomp](Bronze Ingot) <embers:ingot_bronze:0> * 9 conflicts with [Shapeless] [forestry:block_to_bronze](Bronze Ingot) <forestry:ingot_bronze:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotbronze_ingot_decomp](Bronze Nugget) <embers:nugget_bronze:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_2](Bronze Nugget) <techreborn:nuggets:2> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotelectrum_block_decomp](Electrum Ingot) <embers:ingot_electrum:0> * 9 conflicts with [Shapeless] [techreborn:ingot_7](Electrum Ingot) <techreborn:ingot:5> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotelectrum_ingot_decomp](Electrum Nugget) <embers:nugget_electrum:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_5](Electrum Nugget) <techreborn:nuggets:5> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotnickel_block_decomp](Nickel Ingot) <embers:ingot_nickel:0> * 9 conflicts with [Shapeless] [techreborn:ingot_11](Nickel Ingot) <techreborn:ingot:9> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingotnickel_ingot_decomp](Nickel Nugget) <embers:nugget_nickel:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_9](Nickel Nugget) <techreborn:nuggets:9> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingottin_block_decomp](Tin Ingot) <embers:ingot_tin:0> * 9 conflicts with [Shapeless] [techreborn:ingot_17](Tin Ingot) <techreborn:ingot:13> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingottin_block_decomp](Tin Ingot) <embers:ingot_tin:0> * 9 conflicts with [Shapeless] [nuclearcraft:item.thermalfoundation.material.ingottin](Tin Ingot) <thermalfoundation:material:129> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingottin_block_decomp](Tin Ingot) <embers:ingot_tin:0> * 9 conflicts with [Shapeless] [forestry:block_to_tin](Tin Ingot) <forestry:ingot_tin:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [embers:ingottin_ingot_decomp](Tin Nugget) <embers:nugget_tin:0> * 9 conflicts with [Shapeless] [techreborn:nuggets_13](Tin Nugget) <techreborn:nuggets:13> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [techreborn:ingot_14](Bronze Ingot) <techreborn:ingot:2> * 9 conflicts with [Shapeless] [forestry:block_to_bronze](Bronze Ingot) <forestry:ingot_bronze:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [techreborn:ingot_16](Copper Ingot) <techreborn:ingot:4> * 9 conflicts with [Shapeless] [forestry:block_to_copper](Copper Ingot) <forestry:ingot_copper:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [techreborn:ingot_17](Tin Ingot) <techreborn:ingot:13> * 9 conflicts with [Shapeless] [forestry:block_to_tin](Tin Ingot) <forestry:ingot_tin:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [techreborn:smalldust_51](Small Pile of Sulfur Dust) <techreborn:smalldust:52> * 4 conflicts with [Shapeless] [botany:pigment_black](Sulphur Powder) <botany:misc:3> * 4
-[SERVER_STARTED][SERVER][INFO] [Shapeless] [crafttweaker:thermalfoundation-material_16-modified](Aluminum Nugget) <thermalfoundation:material:196> * 9 conflicts with [Shapeless] [crafttweaker:embers-ingotaluminum_ingot_decomp-modified](Aluminium Nugget) <embers:nugget_aluminum:0> * 9
-[SERVER_STARTED][SERVER][INFO] [Shapeless] [crafttweaker:thermalfoundation-material_16-modified](Aluminum Nugget) <thermalfoundation:material:196> * 9 conflicts with [Shapeless] [crafttweaker:techreborn-nuggets-modified](Aluminium Nugget) <techreborn:nuggets:0> * 9
-[SERVER_STARTED][SERVER][INFO] [Shapeless] [crafttweaker:embers-ingotaluminum_ingot_decomp-modified](Aluminium Nugget) <embers:nugget_aluminum:0> * 9 conflicts with [Shapeless] [crafttweaker:techreborn-nuggets-modified](Aluminium Nugget) <techreborn:nuggets:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [nuclearcraft:item.thermalfoundation.material.ingotcopper](Copper Ingot) <thermalfoundation:material:128> * 9 conflicts with [Shapeless] [forestry:block_to_copper](Copper Ingot) <forestry:ingot_copper:0> * 9
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [nuclearcraft:item.thermalfoundation.material.ingottin](Tin Ingot) <thermalfoundation:material:129> * 9 conflicts with [Shapeless] [forestry:block_to_tin](Tin Ingot) <forestry:ingot_tin:0> * 9
 [SERVER_STARTED][SERVER][INFO] [Shaped] [minecraft:wooden_pressure_plate](Wooden Pressure Plate) <minecraft:wooden_pressure_plate:0> * 1 conflicts with [Shaped] [mysticalworld:charred_pressure_plate](Charred Pressure Plate) <mysticalworld:charred_pressure_plate:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [minecraft:wooden_pressure_plate](Wooden Pressure Plate) <minecraft:wooden_pressure_plate:0> * 1 conflicts with [Shaped] [bewitchment:yew_pressure_plate](Yew Pressure Plate) <bewitchment:yew_pressure_plate:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [minecraft:wooden_pressure_plate](Wooden Pressure Plate) <minecraft:wooden_pressure_plate:0> * 1 conflicts with [Shaped] [bewitchment:juniper_pressure_plate](Juniper Pressure Plate) <bewitchment:juniper_pressure_plate:0> * 1
@@ -2340,6 +2504,7 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [minecraft:wooden_pressure_plate](Wooden Pressure Plate) <minecraft:wooden_pressure_plate:0> * 1 conflicts with [Shaped] [bewitchment:cypress_pressure_plate](Cypress Pressure Plate) <bewitchment:cypress_pressure_plate:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [roots:wildwood_pressure_plate](Wildwood Pressure Plate) <roots:wildwood_pressure_plate:0> * 1 conflicts with [Shaped] [noname](Item Rack) <tconstruct:rack:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:material/dust_constantan](Constantan Grit) <immersiveengineering:metal:15> * 2 conflicts with [Shapeless] [thermalfoundation:material_3](Constantan Blend) <thermalfoundation:material:100> * 2
+[SERVER_STARTED][SERVER][INFO] [Shaped] [extendedcrafting:black_iron_rod](Black Iron Rod) <extendedcrafting:material:3> * 1 conflicts with [Shaped] [jaopca:item_stickblackiron_og06et](Black Iron Rod) <jaopca:item_stickblackiron:0> * 4
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:hammercrushing_silver](Silver Grit) <immersiveengineering:metal:12> * 1 conflicts with [Shapeless] [immersiveengineering:hammercrushing_lead](Lead Grit) <immersiveengineering:metal:11> * 1
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:hammercrushing_silver](Silver Grit) <immersiveengineering:metal:12> * 1 conflicts with [Shapeless] [immersiveengineering:hammercrushing_galena](Galena Dust) <techreborn:dust:23> * 1
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [immersiveengineering:hammercrushing_lead](Lead Grit) <immersiveengineering:metal:11> * 1 conflicts with [Shapeless] [immersiveengineering:hammercrushing_galena](Galena Dust) <techreborn:dust:23> * 1
@@ -2356,6 +2521,7 @@
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_108](Pulverized Silver) <thermalfoundation:material:66> * 2 conflicts with [Shapeless] [thermalfoundation:dust_2](Galena Dust) <techreborn:dust:23> * 2
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_110](Silver Ingot) <thermalfoundation:material:130> * 1 conflicts with [Shapeless] [thermalfoundation:material_115](Lead Ingot) <thermalfoundation:material:131> * 1
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_113](Pulverized Lead) <thermalfoundation:material:67> * 2 conflicts with [Shapeless] [thermalfoundation:dust_2](Galena Dust) <techreborn:dust:23> * 2
+[SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_119](Pulverized Aluminum) <thermalfoundation:material:68> * 1 conflicts with [Shapeless] [thermalfoundation:dusts_3](Aluminium Dust) <magneticraft:dusts:7> * 1
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:material_121](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shapeless] [thermalfoundation:ingots_7](Aluminium Ingot) <magneticraft:ingots:7> * 1
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:dust_3](Ruby Dust) <techreborn:dust:43> * 2 conflicts with [Shapeless] [thermalfoundation:gem](Ruby) <techreborn:gem:0> * 2
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:dust_4](Sapphire Dust) <techreborn:dust:45> * 2 conflicts with [Shapeless] [thermalfoundation:gem_1](Sapphire) <techreborn:gem:1> * 2
@@ -2378,12 +2544,20 @@
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [thermalfoundation:item_dustaquamarine](Aquamarine Dust) <jaopca:item_dustaquamarine:0> * 2 conflicts with [Shapeless] [thermalfoundation:itemcraftingcomponent_5](Aquamarine) <astralsorcery:itemcraftingcomponent:0> * 2
 [SERVER_STARTED][SERVER][INFO] [Shaped] [jaopca:item_stickuranium_ezfhr9](Uranium Rod) <jaopca:item_stickuranium:0> * 4 conflicts with [Shaped] [jaopca:item_stickyellorium_7bst3e](Yellorium Rod) <jaopca:item_stickyellorium:0> * 4
 [SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:tweak_stick_from_wood](Stick) <minecraft:stick:0> * 16 conflicts with [Shaped] [noname](Stone Stick) <sct:stone_stick:0> * 16
-[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Stick) <minecraft:stick:0> * 16 conflicts with [Shaped] [noname](Stone Stick) <sct:stone_stick:0> * 16
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [crafttweaker:thermalfoundation-material_118-modified](Pulverized Aluminum) <thermalfoundation:material:68> * 2 conflicts with [Shapeless] [crafttweaker:thermalfoundation-dusts_2-modified](Aluminium Dust) <magneticraft:dusts:7> * 2
 [SERVER_STARTED][SERVER][INFO] [Shapeless] [crafttweaker:thermalfoundation-material_120-modified](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shapeless] [crafttweaker:thermalfoundation-ingots_6-modified](Aluminium Ingot) <magneticraft:ingots:7> * 1
-[SERVER_STARTED][SERVER][INFO] [Shapeless] [crafttweaker:thermalfoundation-material_119-modified](Pulverized Aluminum) <thermalfoundation:material:68> * 1 conflicts with [Shapeless] [crafttweaker:thermalfoundation-dusts_3-modified](Aluminium Dust) <magneticraft:dusts:7> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Stick) <minecraft:stick:0> * 16 conflicts with [Shaped] [noname](Stone Stick) <sct:stone_stick:0> * 16
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:equipment/tool/silver_sword](Silver Sword) <bewitchment:silver_sword:0> * 1 conflicts with [Shaped] [thermalfoundation:tool.sword_silver](Silver Sword) <thermalfoundation:tool.sword_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:equipment/tool/silver_shovel](Silver Shovel) <bewitchment:silver_shovel:0> * 1 conflicts with [Shaped] [thermalfoundation:tool.shovel_silver](Silver Shovel) <thermalfoundation:tool.shovel_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/uranium_slab](Uranium Slab) <immersiveengineering:storage_slab:5> * 6 conflicts with [Shaped] [jaopca:block_slaburanium_jarpiw](Uranium Slab) <jaopca:block_slaburanium:0> * 6
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_slab](Steel Slab) <immersiveengineering:storage_slab:8> * 6 conflicts with [Shaped] [jaopca:block_slabsteel_gd4t9g](Steel Slab) <jaopca:block_slabsteel:0> * 6
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_slab](Silver Slab) <immersiveengineering:storage_slab:3> * 6 conflicts with [Shaped] [jaopca:block_slabsilver_5009a6](Silver Slab) <jaopca:block_slabsilver:0> * 6
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_slab](Nickel Slab) <immersiveengineering:storage_slab:4> * 6 conflicts with [Shaped] [jaopca:block_slabnickel_2hzpsx](Nickel Slab) <jaopca:block_slabnickel:0> * 6
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_slab](Lead Slab) <immersiveengineering:storage_slab:2> * 6 conflicts with [Shaped] [jaopca:block_slablead_9ku4un](Lead Slab) <jaopca:block_slablead:0> * 6
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/electrum_slab](Electrum Slab) <immersiveengineering:storage_slab:7> * 6 conflicts with [Shaped] [jaopca:block_slabelectrum_ddq6r4](Electrum Slab) <jaopca:block_slabelectrum:0> * 6
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_slab](Copper Slab) <immersiveengineering:storage_slab:0> * 6 conflicts with [Shaped] [jaopca:block_slabcopper_l6h0fm](Copper Slab) <jaopca:block_slabcopper:0> * 6
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/constantan_slab](Constantan Slab) <immersiveengineering:storage_slab:6> * 6 conflicts with [Shaped] [jaopca:block_slabconstantan_nfjyka](Constantan Slab) <jaopca:block_slabconstantan:0> * 6
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_slab](Aluminium Slab) <immersiveengineering:storage_slab:1> * 6 conflicts with [Shaped] [jaopca:block_slabaluminium_020tw6](Aluminium Slab) <jaopca:block_slabaluminium:0> * 6
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanismtools:bronzesword](Bronze Sword) <mekanismtools:bronzesword:0> * 1 conflicts with [Shaped] [thermalfoundation:tool.sword_bronze](Bronze Sword) <thermalfoundation:tool.sword_bronze:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanismtools:bronzesword](Bronze Sword) <mekanismtools:bronzesword:0> * 1 conflicts with [Shaped] [techreborn:bronzesword](Bronze Sword) <techreborn:bronzesword:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanismtools:bronzeshovel](Bronze Shovel) <mekanismtools:bronzeshovel:0> * 1 conflicts with [Shaped] [thermalfoundation:tool.shovel_bronze](Bronze Shovel) <thermalfoundation:tool.shovel_bronze:0> * 1
@@ -2401,7 +2575,6 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.shears_diamond](Diamond Shears) <thermalfoundation:tool.shears_diamond:0> * 1 conflicts with [Shaped] [vanillatools:tool.shears_diamond](Diamond Shears) <vanillatools:tool.shears_diamond:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.shears_gold](Gold Shears) <thermalfoundation:tool.shears_gold:0> * 1 conflicts with [Shaped] [vanillatools:tool.shears_gold](Gold Shears) <vanillatools:tool.shears_gold:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [jaopca:item_dusttinyuranium_i0nec1](Tiny Pile of Uranium Dust) <jaopca:item_dusttinyuranium:0> * 9 conflicts with [Shaped] [jaopca:item_dusttinyyellorium_ekcgs6](Tiny Pile of Yellorium Dust) <jaopca:item_dusttinyyellorium:0> * 9
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:jaopca-item_dusttinyquartz_n0qbp3-rererererereremodified](Tiny Pile of Quartz Dust) <jaopca:item_dusttinyquartz:0> * 9 conflicts with [Shaped] [crafttweaker:jaopca-item_dustsmallquartz_i97h4v-rererererereremodified](Small Pile of Quartz Dust) <jaopca:item_dustsmallquartz:0> * 4
 [SERVER_STARTED][SERVER][INFO] [Shaped] [minecraft:white_stained_glass_pane](White Stained Glass Pane) <minecraft:stained_glass_pane:0> * 16 conflicts with [Shaped] [enderio:compatibility_glass_pane](Glass Pane) <minecraft:glass_pane:0> * 16
 [SERVER_STARTED][SERVER][INFO] [Shaped] [minecraft:trapdoor](Wooden Trapdoor) <minecraft:trapdoor:0> * 2 conflicts with [Shaped] [mysticalworld:charred_wall](Charred Wall) <mysticalworld:charred_wall:0> * 6
 [SERVER_STARTED][SERVER][INFO] [Shaped] [minecraft:trapdoor](Wooden Trapdoor) <minecraft:trapdoor:0> * 2 conflicts with [Shaped] [bewitchment:yew_trapdoor](Yew Trapdoor) <bewitchment:yew_trapdoor:0> * 2
@@ -2439,18 +2612,55 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:armor.boots_bronze](Bronze Boots) <thermalfoundation:armor.boots_bronze:0> * 1 conflicts with [Shaped] [techreborn:bronzeboots](Bronze Boots) <techreborn:bronzeboots:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.axe_bronze](Bronze Axe) <thermalfoundation:tool.axe_bronze:0> * 1 conflicts with [Shaped] [techreborn:bronzeaxe](Bronze Axe) <techreborn:bronzeaxe:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.hoe_bronze](Bronze Hoe) <thermalfoundation:tool.hoe_bronze:0> * 1 conflicts with [Shaped] [techreborn:bronzehoe](Bronze Hoe) <techreborn:bronzehoe:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_just_to_be_sure](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_just_to_be_sure](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_just_to_be_sure](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_better_save_than_sorry](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_better_save_than_sorry](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_better_save_than_sorry](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [advancedliftingmethods:item.rotor](Rotor) <advancedliftingmethods:rotor:0> * 1 conflicts with [Shaped] [mysticalmechanics:gear_iron](Iron Gear) <mysticalmechanics:gear_iron:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [appliedenergistics2:misc/grindstone_woodengear](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [thermalfoundation:material_59](Wooden Gear) <thermalfoundation:material:22> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [appliedenergistics2:misc/grindstone_woodengear](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [enderio:gear_wood](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [appliedenergistics2:misc/grindstone_woodengear](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [enderio:gear_wood](Wooden Gear) <thermalfoundation:material:22> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [appliedenergistics2:misc/grindstone_woodengear](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [appliedenergistics2:misc/grindstone_woodengear](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_sword](Silver Sword) <mysticalworld:silver_sword:0> * 1 conflicts with [Shaped] [embers:ingotsilver_sword](Silver Sword) <embers:sword_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_shovel](Silver Shovel) <mysticalworld:silver_shovel:0> * 1 conflicts with [Shaped] [embers:ingotsilver_shovel](Silver Shovel) <embers:shovel_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_pickaxe](Silver Pickaxe) <mysticalworld:silver_pickaxe:0> * 1 conflicts with [Shaped] [bewitchment:equipment/tool/silver_pickaxe](Silver Pickaxe) <bewitchment:silver_pickaxe:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_pickaxe](Silver Pickaxe) <mysticalworld:silver_pickaxe:0> * 1 conflicts with [Shaped] [thermalfoundation:tool.pickaxe_silver](Silver Pickaxe) <thermalfoundation:tool.pickaxe_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_pickaxe](Silver Pickaxe) <mysticalworld:silver_pickaxe:0> * 1 conflicts with [Shaped] [embers:ingotsilver_pickaxe](Silver Pickaxe) <embers:pickaxe_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_nugget_to_ingot](Silver Ingot) <mysticalworld:silver_ingot:0> * 1 conflicts with [Shaped] [bewitchment:silver_ingot](Silver Ingot) <bewitchment:silver_ingot:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_nugget_to_ingot](Silver Ingot) <mysticalworld:silver_ingot:0> * 1 conflicts with [Shaped] [magneticraft:ingots_silver](Silver Ingot) <magneticraft:ingots:12> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_nugget_to_ingot](Silver Ingot) <mysticalworld:silver_ingot:0> * 1 conflicts with [Shaped] [thermalfoundation:material_11](Silver Ingot) <thermalfoundation:material:130> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_nugget_to_ingot](Silver Ingot) <mysticalworld:silver_ingot:0> * 1 conflicts with [Shaped] [agricraft:combine_nugget_silver](Silver Ingot) <thermalfoundation:material:130> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_nugget_to_ingot](Silver Ingot) <mysticalworld:silver_ingot:0> * 1 conflicts with [Shaped] [embers:ingotsilver_ingot](Silver Ingot) <embers:ingot_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_nugget_to_ingot](Silver Ingot) <mysticalworld:silver_ingot:0> * 1 conflicts with [Shaped] [techreborn:ingot_30](Silver Ingot) <techreborn:ingot:11> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_ingot_to_block](Block of Silver) <mysticalworld:silver_block:0> * 1 conflicts with [Shaped] [bewitchment:block_of_silver](Block of Silver) <bewitchment:block_of_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_ingot_to_block](Block of Silver) <mysticalworld:silver_block:0> * 1 conflicts with [Shaped] [thermalfoundation:storage_2](Block of Silver) <thermalfoundation:storage:2> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_ingot_to_block](Block of Silver) <mysticalworld:silver_block:0> * 1 conflicts with [Shaped] [embers:ingotsilver_block](Silver Block) <embers:block_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:silver_ingot_to_block](Block of Silver) <mysticalworld:silver_block:0> * 1 conflicts with [Shaped] [techreborn:storage](Block of Silver) <techreborn:storage:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_sword](Copper Sword) <mysticalworld:copper_sword:0> * 1 conflicts with [Shaped] [embers:ingotcopper_sword](Copper Sword) <embers:sword_copper:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_shovel](Copper Shovel) <mysticalworld:copper_shovel:0> * 1 conflicts with [Shaped] [embers:ingotcopper_shovel](Copper Shovel) <embers:shovel_copper:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_pickaxe](Copper Pickaxe) <mysticalworld:copper_pickaxe:0> * 1 conflicts with [Shaped] [thermalfoundation:tool.pickaxe_copper](Copper Pickaxe) <thermalfoundation:tool.pickaxe_copper:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_pickaxe](Copper Pickaxe) <mysticalworld:copper_pickaxe:0> * 1 conflicts with [Shaped] [embers:ingotcopper_pickaxe](Copper Pickaxe) <embers:pickaxe_copper:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_nugget_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 1 conflicts with [Shaped] [mekanism:ingot_5_alt](Copper Ingot) <mekanism:ingot:5> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_nugget_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 1 conflicts with [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_nugget_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 1 conflicts with [Shaped] [thermalfoundation:material_7](Copper Ingot) <thermalfoundation:material:128> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_nugget_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 1 conflicts with [Shaped] [agricraft:combine_nugget_copper](Copper Ingot) <thermalfoundation:material:128> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_nugget_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 1 conflicts with [Shaped] [embers:ingotcopper_ingot](Copper Ingot) <embers:ingot_copper:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_nugget_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 1 conflicts with [Shaped] [magicbees:nuggetcopper_to_block](Copper Ingot) <thermalfoundation:material:128> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_nugget_to_ingot](Copper Ingot) <mysticalworld:copper_ingot:0> * 1 conflicts with [Shaped] [techreborn:ingot_23](Copper Ingot) <techreborn:ingot:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_ingot_to_block](Block of Copper) <mysticalworld:copper_block:0> * 1 conflicts with [Shaped] [mekanism:basicblock_12](Copper Block) <mekanism:basicblock:12> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_ingot_to_block](Block of Copper) <mysticalworld:copper_block:0> * 1 conflicts with [Shaped] [magneticraft:storage_blocks_copper](Copper Block) <magneticraft:storage_blocks:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_ingot_to_block](Block of Copper) <mysticalworld:copper_block:0> * 1 conflicts with [Shaped] [thermalfoundation:storage](Block of Copper) <thermalfoundation:storage:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_ingot_to_block](Block of Copper) <mysticalworld:copper_block:0> * 1 conflicts with [Shaped] [embers:ingotcopper_block](Copper Block) <embers:block_copper:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_ingot_to_block](Block of Copper) <mysticalworld:copper_block:0> * 1 conflicts with [Shaped] [techreborn:storage2_6](Block of Copper) <techreborn:storage2:8> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:copper_ingot_to_block](Block of Copper) <mysticalworld:copper_block:0> * 1 conflicts with [Shaped] [forestry:copper_block](Block of Copper) <forestry:resource_storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalworld:amethyst_gem_to_block](Block of Amethyst) <mysticalworld:amethyst_block:0> * 1 conflicts with [Shaped] [bewitchment:block_of_amethyst](Block of Amethyst) <bewitchment:block_of_amethyst:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tconstruct:gadgets/slimesling_fallback](Slimesling) <tconstruct:slimesling:0> * 1 conflicts with [Shaped] [tconstruct:gadgets/slimesling/magma](Slimesling) <tconstruct:slimesling:4> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tconstruct:gadgets/slimesling_fallback](Slimesling) <tconstruct:slimesling:0> * 1 conflicts with [Shaped] [tconstruct:gadgets/slimesling/purple](Slimesling) <tconstruct:slimesling:2> * 1
@@ -2458,7 +2668,9 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tconstruct:gadgets/slimesling_fallback](Slimesling) <tconstruct:slimesling:0> * 1 conflicts with [Shaped] [tconstruct:gadgets/slimesling/blue](Slimesling) <tconstruct:slimesling:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tconstruct:common/metals/cobalt/cobalt_block](Block of Cobalt) <tconstruct:metal:0> * 1 conflicts with [Shaped] [magneticraft:storage_blocks_cobalt](Cobalt Block) <magneticraft:storage_blocks:2> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tconstruct:common/metals/cobalt/cobalt_ingot_nugget](Cobalt Ingot) <tconstruct:ingots:0> * 1 conflicts with [Shaped] [magneticraft:ingots_cobalt](Cobalt Ingot) <magneticraft:ingots:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:silver_ingot](Silver Ingot) <bewitchment:silver_ingot:0> * 1 conflicts with [Shaped] [immersiveengineering:metal_storage/silver_ingot](Silver Ingot) <immersiveengineering:metal:3> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:silver_ingot](Silver Ingot) <bewitchment:silver_ingot:0> * 1 conflicts with [Shaped] [magneticraft:ingots_silver](Silver Ingot) <magneticraft:ingots:12> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:silver_ingot](Silver Ingot) <bewitchment:silver_ingot:0> * 1 conflicts with [Shaped] [thaumcraft:silvernuggetstoingot](Silver Ingot) <thermalfoundation:material:130> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:silver_ingot](Silver Ingot) <bewitchment:silver_ingot:0> * 1 conflicts with [Shaped] [thermalfoundation:material_11](Silver Ingot) <thermalfoundation:material:130> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:silver_ingot](Silver Ingot) <bewitchment:silver_ingot:0> * 1 conflicts with [Shaped] [agricraft:combine_nugget_silver](Silver Ingot) <thermalfoundation:material:130> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:silver_ingot](Silver Ingot) <bewitchment:silver_ingot:0> * 1 conflicts with [Shaped] [embers:ingotsilver_ingot](Silver Ingot) <embers:ingot_silver:0> * 1
@@ -2467,20 +2679,87 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:equipment/tool/silver_pickaxe](Silver Pickaxe) <bewitchment:silver_pickaxe:0> * 1 conflicts with [Shaped] [embers:ingotsilver_pickaxe](Silver Pickaxe) <embers:pickaxe_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:equipment/armor/silver_leggings](Silver Leggings) <bewitchment:silver_leggings:0> * 1 conflicts with [Shaped] [thermalfoundation:armor.legs_silver](Silver Leggings) <thermalfoundation:armor.legs_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:equipment/armor/silver_chestplate](Silver Chestplate) <bewitchment:silver_chestplate:0> * 1 conflicts with [Shaped] [thermalfoundation:armor.plate_silver](Silver Chestplate) <thermalfoundation:armor.plate_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:block_of_silver](Block of Silver) <bewitchment:block_of_silver:0> * 1 conflicts with [Shaped] [immersiveengineering:metal_storage/silver_block](Block of Silver) <immersiveengineering:storage:3> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:block_of_silver](Block of Silver) <bewitchment:block_of_silver:0> * 1 conflicts with [Shaped] [thermalfoundation:storage_2](Block of Silver) <thermalfoundation:storage:2> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:block_of_silver](Block of Silver) <bewitchment:block_of_silver:0> * 1 conflicts with [Shaped] [embers:ingotsilver_block](Silver Block) <embers:block_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:block_of_silver](Block of Silver) <bewitchment:block_of_silver:0> * 1 conflicts with [Shaped] [techreborn:storage](Block of Silver) <techreborn:storage:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [bewitchment:block_of_silver](Block of Silver) <bewitchment:block_of_silver:0> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.silver.name](Block of Silver) <thermalfoundation:storage:2> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [bibliocraft:compass](Compass) <bibliocraft:compass:0> * 1 conflicts with [Shaped] [randomthings:goldencompass](Golden Compass) <randomthings:goldencompass:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [computercraft:wired_modem](Wired Modem) <computercraft:cable:1> * 1 conflicts with [Shaped] [chisel:futura](Futura Block) <chisel:futura:0> * 8
 [SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:stone_decoration/cokeblock](Block of Coal Coke) <immersiveengineering:stone_decoration:3> * 1 conflicts with [Shaped] [thermalfoundation:storage_resource_1](Block of Coal Coke) <thermalfoundation:storage_resource:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_ingot](Steel Ingot) <immersiveengineering:metal:8> * 1 conflicts with [Shaped] [mekanism:ingot_4_alt](Steel Ingot) <mekanism:ingot:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_ingot](Steel Ingot) <immersiveengineering:metal:8> * 1 conflicts with [Shaped] [magneticraft:ingots_steel](Steel Ingot) <magneticraft:ingots:6> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_ingot](Steel Ingot) <immersiveengineering:metal:8> * 1 conflicts with [Shaped] [tcomplement:steelworks/steel_ingot_from_nugget](Steel Ingot) <tcomplement:materials:10> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_ingot](Steel Ingot) <immersiveengineering:metal:8> * 1 conflicts with [Shaped] [thermalfoundation:material_25](Steel Ingot) <thermalfoundation:material:160> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_ingot](Steel Ingot) <immersiveengineering:metal:8> * 1 conflicts with [Shaped] [techreborn:ingot_31](Steel Ingot) <techreborn:ingot:12> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_block](Block of Steel) <immersiveengineering:storage:8> * 1 conflicts with [Shaped] [mekanism:basicblock_5](Steel Block) <mekanism:basicblock:5> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_block](Block of Steel) <immersiveengineering:storage:8> * 1 conflicts with [Shaped] [tcomplement:steelworks/steel_block](Block of Steel) <tcomplement:storage:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_block](Block of Steel) <immersiveengineering:storage:8> * 1 conflicts with [Shaped] [thermalfoundation:storage_alloy](Block of Steel) <thermalfoundation:storage_alloy:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/steel_block](Block of Steel) <immersiveengineering:storage:8> * 1 conflicts with [Shaped] [techreborn:storage_4](Block of Steel) <techreborn:storage:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_ingot](Silver Ingot) <immersiveengineering:metal:3> * 1 conflicts with [Shaped] [magneticraft:ingots_silver](Silver Ingot) <magneticraft:ingots:12> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_ingot](Silver Ingot) <immersiveengineering:metal:3> * 1 conflicts with [Shaped] [thermalfoundation:material_11](Silver Ingot) <thermalfoundation:material:130> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_ingot](Silver Ingot) <immersiveengineering:metal:3> * 1 conflicts with [Shaped] [agricraft:combine_nugget_silver](Silver Ingot) <thermalfoundation:material:130> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_ingot](Silver Ingot) <immersiveengineering:metal:3> * 1 conflicts with [Shaped] [embers:ingotsilver_ingot](Silver Ingot) <embers:ingot_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_ingot](Silver Ingot) <immersiveengineering:metal:3> * 1 conflicts with [Shaped] [techreborn:ingot_30](Silver Ingot) <techreborn:ingot:11> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_block](Block of Silver) <immersiveengineering:storage:3> * 1 conflicts with [Shaped] [thermalfoundation:storage_2](Block of Silver) <thermalfoundation:storage:2> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_block](Block of Silver) <immersiveengineering:storage:3> * 1 conflicts with [Shaped] [embers:ingotsilver_block](Silver Block) <embers:block_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/silver_block](Block of Silver) <immersiveengineering:storage:3> * 1 conflicts with [Shaped] [techreborn:storage](Block of Silver) <techreborn:storage:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_ingot](Nickel Ingot) <immersiveengineering:metal:4> * 1 conflicts with [Shaped] [magneticraft:ingots_nickel](Nickel Ingot) <magneticraft:ingots:10> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_ingot](Nickel Ingot) <immersiveengineering:metal:4> * 1 conflicts with [Shaped] [thermalfoundation:material_17](Nickel Ingot) <thermalfoundation:material:133> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_ingot](Nickel Ingot) <immersiveengineering:metal:4> * 1 conflicts with [Shaped] [agricraft:combine_nugget_nickel](Nickel Ingot) <thermalfoundation:material:133> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_ingot](Nickel Ingot) <immersiveengineering:metal:4> * 1 conflicts with [Shaped] [embers:ingotnickel_ingot](Nickel Ingot) <embers:ingot_nickel:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_ingot](Nickel Ingot) <immersiveengineering:metal:4> * 1 conflicts with [Shaped] [techreborn:ingot_28](Nickel Ingot) <techreborn:ingot:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_block](Block of Nickel) <immersiveengineering:storage:4> * 1 conflicts with [Shaped] [thermalfoundation:storage_5](Block of Nickel) <thermalfoundation:storage:5> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_block](Block of Nickel) <immersiveengineering:storage:4> * 1 conflicts with [Shaped] [embers:ingotnickel_block](Nickel Block) <embers:block_nickel:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/nickel_block](Block of Nickel) <immersiveengineering:storage:4> * 1 conflicts with [Shaped] [techreborn:storage_11](Block of Nickel) <techreborn:storage:11> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_ingot](Lead Ingot) <immersiveengineering:metal:2> * 1 conflicts with [Shaped] [magneticraft:ingots_lead](Lead Ingot) <magneticraft:ingots:3> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_ingot](Lead Ingot) <immersiveengineering:metal:2> * 1 conflicts with [Shaped] [thermalfoundation:material_13](Lead Ingot) <thermalfoundation:material:131> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_ingot](Lead Ingot) <immersiveengineering:metal:2> * 1 conflicts with [Shaped] [agricraft:combine_nugget_lead](Lead Ingot) <thermalfoundation:material:131> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_ingot](Lead Ingot) <immersiveengineering:metal:2> * 1 conflicts with [Shaped] [embers:ingotlead_ingot](Lead Ingot) <embers:ingot_lead:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_ingot](Lead Ingot) <immersiveengineering:metal:2> * 1 conflicts with [Shaped] [techreborn:ingot_27](Lead Ingot) <techreborn:ingot:8> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_block](Block of Lead) <immersiveengineering:storage:2> * 1 conflicts with [Shaped] [magneticraft:storage_blocks_lead](Lead Block) <magneticraft:storage_blocks:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_block](Block of Lead) <immersiveengineering:storage:2> * 1 conflicts with [Shaped] [thermalfoundation:storage_3](Block of Lead) <thermalfoundation:storage:3> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_block](Block of Lead) <immersiveengineering:storage:2> * 1 conflicts with [Shaped] [embers:ingotlead_block](Lead Block) <embers:block_lead:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/lead_block](Block of Lead) <immersiveengineering:storage:2> * 1 conflicts with [Shaped] [techreborn:storage_6](Block of Lead) <techreborn:storage:6> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/electrum_ingot](Electrum Ingot) <immersiveengineering:metal:7> * 1 conflicts with [Shaped] [thermalfoundation:material_27](Electrum Ingot) <thermalfoundation:material:161> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/electrum_ingot](Electrum Ingot) <immersiveengineering:metal:7> * 1 conflicts with [Shaped] [embers:ingotelectrum_ingot](Electrum Ingot) <embers:ingot_electrum:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/electrum_ingot](Electrum Ingot) <immersiveengineering:metal:7> * 1 conflicts with [Shaped] [techreborn:ingot_24](Electrum Ingot) <techreborn:ingot:5> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/electrum_block](Block of Electrum) <immersiveengineering:storage:7> * 1 conflicts with [Shaped] [thermalfoundation:storage_alloy_1](Block of Electrum) <thermalfoundation:storage_alloy:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/electrum_block](Block of Electrum) <immersiveengineering:storage:7> * 1 conflicts with [Shaped] [embers:ingotelectrum_block](Electrum Block) <embers:block_electrum:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/electrum_block](Block of Electrum) <immersiveengineering:storage:7> * 1 conflicts with [Shaped] [techreborn:storage_7](Block of Electrum) <techreborn:storage:7> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_ingot](Copper Ingot) <immersiveengineering:metal:0> * 1 conflicts with [Shaped] [mekanism:ingot_5_alt](Copper Ingot) <mekanism:ingot:5> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_ingot](Copper Ingot) <immersiveengineering:metal:0> * 1 conflicts with [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_ingot](Copper Ingot) <immersiveengineering:metal:0> * 1 conflicts with [Shaped] [thermalfoundation:material_7](Copper Ingot) <thermalfoundation:material:128> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_ingot](Copper Ingot) <immersiveengineering:metal:0> * 1 conflicts with [Shaped] [agricraft:combine_nugget_copper](Copper Ingot) <thermalfoundation:material:128> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_ingot](Copper Ingot) <immersiveengineering:metal:0> * 1 conflicts with [Shaped] [embers:ingotcopper_ingot](Copper Ingot) <embers:ingot_copper:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_ingot](Copper Ingot) <immersiveengineering:metal:0> * 1 conflicts with [Shaped] [magicbees:nuggetcopper_to_block](Copper Ingot) <thermalfoundation:material:128> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_ingot](Copper Ingot) <immersiveengineering:metal:0> * 1 conflicts with [Shaped] [techreborn:ingot_23](Copper Ingot) <techreborn:ingot:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_block](Block of Copper) <immersiveengineering:storage:0> * 1 conflicts with [Shaped] [mekanism:basicblock_12](Copper Block) <mekanism:basicblock:12> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_block](Block of Copper) <immersiveengineering:storage:0> * 1 conflicts with [Shaped] [magneticraft:storage_blocks_copper](Copper Block) <magneticraft:storage_blocks:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_block](Block of Copper) <immersiveengineering:storage:0> * 1 conflicts with [Shaped] [thermalfoundation:storage](Block of Copper) <thermalfoundation:storage:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_block](Block of Copper) <immersiveengineering:storage:0> * 1 conflicts with [Shaped] [embers:ingotcopper_block](Copper Block) <embers:block_copper:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_block](Block of Copper) <immersiveengineering:storage:0> * 1 conflicts with [Shaped] [techreborn:storage2_6](Block of Copper) <techreborn:storage2:8> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/copper_block](Block of Copper) <immersiveengineering:storage:0> * 1 conflicts with [Shaped] [forestry:copper_block](Block of Copper) <forestry:resource_storage:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/constantan_ingot](Constantan Ingot) <immersiveengineering:metal:6> * 1 conflicts with [Shaped] [thermalfoundation:material_33](Constantan Ingot) <thermalfoundation:material:164> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/constantan_block](Block of Constantan) <immersiveengineering:storage:6> * 1 conflicts with [Shaped] [thermalfoundation:storage_alloy_4](Block of Constantan) <thermalfoundation:storage_alloy:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_ingot](Aluminium Ingot) <immersiveengineering:metal:1> * 1 conflicts with [Shaped] [magneticraft:ingots_aluminium](Aluminium Ingot) <magneticraft:ingots:7> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_ingot](Aluminium Ingot) <immersiveengineering:metal:1> * 1 conflicts with [Shaped] [thermalfoundation:material_15](Aluminum Ingot) <thermalfoundation:material:132> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_ingot](Aluminium Ingot) <immersiveengineering:metal:1> * 1 conflicts with [Shaped] [agricraft:combine_nugget_aluminum](Aluminum Ingot) <thermalfoundation:material:132> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_ingot](Aluminium Ingot) <immersiveengineering:metal:1> * 1 conflicts with [Shaped] [embers:ingotaluminum_ingot](Aluminium Ingot) <embers:ingot_aluminum:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_ingot](Aluminium Ingot) <immersiveengineering:metal:1> * 1 conflicts with [Shaped] [techreborn:ingot_19](Aluminium Ingot) <techreborn:ingot:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_block](Block of Aluminium) <immersiveengineering:storage:1> * 1 conflicts with [Shaped] [thermalfoundation:storage_4](Block of Aluminum) <thermalfoundation:storage:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_block](Block of Aluminium) <immersiveengineering:storage:1> * 1 conflicts with [Shaped] [embers:ingotaluminum_block](Aluminium Block) <embers:block_aluminum:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [immersiveengineering:metal_storage/aluminum_block](Block of Aluminium) <immersiveengineering:storage:1> * 1 conflicts with [Shaped] [techreborn:storage_1](Block of Aluminium) <techreborn:storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [extendedcrafting:block_of_nether_stars_to](Block of Nether Stars) <extendedcrafting:storage:2> * 1 conflicts with [Shaped] [tp:netherstar_block](Compressed Nether Star Block) <tp:netherstar_block:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_6_alt](Tin Ingot) <mekanism:ingot:6> * 1 conflicts with [Shaped] [magneticraft:ingots_tin](Tin Ingot) <magneticraft:ingots:13> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_6_alt](Tin Ingot) <mekanism:ingot:6> * 1 conflicts with [Shaped] [thaumcraft:tinnuggetstoingot](Tin Ingot) <thermalfoundation:material:129> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_6_alt](Tin Ingot) <mekanism:ingot:6> * 1 conflicts with [Shaped] [thermalfoundation:material_9](Tin Ingot) <thermalfoundation:material:129> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_6_alt](Tin Ingot) <mekanism:ingot:6> * 1 conflicts with [Shaped] [agricraft:combine_nugget_tin](Tin Ingot) <thermalfoundation:material:129> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_6_alt](Tin Ingot) <mekanism:ingot:6> * 1 conflicts with [Shaped] [embers:ingottin_ingot](Tin Ingot) <embers:ingot_tin:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_6_alt](Tin Ingot) <mekanism:ingot:6> * 1 conflicts with [Shaped] [magicbees:nuggettin_to_block](Tin Ingot) <thermalfoundation:material:129> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_6_alt](Tin Ingot) <mekanism:ingot:6> * 1 conflicts with [Shaped] [techreborn:ingot_32](Tin Ingot) <techreborn:ingot:13> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_5_alt](Copper Ingot) <mekanism:ingot:5> * 1 conflicts with [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_5_alt](Copper Ingot) <mekanism:ingot:5> * 1 conflicts with [Shaped] [thaumcraft:coppernuggetstoingot](Copper Ingot) <thermalfoundation:material:128> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_5_alt](Copper Ingot) <mekanism:ingot:5> * 1 conflicts with [Shaped] [thermalfoundation:material_7](Copper Ingot) <thermalfoundation:material:128> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_5_alt](Copper Ingot) <mekanism:ingot:5> * 1 conflicts with [Shaped] [agricraft:combine_nugget_copper](Copper Ingot) <thermalfoundation:material:128> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_5_alt](Copper Ingot) <mekanism:ingot:5> * 1 conflicts with [Shaped] [embers:ingotcopper_ingot](Copper Ingot) <embers:ingot_copper:0> * 1
@@ -2495,6 +2774,7 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_2_alt](Bronze Ingot) <mekanism:ingot:2> * 1 conflicts with [Shaped] [magicbees:nuggetbronze_to_block](Bronze Ingot) <thermalfoundation:material:163> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_2_alt](Bronze Ingot) <mekanism:ingot:2> * 1 conflicts with [Shaped] [techreborn:ingot_21](Bronze Ingot) <techreborn:ingot:2> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:ingot_1_alt](Osmium Ingot) <mekanism:ingot:1> * 1 conflicts with [Shaped] [magneticraft:ingots_osmium](Osmium Ingot) <magneticraft:ingots:11> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_5](Steel Block) <mekanism:basicblock:5> * 1 conflicts with [Shapeless] [bigreactors:block_steel](Steel Block) <bigreactors:blocksteel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_5](Steel Block) <mekanism:basicblock:5> * 1 conflicts with [Shaped] [tcomplement:steelworks/steel_block](Block of Steel) <tcomplement:storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_5](Steel Block) <mekanism:basicblock:5> * 1 conflicts with [Shaped] [thermalfoundation:storage_alloy](Block of Steel) <thermalfoundation:storage_alloy:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_5](Steel Block) <mekanism:basicblock:5> * 1 conflicts with [Shaped] [techreborn:storage_4](Block of Steel) <techreborn:storage:4> * 1
@@ -2508,11 +2788,13 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_13](Tin Block) <mekanism:basicblock:13> * 1 conflicts with [Shaped] [thermalfoundation:storage_1](Block of Tin) <thermalfoundation:storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_13](Tin Block) <mekanism:basicblock:13> * 1 conflicts with [Shaped] [embers:ingottin_block](Tin Block) <embers:block_tin:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_13](Tin Block) <mekanism:basicblock:13> * 1 conflicts with [Shaped] [techreborn:storage2_7](Block of Tin) <techreborn:storage2:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_13](Tin Block) <mekanism:basicblock:13> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.tin.name](Block of Tin) <thermalfoundation:storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_13](Tin Block) <mekanism:basicblock:13> * 1 conflicts with [Shaped] [forestry:tin_block](Block of Tin) <forestry:resource_storage:2> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_12](Copper Block) <mekanism:basicblock:12> * 1 conflicts with [Shaped] [magneticraft:storage_blocks_copper](Copper Block) <magneticraft:storage_blocks:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_12](Copper Block) <mekanism:basicblock:12> * 1 conflicts with [Shaped] [thermalfoundation:storage](Block of Copper) <thermalfoundation:storage:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_12](Copper Block) <mekanism:basicblock:12> * 1 conflicts with [Shaped] [embers:ingotcopper_block](Copper Block) <embers:block_copper:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_12](Copper Block) <mekanism:basicblock:12> * 1 conflicts with [Shaped] [techreborn:storage2_6](Block of Copper) <techreborn:storage2:8> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_12](Copper Block) <mekanism:basicblock:12> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.copper.name](Block of Copper) <thermalfoundation:storage:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_12](Copper Block) <mekanism:basicblock:12> * 1 conflicts with [Shaped] [forestry:copper_block](Block of Copper) <forestry:resource_storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_1](Bronze Block) <mekanism:basicblock:1> * 1 conflicts with [Shaped] [thermalfoundation:storage_alloy_3](Block of Bronze) <thermalfoundation:storage_alloy:3> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mekanism:basicblock_1](Bronze Block) <mekanism:basicblock:1> * 1 conflicts with [Shaped] [embers:ingotbronze_block](Bronze Block) <embers:block_bronze:0> * 1
@@ -2521,6 +2803,7 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_steel](Steel Ingot) <magneticraft:ingots:6> * 1 conflicts with [Shaped] [tcomplement:steelworks/steel_ingot_from_nugget](Steel Ingot) <tcomplement:materials:10> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_steel](Steel Ingot) <magneticraft:ingots:6> * 1 conflicts with [Shaped] [thermalfoundation:material_25](Steel Ingot) <thermalfoundation:material:160> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_steel](Steel Ingot) <magneticraft:ingots:6> * 1 conflicts with [Shaped] [techreborn:ingot_31](Steel Ingot) <techreborn:ingot:12> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_silver](Silver Ingot) <magneticraft:ingots:12> * 1 conflicts with [Shaped] [thaumcraft:silvernuggetstoingot](Silver Ingot) <thermalfoundation:material:130> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_silver](Silver Ingot) <magneticraft:ingots:12> * 1 conflicts with [Shaped] [thermalfoundation:material_11](Silver Ingot) <thermalfoundation:material:130> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_silver](Silver Ingot) <magneticraft:ingots:12> * 1 conflicts with [Shaped] [agricraft:combine_nugget_silver](Silver Ingot) <thermalfoundation:material:130> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_silver](Silver Ingot) <magneticraft:ingots:12> * 1 conflicts with [Shaped] [embers:ingotsilver_ingot](Silver Ingot) <embers:ingot_silver:0> * 1
@@ -2531,23 +2814,32 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_nickel](Nickel Ingot) <magneticraft:ingots:10> * 1 conflicts with [Shaped] [embers:ingotnickel_ingot](Nickel Ingot) <embers:ingot_nickel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_nickel](Nickel Ingot) <magneticraft:ingots:10> * 1 conflicts with [Shaped] [techreborn:ingot_28](Nickel Ingot) <techreborn:ingot:9> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_mithril](Mithril Ingot) <magneticraft:ingots:9> * 1 conflicts with [Shaped] [thermalfoundation:material_23](Mana Infused Ingot) <thermalfoundation:material:136> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_lead](Lead Ingot) <magneticraft:ingots:3> * 1 conflicts with [Shaped] [thaumcraft:leadnuggetstoingot](Lead Ingot) <thermalfoundation:material:131> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_lead](Lead Ingot) <magneticraft:ingots:3> * 1 conflicts with [Shaped] [thermalfoundation:material_13](Lead Ingot) <thermalfoundation:material:131> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_lead](Lead Ingot) <magneticraft:ingots:3> * 1 conflicts with [Shaped] [agricraft:combine_nugget_lead](Lead Ingot) <thermalfoundation:material:131> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_lead](Lead Ingot) <magneticraft:ingots:3> * 1 conflicts with [Shaped] [embers:ingotlead_ingot](Lead Ingot) <embers:ingot_lead:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_lead](Lead Ingot) <magneticraft:ingots:3> * 1 conflicts with [Shaped] [techreborn:ingot_27](Lead Ingot) <techreborn:ingot:8> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1 conflicts with [Shaped] [thaumcraft:coppernuggetstoingot](Copper Ingot) <thermalfoundation:material:128> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1 conflicts with [Shaped] [thermalfoundation:material_7](Copper Ingot) <thermalfoundation:material:128> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1 conflicts with [Shaped] [agricraft:combine_nugget_copper](Copper Ingot) <thermalfoundation:material:128> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1 conflicts with [Shaped] [embers:ingotcopper_ingot](Copper Ingot) <embers:ingot_copper:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1 conflicts with [Shaped] [magicbees:nuggetcopper_to_block](Copper Ingot) <thermalfoundation:material:128> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_copper](Copper Ingot) <magneticraft:ingots:2> * 1 conflicts with [Shaped] [techreborn:ingot_23](Copper Ingot) <techreborn:ingot:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_aluminium](Aluminium Ingot) <magneticraft:ingots:7> * 1 conflicts with [Shaped] [thermalfoundation:material_15](Aluminum Ingot) <thermalfoundation:material:132> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_aluminium](Aluminium Ingot) <magneticraft:ingots:7> * 1 conflicts with [Shaped] [agricraft:combine_nugget_aluminum](Aluminum Ingot) <thermalfoundation:material:132> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_aluminium](Aluminium Ingot) <magneticraft:ingots:7> * 1 conflicts with [Shaped] [embers:ingotaluminum_ingot](Aluminium Ingot) <embers:ingot_aluminum:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_aluminium](Aluminium Ingot) <magneticraft:ingots:7> * 1 conflicts with [Shaped] [techreborn:ingot_19](Aluminium Ingot) <techreborn:ingot:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_tungsten](Tungsten Block) <magneticraft:storage_blocks:3> * 1 conflicts with [Shaped] [techreborn:storage_10](Block of Tungsten) <techreborn:storage:10> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_lead](Lead Block) <magneticraft:storage_blocks:1> * 1 conflicts with [Shaped] [thermalfoundation:storage_3](Block of Lead) <thermalfoundation:storage:3> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_lead](Lead Block) <magneticraft:storage_blocks:1> * 1 conflicts with [Shaped] [embers:ingotlead_block](Lead Block) <embers:block_lead:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_lead](Lead Block) <magneticraft:storage_blocks:1> * 1 conflicts with [Shaped] [techreborn:storage_6](Block of Lead) <techreborn:storage:6> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_lead](Lead Block) <magneticraft:storage_blocks:1> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.lead.name](Block of Lead) <thermalfoundation:storage:3> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_copper](Copper Block) <magneticraft:storage_blocks:0> * 1 conflicts with [Shaped] [thermalfoundation:storage](Block of Copper) <thermalfoundation:storage:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_copper](Copper Block) <magneticraft:storage_blocks:0> * 1 conflicts with [Shaped] [embers:ingotcopper_block](Copper Block) <embers:block_copper:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_copper](Copper Block) <magneticraft:storage_blocks:0> * 1 conflicts with [Shaped] [techreborn:storage2_6](Block of Copper) <techreborn:storage2:8> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_copper](Copper Block) <magneticraft:storage_blocks:0> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.copper.name](Block of Copper) <thermalfoundation:storage:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:storage_blocks_copper](Copper Block) <magneticraft:storage_blocks:0> * 1 conflicts with [Shaped] [forestry:copper_block](Block of Copper) <forestry:resource_storage:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_tin](Tin Ingot) <magneticraft:ingots:13> * 1 conflicts with [Shaped] [thaumcraft:tinnuggetstoingot](Tin Ingot) <thermalfoundation:material:129> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_tin](Tin Ingot) <magneticraft:ingots:13> * 1 conflicts with [Shaped] [thermalfoundation:material_9](Tin Ingot) <thermalfoundation:material:129> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_tin](Tin Ingot) <magneticraft:ingots:13> * 1 conflicts with [Shaped] [agricraft:combine_nugget_tin](Tin Ingot) <thermalfoundation:material:129> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magneticraft:ingots_tin](Tin Ingot) <magneticraft:ingots:13> * 1 conflicts with [Shaped] [embers:ingottin_ingot](Tin Ingot) <embers:ingot_tin:0> * 1
@@ -2569,6 +2861,7 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [plustic:metals/invar_ingot_nugget](Invar Ingot) <plustic:invaringot:0> * 1 conflicts with [Shaped] [techreborn:ingot_25](Invar Ingot) <techreborn:ingot:6> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:steelworks/steel_ingot_from_nugget](Steel Ingot) <tcomplement:materials:10> * 1 conflicts with [Shaped] [thermalfoundation:material_25](Steel Ingot) <thermalfoundation:material:160> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:steelworks/steel_ingot_from_nugget](Steel Ingot) <tcomplement:materials:10> * 1 conflicts with [Shaped] [techreborn:ingot_31](Steel Ingot) <techreborn:ingot:12> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:steelworks/steel_block](Block of Steel) <tcomplement:storage:1> * 1 conflicts with [Shapeless] [bigreactors:block_steel](Steel Block) <bigreactors:blocksteel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:steelworks/steel_block](Block of Steel) <tcomplement:storage:1> * 1 conflicts with [Shaped] [thermalfoundation:storage_alloy](Block of Steel) <thermalfoundation:storage_alloy:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:steelworks/steel_block](Block of Steel) <tcomplement:storage:1> * 1 conflicts with [Shaped] [techreborn:storage_4](Block of Steel) <techreborn:storage:4> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:steelworks/steel_block](Block of Steel) <tcomplement:storage:1> * 1 conflicts with [Shaped] [tp:steel_block](Steel Block) <tp:steel_block:0> * 1
@@ -2579,6 +2872,14 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:steelworks/charcoal_block](Block of Charcoal) <tcomplement:storage:0> * 1 conflicts with [Shaped] [forestry:charcoal_block](Block of Charcoal) <forestry:charcoal:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:armor/steel_leggings](Steel Leggings) <tcomplement:steel_leggings:0> * 1 conflicts with [Shaped] [thermalfoundation:armor.legs_steel](Steel Leggings) <thermalfoundation:armor.legs_steel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tcomplement:armor/steel_chestplate](Steel Chestplate) <tcomplement:steel_chestplate:0> * 1 conflicts with [Shaped] [thermalfoundation:armor.plate_steel](Steel Chestplate) <thermalfoundation:armor.plate_steel:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:coppernuggetstoingot](Copper Ingot) <thermalfoundation:material:128> * 1 conflicts with [Shaped] [embers:ingotcopper_ingot](Copper Ingot) <embers:ingot_copper:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:coppernuggetstoingot](Copper Ingot) <thermalfoundation:material:128> * 1 conflicts with [Shaped] [techreborn:ingot_23](Copper Ingot) <techreborn:ingot:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:tinnuggetstoingot](Tin Ingot) <thermalfoundation:material:129> * 1 conflicts with [Shaped] [embers:ingottin_ingot](Tin Ingot) <embers:ingot_tin:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:tinnuggetstoingot](Tin Ingot) <thermalfoundation:material:129> * 1 conflicts with [Shaped] [techreborn:ingot_32](Tin Ingot) <techreborn:ingot:13> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:silvernuggetstoingot](Silver Ingot) <thermalfoundation:material:130> * 1 conflicts with [Shaped] [embers:ingotsilver_ingot](Silver Ingot) <embers:ingot_silver:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:silvernuggetstoingot](Silver Ingot) <thermalfoundation:material:130> * 1 conflicts with [Shaped] [techreborn:ingot_30](Silver Ingot) <techreborn:ingot:11> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:leadnuggetstoingot](Lead Ingot) <thermalfoundation:material:131> * 1 conflicts with [Shaped] [embers:ingotlead_ingot](Lead Ingot) <embers:ingot_lead:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:leadnuggetstoingot](Lead Ingot) <thermalfoundation:material:131> * 1 conflicts with [Shaped] [techreborn:ingot_27](Lead Ingot) <techreborn:ingot:8> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:nuggetstobrass](Alchemical Brass Ingot) <thaumcraft:ingot:2> * 1 conflicts with [Shaped] [techreborn:ingot_20](Brass Ingot) <techreborn:ingot:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:brassingotstoblock](Brass Block) <thaumcraft:metal_brass:0> * 1 conflicts with [Shaped] [techreborn:storage_5](Block of Brass) <techreborn:storage:5> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thaumcraft:fleshtoblock](Compressed Flesh Block) <thaumcraft:flesh_block:0> * 1 conflicts with [Shaped] [tp:flesh_block](Compressed Flesh Block) <tp:flesh_block:0> * 1
@@ -2587,6 +2888,9 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [chisel:charcoal](Block of Charcoal) <chisel:block_charcoal2:1> * 1 conflicts with [Shaped] [tp:charcoal_block](Charcoal Block) <tp:charcoal_block:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [chisel:charcoal](Block of Charcoal) <chisel:block_charcoal2:1> * 1 conflicts with [Shaped] [forestry:charcoal_block](Block of Charcoal) <forestry:charcoal:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [extraanvils:inferiumanvil](Inferium Anvil) <extraanvils:inferium_anvil:0> * 1 conflicts with [Shaped] [extraanvils:intermediumanvil](Intermedium Anvil) <extraanvils:intermedium_anvil:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [extrabotany:recipe_shadowiumblock](Block of Shadowium) <extrabotany:blockshadowium:0> * 1 conflicts with [Shapeless] [jaopca:block_blockshadowium_pk2sm0](Block of Shadowium) <jaopca:block_blockshadowium:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [extrabotany:recipe_photoniumblock](Block of Photonium) <extrabotany:blockphotonium:0> * 1 conflicts with [Shapeless] [jaopca:block_blockphotonium_jxunx0](Block of Photonium) <jaopca:block_blockphotonium:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [extrabotany:recipe_orichalcosblock](Block of Orichalcos) <extrabotany:blockorichalcos:0> * 1 conflicts with [Shapeless] [jaopca:block_blockorichalcos_3z1abk](Block of Orichalcos) <jaopca:block_blockorichalcos:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [actuallyadditions:recipes96](Black Quartz Stairs) <actuallyadditions:block_quartz_stair:0> * 6 conflicts with [Shaped] [jaopca:block_stairsquartzblack_6y2171](Black Quartz Stairs) <jaopca:block_stairsquartzblack:0> * 8
 [SERVER_STARTED][SERVER][INFO] [Shaped] [actuallyadditions:recipes121](Block of Charcoal) <actuallyadditions:block_misc:5> * 1 conflicts with [Shaped] [thermalfoundation:storage_resource](Block of Charcoal) <thermalfoundation:storage_resource:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [actuallyadditions:recipes121](Block of Charcoal) <actuallyadditions:block_misc:5> * 1 conflicts with [Shaped] [tp:charcoal_block](Charcoal Block) <tp:charcoal_block:0> * 1
@@ -2610,10 +2914,13 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_2](Block of Silver) <thermalfoundation:storage:2> * 1 conflicts with [Shaped] [techreborn:storage](Block of Silver) <techreborn:storage:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_3](Block of Lead) <thermalfoundation:storage:3> * 1 conflicts with [Shaped] [embers:ingotlead_block](Lead Block) <embers:block_lead:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_3](Block of Lead) <thermalfoundation:storage:3> * 1 conflicts with [Shaped] [techreborn:storage_6](Block of Lead) <techreborn:storage:6> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_4](Block of Aluminum) <thermalfoundation:storage:4> * 1 conflicts with [Shaped] [embers:ingotaluminum_block](Aluminium Block) <embers:block_aluminum:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_4](Block of Aluminum) <thermalfoundation:storage:4> * 1 conflicts with [Shaped] [techreborn:storage_1](Block of Aluminium) <techreborn:storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_5](Block of Nickel) <thermalfoundation:storage:5> * 1 conflicts with [Shaped] [embers:ingotnickel_block](Nickel Block) <embers:block_nickel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_5](Block of Nickel) <thermalfoundation:storage:5> * 1 conflicts with [Shaped] [techreborn:storage_11](Block of Nickel) <techreborn:storage:11> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_6](Block of Platinum) <thermalfoundation:storage:6> * 1 conflicts with [Shaped] [techreborn:storage_9](Block of Platinum) <techreborn:storage:9> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_7](Block of Iridium) <thermalfoundation:storage:7> * 1 conflicts with [Shaped] [techreborn:storage_13](Block of Iridium) <techreborn:storage:13> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_alloy](Block of Steel) <thermalfoundation:storage_alloy:0> * 1 conflicts with [Shapeless] [bigreactors:block_steel](Steel Block) <bigreactors:blocksteel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_alloy](Block of Steel) <thermalfoundation:storage_alloy:0> * 1 conflicts with [Shaped] [techreborn:storage_4](Block of Steel) <techreborn:storage:4> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_alloy](Block of Steel) <thermalfoundation:storage_alloy:0> * 1 conflicts with [Shaped] [tp:steel_block](Steel Block) <tp:steel_block:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:storage_alloy_1](Block of Electrum) <thermalfoundation:storage_alloy:1> * 1 conflicts with [Shaped] [embers:ingotelectrum_block](Electrum Block) <embers:block_electrum:0> * 1
@@ -2632,6 +2939,8 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_11](Silver Ingot) <thermalfoundation:material:130> * 1 conflicts with [Shaped] [techreborn:ingot_30](Silver Ingot) <techreborn:ingot:11> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_13](Lead Ingot) <thermalfoundation:material:131> * 1 conflicts with [Shaped] [embers:ingotlead_ingot](Lead Ingot) <embers:ingot_lead:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_13](Lead Ingot) <thermalfoundation:material:131> * 1 conflicts with [Shaped] [techreborn:ingot_27](Lead Ingot) <techreborn:ingot:8> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_15](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shaped] [embers:ingotaluminum_ingot](Aluminium Ingot) <embers:ingot_aluminum:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_15](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shaped] [techreborn:ingot_19](Aluminium Ingot) <techreborn:ingot:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_17](Nickel Ingot) <thermalfoundation:material:133> * 1 conflicts with [Shaped] [embers:ingotnickel_ingot](Nickel Ingot) <embers:ingot_nickel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_17](Nickel Ingot) <thermalfoundation:material:133> * 1 conflicts with [Shaped] [techreborn:ingot_28](Nickel Ingot) <techreborn:ingot:9> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_19](Platinum Ingot) <thermalfoundation:material:134> * 1 conflicts with [Shaped] [techreborn:ingot_29](Platinum Ingot) <techreborn:ingot:10> * 1
@@ -2642,14 +2951,16 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_29](Invar Ingot) <thermalfoundation:material:162> * 1 conflicts with [Shaped] [techreborn:ingot_25](Invar Ingot) <techreborn:ingot:6> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_31](Bronze Ingot) <thermalfoundation:material:163> * 1 conflicts with [Shaped] [embers:ingotbronze_ingot](Bronze Ingot) <embers:ingot_bronze:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_31](Bronze Ingot) <thermalfoundation:material:163> * 1 conflicts with [Shaped] [techreborn:ingot_21](Bronze Ingot) <techreborn:ingot:2> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_59](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [enderio:gear_wood](Wooden Gear) <mystgears:gear_wood:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_61](Iron Gear) <thermalfoundation:material:24> * 1 conflicts with [Shaped] [advgenerators:recipe5](Iron Frame) <advgenerators:iron_frame:0> * 2
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_59](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_59](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:material_59](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:armor.plate_bronze](Bronze Chestplate) <thermalfoundation:armor.plate_bronze:0> * 1 conflicts with [Shaped] [techreborn:bronzechestplate](Bronze Chestplate) <techreborn:bronzechestplate:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:armor.legs_bronze](Bronze Leggings) <thermalfoundation:armor.legs_bronze:0> * 1 conflicts with [Shaped] [techreborn:bronzeleggings](Bronze Leggings) <techreborn:bronzeleggings:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.pickaxe_copper](Copper Pickaxe) <thermalfoundation:tool.pickaxe_copper:0> * 1 conflicts with [Shaped] [embers:ingotcopper_pickaxe](Copper Pickaxe) <embers:pickaxe_copper:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.pickaxe_tin](Tin Pickaxe) <thermalfoundation:tool.pickaxe_tin:0> * 1 conflicts with [Shaped] [embers:ingottin_pickaxe](Tin Pickaxe) <embers:pickaxe_tin:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.pickaxe_silver](Silver Pickaxe) <thermalfoundation:tool.pickaxe_silver:0> * 1 conflicts with [Shaped] [embers:ingotsilver_pickaxe](Silver Pickaxe) <embers:pickaxe_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.pickaxe_lead](Lead Pickaxe) <thermalfoundation:tool.pickaxe_lead:0> * 1 conflicts with [Shaped] [embers:ingotlead_pickaxe](Lead Pickaxe) <embers:pickaxe_lead:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.pickaxe_aluminum](Aluminum Pickaxe) <thermalfoundation:tool.pickaxe_aluminum:0> * 1 conflicts with [Shaped] [embers:ingotaluminum_pickaxe](Aluminium Pickaxe) <embers:pickaxe_aluminum:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.pickaxe_nickel](Nickel Pickaxe) <thermalfoundation:tool.pickaxe_nickel:0> * 1 conflicts with [Shaped] [embers:ingotnickel_pickaxe](Nickel Pickaxe) <embers:pickaxe_nickel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.pickaxe_electrum](Electrum Pickaxe) <thermalfoundation:tool.pickaxe_electrum:0> * 1 conflicts with [Shaped] [embers:ingotelectrum_pickaxe](Electrum Pickaxe) <embers:pickaxe_electrum:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [thermalfoundation:tool.pickaxe_bronze](Bronze Pickaxe) <thermalfoundation:tool.pickaxe_bronze:0> * 1 conflicts with [Shaped] [embers:ingotbronze_pickaxe](Bronze Pickaxe) <embers:pickaxe_bronze:0> * 1
@@ -2680,6 +2991,8 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [agricraft:combine_nugget_lead](Lead Ingot) <thermalfoundation:material:131> * 1 conflicts with [Shaped] [techreborn:ingot_27](Lead Ingot) <techreborn:ingot:8> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [agricraft:combine_nugget_silver](Silver Ingot) <thermalfoundation:material:130> * 1 conflicts with [Shaped] [embers:ingotsilver_ingot](Silver Ingot) <embers:ingot_silver:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [agricraft:combine_nugget_silver](Silver Ingot) <thermalfoundation:material:130> * 1 conflicts with [Shaped] [techreborn:ingot_30](Silver Ingot) <techreborn:ingot:11> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [agricraft:combine_nugget_aluminum](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shaped] [embers:ingotaluminum_ingot](Aluminium Ingot) <embers:ingot_aluminum:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [agricraft:combine_nugget_aluminum](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shaped] [techreborn:ingot_19](Aluminium Ingot) <techreborn:ingot:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [agricraft:combine_nugget_nickel](Nickel Ingot) <thermalfoundation:material:133> * 1 conflicts with [Shaped] [embers:ingotnickel_ingot](Nickel Ingot) <embers:ingot_nickel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [agricraft:combine_nugget_nickel](Nickel Ingot) <thermalfoundation:material:133> * 1 conflicts with [Shaped] [techreborn:ingot_28](Nickel Ingot) <techreborn:ingot:9> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [agricraft:combine_nugget_platinum](Platinum Ingot) <thermalfoundation:material:134> * 1 conflicts with [Shaped] [techreborn:ingot_29](Platinum Ingot) <techreborn:ingot:10> * 1
@@ -2689,13 +3002,19 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [cyclicmagic:item.emerald_axe_1](Emerald Axe) <cyclicmagic:emerald_axe:0> * 1 conflicts with [Shaped] [tp:emerald_axe](Emerald Axe) <tp:emerald_axe:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [cyclicmagic:item.emerald_hoe_1](Emerald Hoe) <cyclicmagic:emerald_hoe:0> * 1 conflicts with [Shaped] [tp:emerald_hoe](Emerald Hoe) <tp:emerald_hoe:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotlead_block](Lead Block) <embers:block_lead:0> * 1 conflicts with [Shaped] [techreborn:storage_6](Block of Lead) <techreborn:storage:6> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotlead_block](Lead Block) <embers:block_lead:0> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.lead.name](Block of Lead) <thermalfoundation:storage:3> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotlead_ingot](Lead Ingot) <embers:ingot_lead:0> * 1 conflicts with [Shaped] [techreborn:ingot_27](Lead Ingot) <techreborn:ingot:8> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotcopper_block](Copper Block) <embers:block_copper:0> * 1 conflicts with [Shaped] [techreborn:storage2_6](Block of Copper) <techreborn:storage2:8> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotcopper_block](Copper Block) <embers:block_copper:0> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.copper.name](Block of Copper) <thermalfoundation:storage:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotcopper_block](Copper Block) <embers:block_copper:0> * 1 conflicts with [Shaped] [forestry:copper_block](Block of Copper) <forestry:resource_storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotcopper_ingot](Copper Ingot) <embers:ingot_copper:0> * 1 conflicts with [Shaped] [magicbees:nuggetcopper_to_block](Copper Ingot) <thermalfoundation:material:128> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotcopper_ingot](Copper Ingot) <embers:ingot_copper:0> * 1 conflicts with [Shaped] [techreborn:ingot_23](Copper Ingot) <techreborn:ingot:4> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotsilver_block](Silver Block) <embers:block_silver:0> * 1 conflicts with [Shaped] [techreborn:storage](Block of Silver) <techreborn:storage:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotsilver_block](Silver Block) <embers:block_silver:0> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.silver.name](Block of Silver) <thermalfoundation:storage:2> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotsilver_ingot](Silver Ingot) <embers:ingot_silver:0> * 1 conflicts with [Shaped] [techreborn:ingot_30](Silver Ingot) <techreborn:ingot:11> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotaluminum_block](Aluminium Block) <embers:block_aluminum:0> * 1 conflicts with [Shaped] [techreborn:storage_1](Block of Aluminium) <techreborn:storage:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotaluminum_block](Aluminium Block) <embers:block_aluminum:0> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.aluminum.name](Block of Aluminum) <thermalfoundation:storage:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotaluminum_ingot](Aluminium Ingot) <embers:ingot_aluminum:0> * 1 conflicts with [Shaped] [techreborn:ingot_19](Aluminium Ingot) <techreborn:ingot:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotbronze_block](Bronze Block) <embers:block_bronze:0> * 1 conflicts with [Shaped] [techreborn:storage_14](Block of Bronze) <techreborn:storage:14> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotbronze_block](Bronze Block) <embers:block_bronze:0> * 1 conflicts with [Shaped] [forestry:bronze_block](Block of Bronze) <forestry:resource_storage:3> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotbronze_ingot](Bronze Ingot) <embers:ingot_bronze:0> * 1 conflicts with [Shaped] [magicbees:nuggetbronze_to_block](Bronze Ingot) <thermalfoundation:material:163> * 1
@@ -2706,30 +3025,48 @@
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotnickel_block](Nickel Block) <embers:block_nickel:0> * 1 conflicts with [Shaped] [techreborn:storage_11](Block of Nickel) <techreborn:storage:11> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingotnickel_ingot](Nickel Ingot) <embers:ingot_nickel:0> * 1 conflicts with [Shaped] [techreborn:ingot_28](Nickel Ingot) <techreborn:ingot:9> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingottin_block](Tin Block) <embers:block_tin:0> * 1 conflicts with [Shaped] [techreborn:storage2_7](Block of Tin) <techreborn:storage2:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingottin_block](Tin Block) <embers:block_tin:0> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.tin.name](Block of Tin) <thermalfoundation:storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingottin_block](Tin Block) <embers:block_tin:0> * 1 conflicts with [Shaped] [forestry:tin_block](Block of Tin) <forestry:resource_storage:2> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingottin_ingot](Tin Ingot) <embers:ingot_tin:0> * 1 conflicts with [Shaped] [magicbees:nuggettin_to_block](Tin Ingot) <thermalfoundation:material:129> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [embers:ingottin_ingot](Tin Ingot) <embers:ingot_tin:0> * 1 conflicts with [Shaped] [techreborn:ingot_32](Tin Ingot) <techreborn:ingot:13> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalagriculture:uranium_seeds](Uranium Seeds) <mysticalagriculture:uranium_seeds:0> * 1 conflicts with [Shaped] [mysticalagriculture:yellorium_seeds](Yellorium Seeds) <mysticalagriculture:yellorium_seeds:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalagriculture:electrical_steel_seeds](Electrical Steel Seeds) <mysticalagriculture:electrical_steel_seeds:0> * 1 conflicts with [Shaped] [jaopca:item_mysticalseedselectricalsteel_158i0r](Electrical Steel Seeds) <jaopca:item_mysticalseedselectricalsteel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [mysticalagriculture:black_quartz_seeds](Black Quartz Seeds) <mysticalagriculture:black_quartz_seeds:0> * 1 conflicts with [Shaped] [jaopca:item_mysticalseedsquartzblack_4id5tg](Black Quartz Seeds) <jaopca:item_mysticalseedsquartzblack:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magicbees:nuggetcopper_to_block](Copper Ingot) <thermalfoundation:material:128> * 1 conflicts with [Shaped] [techreborn:ingot_23](Copper Ingot) <techreborn:ingot:4> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magicbees:nuggettin_to_block](Tin Ingot) <thermalfoundation:material:129> * 1 conflicts with [Shaped] [techreborn:ingot_32](Tin Ingot) <techreborn:ingot:13> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [magicbees:nuggetbronze_to_block](Bronze Ingot) <thermalfoundation:material:163> * 1 conflicts with [Shaped] [techreborn:ingot_21](Bronze Ingot) <techreborn:ingot:2> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [redstonerepository:storage_1](Gelid Gem Block) <redstonerepository:storage:1> * 1 conflicts with [Shapeless] [jaopca:block_blockgelid_u42gyg](Block of Gelid Gem) <jaopca:block_blockgelid:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage](Block of Silver) <techreborn:storage:0> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.silver.name](Block of Silver) <thermalfoundation:storage:2> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage_1](Block of Aluminium) <techreborn:storage:1> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.aluminum.name](Block of Aluminum) <thermalfoundation:storage:4> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage_4](Block of Steel) <techreborn:storage:4> * 1 conflicts with [Shapeless] [bigreactors:block_steel](Steel Block) <bigreactors:blocksteel:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage_4](Block of Steel) <techreborn:storage:4> * 1 conflicts with [Shaped] [tp:steel_block](Steel Block) <tp:steel_block:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage_6](Block of Lead) <techreborn:storage:6> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.lead.name](Block of Lead) <thermalfoundation:storage:3> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage_14](Block of Bronze) <techreborn:storage:14> * 1 conflicts with [Shaped] [forestry:bronze_block](Block of Bronze) <forestry:resource_storage:3> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage2_6](Block of Copper) <techreborn:storage2:8> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.copper.name](Block of Copper) <thermalfoundation:storage:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage2_6](Block of Copper) <techreborn:storage2:8> * 1 conflicts with [Shaped] [forestry:copper_block](Block of Copper) <forestry:resource_storage:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage2_7](Block of Tin) <techreborn:storage2:9> * 1 conflicts with [Shaped] [nuclearcraft:tile.thermalfoundation.storage.tin.name](Block of Tin) <thermalfoundation:storage:1> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage2_7](Block of Tin) <techreborn:storage2:9> * 1 conflicts with [Shaped] [forestry:tin_block](Block of Tin) <forestry:resource_storage:2> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [techreborn:storage2_8](Block of Refined Iron) <techreborn:storage2:10> * 1 conflicts with [Shapeless] [jaopca:block_blockrefinediron_2yvlca](Block of Refined Iron) <jaopca:block_blockrefinediron:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [nuclearcraft:tile.thermalfoundation.storage.copper.name](Block of Copper) <thermalfoundation:storage:0> * 1 conflicts with [Shaped] [forestry:copper_block](Block of Copper) <forestry:resource_storage:1> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [nuclearcraft:tile.thermalfoundation.storage.tin.name](Block of Tin) <thermalfoundation:storage:1> * 1 conflicts with [Shaped] [forestry:tin_block](Block of Tin) <forestry:resource_storage:2> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [tp:charcoal_block](Charcoal Block) <tp:charcoal_block:0> * 1 conflicts with [Shaped] [forestry:charcoal_block](Block of Charcoal) <forestry:charcoal:0> * 1
 [SERVER_STARTED][SERVER][INFO] [Shaped] [jaopca:item_gearuranium_s9ey3u](Uranium Gear) <jaopca:item_gearuranium:0> * 1 conflicts with [Shaped] [jaopca:item_gearyellorium_g59a33](Yellorium Gear) <jaopca:item_gearyellorium:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:thermalfoundation-storage_4-modified](Block of Aluminum) <thermalfoundation:storage:4> * 1 conflicts with [Shaped] [crafttweaker:embers-ingotaluminum_block-modified](Aluminium Block) <embers:block_aluminum:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:thermalfoundation-storage_4-modified](Block of Aluminum) <thermalfoundation:storage:4> * 1 conflicts with [Shaped] [crafttweaker:techreborn-storage_1-modified](Block of Aluminium) <techreborn:storage:1> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:thermalfoundation-tool.pickaxe_aluminum-modified](Aluminum Pickaxe) <thermalfoundation:tool.pickaxe_aluminum:0> * 1 conflicts with [Shaped] [crafttweaker:embers-ingotaluminum_pickaxe-modified](Aluminium Pickaxe) <embers:pickaxe_aluminum:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:embers-ingotaluminum_block-modified](Aluminium Block) <embers:block_aluminum:0> * 1 conflicts with [Shaped] [crafttweaker:techreborn-storage_1-modified](Block of Aluminium) <techreborn:storage:1> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:magneticraft-ingots_aluminium-modified](Aluminium Ingot) <magneticraft:ingots:7> * 1 conflicts with [Shaped] [crafttweaker:thermalfoundation-material_15-modified](Aluminum Ingot) <thermalfoundation:material:132> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:magneticraft-ingots_aluminium-modified](Aluminium Ingot) <magneticraft:ingots:7> * 1 conflicts with [Shaped] [crafttweaker:agricraft-combine_nugget_aluminum-modified](Aluminum Ingot) <thermalfoundation:material:132> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:magneticraft-ingots_aluminium-modified](Aluminium Ingot) <magneticraft:ingots:7> * 1 conflicts with [Shaped] [crafttweaker:embers-ingotaluminum_ingot-modified](Aluminium Ingot) <embers:ingot_aluminum:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:magneticraft-ingots_aluminium-modified](Aluminium Ingot) <magneticraft:ingots:7> * 1 conflicts with [Shaped] [crafttweaker:techreborn-ingot_19-modified](Aluminium Ingot) <techreborn:ingot:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:thermalfoundation-material_15-modified](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shaped] [crafttweaker:embers-ingotaluminum_ingot-modified](Aluminium Ingot) <embers:ingot_aluminum:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:thermalfoundation-material_15-modified](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shaped] [crafttweaker:techreborn-ingot_19-modified](Aluminium Ingot) <techreborn:ingot:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:agricraft-combine_nugget_aluminum-modified](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shaped] [crafttweaker:embers-ingotaluminum_ingot-modified](Aluminium Ingot) <embers:ingot_aluminum:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:agricraft-combine_nugget_aluminum-modified](Aluminum Ingot) <thermalfoundation:material:132> * 1 conflicts with [Shaped] [crafttweaker:techreborn-ingot_19-modified](Aluminium Ingot) <techreborn:ingot:0> * 1
-[SERVER_STARTED][SERVER][INFO] [Shaped] [crafttweaker:embers-ingotaluminum_ingot-modified](Aluminium Ingot) <embers:ingot_aluminum:0> * 1 conflicts with [Shaped] [crafttweaker:techreborn-ingot_19-modified](Aluminium Ingot) <techreborn:ingot:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:ender_dust](Ender Pearl Dust) <techreborn:dust:20> * 1 conflicts with [Shaped] [noname](Ender Dust) <appliedenergistics2:material:46> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_wood](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_wood](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_wood](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_ae2_messes_things_up](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_ae2_messes_things_up](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_ae2_messes_things_up](Wooden Gear) <thermalfoundation:material:22> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_stone](Stone Gear) <thermalfoundation:material:23> * 1 conflicts with [Shaped] [noname](Stone Gear) <mystgears:gear_stone:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_stone](Stone Gear) <thermalfoundation:material:23> * 1 conflicts with [Shaped] [noname](Stone Compound Gear) <enderio:item_material:10> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_stone_upgrade](Stone Gear) <thermalfoundation:material:23> * 1 conflicts with [Shaped] [noname](Stone Gear) <mystgears:gear_stone:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [enderio:gear_stone_upgrade](Stone Gear) <thermalfoundation:material:23> * 1 conflicts with [Shaped] [noname](Stone Compound Gear) <enderio:item_material:10> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <appliedenergistics2:material:40> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Wooden Gear) <mystgears:gear_wood:0> * 1 conflicts with [Shaped] [noname](Wooden Gear) <enderio:item_material:9> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Stone Gear) <mystgears:gear_stone:0> * 1 conflicts with [Shaped] [noname](Stone Compound Gear) <enderio:item_material:10> * 1
+[SERVER_STARTED][SERVER][INFO] [Shaped] [noname](Stone Gear) <mystgears:gear_stone:0> * 1 conflicts with [Shaped] [noname](Stone Compound Gear) <enderio:item_material:10> * 1

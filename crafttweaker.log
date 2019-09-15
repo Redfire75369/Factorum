@@ -1,96 +1,193 @@
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}, enabling debugmode
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_contentTweaker\02_endgame.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_contentTweaker\03_other.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_mekaTweaker\00_infuseMaterial.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_requiousFrakto\00_atm.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_oreDict\00_variableDeclaration.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_oreDict\04_oreAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_OreDict\00_GlobalVariableDeclaration.zs}, enabling debugmode
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_CreativeTab.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_Currency.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_Endgame.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_Item.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Block.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_RequiousFrakto\00_AutomatedTellerMachine.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_OreDict\00_GlobalVariableDeclaration.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_OreDict\01_OreDictionaryManipulation.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_OreDict\02_RecipeRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_OreDict\03_OreDictionaryRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_OreDict\04_OreRecipeAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[-305:crafttweaker]: 03_OreDict\05_ClusterRecipeAddition.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}, enabling debugmode
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs}
-[PREINITIALIZATION][CLIENT][INFO] Item <item:hermalfoundation:coin:1> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing items will be handled the same way.
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs}
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:11 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:16 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:21 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:26 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:32 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:37 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:42 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:47 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:53 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:58 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:63 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:68 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:74 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:79 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:84 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:89 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:95 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:100 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:105 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:110 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:116 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:121 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:126 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:131 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:137 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:142 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:147 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\01_currency.zs:152 > No such static member in mods.contenttweaker.CreativeTab: currency
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-2:contenttweaker]: 00_contentTweaker\02_endgame.zs}
-[PREINITIALIZATION][CLIENT][ERROR] 00_contentTweaker\02_endgame.zs:9 > No such static member in mods.contenttweaker.CreativeTab: endgame
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-3:contenttweaker]: 00_contentTweaker\03_other.zs}
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_mekaTweaker\00_infuseMaterial.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-200:contenttweaker]: 02_requiousFrakto\00_atm.zs}
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_oreDict\00_variableDeclaration.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_oreDict\04_oreAddition.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 587ms
+[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_OreDict\00_GlobalVariableDeclaration.zs}, enabling debugmode
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: 00_ContentTweaker\00_CreativeTab.zs}
+[PREINITIALIZATION][CLIENT][INFO] Item <item:thermalfoundation:coin:1> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing items will be handled the same way.
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-1:contenttweaker]: 00_ContentTweaker\01_Currency.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-2:contenttweaker]: 00_ContentTweaker\02_Endgame.zs}
+[PREINITIALIZATION][CLIENT][ERROR] 00_ContentTweaker\02_Endgame.zs:9 > No such static member in mods.contenttweaker.CreativeTab: endgame
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-3:contenttweaker]: 00_ContentTweaker\03_Item.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-4:contenttweaker]: 00_ContentTweaker\04_Block.zs}
+[PREINITIALIZATION][CLIENT][ERROR] 00_ContentTweaker\04_Block.zs:10 > could not find axe
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[-200:contenttweaker]: 02_RequiousFrakto\00_AutomatedTellerMachine.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_OreDict\00_GlobalVariableDeclaration.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_OreDict\01_OreDictionaryManipulation.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_OreDict\02_RecipeRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_OreDict\03_OreDictionaryRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_OreDict\04_OreRecipeAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-305:crafttweaker]: 03_OreDict\05_ClusterRecipeAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 663ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [mekatweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [mekatweaker]
-[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}, enabling debugmode
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_contentTweaker\02_endgame.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_contentTweaker\03_other.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Loading Script: {[-100:mekatweaker]: 01_mekaTweaker\00_infuseMaterial.zs}
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_requiousFrakto\00_atm.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_oreDict\00_variableDeclaration.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_oreDict\01_oreDictionaryManipulation.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_oreDict\02_recipeRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_oreDict\03_oreDictRemoval.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_oreDict\04_oreAddition.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 20ms
+[PREINITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_OreDict\00_GlobalVariableDeclaration.zs}, enabling debugmode
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_CreativeTab.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_Currency.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_Endgame.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_Item.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Block.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Loading Script: {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs}
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_RequiousFrakto\00_AutomatedTellerMachine.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-300:crafttweaker]: 03_OreDict\00_GlobalVariableDeclaration.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-301:crafttweaker]: 03_OreDict\01_OreDictionaryManipulation.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-302:crafttweaker]: 03_OreDict\02_RecipeRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-303:crafttweaker]: 03_OreDict\03_OreDictionaryRemoval.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-304:crafttweaker]: 03_OreDict\04_OreRecipeAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [mekatweaker | SIDE_CLIENT]: Skipping file {[-305:crafttweaker]: 03_OreDict\05_ClusterRecipeAddition.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 16ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [mekatweaker], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[INITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}, enabling debugmode
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_contentTweaker\00_creativeTab.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_contentTweaker\01_currency.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_contentTweaker\02_endgame.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_contentTweaker\03_other.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_mekaTweaker\00_infuseMaterial.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_requiousFrakto\00_atm.zs} as we are currently loading with a different loader
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-300:crafttweaker]: 03_oreDict\00_variableDeclaration.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-301:crafttweaker]: 03_oreDict\01_oreDictionaryManipulation.zs}
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing 03_oreDict\01_oreDictionaryManipulation.zs:14 -- Invalid expression, last token: else
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-302:crafttweaker]: 03_oreDict\02_recipeRemoval.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-303:crafttweaker]: 03_oreDict\03_oreDictRemoval.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-304:crafttweaker]: 03_oreDict\04_oreAddition.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 534ms
+[INITIALIZATION][CLIENT][INFO] Debug Preprocessor found in {[0:crafttweaker]: 03_OreDict\00_GlobalVariableDeclaration.zs}, enabling debugmode
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: 00_ContentTweaker\00_CreativeTab.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-1:contenttweaker]: 00_ContentTweaker\01_Currency.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-2:contenttweaker]: 00_ContentTweaker\02_Endgame.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-3:contenttweaker]: 00_ContentTweaker\03_Item.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-4:contenttweaker]: 00_ContentTweaker\04_Block.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-100:mekatweaker]: 01_MekaTweaker\00_InfuseMaterial.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[-200:contenttweaker]: 02_RequiousFrakto\00_AutomatedTellerMachine.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-300:crafttweaker]: 03_OreDict\00_GlobalVariableDeclaration.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-301:crafttweaker]: 03_OreDict\01_OreDictionaryManipulation.zs}
+[INITIALIZATION][CLIENT][ERROR] 03_OreDict\01_OreDictionaryManipulation.zs:10 > no such member in array: empty
+[INITIALIZATION][CLIENT][INFO] Removing Charged Certus Quartz Ore from ore dictionary entry oreCertusQuartz
+[INITIALIZATION][CLIENT][INFO] Adding Ender Ore to ore dictionary entry oreEnder
+[INITIALIZATION][CLIENT][INFO] Adding Light Ore to ore dictionary entry oreLight
+[INITIALIZATION][CLIENT][INFO] Adding Cinnabar Ore to ore dictionary entry oreQuicksilver
+[INITIALIZATION][CLIENT][INFO] Adding Shaded Ore to ore dictionary entry oreShade
+[INITIALIZATION][CLIENT][INFO] Adding Stygian Iron Ore to ore dictionary entry oreStygianIron
+[INITIALIZATION][CLIENT][INFO] Adding Wub Wub Ore to ore dictionary entry oreWub
+[INITIALIZATION][CLIENT][INFO] Adding Aluminum Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Bauxite Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Aluminium Ore to ore dictionary entry oreAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Native Aluminium Cluster to ore dictionary entry clusterAluminium
+[INITIALIZATION][CLIENT][INFO] Adding Resonant End Stone to ore dictionary entry oreEnder
+[INITIALIZATION][CLIENT][INFO] Adding Energized Netherrack to ore dictionary entry oreGlowstone
+[INITIALIZATION][CLIENT][INFO] Adding Oil Sand to ore dictionary entry oreOil
+[INITIALIZATION][CLIENT][INFO] Adding Oil Sand to ore dictionary entry oreOil
+[INITIALIZATION][CLIENT][INFO] Adding Oil Shale to ore dictionary entry oreOil
+[INITIALIZATION][CLIENT][INFO] Adding Resonant End Stone to ore dictionary entry oreRedstone
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-301:crafttweaker]: 03_OreDict\01_OreDictionaryManipulation.zs}: null
+java.lang.NullPointerException
+	at 03_OreDict\01_OreDictionaryManipulation.__script__(03_OreDict\01_OreDictionaryManipulation.zs:109)
+	at __ZenMain__.run(03_OreDict\01_OreDictionaryManipulation)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1857_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:629)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-302:crafttweaker]: 03_OreDict\02_RecipeRemoval.zs}
+[INITIALIZATION][CLIENT][ERROR] 03_OreDict\02_RecipeRemoval.zs:246: Could not resolve <mekanism : enriched_iron>
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error loading {[-302:crafttweaker]: 03_OreDict\02_RecipeRemoval.zs}: java.lang.NullPointerException
+java.lang.NullPointerException
+	at stanhebben.zenscript.statements.Statement.read(Statement.java:24)
+	at stanhebben.zenscript.statements.Statement.read(Statement.java:29)
+	at stanhebben.zenscript.statements.Statement.read(Statement.java:80)
+	at stanhebben.zenscript.ZenParsedFile.<init>(ZenParsedFile.java:144)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:193)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1857_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:629)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-303:crafttweaker]: 03_OreDict\03_OreDictionaryRemoval.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-304:crafttweaker]: 03_OreDict\04_OreRecipeAddition.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-305:crafttweaker]: 03_OreDict\05_ClusterRecipeAddition.zs}
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 488ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:oreAluminum> and replacing them with <ore:oreAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:clusterAluminum> and replacing them with <ore:clusterAluminium>
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Epic Squid with name mysticalworld-epic_squid-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Frickin' laser beam with name plethora-module_laser-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Grit with name immersiveengineering-hammercrushing_aluminum-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Grit with name immersiveengineering-hammercrushing_aluminium-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Aluminum with name thermalfoundation-material_118-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_120-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Ingot with name thermalfoundation-material_122-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Dust with name thermalfoundation-dusts_2-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingots_6-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminium Ingot with name thermalfoundation-ingots_8-modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Psi-Cuffs Key with name rpsideas-blaster_cad - copy-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Frosty Soles with name conarm-frosty_soles-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled XOR Gate with name complex-logic-xor-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Viewer Gate with name complex-logic-viewer-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Text Display (2-Character) with name complex-logic-textdisplay-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Subtractor Gate with name complex-logic-subtractor-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Shifter Gate with name complex-logic-shifter-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Real-Time Clock with name complex-logic-rtc-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Random Value Generator with name complex-logic-random-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Patch Panel with name complex-logic-patchpanel-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled AND Gate with name complex-logic-nand-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-multiplication-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Multiplexer Gate with name complex-logic-multiplexer-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-modulo-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Memory Gate with name complex-logic-memory-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hex Driver with name complex-logic-hexdriver-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Global OR Gate with name complex-logic-globalor-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Dividing Gate with name complex-logic-division-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 7-Segment Display (2-Digit) with name complex-logic-display-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Digital-Analog Converter with name complex-logic-dac-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Counter with name complex-logic-counter-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Button Panel with name complex-logic-buttonpanel-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for BIN-TO-BCD with name complex-logic-bintobcd-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for BIN-TO-7SEG with name complex-logic-binto7seg-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled AND Gate with name complex-logic-and-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bundled Adder Gate with name complex-logic-adder-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Analog-Digital Converter with name complex-logic-adc-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Arrow of Ascension with name naturalpledge-ascension-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockchocolate-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockpsi-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockreinforcedpinkslime-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tool Forge with name tconstruct-tools/forge/blockender-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockchocolate-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockpsi-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockreinforcedpinkslime-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Armor Forge with name conarm-armorforge_blockender-remodified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Saturated Tobacco Pile with name minecraft-tb.hunger-remodified
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
-[SERVER_STARTED][CLIENT][ERROR] Trying to access Ghost item before it's ready: <item:hermalfoundation:coin:1>

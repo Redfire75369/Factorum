@@ -29,7 +29,7 @@ endertweaker - EnderTweaker - 1.1.7
 mtlib - MTLib - 3.0.6
 modtweaker - Mod Tweaker - 4.0.17
 preston - Preston - 0.3.5
-forgelin - Shadowfacts' Forgelin - 1.8.3
+forgelin - Shadowfacts' Forgelin - 1.8.4
 thaumcraft - Thaumcraft - 6.1.BETA26
 thaumcraftresearchloader - Thaumcraft Research Loader - 1.0
 thaumic_arcana - Thaumic Arcana - 1.2.0
@@ -47,7 +47,7 @@ mantle - Mantle - 1.12-1.3.3.55
 chisel - Chisel - MC1.12.2-0.2.1.35
 enderiointegrationtic - Ender IO Integration with Tinkers' Construct - 5.1.51
 botania_tweaks - Botania Tweaks - 1.8.6
-botania - Botania - r1.10-361
+botania - Botania - r1.10-362
 librarianlib - LibrarianLib - 4.19.2
 morphtool - Morph-o-Tool - 1.2-21
 autoreglib - AutoRegLib - 1.3-32
@@ -69,13 +69,14 @@ placebo - Placebo - 1.6.0
 apotheosis - Apotheosis - 1.10.4
 appleskin - AppleSkin - 1.0.9
 gbook_snapshot - Guidebook - 2.9.1.s5
-arcanearchives - Arcane Archives - 0.2.0.8
+arcanearchives - Arcane Archives - 0.2.0.9
 artifacts - Artifacts - 1.12.2-1.1.0
 astralsorcery - Astral Sorcery - 1.10.20
 avaritia - Avaritia - 3.3.0
 avaritiatweaks - Avaritia's Complement - @VERSION@
 avaritiaio - Avaritia IO - 1.1
 balancedclaytools - Balanced Clay Tools - 0.1.0
+base - B.A.S.E - 3.13.0
 reborncore - Reborn Core - 3.16.2.473
 techreborn - Tech Reborn - 2.24.1.1032
 forestry - Forestry - 5.8.2.394
@@ -92,6 +93,7 @@ botany - Binnie's Botany - 2.5.1.188
 extrabees - Binnie's Extra Bees - 2.5.1.188
 extratrees - Binnie's Extra Trees - 2.5.1.188
 bloodarsenal - Blood Arsenal - 1.12.2-2.2.0-28
+contenttweaker - ContentTweaker - 1.12.2-4.9.1
 conarm - Construct's Armory - 1.2.4
 bloodtinker - Tinkering With Blood Magic - 1.0.5
 bookshelf - Bookshelf - 2.3.588
@@ -141,7 +143,7 @@ gamestages - Game Stages - 2.0.117
 dimstages - Dimension Stages - 2.0.23
 dym - Document Your Mod Mod - 1.1.1
 dummycore - DummyCoreUnofficial - 2.4.112.5.
-mysticalmechanics - Mystical Mechanics - 0.10
+mysticalmechanics - Mystical Mechanics - 0.11
 embers - Embers Rekindled - 1.13-hotfix2
 enderiobase - Ender IO Base - 5.1.51
 enderioconduits - Ender IO Conduits - 5.1.51
@@ -151,7 +153,7 @@ enderioconduitsopencomputers - Ender IO Open Computers Conduits - 5.1.51
 enderioendergy - Ender IO endergy - 5.1.51
 enderiointegrationforestry - Ender IO Integration with Forestry - 5.1.51
 enderiointegrationticlate - Ender IO Integration with Tinkers' Construct - 5.1.51
-ftblib - FTB Library - 5.4.3.134
+ftblib - FTB Library - 5.4.3.138
 enderiomachines - Ender IO Machines - 5.1.51
 enderstorage - EnderStorage - 2.4.6.137
 enderutilities - Ender Utilities - 0.7.14
@@ -173,7 +175,7 @@ zerocore - Zero CORE - 1.12.2-0.1.2.8
 bigreactors - Extreme Reactors - 1.12.2-0.4.5.67
 farmeradditions - AA Farmer Compat - 1.0.0
 fastfurnace - FastFurnace - 1.3.1
-nuclearcraft - NuclearCraft - 2.18h
+nuclearcraft - NuclearCraft - 2.18i
 fbnc - Fission Based Neutron Collector - 2.1.0
 flatcoloredblocks - Flat Colored Blocks - mc1.12-6.8
 mcmultipart - MCMultiPart - 2.5.3
@@ -182,7 +184,7 @@ sonarcore - SonarCore - 5.0.19
 fluxnetworks - Flux Networks - 3.0.19
 foamfix - FoamFix - 0.10.5-1.12.2
 ftbbanners - FTB Banners - 1.1.0.12
-ftbutilities - FTB Utilities - 5.4.0.102
+ftbutilities - FTB Utilities - 5.4.0.105
 ftbbackups - FTB Utilities: Backups - 0.0.0.ftbbackups
 gasconduits - GasConduits - 1.12.2-1.2.1
 gendustry - GenDustry - 1.6.5.8
@@ -227,7 +229,7 @@ jaopca - JAOPCA - 1.12.2-2.2.8.103
 oredictinit - OreDictInit - 1.12.2-2.2.1.71
 jaopcaadditions - Just A Ore Processing Compatibility Attempt: Additions - 1.12.2-2.2.1.9
 jetif - Just Enough Throwing In Fluids - 1.5.1
-jee - Just Enough Energistics - 1.0.7
+jee - Just Enough Energistics - 1.0.8
 jeid - JustEnoughIDs - 1.0.3-44
 justenoughpetroleum - Just Enough Petroleum - 0.1
 justenoughreactors - Just Enough Reactors - 1.1.3.61
@@ -241,7 +243,7 @@ manatweaks - ManaTweaks - 1.4
 matc - Mystical Agriculture Tiered Crystals - 1.0.1-hotfix
 mekanismgenerators - Mekanism: Generators - 1.12.2-9.8.1.383
 mekanismtools - Mekanism: Tools - 1.12.2-9.8.1.383
-mekatweaker - MekaTweaker - 1.1.2
+mekatweaker - MekaTweaker - 1.2.0
 mob_grinding_utils - mob_grinding_utils - 0.3.13
 mobstages - Mob Stages - 2.0.13
 modelloader - ModelLoader - 1.1.7
@@ -317,8 +319,8 @@ teslafied - Teslafied - 1.1.1
 tesslocator - Tesslocator - 1.1.0.15
 texfix - TextureFix - 4.0
 tg - Thaumic Gadgets - 0.1.5.0
-thaumadditions - Thaumic Additions: Reconstructed - 19r
-thaumicaugmentation - Thaumic Augmentation - 1.12.2-1.1.8
+thaumadditions - Thaumic Additions: Reconstructed - 20r
+thaumicaugmentation - Thaumic Augmentation - 1.12.2-1.1.9
 thaumicbases - Thaumic Bases - 3.3.400.6r
 thaumicbrewing - Thaumic Brewing - 1.0.2
 thaumcomp - Thaumic Computers - 0.5.1
