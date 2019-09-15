@@ -60,55 +60,19 @@ for key, crystal in hashCrystal {
 }
 
 /***** Ingots *****/
-recipes.removeShaped(hashIngot["BaseEssence"], [
-	[null, oreDict["shardProsperity"] , null],
-	[oreDict["shardProsperity"], hashIngot["Iron"], oreDict["shardProsperity"]],
-	[null, oreDict["shardProsperity"] , null]]);
-recipes.removeShaped(hashIngot["Blutonium"], [
-	[hashIngot["Cyanite"], hashIngot["Cyanite"], hashIngot["Cyanite"]],
-	[hashIngot["Cyanite"], null, hashIngot["Cyanite"]],
-	[hashIngot["Cyanite"], hashIngot["Cyanite"], hashIngot["Cyanite"]]]);
-recipes.removeShapeless(hashIngot["Bronze"],
-	[hashIngot["Tin"], hashIngot["Copper"], hashIngot["Copper"], hashIngot["Copper"]]);
-recipes.removeShaped(hashIngot["CrystalMatrix"], [
-	[<avaritia:resource>, oreDict["starNether"], <avaritia:resource>],
-	[<avaritia:resource>, oreDict["starNether"], <avaritia:resource>]]);
-recipes.removeShaped(hashIngot["EbonyPsi"], [
-	[oreDict["substanceEbony"], oreDict["substanceEbony"], oreDict["substanceEbony"]],
-	[oreDict["substanceEbony"], hashIngot["Psi"], oreDict["substanceEbony"]],
-	[oreDict["substanceEbony"], oreDict["substanceEbony"], oreDict["substanceEbony"]]]);
-recipes.removeShaped(hashIngot["Inferium"], [
-	[null, oreDict["essenceInferium"] , null],
-	[oreDict["essenceInferium"], hashIngot["BaseEssence"], oreDict["essenceInferium"]],
-	[null, oreDict["essenceInferium"] , null]]);
-recipes.removeShaped(hashIngot["Insanium"], [
-	[null, oreDict["essenceInsanium"] , null],
-	[oreDict["essenceInsanium"], hashIngot["Superium"], oreDict["essenceInsanium"]],
-	[null, oreDict["essenceInsanium"] , null]]);
-recipes.removeShaped(hashIngot["Intermedium"], [
-	[null, oreDict["essenceIntermedium"] , null],
-	[oreDict["essenceIntermedium"], hashIngot["Prudenfium"], oreDict["essenceIntermedium"]],
-	[null, oreDict["essenceIntermedium"] , null]]);
-recipes.removeShaped(hashIngot["IridiumAlloy"], [
-	[hashIngot["Iridium"], hashPlate["AdvancedAlloy"], hashIngot["Iridium"]],
-	[hashPlate["AdvancedAlloy"], hashGem["Diamond"], hashPlate["AdvancedAlloy"]],
-	[hashIngot["Iridium"], hashPlate["AdvancedAlloy"], hashIngot["Iridium"]]]);
-recipes.removeShaped(hashIngot["IvoryPsi"], [
-	[oreDict["substanceIvory"], oreDict["substanceIvory"], oreDict["substanceIvory"]],
-	[oreDict["substanceIvory"], hashIngot["Psi"], oreDict["substanceIvory"]],
-	[oreDict["substanceIvory"], oreDict["substanceIvory"], oreDict["substanceIvory"]]]);
-recipes.removeShaped(hashIngot["Prudentium"], [
-	[null, oreDict["essencePrudentium"] , null],
-	[oreDict["essencePrudentium"], hashIngot["Inferium"], oreDict["essencePrudentium"]],
-	[null, oreDict["essencePrudentium"] , null]]);
-recipes.removeShaped(hashIngot["Superium"], [
-	[null, oreDict["essenceSuperium"] , null],
-	[oreDict["essenceSuperium"], hashIngot["Supremium"], oreDict["essenceSuperium"]],
-	[null, oreDict["essenceSuperium"] , null]]);
-recipes.removeShaped(hashIngot["Supremium"], [
-	[null, oreDict["essenceSupremium"] , null],
-	[oreDict["essenceSupremium"], hashIngot["Intermedium"], oreDict["essenceSupremium"]],
-	[null, oreDict["essenceSupremium"] , null]]);
+recipes.removeShaped(hashIngot["BaseEssence"], [[null, oreDict["shardProsperity"] , null],[oreDict["shardProsperity"], hashIngot["Iron"], oreDict["shardProsperity"]],[null, oreDict["shardProsperity"] , null]]);
+recipes.removeShaped(hashIngot["Blutonium"], [[hashIngot["Cyanite"], hashIngot["Cyanite"], hashIngot["Cyanite"]],[hashIngot["Cyanite"], null, hashIngot["Cyanite"]],[hashIngot["Cyanite"], hashIngot["Cyanite"], hashIngot["Cyanite"]]]);
+recipes.removeShapeless(hashIngot["Bronze"],[hashIngot["Tin"], hashIngot["Copper"], hashIngot["Copper"], hashIngot["Copper"]]);
+recipes.removeShaped(hashIngot["CrystalMatrix"], [[<avaritia:resource>, oreDict["starNether"], <avaritia:resource>],[<avaritia:resource>, oreDict["starNether"], <avaritia:resource>]]);
+recipes.removeShaped(hashIngot["EbonyPsi"], [[oreDict["substanceEbony"], oreDict["substanceEbony"], oreDict["substanceEbony"]], [oreDict["substanceEbony"], hashIngot["Psi"], oreDict["substanceEbony"]],[oreDict["substanceEbony"], oreDict["substanceEbony"], oreDict["substanceEbony"]]]);
+recipes.removeShaped(hashIngot["Inferium"], [[null, oreDict["essenceInferium"] , null],[oreDict["essenceInferium"], hashIngot["BaseEssence"], oreDict["essenceInferium"]],[null, oreDict["essenceInferium"] , null]]);
+recipes.removeShaped(hashIngot["Insanium"], [[null, oreDict["essenceInsanium"] , null],[oreDict["essenceInsanium"], hashIngot["Superium"], oreDict["essenceInsanium"]],[null, oreDict["essenceInsanium"] , null]]);
+recipes.removeShaped(hashIngot["Intermedium"], [[null, oreDict["essenceIntermedium"] , null],[oreDict["essenceIntermedium"], hashIngot["Prudenfium"], oreDict["essenceIntermedium"]],[null, oreDict["essenceIntermedium"] , null]]);
+recipes.removeShaped(hashIngot["IridiumAlloy"], [[hashIngot["Iridium"], hashPlate["AdvancedAlloy"], hashIngot["Iridium"]],[hashPlate["AdvancedAlloy"], hashGem["Diamond"], hashPlate["AdvancedAlloy"]],[hashIngot["Iridium"], hashPlate["AdvancedAlloy"], hashIngot["Iridium"]]]);
+recipes.removeShaped(hashIngot["IvoryPsi"], [[oreDict["substanceIvory"], oreDict["substanceIvory"], oreDict["substanceIvory"]],[oreDict["substanceIvory"], hashIngot["Psi"], oreDict["substanceIvory"]],[oreDict["substanceIvory"], oreDict["substanceIvory"], oreDict["substanceIvory"]]]);
+recipes.removeShaped(hashIngot["Prudentium"], [[null, oreDict["essencePrudentium"] , null],[oreDict["essencePrudentium"], hashIngot["Inferium"], oreDict["essencePrudentium"]],[null, oreDict["essencePrudentium"] , null]]);
+recipes.removeShaped(hashIngot["Superium"], [[null, oreDict["essenceSuperium"] , null],[oreDict["essenceSuperium"], hashIngot["Supremium"], oreDict["essenceSuperium"]],[null, oreDict["essenceSuperium"] , null]]);
+recipes.removeShaped(hashIngot["Supremium"], [[null, oreDict["essenceSupremium"] , null],[oreDict["essenceSupremium"], hashIngot["Intermedium"], oreDict["essenceSupremium"]],[null, oreDict["essenceSupremium"] , null]]);
 
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot>);
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:3>);
@@ -123,10 +87,8 @@ mods.techreborn.vacuumFreezer.removeRecipe(<techreborn:ingot:17>);
 
 for key, ingot in hashIngot {
 	if (hashOre has key) {
-		recipes.removeShapeless(ingot, 
-			[hashOre[key], hashDust["Pyrotheum"]]);
-		recipes.removeShapeless(ingot, 
-			[hashOre[key], hashDust["Petrotheum"], hashDust["Pyrotheum"]]);
+		recipes.removeShapeless(ingot, [hashOre[key], hashDust["Pyrotheum"]]);
+		recipes.removeShapeless(ingot, [hashOre[key], hashDust["Petrotheum"], hashDust["Pyrotheum"]]);
 		
 		for itemIngot in hashOre[key].items {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemIngot, sand);
@@ -143,12 +105,8 @@ for key, ingot in hashIngot {
 		}
 	}
 	if (hashNugget has key) {
-		recipes.removeShaped(ingot, [
-			[hashNugget[key], hashNugget[key], hashNugget[key]],
-			[hashNugget[key], hashNugget[key], hashNugget[key]],
-			[hashNugget[key], hashNugget[key], hashNugget[key]]]);
-		recipes.removeShapeless(ingot, 
-			[hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key]]);
+		recipes.removeShaped(ingot, [[hashNugget[key], hashNugget[key], hashNugget[key]],[hashNugget[key], hashNugget[key], hashNugget[key]],[hashNugget[key], hashNugget[key], hashNugget[key]]]);
+		recipes.removeShapeless(ingot, [hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key], hashNugget[key]]);
 	}
 	if (hashDust has key) {
 		recipes.removeShapeless(ingot, [hashDust[key], hashDust["Pyrotheum"]]);
@@ -162,8 +120,7 @@ for key, ingot in hashIngot {
 		}
 	}
 	if (hashBlock has key) {
-		recipes.removeShapeless(ingot, 
-			[hashBlock[key]]);
+		recipes.removeShapeless(ingot, [hashBlock[key]]);
 	}
 	if (hashMolten has key) {
 		for itemIngot in ingot.items {
@@ -226,12 +183,10 @@ for key, clathrate in hashClathrate {
 
 for key, nugget in hashNugget {
 	if (hashIngot has key) {
-		recipes.removeShapeless(nugget,
-			[hashIngot[key]]);
+		recipes.removeShapeless(nugget,[hashIngot[key]]);
 	}
 	if (hashGem has key) {
-		recipes.removeShapeless(nugget,
-			[hashGem[key]]);
+		recipes.removeShapeless(nugget,[hashGem[key]]);
 	}
 	if (hashMolten has key) {
 		for itemNugget in nugget.items {
@@ -243,14 +198,12 @@ for key, nugget in hashNugget {
 
 /***** Dusts *****/
 mods.mekanism.infuser.removeRecipe(hashDust["Bronze"], hashDust["Copper"], "TIN");
-mods.mekanism.infuser.removeRecipe(hashDust["Steel"], <mekanism:enriched_iron>, "CARBON");
+mods.mekanism.infuser.removeRecipe(hashDust["Steel"], <mekanism:enrichediron>, "CARBON");
 
 for key, dust in hashDust {
 	if (hashOre has key) {
-		recipes.removeShapeless(dust,
-			[hashOre[key], hashDust["Petrotheum"]]);
-		recipes.removeShapeless(dust,
-			[hashOre[key], <immersiveengineering:tool>]);
+		recipes.removeShapeless(dust,[hashOre[key], hashDust["Petrotheum"]]);
+		recipes.removeShapeless(dust,[hashOre[key], <immersiveengineering:tool>]);
 		
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dust);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashOre[key]]);
@@ -270,8 +223,7 @@ for key, dust in hashDust {
 		mods.mekanism.enrichment.removeRecipe(hashDustDirty[key], dust);
 	}
 	if (hashIngot has key) {
-		recipes.removeShapeless(dust,
-			[hashIngot[key], hashDust["Petrotheum"]]);
+		recipes.removeShapeless(dust,[hashIngot[key], hashDust["Petrotheum"]]);
 		
 		mods.mekanism.crusher.removeRecipe(dust, hashIngot[key]);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashIngot[key]]);
@@ -301,12 +253,10 @@ for key, dust in hashDust {
 		}
 	}
 	if (hashDustSmall has key) {
-		recipes.removeShapeless(dust,
-			[hashDustSmall[key], hashDustSmall[key], hashDustSmall[key], hashDustSmall[key]]);
+		recipes.removeShapeless(dust,[hashDustSmall[key], hashDustSmall[key], hashDustSmall[key], hashDustSmall[key]]);
 	}
 	if (hashDustTiny has key) {
-		recipes.removeShapeless(dust,
-			[hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key]]);
+		recipes.removeShapeless(dust,[hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key], hashDustTiny[key]]);
 	}
 	if (hashOre has key||hashIngot has key||hashGem has key) {
 		for itemDust in dust.items {
@@ -328,11 +278,8 @@ mods.techreborn.industrialGrinder.removeRecipe(<techreborn:smalldust:59>);
 
 for key, dustSmall in hashDustSmall {
 	if (hashDust has key) {
-		recipes.removeShaped(dustSmall, [
-			[null, null],
-			[null, hashDust[key]]]);
-		recipes.removeShapeless(dustSmall, [
-			hashDust[key]]);
+		recipes.removeShaped(dustSmall, [[null, null],[null, hashDust[key]]]);
+		recipes.removeShapeless(dustSmall, [hashDust[key]]);
 	}
 }
 
@@ -340,9 +287,7 @@ for key, dustSmall in hashDustSmall {
 /***** Tiny Dusts *****/
 for key, dustTiny in hashDustTiny {
 	if (hashDust has key) {
-		recipes.removeShaped(dustTiny, [
-			[hashDust[key], null],
-			[null, null]]);
+		recipes.removeShaped(dustTiny, [[hashDust[key], null],[null, null]]);
 	}
 }
 
@@ -352,10 +297,8 @@ mods.techreborn.implosionCompressor.removeRecipe(<techreborn:plates:38>);
 
 for key, plate in hashPlate {
 	if (hashIngot has key) {
-		recipes.removeShapeless(plate, 
-			[hashIngot[key], <embers:tinker_hammer>]);
-		recipes.removeShapeless(plate, 
-			[hashIngot[key], <immersiveengineering:tool>]);
+		recipes.removeShapeless(plate, [hashIngot[key], <embers:tinker_hammer>]);
+		recipes.removeShapeless(plate, [hashIngot[key], <immersiveengineering:tool>]);
 		
 		mods.nuclearcraft.pressurizer.removeRecipeWithOutput([plate]);
 		for itemPlate in plate.items {
@@ -393,18 +336,14 @@ for key, plateDense in hashPlateDense {
 /***** Rods *****/
 for key, rod in hashRod {
 	if (hashIngot has key) {
-		recipes.removeShaped(rod, [
-		[hashIngot[key]],
-		[hashIngot[key]]]);
+		recipes.removeShaped(rod, [[hashIngot[key]],[hashIngot[key]]]);
 		
 		for itemRod in rod.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemRod);
 		}
 	}
 	if (hashGem has key) {
-		recipes.removeShaped(rod, [
-		[hashGem[key]],
-		[hashGem[key]]]);
+		recipes.removeShaped(rod, [[hashGem[key]],[hashGem[key]]]);
 		
 		for itemRod in rod.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemRod);
@@ -414,13 +353,19 @@ for key, rod in hashRod {
 /***** Gears *****/
 for key, gear in hashGear {
 }
+
 /********** Blocks **********/
+
 /***** Blocks *****/
 
 /********** Liquids **********/
+
 /***** Molten *****/
 
 /********** Gases **********/
+
 /***** Slurry *****/
 
 /***** Clean Slurry *****/
+
+var preventError = 42 as int;
