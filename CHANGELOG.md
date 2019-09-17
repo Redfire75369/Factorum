@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ### Added
+- Mods: Better Questing: RF Expansion; version 3.4.31
 - Mods: ContentTweaker; version 1.12.2-4.9.1
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
@@ -26,6 +27,8 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Actually Additions; updated to 1.12.2-r150
 - Mods: Apotheosis; updated to 1.12.2-1.10.5
 - Mods: Arcane Archives; updated to 0.2.0.9
+- Mods: Better Questing; updated to 3.5.310
+- Mods: Better Questing: Standard Expansion; updated to 3.4.165
 - Mods: Blood Magic; updated to 1.12.2-2.4.2-104
 - Mods: Botania; updated to r1.10-362
 - Mods: Building Gadgets; updated to 2.7.3
@@ -44,6 +47,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Ender IO TiC; updated to 1.12.2-5.0.51
 - Mods: Ender Utilities; updated to 1.12.2-0.7.14
 - Mods: Extended Crafting; updated to 1.12.2-1.5.6
+- Mods: Flux Networks; updated to 1.12.2-4.0.7
 - Mods: FTB Banners; updated to 1.1.0.12
 - Mods: FTB Lib; updated to 5.4.3.138
 - Mods: FTB Utilities; updated to 5.4.0.105
@@ -72,6 +76,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Super Factory Manager; updated to 1.12.2-2.0.23
 - Mods: Tech Reborn; updated to 1.12.2-2.24.1.1032-universal
 - Mods: Thaumic Additions: Reconstructed; updated to 1.12.2-20r
+- Mods: Thaumic Arcana; updated to 
 - Mods: Thaumic Augmentation; updated to 1.12.2-1.1.9
 - Mods: Thaumic Computers; updated to MC1.12.2-0.5.1
 - Mods: Thaumic Periphery; updated to 0.3.1

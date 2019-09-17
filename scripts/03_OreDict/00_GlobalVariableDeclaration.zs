@@ -1,4 +1,3 @@
-#debug
 #loader crafttweaker
 #priority -0300
 

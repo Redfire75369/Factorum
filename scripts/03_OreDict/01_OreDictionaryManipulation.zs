@@ -7,7 +7,7 @@ import crafttweaker.oredict.IOreDictEntry;
 /******************** Defining Functions ********************/
 function replace(item as IItemStack, oredict as IOreDictEntry) {
 	oredict.add(item);
-	if (!(item.ores.empty)) {
+	if (!(item.ores.length == 0)) {
 		for ore in item.ores {
 			recipes.replaceAllOccurences(ore, oredict);
 		} 
@@ -18,6 +18,7 @@ function replace(item as IItemStack, oredict as IOreDictEntry) {
 
 function oreSynonym(toReplace as string, replaceWith as string) {
 	var allOres = {
+	
 		"ore": oreDict["ore" ~ toReplace], 
 		"cluster": oreDict["cluster" ~ toReplace], 
 		"dustDirty": oreDict["dustDirty" ~ toReplace], 
@@ -36,6 +37,7 @@ function oreSynonym(toReplace as string, replaceWith as string) {
 		"rod": oreDict["rod" ~ toReplace], 
 		"gear": oreDict["gear" ~ toReplace], 
 		"block": oreDict["block" ~ toReplace]
+	
 	} as IOreDictEntry[string];
 	for key, oredict in allOres {
 		if (!(oredict.empty)) {

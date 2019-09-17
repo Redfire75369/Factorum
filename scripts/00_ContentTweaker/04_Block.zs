@@ -7,10 +7,11 @@ import mods.contenttweaker.DropHandler;
 import mods.contenttweaker.VanillaFactory;
 
 var burntWood = VanillaFactory.createBlock("block_burnt_wood", <blockmaterial:wood>) as Block;
+burntWood.creativeTab = <creativetab:other>;
 burntWood.toolClass = axe;
-burntWood.toolLevel = 0;
 burntWood.register();
 
-var charcoalLowGradeBlock = VanillaFactory.createBlock("block_low_grade_charcoal", <blockmaterial:rock>);
+var charcoalLowGradeBlock = VanillaFactory.createBlock("block_low_grade_charcoal", <blockmaterial:rock>) as Block;
+charcoalLowGradeBlock.creativeTab = <creativetab:other>;
 charcoalLowGradeBlock.toolLevel = 1;
 charcoalLowGradeBlock.register();
