@@ -17,10 +17,10 @@ charcoalLowGrade.register();
 /*****Items With Durability*****/
 var file = VanillaFactory.createItem("file") as Item;
 file.creativeTab = <creativetab:other>;
-file.maxDamage = 150;
+file.maxDamage = 100;
 file.register();
 
 var wrench = VanillaFactory.createItem("wrench") as Item;
 wrench.creativeTab = <creativetab:other>;
-wrench.maxDamage = 150;
+wrench.maxDamage = 100;
 wrench.register();

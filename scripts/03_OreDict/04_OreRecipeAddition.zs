@@ -3,9 +3,9 @@
 #norun
 
 /* Mekanism: Combiner */
-for key, ore in hashOre {
+for key, dictOre in hashOre {
 	if (hashDust has key) {
-		mods.mekanism.combiner.addRecipe(hashDust[key] * 32, <minecraft:stone>, ore.firstItem);
+		mods.mekanism.combiner.addRecipe(hashDust[key] * 32, <minecraft:stone>, dictOre.firstItem);
 	}
 }
 mods.mekanism.combiner.addRecipe(oreDict["essenceInferium"] * 32, <minecraft:stone>, <mysticalagriculture:inferium_ore>);

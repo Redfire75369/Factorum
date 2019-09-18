@@ -1,10 +1,9 @@
-#CreativeTabs
+
 itemGroup.currency=ContentTweaker Currency
 itemGroup.endgame=ContentTweaker EndGame
 itemGroup.other=ContentTweaker Others
 
 
-#Currency
 item.contenttweaker.coin_chemist.name=Copper Chemist Coin
 item.contenttweaker.coin_chemist_compressed.name=Silver Chemist Coin
 item.contenttweaker.coin_chemist_compressed_double.name=Gold Chemist Coin
@@ -40,29 +39,16 @@ item.contenttweaker.coin_technician_compressed.name=Silver Technician Coin
 item.contenttweaker.coin_technician_compressed_double.name=Gold Technician Coin
 item.contenttweaker.coin_technician_compressed_triple.name=Platinum Technician Coin
 
-#EndGame
-item.contenttweaker.chaos_ingot.name=Chaos Ingot
 
-#Other
+item.contenttweaker.chaos_ingot.name=Chaos Ingot
+item.contenttweaker.wyvern_ingot.name=Wyvern Ingot
+
+
 item.contenttweaker.file.name=Engineer's File
 item.contenttweaker.wrench.name=Engineer's Wrench
-item.contenttweaker.block_burnt_wood.name=Burnt Wood
 item.contenttweaker.seared_paste.name=Seared Paste
 item.contenttweaker.low_grade_charcoal.name=Low Grade Charcoal
+
+
+item.contenttweaker.block_burnt_wood.name=Burnt Wood
 item.contenttweaker.block_low_grade_charcoal.name=Block of Low Grade Charcoal
-
-
-#JAOPCALocalisation
-jaopca.entry.CrystalFlux=Flux Crystal
-jaopca.entry.Gelid=Gelid Gem
-jaopca.entry.Lapis=Lapis Lazuli
-jaopca.entry.QuartzBlack=Black Quartz
-
-jaopca.entry.Alubrass=Aluminium Brass
-jaopca.entry.Chromium=Chrome
-jaopca.entry.ConstructionAlloy=Iron Alloy
-jaopca.entry.CosmicNeutronium=Neutronium
-jaopca.entry.AstralStarmetal=Starmetal
-jaopca.entry.DraconiumAwakened=Awakened Draconium
-jaopca.entry.ElectrumFlux=Fluxed Electrum
-jaopca.entry.ElvenElementium=Elementium
