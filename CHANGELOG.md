@@ -47,7 +47,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Ender IO TiC; updated to 1.12.2-5.0.51
 - Mods: Ender Utilities; updated to 1.12.2-0.7.14
 - Mods: Extended Crafting; updated to 1.12.2-1.5.6
-- Mods: Flux Networks; updated to 1.12.2-4.0.7-24
+- Mods: Flux Networks; updated to 1.12.2-4.0.7
 - Mods: FTB Banners; updated to 1.1.0.12
 - Mods: FTB Lib; updated to 5.4.3.138
 - Mods: FTB Utilities; updated to 5.4.0.105
@@ -76,7 +76,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Super Factory Manager; updated to 1.12.2-2.0.23
 - Mods: Tech Reborn; updated to 1.12.2-2.24.1.1032-universal
 - Mods: Thaumic Additions: Reconstructed; updated to 1.12.2-20r
-- Mods: Thaumic Arcana; updated to 1.3.0
+- Mods: Thaumic Arcana; updated to 
 - Mods: Thaumic Augmentation; updated to 1.12.2-1.1.9
 - Mods: Thaumic Computers; updated to MC1.12.2-0.5.1
 - Mods: Thaumic Periphery; updated to 0.3.1
@@ -86,7 +86,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Made Removal of Recipes more efficient
 
 ### Removed
-
+- Mods: Resource Loader
 
 ## [v0.0.0-pre.1+build.10] - 28/08/19 **PR**
 ### Added

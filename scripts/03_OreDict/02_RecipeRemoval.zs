@@ -20,7 +20,7 @@ for key, dictCluster in hashCluster {
 /***** Dirty Dusts *****/
 for key, dictDustDirty in hashDustDirty {
 	if (hashClump has key) {
-		mods.mekanism.crusher.removeRecipe(dictDustDirty, hashClump[ke;
+		mods.mekanism.crusher.removeRecipe(dictDustDirty, hashClump[key]);
 	}
 }
 
@@ -207,6 +207,14 @@ for key, dictIngot in hashIngot {
 /***** Gems *****/
 furnace.remove(<minecraft:quartz>, hashCluster["Quartz"]);
 furnace.remove(<thaumcraft:quicksilver>, hashCluster["Quicksilver"]);
+mods.techreborn.industrialGrinder.removeInputRecipe(hashOre["Amethyst"]);
+mods.techreborn.industrialGrinder.removeInputRecipe(hashOre["Coal"]);
+mods.techreborn.industrialGrinder.removeInputRecipe(hashOre["Diamond"]);
+mods.techreborn.industrialGrinder.removeInputRecipe(hashOre["Emerald"]);
+mods.techreborn.industrialGrinder.removeInputRecipe(hashOre["Lapis"]);
+mods.techreborn.industrialGrinder.removeInputRecipe(hashOre["Peridot"]);
+mods.techreborn.industrialGrinder.removeInputRecipe(hashOre["Ruby"]);
+mods.techreborn.industrialGrinder.removeInputRecipe(hashOre["Sapphire"]);
 
 for key, dictGem in hashGem {
 	if (hashOre has key) {
@@ -214,7 +222,6 @@ for key, dictGem in hashGem {
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashOre[key]]);
 		mods.nuclearcraft.manufactory.removeRecipeWithOutput([dictGem]);
 		mods.techreborn.grinder.removeInputRecipe(hashOre[key]);
-		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
 		for itemGem in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemGem);
 			mods.enderio.SagMill.removeRecipe(itemGem);
@@ -288,7 +295,6 @@ for key, dictDust in hashDust {
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dictDust);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashOre[key]]);
 		mods.techreborn.grinder.removeInputRecipe(hashOre[key]);
-		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
 		for itemDust in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemDust);
 			mods.bloodmagic.AlchemyTable.removeRecipe([itemDust, <bloodmagic:cutting_fluid>]);
@@ -310,7 +316,6 @@ for key, dictDust in hashDust {
 		mods.mekanism.crusher.removeRecipe(dictDust, hashIngot[key]);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashIngot[key]]);
 		mods.techreborn.grinder.removeInputRecipe(hashIngot[key]);
-		mods.techreborn.industrialGrinder.removeInputRecipe(hashIngot[key]);
 		for itemDust in hashIngot[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemDust);
 			mods.enderio.SagMill.removeRecipe(itemDust);
@@ -324,7 +329,6 @@ for key, dictDust in hashDust {
 		mods.mekanism.crusher.removeRecipe(dictDust, hashGem[key]);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashGem[key]]);
 		mods.techreborn.grinder.removeInputRecipe(hashGem[key]);
-		mods.techreborn.industrialGrinder.removeInputRecipe(hashGem[key]);
 		for itemDust in hashGem[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemDust);
 			mods.enderio.SagMill.removeRecipe(itemDust);
@@ -347,13 +351,15 @@ for key, dictDust in hashDust {
 			hashDustTiny[key], hashDustTiny[key], hashDustTiny[key]
 		]);
 	}
+	if ((hashOre has key)&&(!(hashGem has key))) {
+		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
+	}
 	if (hashOre has key||hashIngot has key||hashGem has key) {
 		for itemDust in dictDust.items {
 			mods.actuallyadditions.Crusher.removeRecipe(itemDust);
 			mods.astralsorcery.Grindstone.removeRecipe(itemDust);
 			mods.nuclearcraft.manufactory.removeRecipeWithOutput([itemDust]);
 			mods.techreborn.grinder.removeRecipe(itemDust);
-			mods.techreborn.industrialGrinder.removeRecipe(itemDust);
 		}
 	}
 }
@@ -473,7 +479,7 @@ for key, dictGear in hashGear {
 		]);
 		
 		for itemIngot in hashIngot[key].items {
-			mods.thermalexpansion.compactor.removeGearRecipe(itemIngot);
+			mods.thermalexpansion.Compactor.removeGearRecipe(itemIngot);
 		}
 	}
 	if (hashGem has key) {
@@ -484,7 +490,7 @@ for key, dictGear in hashGear {
 		]);
 		
 		for itemGem in hashGem[key].items {
-			mods.thermalexpansion.compactor.removeGearRecipe(itemGem);
+			mods.thermalexpansion.Compactor.removeGearRecipe(itemGem);
 		}
 	}
 }
@@ -498,7 +504,7 @@ for key, dictBlock in hashBlock {
 			[hashIngot[key], hashIngot[key], hashIngot[key]],
 			[hashIngot[key], hashIngot[key], hashIngot[key]]
 		]);
-		recipes.removeShaped(dictBlock, [
+		recipes.removeShapeless(dictBlock, [
 			hashIngot[key], hashIngot[key], hashIngot[key],
 			hashIngot[key], hashIngot[key], hashIngot[key],
 			hashIngot[key], hashIngot[key], hashIngot[key]
@@ -510,7 +516,7 @@ for key, dictBlock in hashBlock {
 			[hashGem[key], hashGem[key], hashGem[key]],
 			[hashGem[key], hashGem[key], hashGem[key]]
 		]);
-		recipes.removeShaped(dictBlock, [
+		recipes.removeShapeless(dictBlock, [
 			hashGem[key], hashGem[key], hashGem[key],
 			hashGem[key], hashGem[key], hashGem[key],
 			hashGem[key], hashGem[key], hashGem[key]
@@ -525,5 +531,3 @@ for key, dictBlock in hashBlock {
 /***** Slurry *****/
 
 /***** Clean Slurry *****/
-
-var preventError = 42 as int;
