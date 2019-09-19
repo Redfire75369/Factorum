@@ -522,6 +522,11 @@ for key, dictBlock in hashBlock {
 			hashGem[key], hashGem[key], hashGem[key]
 		]);
 	}
+	if (hashMolten has key) {
+		for itemBlock in block.items {
+			mods.tconstruct.Casting.removeBasinRecipe(itemBlock);
+		}
+	}
 }
 
 /********** Liquids **********/

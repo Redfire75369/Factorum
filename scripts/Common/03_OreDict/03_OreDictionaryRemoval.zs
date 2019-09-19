@@ -64,6 +64,30 @@ val arrayRemoveDictCluster = [
 //SILK_SORTING: END@Cluster
 ] as IItemStack[];
 
+val arrayRemoveDictDustDirty = [
+//SILK_SORTING: BEGIN@DustDirty
+
+//SILK_SORTING: END@DustDirty
+] as IItemStack[];
+
+val arrayRemoveDictClump = [
+//SILK_SORTING: BEGIN@Clump
+
+//SILK_SORTING: END@Clump
+] as IItemStack[];
+
+val arrayRemoveDictShard = [
+//SILK_SORTING: BEGIN@Shard
+
+//SILK_SORTING: END@Shard
+] as IItemStack[];
+
+val arrayRemoveDictCrystal = [
+//SILK_SORTING: BEGIN@Crystal
+
+//SILK_SORTING: END@Crystal
+] as IItemStack[];
+
 val arrayRemoveDictIngot = [
 //SILK_SORTING: BEGIN@Ingot
     <bewitchment:silver_ingot>,
@@ -128,22 +152,78 @@ val arrayRemoveDictGem = [
 //SILK_SORTING: END@Gem
 ] as IItemStack[];
 
-val arrayRemoveDictCrystal = [
-//SILK_SORTING: BEGIN@Crystal
-
-//SILK_SORTING: END@Crystal
-] as IItemStack[];
-
-val arrayRemoveDictEnderIO = [
-//SILK_SORTING: BEGIN@EnderIO
-
-//SILK_SORTING: END@EnderIO
-] as IItemStack[];
-
 val arrayRemoveDictClathrate = [
 //SILK_SORTING: BEGIN@Clathrate
 
 //SILK_SORTING: END@Clathrate
+] as IItemStack[];
+
+val arrayRemoveDictNugget = [
+//SILK_SORTING: BEGIN@Nugget
+    <agricraft:agri_nugget>, 
+    <agricraft:agri_nugget:1>, 
+    <agricraft:agri_nugget:2>, 
+    <agricraft:agri_nugget:3>, 
+    <agricraft:agri_nugget:4>, 
+    <agricraft:agri_nugget:5>, 
+    <agricraft:agri_nugget:6>, 
+    <agricraft:agri_nugget:7>, 
+    <agricraft:agri_nugget:8>, 
+    <agricraft:agri_nugget:9>, 
+    <agricraft:agri_nugget:10>, 
+    <agricraft:agri_nugget:11>, 
+    <bewitchment:silver_nugget>, 
+    <embers:nugget_aluminum>, 
+    <embers:nugget_bronze>, 
+    <embers:nugget_copper>, 
+    <embers:nugget_electrum>, 
+    <embers:nugget_lead>, 
+    <embers:nugget_nickel>, 
+    <embers:nugget_silver>, 
+    <embers:nugget_tin>, 
+    <extendedcrafting:material:128>, 
+    <extendedcrafting:material:129>, 
+    <immersiveengineering:metal:20>, 
+    <immersiveengineering:metal:21>, 
+    <immersiveengineering:metal:22>, 
+    <immersiveengineering:metal:23>, 
+    <immersiveengineering:metal:24>, 
+    <immersiveengineering:metal:26>, 
+    <immersiveengineering:metal:27>, 
+    <immersiveengineering:metal:28>, 
+    <immersiveengineering:metal:29>, 
+    <magicbees:orepart>, 
+    <magicbees:orepart:1>, 
+    <magicbees:orepart:3>, 
+    <magicbees:orepart:4>, 
+    <magicbees:orepart:5>, 
+    <mekanism:nugget:2>, 
+    <mekanism:nugget:4>, 
+    <mekanism:nugget:5>, 
+    <mekanism:nugget:6>, 
+    <mysticalworld:copper_nugget>, 
+    <mysticalworld:silver_nugget>, 
+    <tcomplement:materials:20>, 
+    <techreborn:nuggets>, 
+    <techreborn:nuggets:2>, 
+    <techreborn:nuggets:4>, 
+    <techreborn:nuggets:5>, 
+    <techreborn:nuggets:6>, 
+    <techreborn:nuggets:7>, 
+    <techreborn:nuggets:8>, 
+    <techreborn:nuggets:9>, 
+    <techreborn:nuggets:10>, 
+    <techreborn:nuggets:11>, 
+    <techreborn:nuggets:12>, 
+    <techreborn:nuggets:13>, 
+    <techreborn:nuggets:23>, 
+    <techreborn:nuggets:24>, 
+    <thaumcraft:nugget>, 
+    <thaumcraft:nugget:1>, 
+    <thaumcraft:nugget:2>, 
+    <thaumcraft:nugget:3>, 
+    <thaumcraft:nugget:4>
+//SILK_SORTING: END@Nugget
 ] as IItemStack[];
 
 val arrayRemoveDictDust = [
@@ -242,6 +322,19 @@ val arrayRemoveDictDust = [
 //SILK_SORTING: END@Dust
 ] as IItemStack[];
 
+val arrayRemoveDictDustSmall = [
+//SILK_SORTING: BEGIN@DustSmall
+
+//SILK_SORTING: END@DustSmall
+] as IItemStack[];
+
+val arrayRemoveDictDustTiny = [
+//SILK_SORTING: BEGIN@DustTiny
+    <mysticalworld:gold_dust_tiny>, 
+    <mysticalworld:iron_dust_tiny>
+//SILK_SORTING: END@DustTiny
+] as IItemStack[];
+
 val arrayRemoveDictPlate = [
 //SILK_SORTING: BEGIN@Plate
     <embers:plate_aluminum>, 
@@ -320,74 +413,6 @@ val arrayRemoveDictGear = [
 //SILK_SORTING: END@Gear
 ] as IItemStack[];
 
-val arrayRemoveDictNugget = [
-//SILK_SORTING: BEGIN@Nugget
-    <agricraft:agri_nugget>, 
-    <agricraft:agri_nugget:1>, 
-    <agricraft:agri_nugget:2>, 
-    <agricraft:agri_nugget:3>, 
-    <agricraft:agri_nugget:4>, 
-    <agricraft:agri_nugget:5>, 
-    <agricraft:agri_nugget:6>, 
-    <agricraft:agri_nugget:7>, 
-    <agricraft:agri_nugget:8>, 
-    <agricraft:agri_nugget:9>, 
-    <agricraft:agri_nugget:10>, 
-    <agricraft:agri_nugget:11>, 
-    <bewitchment:silver_nugget>, 
-    <embers:nugget_aluminum>, 
-    <embers:nugget_bronze>, 
-    <embers:nugget_copper>, 
-    <embers:nugget_electrum>, 
-    <embers:nugget_lead>, 
-    <embers:nugget_nickel>, 
-    <embers:nugget_silver>, 
-    <embers:nugget_tin>, 
-    <extendedcrafting:material:128>, 
-    <extendedcrafting:material:129>, 
-    <immersiveengineering:metal:20>, 
-    <immersiveengineering:metal:21>, 
-    <immersiveengineering:metal:22>, 
-    <immersiveengineering:metal:23>, 
-    <immersiveengineering:metal:24>, 
-    <immersiveengineering:metal:26>, 
-    <immersiveengineering:metal:27>, 
-    <immersiveengineering:metal:28>, 
-    <immersiveengineering:metal:29>, 
-    <magicbees:orepart>, 
-    <magicbees:orepart:1>, 
-    <magicbees:orepart:3>, 
-    <magicbees:orepart:4>, 
-    <magicbees:orepart:5>, 
-    <mekanism:nugget:2>, 
-    <mekanism:nugget:4>, 
-    <mekanism:nugget:5>, 
-    <mekanism:nugget:6>, 
-    <mysticalworld:copper_nugget>, 
-    <mysticalworld:silver_nugget>, 
-    <tcomplement:materials:20>, 
-    <techreborn:nuggets>, 
-    <techreborn:nuggets:2>, 
-    <techreborn:nuggets:4>, 
-    <techreborn:nuggets:5>, 
-    <techreborn:nuggets:6>, 
-    <techreborn:nuggets:7>, 
-    <techreborn:nuggets:8>, 
-    <techreborn:nuggets:9>, 
-    <techreborn:nuggets:10>, 
-    <techreborn:nuggets:11>, 
-    <techreborn:nuggets:12>, 
-    <techreborn:nuggets:13>, 
-    <techreborn:nuggets:23>, 
-    <techreborn:nuggets:24>, 
-    <thaumcraft:nugget>, 
-    <thaumcraft:nugget:1>, 
-    <thaumcraft:nugget:2>, 
-    <thaumcraft:nugget:3>, 
-    <thaumcraft:nugget:4>
-//SILK_SORTING: END@Nugget
-] as IItemStack[];
-
 val arrayRemoveDictBlock = [
 //SILK_SORTING: BEGIN@Block
     <actuallyadditions:block_misc:5>, 
@@ -448,40 +473,7 @@ val arrayRemoveDictBlock = [
 //SILK_SORTING: END@Block
 ] as IItemStack[];
 
-val arrayRemoveDictDustTiny = [
-//SILK_SORTING: BEGIN@DustTiny
-    <mysticalworld:gold_dust_tiny>, 
-    <mysticalworld:iron_dust_tiny>
-//SILK_SORTING: END@DustTiny
-] as IItemStack[];
-
-val arrayRemoveDictDustSmall = [
-//SILK_SORTING: BEGIN@DustSmall
-
-//SILK_SORTING: END@DustSmall
-] as IItemStack[];
-
-val arrayRemoveDictDustDirty = [
-//SILK_SORTING: BEGIN@DustDirty
-
-//SILK_SORTING: END@DustDirty
-] as IItemStack[];
-
-val arrayRemoveDictClump = [
-//SILK_SORTING: BEGIN@Clump
-
-//SILK_SORTING: END@Clump
-] as IItemStack[];
-
-val arrayRemoveDictShard = [
-//SILK_SORTING: BEGIN@Shard
-
-//SILK_SORTING: END@Shard
-] as IItemStack[];
-
-
 /***** Removing Ore Dictionaries *****/
-
 if (!(arrayRemoveDictOre.length == 0)) {
 	for ore in arrayRemoveDictOre {
 	    for dict in ore.ores {
@@ -493,6 +485,34 @@ if (!(arrayRemoveDictCluster.length == 0)) {
 	for cluster in arrayRemoveDictCluster {
 	    for dict in cluster.ores {
 	        dict.remove(cluster);
+	    }
+	}
+}
+if (!(arrayRemoveDictDustDirty.length == 0)) {
+	for dustDirty in arrayRemoveDictDustDirty {
+	    for dict in dustDirty.ores {
+	        dict.remove(dustDirty);
+	    }
+	}
+}
+if (!(arrayRemoveDictClump.length == 0)) {
+	for clump in arrayRemoveDictClump {
+	    for dict in clump.ores {
+	        dict.remove(clump);
+	    }
+	}
+}
+if (!(arrayRemoveDictShard.length == 0)) {
+	for shard in arrayRemoveDictShard {
+	    for dict in shard.ores {
+	        dict.remove(shard);
+	    }
+	}
+}
+if (!(arrayRemoveDictCrystal.length == 0)) {
+	for crystal in arrayRemoveDictCrystal {
+	    for dict in crystal.ores {
+	        dict.remove(crystal);
 	    }
 	}
 }
@@ -510,20 +530,6 @@ if (!(arrayRemoveDictGem.length == 0)) {
 	    }
 	}
 }
-if (!(arrayRemoveDictCrystal.length == 0)) {
-	for crystal in arrayRemoveDictCrystal {
-	    for dict in crystal.ores {
-	        dict.remove(crystal);
-	    }
-	}
-}
-if (!(arrayRemoveDictEnderIO.length == 0)) {
-	for enderIO in arrayRemoveDictEnderIO {
-	    for dict in enderIO.ores {
-	        dict.remove(enderIO);
-	    }
-	}
-}
 if (!(arrayRemoveDictClathrate.length == 0)) {
 	for clathrate in arrayRemoveDictClathrate {
 	    for dict in clathrate.ores {
@@ -531,10 +537,31 @@ if (!(arrayRemoveDictClathrate.length == 0)) {
 	    }
 	}
 }
+if (!(arrayRemoveDictNugget.length == 0)) {
+	for nugget in arrayRemoveDictNugget {
+	    for dict in nugget.ores {
+	        dict.remove(nugget);
+	    }
+	}
+}
 if (!(arrayRemoveDictDust.length == 0)) {
 	for dust in arrayRemoveDictDust {
 	    for dict in dust.ores {
 	        dict.remove(dust);
+	    }
+	}
+}
+if (!(arrayRemoveDictDustTiny.length == 0)) {
+	for dustTiny in arrayRemoveDictDustTiny {
+	    for dict in dustTiny.ores {
+	        dict.remove(dustTiny);
+	    }
+	}
+}
+if (!(arrayRemoveDictDustSmall.length == 0)) {
+	for dustSmall in arrayRemoveDictDustSmall {
+	    for dict in dustSmall.ores {
+	        dict.remove(dustSmall);
 	    }
 	}
 }
@@ -565,52 +592,10 @@ if (!(arrayRemoveDictGear.length == 0)) {
 	    }
 	}
 }
-if (!(arrayRemoveDictNugget.length == 0)) {
-	for nugget in arrayRemoveDictNugget {
-	    for dict in nugget.ores {
-	        dict.remove(nugget);
-	    }
-	}
-}
 if (!(arrayRemoveDictBlock.length == 0)) {
 	for block in arrayRemoveDictBlock {
 	    for dict in block.ores {
 	        dict.remove(block);
-	    }
-	}
-}
-if (!(arrayRemoveDictDustTiny.length == 0)) {
-	for dustTiny in arrayRemoveDictDustTiny {
-	    for dict in dustTiny.ores {
-	        dict.remove(dustTiny);
-	    }
-	}
-}
-if (!(arrayRemoveDictDustSmall.length == 0)) {
-	for dustSmall in arrayRemoveDictDustSmall {
-	    for dict in dustSmall.ores {
-	        dict.remove(dustSmall);
-	    }
-	}
-}
-if (!(arrayRemoveDictDustDirty.length == 0)) {
-	for dustDirty in arrayRemoveDictDustDirty {
-	    for dict in dustDirty.ores {
-	        dict.remove(dustDirty);
-	    }
-	}
-}
-if (!(arrayRemoveDictClump.length == 0)) {
-	for clump in arrayRemoveDictClump {
-	    for dict in clump.ores {
-	        dict.remove(clump);
-	    }
-	}
-}
-if (!(arrayRemoveDictShard.length == 0)) {
-	for shard in arrayRemoveDictShard {
-	    for dict in shard.ores {
-	        dict.remove(shard);
 	    }
 	}
 }

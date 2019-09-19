@@ -1,10 +1,8 @@
 # Incomplete Things for Pack
 ## CraftTweaker Log
-- Investigate Line 231
-- Investigate Line 320
 
 ## Scripts
-### 03_oreDict/00_variableDeclaration.zs
+### 03_OreDict/00_VariableDeclaration.zs
 #### IItemStack[string]
 - Add hashOreNether
 - Add hashOreEnd
@@ -26,10 +24,10 @@
 - Add hashHot
 - Add hashCool
 
-### 03_oreDict/01_oreDictionaryManipulation.zs
+### 03_OreDict/01_OreDictionaryManipulation.zs
 Use Functions for OreDictionary Replacement
 
-### 03_oreDict/02_recipeRemoval.zs
+### 03_OreDict/02_RecipeRemoval.zs
 - Make sure all recipes are removed for:
 	- Ores
 	- Clusters 
@@ -45,12 +43,12 @@ Use Functions for OreDictionary Replacement
 	- Small Dusts
 	- Tiny Dust
 	- Plates
-	
-- Remove all recipes for
 	- Dense Plates
 	- Rods
 	- Gears 
 	- Blocks
+	
+- Remove all recipes for
 	- Gases
 	- Slurries 
 	- Clean Slurries 

@@ -21,6 +21,9 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Powered Thingies; version 1.12.2-1.0.15
 - Mods: Redstone PCB; version 0.2
 - Mods: Requious Frakto; version 0.5
+- Scripts: Added ContentTweaker Scripts
+- Scripts: Added MekaTweaker Scripts
+- Scripts: Removed Recipes for rest of materials
 
 ### Changed
 - Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
@@ -86,7 +89,12 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Made Removal of Recipes more efficient
 
 ### Removed
+- Mods: Dense Metals
+- Mods: Eternal Singularity
+- Mods: Netherending Ores
 - Mods: Resource Loader
+- Mods: Stone Crafting Table
+- Mods: WanionLib
 
 ## [v0.0.0-pre.1+build.10] - 28/08/19 **PR**
 ### Added
