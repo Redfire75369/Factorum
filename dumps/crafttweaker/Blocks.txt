@@ -972,6 +972,7 @@ Blocks:
 <block:botany:soil>, botany.soil.soil.name
 <block:botany:soil_no_weed>, botany.soil.soil.name
 <block:botany:stained>, tile.null.name
+<block:bq_rf:rf_station>, RF Submission Station (RFSS)
 <block:buildinggadgets:constructionblock>, Construction Block
 <block:buildinggadgets:constructionblock_dense>, Dense Construction Block
 <block:buildinggadgets:constructionblockpowder>, Construction Block Powder
@@ -1540,13 +1541,13 @@ Blocks:
 <block:deepresonance:smelter>, Smelter
 <block:deepresonance:tank>, Tank
 <block:deepresonance:valve>, Valve
-<block:densemetals:dense_coal_ore>, Dense Coal Ore
-<block:densemetals:dense_diamond_ore>, Dense Diamond Ore
-<block:densemetals:dense_emerald_ore>, Dense Emerald Ore
-<block:densemetals:dense_gold_ore>, Dense Gold Ore
-<block:densemetals:dense_iron_ore>, Dense Iron Ore
-<block:densemetals:dense_lapis_ore>, Dense Lapis Ore
-<block:densemetals:dense_redstone_ore>, Dense Redstone Ore
+<block:densemetals:dense_coal_ore>, Air
+<block:densemetals:dense_diamond_ore>, Air
+<block:densemetals:dense_emerald_ore>, Air
+<block:densemetals:dense_gold_ore>, Air
+<block:densemetals:dense_iron_ore>, Air
+<block:densemetals:dense_lapis_ore>, Air
+<block:densemetals:dense_redstone_ore>, Air
 <block:draconicevolution:celestial_manipulator>, Celestial Manipulator
 <block:draconicevolution:chaos_crystal>, Chaos Crystal
 <block:draconicevolution:chaos_shard_atmos>, tile.draconicevolution:chaos_shard_atmos.name
@@ -5585,14 +5586,14 @@ Blocks:
 <block:naturalpledge:thunder_sapling>, tile.thunder_sapling.name
 <block:naturalpledge:thunder_trap>, tile.thunder_trap.name
 <block:naturalpledge:wrath_trap>, tile.wrath_trap.name
-<block:netherendingores:creative_tab>, Creative Tab Block
-<block:netherendingores:ore_end_modded_1>, tile.netherendingores:ore_end_modded_1.name
-<block:netherendingores:ore_end_modded_2>, tile.netherendingores:ore_end_modded_2.name
-<block:netherendingores:ore_end_vanilla>, tile.netherendingores:ore_end_vanilla.name
-<block:netherendingores:ore_nether_modded_1>, tile.netherendingores:ore_nether_modded_1.name
-<block:netherendingores:ore_nether_modded_2>, tile.netherendingores:ore_nether_modded_2.name
-<block:netherendingores:ore_nether_vanilla>, tile.netherendingores:ore_nether_vanilla.name
-<block:netherendingores:ore_other_1>, tile.netherendingores:ore_other_1.name
+<block:netherendingores:creative_tab>, Air
+<block:netherendingores:ore_end_modded_1>, Air
+<block:netherendingores:ore_end_modded_2>, Air
+<block:netherendingores:ore_end_vanilla>, Air
+<block:netherendingores:ore_nether_modded_1>, Air
+<block:netherendingores:ore_nether_modded_2>, Air
+<block:netherendingores:ore_nether_vanilla>, Air
+<block:netherendingores:ore_other_1>, Air
 <block:notenoughwands:lightblock>, Illuminating Orb
 <block:nuclearcraft:accelerator_electromagnet_active>, Superconducting Electromagnet
 <block:nuclearcraft:accelerator_electromagnet_idle>, Superconducting Electromagnet
@@ -6362,7 +6363,7 @@ Blocks:
 <block:rpsideas:conjuredpulsarlight>, tile.conjuredpulsarlight.name
 <block:rpsideas:conjuredstar>, tile.conjuredstar.name
 <block:rpsideas:dark_plate>, tile.dark_plate.name
-<block:sct:stone_crafting_table>, Stone Crafting Table
+<block:sct:stone_crafting_table>, Air
 <block:simple_trophies:trophy>, Trophy
 <block:sonarcore:clearstableglass>, Clear Stable Glass
 <block:sonarcore:reinforceddirtblock>, Reinforced Dirt
@@ -6876,7 +6877,61 @@ Blocks:
 <block:thaumadditions:puriflower>, Puriflower
 <block:thaumadditions:seal>, Arcane Seal
 <block:thaumadditions:twilight_totem>, Twilight Totem
-<block:thaumadditions:vis_crop>, tile.thaumadditions:vis_crop.name
+<block:thaumadditions:vis_crop>, Air
+<block:thaumadditions:vis_crop/aer>, tile.thaumadditions:vis_crop/aer.name
+<block:thaumadditions:vis_crop/alienis>, tile.thaumadditions:vis_crop/alienis.name
+<block:thaumadditions:vis_crop/alkimia>, tile.thaumadditions:vis_crop/alkimia.name
+<block:thaumadditions:vis_crop/aqua>, tile.thaumadditions:vis_crop/aqua.name
+<block:thaumadditions:vis_crop/auram>, tile.thaumadditions:vis_crop/auram.name
+<block:thaumadditions:vis_crop/aversio>, tile.thaumadditions:vis_crop/aversio.name
+<block:thaumadditions:vis_crop/bestia>, tile.thaumadditions:vis_crop/bestia.name
+<block:thaumadditions:vis_crop/caeles>, tile.thaumadditions:vis_crop/caeles.name
+<block:thaumadditions:vis_crop/cognitio>, tile.thaumadditions:vis_crop/cognitio.name
+<block:thaumadditions:vis_crop/desiderium>, tile.thaumadditions:vis_crop/desiderium.name
+<block:thaumadditions:vis_crop/diabolus>, tile.thaumadditions:vis_crop/diabolus.name
+<block:thaumadditions:vis_crop/draco>, tile.thaumadditions:vis_crop/draco.name
+<block:thaumadditions:vis_crop/exanimis>, tile.thaumadditions:vis_crop/exanimis.name
+<block:thaumadditions:vis_crop/exitium>, tile.thaumadditions:vis_crop/exitium.name
+<block:thaumadditions:vis_crop/fabrico>, tile.thaumadditions:vis_crop/fabrico.name
+<block:thaumadditions:vis_crop/fluctus>, tile.thaumadditions:vis_crop/fluctus.name
+<block:thaumadditions:vis_crop/gelum>, tile.thaumadditions:vis_crop/gelum.name
+<block:thaumadditions:vis_crop/herba>, tile.thaumadditions:vis_crop/herba.name
+<block:thaumadditions:vis_crop/humanus>, tile.thaumadditions:vis_crop/humanus.name
+<block:thaumadditions:vis_crop/ignis>, tile.thaumadditions:vis_crop/ignis.name
+<block:thaumadditions:vis_crop/imperium>, tile.thaumadditions:vis_crop/imperium.name
+<block:thaumadditions:vis_crop/infernum>, tile.thaumadditions:vis_crop/infernum.name
+<block:thaumadditions:vis_crop/instrumentum>, tile.thaumadditions:vis_crop/instrumentum.name
+<block:thaumadditions:vis_crop/luna>, tile.thaumadditions:vis_crop/luna.name
+<block:thaumadditions:vis_crop/lux>, tile.thaumadditions:vis_crop/lux.name
+<block:thaumadditions:vis_crop/machina>, tile.thaumadditions:vis_crop/machina.name
+<block:thaumadditions:vis_crop/metallum>, tile.thaumadditions:vis_crop/metallum.name
+<block:thaumadditions:vis_crop/mortuus>, tile.thaumadditions:vis_crop/mortuus.name
+<block:thaumadditions:vis_crop/motus>, tile.thaumadditions:vis_crop/motus.name
+<block:thaumadditions:vis_crop/ordo>, tile.thaumadditions:vis_crop/ordo.name
+<block:thaumadditions:vis_crop/perditio>, tile.thaumadditions:vis_crop/perditio.name
+<block:thaumadditions:vis_crop/permutatio>, tile.thaumadditions:vis_crop/permutatio.name
+<block:thaumadditions:vis_crop/potentia>, tile.thaumadditions:vis_crop/potentia.name
+<block:thaumadditions:vis_crop/praecantatio>, tile.thaumadditions:vis_crop/praecantatio.name
+<block:thaumadditions:vis_crop/praemunio>, tile.thaumadditions:vis_crop/praemunio.name
+<block:thaumadditions:vis_crop/sensus>, tile.thaumadditions:vis_crop/sensus.name
+<block:thaumadditions:vis_crop/sol>, tile.thaumadditions:vis_crop/sol.name
+<block:thaumadditions:vis_crop/sonus>, tile.thaumadditions:vis_crop/sonus.name
+<block:thaumadditions:vis_crop/spatio>, tile.thaumadditions:vis_crop/Spatio.name
+<block:thaumadditions:vis_crop/spiritus>, tile.thaumadditions:vis_crop/spiritus.name
+<block:thaumadditions:vis_crop/stellae>, tile.thaumadditions:vis_crop/stellae.name
+<block:thaumadditions:vis_crop/tempus>, tile.thaumadditions:vis_crop/Tempus.name
+<block:thaumadditions:vis_crop/tenebrae>, tile.thaumadditions:vis_crop/tenebrae.name
+<block:thaumadditions:vis_crop/terra>, tile.thaumadditions:vis_crop/terra.name
+<block:thaumadditions:vis_crop/tinctura>, tile.thaumadditions:vis_crop/Tinctura.name
+<block:thaumadditions:vis_crop/vacuos>, tile.thaumadditions:vis_crop/vacuos.name
+<block:thaumadditions:vis_crop/ventus>, tile.thaumadditions:vis_crop/ventus.name
+<block:thaumadditions:vis_crop/victus>, tile.thaumadditions:vis_crop/victus.name
+<block:thaumadditions:vis_crop/vinculum>, tile.thaumadditions:vis_crop/vinculum.name
+<block:thaumadditions:vis_crop/visum>, tile.thaumadditions:vis_crop/visum.name
+<block:thaumadditions:vis_crop/vitium>, tile.thaumadditions:vis_crop/vitium.name
+<block:thaumadditions:vis_crop/vitreus>, tile.thaumadditions:vis_crop/vitreus.name
+<block:thaumadditions:vis_crop/volatus>, tile.thaumadditions:vis_crop/volatus.name
+<block:thaumadditions:void_crop>, tile.thaumadditions:void_crop.name
 <block:thaumcraft:activator_rail>, Arcane Activator Rail
 <block:thaumcraft:alembic>, Arcane Alembic
 <block:thaumcraft:amber_block>, Amber Block
@@ -7077,7 +7132,10 @@ Blocks:
 <block:thaumcraft:vishroom>, Vishroom
 <block:thaumcraft:void_siphon>, Void Siphon
 <block:thaumcraft:wand_workbench>, Focal Manipulator
-<block:thaumic_arcana:arcane_sieve>, Arcane Sieve
+<block:thaumic_arcana:arcane_sieve>, Air
+<block:thaumic_arcana:aura_leaves>, tile.thaumic_arcana.aura_leaves.name
+<block:thaumic_arcana:aura_wood_log>, tile.thaumic_arcana.aura_wood_log.name
+<block:thaumic_arcana:aura_wood_sapling>, tile.thaumic_arcana.aura_wood_sapling.name
 <block:thaumic_arcana:essentia_mine>, tile.thaumic_arcana.essentia_mine.name
 <block:thaumic_arcana:magic_oak_sapling>, Great Oak Sapling
 <block:thaumic_arcana:paving_stone_disable_enchants>, Paving stone of binding disempowerment

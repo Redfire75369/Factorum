@@ -1,0 +1,747 @@
+Thaumcraft dump:
+-Smelting Bonus:
+--in: <ore:oreGold>, out: <minecraft:gold_nugget>, change: 0.33
+--in: <ore:oreIron>, out: <minecraft:iron_nugget>, change: 0.33
+--in: <ore:oreCinnabar>, out: <thaumcraft:nugget:5>, change: 0.33
+--in: <ore:oreCopper>, out: <thaumcraft:nugget:1>, change: 0.33
+--in: <ore:oreTin>, out: <thaumcraft:nugget:2>, change: 0.33
+--in: <ore:oreSilver>, out: <thaumcraft:nugget:3>, change: 0.33
+--in: <ore:oreLead>, out: <thaumcraft:nugget:4>, change: 0.33
+--in: <ore:oreQuartz>, out: <thaumcraft:nugget:9>, change: 0.33
+--in: <thaumcraft:cluster>, out: <minecraft:iron_nugget>, change: 0.33
+--in: <thaumcraft:cluster:1>, out: <minecraft:gold_nugget>, change: 0.33
+--in: <thaumcraft:cluster:6>, out: <thaumcraft:nugget:5>, change: 0.33
+--in: <thaumcraft:cluster:2>, out: <thaumcraft:nugget:1>, change: 0.33
+--in: <thaumcraft:cluster:3>, out: <thaumcraft:nugget:2>, change: 0.33
+--in: <thaumcraft:cluster:4>, out: <thaumcraft:nugget:3>, change: 0.33
+--in: <thaumcraft:cluster:5>, out: <thaumcraft:nugget:4>, change: 0.33
+--in: <thaumcraft:cluster:7>, out: <thaumcraft:nugget:9>, change: 0.33
+--in: <minecraft:beef>, out: <thaumcraft:chunk>, change: 0.33
+--in: <minecraft:chicken>, out: <thaumcraft:chunk:1>, change: 0.33
+--in: <minecraft:porkchop>, out: <thaumcraft:chunk:2>, change: 0.33
+--in: <minecraft:fish:*>, out: <thaumcraft:chunk:3>, change: 0.33
+--in: <minecraft:rabbit>, out: <thaumcraft:chunk:4>, change: 0.33
+--in: <minecraft:mutton>, out: <thaumcraft:chunk:5>, change: 0.33
+--in: <ore:oreDiamond>, out: <thaumcraft:nugget:10>, change: 0.025
+--in: <ore:oreRedstone>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreLapis>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreEmerald>, out: <thaumcraft:nugget:10>, change: 0.025
+--in: <ore:oreGold>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <ore:oreIron>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreCinnabar>, out: <thaumcraft:nugget:10>, change: 0.025
+--in: <ore:oreCopper>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreTin>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreSilver>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <ore:oreLead>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreQuartz>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <thaumcraft:cluster:*>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusteraluminium>, out: <thermalfoundation:material:196>, change: 0.33
+--in: <jaopca:item_clusteraluminium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusterardite>, out: <tconstruct:nuggets:1>, change: 0.33
+--in: <jaopca:item_clusterardite>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusterastralstarmetal>, out: <jaopca:item_nuggetastralstarmetal>, change: 0.33
+--in: <jaopca:item_clusterastralstarmetal>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusterboron>, out: <jaopca:item_nuggetboron>, change: 0.33
+--in: <jaopca:item_clusterboron>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clustercobalt>, out: <tconstruct:nuggets>, change: 0.33
+--in: <jaopca:item_clustercobalt>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusterdraconium>, out: <draconicevolution:nugget>, change: 0.33
+--in: <jaopca:item_clusterdraconium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusteriridium>, out: <thermalfoundation:material:199>, change: 0.33
+--in: <jaopca:item_clusteriridium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusterlithium>, out: <jaopca:item_nuggetlithium>, change: 0.33
+--in: <jaopca:item_clusterlithium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clustermagnesium>, out: <jaopca:item_nuggetmagnesium>, change: 0.33
+--in: <jaopca:item_clustermagnesium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clustermithril>, out: <thermalfoundation:material:200>, change: 0.33
+--in: <jaopca:item_clustermithril>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusternickel>, out: <thermalfoundation:material:197>, change: 0.33
+--in: <jaopca:item_clusternickel>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusterosmium>, out: <mekanism:nugget:1>, change: 0.33
+--in: <jaopca:item_clusterosmium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusterplatinum>, out: <thermalfoundation:material:198>, change: 0.33
+--in: <jaopca:item_clusterplatinum>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusterthorium>, out: <jaopca:item_nuggetthorium>, change: 0.33
+--in: <jaopca:item_clusterthorium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clustertungsten>, out: <techreborn:nuggets:15>, change: 0.33
+--in: <jaopca:item_clustertungsten>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusteruranium>, out: <immersiveengineering:metal:25>, change: 0.33
+--in: <jaopca:item_clusteruranium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <jaopca:item_clusteryellorium>, out: <jaopca:item_nuggetyellorium>, change: 0.33
+--in: <jaopca:item_clusteryellorium>, out: <thaumcraft:nugget:10>, change: 0.02
+--in: <ore:oreAluminium>, out: <thermalfoundation:material:196>, change: 0.33
+--in: <ore:oreAluminium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreArdite>, out: <tconstruct:nuggets:1>, change: 0.33
+--in: <ore:oreArdite>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreAstralStarmetal>, out: <jaopca:item_nuggetastralstarmetal>, change: 0.33
+--in: <ore:oreAstralStarmetal>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreBoron>, out: <jaopca:item_nuggetboron>, change: 0.33
+--in: <ore:oreBoron>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreCobalt>, out: <tconstruct:nuggets>, change: 0.33
+--in: <ore:oreCobalt>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreDraconium>, out: <draconicevolution:nugget>, change: 0.33
+--in: <ore:oreDraconium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreIridium>, out: <thermalfoundation:material:199>, change: 0.33
+--in: <ore:oreIridium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreLithium>, out: <jaopca:item_nuggetlithium>, change: 0.33
+--in: <ore:oreLithium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreMagnesium>, out: <jaopca:item_nuggetmagnesium>, change: 0.33
+--in: <ore:oreMagnesium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreMithril>, out: <thermalfoundation:material:200>, change: 0.33
+--in: <ore:oreMithril>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreNickel>, out: <thermalfoundation:material:197>, change: 0.33
+--in: <ore:oreNickel>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreOsmium>, out: <mekanism:nugget:1>, change: 0.33
+--in: <ore:oreOsmium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:orePlatinum>, out: <thermalfoundation:material:198>, change: 0.33
+--in: <ore:orePlatinum>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreThorium>, out: <jaopca:item_nuggetthorium>, change: 0.33
+--in: <ore:oreThorium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreTungsten>, out: <techreborn:nuggets:15>, change: 0.33
+--in: <ore:oreTungsten>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreUranium>, out: <immersiveengineering:metal:25>, change: 0.33
+--in: <ore:oreUranium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreYellorium>, out: <jaopca:item_nuggetyellorium>, change: 0.33
+--in: <ore:oreYellorium>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreAmber>, out: <jaopca:item_nuggetamber>, change: 0.33
+--in: <ore:oreAmber>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreAmethyst>, out: <jaopca:item_nuggetamethyst>, change: 0.33
+--in: <ore:oreAmethyst>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreApatite>, out: <jaopca:item_nuggetapatite>, change: 0.33
+--in: <ore:oreApatite>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreAquamarine>, out: <jaopca:item_nuggetaquamarine>, change: 0.33
+--in: <ore:oreAquamarine>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreCertusQuartz>, out: <jaopca:item_nuggetcertusquartz>, change: 0.33
+--in: <ore:oreCertusQuartz>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreChargedCertusQuartz>, out: <jaopca:item_nuggetchargedcertusquartz>, change: 0.33
+--in: <ore:oreChargedCertusQuartz>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreCoal>, out: <jaopca:item_nuggetcoal>, change: 0.33
+--in: <ore:oreCoal>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreDimensionalShard>, out: <jaopca:item_nuggetdimensionalshard>, change: 0.33
+--in: <ore:oreDimensionalShard>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreGarnet>, out: <jaopca:item_nuggetgarnet>, change: 0.33
+--in: <ore:oreGarnet>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreOpal>, out: <jaopca:item_nuggetopal>, change: 0.33
+--in: <ore:oreOpal>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:orePeridot>, out: <jaopca:item_nuggetperidot>, change: 0.33
+--in: <ore:orePeridot>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreQuartzBlack>, out: <jaopca:item_nuggetquartzblack>, change: 0.33
+--in: <ore:oreQuartzBlack>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreRuby>, out: <jaopca:item_nuggetruby>, change: 0.33
+--in: <ore:oreRuby>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreSapphire>, out: <jaopca:item_nuggetsapphire>, change: 0.33
+--in: <ore:oreSapphire>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreBauxite>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreGalena>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:orePyrite>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreSalt>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreSodalite>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreSphalerite>, out: <thaumcraft:nugget:10>, change: 0.01
+--in: <ore:oreSulfur>, out: <thaumcraft:nugget:10>, change: 0.01
+-Warp
+--Item: [thaumcraft.common.blocks.essentia.BlockJarBrainItem@55449ff3, 0] has warp: 1
+-Aspects
+--Aspect Aer
+--Aspect Terra
+--Aspect Ignis
+--Aspect Aqua
+--Aspect Ordo
+--Aspect Perditio
+--Aspect Vacuos
+--Aspect Lux
+--Aspect Motus
+--Aspect Gelum
+--Aspect Vitreus
+--Aspect Metallum
+--Aspect Victus
+--Aspect Mortuus
+--Aspect Potentia
+--Aspect Permutatio
+--Aspect Praecantatio
+--Aspect Auram
+--Aspect Alkimia
+--Aspect Vitium
+--Aspect Tenebrae
+--Aspect Alienis
+--Aspect Volatus
+--Aspect Herba
+--Aspect Instrumentum
+--Aspect Fabrico
+--Aspect Machina
+--Aspect Vinculum
+--Aspect Spiritus
+--Aspect Cognitio
+--Aspect Sensus
+--Aspect Aversio
+--Aspect Praemunio
+--Aspect Desiderium
+--Aspect Exanimis
+--Aspect Bestia
+--Aspect Humanus
+--Aspect Sol
+--Aspect Luna
+--Aspect Stellae
+--Aspect Diabolus
+--Aspect Fluctus
+--Aspect Sonus
+--Aspect Exitium
+--Aspect Caeles
+--Aspect Draco
+--Aspect Infernum
+--Aspect Ventus
+--Aspect Visum
+--Aspect Imperium
+--Aspect Spatio
+--Aspect Tempus
+--Aspect Tinctura
+-Recipes(Grouped)
+--Infusion: name: planarartifice:alkimium_goggles, group: , research: ALKIMIUMGOGGLES, output <planarartifice:alkimium_goggles>
+--Crucible: name: thaumic_arcana:ce_circle_negation, group: , research: ENCHANT_MODIFICATION, output <thaumic_arcana:enchant_modifier>.withTag({modifier: "thaumic_arcana:negation"})
+--Crucible: name: thaumadditions:lux_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "lux"})
+--Crucible: name: thaumadditions:perditio_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "perditio"})
+--Crucible: name: thaumicbrewing:lingering_potion_long_weakness, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_weakness"})
+--Infusion: name: thaumadditions:alkimia_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "alkimia"})
+--Crucible: name: thaumadditions:terra_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "terra"})
+--Crucible: name: minecraft:tb.lazullia, group: , research: TB.PLANT1, output <thaumicbases:lazulliaseed>
+--Infusion: name: thaumicaugmentation:primalcutter, group: , research: PRIMAL_CUTTER, output <thaumicaugmentation:primal_cutter>.withTag({infench: [{lvl: 2 as short, id: 5 as short}, {lvl: 1 as short, id: 2 as short}]})
+--Infusion: name: thaumadditions:motus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "motus"})
+--Crucible: name: thaumic_arcana:respiration_enchanting_powder_basic, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:respiration"}]})
+--Infusion: name: thaumadditions:ventus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "ventus"})
+--Crucible: name: thaumicbrewing:long_leaping_potion, group: , research: TBREW_LONG_ADVANCED_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_leaping"})
+--Infusion: name: thaumadditions:crystal_crusher, group: , research: TAR_CRYSTAL_CRUSHER, output <thaumadditions:crystal_crusher>
+--Infusion: name: thaumadditions:void_elemental_hoe, group: , research: TAR_VOID_ELEMENTAL_HOE, output <thaumadditions:void_elemental_hoe>
+--Crucible: name: thaumadditions:vitreus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "vitreus"})
+--Crucible: name: thaumadditions:tinctura_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "Tinctura"})
+--Crucible: name: thaumicbrewing:strong_healing_potion, group: , research: TBREW_STRONG_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:strong_healing"})
+--Crucible: name: thaumicbrewing:long_invisibility_potion, group: , research: TBREW_LONG_ADVANCED_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_invisibility"})
+--Crucible: name: thaumic_arcana:fertile_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:fertile"}]})
+--Crucible: name: minecraft:tb.fire_ingot, group: , research: TB.ALCHEMY, output <thaumicbases:fireingot>
+--Crucible: name: thaumcraft:vis_crystal_gelum, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]})
+--Crucible: name: thaumcraft:bathsalts, group: , research: BATHSALTS, output <thaumcraft:bath_salts>
+--Infusion: name: tg:scythe_light, group: tg:light_instruments, research: TG_LIGHT_METAL@2, output <tg:scythe_light>
+--Crucible: name: thaumcraft:hedge_string, group: , research: HEDGEALCHEMY@3, output <minecraft:string>
+--Crucible: name: thaumcraft:alumentum, group: , research: ALUMENTUM, output <thaumcraft:alumentum>
+--Crucible: name: thaumicbrewing:long_poison_potion, group: , research: TBREW_LONG_HARMFUL_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_poison"})
+--Infusion: name: thaumadditions:puriflower, group: , research: TAR_PURIFLOWER, output <thaumadditions:puriflower>
+--Infusion: name: thaumcraft:mirrorhand, group: , research: MIRRORHAND, output <thaumcraft:hand_mirror>
+--Infusion: name: thaumcraft:elementalpick, group: , research: ELEMENTALTOOLS, output <thaumcraft:elemental_pick>.withTag({infench: [{lvl: 1 as short, id: 4 as short}, {lvl: 2 as short, id: 3 as short}]})
+--Infusion: name: thaumadditions:aura_disperser, group: , research: TAR_AURA_DISPERSER, output <thaumadditions:aura_disperser>
+--Crucible: name: thaumicbrewing:regeneration_potion, group: , research: TBREW_ADVANCED_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:regeneration"})
+--Crucible: name: thaumic_arcana:speed_enchanting_powder_magical, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:speed"}]})
+--Infusion: name: thaumcraft:elementalhoe, group: , research: ELEMENTALTOOLS, output <thaumcraft:elemental_hoe>
+--Infusion: name: thaumic_arcana:create_livium, group: , research: LIVIUM, output <thaumic_arcana:ingot_livium>
+--Crucible: name: thaumcraft:vis_crystal_luna, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "luna"}]})
+--Crucible: name: thaumicbrewing:lingering_potion_long_fire_resistance, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_fire_resistance"})
+--Infusion: name: tg:shade_axe, group: tg:shade_instruments, research: TG_SHADOW_METAL@2, output <tg:axe_shade>
+--Crucible: name: tg:grass, group: tg:alchemy, research: TG_ALCHEMY, output <minecraft:grass>
+--Infusion: name: thaumcraft:voidrobehelm, group: , research: VOIDROBEARMOR, output <thaumcraft:void_robe_helm>
+--Crucible: name: thaumic_arcana:vitality_enchanting_powder_basic, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:vitality"}]})
+--Crucible: name: thaumicbrewing:splash_potion_long_strength, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:long_strength"})
+--Crucible: name: thaumcraft:sealuse, group: , research: SEALUSE, output <thaumcraft:seal:15>
+--Crucible: name: tg:sand, group: tg:alchemy, research: TG_ALCHEMY, output <minecraft:sand>
+--Crucible: name: minecraft:tb.wooltostringadv, group: , research: TB.AdvMACERATOR, output <minecraft:string> * 4
+--Infusion: name: thaumcraft:voidrobechest, group: , research: VOIDROBEARMOR, output <thaumcraft:void_robe_chest>
+--Crucible: name: thaumicbrewing:lingering_potion_night_vision, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:night_vision"})
+--Infusion: name: thaumicrestoration:block_infuser, group: , research: CRYSTALINFUSION@1, output <thaumicrestoration:block_infuser>
+--Infusion: name: thaumadditions:fluctus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "fluctus"})
+--Crucible: name: thaumadditions:phantom_ink_phial, group: , research: TAR_THAUMADDS, output <thaumadditions:phantom_ink_phial>
+--Infusion: name: minecraft:tb.endersapling, group: , research: TB.TREE1, output <thaumicbases:endersapling>
+--Infusion: name: tg:compass, group: , research: TG_COMPASS, output <tg:cache_compass>
+--Crucible: name: thaumicbrewing:splash_potion_strong_harming, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})
+--Infusion: name: thaumcraft:sealharvest, group: , research: SEALHARVEST, output <thaumcraft:seal:9>
+--Infusion: name: thaumadditions:flux_concentrator, group: , research: TAR_FLUX_CONCENTRATOR, output <thaumadditions:flux_concentrator>
+--Crucible: name: thaumic_arcana:transmutation_nickel, group: , research: METAL_TRANSMUTATION, output <thermalfoundation:material:197>
+--Infusion: name: tg:helmet_light, group: tg:light_armor, research: TG_LIGHT_METAL, output <tg:helmet_light>
+--Infusion: name: thaumadditions:alienis_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "alienis"})
+--Crucible: name: thaumcraft:vis_crystal_stellae, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "stellae"}]})
+--Crucible: name: thaumicbrewing:lingering_potion_regeneration, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"})
+--Crucible: name: thaumicbrewing:splash_potion_leaping, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:leaping"})
+--Infusion: name: tg:light_shovel, group: tg:light_instruments, research: TG_LIGHT_METAL@2, output <tg:shovel_light>
+--Infusion: name: thaumcraft:voidsiphon, group: , research: VOIDSIPHON, output <thaumcraft:void_siphon>
+--Crucible: name: thaumicbrewing:splash_potion_weakness, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:weakness"})
+--Infusion: name: thaumadditions:humanus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "humanus"})
+--Crucible: name: tg:shade_ore, group: , research: TG_SHADOW_METAL@1, output <tg:ore_shade>
+--Infusion: name: tg:terramorfer, group: , research: TG_TERRAMORFER, output <tg:terramorfer>
+--Crucible: name: thaumic_arcana:fertile_enchanting_powder_basic, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:fertile"}]})
+--Crucible: name: thaumcraft:vis_crystal_sol, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]})
+--Crucible: name: thaumicbrewing:lingering_potion_long_swiftness, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_swiftness"})
+--Infusion: name: planarartifice:mirrored_amulet2, group: , research: MIRROREDAMULET, output <planarartifice:mirrored_amulet>
+--Crucible: name: thaumcraft:hedge_slime, group: , research: HEDGEALCHEMY@2, output <minecraft:slime_ball> * 2
+--Infusion: name: thaumic_arcana:infuse_slime_tool_axe, group: , research: TA_INFUSE_SLIME_TOOLS, output <thaumic_arcana:infused_slimy_axe>
+--Crucible: name: thaumadditions:aversio_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "aversio"})
+--Crucible: name: minecraft:tb.order_ingot, group: , research: TB.ALCHEMY, output <thaumicbases:orderingot>
+--Crucible: name: thaumadditions:potentia_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "potentia"})
+--Crucible: name: thaumic_arcana:grow_mutton, group: , research: FLESH_GROWTH, output <minecraft:mutton> * 2
+--Crucible: name: thaumicaugmentation:sealsecureadvanced, group: , research: SEAL_SECURE&&MINDBIOTHAUMIC, output <thaumcraft:seal:2>
+--Crucible: name: thaumic_arcana:vitality_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:vitality"}]})
+--Crucible: name: thaumicbrewing:splash_potion_strength, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:strength"})
+--Crucible: name: jaopca:metal_purification_thorium, group: , research: METALPURIFICATION, output <jaopca:item_clusterthorium>
+--Infusion: name: thaumadditions:mithrillium_ingot, group: , research: TAR_MITHRILLIUM, output <thaumadditions:mithrillium_ingot>
+--Infusion: name: thaumic_arcana:infuse_slime_tool_shovel, group: , research: TA_INFUSE_SLIME_TOOLS, output <thaumic_arcana:infused_slimy_shovel>
+--Infusion: name: tg:chestplate_light, group: tg:light_armor, research: TG_LIGHT_METAL, output <tg:chestplate_light>
+--Crucible: name: thaumcraft:vis_crystal_ordo, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})
+--Crucible: name: thaumic_arcana:transmutation_silver, group: , research: METAL_TRANSMUTATION, output <thermalfoundation:material:194>
+--Crucible: name: thaumicbrewing:splash_potion_strong_strength, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_strength"})
+--Crucible: name: thaumic_arcana:enchant_powder_basic, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_basic>
+--Crucible: name: minecraft:tb.earth_ingot, group: , research: TB.ALCHEMY, output <thaumicbases:earthingot>
+--Crucible: name: minecraft:tb.angry, group: , research: TB.TOBACCO, output <thaumicbases:tobacco_fighting>
+--Crucible: name: thaumadditions:aqua_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "aqua"})
+--Crucible: name: thaumicbrewing:lingering_potion_fire_resistance, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:fire_resistance"})
+--Crucible: name: thaumicbrewing:splash_potion_strong_healing, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_healing"})
+--Infusion: name: thaumadditions:infernum_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "infernum"})
+--Crucible: name: thaumcraft:vis_crystal_aversio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aversio"}]})
+--Crucible: name: thaumcraft:vis_crystal_tinctura, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "Tinctura"}]})
+--Crucible: name: minecraft:tb.metallea, group: , research: TB.PLANT1, output <thaumicbases:metalleatseed>
+--Infusion: name: tg:helmet_shade, group: tg:shade_armor, research: TG_SHADOW_METAL, output <tg:helmet_shade>
+--Crucible: name: minecraft:tb.rodtopoweradv, group: , research: TB.AdvMACERATOR, output <minecraft:blaze_powder> * 5
+--Crucible: name: thaumic_arcana:make_slime_spawner, group: , research: TA_SLIME_ANIMATION, output <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:slime"}})
+--Infusion: name: thaumic_arcana:create_revival_capsule, group: , research: TA_REVIVAL_CAPSULE, output <thaumic_arcana:revival_capsule>
+--Crucible: name: thaumic_arcana:grow_chicken, group: , research: FLESH_GROWTH, output <minecraft:chicken> * 2
+--Crucible: name: thaumcraft:vis_crystal_visum, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "visum"}]})
+--Infusion: name: thaumadditions:growth_chamber, group: , research: TAR_GROWTH_CHAMBER, output <thaumadditions:growth_chamber>
+--Crucible: name: thaumicbrewing:strong_regeneration_potion, group: , research: TBREW_STRONG_ADVANCED_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"})
+--Infusion: name: thaumadditions:stellae_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "stellae"})
+--Infusion: name: thaumcraft:crystalclusterentropy, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_perditio>
+--Crucible: name: thaumcraft:liquiddeath, group: , research: LIQUIDDEATH, output <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})
+--Crucible: name: thaumic_arcana:protection_enchanting_powder_basic, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:protection"}]})
+--Infusion: name: tg:primal_axe, group: , research: TG_PRIMAL_WEAPON, output <tg:axe_primal>
+--Infusion: name: planarartifice:ietransmutative, group: , research: INFUSIONENCHANTMENTII, output null
+--Crucible: name: thaumicbrewing:splash_potion_water_breathing, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing"})
+--Crucible: name: thaumadditions:sensus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "sensus"})
+--Crucible: name: minecraft:tb.bonemealtobone, group: , research: TB.EXCHANG, output <minecraft:bone>
+--Crucible: name: tg:light_metal, group: , research: TG_LIGHT_METAL@1, output <tg:ingot_light>
+--Infusion: name: tg:light_axe, group: tg:light_instruments, research: TG_LIGHT_METAL@2, output <tg:axe_light>
+--Infusion: name: thaumicperiphery:caster_elementium, group: , research: CASTERELEMENTIUM, output <thaumicperiphery:caster_elementium>
+--Unknown: name: thaumcraft:infusionaltareldritch, group: null, research: INFUSIONELDRITCH
+--Crucible: name: thaumic_arcana:seed_11, group: , research: PLANT_GROWTH_ADVANCED, output <thaumic_arcana:plant_ball>.withTag({products: [{item: "minecraft:beetroot_seeds", meta: 0, count: 2}, {item: "minecraft:beetroot", meta: 0, count: 3}]})
+--Infusion: name: thaumcraft:iesounding, group: , research: INFUSIONENCHANTMENT, output null
+--Crucible: name: thaumic_arcana:respiration_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:respiration"}]})
+--Crucible: name: tg:light_ore, group: , research: TG_LIGHT_METAL@1, output <tg:ore_light>
+--Crucible: name: thaumic_arcana:productivity_enchanting_powder_magical, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:productivity"}]})
+--Crucible: name: thaumic_arcana:seed_10, group: , research: PLANT_GROWTH_ADVANCED, output <thaumic_arcana:plant_ball>.withTag({products: [{item: "minecraft:wheat_seeds", meta: 0, count: 2}, {item: "minecraft:wheat", meta: 0, count: 6}]})
+--Crucible: name: minecraft:tb.wisdom, group: , research: TB.TOBACCO, output <thaumicbases:tobacco_knowledge>
+--Infusion: name: thaumicaugmentation:riftenergycell, group: , research: RIFT_POWER@2, output <thaumicaugmentation:material:3>
+--Crucible: name: thaumic_arcana:grow_wheat, group: , research: PLANT_GROWTH, output <minecraft:wheat>
+--Infusion: name: thaumadditions:caeles_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "caeles"})
+--Crucible: name: thaumicbrewing:healing_potion, group: , research: TBREW_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:healing"})
+--Crucible: name: tg:gravel, group: tg:alchemy, research: TG_ALCHEMY, output <minecraft:flint>
+--Crucible: name: thaumicbrewing:splash_potion_swiftness, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:swiftness"})
+--Infusion: name: thaumadditions:cognitio_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "cognitio"})
+--Crucible: name: thaumicbrewing:lingering_potion_long_strength, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_strength"})
+--Crucible: name: thaumicbrewing:splash_potion_harming, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:harming"})
+--Crucible: name: planarartifice:bismuth, group: , research: !Portal, output <planarartifice:bismuth_ingot>
+--Crucible: name: minecraft:tb.tainted, group: , research: TB.TOBACCO, output <thaumicbases:tobacco_tainted>
+--Infusion: name: thaumicrestoration:item_witherring, group: , research: WITHERRING@1, output <thaumicrestoration:item_witherring>
+--Crucible: name: thaumcraft:sealcollectadv, group: , research: SEALCOLLECT&&MINDBIOTHAUMIC, output <thaumcraft:seal:4>
+--Crucible: name: thaumicbrewing:strong_strength_potion, group: , research: TBREW_STRONG_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:strong_strength"})
+--Crucible: name: thaumicbrewing:splash_potion_strong_leaping, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_leaping"})
+--Crucible: name: thaumcraft:vis_crystal_instrumentum, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "instrumentum"}]})
+--Crucible: name: minecraft:tb.water_ingot, group: , research: TB.ALCHEMY, output <thaumicbases:wateringot>
+--Infusion: name: thaumadditions:potentia_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "potentia"})
+--Crucible: name: minecraft:tb.glieonia, group: , research: TB.PLANT1, output <thaumicbases:glieoniaseed>
+--Crucible: name: thaumcraft:vis_crystal_praemunio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]})
+--Infusion: name: minecraft:tb.herobrine, group: , research: TB.TOOLS, output <thaumicbases:herobrinesscythe>
+--Infusion: name: thaumcraft:crystalclusterorder, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_ordo>
+--Infusion: name: thaumcraft:thaumiumfortresslegs, group: , research: ARMORFORTRESS, output <thaumcraft:fortress_legs>
+--Crucible: name: thaumicaugmentation:sealsecure, group: , research: SEAL_SECURE, output <thaumcraft:seal:1>
+--Infusion: name: thaumadditions:sensus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "sensus"})
+--Crucible: name: thaumcraft:vis_crystal_tenebrae, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "tenebrae"}]})
+--Crucible: name: thaumcraft:vis_crystal_bestia, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "bestia"}]})
+--Crucible: name: thaumadditions:machina_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "machina"})
+--Crucible: name: thaumic_arcana:grow_potato, group: , research: PLANT_GROWTH, output <minecraft:potato> * 2
+--Infusion: name: tg:extruder_up, group: , research: TG_OBSIDIAN_EXTRUDER, output <tg:extruder_up>
+--Crucible: name: thaumicbrewing:splash_potion_regeneration, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"})
+--Crucible: name: thaumicbrewing:lingering_potion_slowness, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:slowness"})
+--Unknown: name: planarartifice:mirror_teleporter, group: null, research: MIRRORTELEPORTER
+--Crucible: name: thaumadditions:mortuus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "mortuus"})
+--Crucible: name: thaumadditions:tempus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "Tempus"})
+--Infusion: name: thaumcraft:iecollector, group: , research: INFUSIONENCHANTMENT, output null
+--Infusion: name: thaumadditions:exitium_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "exitium"})
+--Crucible: name: thaumic_arcana:beef_to_leather, group: , research: FLESH_TO_LEATHER, output <minecraft:leather>
+--Infusion: name: tg:leggins_light, group: tg:light_armor, research: TG_LIGHT_METAL, output <tg:leggins_light>
+--Infusion: name: thaumadditions:vitium_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "vitium"})
+--Infusion: name: thaumadditions:tenebrae_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "tenebrae"})
+--Infusion: name: thaumadditions:tempus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "Tempus"})
+--Unknown: name: tg:dechant2, group: null, research: TG_CONTROL_CHANT@1
+--Unknown: name: thaumcraft:infusionaltar, group: null, research: INFUSION
+--Unknown: name: tg:dechant1, group: null, research: TG_TRANSFER_CHANT@1
+--Crucible: name: minecraft:tb.wooltostring, group: , research: TB.MACERATOR, output <minecraft:string> * 3
+--Crucible: name: thaumcraft:vis_crystal_draco, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "draco"}]})
+--Crucible: name: thaumcraft:sealemptyadv, group: , research: SEALEMPTY&&MINDBIOTHAUMIC, output <thaumcraft:seal:8>
+--Infusion: name: thaumadditions:aer_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "aer"})
+--Crucible: name: thaumcraft:sealbreakadv, group: , research: SEALBREAK&&MINDBIOTHAUMIC, output <thaumcraft:seal:18>
+--Infusion: name: tg:teleporter_core, group: , research: TG_TELEPORTATOR@1, output <tg:teleportator_core>
+--Infusion: name: thaumic_arcana:infuse_slime_tool_hoe, group: , research: TA_INFUSE_SLIME_TOOLS, output <thaumic_arcana:infused_slimy_hoe>
+--Crucible: name: thaumadditions:infernum_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "infernum"})
+--Infusion: name: thaumadditions:ignis_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "ignis"})
+--Crucible: name: thaumic_arcana:health_boost_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:health_boost"}]})
+--Crucible: name: thaumcraft:vis_crystal_diabolus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "diabolus"}]})
+--Crucible: name: thaumicrestoration:skull, group: , research: TR_WITHER, output <minecraft:skull:1>
+--Crucible: name: thaumic_arcana:cream_to_slime, group: , research: TA_SLIME@4, output <minecraft:slime_ball>
+--Crucible: name: planarartifice:magic_apple, group: , research: RAREITEMS@4, output <planarartifice:magic_apple>
+--Infusion: name: thaumicrestoration:block_adv_recharge_pedestal, group: , research: RECHARGER@1, output <thaumicrestoration:block_adv_recharge_pedestal>
+--Infusion: name: thaumadditions:spatio_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "Spatio"})
+--Crucible: name: thaumic_arcana:nutrient_mix, group: , research: FLESH_GROWTH, output <thaumic_arcana:nutrient_mix>
+--Crucible: name: thaumic_arcana:magma_to_cream, group: , research: TA_SLIME@4, output <minecraft:magma_cream> * 4
+--Infusion: name: thaumadditions:wormhole_mirror, group: , research: TAR_WORMHOLE_MIRROR, output <thaumadditions:wormhole_mirror>
+--Infusion: name: thaumadditions:mithrillium_resonator, group: , research: TAR_MITHRILLIUM, output <thaumadditions:mithrillium_resonator>
+--Crucible: name: thaumadditions:tenebrae_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "tenebrae"})
+--Infusion: name: thaumadditions:volatus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "volatus"})
+--Crucible: name: thaumicbrewing:poison_potion, group: , research: TBREW_HARMFUL_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:poison"})
+--Infusion: name: thaumadditions:chester, group: , research: TAR_CHESTER, output <thaumadditions:chester>
+--Infusion: name: thaumcraft:crystalclusterfire, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_ignis>
+--Crucible: name: thaumic_arcana:haste_enchanting_powder_magical, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:haste"}]})
+--Crucible: name: thaumadditions:metallum_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "metallum"})
+--Infusion: name: thaumcraft:primalcrusher, group: , research: PRIMALCRUSHER, output <thaumcraft:primal_crusher>.withTag({infench: [{lvl: 1 as short, id: 1 as short}, {lvl: 1 as short, id: 4 as short}]})
+--Crucible: name: minecraft:tb.sandtonuggetgold, group: , research: TB.MACERATOR, output <minecraft:gold_nugget> * 2
+--Crucible: name: thaumicbrewing:lingering_potion_strong_poison, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_poison"})
+--Unknown: name: thaumcraft:infusionaltarancient, group: null, research: INFUSIONANCIENT
+--Crucible: name: thaumic_arcana:fertile_enchanting_powder_magical, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:fertile"}]})
+--Crucible: name: minecraft:tb.thauminite, group: , research: TB.ALCHEMY, output <thaumicbases:thauminite_ingot>
+--Crucible: name: minecraft:tb.sweedtoplax, group: , research: TB.PLANT1, output <thaumicbases:plaxseed>
+--Infusion: name: thaumadditions:vacuos_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "vacuos"})
+--Crucible: name: thaumadditions:odour_powder, group: , research: TAR_FRAGNANT_PENDANT, output <thaumadditions:odour_powder> * 4
+--Crucible: name: thaumcraft:vis_crystal_volatus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "volatus"}]})
+--Crucible: name: thaumcraft:vis_crystal_victus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]})
+--Infusion: name: tg:light_shears, group: tg:light_instruments, research: TG_LIGHT_METAL@2, output <tg:shears_light>
+--Infusion: name: thaumadditions:adaminite_ingot, group: , research: TAR_ADAMINITE, output <thaumadditions:adaminite_ingot>
+--Infusion: name: thaumadditions:instrumentum_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "instrumentum"})
+--Infusion: name: thaumadditions:lux_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "lux"})
+--Crucible: name: thaumadditions:cognitio_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "cognitio"})
+--Crucible: name: thaumicbrewing:splash_potion_invisibility, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:invisibility"})
+--Infusion: name: tg:fortified_glass, group: , research: tg:FORTIFIED_GLASS_SHARD, output <tg:fortified_glass>
+--Unknown: name: thaumcraft:golempress, group: null, research: MINDCLOCKWORK
+--Infusion: name: tg:shade_shovel, group: tg:shade_instruments, research: TG_SHADOW_METAL@2, output <tg:shovel_shade>
+--Crucible: name: thaumadditions:fluctus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "fluctus"})
+--Crucible: name: thaumicbrewing:strong_swiftness_potion, group: , research: TBREW_STRONG_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"})
+--Crucible: name: thaumicbrewing:strong_poison_potion, group: , research: TBREW_STRONG_HARMFUL_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:strong_poison"})
+--Crucible: name: thaumicbrewing:splash_potion_long_slowness, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:long_slowness"})
+--Infusion: name: thaumadditions:aura_charger, group: , research: TAR_AURA_CHARGER, output <thaumadditions:aura_charger>
+--Infusion: name: tg:light_hoe, group: tg:light_instruments, research: TG_LIGHT_METAL@2, output <tg:hoe_light>
+--Crucible: name: thaumcraft:bottletaint, group: , research: BOTTLETAINT, output <thaumcraft:bottle_taint>
+--Crucible: name: thaumadditions:vinculum_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "vinculum"})
+--Crucible: name: thaumcraft:vis_crystal_cognitio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]})
+--Infusion: name: thaumcraft:sealbreak, group: , research: SEALBREAK, output <thaumcraft:seal:14>
+--Crucible: name: thaumicbrewing:slowness_potion, group: , research: TBREW_HARMFUL_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:slowness"})
+--Infusion: name: thaumcraft:visamulet, group: , research: VISAMULET, output <thaumcraft:amulet_vis:1>
+--Crucible: name: thaumic_arcana:productivity_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:productivity"}]})
+--Infusion: name: thaumadditions:spiritus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "spiritus"})
+--Infusion: name: tg:primal_hammer, group: , research: TG_PRIMAL_WEAPON, output <tg:hammer_primal>
+--Crucible: name: thaumicbrewing:fire_resistance_potion, group: , research: TBREW_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"})
+--Crucible: name: thaumcraft:sealcollect, group: , research: SEALCOLLECT, output <thaumcraft:seal:3>
+--Crucible: name: thaumcraft:vis_crystal_caeles, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "caeles"}]})
+--Infusion: name: thaumadditions:crystal_bore, group: , research: TAR_CRYSTAL_BORE, output <thaumadditions:crystal_bore>
+--Crucible: name: thaumcraft:vis_crystal_fabrico, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fabrico"}]})
+--Crucible: name: thaumcraft:sealstore, group: , research: SEALSTORE, output <thaumcraft:seal:5>
+--Infusion: name: thaumictinkerer:cleaning_talisman, group: , research: CLEANING_TALISMAN, output <thaumictinkerer:cleaning_talisman>
+--Infusion: name: tg:primal_sword, group: , research: TG_PRIMAL_WEAPON, output <tg:sword_primal>
+--Infusion: name: thaumadditions:arcane_cake, group: , research: TAR_CAKE, output <thaumadditions:cake>
+--Crucible: name: thaumadditions:humanus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "humanus"})
+--Crucible: name: thaumicbrewing:strong_harming_potion, group: , research: TBREW_STRONG_HARMFUL_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:strong_harming"})
+--Infusion: name: thaumadditions:void_crop, group: , research: TAR_VOID_CROP, output <thaumadditions:void_seed>
+--Infusion: name: thaumic_arcana:infuse_slime_tool_pickaxe, group: , research: TA_INFUSE_SLIME_TOOLS, output <thaumic_arcana:infused_slimy_pickaxe>
+--Crucible: name: thaumicbrewing:lingering_potion_long_regeneration, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_regeneration"})
+--Crucible: name: thaumcraft:sealguardadv, group: , research: SEALGUARD&&MINDBIOTHAUMIC, output <thaumcraft:seal:12>
+--Infusion: name: thaumadditions:aversio_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "aversio"})
+--Crucible: name: thaumic_arcana:speed_enchanting_powder_basic, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:speed"}]})
+--Infusion: name: thaumcraft:crystalclusterair, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_aer>
+--Crucible: name: thaumic_arcana:protection_enchanting_powder_magical, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:protection"}]})
+--Infusion: name: thaumadditions:mob_summoner, group: , research: TAR_MOB_SUMMONING, output <thaumadditions:entity_summoner>
+--Infusion: name: tg:boots_primal_up, group: , research: TG_BETTER_PRIMAL_ARMOR, output <tg:boots_primal_up>
+--Infusion: name: thaumcraft:arcanebore, group: , research: ARCANEBORE, output <thaumcraft:turret:2>
+--Infusion: name: thaumadditions:mithminite_belt, group: , research: TAR_MITHMINITE_BELT, output <thaumadditions:mithminite_belt>
+--Crucible: name: planarartifice:condensed_crystal_cluster6, group: , research: MOREALCHEMY, output <planarartifice:condensed_crystal_cluster>
+--Crucible: name: thaumic_arcana:grow_melon, group: , research: PLANT_GROWTH, output <minecraft:melon>
+--Infusion: name: minecraft:tb.wispy, group: , research: TB.TOBACCO, output <thaumicbases:tobacco_wispy>
+--Crucible: name: thaumicbrewing:splash_potion_long_poison, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:long_poison"})
+--Infusion: name: tg:lense_blank, group: , research: TG_LENSES@2, output <tg:lense_blank>
+--Crucible: name: planarartifice:condensed_crystal_cluster1, group: , research: MOREALCHEMY, output <planarartifice:condensed_crystal_cluster>
+--Infusion: name: thaumic_arcana:infuse_slime_tool_sword, group: , research: TA_INFUSE_SLIME_TOOLS, output <thaumic_arcana:infused_slimy_sword>
+--Crucible: name: minecraft:tb.lavatopyro, group: , research: TB.FLUID, output <thaumicbases:pyrobucket>
+--Crucible: name: thaumcraft:vis_crystal_alienis, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})
+--Crucible: name: planarartifice:condensed_crystal_cluster5, group: , research: MOREALCHEMY, output <planarartifice:condensed_crystal_cluster>
+--Crucible: name: thaumicbrewing:long_strength_potion, group: , research: TBREW_LONG_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_strength"})
+--Crucible: name: thaumicbrewing:long_regeneration_potion, group: , research: TBREW_LONG_ADVANCED_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"})
+--Crucible: name: planarartifice:condensed_crystal_cluster4, group: , research: MOREALCHEMY, output <planarartifice:condensed_crystal_cluster>
+--Infusion: name: thaumicperiphery:caster_ember, group: , research: CASTEREMBER, output <thaumicperiphery:caster_ember>
+--Crucible: name: planarartifice:condensed_crystal_cluster3, group: , research: MOREALCHEMY, output <planarartifice:condensed_crystal_cluster>
+--Infusion: name: tg:pouch_void, group: , research: TG_VOID_BAG, output <tg:pouch_void>
+--Crucible: name: planarartifice:condensed_crystal_cluster2, group: , research: MOREALCHEMY, output <planarartifice:condensed_crystal_cluster>
+--Crucible: name: thaumcraft:vis_crystal_aer, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})
+--Crucible: name: thaumicbrewing:splash_potion_slowness, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:slowness"})
+--Crucible: name: thaumic_arcana:spider_enchanting_powder_magical, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:spider"}]})
+--Infusion: name: thaumadditions:mithminite_hood, group: , research: TAR_MITHMINITE_HOOD, output <thaumadditions:mithminite_hood>
+--Crucible: name: thaumadditions:sol_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "sol"})
+--Crucible: name: thaumicbrewing:long_night_vision_potion, group: , research: TBREW_LONG_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"})
+--Crucible: name: thaumic_arcana:transmutation_copper, group: , research: METAL_TRANSMUTATION, output <thermalfoundation:material:192>
+--Crucible: name: thaumicbrewing:lingering_potion_strong_healing, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_healing"})
+--Infusion: name: thaumicperiphery:vis_phylactery, group: , research: VISPHYLACTERY, output <thaumicperiphery:vis_phylactery>
+--Infusion: name: thaumadditions:luna_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "luna"})
+--Crucible: name: thaumcraft:vis_crystal_infernum, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]})
+--Crucible: name: thaumicbrewing:splash_potion_long_invisibility, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"})
+--Crucible: name: minecraft:tb.sandtonuggetgoldadv, group: , research: TB.AdvMACERATOR, output <minecraft:gold_nugget> * 4
+--Crucible: name: thaumic_arcana:ce_circle_effect_amplifier, group: , research: ENCHANT_EFFECT_AMPLIFICATION, output <thaumic_arcana:enchant_modifier>.withTag({modifier: "thaumic_arcana:effect_amplifier"})
+--Infusion: name: thaumic_arcana:create_inhibitor, group: , research: TA_INHIBITOR, output <thaumic_arcana:mind_inhibitor>
+--Infusion: name: tg:boots_light, group: tg:light_armor, research: TG_LIGHT_METAL, output <tg:boots_light>
+--Crucible: name: thaumcraft:vis_crystal_vitreus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitreus"}]})
+--Crucible: name: thaumic_arcana:speed_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:speed"}]})
+--Infusion: name: thaumcraft:curiosityband, group: , research: CURIOSITYBAND, output <thaumcraft:curiosity_band>
+--Crucible: name: thaumcraft:sealempty, group: , research: SEALEMPTY, output <thaumcraft:seal:7>
+--Crucible: name: minecraft:tb.silvertoquicksilver, group: , research: TB.EXCHANG, output <thaumcraft:quicksilver> * 3
+--Crucible: name: thaumic_arcana:agility_enchanting_powder_basic, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:agility"}]})
+--Crucible: name: thaumcraft:hedge_web, group: , research: HEDGEALCHEMY@3, output <minecraft:web>
+--Crucible: name: thaumcraft:vis_crystal_imperium, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "imperium"}]})
+--Infusion: name: thaumicaugmentation:bootsvoid, group: , research: BOOTS_VOID, output <thaumicaugmentation:void_boots>
+--Crucible: name: thaumcraft:vis_crystal_sonus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sonus"}]})
+--Crucible: name: minecraft:tb.greentocactus, group: , research: TB.EXCHANG, output <minecraft:cactus>
+--Crucible: name: minecraft:tb.miner, group: , research: TB.TOBACCO, output <thaumicbases:tobacco_mining>
+--Crucible: name: thaumicbrewing:splash_potion_strong_regeneration, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"})
+--Crucible: name: minecraft:tb.cobbletosandadv, group: , research: TB.AdvMACERATOR, output <minecraft:sand> * 4
+--Crucible: name: thaumcraft:vis_crystal_aqua, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})
+--Infusion: name: thaumadditions:enchanted_golden_apple, group: , research: TAR_ENCHANTED_GOLDEN_APPLE, output <minecraft:golden_apple:1>
+--Crucible: name: thaumadditions:bestia_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "bestia"})
+--Crucible: name: thaumcraft:focus_1, group: , research: UNLOCKAUROMANCY, output <thaumcraft:focus_1>
+--Crucible: name: thaumicrestoration:item_toast, group: , research: THAUMICTOAST@1, output <thaumicrestoration:item_toast>
+--Infusion: name: thaumadditions:bestia_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "bestia"})
+--Crucible: name: thaumcraft:vis_crystal_ignis, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})
+--Crucible: name: thaumicbrewing:lingering_potion_leaping, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:leaping"})
+--Infusion: name: thaumcraft:thaumiumfortresshelm, group: , research: ARMORFORTRESS, output <thaumcraft:fortress_helm>
+--Crucible: name: thaumcraft:voidingot, group: , research: BASEELDRITCH, output <thaumcraft:ingot:1>
+--Infusion: name: thaumicperiphery:malignant_heart, group: , research: MALIGNANTHEART, output <thaumicperiphery:malignant_heart>
+--Infusion: name: thaumadditions:aspect_combiner, group: , research: TAR_ASPECT_COMBINER, output <thaumadditions:aspect_combiner>
+--Crucible: name: thaumadditions:praecantatio_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "praecantatio"})
+--Crucible: name: thaumicbrewing:splash_potion_strong_poison, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_poison"})
+--Crucible: name: thaumic_arcana:transmutation_tin, group: , research: METAL_TRANSMUTATION, output <thermalfoundation:material:193>
+--Infusion: name: thaumcraft:elementalshovel, group: , research: ELEMENTALTOOLS, output <thaumcraft:elemental_shovel>.withTag({infench: [{lvl: 1 as short, id: 1 as short}]})
+--Crucible: name: thaumic_arcana:ce_circle_normal, group: , research: ENCHANT_MODIFICATION, output <thaumic_arcana:enchant_modifier>.withTag({modifier: "thaumic_arcana:normal"})
+--Infusion: name: thaumcraft:focus_3, group: , research: FOCUSGREATER@1, output <thaumcraft:focus_3>
+--Infusion: name: thaumcraft:focus_2, group: , research: FOCUSADVANCED@1, output <thaumcraft:focus_2>
+--Crucible: name: thaumicbrewing:lingering_potion_long_poison, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_poison"})
+--Crucible: name: thaumadditions:crystal_water, group: , research: TAR_CRYSTAL_WATER, output <forge:bucketfilled>.withTag({FluidName: "crystal_water", Amount: 1000})
+--Crucible: name: thaumicbrewing:water_breathing_potion, group: , research: TBREW_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:water_breathing"})
+--Crucible: name: thaumcraft:vis_crystal_spiritus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})
+--Crucible: name: minecraft:tb.seedtosweed, group: , research: TB.PLANT, output <thaumicbases:sweedseed>
+--Crucible: name: thaumcraft:thaumiumingot, group: , research: METALLURGY@2, output <thaumcraft:ingot>
+--Crucible: name: thaumadditions:stellae_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "stellae"})
+--Crucible: name: thaumadditions:vacuos_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "vacuos"})
+--Crucible: name: thaumadditions:spiritus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "spiritus"})
+--Infusion: name: thaumcraft:maskgrinningdevil, group: , research: FORTRESSMASK, output ["mask", "0"]
+--Infusion: name: thaumadditions:visum_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "visum"})
+--Crucible: name: minecraft:tb.rodtopower, group: , research: TB.MACERATOR, output <minecraft:blaze_powder> * 3
+--Crucible: name: thaumadditions:ordo_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "ordo"})
+--Crucible: name: thaumicbrewing:lingering_potion_strength, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:strength"})
+--Crucible: name: thaumcraft:vis_crystal_fluctus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "fluctus"}]})
+--Crucible: name: thaumic_arcana:transmutation_lead, group: , research: METAL_TRANSMUTATION, output <thermalfoundation:material:195>
+--Crucible: name: thaumcraft:everfullurn, group: , research: EVERFULLURN, output <thaumcraft:everfull_urn>
+--Crucible: name: thaumic_arcana:soul_capsule, group: , research: TA_REVIVAL_CAPSULE, output <thaumic_arcana:soul_capsule>
+--Crucible: name: thaumicbrewing:night_vision_potion, group: , research: TBREW_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:night_vision"})
+--Crucible: name: thaumcraft:sealguard, group: , research: SEALGUARD, output <thaumcraft:seal:11>
+--Infusion: name: thaumcraft:ierefining, group: , research: INFUSIONENCHANTMENT, output null
+--Infusion: name: thaumcraft:voidseerpearl, group: , research: VOIDSEERPEARL, output <thaumcraft:voidseer_charm>
+--Crucible: name: thaumicbrewing:long_swiftness_potion, group: , research: TBREW_LONG_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"})
+--Crucible: name: thaumicbrewing:long_water_breathing_potion, group: , research: TBREW_LONG_BASIC_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"})
+--Crucible: name: planarartifice:iron, group: , research: MOREALCHEMY, output <minecraft:gold_ingot>
+--Infusion: name: tg:pouch_ender, group: , research: TG_ENDER_BAG, output <tg:pouch_ender>
+--Infusion: name: thaumic_arcana:enchant_powder_advanced, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_advanced>
+--Crucible: name: thaumcraft:vis_crystal_spatio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "Spatio"}]})
+--Crucible: name: minecraft:tb.mixed_ingot, group: , research: TB.ALCHEMY, output <thaumicbases:mixedingot>
+--Crucible: name: minecraft:tb.cobbletosand, group: , research: TB.MACERATOR, output <minecraft:sand> * 2
+--Crucible: name: thaumic_arcana:make_magma_slime_spawner, group: , research: TA_SLIME_ANIMATION, output <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:magma_cube"}})
+--Crucible: name: thaumic_arcana:respiration_enchanting_powder_magical, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:respiration"}]})
+--Crucible: name: thaumicaugmentation:effectprovidercost, group: , research: GAUNTLET_AUGMENTATION@2, output <thaumicaugmentation:augment_builder_effect>.withTag({id: "thaumicaugmentation:effect_cost"})
+--Crucible: name: thaumic_arcana:spider_enchanting_powder_basic, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:spider"}]})
+--Infusion: name: tg:pouch_hungry_magic_2_1, group: , research: TG_HUNGRY_BAGS, output <tg:pouch_hungry_magic_2>
+--Crucible: name: thaumicbrewing:leaping_potion, group: , research: TBREW_ADVANCED_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:leaping"})
+--Crucible: name: thaumcraft:hedge_glowstone, group: , research: HEDGEALCHEMY@2, output <minecraft:glowstone_dust> * 2
+--Infusion: name: thaumadditions:draco_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "draco"})
+--Crucible: name: thaumicbrewing:lingering_potion_strong_strength, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_strength"})
+--Crucible: name: thaumic_arcana:fertilizer_recipe, group: , research: ARCANE_FERTILIZER, output <thaumic_arcana:fertiliser> * 16
+--Infusion: name: thaumadditions:permutatio_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "permutatio"})
+--Infusion: name: tg:sword_shade, group: tg:shade_instruments, research: TG_SHADOW_METAL, output <tg:sword_shade>
+--Infusion: name: thaumadditions:void_thaumometer, group: , research: TAR_VOID_THAUMOMETER, output <thaumadditions:void_thaumometer>
+--Infusion: name: tg:leggins_shade, group: tg:shade_armor, research: TG_SHADOW_METAL, output <tg:leggins_shade>
+--Infusion: name: minecraft:tb.nethersapling, group: , research: TB.TREE2, output <thaumicbases:nethersapling>
+--Infusion: name: tg:shade_shears, group: tg:shade_instruments, research: TG_SHADOW_METAL@2, output <tg:shears_shade>
+--Crucible: name: minecraft:tb.powdertorod, group: , research: TB.EXCHANG, output <minecraft:blaze_rod> * 3
+--Crucible: name: thaumicbrewing:lingering_potion_invisibility, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:invisibility"})
+--Crucible: name: thaumic_arcana:incubated_egg_recipe, group: , research: INCUBATED_EGG, output <thaumic_arcana:incubated_egg>
+--Crucible: name: thaumadditions:fabrico_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "fabrico"})
+--Crucible: name: tg:light_rose_bush, group: tg:alchemy_light, research: TG_ALCHEMY@1, output <tg:light_rose_bush>
+--Infusion: name: thaumcraft:lampfertility, group: , research: LAMPFERTILITY, output <thaumcraft:lamp_fertility>
+--Infusion: name: tg:boots_primal, group: , research: TG_PRIMAL_ARMOR, output <tg:boots_primal>
+--Crucible: name: thaumcraft:vis_crystal_desiderium, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]})
+--Crucible: name: thaumcraft:vis_crystal_praecantatio, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]})
+--Infusion: name: thaumic_arcana:infuse_slime_armor_chestplate, group: , research: TA_SLIME_ARMOR, output <thaumic_arcana:infused_slimy_chestplate>
+--Infusion: name: tg:holder, group: , research: TG_TRANSFER_CHANT@1, output <tg:lamp>
+--Crucible: name: thaumicbrewing:lingering_potion_strong_harming, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_harming"})
+--Infusion: name: tg:shade_pickaxe, group: tg:shade_instruments, research: TG_SHADOW_METAL@2, output <tg:pickaxe_shade>
+--Crucible: name: thaumic_arcana:productivity_enchanting_powder_basic, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:productivity"}]})
+--Infusion: name: tg:leggins_primal_up, group: , research: TG_BETTER_PRIMAL_ARMOR, output <tg:leggins_primal_up>
+--Crucible: name: minecraft:tb.graveltoflintadv, group: , research: TB.AdvMACERATOR, output <minecraft:flint> * 4
+--Crucible: name: thaumic_arcana:fabric_slime, group: , research: TA_SLIME_INFUSION, output <thaumic_arcana:infused_slime:29>
+--Infusion: name: thaumadditions:herba_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "herba"})
+--Crucible: name: minecraft:tb.fluxium, group: , research: TB.PLANT1, output <thaumicbases:flaxium>
+--Infusion: name: thaumadditions:mithminite_boots, group: , research: TAR_MITHMINITE_BOOTS, output <thaumadditions:mithminite_boots>
+--Infusion: name: thaumadditions:fabrico_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "fabrico"})
+--Crucible: name: thaumic_arcana:strength_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:strength"}]})
+--Crucible: name: thaumadditions:alienis_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "alienis"})
+--Infusion: name: tg:chestplate_primal, group: , research: TG_PRIMAL_ARMOR, output <tg:chestplate_primal>
+--Infusion: name: thaumadditions:victus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "victus"})
+--Crucible: name: thaumadditions:imperium_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "imperium"})
+--Infusion: name: minecraft:tb.silverpipe, group: , research: TB.TOBACCO, output <thaumicbases:silverwoodpipe>
+--Crucible: name: thaumicbrewing:lingering_potion_long_water_breathing, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing"})
+--Crucible: name: thaumcraft:vis_crystal_humanus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]})
+--Infusion: name: thaumcraft:crystalclusterearth, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_terra>
+--Crucible: name: thaumcraft:vis_crystal_vitium, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})
+--Crucible: name: thaumicbrewing:splash_potion_long_swiftness, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:long_swiftness"})
+--Crucible: name: thaumicbrewing:splash_potion_strong_swiftness, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_swiftness"})
+--Infusion: name: planarartifice:mirrored_amulet, group: , research: MIRROREDAMULET, output <planarartifice:mirrored_amulet>
+--Infusion: name: tg:pouch_hungry_magic_3_1, group: , research: TG_HUNGRY_BAGS, output <tg:pouch_hungry_magic_3>
+--Infusion: name: planarartifice:dimensional_singularity, group: , research: DIMENSIONALSINGULARITY, output <planarartifice:dimensional_singularity>
+--Infusion: name: thaumadditions:auram_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "auram"})
+--Infusion: name: tg:pouch_magic_2_1, group: , research: TG_BAGS, output <tg:pouch_magic_2>
+--Infusion: name: thaumcraft:helmgoggles, group: , research: FORTRESSMASK, output ["goggles", "1b"]
+--Infusion: name: thaumadditions:gelum_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "gelum"})
+--Crucible: name: thaumadditions:sonus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "sonus"})
+--Crucible: name: thaumcraft:sealstock, group: , research: SEALSTOCK, output <thaumcraft:seal:17>
+--Infusion: name: tg:belt_light, group: , research: TG_BELT_LIGHT, output <tg:belt_light>
+--Crucible: name: thaumic_arcana:tree_3, group: , research: PLANT_GROWTH_ADVANCED, output <thaumic_arcana:plant_ball>.withTag({products: [{item: "minecraft:sapling", meta: 3, count: 2}, {item: "minecraft:log", meta: 3, count: 5}]})
+--Infusion: name: thaumadditions:terra_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "terra"})
+--Crucible: name: thaumic_arcana:tree_4, group: , research: PLANT_GROWTH_ADVANCED, output <thaumic_arcana:plant_ball>.withTag({products: [{item: "minecraft:sapling", meta: 4, count: 2}, {item: "minecraft:log2", meta: 0, count: 5}]})
+--Crucible: name: thaumic_arcana:tree_5, group: , research: PLANT_GROWTH_ADVANCED, output <thaumic_arcana:plant_ball>.withTag({products: [{item: "minecraft:sapling", meta: 5, count: 2}, {item: "minecraft:log2", meta: 1, count: 5}]})
+--Crucible: name: planarartifice:gold, group: , research: MOREALCHEMY, output <minecraft:iron_ingot>
+--Crucible: name: planarartifice:redstone2, group: , research: MOREALCHEMY, output <minecraft:redstone> * 2
+--Infusion: name: thaumadditions:mithminite_jar, group: , research: TAR_MITHMINITE_JAR, output <thaumadditions:jar_mithminite>
+--Crucible: name: thaumicaugmentation:eldritchstone, group: , research: VOID_STONE_USAGE, output <thaumcraft:stone_eldritch_tile>
+--Infusion: name: tg:pouch_hungry_magic_2, group: , research: TG_HUNGRY_BAGS, output <tg:pouch_hungry_magic_2>
+--Infusion: name: tg:pouch_hungry_magic_1, group: , research: TG_HUNGRY_BAGS, output <tg:pouch_hungry_magic_1>
+--Crucible: name: thaumadditions:victus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "victus"})
+--Infusion: name: thaumcraft:crystalclusterflux, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_vitium>
+--Crucible: name: thaumcraft:vis_crystal_sensus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sensus"}]})
+--Crucible: name: thaumcraft:hedge_tallow, group: , research: HEDGEALCHEMY@1, output <thaumcraft:tallow>
+--Crucible: name: thaumicbrewing:lingering_potion_poison, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:poison"})
+--Crucible: name: thaumcraft:vis_crystal_auram, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "auram"}]})
+--Infusion: name: thaumadditions:praemunio_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "praemunio"})
+--Infusion: name: thaumcraft:verdantheartlife, group: , research: VERDANTCHARMS, output ["type", "1b"]
+--Crucible: name: thaumicbrewing:strong_leaping_potion, group: , research: TBREW_STRONG_ADVANCED_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:strong_leaping"})
+--Crucible: name: thaumicbrewing:invisibility_potion, group: , research: TBREW_ADVANCED_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:invisibility"})
+--Crucible: name: thaumic_arcana:silver_oak_wood, group: , research: PLANT_EXPERIMENTS, output <thaumic_arcana:silver_oak_sapling>
+--Crucible: name: thaumic_arcana:pork_to_leather, group: , research: FLESH_TO_LEATHER, output <minecraft:leather>
+--Crucible: name: thaumadditions:volatus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "volatus"})
+--Crucible: name: planarartifice:redstone, group: , research: MOREALCHEMY, output <minecraft:redstone>
+--Crucible: name: thaumic_arcana:tree_0, group: , research: PLANT_GROWTH_ADVANCED, output <thaumic_arcana:plant_ball>.withTag({products: [{item: "minecraft:sapling", meta: 0, count: 2}, {item: "minecraft:log", meta: 0, count: 5}]})
+--Crucible: name: thaumic_arcana:tree_1, group: , research: PLANT_GROWTH_ADVANCED, output <thaumic_arcana:plant_ball>.withTag({products: [{item: "minecraft:sapling", meta: 1, count: 2}, {item: "minecraft:log", meta: 1, count: 5}]})
+--Crucible: name: planarartifice:blaze_powder, group: , research: MOREALCHEMY, output <minecraft:blaze_powder> * 2
+--Crucible: name: thaumic_arcana:tree_2, group: , research: PLANT_GROWTH_ADVANCED, output <thaumic_arcana:plant_ball>.withTag({products: [{item: "minecraft:sapling", meta: 2, count: 2}, {item: "minecraft:log", meta: 2, count: 5}]})
+--Crucible: name: minecraft:tb.roshipbrush, group: , research: TB.PLANT1, output <thaumicbases:redlonseed>
+--Crucible: name: thaumadditions:exanimis_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "exanimis"})
+--Infusion: name: thaumcraft:cloudring, group: , research: CLOUDRING, output <thaumcraft:cloud_ring>
+--Infusion: name: thaumcraft:sealbutcher, group: , research: SEALBUTCHER, output <thaumcraft:seal:10>
+--Unknown: name: thaumcraft:infernalfurnace, group: null, research: INFERNALFURNACE
+--Infusion: name: tg:pouch_magic_3_1, group: , research: TG_BAGS, output <tg:pouch_magic_3>
+--Infusion: name: thaumcraft:iedestructive, group: , research: INFUSIONENCHANTMENT, output null
+--Infusion: name: tg:helmet_primal_up, group: , research: TG_BETTER_PRIMAL_ARMOR, output <tg:helmet_primal_up>
+--Infusion: name: thaumicaugmentation:gauntletvoid, group: , research: GAUNTLET_VOID, output <thaumicaugmentation:gauntlet:1>
+--Infusion: name: thaumcraft:iearcing, group: , research: INFUSIONENCHANTMENT, output null
+--Crucible: name: tg:mycelium, group: tg:alchemy, research: TG_ALCHEMY, output <minecraft:mycelium>
+--Crucible: name: thaumadditions:praemunio_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "praemunio"})
+--Crucible: name: thaumcraft:vis_crystal_motus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "motus"}]})
+--Infusion: name: tg:pouch_hungry_magic_3, group: , research: TG_HUNGRY_BAGS, output <tg:pouch_hungry_magic_3>
+--Infusion: name: thaumadditions:vitreus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "vitreus"})
+--Crucible: name: thaumic_arcana:health_boost_enchanting_powder_basic, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:health_boost"}]})
+--Infusion: name: thaumcraft:bootstraveller, group: , research: BOOTSTRAVELLER, output <thaumcraft:traveller_boots>
+--Infusion: name: thaumcraft:maskangryghost, group: , research: FORTRESSMASK, output ["mask", "1"]
+--Infusion: name: thaumadditions:sonus_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "sonus"})
+--Crucible: name: thaumcraft:vis_crystal_tempus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "Tempus"}]})
+--Crucible: name: thaumicbrewing:lingering_potion_weakness, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:weakness"})
+--Crucible: name: thaumic_arcana:strength_enchanting_powder_basic, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:strength"}]})
+--Infusion: name: thaumcraft:crystalclusterwater, group: , research: CRYSTALFARMER, output <thaumcraft:crystal_aqua>
+--Crucible: name: thaumadditions:aer_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "aer"})
+--Infusion: name: tg:book_holder, group: , research: TG_TRANSFER_CHANT@1, output <tg:book_holder>
+--Unknown: name: tg:teleportator, group: null, research: TG_TELEPORTATOR
+--Crucible: name: thaumic_arcana:dye_red, group: , research: PLANT_PRODUCTS, output <minecraft:dye:1> * 2
+--Infusion: name: tg:shade_hoe, group: tg:shade_instruments, research: TG_SHADOW_METAL@2, output <tg:hoe_shade>
+--Infusion: name: thaumcraft:causalitycollapser, group: , research: RIFTCLOSER, output <thaumcraft:causality_collapser>
+--Crucible: name: minecraft:tb.tain_ingot, group: , research: TB.ALCHEMY, output <thaumicbases:taintedingot>
+--Crucible: name: thaumic_arcana:protection_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:protection"}]})
+--Crucible: name: thaumicbrewing:lingering_potion_long_slowness, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_slowness"})
+--Crucible: name: thaumicbrewing:splash_potion_long_water_breathing, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing"})
+--Crucible: name: thaumcraft:brassingot, group: , research: METALLURGY@1, output <thaumcraft:ingot:2>
+--Crucible: name: planarartifice:alchemical_scribing_tools, group: , research: ALCHEMICALSCIBETOOLS, output <planarartifice:alchemical_scribing_tools>
+--Crucible: name: thaumcraft:sanesoap, group: , research: SANESOAP, output <thaumcraft:sanity_soap>
+--Crucible: name: thaumicbrewing:harming_potion, group: , research: TBREW_HARMFUL_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:harming"})
+--Crucible: name: thaumicbrewing:long_weakness_potion, group: , research: TBREW_LONG_HARMFUL_POTIONS, output <minecraft:potion>.withTag({Potion: "minecraft:long_weakness"})
+--Crucible: name: minecraft:tb.lucrite, group: , research: TB.PLANT1, output <thaumicbases:lucriteseed>
+--Crucible: name: thaumicaugmentation:fluxseed, group: , research: RIFT_STUDIES, output <thaumicaugmentation:rift_seed:1>.withTag({flux: 100})
+--Crucible: name: planarartifice:alkimium_ingot, group: , research: METALLURGY@2, output <planarartifice:alkimium_ingot>
+--Infusion: name: thaumadditions:machina_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "machina"})
+--Infusion: name: thaumadditions:praecantatio_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "praecantatio"})
+--Crucible: name: minecraft:tb.briar, group: , research: TB.PLANT1, output <thaumicbases:briar>
+--Infusion: name: thaumadditions:sol_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "sol"})
+--Infusion: name: tg:chestplate_shade, group: tg:shade_armor, research: TG_SHADOW_METAL, output <tg:chestplate_shade>
+--Crucible: name: thaumcraft:hedge_dye, group: , research: HEDGEALCHEMY@2, output <minecraft:dye> * 2
+--Infusion: name: thaumicaugmentation:fluxseedgrowth, group: , research: RIFT_STUDIES, output <thaumicaugmentation:rift_seed:1>
+--Infusion: name: thaumadditions:exanimis_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "exanimis"})
+--Crucible: name: thaumicbrewing:lingering_potion_long_leaping, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_leaping"})
+--Infusion: name: minecraft:trm.advtd, group: , research: TRM.TOOLS, output <trm:thaumadvanceddrill>.withTag({energy: 0})
+--Infusion: name: thaumic_arcana:enchant_modifier_base, group: , research: ENCHANT_MODIFICATION, output <thaumic_arcana:enchant_modifier>
+--Infusion: name: thaumcraft:mindbiothaumic, group: , research: MINDBIOTHAUMIC, output <thaumcraft:mind:1>
+--Infusion: name: tg:belt_shade, group: , research: TG_BELT_SHADOW, output <tg:belt_shade>
+--Infusion: name: thaumcraft:jarbrain, group: , research: JARBRAIN, output <thaumcraft:jar_brain>
+--Crucible: name: thaumcraft:vis_crystal_lux, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "lux"}]})
+--Crucible: name: thaumicbrewing:lingering_potion_long_night_vision, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_night_vision"})
+--Crucible: name: thaumicbrewing:splash_potion_long_regeneration, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:long_regeneration"})
+--Crucible: name: thaumadditions:luna_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "luna"})
+--Infusion: name: planarartifice:ieaurainfusing, group: , research: INFUSIONENCHANTMENTII, output null
+--Crucible: name: thaumcraft:vis_crystal_alkimia, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]})
+--Crucible: name: thaumcraft:vis_crystal_exitium, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "exitium"}]})
+--Crucible: name: thaumicbrewing:splash_potion_poison, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:poison"})
+--Infusion: name: thaumcraft:lampgrowth, group: , research: LAMPGROWTH, output <thaumcraft:lamp_growth>
+--Crucible: name: thaumadditions:permutatio_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "permutatio"})
+--Crucible: name: thaumicbrewing:splash_potion_long_leaping, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:long_leaping"})
+--Crucible: name: thaumcraft:vis_crystal_ventus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ventus"}]})
+--Crucible: name: thaumic_arcana:great_oak_wood, group: , research: PLANT_EXPERIMENTS, output <thaumic_arcana:magic_oak_sapling>
+--Infusion: name: tg:light_pickaxe, group: tg:light_instruments, research: TG_LIGHT_METAL@2, output <tg:pickaxe_light>
+--Crucible: name: thaumadditions:spatio_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "Spatio"})
+--Infusion: name: planarartifice:belt_of_suspension, group: , research: BELTOFSUSPENSION, output <planarartifice:belt_of_suspension>
+--Infusion: name: tg:chestplate_primal_up, group: , research: TG_BETTER_PRIMAL_ARMOR, output <tg:chestplate_primal_up>
+--Crucible: name: thaumadditions:auram_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "auram"})
+--Crucible: name: thaumicbrewing:splash_potion_healing, group: thaumicbrewing:splash_potion_group, research: TBREW_SPLASH_POTIONS, output <minecraft:splash_potion>.withTag({Potion: "minecraft:healing"})
+--Infusion: name: thaumcraft:mirror, group: , research: MIRROR, output <thaumcraft:mirror>
+--Infusion: name: planarartifice:ieprojecting, group: , research: INFUSIONENCHANTMENTII, output null
+--Crucible: name: thaumcraft:hedge_gunpowder, group: , research: HEDGEALCHEMY@2, output <minecraft:gunpowder> * 2
+--Crucible: name: thaumic_arcana:transmutation_gold, group: , research: METAL_TRANSMUTATION, output <minecraft:gold_nugget>
+--Crucible: name: thaumcraft:sealprovide, group: , research: SEALPROVIDE, output <thaumcraft:seal:16>
+--Crucible: name: thaumadditions:diabolus_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "diabolus"})
+--Crucible: name: thaumcraft:vis_crystal_mortuus, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "mortuus"}]})
+--Infusion: name: thaumicaugmentation:sealcopier, group: , research: SEAL_COPIER, output <thaumicaugmentation:seal_copier>
+--Infusion: name: minecraft:tb.goldensapling, group: , research: TB.TREE, output <thaumicbases:goldensapling>
+--Infusion: name: thaumcraft:ieessence, group: , research: INFUSIONENCHANTMENT, output null
+--Crucible: name: thaumadditions:desiderium_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "desiderium"})
+--Infusion: name: tg:scythe_shade, group: tg:shade_instruments, research: TG_SHADOW_METAL@2, output <tg:scythe_shade>
+--Crucible: name: thaumicbrewing:lingering_potion_swiftness, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:swiftness"})
+--Crucible: name: thaumcraft:vis_crystal_potentia, group: thaumcraft:viscrystalgroup, research: BASEALCHEMY, output <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "potentia"}]})
+--Crucible: name: thaumcraft:seallumber, group: , research: SEALLUMBER, output <thaumcraft:seal:13>
+--Infusion: name: tg:boots_shade, group: tg:shade_armor, research: TG_SHADOW_METAL, output <tg:boots_shade>
+--Infusion: name: thaumadditions:tinctura_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "Tinctura"})
+--Crucible: name: thaumic_arcana:haste_enchanting_powder_basic, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_basic>.withTag({creature_enchants: [{level: 1, name: "thaumic_arcana:haste"}]})
+--Crucible: name: thaumadditions:exitium_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "exitium"})
+--Crucible: name: thaumicbrewing:lingering_potion_water_breathing, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing"})
+--Crucible: name: thaumadditions:visum_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "visum"})
+--Infusion: name: thaumcraft:runicarmor, group: , research: RUNICSHIELDING, output null
+--Infusion: name: tg:sword_light, group: tg:light_instruments, research: TG_LIGHT_METAL, output <tg:sword_light>
+--Crucible: name: thaumic_arcana:mutton_to_leather, group: , research: FLESH_TO_LEATHER, output <minecraft:leather>
+--Infusion: name: thaumcraft:charmundying, group: , research: CHARMUNDYING, output <thaumcraft:charm_undying>
+--Crucible: name: thaumicbrewing:lingering_potion_strong_swiftness, group: thaumicbrewing:lingering_potion_group, research: TBREW_LINGERING_POTIONS, output <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_swiftness"})
+--Crucible: name: thaumic_arcana:paper, group: , research: PLANT_PRODUCTS, output <minecraft:paper> * 16
+--Infusion: name: thaumadditions:desiderium_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "desiderium"})
+--Crucible: name: thaumic_arcana:grow_beef, group: , research: FLESH_GROWTH, output <minecraft:beef> * 2
+--Crucible: name: thaumic_arcana:agility_enchanting_powder_magical, group: , research: CREATURE_ENCHANT_ADVANCED2, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:agility"}]})
+--Crucible: name: tg:shade_rose_bush, group: tg:alchemy_shade, research: TG_ALCHEMY@1, output <tg:shade_rose_bush>
+--Crucible: name: thaumic_arcana:dye_yellow, group: , research: PLANT_PRODUCTS, output <minecraft:dye:11> * 2
+--Infusion: name: thaumadditions:aqua_seal_symbol, group: , research: TAR_SEAL_SYMBOLS, output <thaumadditions:seal_symbol>.withTag({Aspect: "aqua"})
+--Crucible: name: thaumic_arcana:spider_enchanting_powder_advanced, group: , research: CREATURE_ENCHANT, output <thaumic_arcana:enchanting_powder_advanced>.withTag({creature_enchants: [{level: 2, name: "thaumic_arcana:spider"}]})
+--Crucible: name: thaumcraft:nitor, group: , research: UNLOCKALCHEMY@3, output <thaumcraft:nitor_yellow>
+--Crucible: name: thaumic_arcana:strength_enchanting_powder_magical, group: , research: CREATURE_ENCHANT_ADVANCED, output <thaumic_arcana:enchanting_powder_magical>.withTag({creature_enchants: [{level: 3, name: "thaumic_arcana:strength"}]})
+--Crucible: name: thaumadditions:herba_vis_seed, group: , research: TAR_VIS_SEEDS, output <thaumadditions:vis_seeds>.withTag({Aspect: "herba"})
+--Crucible: name: thaumic_arcana:grow_reeds, group: , research: PLANT_GROWTH, output <minecraft:reeds> * 3

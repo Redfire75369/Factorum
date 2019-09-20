@@ -43,7 +43,6 @@ creativetab:
 <creativetab:darkutils>
 <creativetab:deepmoblearning>
 <creativetab:deepmoblearningbm>
-<creativetab:densemetals>
 <creativetab:embers>
 <creativetab:embers_resources>
 <creativetab:immersiveengineering>
@@ -53,14 +52,13 @@ creativetab:
 <creativetab:environmentaltech.et_controllers>
 <creativetab:environmentaltech.et_multiblock_components>
 <creativetab:environmentaltech.et_other>
-<creativetab:eternalsingularity>
 <creativetab:etlunar.etlunar>
 <creativetab:extendedcrafting>
 <creativetab:extraanvils>
 <creativetab:bigreactors>
 <creativetab:tabMekanism>
 <creativetab:SonarCore>
-<creativetab:Flux Networks>
+<creativetab:fluxnetworks>
 <creativetab:immersivepetroleum>
 <creativetab:immersivetech>
 <creativetab:incorporeal>
@@ -73,7 +71,6 @@ creativetab:
 <creativetab:tab_matc>
 <creativetab:mob_grinding_utils>
 <creativetab:thaumicperiphery>
-<creativetab:simplyjetpacks>
 <creativetab:OpenPrinter>
 <creativetab:openscreens>
 <creativetab:OpenComputers>
@@ -82,6 +79,7 @@ creativetab:
 <creativetab:packagedavaritia>
 <creativetab:packagedexcrafting>
 <creativetab:planarartifice.tab.name>
+<creativetab:simplyjetpacks>
 <creativetab:Tesla Powered Thingies>
 <creativetab:xreliquary>
 <creativetab:baggablemobs>

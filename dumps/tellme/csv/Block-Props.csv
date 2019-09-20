@@ -118,24 +118,24 @@
 "Advanced Generators","advgenerators:item_input",1.00,5.00
 "Advanced Generators","advgenerators:item_output",1.00,5.00
 "Advanced Generators","advgenerators:mixing_chamber",1.00,5.00
-"Advanced Generators","advgenerators:power_capacitor_advanced",1.00,5.00
-"Advanced Generators","advgenerators:power_capacitor_awakened draconium",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_conductive iron",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_advanced",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_awakened draconium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_conductive iron",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_crystaltine",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_dense",1.00,5.00
-"Advanced Generators","advgenerators:power_capacitor_electronium",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_graphite",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_infinity",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_lithium",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_lithium manganese dioxide",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_lumium",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_modularium",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_dense",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_electronium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_graphite",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_infinity",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_lithium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_lithium manganese dioxide",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_lumium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_modularium",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_redstone",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_signalum",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_sodium",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_stellar",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_superconductor",0.00,0.00
-"Advanced Generators","advgenerators:power_capacitor_ultimate",0.00,0.00
+"Advanced Generators","advgenerators:power_capacitor_sodium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_stellar",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_superconductor",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_ultimate",1.00,5.00
 "Advanced Generators","advgenerators:pressure_input",1.00,5.00
 "Advanced Generators","advgenerators:pressure_output_select",1.00,5.00
 "Advanced Generators","advgenerators:rf_output",1.00,5.00
@@ -147,25 +147,25 @@
 "Advanced Generators","advgenerators:syngas_flaming",0.00,0.00
 "Advanced Generators","advgenerators:tesla_output",1.00,5.00
 "Advanced Generators","advgenerators:turbine_adv_alloy",0.00,0.00
-"Advanced Generators","advgenerators:turbine_awakened draconium",0.00,0.00
+"Advanced Generators","advgenerators:turbine_awakened draconium",1.00,5.00
 "Advanced Generators","advgenerators:turbine_bronze",1.00,5.00
-"Advanced Generators","advgenerators:turbine_compressed iron",0.00,0.00
+"Advanced Generators","advgenerators:turbine_compressed iron",1.00,5.00
 "Advanced Generators","advgenerators:turbine_controller",1.00,5.00
 "Advanced Generators","advgenerators:turbine_crystaltine",0.00,0.00
-"Advanced Generators","advgenerators:turbine_draconium",0.00,0.00
-"Advanced Generators","advgenerators:turbine_enderium",1.00,5.00
-"Advanced Generators","advgenerators:turbine_gold",1.00,5.00
-"Advanced Generators","advgenerators:turbine_hsla steel",0.00,0.00
-"Advanced Generators","advgenerators:turbine_infinity",0.00,0.00
+"Advanced Generators","advgenerators:turbine_draconium",1.00,5.00
+"Advanced Generators","advgenerators:turbine_enderium",0.00,0.00
+"Advanced Generators","advgenerators:turbine_gold",0.00,0.00
+"Advanced Generators","advgenerators:turbine_hsla steel",1.00,5.00
+"Advanced Generators","advgenerators:turbine_infinity",1.00,5.00
 "Advanced Generators","advgenerators:turbine_iron",1.00,5.00
-"Advanced Generators","advgenerators:turbine_manyullyn",1.00,5.00
-"Advanced Generators","advgenerators:turbine_osgloglas",0.00,0.00
-"Advanced Generators","advgenerators:turbine_protoneutronium",0.00,0.00
+"Advanced Generators","advgenerators:turbine_manyullyn",0.00,0.00
+"Advanced Generators","advgenerators:turbine_osgloglas",1.00,5.00
+"Advanced Generators","advgenerators:turbine_protoneutronium",1.00,5.00
 "Advanced Generators","advgenerators:turbine_steel",1.00,5.00
-"Advanced Generators","advgenerators:turbine_stellar",0.00,0.00
-"Advanced Generators","advgenerators:turbine_titanium",0.00,0.00
-"Advanced Generators","advgenerators:turbine_tungstensteel",0.00,0.00
-"Advanced Generators","advgenerators:turbine_ultimate",0.00,0.00
+"Advanced Generators","advgenerators:turbine_stellar",1.00,5.00
+"Advanced Generators","advgenerators:turbine_titanium",1.00,5.00
+"Advanced Generators","advgenerators:turbine_tungstensteel",1.00,5.00
+"Advanced Generators","advgenerators:turbine_ultimate",1.00,5.00
 "Advanced Generators","advgenerators:turbine_vibrant",0.00,0.00
 "Advanced Lifting Methods","advancedliftingmethods:advanced_blowing_elevator",3.50,17.50
 "Advanced Lifting Methods","advancedliftingmethods:advanced_ender_elevator",3.50,17.50
@@ -1703,6 +1703,8 @@
 "Construct's Armory","conarm:armorforge",2.00,30.00
 "Construct's Armory","conarm:armorstation",1.00,15.00
 "Construct's Armory","conarm:soft_obsidian",0.50,2.50
+"ContentTweaker","contenttweaker:block_burnt_wood",5.00,15.00
+"ContentTweaker","contenttweaker:block_low_grade_charcoal",5.00,15.00
 "Cooking for Blockheads","cookingforblockheads:cabinet",5.00,30.00
 "Cooking for Blockheads","cookingforblockheads:cooking_table",2.50,12.50
 "Cooking for Blockheads","cookingforblockheads:corner",5.00,30.00
@@ -1893,13 +1895,6 @@
 "DeepResonance","deepresonance:smelter",2.00,10.00
 "DeepResonance","deepresonance:tank",2.00,10.00
 "DeepResonance","deepresonance:valve",2.00,10.00
-"Dense Metals","densemetals:dense_coal_ore",4.00,45.00
-"Dense Metals","densemetals:dense_diamond_ore",4.00,45.00
-"Dense Metals","densemetals:dense_emerald_ore",4.00,45.00
-"Dense Metals","densemetals:dense_gold_ore",4.00,45.00
-"Dense Metals","densemetals:dense_iron_ore",4.00,45.00
-"Dense Metals","densemetals:dense_lapis_ore",4.00,45.00
-"Dense Metals","densemetals:dense_redstone_ore",4.00,45.00
 "Draconic Evolution","draconicevolution:celestial_manipulator",5.00,30.00
 "Draconic Evolution","draconicevolution:chaos_crystal",-1.00,12000.00
 "Draconic Evolution","draconicevolution:chaos_shard_atmos",5.00,30.00
@@ -2868,12 +2863,12 @@
 "Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_80",1.50,30.00
 "Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_9",1.50,30.00
 "Flux Networks","fluxnetworks:fluxblock",0.00,0.00
-"Flux Networks","fluxnetworks:fluxcontroller",0.40,60.00
-"Flux Networks","fluxnetworks:fluxplug",0.40,60.00
-"Flux Networks","fluxnetworks:fluxpoint",0.40,60.00
-"Flux Networks","fluxnetworks:fluxstorage",0.40,60.00
-"Flux Networks","fluxnetworks:gargantuanfluxstorage",0.40,60.00
-"Flux Networks","fluxnetworks:herculeanfluxstorage",0.40,60.00
+"Flux Networks","fluxnetworks:fluxcontroller",0.30,3000000.00
+"Flux Networks","fluxnetworks:fluxplug",0.30,3000000.00
+"Flux Networks","fluxnetworks:fluxpoint",0.30,3000000.00
+"Flux Networks","fluxnetworks:fluxstorage",0.30,3000000.00
+"Flux Networks","fluxnetworks:gargantuanfluxstorage",0.30,3000000.00
+"Flux Networks","fluxnetworks:herculeanfluxstorage",0.30,3000000.00
 "Forestry","forestry:alveary.fan",1.00,7.50
 "Forestry","forestry:alveary.heater",1.00,7.50
 "Forestry","forestry:alveary.hygro",1.00,7.50
@@ -3479,8 +3474,8 @@
 "Iron Chest","ironchest:iron_shulker_box_silver",3.00,15.00
 "Iron Chest","ironchest:iron_shulker_box_white",3.00,15.00
 "Iron Chest","ironchest:iron_shulker_box_yellow",3.00,15.00
-"JAOPCA","jaopca:block_blockadaminite",0.00,0.00
-"JAOPCA","jaopca:block_blockadvancedalloy",0.00,0.00
+"JAOPCA","jaopca:block_blockadaminite",5.00,30.00
+"JAOPCA","jaopca:block_blockadvancedalloy",5.00,30.00
 "JAOPCA","jaopca:block_blockall",0.00,0.00
 "JAOPCA","jaopca:block_blockamber",5.00,30.00
 "JAOPCA","jaopca:block_blockamericium241",0.00,0.00
@@ -3498,8 +3493,8 @@
 "JAOPCA","jaopca:block_blockberkelium248oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockboron10",0.00,0.00
 "JAOPCA","jaopca:block_blockboron11",0.00,0.00
-"JAOPCA","jaopca:block_blockboronarsenide",0.00,0.00
-"JAOPCA","jaopca:block_blockboronnitride",0.00,0.00
+"JAOPCA","jaopca:block_blockboronarsenide",5.00,30.00
+"JAOPCA","jaopca:block_blockboronnitride",5.00,30.00
 "JAOPCA","jaopca:block_blockcalifornium249",0.00,0.00
 "JAOPCA","jaopca:block_blockcalifornium249base",0.00,0.00
 "JAOPCA","jaopca:block_blockcalifornium249oxide",0.00,0.00
@@ -3509,12 +3504,12 @@
 "JAOPCA","jaopca:block_blockcalifornium251base",0.00,0.00
 "JAOPCA","jaopca:block_blockcalifornium251oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockcalifornium252oxide",0.00,0.00
-"JAOPCA","jaopca:block_blockcarobbiite",0.00,0.00
+"JAOPCA","jaopca:block_blockcarobbiite",5.00,30.00
 "JAOPCA","jaopca:block_blockcertusquartz",5.00,30.00
 "JAOPCA","jaopca:block_blockchargedcertusquartz",5.00,30.00
 "JAOPCA","jaopca:block_blockchocolate",0.00,0.00
 "JAOPCA","jaopca:block_blockcinnabar",5.00,30.00
-"JAOPCA","jaopca:block_blockcocoabutter",0.00,0.00
+"JAOPCA","jaopca:block_blockcocoabutter",5.00,30.00
 "JAOPCA","jaopca:block_blockcurium243",0.00,0.00
 "JAOPCA","jaopca:block_blockcurium243base",0.00,0.00
 "JAOPCA","jaopca:block_blockcurium243oxide",0.00,0.00
@@ -3528,36 +3523,36 @@
 "JAOPCA","jaopca:block_blockdarkchocolate",0.00,0.00
 "JAOPCA","jaopca:block_blockdimensionalshard",5.00,30.00
 "JAOPCA","jaopca:block_blockelvenelementium",0.00,0.00
-"JAOPCA","jaopca:block_blockextreme",0.00,0.00
-"JAOPCA","jaopca:block_blockferroboron",0.00,0.00
-"JAOPCA","jaopca:block_blockfluix",0.00,0.00
-"JAOPCA","jaopca:block_blockfluorite",0.00,0.00
+"JAOPCA","jaopca:block_blockextreme",5.00,30.00
+"JAOPCA","jaopca:block_blockferroboron",5.00,30.00
+"JAOPCA","jaopca:block_blockfluix",5.00,30.00
+"JAOPCA","jaopca:block_blockfluorite",5.00,30.00
 "JAOPCA","jaopca:block_blockgalena",5.00,30.00
-"JAOPCA","jaopca:block_blockgelid",0.00,0.00
-"JAOPCA","jaopca:block_blockhardcarbon",0.00,0.00
-"JAOPCA","jaopca:block_blockhopgraphite",0.00,0.00
-"JAOPCA","jaopca:block_blockhottungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_blockhslasteel",0.00,0.00
-"JAOPCA","jaopca:block_blockiridiumalloy",0.00,0.00
-"JAOPCA","jaopca:block_blockleadplatinum",0.00,0.00
+"JAOPCA","jaopca:block_blockgelid",5.00,30.00
+"JAOPCA","jaopca:block_blockhardcarbon",5.00,30.00
+"JAOPCA","jaopca:block_blockhopgraphite",5.00,30.00
+"JAOPCA","jaopca:block_blockhottungstensteel",5.00,30.00
+"JAOPCA","jaopca:block_blockhslasteel",5.00,30.00
+"JAOPCA","jaopca:block_blockiridiumalloy",5.00,30.00
+"JAOPCA","jaopca:block_blockleadplatinum",5.00,30.00
 "JAOPCA","jaopca:block_blocklithium6",0.00,0.00
 "JAOPCA","jaopca:block_blocklithium7",0.00,0.00
-"JAOPCA","jaopca:block_blocklithiummanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_blockmagnesiumdiboride",0.00,0.00
+"JAOPCA","jaopca:block_blocklithiummanganesedioxide",5.00,30.00
+"JAOPCA","jaopca:block_blockmagnesiumdiboride",5.00,30.00
 "JAOPCA","jaopca:block_blockmanasteel",0.00,0.00
-"JAOPCA","jaopca:block_blockmanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_blockmanganeseoxide",0.00,0.00
-"JAOPCA","jaopca:block_blockmarshmallow",0.00,0.00
-"JAOPCA","jaopca:block_blockmithminite",0.00,0.00
-"JAOPCA","jaopca:block_blockmithrillium",0.00,0.00
-"JAOPCA","jaopca:block_blockmixedmetal",0.00,0.00
+"JAOPCA","jaopca:block_blockmanganesedioxide",5.00,30.00
+"JAOPCA","jaopca:block_blockmanganeseoxide",5.00,30.00
+"JAOPCA","jaopca:block_blockmarshmallow",5.00,30.00
+"JAOPCA","jaopca:block_blockmithminite",5.00,30.00
+"JAOPCA","jaopca:block_blockmithrillium",5.00,30.00
+"JAOPCA","jaopca:block_blockmixedmetal",5.00,30.00
 "JAOPCA","jaopca:block_blockneptunium236",0.00,0.00
 "JAOPCA","jaopca:block_blockneptunium236base",0.00,0.00
 "JAOPCA","jaopca:block_blockneptunium236oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockneptunium237oxide",0.00,0.00
-"JAOPCA","jaopca:block_blockobsidian",0.00,0.00
-"JAOPCA","jaopca:block_blockorichalcos",0.00,0.00
-"JAOPCA","jaopca:block_blockphotonium",0.00,0.00
+"JAOPCA","jaopca:block_blockobsidian",5.00,30.00
+"JAOPCA","jaopca:block_blockorichalcos",5.00,30.00
+"JAOPCA","jaopca:block_blockphotonium",5.00,30.00
 "JAOPCA","jaopca:block_blockplutonium",0.00,0.00
 "JAOPCA","jaopca:block_blockplutonium238",0.00,0.00
 "JAOPCA","jaopca:block_blockplutonium238oxide",0.00,0.00
@@ -3569,23 +3564,23 @@
 "JAOPCA","jaopca:block_blockplutonium241oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockplutonium242oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockpyrite",5.00,30.00
-"JAOPCA","jaopca:block_blockrefinediron",0.00,0.00
-"JAOPCA","jaopca:block_blockrhodochrosite",0.00,0.00
-"JAOPCA","jaopca:block_blockshadowium",0.00,0.00
-"JAOPCA","jaopca:block_blockshibuichi",0.00,0.00
-"JAOPCA","jaopca:block_blocksicsiccmc",0.00,0.00
-"JAOPCA","jaopca:block_blocksiliconcarbide",0.00,0.00
+"JAOPCA","jaopca:block_blockrefinediron",5.00,30.00
+"JAOPCA","jaopca:block_blockrhodochrosite",5.00,30.00
+"JAOPCA","jaopca:block_blockshadowium",5.00,30.00
+"JAOPCA","jaopca:block_blockshibuichi",5.00,30.00
+"JAOPCA","jaopca:block_blocksicsiccmc",5.00,30.00
+"JAOPCA","jaopca:block_blocksiliconcarbide",5.00,30.00
 "JAOPCA","jaopca:block_blocksodalite",5.00,30.00
 "JAOPCA","jaopca:block_blocksphalerite",5.00,30.00
 "JAOPCA","jaopca:block_blockterrasteel",0.00,0.00
-"JAOPCA","jaopca:block_blockthermoconducting",0.00,0.00
+"JAOPCA","jaopca:block_blockthermoconducting",5.00,30.00
 "JAOPCA","jaopca:block_blockthorium230oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockthorium232",0.00,0.00
 "JAOPCA","jaopca:block_blockthorium232base",0.00,0.00
 "JAOPCA","jaopca:block_blockthorium232oxide",0.00,0.00
-"JAOPCA","jaopca:block_blockthoriumoxide",0.00,0.00
-"JAOPCA","jaopca:block_blocktinsilver",0.00,0.00
-"JAOPCA","jaopca:block_blocktough",0.00,0.00
+"JAOPCA","jaopca:block_blockthoriumoxide",5.00,30.00
+"JAOPCA","jaopca:block_blocktinsilver",5.00,30.00
+"JAOPCA","jaopca:block_blocktough",5.00,30.00
 "JAOPCA","jaopca:block_blockunsweetenedchocolate",0.00,0.00
 "JAOPCA","jaopca:block_blockuranium233",0.00,0.00
 "JAOPCA","jaopca:block_blockuranium233base",0.00,0.00
@@ -3594,443 +3589,443 @@
 "JAOPCA","jaopca:block_blockuranium235base",0.00,0.00
 "JAOPCA","jaopca:block_blockuranium235oxide",0.00,0.00
 "JAOPCA","jaopca:block_blockuranium238oxide",0.00,0.00
-"JAOPCA","jaopca:block_blockuraniumoxide",0.00,0.00
-"JAOPCA","jaopca:block_blockvilliaumite",0.00,0.00
-"JAOPCA","jaopca:block_blockwub",0.00,0.00
-"JAOPCA","jaopca:block_blockzircaloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabadaminite",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabadvancedalloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabalubrass",0.00,0.00
+"JAOPCA","jaopca:block_blockuraniumoxide",5.00,30.00
+"JAOPCA","jaopca:block_blockvilliaumite",5.00,30.00
+"JAOPCA","jaopca:block_blockwub",5.00,30.00
+"JAOPCA","jaopca:block_blockzircaloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabadaminite",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabadvancedalloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabalubrass",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabaluminium",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabalumite",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabalumite",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabamber",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabamethyst",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabapatite",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabaquamarine",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabardite",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabastralstarmetal",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabbaseessence",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabbaseessence",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabbauxite",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabblackiron",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabbloodbronze",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabblutonium",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabblackiron",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabbloodbronze",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabblutonium",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabboron",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabboronarsenide",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabboronnitride",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabbrass",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabbronze",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcarobbiite",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabboronarsenide",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabboronnitride",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabbrass",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabbronze",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcarobbiite",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabcertusquartz",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabchargedcertusquartz",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabchromium",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabchromium",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabcinnabar",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabcoal",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabcobalt",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabcocoabutter",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcoldiron",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabconductiveiron",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabconstantan",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabconstructionalloy",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabcocoabutter",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcoldiron",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabconductiveiron",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabconstantan",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabconstructionalloy",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabcopper",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabcosmicneutronium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcrudesteel",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcrystalflux",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcrystallinealloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcrystallinepinkslime",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcrystalmatrix",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcrystaltine",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabcyanite",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabdarksteel",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabdawnstone",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabcosmicneutronium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcrudesteel",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcrystalflux",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcrystallinealloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcrystallinepinkslime",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcrystalmatrix",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcrystaltine",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabcyanite",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabdarksteel",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabdawnstone",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabdiamond",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabdimensionalshard",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabdraconium",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabdraconiumawakened",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabelectricalsteel",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabelectrum",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabelectrumflux",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabdraconiumawakened",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabelectricalsteel",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabelectrum",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabelectrumflux",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabemerald",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabenderium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabendsteel",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabenergeticalloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabenergeticsilver",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabextreme",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabferroboron",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabflint",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabfluix",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabfluorite",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabenderium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabendsteel",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabenergeticalloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabenergeticsilver",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabextreme",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabferroboron",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabflint",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabfluix",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabfluorite",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabgalena",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabgarnet",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabgelid",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabgelidenderium",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabgelid",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabgelidenderium",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabgold",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabgraphite",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabhardcarbon",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabhopgraphite",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabhottungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabhslasteel",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabinferium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabinfinity",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabinsanium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabintermedium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabinvar",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabgraphite",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabhardcarbon",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabhopgraphite",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabhottungstensteel",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabhslasteel",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabinferium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabinfinity",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabinsanium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabintermedium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabinvar",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabiridium",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabiridiumalloy",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabiridiumalloy",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabiron",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabknightslime",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabknightslime",5.00,30.00
 "JAOPCA","jaopca:block_doubleslablapis",5.00,30.00
 "JAOPCA","jaopca:block_doubleslablead",5.00,30.00
-"JAOPCA","jaopca:block_doubleslableadplatinum",0.00,0.00
+"JAOPCA","jaopca:block_doubleslableadplatinum",5.00,30.00
 "JAOPCA","jaopca:block_doubleslablithium",5.00,30.00
-"JAOPCA","jaopca:block_doubleslablithiummanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabludicrite",0.00,0.00
-"JAOPCA","jaopca:block_doubleslablumium",0.00,0.00
+"JAOPCA","jaopca:block_doubleslablithiummanganesedioxide",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabludicrite",5.00,30.00
+"JAOPCA","jaopca:block_doubleslablumium",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabmagnesium",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabmagnesiumdiboride",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmanganese",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmanganeseoxide",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmanyullyn",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmarshmallow",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmelodicalloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmirion",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmithminite",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabmagnesiumdiboride",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmanganese",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmanganesedioxide",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmanganeseoxide",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmanyullyn",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmarshmallow",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmelodicalloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmirion",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmithminite",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabmithril",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabmithrillium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabmixedmetal",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabmithrillium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabmixedmetal",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabnickel",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabobsidian",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabobsidian",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabopal",5.00,30.00
-"JAOPCA","jaopca:block_doubleslaborichalcos",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabosgloglas",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabosmiridium",0.00,0.00
+"JAOPCA","jaopca:block_doubleslaborichalcos",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabosgloglas",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabosmiridium",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabosmium",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabperidot",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabphotonium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabpigiron",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabphotonium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabpigiron",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabplatinum",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabprudentium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabpulsatingiron",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabprudentium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabpulsatingiron",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabpyrite",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabquartzblack",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabredgarnet",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabredgarnet",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabredstone",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabredstonealloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabrefinedglowstone",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabrefinediron",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabrefinedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabreinforcedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabrhodochrosite",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabredstonealloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabrefinedglowstone",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabrefinediron",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabrefinedobsidian",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabreinforcedobsidian",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabrhodochrosite",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabruby",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabsalt",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabsapphire",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabshadowium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabshibuichi",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabsicsiccmc",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabsignalum",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabsiliconcarbide",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabshadowium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabshibuichi",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabsicsiccmc",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabsignalum",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabsiliconcarbide",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabsilver",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabsodalite",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabsoularium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabsoulium",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabsoularium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabsoulium",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabsphalerite",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabsteel",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabstellaralloy",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabsteel",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabstellaralloy",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabsulfur",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabsuperium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabsupremium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabthaumium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabthermoconducting",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabsuperium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabsupremium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabthaumium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabthermoconducting",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabthorium",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabthoriumoxide",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabthoriumoxide",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabtin",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabtinsilver",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabtitanium",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabtough",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabtinsilver",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabtitanium",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabtough",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabtungsten",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabtungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabultimate",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabtungstensteel",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabultimate",5.00,30.00
 "JAOPCA","jaopca:block_doubleslaburanium",5.00,30.00
-"JAOPCA","jaopca:block_doubleslaburaniumoxide",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabvibrantalloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabvilliaumite",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabvividalloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabvoid",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabwub",0.00,0.00
+"JAOPCA","jaopca:block_doubleslaburaniumoxide",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabvibrantalloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabvilliaumite",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabvividalloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabvoid",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabwub",5.00,30.00
 "JAOPCA","jaopca:block_doubleslabyellorium",5.00,30.00
-"JAOPCA","jaopca:block_doubleslabyellowgarnet",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabzinc",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabzircaloy",0.00,0.00
-"JAOPCA","jaopca:block_doubleslabzirconium",0.00,0.00
-"JAOPCA","jaopca:block_fenceadaminite",0.00,0.00
-"JAOPCA","jaopca:block_fenceadvancedalloy",0.00,0.00
-"JAOPCA","jaopca:block_fencealubrass",0.00,0.00
-"JAOPCA","jaopca:block_fencealumite",0.00,0.00
+"JAOPCA","jaopca:block_doubleslabyellowgarnet",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabzinc",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabzircaloy",5.00,30.00
+"JAOPCA","jaopca:block_doubleslabzirconium",5.00,30.00
+"JAOPCA","jaopca:block_fenceadaminite",5.00,30.00
+"JAOPCA","jaopca:block_fenceadvancedalloy",5.00,30.00
+"JAOPCA","jaopca:block_fencealubrass",5.00,30.00
+"JAOPCA","jaopca:block_fencealumite",5.00,30.00
 "JAOPCA","jaopca:block_fenceamber",5.00,30.00
 "JAOPCA","jaopca:block_fenceamethyst",5.00,30.00
 "JAOPCA","jaopca:block_fenceapatite",5.00,30.00
 "JAOPCA","jaopca:block_fenceaquamarine",5.00,30.00
 "JAOPCA","jaopca:block_fenceardite",5.00,30.00
 "JAOPCA","jaopca:block_fenceastralstarmetal",5.00,30.00
-"JAOPCA","jaopca:block_fencebaseessence",0.00,0.00
-"JAOPCA","jaopca:block_fenceblackiron",0.00,0.00
-"JAOPCA","jaopca:block_fencebloodbronze",0.00,0.00
-"JAOPCA","jaopca:block_fenceblutonium",0.00,0.00
+"JAOPCA","jaopca:block_fencebaseessence",5.00,30.00
+"JAOPCA","jaopca:block_fenceblackiron",5.00,30.00
+"JAOPCA","jaopca:block_fencebloodbronze",5.00,30.00
+"JAOPCA","jaopca:block_fenceblutonium",5.00,30.00
 "JAOPCA","jaopca:block_fenceboron",5.00,30.00
-"JAOPCA","jaopca:block_fenceboronarsenide",0.00,0.00
-"JAOPCA","jaopca:block_fenceboronnitride",0.00,0.00
-"JAOPCA","jaopca:block_fencebrass",0.00,0.00
-"JAOPCA","jaopca:block_fencebronze",0.00,0.00
-"JAOPCA","jaopca:block_fencecarobbiite",0.00,0.00
+"JAOPCA","jaopca:block_fenceboronarsenide",5.00,30.00
+"JAOPCA","jaopca:block_fenceboronnitride",5.00,30.00
+"JAOPCA","jaopca:block_fencebrass",5.00,30.00
+"JAOPCA","jaopca:block_fencebronze",5.00,30.00
+"JAOPCA","jaopca:block_fencecarobbiite",5.00,30.00
 "JAOPCA","jaopca:block_fencecertusquartz",5.00,30.00
 "JAOPCA","jaopca:block_fencechargedcertusquartz",5.00,30.00
-"JAOPCA","jaopca:block_fencechromium",0.00,0.00
+"JAOPCA","jaopca:block_fencechromium",5.00,30.00
 "JAOPCA","jaopca:block_fencecoal",5.00,30.00
 "JAOPCA","jaopca:block_fencecobalt",5.00,30.00
-"JAOPCA","jaopca:block_fencecocoabutter",0.00,0.00
-"JAOPCA","jaopca:block_fencecoldiron",0.00,0.00
-"JAOPCA","jaopca:block_fenceconductiveiron",0.00,0.00
-"JAOPCA","jaopca:block_fenceconstantan",0.00,0.00
-"JAOPCA","jaopca:block_fenceconstructionalloy",0.00,0.00
+"JAOPCA","jaopca:block_fencecocoabutter",5.00,30.00
+"JAOPCA","jaopca:block_fencecoldiron",5.00,30.00
+"JAOPCA","jaopca:block_fenceconductiveiron",5.00,30.00
+"JAOPCA","jaopca:block_fenceconstantan",5.00,30.00
+"JAOPCA","jaopca:block_fenceconstructionalloy",5.00,30.00
 "JAOPCA","jaopca:block_fencecopper",5.00,30.00
-"JAOPCA","jaopca:block_fencecosmicneutronium",0.00,0.00
-"JAOPCA","jaopca:block_fencecrudesteel",0.00,0.00
-"JAOPCA","jaopca:block_fencecrystalflux",0.00,0.00
-"JAOPCA","jaopca:block_fencecrystallinealloy",0.00,0.00
-"JAOPCA","jaopca:block_fencecrystallinepinkslime",0.00,0.00
-"JAOPCA","jaopca:block_fencecrystalmatrix",0.00,0.00
-"JAOPCA","jaopca:block_fencecrystaltine",0.00,0.00
-"JAOPCA","jaopca:block_fencecyanite",0.00,0.00
-"JAOPCA","jaopca:block_fencedarksteel",0.00,0.00
-"JAOPCA","jaopca:block_fencedawnstone",0.00,0.00
+"JAOPCA","jaopca:block_fencecosmicneutronium",5.00,30.00
+"JAOPCA","jaopca:block_fencecrudesteel",5.00,30.00
+"JAOPCA","jaopca:block_fencecrystalflux",5.00,30.00
+"JAOPCA","jaopca:block_fencecrystallinealloy",5.00,30.00
+"JAOPCA","jaopca:block_fencecrystallinepinkslime",5.00,30.00
+"JAOPCA","jaopca:block_fencecrystalmatrix",5.00,30.00
+"JAOPCA","jaopca:block_fencecrystaltine",5.00,30.00
+"JAOPCA","jaopca:block_fencecyanite",5.00,30.00
+"JAOPCA","jaopca:block_fencedarksteel",5.00,30.00
+"JAOPCA","jaopca:block_fencedawnstone",5.00,30.00
 "JAOPCA","jaopca:block_fencediamond",5.00,30.00
 "JAOPCA","jaopca:block_fencedimensionalshard",5.00,30.00
 "JAOPCA","jaopca:block_fencedraconium",5.00,30.00
-"JAOPCA","jaopca:block_fencedraconiumawakened",0.00,0.00
-"JAOPCA","jaopca:block_fenceelectricalsteel",0.00,0.00
-"JAOPCA","jaopca:block_fenceelectrum",0.00,0.00
-"JAOPCA","jaopca:block_fenceelectrumflux",0.00,0.00
-"JAOPCA","jaopca:block_fenceelvenelementium",0.00,0.00
+"JAOPCA","jaopca:block_fencedraconiumawakened",5.00,30.00
+"JAOPCA","jaopca:block_fenceelectricalsteel",5.00,30.00
+"JAOPCA","jaopca:block_fenceelectrum",5.00,30.00
+"JAOPCA","jaopca:block_fenceelectrumflux",5.00,30.00
+"JAOPCA","jaopca:block_fenceelvenelementium",5.00,30.00
 "JAOPCA","jaopca:block_fenceemerald",5.00,30.00
-"JAOPCA","jaopca:block_fenceenderium",0.00,0.00
-"JAOPCA","jaopca:block_fenceendsteel",0.00,0.00
-"JAOPCA","jaopca:block_fenceenergeticalloy",0.00,0.00
-"JAOPCA","jaopca:block_fenceenergeticsilver",0.00,0.00
-"JAOPCA","jaopca:block_fenceextreme",0.00,0.00
-"JAOPCA","jaopca:block_fenceferroboron",0.00,0.00
-"JAOPCA","jaopca:block_fenceflint",0.00,0.00
-"JAOPCA","jaopca:block_fencefluix",0.00,0.00
-"JAOPCA","jaopca:block_fencefluorite",0.00,0.00
+"JAOPCA","jaopca:block_fenceenderium",5.00,30.00
+"JAOPCA","jaopca:block_fenceendsteel",5.00,30.00
+"JAOPCA","jaopca:block_fenceenergeticalloy",5.00,30.00
+"JAOPCA","jaopca:block_fenceenergeticsilver",5.00,30.00
+"JAOPCA","jaopca:block_fenceextreme",5.00,30.00
+"JAOPCA","jaopca:block_fenceferroboron",5.00,30.00
+"JAOPCA","jaopca:block_fenceflint",5.00,30.00
+"JAOPCA","jaopca:block_fencefluix",5.00,30.00
+"JAOPCA","jaopca:block_fencefluorite",5.00,30.00
 "JAOPCA","jaopca:block_fencegarnet",5.00,30.00
-"JAOPCA","jaopca:block_fencegelid",0.00,0.00
-"JAOPCA","jaopca:block_fencegelidenderium",0.00,0.00
+"JAOPCA","jaopca:block_fencegelid",5.00,30.00
+"JAOPCA","jaopca:block_fencegelidenderium",5.00,30.00
 "JAOPCA","jaopca:block_fencegold",5.00,30.00
-"JAOPCA","jaopca:block_fencegraphite",0.00,0.00
-"JAOPCA","jaopca:block_fencehardcarbon",0.00,0.00
-"JAOPCA","jaopca:block_fencehopgraphite",0.00,0.00
-"JAOPCA","jaopca:block_fencehottungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_fencehslasteel",0.00,0.00
-"JAOPCA","jaopca:block_fenceinferium",0.00,0.00
-"JAOPCA","jaopca:block_fenceinfinity",0.00,0.00
-"JAOPCA","jaopca:block_fenceinsanium",0.00,0.00
-"JAOPCA","jaopca:block_fenceintermedium",0.00,0.00
-"JAOPCA","jaopca:block_fenceinvar",0.00,0.00
+"JAOPCA","jaopca:block_fencegraphite",5.00,30.00
+"JAOPCA","jaopca:block_fencehardcarbon",5.00,30.00
+"JAOPCA","jaopca:block_fencehopgraphite",5.00,30.00
+"JAOPCA","jaopca:block_fencehottungstensteel",5.00,30.00
+"JAOPCA","jaopca:block_fencehslasteel",5.00,30.00
+"JAOPCA","jaopca:block_fenceinferium",5.00,30.00
+"JAOPCA","jaopca:block_fenceinfinity",5.00,30.00
+"JAOPCA","jaopca:block_fenceinsanium",5.00,30.00
+"JAOPCA","jaopca:block_fenceintermedium",5.00,30.00
+"JAOPCA","jaopca:block_fenceinvar",5.00,30.00
 "JAOPCA","jaopca:block_fenceiridium",5.00,30.00
-"JAOPCA","jaopca:block_fenceiridiumalloy",0.00,0.00
-"JAOPCA","jaopca:block_fenceknightslime",0.00,0.00
+"JAOPCA","jaopca:block_fenceiridiumalloy",5.00,30.00
+"JAOPCA","jaopca:block_fenceknightslime",5.00,30.00
 "JAOPCA","jaopca:block_fencelapis",5.00,30.00
 "JAOPCA","jaopca:block_fencelead",5.00,30.00
-"JAOPCA","jaopca:block_fenceleadplatinum",0.00,0.00
+"JAOPCA","jaopca:block_fenceleadplatinum",5.00,30.00
 "JAOPCA","jaopca:block_fencelithium",5.00,30.00
-"JAOPCA","jaopca:block_fencelithiummanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_fenceludicrite",0.00,0.00
-"JAOPCA","jaopca:block_fencelumium",0.00,0.00
+"JAOPCA","jaopca:block_fencelithiummanganesedioxide",5.00,30.00
+"JAOPCA","jaopca:block_fenceludicrite",5.00,30.00
+"JAOPCA","jaopca:block_fencelumium",5.00,30.00
 "JAOPCA","jaopca:block_fencemagnesium",5.00,30.00
-"JAOPCA","jaopca:block_fencemagnesiumdiboride",0.00,0.00
-"JAOPCA","jaopca:block_fencemanasteel",0.00,0.00
-"JAOPCA","jaopca:block_fencemanganese",0.00,0.00
-"JAOPCA","jaopca:block_fencemanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_fencemanganeseoxide",0.00,0.00
-"JAOPCA","jaopca:block_fencemanyullyn",0.00,0.00
-"JAOPCA","jaopca:block_fencemarshmallow",0.00,0.00
-"JAOPCA","jaopca:block_fencemelodicalloy",0.00,0.00
-"JAOPCA","jaopca:block_fencemirion",0.00,0.00
-"JAOPCA","jaopca:block_fencemithminite",0.00,0.00
+"JAOPCA","jaopca:block_fencemagnesiumdiboride",5.00,30.00
+"JAOPCA","jaopca:block_fencemanasteel",5.00,30.00
+"JAOPCA","jaopca:block_fencemanganese",5.00,30.00
+"JAOPCA","jaopca:block_fencemanganesedioxide",5.00,30.00
+"JAOPCA","jaopca:block_fencemanganeseoxide",5.00,30.00
+"JAOPCA","jaopca:block_fencemanyullyn",5.00,30.00
+"JAOPCA","jaopca:block_fencemarshmallow",5.00,30.00
+"JAOPCA","jaopca:block_fencemelodicalloy",5.00,30.00
+"JAOPCA","jaopca:block_fencemirion",5.00,30.00
+"JAOPCA","jaopca:block_fencemithminite",5.00,30.00
 "JAOPCA","jaopca:block_fencemithril",5.00,30.00
-"JAOPCA","jaopca:block_fencemithrillium",0.00,0.00
-"JAOPCA","jaopca:block_fencemixedmetal",0.00,0.00
+"JAOPCA","jaopca:block_fencemithrillium",5.00,30.00
+"JAOPCA","jaopca:block_fencemixedmetal",5.00,30.00
 "JAOPCA","jaopca:block_fencenickel",5.00,30.00
-"JAOPCA","jaopca:block_fenceobsidian",0.00,0.00
+"JAOPCA","jaopca:block_fenceobsidian",5.00,30.00
 "JAOPCA","jaopca:block_fenceopal",5.00,30.00
-"JAOPCA","jaopca:block_fenceorichalcos",0.00,0.00
-"JAOPCA","jaopca:block_fenceosgloglas",0.00,0.00
-"JAOPCA","jaopca:block_fenceosmiridium",0.00,0.00
+"JAOPCA","jaopca:block_fenceorichalcos",5.00,30.00
+"JAOPCA","jaopca:block_fenceosgloglas",5.00,30.00
+"JAOPCA","jaopca:block_fenceosmiridium",5.00,30.00
 "JAOPCA","jaopca:block_fenceosmium",5.00,30.00
 "JAOPCA","jaopca:block_fenceperidot",5.00,30.00
-"JAOPCA","jaopca:block_fencephotonium",0.00,0.00
-"JAOPCA","jaopca:block_fencepigiron",0.00,0.00
+"JAOPCA","jaopca:block_fencephotonium",5.00,30.00
+"JAOPCA","jaopca:block_fencepigiron",5.00,30.00
 "JAOPCA","jaopca:block_fenceplatinum",5.00,30.00
-"JAOPCA","jaopca:block_fenceprismarine",0.00,0.00
-"JAOPCA","jaopca:block_fenceprudentium",0.00,0.00
-"JAOPCA","jaopca:block_fencepulsatingiron",0.00,0.00
+"JAOPCA","jaopca:block_fenceprismarine",5.00,30.00
+"JAOPCA","jaopca:block_fenceprudentium",5.00,30.00
+"JAOPCA","jaopca:block_fencepulsatingiron",5.00,30.00
 "JAOPCA","jaopca:block_fencequartz",5.00,30.00
 "JAOPCA","jaopca:block_fencequartzblack",5.00,30.00
-"JAOPCA","jaopca:block_fenceredgarnet",0.00,0.00
-"JAOPCA","jaopca:block_fenceredstonealloy",0.00,0.00
-"JAOPCA","jaopca:block_fencerefinedglowstone",0.00,0.00
-"JAOPCA","jaopca:block_fencerefinediron",0.00,0.00
-"JAOPCA","jaopca:block_fencerefinedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_fencereinforcedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_fencerhodochrosite",0.00,0.00
+"JAOPCA","jaopca:block_fenceredgarnet",5.00,30.00
+"JAOPCA","jaopca:block_fenceredstonealloy",5.00,30.00
+"JAOPCA","jaopca:block_fencerefinedglowstone",5.00,30.00
+"JAOPCA","jaopca:block_fencerefinediron",5.00,30.00
+"JAOPCA","jaopca:block_fencerefinedobsidian",5.00,30.00
+"JAOPCA","jaopca:block_fencereinforcedobsidian",5.00,30.00
+"JAOPCA","jaopca:block_fencerhodochrosite",5.00,30.00
 "JAOPCA","jaopca:block_fenceruby",5.00,30.00
 "JAOPCA","jaopca:block_fencesapphire",5.00,30.00
-"JAOPCA","jaopca:block_fenceshadowium",0.00,0.00
-"JAOPCA","jaopca:block_fenceshibuichi",0.00,0.00
-"JAOPCA","jaopca:block_fencesicsiccmc",0.00,0.00
-"JAOPCA","jaopca:block_fencesignalum",0.00,0.00
-"JAOPCA","jaopca:block_fencesiliconcarbide",0.00,0.00
+"JAOPCA","jaopca:block_fenceshadowium",5.00,30.00
+"JAOPCA","jaopca:block_fenceshibuichi",5.00,30.00
+"JAOPCA","jaopca:block_fencesicsiccmc",5.00,30.00
+"JAOPCA","jaopca:block_fencesignalum",5.00,30.00
+"JAOPCA","jaopca:block_fencesiliconcarbide",5.00,30.00
 "JAOPCA","jaopca:block_fencesilver",5.00,30.00
-"JAOPCA","jaopca:block_fencesoularium",0.00,0.00
-"JAOPCA","jaopca:block_fencesoulium",0.00,0.00
-"JAOPCA","jaopca:block_fencestellaralloy",0.00,0.00
-"JAOPCA","jaopca:block_fencesuperium",0.00,0.00
-"JAOPCA","jaopca:block_fencesupremium",0.00,0.00
-"JAOPCA","jaopca:block_fenceterrasteel",0.00,0.00
-"JAOPCA","jaopca:block_fencethaumium",0.00,0.00
-"JAOPCA","jaopca:block_fencethermoconducting",0.00,0.00
+"JAOPCA","jaopca:block_fencesoularium",5.00,30.00
+"JAOPCA","jaopca:block_fencesoulium",5.00,30.00
+"JAOPCA","jaopca:block_fencestellaralloy",5.00,30.00
+"JAOPCA","jaopca:block_fencesuperium",5.00,30.00
+"JAOPCA","jaopca:block_fencesupremium",5.00,30.00
+"JAOPCA","jaopca:block_fenceterrasteel",5.00,30.00
+"JAOPCA","jaopca:block_fencethaumium",5.00,30.00
+"JAOPCA","jaopca:block_fencethermoconducting",5.00,30.00
 "JAOPCA","jaopca:block_fencethorium",5.00,30.00
-"JAOPCA","jaopca:block_fencethoriumoxide",0.00,0.00
+"JAOPCA","jaopca:block_fencethoriumoxide",5.00,30.00
 "JAOPCA","jaopca:block_fencetin",5.00,30.00
-"JAOPCA","jaopca:block_fencetinsilver",0.00,0.00
-"JAOPCA","jaopca:block_fencetitanium",0.00,0.00
-"JAOPCA","jaopca:block_fencetough",0.00,0.00
+"JAOPCA","jaopca:block_fencetinsilver",5.00,30.00
+"JAOPCA","jaopca:block_fencetitanium",5.00,30.00
+"JAOPCA","jaopca:block_fencetough",5.00,30.00
 "JAOPCA","jaopca:block_fencetungsten",5.00,30.00
-"JAOPCA","jaopca:block_fencetungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_fenceultimate",0.00,0.00
+"JAOPCA","jaopca:block_fencetungstensteel",5.00,30.00
+"JAOPCA","jaopca:block_fenceultimate",5.00,30.00
 "JAOPCA","jaopca:block_fenceuranium",5.00,30.00
-"JAOPCA","jaopca:block_fenceuraniumoxide",0.00,0.00
-"JAOPCA","jaopca:block_fencevibrantalloy",0.00,0.00
-"JAOPCA","jaopca:block_fencevilliaumite",0.00,0.00
-"JAOPCA","jaopca:block_fencevividalloy",0.00,0.00
-"JAOPCA","jaopca:block_fencevoid",0.00,0.00
-"JAOPCA","jaopca:block_fencewub",0.00,0.00
+"JAOPCA","jaopca:block_fenceuraniumoxide",5.00,30.00
+"JAOPCA","jaopca:block_fencevibrantalloy",5.00,30.00
+"JAOPCA","jaopca:block_fencevilliaumite",5.00,30.00
+"JAOPCA","jaopca:block_fencevividalloy",5.00,30.00
+"JAOPCA","jaopca:block_fencevoid",5.00,30.00
+"JAOPCA","jaopca:block_fencewub",5.00,30.00
 "JAOPCA","jaopca:block_fenceyellorium",5.00,30.00
-"JAOPCA","jaopca:block_fenceyellowgarnet",0.00,0.00
-"JAOPCA","jaopca:block_fencezinc",0.00,0.00
-"JAOPCA","jaopca:block_fencezircaloy",0.00,0.00
-"JAOPCA","jaopca:block_fencezirconium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedadaminite",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedadvancedalloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedalubrass",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedalumite",0.00,0.00
+"JAOPCA","jaopca:block_fenceyellowgarnet",5.00,30.00
+"JAOPCA","jaopca:block_fencezinc",5.00,30.00
+"JAOPCA","jaopca:block_fencezircaloy",5.00,30.00
+"JAOPCA","jaopca:block_fencezirconium",5.00,30.00
+"JAOPCA","jaopca:block_glasshardenedadaminite",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedadvancedalloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedalubrass",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedalumite",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedardite",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedastralstarmetal",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedbaseessence",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedblackiron",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedbloodbronze",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedblutonium",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedbaseessence",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedblackiron",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedbloodbronze",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedblutonium",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedboron",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedbrass",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedchromium",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedbrass",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedchromium",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedcobalt",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedcocoabutter",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedcoldiron",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedconductiveiron",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedconstructionalloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedcosmicneutronium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedcrudesteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedcrystallinealloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedcrystallinepinkslime",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedcrystalmatrix",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedcrystaltine",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedcyanite",0.00,0.00
-"JAOPCA","jaopca:block_glasshardeneddarksteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardeneddawnstone",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedcocoabutter",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedcoldiron",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedconductiveiron",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedconstructionalloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedcosmicneutronium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedcrudesteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedcrystallinealloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedcrystallinepinkslime",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedcrystalmatrix",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedcrystaltine",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedcyanite",3.00,600.00
+"JAOPCA","jaopca:block_glasshardeneddarksteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardeneddawnstone",3.00,600.00
 "JAOPCA","jaopca:block_glasshardeneddraconium",3.00,600.00
-"JAOPCA","jaopca:block_glasshardeneddraconiumawakened",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedelectricalsteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedelectrumflux",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedelvenelementium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedendsteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedenergeticalloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedenergeticsilver",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedextreme",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedferroboron",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedflint",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedgelidenderium",0.00,0.00
+"JAOPCA","jaopca:block_glasshardeneddraconiumawakened",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedelectricalsteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedelectrumflux",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedelvenelementium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedendsteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedenergeticalloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedenergeticsilver",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedextreme",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedferroboron",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedflint",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedgelidenderium",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedgold",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedgraphite",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedhardcarbon",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedhopgraphite",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedhottungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedhslasteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedinferium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedinfinity",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedinsanium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedintermedium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenediridiumalloy",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedgraphite",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedhardcarbon",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedhopgraphite",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedhottungstensteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedhslasteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedinferium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedinfinity",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedinsanium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedintermedium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenediridiumalloy",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenediron",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedknightslime",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedleadplatinum",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedknightslime",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedleadplatinum",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedlithium",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedlithiummanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedludicrite",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedlithiummanganesedioxide",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedludicrite",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedmagnesium",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedmagnesiumdiboride",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmanasteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmanganese",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmanganeseoxide",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmanyullyn",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmarshmallow",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmelodicalloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmirion",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmithminite",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmithrillium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedmixedmetal",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedorichalcos",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedosgloglas",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedosmiridium",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedmagnesiumdiboride",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmanasteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmanganese",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmanganesedioxide",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmanganeseoxide",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmanyullyn",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmarshmallow",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmelodicalloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmirion",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmithminite",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmithrillium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedmixedmetal",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedorichalcos",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedosgloglas",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedosmiridium",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedosmium",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedphotonium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedpigiron",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedprudentium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedpulsatingiron",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedredstonealloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedrefinedglowstone",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedrefinediron",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedrefinedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedreinforcedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedshadowium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedshibuichi",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedsicsiccmc",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedsiliconcarbide",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedsoularium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedsoulium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedstellaralloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedsuperium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedsupremium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedterrasteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedthaumium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedthermoconducting",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedphotonium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedpigiron",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedprudentium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedpulsatingiron",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedredstonealloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedrefinedglowstone",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedrefinediron",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedrefinedobsidian",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedreinforcedobsidian",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedshadowium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedshibuichi",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedsicsiccmc",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedsiliconcarbide",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedsoularium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedsoulium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedstellaralloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedsuperium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedsupremium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedterrasteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedthaumium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedthermoconducting",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedthorium",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedthoriumoxide",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedtinsilver",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedtitanium",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedtough",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedthoriumoxide",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedtinsilver",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedtitanium",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedtough",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedtungsten",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedtungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedultimate",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedtungstensteel",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedultimate",3.00,600.00
 "JAOPCA","jaopca:block_glasshardeneduranium",3.00,600.00
-"JAOPCA","jaopca:block_glasshardeneduraniumoxide",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedvibrantalloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedvividalloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedvoid",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedwub",0.00,0.00
+"JAOPCA","jaopca:block_glasshardeneduraniumoxide",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedvibrantalloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedvividalloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedvoid",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedwub",3.00,600.00
 "JAOPCA","jaopca:block_glasshardenedyellorium",3.00,600.00
-"JAOPCA","jaopca:block_glasshardenedzinc",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedzircaloy",0.00,0.00
-"JAOPCA","jaopca:block_glasshardenedzirconium",0.00,0.00
+"JAOPCA","jaopca:block_glasshardenedzinc",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedzircaloy",3.00,600.00
+"JAOPCA","jaopca:block_glasshardenedzirconium",3.00,600.00
 "JAOPCA","jaopca:block_mysticalcropsadaminite",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsadvancedalloy",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropsall",0.00,0.00
@@ -4191,170 +4186,170 @@
 "JAOPCA","jaopca:block_mysticalcropsyellowgarnet",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropszircaloy",0.00,0.00
 "JAOPCA","jaopca:block_mysticalcropszirconium",0.00,0.00
-"JAOPCA","jaopca:block_slabadaminite",0.00,0.00
-"JAOPCA","jaopca:block_slabadvancedalloy",0.00,0.00
-"JAOPCA","jaopca:block_slabalubrass",0.00,0.00
+"JAOPCA","jaopca:block_slabadaminite",5.00,30.00
+"JAOPCA","jaopca:block_slabadvancedalloy",5.00,30.00
+"JAOPCA","jaopca:block_slabalubrass",5.00,30.00
 "JAOPCA","jaopca:block_slabaluminium",5.00,30.00
-"JAOPCA","jaopca:block_slabalumite",0.00,0.00
+"JAOPCA","jaopca:block_slabalumite",5.00,30.00
 "JAOPCA","jaopca:block_slabamber",5.00,30.00
 "JAOPCA","jaopca:block_slabamethyst",5.00,30.00
 "JAOPCA","jaopca:block_slabapatite",5.00,30.00
 "JAOPCA","jaopca:block_slabaquamarine",5.00,30.00
 "JAOPCA","jaopca:block_slabardite",5.00,30.00
 "JAOPCA","jaopca:block_slabastralstarmetal",5.00,30.00
-"JAOPCA","jaopca:block_slabbaseessence",0.00,0.00
+"JAOPCA","jaopca:block_slabbaseessence",5.00,30.00
 "JAOPCA","jaopca:block_slabbauxite",5.00,30.00
-"JAOPCA","jaopca:block_slabblackiron",0.00,0.00
-"JAOPCA","jaopca:block_slabbloodbronze",0.00,0.00
-"JAOPCA","jaopca:block_slabblutonium",0.00,0.00
+"JAOPCA","jaopca:block_slabblackiron",5.00,30.00
+"JAOPCA","jaopca:block_slabbloodbronze",5.00,30.00
+"JAOPCA","jaopca:block_slabblutonium",5.00,30.00
 "JAOPCA","jaopca:block_slabboron",5.00,30.00
-"JAOPCA","jaopca:block_slabboronarsenide",0.00,0.00
-"JAOPCA","jaopca:block_slabboronnitride",0.00,0.00
-"JAOPCA","jaopca:block_slabbrass",0.00,0.00
-"JAOPCA","jaopca:block_slabbronze",0.00,0.00
-"JAOPCA","jaopca:block_slabcarobbiite",0.00,0.00
+"JAOPCA","jaopca:block_slabboronarsenide",5.00,30.00
+"JAOPCA","jaopca:block_slabboronnitride",5.00,30.00
+"JAOPCA","jaopca:block_slabbrass",5.00,30.00
+"JAOPCA","jaopca:block_slabbronze",5.00,30.00
+"JAOPCA","jaopca:block_slabcarobbiite",5.00,30.00
 "JAOPCA","jaopca:block_slabcertusquartz",5.00,30.00
 "JAOPCA","jaopca:block_slabchargedcertusquartz",5.00,30.00
-"JAOPCA","jaopca:block_slabchromium",0.00,0.00
+"JAOPCA","jaopca:block_slabchromium",5.00,30.00
 "JAOPCA","jaopca:block_slabcinnabar",5.00,30.00
 "JAOPCA","jaopca:block_slabcoal",5.00,30.00
 "JAOPCA","jaopca:block_slabcobalt",5.00,30.00
-"JAOPCA","jaopca:block_slabcocoabutter",0.00,0.00
-"JAOPCA","jaopca:block_slabcoldiron",0.00,0.00
-"JAOPCA","jaopca:block_slabconductiveiron",0.00,0.00
-"JAOPCA","jaopca:block_slabconstantan",0.00,0.00
-"JAOPCA","jaopca:block_slabconstructionalloy",0.00,0.00
+"JAOPCA","jaopca:block_slabcocoabutter",5.00,30.00
+"JAOPCA","jaopca:block_slabcoldiron",5.00,30.00
+"JAOPCA","jaopca:block_slabconductiveiron",5.00,30.00
+"JAOPCA","jaopca:block_slabconstantan",5.00,30.00
+"JAOPCA","jaopca:block_slabconstructionalloy",5.00,30.00
 "JAOPCA","jaopca:block_slabcopper",5.00,30.00
-"JAOPCA","jaopca:block_slabcosmicneutronium",0.00,0.00
-"JAOPCA","jaopca:block_slabcrudesteel",0.00,0.00
-"JAOPCA","jaopca:block_slabcrystalflux",0.00,0.00
-"JAOPCA","jaopca:block_slabcrystallinealloy",0.00,0.00
-"JAOPCA","jaopca:block_slabcrystallinepinkslime",0.00,0.00
-"JAOPCA","jaopca:block_slabcrystalmatrix",0.00,0.00
-"JAOPCA","jaopca:block_slabcrystaltine",0.00,0.00
-"JAOPCA","jaopca:block_slabcyanite",0.00,0.00
-"JAOPCA","jaopca:block_slabdarksteel",0.00,0.00
-"JAOPCA","jaopca:block_slabdawnstone",0.00,0.00
+"JAOPCA","jaopca:block_slabcosmicneutronium",5.00,30.00
+"JAOPCA","jaopca:block_slabcrudesteel",5.00,30.00
+"JAOPCA","jaopca:block_slabcrystalflux",5.00,30.00
+"JAOPCA","jaopca:block_slabcrystallinealloy",5.00,30.00
+"JAOPCA","jaopca:block_slabcrystallinepinkslime",5.00,30.00
+"JAOPCA","jaopca:block_slabcrystalmatrix",5.00,30.00
+"JAOPCA","jaopca:block_slabcrystaltine",5.00,30.00
+"JAOPCA","jaopca:block_slabcyanite",5.00,30.00
+"JAOPCA","jaopca:block_slabdarksteel",5.00,30.00
+"JAOPCA","jaopca:block_slabdawnstone",5.00,30.00
 "JAOPCA","jaopca:block_slabdiamond",5.00,30.00
 "JAOPCA","jaopca:block_slabdimensionalshard",5.00,30.00
 "JAOPCA","jaopca:block_slabdraconium",5.00,30.00
-"JAOPCA","jaopca:block_slabdraconiumawakened",0.00,0.00
-"JAOPCA","jaopca:block_slabelectricalsteel",0.00,0.00
-"JAOPCA","jaopca:block_slabelectrum",0.00,0.00
-"JAOPCA","jaopca:block_slabelectrumflux",0.00,0.00
+"JAOPCA","jaopca:block_slabdraconiumawakened",5.00,30.00
+"JAOPCA","jaopca:block_slabelectricalsteel",5.00,30.00
+"JAOPCA","jaopca:block_slabelectrum",5.00,30.00
+"JAOPCA","jaopca:block_slabelectrumflux",5.00,30.00
 "JAOPCA","jaopca:block_slabemerald",5.00,30.00
-"JAOPCA","jaopca:block_slabenderium",0.00,0.00
-"JAOPCA","jaopca:block_slabendsteel",0.00,0.00
-"JAOPCA","jaopca:block_slabenergeticalloy",0.00,0.00
-"JAOPCA","jaopca:block_slabenergeticsilver",0.00,0.00
-"JAOPCA","jaopca:block_slabextreme",0.00,0.00
-"JAOPCA","jaopca:block_slabferroboron",0.00,0.00
-"JAOPCA","jaopca:block_slabflint",0.00,0.00
-"JAOPCA","jaopca:block_slabfluix",0.00,0.00
-"JAOPCA","jaopca:block_slabfluorite",0.00,0.00
+"JAOPCA","jaopca:block_slabenderium",5.00,30.00
+"JAOPCA","jaopca:block_slabendsteel",5.00,30.00
+"JAOPCA","jaopca:block_slabenergeticalloy",5.00,30.00
+"JAOPCA","jaopca:block_slabenergeticsilver",5.00,30.00
+"JAOPCA","jaopca:block_slabextreme",5.00,30.00
+"JAOPCA","jaopca:block_slabferroboron",5.00,30.00
+"JAOPCA","jaopca:block_slabflint",5.00,30.00
+"JAOPCA","jaopca:block_slabfluix",5.00,30.00
+"JAOPCA","jaopca:block_slabfluorite",5.00,30.00
 "JAOPCA","jaopca:block_slabgalena",5.00,30.00
 "JAOPCA","jaopca:block_slabgarnet",5.00,30.00
-"JAOPCA","jaopca:block_slabgelid",0.00,0.00
-"JAOPCA","jaopca:block_slabgelidenderium",0.00,0.00
+"JAOPCA","jaopca:block_slabgelid",5.00,30.00
+"JAOPCA","jaopca:block_slabgelidenderium",5.00,30.00
 "JAOPCA","jaopca:block_slabgold",5.00,30.00
-"JAOPCA","jaopca:block_slabgraphite",0.00,0.00
-"JAOPCA","jaopca:block_slabhardcarbon",0.00,0.00
-"JAOPCA","jaopca:block_slabhopgraphite",0.00,0.00
-"JAOPCA","jaopca:block_slabhottungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_slabhslasteel",0.00,0.00
-"JAOPCA","jaopca:block_slabinferium",0.00,0.00
-"JAOPCA","jaopca:block_slabinfinity",0.00,0.00
-"JAOPCA","jaopca:block_slabinsanium",0.00,0.00
-"JAOPCA","jaopca:block_slabintermedium",0.00,0.00
-"JAOPCA","jaopca:block_slabinvar",0.00,0.00
+"JAOPCA","jaopca:block_slabgraphite",5.00,30.00
+"JAOPCA","jaopca:block_slabhardcarbon",5.00,30.00
+"JAOPCA","jaopca:block_slabhopgraphite",5.00,30.00
+"JAOPCA","jaopca:block_slabhottungstensteel",5.00,30.00
+"JAOPCA","jaopca:block_slabhslasteel",5.00,30.00
+"JAOPCA","jaopca:block_slabinferium",5.00,30.00
+"JAOPCA","jaopca:block_slabinfinity",5.00,30.00
+"JAOPCA","jaopca:block_slabinsanium",5.00,30.00
+"JAOPCA","jaopca:block_slabintermedium",5.00,30.00
+"JAOPCA","jaopca:block_slabinvar",5.00,30.00
 "JAOPCA","jaopca:block_slabiridium",5.00,30.00
-"JAOPCA","jaopca:block_slabiridiumalloy",0.00,0.00
+"JAOPCA","jaopca:block_slabiridiumalloy",5.00,30.00
 "JAOPCA","jaopca:block_slabiron",5.00,30.00
-"JAOPCA","jaopca:block_slabknightslime",0.00,0.00
+"JAOPCA","jaopca:block_slabknightslime",5.00,30.00
 "JAOPCA","jaopca:block_slablapis",5.00,30.00
 "JAOPCA","jaopca:block_slablead",5.00,30.00
-"JAOPCA","jaopca:block_slableadplatinum",0.00,0.00
+"JAOPCA","jaopca:block_slableadplatinum",5.00,30.00
 "JAOPCA","jaopca:block_slablithium",5.00,30.00
-"JAOPCA","jaopca:block_slablithiummanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_slabludicrite",0.00,0.00
-"JAOPCA","jaopca:block_slablumium",0.00,0.00
+"JAOPCA","jaopca:block_slablithiummanganesedioxide",5.00,30.00
+"JAOPCA","jaopca:block_slabludicrite",5.00,30.00
+"JAOPCA","jaopca:block_slablumium",5.00,30.00
 "JAOPCA","jaopca:block_slabmagnesium",5.00,30.00
-"JAOPCA","jaopca:block_slabmagnesiumdiboride",0.00,0.00
-"JAOPCA","jaopca:block_slabmanganese",0.00,0.00
-"JAOPCA","jaopca:block_slabmanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_slabmanganeseoxide",0.00,0.00
-"JAOPCA","jaopca:block_slabmanyullyn",0.00,0.00
-"JAOPCA","jaopca:block_slabmarshmallow",0.00,0.00
-"JAOPCA","jaopca:block_slabmelodicalloy",0.00,0.00
-"JAOPCA","jaopca:block_slabmirion",0.00,0.00
-"JAOPCA","jaopca:block_slabmithminite",0.00,0.00
+"JAOPCA","jaopca:block_slabmagnesiumdiboride",5.00,30.00
+"JAOPCA","jaopca:block_slabmanganese",5.00,30.00
+"JAOPCA","jaopca:block_slabmanganesedioxide",5.00,30.00
+"JAOPCA","jaopca:block_slabmanganeseoxide",5.00,30.00
+"JAOPCA","jaopca:block_slabmanyullyn",5.00,30.00
+"JAOPCA","jaopca:block_slabmarshmallow",5.00,30.00
+"JAOPCA","jaopca:block_slabmelodicalloy",5.00,30.00
+"JAOPCA","jaopca:block_slabmirion",5.00,30.00
+"JAOPCA","jaopca:block_slabmithminite",5.00,30.00
 "JAOPCA","jaopca:block_slabmithril",5.00,30.00
-"JAOPCA","jaopca:block_slabmithrillium",0.00,0.00
-"JAOPCA","jaopca:block_slabmixedmetal",0.00,0.00
+"JAOPCA","jaopca:block_slabmithrillium",5.00,30.00
+"JAOPCA","jaopca:block_slabmixedmetal",5.00,30.00
 "JAOPCA","jaopca:block_slabnickel",5.00,30.00
-"JAOPCA","jaopca:block_slabobsidian",0.00,0.00
+"JAOPCA","jaopca:block_slabobsidian",5.00,30.00
 "JAOPCA","jaopca:block_slabopal",5.00,30.00
-"JAOPCA","jaopca:block_slaborichalcos",0.00,0.00
-"JAOPCA","jaopca:block_slabosgloglas",0.00,0.00
-"JAOPCA","jaopca:block_slabosmiridium",0.00,0.00
+"JAOPCA","jaopca:block_slaborichalcos",5.00,30.00
+"JAOPCA","jaopca:block_slabosgloglas",5.00,30.00
+"JAOPCA","jaopca:block_slabosmiridium",5.00,30.00
 "JAOPCA","jaopca:block_slabosmium",5.00,30.00
 "JAOPCA","jaopca:block_slabperidot",5.00,30.00
-"JAOPCA","jaopca:block_slabphotonium",0.00,0.00
-"JAOPCA","jaopca:block_slabpigiron",0.00,0.00
+"JAOPCA","jaopca:block_slabphotonium",5.00,30.00
+"JAOPCA","jaopca:block_slabpigiron",5.00,30.00
 "JAOPCA","jaopca:block_slabplatinum",5.00,30.00
-"JAOPCA","jaopca:block_slabprudentium",0.00,0.00
-"JAOPCA","jaopca:block_slabpulsatingiron",0.00,0.00
+"JAOPCA","jaopca:block_slabprudentium",5.00,30.00
+"JAOPCA","jaopca:block_slabpulsatingiron",5.00,30.00
 "JAOPCA","jaopca:block_slabpyrite",5.00,30.00
 "JAOPCA","jaopca:block_slabquartzblack",5.00,30.00
-"JAOPCA","jaopca:block_slabredgarnet",0.00,0.00
+"JAOPCA","jaopca:block_slabredgarnet",5.00,30.00
 "JAOPCA","jaopca:block_slabredstone",5.00,30.00
-"JAOPCA","jaopca:block_slabredstonealloy",0.00,0.00
-"JAOPCA","jaopca:block_slabrefinedglowstone",0.00,0.00
-"JAOPCA","jaopca:block_slabrefinediron",0.00,0.00
-"JAOPCA","jaopca:block_slabrefinedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_slabreinforcedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_slabrhodochrosite",0.00,0.00
+"JAOPCA","jaopca:block_slabredstonealloy",5.00,30.00
+"JAOPCA","jaopca:block_slabrefinedglowstone",5.00,30.00
+"JAOPCA","jaopca:block_slabrefinediron",5.00,30.00
+"JAOPCA","jaopca:block_slabrefinedobsidian",5.00,30.00
+"JAOPCA","jaopca:block_slabreinforcedobsidian",5.00,30.00
+"JAOPCA","jaopca:block_slabrhodochrosite",5.00,30.00
 "JAOPCA","jaopca:block_slabruby",5.00,30.00
 "JAOPCA","jaopca:block_slabsalt",5.00,30.00
 "JAOPCA","jaopca:block_slabsapphire",5.00,30.00
-"JAOPCA","jaopca:block_slabshadowium",0.00,0.00
-"JAOPCA","jaopca:block_slabshibuichi",0.00,0.00
-"JAOPCA","jaopca:block_slabsicsiccmc",0.00,0.00
-"JAOPCA","jaopca:block_slabsignalum",0.00,0.00
-"JAOPCA","jaopca:block_slabsiliconcarbide",0.00,0.00
+"JAOPCA","jaopca:block_slabshadowium",5.00,30.00
+"JAOPCA","jaopca:block_slabshibuichi",5.00,30.00
+"JAOPCA","jaopca:block_slabsicsiccmc",5.00,30.00
+"JAOPCA","jaopca:block_slabsignalum",5.00,30.00
+"JAOPCA","jaopca:block_slabsiliconcarbide",5.00,30.00
 "JAOPCA","jaopca:block_slabsilver",5.00,30.00
 "JAOPCA","jaopca:block_slabsodalite",5.00,30.00
-"JAOPCA","jaopca:block_slabsoularium",0.00,0.00
-"JAOPCA","jaopca:block_slabsoulium",0.00,0.00
+"JAOPCA","jaopca:block_slabsoularium",5.00,30.00
+"JAOPCA","jaopca:block_slabsoulium",5.00,30.00
 "JAOPCA","jaopca:block_slabsphalerite",5.00,30.00
-"JAOPCA","jaopca:block_slabsteel",0.00,0.00
-"JAOPCA","jaopca:block_slabstellaralloy",0.00,0.00
+"JAOPCA","jaopca:block_slabsteel",5.00,30.00
+"JAOPCA","jaopca:block_slabstellaralloy",5.00,30.00
 "JAOPCA","jaopca:block_slabsulfur",5.00,30.00
-"JAOPCA","jaopca:block_slabsuperium",0.00,0.00
-"JAOPCA","jaopca:block_slabsupremium",0.00,0.00
-"JAOPCA","jaopca:block_slabthaumium",0.00,0.00
-"JAOPCA","jaopca:block_slabthermoconducting",0.00,0.00
+"JAOPCA","jaopca:block_slabsuperium",5.00,30.00
+"JAOPCA","jaopca:block_slabsupremium",5.00,30.00
+"JAOPCA","jaopca:block_slabthaumium",5.00,30.00
+"JAOPCA","jaopca:block_slabthermoconducting",5.00,30.00
 "JAOPCA","jaopca:block_slabthorium",5.00,30.00
-"JAOPCA","jaopca:block_slabthoriumoxide",0.00,0.00
+"JAOPCA","jaopca:block_slabthoriumoxide",5.00,30.00
 "JAOPCA","jaopca:block_slabtin",5.00,30.00
-"JAOPCA","jaopca:block_slabtinsilver",0.00,0.00
-"JAOPCA","jaopca:block_slabtitanium",0.00,0.00
-"JAOPCA","jaopca:block_slabtough",0.00,0.00
+"JAOPCA","jaopca:block_slabtinsilver",5.00,30.00
+"JAOPCA","jaopca:block_slabtitanium",5.00,30.00
+"JAOPCA","jaopca:block_slabtough",5.00,30.00
 "JAOPCA","jaopca:block_slabtungsten",5.00,30.00
-"JAOPCA","jaopca:block_slabtungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_slabultimate",0.00,0.00
+"JAOPCA","jaopca:block_slabtungstensteel",5.00,30.00
+"JAOPCA","jaopca:block_slabultimate",5.00,30.00
 "JAOPCA","jaopca:block_slaburanium",5.00,30.00
-"JAOPCA","jaopca:block_slaburaniumoxide",0.00,0.00
-"JAOPCA","jaopca:block_slabvibrantalloy",0.00,0.00
-"JAOPCA","jaopca:block_slabvilliaumite",0.00,0.00
-"JAOPCA","jaopca:block_slabvividalloy",0.00,0.00
-"JAOPCA","jaopca:block_slabvoid",0.00,0.00
-"JAOPCA","jaopca:block_slabwub",0.00,0.00
+"JAOPCA","jaopca:block_slaburaniumoxide",5.00,30.00
+"JAOPCA","jaopca:block_slabvibrantalloy",5.00,30.00
+"JAOPCA","jaopca:block_slabvilliaumite",5.00,30.00
+"JAOPCA","jaopca:block_slabvividalloy",5.00,30.00
+"JAOPCA","jaopca:block_slabvoid",5.00,30.00
+"JAOPCA","jaopca:block_slabwub",5.00,30.00
 "JAOPCA","jaopca:block_slabyellorium",5.00,30.00
-"JAOPCA","jaopca:block_slabyellowgarnet",0.00,0.00
-"JAOPCA","jaopca:block_slabzinc",0.00,0.00
-"JAOPCA","jaopca:block_slabzircaloy",0.00,0.00
-"JAOPCA","jaopca:block_slabzirconium",0.00,0.00
+"JAOPCA","jaopca:block_slabyellowgarnet",5.00,30.00
+"JAOPCA","jaopca:block_slabzinc",5.00,30.00
+"JAOPCA","jaopca:block_slabzircaloy",5.00,30.00
+"JAOPCA","jaopca:block_slabzirconium",5.00,30.00
 "JAOPCA","jaopca:block_stairsadaminite",0.00,0.00
 "JAOPCA","jaopca:block_stairsadvancedalloy",0.00,0.00
 "JAOPCA","jaopca:block_stairsalubrass",0.00,0.00
@@ -4519,163 +4514,163 @@
 "JAOPCA","jaopca:block_stairszinc",0.00,0.00
 "JAOPCA","jaopca:block_stairszircaloy",0.00,0.00
 "JAOPCA","jaopca:block_stairszirconium",0.00,0.00
-"JAOPCA","jaopca:block_walladaminite",0.00,0.00
-"JAOPCA","jaopca:block_walladvancedalloy",0.00,0.00
-"JAOPCA","jaopca:block_wallalubrass",0.00,0.00
+"JAOPCA","jaopca:block_walladaminite",5.00,10.00
+"JAOPCA","jaopca:block_walladvancedalloy",5.00,10.00
+"JAOPCA","jaopca:block_wallalubrass",5.00,10.00
 "JAOPCA","jaopca:block_wallaluminium",5.00,10.00
-"JAOPCA","jaopca:block_wallalumite",0.00,0.00
+"JAOPCA","jaopca:block_wallalumite",5.00,10.00
 "JAOPCA","jaopca:block_wallamber",5.00,10.00
 "JAOPCA","jaopca:block_wallamethyst",5.00,10.00
 "JAOPCA","jaopca:block_wallapatite",5.00,10.00
 "JAOPCA","jaopca:block_wallaquamarine",5.00,10.00
 "JAOPCA","jaopca:block_wallardite",5.00,10.00
 "JAOPCA","jaopca:block_wallastralstarmetal",5.00,10.00
-"JAOPCA","jaopca:block_wallbaseessence",0.00,0.00
-"JAOPCA","jaopca:block_wallblackiron",0.00,0.00
-"JAOPCA","jaopca:block_wallbloodbronze",0.00,0.00
-"JAOPCA","jaopca:block_wallblutonium",0.00,0.00
+"JAOPCA","jaopca:block_wallbaseessence",5.00,10.00
+"JAOPCA","jaopca:block_wallblackiron",5.00,10.00
+"JAOPCA","jaopca:block_wallbloodbronze",5.00,10.00
+"JAOPCA","jaopca:block_wallblutonium",5.00,10.00
 "JAOPCA","jaopca:block_wallboron",5.00,10.00
-"JAOPCA","jaopca:block_wallboronarsenide",0.00,0.00
-"JAOPCA","jaopca:block_wallboronnitride",0.00,0.00
-"JAOPCA","jaopca:block_wallbrass",0.00,0.00
-"JAOPCA","jaopca:block_wallbronze",0.00,0.00
-"JAOPCA","jaopca:block_wallcarobbiite",0.00,0.00
+"JAOPCA","jaopca:block_wallboronarsenide",5.00,10.00
+"JAOPCA","jaopca:block_wallboronnitride",5.00,10.00
+"JAOPCA","jaopca:block_wallbrass",5.00,10.00
+"JAOPCA","jaopca:block_wallbronze",5.00,10.00
+"JAOPCA","jaopca:block_wallcarobbiite",5.00,10.00
 "JAOPCA","jaopca:block_wallcertusquartz",5.00,10.00
 "JAOPCA","jaopca:block_wallchargedcertusquartz",5.00,10.00
-"JAOPCA","jaopca:block_wallchromium",0.00,0.00
+"JAOPCA","jaopca:block_wallchromium",5.00,10.00
 "JAOPCA","jaopca:block_wallcoal",5.00,10.00
 "JAOPCA","jaopca:block_wallcobalt",5.00,10.00
-"JAOPCA","jaopca:block_wallcocoabutter",0.00,0.00
-"JAOPCA","jaopca:block_wallcoldiron",0.00,0.00
-"JAOPCA","jaopca:block_wallconductiveiron",0.00,0.00
-"JAOPCA","jaopca:block_wallconstantan",0.00,0.00
-"JAOPCA","jaopca:block_wallconstructionalloy",0.00,0.00
+"JAOPCA","jaopca:block_wallcocoabutter",5.00,10.00
+"JAOPCA","jaopca:block_wallcoldiron",5.00,10.00
+"JAOPCA","jaopca:block_wallconductiveiron",5.00,10.00
+"JAOPCA","jaopca:block_wallconstantan",5.00,10.00
+"JAOPCA","jaopca:block_wallconstructionalloy",5.00,10.00
 "JAOPCA","jaopca:block_wallcopper",5.00,10.00
-"JAOPCA","jaopca:block_wallcosmicneutronium",0.00,0.00
-"JAOPCA","jaopca:block_wallcrudesteel",0.00,0.00
-"JAOPCA","jaopca:block_wallcrystalflux",0.00,0.00
-"JAOPCA","jaopca:block_wallcrystallinealloy",0.00,0.00
-"JAOPCA","jaopca:block_wallcrystallinepinkslime",0.00,0.00
-"JAOPCA","jaopca:block_wallcrystalmatrix",0.00,0.00
-"JAOPCA","jaopca:block_wallcrystaltine",0.00,0.00
-"JAOPCA","jaopca:block_wallcyanite",0.00,0.00
-"JAOPCA","jaopca:block_walldarksteel",0.00,0.00
-"JAOPCA","jaopca:block_walldawnstone",0.00,0.00
+"JAOPCA","jaopca:block_wallcosmicneutronium",5.00,10.00
+"JAOPCA","jaopca:block_wallcrudesteel",5.00,10.00
+"JAOPCA","jaopca:block_wallcrystalflux",5.00,10.00
+"JAOPCA","jaopca:block_wallcrystallinealloy",5.00,10.00
+"JAOPCA","jaopca:block_wallcrystallinepinkslime",5.00,10.00
+"JAOPCA","jaopca:block_wallcrystalmatrix",5.00,10.00
+"JAOPCA","jaopca:block_wallcrystaltine",5.00,10.00
+"JAOPCA","jaopca:block_wallcyanite",5.00,10.00
+"JAOPCA","jaopca:block_walldarksteel",5.00,10.00
+"JAOPCA","jaopca:block_walldawnstone",5.00,10.00
 "JAOPCA","jaopca:block_walldiamond",5.00,10.00
 "JAOPCA","jaopca:block_walldimensionalshard",5.00,10.00
 "JAOPCA","jaopca:block_walldraconium",5.00,10.00
-"JAOPCA","jaopca:block_walldraconiumawakened",0.00,0.00
-"JAOPCA","jaopca:block_wallelectricalsteel",0.00,0.00
-"JAOPCA","jaopca:block_wallelectrum",0.00,0.00
-"JAOPCA","jaopca:block_wallelectrumflux",0.00,0.00
+"JAOPCA","jaopca:block_walldraconiumawakened",5.00,10.00
+"JAOPCA","jaopca:block_wallelectricalsteel",5.00,10.00
+"JAOPCA","jaopca:block_wallelectrum",5.00,10.00
+"JAOPCA","jaopca:block_wallelectrumflux",5.00,10.00
 "JAOPCA","jaopca:block_wallemerald",5.00,10.00
-"JAOPCA","jaopca:block_wallenderium",0.00,0.00
-"JAOPCA","jaopca:block_wallendsteel",0.00,0.00
-"JAOPCA","jaopca:block_wallenergeticalloy",0.00,0.00
-"JAOPCA","jaopca:block_wallenergeticsilver",0.00,0.00
-"JAOPCA","jaopca:block_wallextreme",0.00,0.00
-"JAOPCA","jaopca:block_wallferroboron",0.00,0.00
-"JAOPCA","jaopca:block_wallflint",0.00,0.00
-"JAOPCA","jaopca:block_wallfluix",0.00,0.00
-"JAOPCA","jaopca:block_wallfluorite",0.00,0.00
+"JAOPCA","jaopca:block_wallenderium",5.00,10.00
+"JAOPCA","jaopca:block_wallendsteel",5.00,10.00
+"JAOPCA","jaopca:block_wallenergeticalloy",5.00,10.00
+"JAOPCA","jaopca:block_wallenergeticsilver",5.00,10.00
+"JAOPCA","jaopca:block_wallextreme",5.00,10.00
+"JAOPCA","jaopca:block_wallferroboron",5.00,10.00
+"JAOPCA","jaopca:block_wallflint",5.00,10.00
+"JAOPCA","jaopca:block_wallfluix",5.00,10.00
+"JAOPCA","jaopca:block_wallfluorite",5.00,10.00
 "JAOPCA","jaopca:block_wallgarnet",5.00,10.00
-"JAOPCA","jaopca:block_wallgelid",0.00,0.00
-"JAOPCA","jaopca:block_wallgelidenderium",0.00,0.00
+"JAOPCA","jaopca:block_wallgelid",5.00,10.00
+"JAOPCA","jaopca:block_wallgelidenderium",5.00,10.00
 "JAOPCA","jaopca:block_wallgold",5.00,10.00
-"JAOPCA","jaopca:block_wallgraphite",0.00,0.00
-"JAOPCA","jaopca:block_wallhardcarbon",0.00,0.00
-"JAOPCA","jaopca:block_wallhopgraphite",0.00,0.00
-"JAOPCA","jaopca:block_wallhottungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_wallhslasteel",0.00,0.00
-"JAOPCA","jaopca:block_wallinferium",0.00,0.00
-"JAOPCA","jaopca:block_wallinfinity",0.00,0.00
-"JAOPCA","jaopca:block_wallinsanium",0.00,0.00
-"JAOPCA","jaopca:block_wallintermedium",0.00,0.00
-"JAOPCA","jaopca:block_wallinvar",0.00,0.00
+"JAOPCA","jaopca:block_wallgraphite",5.00,10.00
+"JAOPCA","jaopca:block_wallhardcarbon",5.00,10.00
+"JAOPCA","jaopca:block_wallhopgraphite",5.00,10.00
+"JAOPCA","jaopca:block_wallhottungstensteel",5.00,10.00
+"JAOPCA","jaopca:block_wallhslasteel",5.00,10.00
+"JAOPCA","jaopca:block_wallinferium",5.00,10.00
+"JAOPCA","jaopca:block_wallinfinity",5.00,10.00
+"JAOPCA","jaopca:block_wallinsanium",5.00,10.00
+"JAOPCA","jaopca:block_wallintermedium",5.00,10.00
+"JAOPCA","jaopca:block_wallinvar",5.00,10.00
 "JAOPCA","jaopca:block_walliridium",5.00,10.00
-"JAOPCA","jaopca:block_walliridiumalloy",0.00,0.00
+"JAOPCA","jaopca:block_walliridiumalloy",5.00,10.00
 "JAOPCA","jaopca:block_walliron",5.00,10.00
-"JAOPCA","jaopca:block_wallknightslime",0.00,0.00
+"JAOPCA","jaopca:block_wallknightslime",5.00,10.00
 "JAOPCA","jaopca:block_walllapis",5.00,10.00
 "JAOPCA","jaopca:block_walllead",5.00,10.00
-"JAOPCA","jaopca:block_wallleadplatinum",0.00,0.00
+"JAOPCA","jaopca:block_wallleadplatinum",5.00,10.00
 "JAOPCA","jaopca:block_walllithium",5.00,10.00
-"JAOPCA","jaopca:block_walllithiummanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_wallludicrite",0.00,0.00
-"JAOPCA","jaopca:block_walllumium",0.00,0.00
+"JAOPCA","jaopca:block_walllithiummanganesedioxide",5.00,10.00
+"JAOPCA","jaopca:block_wallludicrite",5.00,10.00
+"JAOPCA","jaopca:block_walllumium",5.00,10.00
 "JAOPCA","jaopca:block_wallmagnesium",5.00,10.00
-"JAOPCA","jaopca:block_wallmagnesiumdiboride",0.00,0.00
-"JAOPCA","jaopca:block_wallmanganese",0.00,0.00
-"JAOPCA","jaopca:block_wallmanganesedioxide",0.00,0.00
-"JAOPCA","jaopca:block_wallmanganeseoxide",0.00,0.00
-"JAOPCA","jaopca:block_wallmanyullyn",0.00,0.00
-"JAOPCA","jaopca:block_wallmarshmallow",0.00,0.00
-"JAOPCA","jaopca:block_wallmelodicalloy",0.00,0.00
-"JAOPCA","jaopca:block_wallmirion",0.00,0.00
-"JAOPCA","jaopca:block_wallmithminite",0.00,0.00
+"JAOPCA","jaopca:block_wallmagnesiumdiboride",5.00,10.00
+"JAOPCA","jaopca:block_wallmanganese",5.00,10.00
+"JAOPCA","jaopca:block_wallmanganesedioxide",5.00,10.00
+"JAOPCA","jaopca:block_wallmanganeseoxide",5.00,10.00
+"JAOPCA","jaopca:block_wallmanyullyn",5.00,10.00
+"JAOPCA","jaopca:block_wallmarshmallow",5.00,10.00
+"JAOPCA","jaopca:block_wallmelodicalloy",5.00,10.00
+"JAOPCA","jaopca:block_wallmirion",5.00,10.00
+"JAOPCA","jaopca:block_wallmithminite",5.00,10.00
 "JAOPCA","jaopca:block_wallmithril",5.00,10.00
-"JAOPCA","jaopca:block_wallmithrillium",0.00,0.00
-"JAOPCA","jaopca:block_wallmixedmetal",0.00,0.00
+"JAOPCA","jaopca:block_wallmithrillium",5.00,10.00
+"JAOPCA","jaopca:block_wallmixedmetal",5.00,10.00
 "JAOPCA","jaopca:block_wallnickel",5.00,10.00
-"JAOPCA","jaopca:block_wallobsidian",0.00,0.00
+"JAOPCA","jaopca:block_wallobsidian",5.00,10.00
 "JAOPCA","jaopca:block_wallopal",5.00,10.00
-"JAOPCA","jaopca:block_wallorichalcos",0.00,0.00
-"JAOPCA","jaopca:block_wallosgloglas",0.00,0.00
-"JAOPCA","jaopca:block_wallosmiridium",0.00,0.00
+"JAOPCA","jaopca:block_wallorichalcos",5.00,10.00
+"JAOPCA","jaopca:block_wallosgloglas",5.00,10.00
+"JAOPCA","jaopca:block_wallosmiridium",5.00,10.00
 "JAOPCA","jaopca:block_wallosmium",5.00,10.00
 "JAOPCA","jaopca:block_wallperidot",5.00,10.00
-"JAOPCA","jaopca:block_wallphotonium",0.00,0.00
-"JAOPCA","jaopca:block_wallpigiron",0.00,0.00
+"JAOPCA","jaopca:block_wallphotonium",5.00,10.00
+"JAOPCA","jaopca:block_wallpigiron",5.00,10.00
 "JAOPCA","jaopca:block_wallplatinum",5.00,10.00
-"JAOPCA","jaopca:block_wallprismarine",0.00,0.00
-"JAOPCA","jaopca:block_wallprudentium",0.00,0.00
-"JAOPCA","jaopca:block_wallpulsatingiron",0.00,0.00
+"JAOPCA","jaopca:block_wallprismarine",5.00,10.00
+"JAOPCA","jaopca:block_wallprudentium",5.00,10.00
+"JAOPCA","jaopca:block_wallpulsatingiron",5.00,10.00
 "JAOPCA","jaopca:block_wallquartz",5.00,10.00
 "JAOPCA","jaopca:block_wallquartzblack",5.00,10.00
-"JAOPCA","jaopca:block_wallredgarnet",0.00,0.00
-"JAOPCA","jaopca:block_wallredstonealloy",0.00,0.00
-"JAOPCA","jaopca:block_wallrefinedglowstone",0.00,0.00
-"JAOPCA","jaopca:block_wallrefinediron",0.00,0.00
-"JAOPCA","jaopca:block_wallrefinedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_wallreinforcedobsidian",0.00,0.00
-"JAOPCA","jaopca:block_wallrhodochrosite",0.00,0.00
+"JAOPCA","jaopca:block_wallredgarnet",5.00,10.00
+"JAOPCA","jaopca:block_wallredstonealloy",5.00,10.00
+"JAOPCA","jaopca:block_wallrefinedglowstone",5.00,10.00
+"JAOPCA","jaopca:block_wallrefinediron",5.00,10.00
+"JAOPCA","jaopca:block_wallrefinedobsidian",5.00,10.00
+"JAOPCA","jaopca:block_wallreinforcedobsidian",5.00,10.00
+"JAOPCA","jaopca:block_wallrhodochrosite",5.00,10.00
 "JAOPCA","jaopca:block_wallruby",5.00,10.00
 "JAOPCA","jaopca:block_wallsapphire",5.00,10.00
-"JAOPCA","jaopca:block_wallshadowium",0.00,0.00
-"JAOPCA","jaopca:block_wallshibuichi",0.00,0.00
-"JAOPCA","jaopca:block_wallsicsiccmc",0.00,0.00
-"JAOPCA","jaopca:block_wallsignalum",0.00,0.00
-"JAOPCA","jaopca:block_wallsiliconcarbide",0.00,0.00
+"JAOPCA","jaopca:block_wallshadowium",5.00,10.00
+"JAOPCA","jaopca:block_wallshibuichi",5.00,10.00
+"JAOPCA","jaopca:block_wallsicsiccmc",5.00,10.00
+"JAOPCA","jaopca:block_wallsignalum",5.00,10.00
+"JAOPCA","jaopca:block_wallsiliconcarbide",5.00,10.00
 "JAOPCA","jaopca:block_wallsilver",5.00,10.00
-"JAOPCA","jaopca:block_wallsoularium",0.00,0.00
-"JAOPCA","jaopca:block_wallsoulium",0.00,0.00
-"JAOPCA","jaopca:block_wallsteel",0.00,0.00
-"JAOPCA","jaopca:block_wallstellaralloy",0.00,0.00
-"JAOPCA","jaopca:block_wallsuperium",0.00,0.00
-"JAOPCA","jaopca:block_wallsupremium",0.00,0.00
-"JAOPCA","jaopca:block_wallthaumium",0.00,0.00
-"JAOPCA","jaopca:block_wallthermoconducting",0.00,0.00
+"JAOPCA","jaopca:block_wallsoularium",5.00,10.00
+"JAOPCA","jaopca:block_wallsoulium",5.00,10.00
+"JAOPCA","jaopca:block_wallsteel",5.00,10.00
+"JAOPCA","jaopca:block_wallstellaralloy",5.00,10.00
+"JAOPCA","jaopca:block_wallsuperium",5.00,10.00
+"JAOPCA","jaopca:block_wallsupremium",5.00,10.00
+"JAOPCA","jaopca:block_wallthaumium",5.00,10.00
+"JAOPCA","jaopca:block_wallthermoconducting",5.00,10.00
 "JAOPCA","jaopca:block_wallthorium",5.00,10.00
-"JAOPCA","jaopca:block_wallthoriumoxide",0.00,0.00
+"JAOPCA","jaopca:block_wallthoriumoxide",5.00,10.00
 "JAOPCA","jaopca:block_walltin",5.00,10.00
-"JAOPCA","jaopca:block_walltinsilver",0.00,0.00
-"JAOPCA","jaopca:block_walltitanium",0.00,0.00
-"JAOPCA","jaopca:block_walltough",0.00,0.00
+"JAOPCA","jaopca:block_walltinsilver",5.00,10.00
+"JAOPCA","jaopca:block_walltitanium",5.00,10.00
+"JAOPCA","jaopca:block_walltough",5.00,10.00
 "JAOPCA","jaopca:block_walltungsten",5.00,10.00
-"JAOPCA","jaopca:block_walltungstensteel",0.00,0.00
-"JAOPCA","jaopca:block_wallultimate",0.00,0.00
+"JAOPCA","jaopca:block_walltungstensteel",5.00,10.00
+"JAOPCA","jaopca:block_wallultimate",5.00,10.00
 "JAOPCA","jaopca:block_walluranium",5.00,10.00
-"JAOPCA","jaopca:block_walluraniumoxide",0.00,0.00
-"JAOPCA","jaopca:block_wallvibrantalloy",0.00,0.00
-"JAOPCA","jaopca:block_wallvilliaumite",0.00,0.00
-"JAOPCA","jaopca:block_wallvividalloy",0.00,0.00
-"JAOPCA","jaopca:block_wallvoid",0.00,0.00
-"JAOPCA","jaopca:block_wallwub",0.00,0.00
+"JAOPCA","jaopca:block_walluraniumoxide",5.00,10.00
+"JAOPCA","jaopca:block_wallvibrantalloy",5.00,10.00
+"JAOPCA","jaopca:block_wallvilliaumite",5.00,10.00
+"JAOPCA","jaopca:block_wallvividalloy",5.00,10.00
+"JAOPCA","jaopca:block_wallvoid",5.00,10.00
+"JAOPCA","jaopca:block_wallwub",5.00,10.00
 "JAOPCA","jaopca:block_wallyellorium",5.00,10.00
-"JAOPCA","jaopca:block_wallyellowgarnet",0.00,0.00
-"JAOPCA","jaopca:block_wallzinc",0.00,0.00
-"JAOPCA","jaopca:block_wallzircaloy",0.00,0.00
-"JAOPCA","jaopca:block_wallzirconium",0.00,0.00
+"JAOPCA","jaopca:block_wallyellowgarnet",5.00,10.00
+"JAOPCA","jaopca:block_wallzinc",5.00,10.00
+"JAOPCA","jaopca:block_wallzircaloy",5.00,10.00
+"JAOPCA","jaopca:block_wallzirconium",5.00,10.00
 "JAOPCA","jaopca:fluid_moltenadaminite",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenadvancedalloy",0.00,0.00
 "JAOPCA","jaopca:fluid_moltenamericium241oxide",0.00,0.00
@@ -5553,14 +5548,6 @@
 "Natural Pledge","naturalpledge:thunder_sapling",0.00,0.00
 "Natural Pledge","naturalpledge:thunder_trap",0.00,0.00
 "Natural Pledge","naturalpledge:wrath_trap",0.50,0.00
-"Netherending Ores","netherendingores:creative_tab",0.00,0.00
-"Netherending Ores","netherendingores:ore_end_modded_1",0.00,0.00
-"Netherending Ores","netherendingores:ore_end_modded_2",0.00,0.00
-"Netherending Ores","netherendingores:ore_end_vanilla",0.00,0.00
-"Netherending Ores","netherendingores:ore_nether_modded_1",0.00,0.00
-"Netherending Ores","netherendingores:ore_nether_modded_2",0.00,0.00
-"Netherending Ores","netherendingores:ore_nether_vanilla",0.00,0.00
-"Netherending Ores","netherendingores:ore_other_1",0.00,0.00
 "Not Enough Wands","notenoughwands:lightblock",0.00,0.00
 "NuclearCraft","nuclearcraft:accelerator_electromagnet_active",2.00,45.00
 "NuclearCraft","nuclearcraft:accelerator_electromagnet_idle",2.00,45.00
@@ -6000,6 +5987,7 @@
 "Psi","psi:conjured",0.00,0.00
 "Psi","psi:programmer",5.00,30.00
 "Psi","psi:psi_decorative",5.00,30.00
+"RF Expansion","bq_rf:rf_station",1.00,5.00
 "RFTools","rftools:analog_block",2.00,10.00
 "RFTools","rftools:block_protector",2.00,10.00
 "RFTools","rftools:booster",2.00,10.00
@@ -6266,6 +6254,7 @@
 "Reliquary","xreliquary:pedestal_passive",1.00,3.00
 "Reliquary","xreliquary:wraith_node",1.50,15.00
 "Requious Frakto","requious:assembler",5.00,30.00
+"Requious Frakto","requious:atm",5.00,30.00
 "Requious Frakto","requious:gas_emitter",5.00,30.00
 "Requious Frakto","requious:item_gate",5.00,30.00
 "Requious Frakto","requious:laser",5.00,30.00
@@ -6466,7 +6455,6 @@
 "Steve's Carts 2","stevescarts:blockliquidmanager",2.00,10.00
 "Steve's Carts 2","stevescarts:blockmetalstorage",2.00,30.00
 "Steve's Carts 2","stevescarts:upgrade",2.00,10.00
-"Stone Crafting Table","sct:stone_crafting_table",5.00,25.00
 "Storage Drawers","storagedrawers:basicdrawers",5.00,25.00
 "Storage Drawers","storagedrawers:compdrawers",5.00,25.00
 "Storage Drawers","storagedrawers:controller",5.00,25.00
@@ -6867,7 +6855,64 @@
 "Thaumic Additions: Reconstructed","thaumadditions:seal",1.00,3.00
 "Thaumic Additions: Reconstructed","thaumadditions:twilight_totem",1.50,9.00
 "Thaumic Additions: Reconstructed","thaumadditions:vis_crop",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/aer",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/alienis",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/alkimia",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/aqua",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/auram",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/aversio",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/bestia",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/caeles",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/cognitio",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/desiderium",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/diabolus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/draco",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/exanimis",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/exitium",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/fabrico",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/fluctus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/gelum",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/herba",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/humanus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/ignis",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/imperium",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/infernum",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/instrumentum",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/luna",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/lux",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/machina",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/metallum",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/mortuus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/motus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/ordo",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/perditio",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/permutatio",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/potentia",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/praecantatio",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/praemunio",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/sensus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/sol",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/sonus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/spatio",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/spiritus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/stellae",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/tempus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/tenebrae",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/terra",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/tinctura",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/vacuos",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/ventus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/victus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/vinculum",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/visum",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/vitium",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/vitreus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:vis_crop/volatus",0.00,0.00
+"Thaumic Additions: Reconstructed","thaumadditions:void_crop",0.00,0.00
 "Thaumic Arcana","thaumic_arcana:arcane_sieve",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:aura_leaves",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:aura_wood_log",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:aura_wood_sapling",0.00,0.00
 "Thaumic Arcana","thaumic_arcana:essentia_mine",0.00,0.00
 "Thaumic Arcana","thaumic_arcana:magic_oak_sapling",0.00,0.00
 "Thaumic Arcana","thaumic_arcana:paving_stone_disable_enchants",2.50,12.50
@@ -7261,6 +7306,15 @@
 "TorchMaster","torchmaster:invisible_light",0.00,0.00
 "TorchMaster","torchmaster:mega_torch",1.50,3.00
 "TorchMaster","torchmaster:terrain_lighter",1.00,9.00
+"Unknown","aqueducts:aqueduct",0.00,0.00
+"Unknown","aqueducts:aqueduct_water",0.00,0.00
+"Unknown","densemetals:dense_coal_ore",0.00,0.00
+"Unknown","densemetals:dense_diamond_ore",0.00,0.00
+"Unknown","densemetals:dense_emerald_ore",0.00,0.00
+"Unknown","densemetals:dense_gold_ore",0.00,0.00
+"Unknown","densemetals:dense_iron_ore",0.00,0.00
+"Unknown","densemetals:dense_lapis_ore",0.00,0.00
+"Unknown","densemetals:dense_redstone_ore",0.00,0.00
 "Unknown","elevatorid:elevator_black",0.00,0.00
 "Unknown","elevatorid:elevator_blue",0.00,0.00
 "Unknown","elevatorid:elevator_brown",0.00,0.00
@@ -7277,6 +7331,15 @@
 "Unknown","elevatorid:elevator_silver",0.00,0.00
 "Unknown","elevatorid:elevator_white",0.00,0.00
 "Unknown","elevatorid:elevator_yellow",0.00,0.00
+"Unknown","netherendingores:creative_tab",0.00,0.00
+"Unknown","netherendingores:ore_end_modded_1",0.00,0.00
+"Unknown","netherendingores:ore_end_modded_2",0.00,0.00
+"Unknown","netherendingores:ore_end_vanilla",0.00,0.00
+"Unknown","netherendingores:ore_nether_modded_1",0.00,0.00
+"Unknown","netherendingores:ore_nether_modded_2",0.00,0.00
+"Unknown","netherendingores:ore_nether_vanilla",0.00,0.00
+"Unknown","netherendingores:ore_other_1",0.00,0.00
+"Unknown","sct:stone_crafting_table",0.00,0.00
 "Unknown","thaumicenergistics:infusion_provider",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_bricks1_forestry_ash_brick_0",0.00,0.00
 "Unlimited Chisel Works","unlimitedchiselworks:chisel_bricks2_forestry_ash_brick_0",0.00,0.00
