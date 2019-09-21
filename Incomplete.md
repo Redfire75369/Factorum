@@ -30,12 +30,68 @@ Use Functions for OreDictionary Replacement
 ### 03_OreDict/02_RecipeRemoval.zs
 - Make sure all recipes are removed for:
 	- Ores
-	- Clusters 
+		- Crafting
+			- Stygian Iron
+		- Combiner
+			- Gold
+			- Iron
+			- Coal
+			- Lapis
+			- Diamond
+			- Emerald
+			- Nether Quartz
+			- Cyclic Nether/End Ores
+			- Prosperity(All Varients)
+			- Inferium(All Varients)
+			- Uranium Ore(NuclearCraft)
+			- Thermal Foundation Ores Except Mana Infused
+		- Crucible
+			- Light
+			- Shaded
+		- Fusion Control Computer
+			- Iridium Ore(Tech Reborn)
+	- Clusters
+		- Crucible
+			- Thorium
 	- Dirty Dusts
+		- NIL
 	- Clumps
+		- Purification Chamber
+			- Iron(Cyclic Ores)
+			- Gold(Cyclic Ores)
+			- Copper(Ores)
+			- Tin(Ores)
+			- Silver(Ores)
+			- Lead(Ores)
 	- Shards
+		- Chemical Injection Chamber
+			- All(Ores)
+			- All(Crystals)
 	- Crystals
+		- NIL
 	- Ingots
+		- Crafting
+			- Black Iron
+			- Mystical Agriculture
+			- Spectre
+		- Furnace
+			- Ore Ingot(Rocky Chunk/CHunk)
+			- Iron(Dust)
+			- Iron(Cyclic Ores)
+			- Silver(Bewitchment)(Ore)
+			- Manasteel(Dust)
+			- Embers Ingots(Ores)
+			- Steel(Extreme Reactors)(Dust)
+			- Forestry(Ingot)
+			- Immersive Engineering(Dust/Ore)
+			- Meat(Raw Meat)
+			- Mystic World(Ore)
+		- Crucible
+			- Alkimium
+			- Bismuth
+		- Osmium Compressor
+			- Refined Obsidian
+			- Refined Glowstone
 	- Gems
 	- Clathrates
 	- Nuggets
@@ -43,9 +99,15 @@ Use Functions for OreDictionary Replacement
 	- Small Dusts
 	- Tiny Dust
 	- Plates
+		- Plate Bending Machine
+		- Crushing Table
+		- Cruhser(Magneticraft)
 	- Dense Plates
+		- NIL
 	- Rods
-	- Gears 
+		- NIL
+	- Gears
+		- Metal Press
 	- Blocks
 	
 - Remove all recipes for
@@ -54,18 +116,12 @@ Use Functions for OreDictionary Replacement
 	- Clean Slurries 
 
 ## Check What these Items are:
-- EnderIO: Redstone Filter Base and Owl Egg
-- Mekanism: PlaStick
-- Actually Additions: Knife, Paper Cone, Bio-mash, Knife Handle, Knife Blade, Biomass
 - Apotheosis: Everything
-- Applied Energistics 2: Vibration Chamber
 
 ## Additions?
 - IOreDictEntry:
 	- blockChorus to integrateddynamics:crystallised_chorus_block
 	- blockMenril to integrateddynamics:crystallised_menril_block
-- IItemStack:
-	- Wyvern Ingot
 - ILiquidStack:
 	- Seawater/ Salt Water
 

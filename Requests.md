@@ -1,6 +1,6 @@
 # Patchouli Guide Requests
 
-## Mods
+## Mod Guides
 - Applied Energistics 2
 - Blood Magic
 - Embers
@@ -8,12 +8,13 @@
 - Mekanism
 - Modular Machinery
 - NuclearCraft
+- Powered Thingies
 - RFTools
 - Steve's Carts Reborn
 - Super Factory Manager
 
 # Texture Requests
-- Coins {Bronze, Silver, Gold, Platinum}
+- Overlays for Coins (12x12)
 	- Chemist
 	- Farming
 	- Forestry

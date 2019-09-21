@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -0306
+#priority -10002
 #norun 
 
 val processingTier1 = [

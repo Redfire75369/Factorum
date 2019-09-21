@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -0304
+#priority -10000
 #norun
 
 /* Mekanism: Combiner */
