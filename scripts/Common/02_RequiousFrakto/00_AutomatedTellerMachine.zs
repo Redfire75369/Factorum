@@ -1,5 +1,5 @@
 #loader contenttweaker
-#priority -0200
+#priority -00200
 
 import mods.requious.ComponentFace;
 import mods.requious.SlotVisual;

@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -0302
+#priority -00302
 
 import crafttweaker.oredict.IOreDictEntry;
 
@@ -130,10 +130,12 @@ mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:dust:22> * 2);
 mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:smalldust:23> * 8);
 mods.techreborn.compressor.removeInputRecipe(<techreborn:dust:65>);
 
+/*
 mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:1>);
 mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:2>);
 mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:5>);
 mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:6>);
+*/
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot>);
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:3>);
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:6>);
@@ -157,8 +159,12 @@ for key, dictIngot in hashIngot {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemIngot, cinnabar);
 		}
 		for itemIngot in dictIngot.items {
-			furnace.remove(itemIngot, hashOre[key]);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemIngot);
+			for itemOre in hashOre[key].items {
+				if ((itemOre.definition.owner == itemIngot.definition.owner)||(itemIngot.definition.owner == "thermalfoundation")) {
+					furnace.remove(itemIngot, itemOre);
+				}
+			}
 		}
 	}
 	if (hashCluster has key) {
@@ -189,6 +195,11 @@ for key, dictIngot in hashIngot {
 		for itemIngot in dictIngot.items {
 			furnace.remove(itemIngot, hashDust[key]);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemIngot);
+			for itemDust in hashDust[key].items {
+				if ((itemDust.definition.owner == itemIngot.definition.owner)||(itemIngot.definition.owner == "thermalfoundation")) {
+					furnace.remove(itemIngot, itemDust);
+				}
+			}
 		}
 	}
 	if (hashBlock has key) {

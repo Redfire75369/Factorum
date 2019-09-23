@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -0300
+#priority -00300
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;

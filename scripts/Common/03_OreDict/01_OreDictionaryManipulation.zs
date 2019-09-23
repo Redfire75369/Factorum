@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -0301
+#priority -00301
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;

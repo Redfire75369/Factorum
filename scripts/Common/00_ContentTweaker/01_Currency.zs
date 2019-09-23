@@ -1,5 +1,5 @@
 #loader contenttweaker
-#priority -0001
+#priority -00001
 
 import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.Item;

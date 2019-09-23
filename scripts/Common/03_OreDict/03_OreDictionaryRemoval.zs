@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -0303
+#priority -00303
 
 import crafttweaker.item.IItemStack;
 
