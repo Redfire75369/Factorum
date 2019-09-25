@@ -4,6 +4,8 @@
 import crafttweaker.oredict.IOreDictEntry;
 
 /***** Ores *****/
+recipes.removeShapeless(<woot:stygianironore>);
+mods.techreborn.fusionReactor.removeRecipe(<techreborn:ore:1>);
 for key, dictOre in hashOre {
 	if (hashDust has key) {
 		mods.mekanism.combiner.removeRecipe(dictOre, hashDust[key], hashBlock["Cobblestone"]);
@@ -27,20 +29,20 @@ for key, dictDustDirty in hashDustDirty {
 /***** Clumps *****/
 for key, dictClump in hashClump {
 	if (hashOre has key) {
-		mods.mekanism.purification.removeRecipe(dictClump, hashOre[key]);
+		mods.mekanism.purification.removeRecipe(dictClump * 3, hashOre[key], hashGas["Oxygen"]);
 	}
 	if (hashShard has key) {
-		mods.mekanism.purification.removeRecipe(dictClump, hashShard[key]);
+		mods.mekanism.purification.removeRecipe(dictClump, hashShard[key], hashGas["Oxygen"]);
 	}
 }
 
 /***** Shards *****/
 for key, dictShard in hashShard {
 	if (hashOre has key) {
-		mods.mekanism.purification.removeRecipe(dictShard, hashOre[key]);
+		mods.mekanism.purification.removeRecipe(dictShard * 4, hashOre[key], hashGas["HydrogenChloride"]);
 	}
 	if (hashCrystal has key) {
-		mods.mekanism.purification.removeRecipe(dictShard, hashCrystal[key]);
+		mods.mekanism.purification.removeRecipe(dictShard, hashCrystal[key], hashGas["HydrogenChloride"]);
 	}
 }
 

@@ -141,6 +141,7 @@ val stringCluster = [
     "Quartz",
 	"Quicksilver",
     "Silver",
+    "Thorium", 
     "Tin",
     "Tungsten",
     "Uranium",
@@ -2509,7 +2510,7 @@ val stringGas = [
 	"Chlorine",
 	"Deuterium", 
 	"Ethene", 
-	"FusionFuel", 
+	"DTFuel", 
 	"Hydrogen", 
 	"HydrogenChloride", 
 	"Lithium", 
@@ -2517,7 +2518,7 @@ val stringGas = [
 	"Oxygen", 
 	"Sodium", 
 	"SulfurDioxide", 
-	"Sulfuric Acid", 
+	"SulfuricAcid", 
 	"SulfurTrioxide", 
 	"Tritium", 
 	"Water"
@@ -2526,6 +2527,12 @@ val stringGas = [
 for gas in stringGas {
 	hashGas[gas] = getGas(gas.toLowerCase);
 }
+hashGas["DTFuel"] = getGas("fusionfuel");
+hashGas["HydrogenChloride"] = getGas("hydrogenchloride");
+hashGas["LiquidOsmium"] = getGas("liquidosmium");
+hashGas["SulfurDioxide"] = getGas("sulfurdioxide");
+hashGas["SulfuricAcid"] = getGas("sulfuricacid");
+hashGas["SulfurTrioxide"] = getGas("sulfurtrioxide");
 
 /***** Slurry *****/
 global hashSlurry as IGasStack[string] = {} as IGasStack[string];
@@ -2559,6 +2566,13 @@ val stringSlurry = [
 for slurry in stringSlurry {
 	hashSlurry[slurry] = getGas("slurry" ~ slurry);
 }
+hashSlurry["Copper"] = getGas("copper");
+hashSlurry["Gold"] = getGas("gold");
+hashSlurry["Iron"] = getGas("iron");
+hashSlurry["Lead"] = getGas("lead");
+hashSlurry["Osmium"] = getGas("osmium");
+hashSlurry["Silver"] = getGas("silver");
+hashSlurry["Tin"] = getGas("tin");
 
 /***** Clean Slurry *****/
 global hashSlurryClean as IGasStack[string] = {} as IGasStack[string];
@@ -2592,3 +2606,10 @@ val stringSlurryClean = [
 for slurryClean in stringSlurryClean {
 	hashSlurryClean[slurryClean] = getGas("slurryClean" ~ slurryClean);
 }
+hashSlurryClean["Copper"] = getGas("cleanCopper");
+hashSlurryClean["Gold"] = getGas("cleanGold");
+hashSlurryClean["Iron"] = getGas("cleanIron");
+hashSlurryClean["Lead"] = getGas("cleanLead");
+hashSlurryClean["Osmium"] = getGas("cleanOsmium");
+hashSlurryClean["Silver"] = getGas("cleanSilver");
+hashSlurryClean["Tin"] = getGas("cleanTin");
