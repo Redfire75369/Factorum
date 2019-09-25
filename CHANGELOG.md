@@ -11,7 +11,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ### Added
-- Mods: Better Questing: RF Expansion; version 3.4.31
+- Mods: Better Questing - RF Expansion; version 3.4.31
 - Mods: ContentTweaker; version 1.12.2-4.9.1
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
@@ -79,7 +79,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Super Factory Manager; updated to 1.12.2-2.0.23
 - Mods: Tech Reborn; updated to 1.12.2-2.24.1.1032-universal
 - Mods: Thaumic Additions: Reconstructed; updated to 1.12.2-20r
-- Mods: Thaumic Arcana; updated to 
+- Mods: Thaumic Arcana; updated to 1.3.0
 - Mods: Thaumic Augmentation; updated to 1.12.2-1.1.9
 - Mods: Thaumic Computers; updated to MC1.12.2-0.5.1
 - Mods: Thaumic Periphery; updated to 0.3.1
