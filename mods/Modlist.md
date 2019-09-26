@@ -1,5 +1,5 @@
 | Mods | Version | Author |
-|----------|--------------|'-----------|
+|----------|--------------|------------|
 | [AA Farmer Compat](https://www.curseforge.com/minecraft/mc-mods/aa-farmer-compat) | 1.0.0 | [Quarris](https://www.curseforge.com/members/quarris/projects) |
 | [Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions) | 1.12.2-r150 | [Ellpeck](https://www.curseforge.com/members/ellpeck/projects) |
 | [Actually Baubles](https://www.curseforge.com/minecraft/mc-mods/actually-baubles) | 1.1 | [Jackyy](https://www.curseforge.com/members/jackyy/projects) |
