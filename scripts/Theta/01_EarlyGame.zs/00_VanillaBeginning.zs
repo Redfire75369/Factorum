@@ -5,13 +5,13 @@ recipes.removeShaped(<minecraft:furnace>);
 recipes.removeShaped(<minecraft:chest>);
 
 recipes.addShaped("Furnace", <minecraft:furnace>, [
-	[hashBlock["Stone"], hashBlock["Stone"], hashBlock["Stone"]],
-	[hashBlock["Stone"], null, hashBlock["Stone"]],
-	[hashBlock["Stone"], hashBlock["Stone"], hashBlock["Stone"]]
+	[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>],
+	[<tconstruct:seared>, null, <tconstruct:seared>],
+	[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>]
 ]);
 
 recipes.addShaped("Chest", <minecraft:chest>, [
-	[oreDict["plankWood"], oreDict["plankWood"], oreDict["plankWood"]],
-	[oreDict["plankWood"], <minecraft:wooden_button>, oreDict["plankWood"]],
-	[oreDict["plankWood"], oreDict["plankWood"], oreDict["plankWood"]]
+	[oreDict["plankWood"], oreDict["stickWood"], oreDict["plankWood"]],
+	[oreDict["stickWood"], oreDict["logWood"], oreDict["stickWood"]],
+	[oreDict["plankWood"], oreDict["stickWood"], oreDict["plankWood"]]
 ]);

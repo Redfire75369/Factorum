@@ -17,6 +17,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
 - Mods: Just Enough Petroleum; version 0.1
 - Mods: Magneticraft; version 1.12-2.8.1-dev
+- Mods: ModelLoader; version 
 - Mods: PackMode; version 1.12.2-1.2.0
 - Mods: Powered Thingies; version 1.12.2-1.0.15
 - Mods: Redstone PCB; version 0.2
