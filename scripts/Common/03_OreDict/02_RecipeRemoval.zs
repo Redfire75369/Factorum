@@ -72,7 +72,7 @@ recipes.removeShaped(hashIngot["Blutonium"], [
 	[hashIngot["Cyanite"], null, hashIngot["Cyanite"]],
 	[hashIngot["Cyanite"], hashIngot["Cyanite"], hashIngot["Cyanite"]]
 ]);
-recipes.removeShapeless(hashIngot["Bronze"],[
+recipes.removeShapeless(hashIngot["Bronze"], [
 	hashIngot["Tin"], hashIngot["Copper"], hashIngot["Copper"], 
 	hashIngot["Copper"]
 ]);

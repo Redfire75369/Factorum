@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority 10100
+#priority -10100
 
 recipes.removeShaped(<minecraft:furnace>);
 recipes.removeShaped(<minecraft:chest>);
