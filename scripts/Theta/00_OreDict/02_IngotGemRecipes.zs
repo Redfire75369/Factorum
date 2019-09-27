@@ -27,11 +27,11 @@ for key, dictIngot in hashIngot {
 	if (hashDust has key) {
 		furnace.addRecipe(dictIngot.firstItem, hashDust[key], 0.000000);
 		mods.immersiveengineering.ArcFurnace.addRecipe(dictIngot.firstItem, hashDust[key], slag, 50, 256, [], "Dusts");
-		mods.techreborn.blastFurnace.addRecipe(dictIngot.firstItem, hashDust["DarkAshes"].firstItem, hashDust[key], null, 25, 256, 1000).setUseOreDict(true);
-		mods.thermalexpansion.inductionSmelter.addRecipe(dictIngot.firstItem, hashDust[key].firstItem, sand, 3200, slag, 15);
+		mods.techreborn.blastFurnace.addRecipe(dictIngot.firstItem * 2, hashDust["DarkAshes"].firstItem, hashDust[key], null, 25, 256, 1000).setUseOreDict(true);
+		mods.thermalexpansion.inductionSmelter.addRecipe(dictIngot.firstItem * 2, hashDust[key].firstItem, sand, 3200, slag, 15);
 	}
 	if (hashBlock has key) {
-		recipes.addShapeless(key ~ " Block", dictIngot.firstItem * 9, [
+		recipes.addShapeless(key.toLowerCase() ~ "_block", dictIngot.firstItem * 9, [
 			hashBlock[key]
 		]);
 	}
@@ -42,22 +42,16 @@ for key, dictIngot in hashIngot {
 
 for key, dictGem in hashGem {
 	if (hashOre has key) {
-		mods.nuclearcraft.pressurizer.addRecipe([hashOre[key], dictGem.firstItem, 2, 2, 0);
+		mods.nuclearcraft.pressurizer.addRecipe([hashOre[key], dictGem.firstItem, 2, 1, 0);
 	}
 	if (hashCluster has key) {
-		furnace.addRecipe(dictGem.firstItem, hashCluster[key], 0.100000);
-		mods.immersiveengineering.ArcFurnace.addRecipe(dictGem.firstItem, hashCluster[key], slag, 100, 256, [], "Clusters");
-		mods.techreborn.blastFurnace.addRecipe(dictGem.firstItem, hashDust["DarkAshes"].firstItem, hashCluster[key], null, 50, 256, 1000).setUseOreDict(true);
-		mods.thermalexpansion.inductionSmelter.addRecipe(dictGem.firstItem, hashCluster[key].firstItem, sand, 6400, slag, 15);
+		mods.nuclearcraft.pressurizer.addRecipe([hashCluster[key], dictGem.firstItem, 2, 1.5, 0);
 	}
 	if (hashDust has key) {
-		furnace.addRecipe(dictGem.firstItem, hashDust[key], 0.000000);
-		mods.immersiveengineering.ArcFurnace.addRecipe(dictGem.firstItem, hashDust[key], slag, 50, 256, [], "Dusts");
-		mods.techreborn.blastFurnace.addRecipe(dictGem.firstItem, hashDust["DarkAshes"].firstItem, hashDust[key], null, 25, 256, 1000).setUseOreDict(true);
-		mods.thermalexpansion.inductionSmelter.addRecipe(dictGem.firstItem, hashDust[key].firstItem, sand, 3200, slag, 15);
+		mods.nuclearcraft.pressurizer.addRecipe(hashDust[key], dictGem.firstItem, 1, 1, 0);
 	}
 	if (hashBlock has key) {
-		recipes.addShapeless(key ~ " Block", dictGem.firstItem * 9, [
+		recipes.addShapeless(key.toLowerCase() ~ "_block", dictGem.firstItem * 9, [
 			hashBlock[key]
 		]);
 	}
