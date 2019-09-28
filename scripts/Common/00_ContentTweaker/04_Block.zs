@@ -8,7 +8,7 @@ import mods.contenttweaker.VanillaFactory;
 
 var burntWood = VanillaFactory.createBlock("block_burnt_wood", <blockmaterial:wood>) as Block;
 burntWood.creativeTab = <creativetab:other>;
-burntWood.toolClass = axe;
+burntWood.toolClass = "axe";
 burntWood.register();
 
 var charcoalLowGradeBlock = VanillaFactory.createBlock("block_low_grade_charcoal", <blockmaterial:rock>) as Block;

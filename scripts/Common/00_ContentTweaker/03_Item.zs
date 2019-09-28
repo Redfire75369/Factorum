@@ -22,6 +22,9 @@ var searedPaste = VanillaFactory.createItem("seared_paste") as Item;
 searedPaste.creativeTab = <creativetab:other>;
 searedPaste.register();
 
+var searedShard = VanillaFactory.createItem("seared_shard") as Item;
+searedShard.creativeTab = <creativetab:other>;
+searedShard.register();
 
 /*****Items With Durability*****/
 var file = VanillaFactory.createItem("file") as Item;

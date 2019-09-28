@@ -536,7 +536,7 @@ for key, dictBlock in hashBlock {
 		]);
 	}
 	if (hashMolten has key) {
-		for itemBlock in block.items {
+		for itemBlock in dictBlock.items {
 			mods.tconstruct.Casting.removeBasinRecipe(itemBlock);
 		}
 	}

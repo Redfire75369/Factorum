@@ -108,3 +108,10 @@ recipes.addShaped("tinker_tank", <tconstruct:tinker_tank_controller>, [
 	[<tconstruct:seared_tank:1>, <minecraft:bucket>, <tconstruct:seared_tank>],
 	[<tconstruct:seared:9>, <tconstruct:seared_tank:2>, <tconstruct:seared:9>]
 ]);
+
+recipes.addShaped("seared_brick", <tconstruct:materials>, [
+	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>],
+	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>]
+]);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:seared_shard>, <liquid:fire_water>, [<minecraft:cobblestone>], false);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:low_grade_charcoal>, <liquid:fire_water>, [oreDict["logWood"]], false);

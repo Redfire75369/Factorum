@@ -82,7 +82,7 @@ techreborn - Tech Reborn - 2.24.1.1032
 forestry - Forestry - 5.8.2.394
 beebetteratbees - Bee Better at Bees - 2.0.3
 betterbuilderswands - Better Builder's Wands - 0.13.2
-betterquesting - Better Questing - 3.5.309
+betterquesting - Better Questing - 3.5.310
 patchouli - Patchouli - 1.0-20
 bewitchment - Bewitchment - 0.20.8
 bibliocraft - BiblioCraft - 2.4.5
@@ -136,8 +136,6 @@ rftools - RFTools - 7.72
 deepresonance - DeepResonance - 1.8.0
 defaultoptions - Default Options - 9.2.8
 defaultworldgenerator-port - Default World Generator - 1.12-2.3
-orespawn - OreSpawn - 3.3.1
-densemetals - Dense Metals - 1.2.0
 diethopper - Diet Hopper - 1.1
 gamestages - Game Stages - 2.0.117
 dimstages - Dimension Stages - 2.0.23
@@ -158,14 +156,13 @@ enderiomachines - Ender IO Machines - 5.1.51
 enderstorage - EnderStorage - 2.4.6.137
 enderutilities - Ender Utilities - 0.7.14
 enderzoo - Ender Zoo - 1.12.1-1.4.0.49
+igwmod - In-Game wiki Mod - 1.4.4-15
 ieclochecompat - IE Cloche Compat - 2.1.7-dev.454
 immersiveengineering - Immersive Engineering - 0.12-91
 engineersdoors - Engineer's Doors - 0.8.0
 engineersworkshop - Engineer's Workshop Reborn - 1.0.9.40
 valkyrielib - Valkyrie Lib - 1.12.2-2.0.20.1
 environmentaltech - Environmental Tech - 1.12.2-2.0.20.1
-wanionlib - WanionLib - 1.12.2-2.2
-eternalsingularity - Eternal Singularity - 1.12.2-.1.0.6
 etlunar - ET Lunar - 1.12.2-2.0.20.1
 extendedcrafting - Extended Crafting - 1.5.6
 extraanvils - Extra Anvils - @VERSION@
@@ -181,7 +178,7 @@ flatcoloredblocks - Flat Colored Blocks - mc1.12-6.8
 mcmultipart - MCMultiPart - 2.5.3
 mekanism - Mekanism - 1.12.2-9.8.1.383
 sonarcore - SonarCore - 5.0.19
-fluxnetworks - Flux Networks - 3.0.19
+fluxnetworks - Flux Networks - 4.0.6
 foamfix - FoamFix - 0.10.5-1.12.2
 ftbbanners - FTB Banners - 1.1.0.12
 ftbutilities - FTB Utilities - 5.4.0.105
@@ -196,7 +193,6 @@ hydrogel - HydroGel - 1.1.0
 igi|bloodmagicintegration - InGameInfoXML Blood Magic Integration - 1.2
 igi|deepresonanceintegration - InGameInfo-XML Deep Resonance Integration - 1.1
 igi|thaumcraft - InGameInfoXML Thaumcraft Integration - 1.0a
-igwmod - In-Game wiki Mod - 1.4.4-15
 immersivecables - Immersive Cables - 1.3.2
 immersivepetroleum - Immersive Petroleum - 1.1.9
 immersivetech - Immersive Tech - 1.3.10
@@ -260,12 +256,6 @@ multithreadednoise - Multithreaded Noise - 0.0.2
 thaumicperiphery - Thaumic Periphery - 0.3.1
 mystgears - Mystical Gears - 1.0.5
 naturalpledge - Natural Pledge - 3.0.3
-redstonearsenal - Redstone Arsenal - 2.6.3
-redstonerepository - Redstone Repository - 1.3.2
-thermaldynamics - Thermal Dynamics - 2.5.5
-simplyjetpacks - Simply Jetpacks 2 - 2.2.13.66
-plustic - PlusTiC - 7.1.5.0
-netherendingores - Netherending Ores - 1.12.2-1.3-hotfix1
 netherportalfix - NetherPortalFix - 5.3.17
 nonausea - NoNausea - 1.0
 notenoughwands - Not Enough Wands - 1.8.1
@@ -286,6 +276,11 @@ packmode - PackMode - 1.2.0
 planarartifice - Planar Artifice - 0.13
 plethora-core - Plethora Core - 1.2.2
 plethora - Plethora - 1.2.2
+redstonearsenal - Redstone Arsenal - 2.6.3
+redstonerepository - Redstone Repository - 1.3.2
+thermaldynamics - Thermal Dynamics - 2.5.5
+simplyjetpacks - Simply Jetpacks 2 - 2.2.13.66
+plustic - PlusTiC - 7.1.5.0
 teslathingies - Tesla Powered Thingies - 1.0.15
 psipherals - Psionic Peripherals - 1.1.0
 randomconfigs - RandomConfigs - 1.12.2-1.3.2.3
@@ -297,6 +292,7 @@ redstonepcb - Redstone PCB - 0.2
 xreliquary - Reliquary - 1.12.2-1.3.4.796
 requious - Requious Frakto - 1.0
 resourceloader - Resource Loader - 1.5.3
+bq_rf - RF Expansion - CI_MOD_VERSION
 rftoolscontrol - RFTools Control - 2.0.2
 rftoolspower - RFToolsPower - 1.2.0
 rftpwroc - RFTools Power / OC Integration - 0.1
@@ -305,10 +301,9 @@ schematica - Schematica - 1.8.0.169
 simple_trophies - Simple Trophies - 1.2.1
 soot - Soot - 1.6
 spikemod - Spike Mod - 1.12-2.1.0
-bq_standard - Standard Expansion - 3.4.164
+bq_standard - Standard Expansion - 3.4.165
 stellarfluidconduits - Stellar Fluid Conduits - 1.12.2-1.0.0
 stevescarts - Steve's Carts 2 - 2.4.31.135
-sct - Stone Crafting Table - 1.0.3
 storagedrawersextra - Storage Drawers Extras - @VERSION@
 superfactorymanager - Super Factory Manager - @VERSION@
 supersoundmuffler - Super Sound Muffler - 1.0.2.10
