@@ -5,9 +5,9 @@ recipes.removeShaped(<minecraft:furnace>);
 recipes.removeShaped(<minecraft:chest>);
 
 recipes.addShaped("Furnace", <minecraft:furnace>, [
-	[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>],
-	[<tconstruct:seared>, null, <tconstruct:seared>],
-	[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>]
+	[<tconstruct:seared>, <tconstruct:seared:1>, <tconstruct:seared>],
+	[<tconstruct:seared:1>, null, <tconstruct:seared:1>],
+	[<tconstruct:seared>, <tconstruct:seared:1>, <tconstruct:seared>]
 ]);
 
 recipes.addShaped("Chest", <minecraft:chest>, [
