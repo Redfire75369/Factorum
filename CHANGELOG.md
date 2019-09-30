@@ -11,22 +11,29 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 ### Added
+- Mods: Better Questing - Forestry Expansion; version 
 - Mods: Better Questing - RF Expansion; version 3.4.31
 - Mods: ContentTweaker; version 1.12.2-4.9.1
+- Mods: Energy's Matter Core; version 0.1-8a9d13e
+- Mods: Energy's Matter; version 0.1-8a9d13e
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
 - Mods: Just Enough Petroleum; version 0.1
+- Mods: LootTableTweaker; version 
 - Mods: Magneticraft; version 1.12-2.8.1-dev
-- Mods: ModelLoader; version 
+- Mods: ModelLoader; version 1.1.7
 - Mods: PackMode; version 1.12.2-1.2.0
 - Mods: Powered Thingies; version 1.12.2-1.0.15
 - Mods: Redstone PCB; version 0.2
 - Mods: Requious Frakto; version 0.5
+- Mods: Scavenge; version 
 - Scripts: Added ContentTweaker Scripts
 - Scripts: Added MekaTweaker Scripts
 - Scripts: Removed Recipes for rest of materials
+- Scripts: Modified Tinkers' Construct Recipes
 
 ### Changed
+- Config: Added PackModes
 - Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
 - Mods: Actually Additions; updated to 1.12.2-r150
 - Mods: Apotheosis; updated to 1.12.2-1.10.5

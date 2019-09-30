@@ -115,6 +115,8 @@
 | [Ender Storage]() | 
 | [Ender Utilities]() | 1.12.2-0.7.14 |
 | [Ender Zoo]() | 
+| [Energy's Matter]() |
+| [Energy's Matter Core]() |
 | [Engineer's Doors]() | 
 | [Engineer's Workshop Reborn]() | 
 | [Environmental Tech]() | 

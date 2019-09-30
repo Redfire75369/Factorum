@@ -1,8 +1,102 @@
 #loader crafttweaker
 #priority -10102
 
+recipes.addShaped("seared_brick", <tconstruct:materials>, [
+	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>],
+	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>]
+]);
+mods.inworldcrafting.FluidToFluid.transform(<liquid:wood_fuel>, <liquid:water>, [<contenttweaker:low_grade_charcoal> * 4], true);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:seared_shard>, <liquid:fire_water>, [<minecraft:cobblestone>], false);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:low_grade_charcoal>, <liquid:fire_water>, [oreDict["logWood"]], false);
+
+mods.tconstruct.Drying.addRecipe(<contenttweaker:dried_paste>, <contenttweaker:mud>, 100);
+mods.tconstruct.Drying.addRecipe(<contenttweaker:dried_paste>, <contenttweaker:seared_paste>, 100);
+
+recipes.remove(<tconstruct:pattern>);
+recipes.remove(<tconstruct:toolforge:*>);
+recipes.remove(<tconstruct:tooltables:*>);
+for item in loadedMods("tconstruct").items {
+	if (item.commandString has "tconstruct:toolforge" && item.tag != {textureBlock: {id: ""minecraft:iron_block"", Count: 1 as byte, Damage: 0 as short}} {
+		mods.jei.JEI.hide(item);
+	}
+	if (item.commandString has "tconstruct:tooltables:1" && item.tag != {textureBlock: {id: ""minecraft:planks"", Count: 1 as byte, Damage: 0 as short}} {
+		mods.jei.JEI.hide(item);
+	}
+	if (item.commandString has "tconstruct:tooltables:2" && item.tag != {textureBlock: {id: ""minecraft:log"", Count: 1 as byte, Damage: 0 as short}} {
+		mods.jei.JEI.hide(item);
+	}
+}
+recipes.addShaped("blank_pattern", <tconstruct:pattern> * 2, [
+	[oreDict["plankWood"], <minecraft:stick>],
+	[<minecraft:stick>, oreDict["plankWood"]]
+]);
+recipes.addShaped("tool_forge", <tconstruct:toolforge>.withTag({textureBlock: {id: ""minecraft:iron_block"", Count: 1 as byte, Damage: 0 as short}}), [
+	[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>],
+	[hashBlock["Bronze"], <tconstruct:tooltables:3>, hashBlock["Bronze"]],
+	[hashBlock["Bronze"], null, hashBlock["Bronze"]]
+]);
+recipes.addShaped("crafting_station", <tconstruct:tooltables>, [
+	[<minecraft:flint>, <minecraft:crafting_table>, <minecraft:flint>]
+]);
+recipes.addShaped("stencil_table", <tconstruct:tooltables:1>.withTag({textureBlock: {id: ""minecraft:planks"", Count: 1 as byte, Damage: 0 as short}}), [
+	[<tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>],
+	[oreDict["plankWood"], <minecraft:crafting_table>, oreDict["plankWood"]],
+	[oreDict["plankWood"], null, oreDict["plankWood"]]
+]);
+recipes.addShaped("part_builder", <tconstruct:tooltables:2>.withTag({textureBlock: {id: ""minecraft:log"", Count: 1 as byte, Damage: 0 as short}}), [
+	[<tconstruct:pattern>, <minecraft:flint>, <tconstruct:pattern>],
+	[oreDict["logWood"], <minecraft:crafting_table>, oreDict["logWood"]],
+	[oreDict["logWood"], null, oreDict["logWood"]]
+]);
+recipes.addShaped("tool_station", <tconstruct:tooltables:3>.withTag({textureBlock: {id: ""minecraft:log"", Count: 1 as byte, Damage: 0 as short}}), [
+	[<tconstruct:pattern>, <minecraft:stone_pickaxe>, <tconstruct:pattern>],
+	[<minecraft:stick>, <minecraft:crafting_table>, <minecraft:stick>],
+	[oreDict["plankWood"] , null, oreDict["plankWood"]]
+]);
+recipes.addShaped("pattern_chest", <tconstruct:tooltables:4>, [
+	[<tconstruct:pattern>, <tconstruct:pattern>.withTag({PartType: ""tconstruct:tool_rod""}), <tconstruct:pattern>],
+	[<tconstruct:pattern>.withTag({PartType: ""tconstruct:pick_head""}), <minecraft:chest>, <tconstruct:pattern>.withTag({PartType: ""tconstruct:axe_head""})],
+	[<tconstruct:pattern>, <tconstruct:pattern>.withTag({PartType: ""tconstruct:sword_blade""}), <tconstruct:pattern>]
+]);
+recipes.addShaped("part_chest", <tconstruct:tooltables:5>, [
+	[oreDict["plankWood"], <tconstruct:tool_rod>.withTag({Material: ""cactus""}), oreDict["plankWood"]],
+	[<tconstruct:pick_head>.withTag({Material: ""flint""}), <minecraft:chest>, <tconstruct:axe_head>.withTag({Material: ""stone""})],
+	[oreDict["plankWood"], <tconstruct:sword_blade>.withTag({Material: ""bone""}), oreDict["plankWood"]]
+]);
+
+recipes.remove(<tconstruct:throwball:*>);
+recipes.remove(<tconstruct:wood_rail>);
+recipes.remove(<tconstruct:wood_rail_trapdoor>);
+recipes.remove(<tconstruct:wooden_hopper>);
+
+recipes.addShaped("glowball", <tconstruct:throwball> * 4, [
+	[hashDust["Glowstone"], <minecraft:snowball>, hashDust["Glowstone"]],
+	[<minecraft:snowball>, null, <minecraft:snowball>],
+	[hashDust["Glowstone"], <minecraft:snowball>, hashDust["Glowstone"]]
+]);
+recipes.addShaped("efln", <tconstruct:throwball:1> * 16, [
+	[<minecraft:flint>, <minecraft:gunpowder>, <minecraft:flint>],
+	[<minecraft:gunpowder>, null, <minecraft:gunpowder>],
+	[<minecraft:flint>, <minecraft:gunpowder>, <minecraft:flint>]
+]);
+recipes.addShaped("wooden_rail", <tconstruct:wood_rail>, [
+	[<minecraft:stick>, null, <minecraft:stick>],
+	[<minecraft:stick>, oreDict["plankWood"], <minecraft:stick>],
+	[<minecraft:stick>, null, <minecraft:stick>]
+]);
+recipes.addShaped("wooden_rail_trapdoor", <tconstruct:wood_rail_trapdoor>, [
+	[<minecraft:stick>, <minecraft:trapdoor:*>, <minecraft:stick>],
+	[<minecraft:stick>, oreDict["plankWood"], <minecraft:stick>],
+	[<minecraft:stick>, <minecraft:trapdoor:*>, <minecraft:stick>]
+]);
+recipes.addShaped("wooden_hopper", <tconstruct:wooden_hopper>, [
+	[oreDict["plankWood"], <minecraft:trapdoor:*>, oreDict["plankWood"]],
+	[oreDict["plankWood"], <minecraft:chest>, oreDict["plankWood"]],
+	[null, <minecraft:chest>, null]
+]);
+
 recipes.remove(<tconstruct:deco_ground>);
-recipes.remove(<tconstruct:dried_clay>);
+recipes.remove(<tconstruct:dried_clay:1>);
 recipes.remove(<tconstruct:seared:*>);
 recipes.remove(<tconstruct:seared_furnace_controller>);
 recipes.remove(<tconstruct:seared_glass>);
@@ -108,10 +202,3 @@ recipes.addShaped("tinker_tank", <tconstruct:tinker_tank_controller>, [
 	[<tconstruct:seared_tank:1>, <minecraft:bucket>, <tconstruct:seared_tank>],
 	[<tconstruct:seared:9>, <tconstruct:seared_tank:2>, <tconstruct:seared:9>]
 ]);
-
-recipes.addShaped("seared_brick", <tconstruct:materials>, [
-	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>],
-	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>]
-]);
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:seared_shard>, <liquid:fire_water>, [<minecraft:cobblestone>], false);
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:low_grade_charcoal>, <liquid:fire_water>, [oreDict["logWood"]], false);
