@@ -1,0 +1,29 @@
+{
+  "groups:9": {
+    "0:10": {
+      "name:8": "Ender IO Custom Capacitors",
+      "weight:3": 1,
+      "ID:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "loottable:8": "minecraft:chests/desert_temple"
+              },
+              "Damage:2": 103,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

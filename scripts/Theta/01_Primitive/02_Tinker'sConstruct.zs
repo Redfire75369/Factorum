@@ -15,14 +15,14 @@ mods.tconstruct.Drying.addRecipe(<contenttweaker:dried_paste>, <contenttweaker:s
 recipes.remove(<tconstruct:pattern>);
 recipes.remove(<tconstruct:toolforge:*>);
 recipes.remove(<tconstruct:tooltables:*>);
-for item in loadedMods("tconstruct").items {
-	if (item.commandString has "tconstruct:toolforge" && item.tag != {textureBlock: {id: ""minecraft:iron_block"", Count: 1 as byte, Damage: 0 as short}} {
+for item in loadedMods["tconstruct"].items {
+	if (item.commandString has "tconstruct:toolforge" && item.tag != {textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}) {
 		mods.jei.JEI.hide(item);
 	}
-	if (item.commandString has "tconstruct:tooltables:1" && item.tag != {textureBlock: {id: ""minecraft:planks"", Count: 1 as byte, Damage: 0 as short}} {
+	if (item.commandString has "tconstruct:tooltables:1" && item.tag != {textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}) {
 		mods.jei.JEI.hide(item);
 	}
-	if (item.commandString has "tconstruct:tooltables:2" && item.tag != {textureBlock: {id: ""minecraft:log"", Count: 1 as byte, Damage: 0 as short}} {
+	if (item.commandString has "tconstruct:tooltables:2" && item.tag != {textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}) {
 		mods.jei.JEI.hide(item);
 	}
 }
@@ -30,7 +30,7 @@ recipes.addShaped("blank_pattern", <tconstruct:pattern> * 2, [
 	[oreDict["plankWood"], <minecraft:stick>],
 	[<minecraft:stick>, oreDict["plankWood"]]
 ]);
-recipes.addShaped("tool_forge", <tconstruct:toolforge>.withTag({textureBlock: {id: ""minecraft:iron_block"", Count: 1 as byte, Damage: 0 as short}}), [
+recipes.addShaped("tool_forge", <tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}), [
 	[<tconstruct:seared>, <tconstruct:seared>, <tconstruct:seared>],
 	[hashBlock["Bronze"], <tconstruct:tooltables:3>, hashBlock["Bronze"]],
 	[hashBlock["Bronze"], null, hashBlock["Bronze"]]
@@ -38,30 +38,30 @@ recipes.addShaped("tool_forge", <tconstruct:toolforge>.withTag({textureBlock: {i
 recipes.addShaped("crafting_station", <tconstruct:tooltables>, [
 	[<minecraft:flint>, <minecraft:crafting_table>, <minecraft:flint>]
 ]);
-recipes.addShaped("stencil_table", <tconstruct:tooltables:1>.withTag({textureBlock: {id: ""minecraft:planks"", Count: 1 as byte, Damage: 0 as short}}), [
+recipes.addShaped("stencil_table", <tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}), [
 	[<tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>],
 	[oreDict["plankWood"], <minecraft:crafting_table>, oreDict["plankWood"]],
 	[oreDict["plankWood"], null, oreDict["plankWood"]]
 ]);
-recipes.addShaped("part_builder", <tconstruct:tooltables:2>.withTag({textureBlock: {id: ""minecraft:log"", Count: 1 as byte, Damage: 0 as short}}), [
+recipes.addShaped("part_builder", <tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}), [
 	[<tconstruct:pattern>, <minecraft:flint>, <tconstruct:pattern>],
 	[oreDict["logWood"], <minecraft:crafting_table>, oreDict["logWood"]],
 	[oreDict["logWood"], null, oreDict["logWood"]]
 ]);
-recipes.addShaped("tool_station", <tconstruct:tooltables:3>.withTag({textureBlock: {id: ""minecraft:log"", Count: 1 as byte, Damage: 0 as short}}), [
+recipes.addShaped("tool_station", <tconstruct:tooltables:3>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}), [
 	[<tconstruct:pattern>, <minecraft:stone_pickaxe>, <tconstruct:pattern>],
 	[<minecraft:stick>, <minecraft:crafting_table>, <minecraft:stick>],
 	[oreDict["plankWood"] , null, oreDict["plankWood"]]
 ]);
 recipes.addShaped("pattern_chest", <tconstruct:tooltables:4>, [
-	[<tconstruct:pattern>, <tconstruct:pattern>.withTag({PartType: ""tconstruct:tool_rod""}), <tconstruct:pattern>],
-	[<tconstruct:pattern>.withTag({PartType: ""tconstruct:pick_head""}), <minecraft:chest>, <tconstruct:pattern>.withTag({PartType: ""tconstruct:axe_head""})],
-	[<tconstruct:pattern>, <tconstruct:pattern>.withTag({PartType: ""tconstruct:sword_blade""}), <tconstruct:pattern>]
+	[<tconstruct:pattern>, <tconstruct:pattern>.withTag({PartType: "tconstruct:tool_rod"}), <tconstruct:pattern>],
+	[<tconstruct:pattern>.withTag({PartType: "tconstruct:pick_head"}), <minecraft:chest>, <tconstruct:pattern>.withTag({PartType: "tconstruct:axe_head"})],
+	[<tconstruct:pattern>, <tconstruct:pattern>.withTag({PartType: "tconstruct:sword_blade"}), <tconstruct:pattern>]
 ]);
 recipes.addShaped("part_chest", <tconstruct:tooltables:5>, [
-	[oreDict["plankWood"], <tconstruct:tool_rod>.withTag({Material: ""cactus""}), oreDict["plankWood"]],
-	[<tconstruct:pick_head>.withTag({Material: ""flint""}), <minecraft:chest>, <tconstruct:axe_head>.withTag({Material: ""stone""})],
-	[oreDict["plankWood"], <tconstruct:sword_blade>.withTag({Material: ""bone""}), oreDict["plankWood"]]
+	[oreDict["plankWood"], <tconstruct:tool_rod>.withTag({Material: "cactus"}), oreDict["plankWood"]],
+	[<tconstruct:pick_head>.withTag({Material: "flint"}), <minecraft:chest>, <tconstruct:axe_head>.withTag({Material: "stone"})],
+	[oreDict["plankWood"], <tconstruct:sword_blade>.withTag({Material: "bone"}), oreDict["plankWood"]]
 ]);
 
 recipes.remove(<tconstruct:throwball:*>);
@@ -152,9 +152,9 @@ recipes.addShaped("seared_brick_triangle", <tconstruct:seared:9>, [
 	[<tconstruct:seared:3>, null, <tconstruct:seared:3>]
 ]);
 recipes.addShaped("seared_brick_small", <tconstruct:seared:10>, [
-	[<tconstruct:seared:3>, <tconstruct:seared:3, <tconstruct:seared:3>],
-	[<tconstruct:seared:3>, <tconstruct:seared:3, <tconstruct:seared:3>],
-	[<tconstruct:seared:3>, <tconstruct:seared:3, <tconstruct:seared:3>]
+	[<tconstruct:seared:3>, <tconstruct:seared:3>, <tconstruct:seared:3>],
+	[<tconstruct:seared:3>, <tconstruct:seared:3>, <tconstruct:seared:3>],
+	[<tconstruct:seared:3>, <tconstruct:seared:3>, <tconstruct:seared:3>]
 ]);
 recipes.addShaped("seared_tile", <tconstruct:seared:11>, [
 	[<tconstruct:seared:7>, <tconstruct:seared:7>],
@@ -173,7 +173,7 @@ recipes.addShaped("seared_tank", <tconstruct:seared_tank>, [
 ]);
 recipes.addShaped("seared_gauge", <tconstruct:seared_tank:1>, [
 	[<tconstruct:materials>, hashBlock["Glass"] , <tconstruct:materials>],
-	[hashBlock["Glass"], <contenttweaker:seared_paste>, hashBlock["Glass"],
+	[hashBlock["Glass"], <contenttweaker:seared_paste>, hashBlock["Glass"]],
 	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>]
 ]);
 recipes.addShaped("seared_window", <tconstruct:seared_tank:2>, [

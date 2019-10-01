@@ -46,6 +46,7 @@
 | botany                            | Binnie's Botany                                         |
 | bq_rf                             | RF Expansion                                            |
 | bq_standard                       | Standard Expansion                                      |
+| bqforestry                        | BQ Forestry Expansion                                   |
 | brandonscore                      | Brandon's Core                                          |
 | buildinggadgets                   | Building Gadgets                                        |
 | caliper                           | Caliper                                                 |
@@ -113,6 +114,8 @@
 | endertweaker                      | EnderTweaker                                            |
 | enderutilities                    | Ender Utilities                                         |
 | enderzoo                          | Ender Zoo                                               |
+| energysmatter                     | Energy's Matter                                         |
+| energysmatter.asm                 | Energy's Matter Core                                    |
 | engineersdoors                    | Engineer's Doors                                        |
 | engineersworkshop                 | Engineer's Workshop Reborn                              |
 | environmentaltech                 | Environmental Tech                                      |
@@ -194,6 +197,7 @@
 | librarianlib                      | LibrarianLib                                            |
 | librarianliblate                  | LibrarianLib Stage 2                                    |
 | llibrary                          | LLibrary                                                |
+| lttweaker                         | Loot Table Tweaker                                      |
 | lunatriuscore                     | LunatriusCore                                           |
 | magicbees                         | MagicBees                                               |
 | magneticraft                      | Magneticraft                                            |
@@ -247,7 +251,6 @@
 | orechidendium                     | OrechidEndium                                           |
 | oredictinit                       | OreDictInit                                             |
 | oreexcavation                     | OreExcavation                                           |
-| orespawn                          | OreSpawn                                                |
 | overpoweredarmorbar               | Overloaded Armor Bar                                    |
 | p455w0rdslib                      | p455w0rd's Library                                      |
 | packagedauto                      | PackagedAuto                                            |

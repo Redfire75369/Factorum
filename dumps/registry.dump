@@ -1351,6 +1351,7 @@ conarm:armorstation
 conarm:soft_obsidian
 contenttweaker:block_burnt_wood
 contenttweaker:block_low_grade_charcoal
+contenttweaker:wood_fuel
 cookingforblockheads:cabinet
 cookingforblockheads:cooking_table
 cookingforblockheads:corner
@@ -9957,9 +9958,12 @@ contenttweaker:coin_technician
 contenttweaker:coin_technician_compressed
 contenttweaker:coin_technician_compressed_double
 contenttweaker:coin_technician_compressed_triple
+contenttweaker:dried_paste
 contenttweaker:file
 contenttweaker:low_grade_charcoal
+contenttweaker:mud
 contenttweaker:seared_paste
+contenttweaker:seared_shard
 contenttweaker:wrench
 contenttweaker:wyvern_ingot
 cookingforblockheads:cabinet
@@ -21171,8 +21175,8 @@ beeswax
 binnie_database
  - 1xitem.database@0
  - 1xitem.dictionary@0
- - 1xitem.databaseTree@0
  - 1xitem.databaseLepi@0
+ - 1xitem.databaseTree@0
 bioplastic
  - 1xitem.nuclearcraft.part@6
 blazePowder
@@ -28018,69 +28022,69 @@ essenceThoriumOxide
  - 1xitem.jaopca.essence@0
 essenceTier1
  - 1xitem.ma.wood_essence@0
- - 1xitem.ma.water_essence@0
- - 1xitem.ma.zombie_essence@0
- - 1xitem.ma.ice_essence@0
- - 1xitem.ma.stone_essence@0
  - 1xitem.ma.nature_essence@0
  - 1xitem.ma.dirt_essence@0
+ - 1xitem.ma.stone_essence@0
+ - 1xitem.ma.zombie_essence@0
+ - 1xitem.ma.ice_essence@0
+ - 1xitem.ma.water_essence@0
 essenceTier2
- - 1xitem.ma.limestone_essence@0
- - 1xitem.ma.grains_of_infinity_essence@0
- - 1xitem.ma.dye_essence@0
- - 1xitem.ma.silicon_essence@0
- - 1xitem.ma.slime_essence@0
- - 1xitem.ma.apatite_essence@0
- - 1xitem.ma.fire_essence@0
- - 1xitem.ma.sheep_essence@0
  - 1xitem.ma.mystical_flower_essence@0
- - 1xitem.ma.aluminum_brass_essence@0
- - 1xitem.ma.pig_essence@0
- - 1xitem.ma.aluminum_essence@0
- - 1xitem.ma.basalt_essence@0
- - 1xitem.ma.rubber_essence@0
- - 1xitem.ma.chicken_essence@0
- - 1xitem.ma.coal_essence@0
  - 1xitem.ma.marble_essence@0
- - 1xitem.ma.menril_essence@0
- - 1xitem.ma.sulfur_essence@0
- - 1xitem.ma.copper_essence@0
  - 1xitem.ma.nether_essence@0
+ - 1xitem.ma.silicon_essence@0
+ - 1xitem.ma.aluminum_brass_essence@0
+ - 1xitem.ma.coal_essence@0
  - 1xitem.ma.cow_essence@0
+ - 1xitem.ma.basalt_essence@0
+ - 1xitem.ma.dye_essence@0
+ - 1xitem.ma.aluminum_essence@0
+ - 1xitem.ma.pig_essence@0
+ - 1xitem.ma.chicken_essence@0
+ - 1xitem.ma.menril_essence@0
+ - 1xitem.ma.slime_essence@0
+ - 1xitem.ma.sulfur_essence@0
+ - 1xitem.ma.rubber_essence@0
+ - 1xitem.ma.grains_of_infinity_essence@0
+ - 1xitem.ma.limestone_essence@0
+ - 1xitem.ma.fire_essence@0
+ - 1xitem.ma.apatite_essence@0
+ - 1xitem.ma.sheep_essence@0
+ - 1xitem.ma.copper_essence@0
 essenceTier3
- - 1xitem.ma.basalz_essence@0
- - 1xitem.ma.blitz_essence@0
- - 1xitem.ma.lead_essence@0
- - 1xitem.ma.quicksilver_essence@0
- - 1xitem.ma.conductive_iron_essence@0
- - 1xitem.ma.obsidian_essence@0
- - 1xitem.ma.rabbit_essence@0
- - 1xitem.ma.tin_essence@0
- - 1xitem.ma.creeper_essence@0
- - 1xitem.ma.bronze_essence@0
- - 1xitem.ma.brass_essence@0
- - 1xitem.ma.redstone_alloy_essence@0
- - 1xitem.ma.certus_quartz_essence@0
- - 1xitem.ma.aquamarine_essence@0
- - 1xitem.ma.spider_essence@0
- - 1xitem.ma.black_quartz_essence@0
- - 1xitem.ma.guardian_essence@0
  - 1xitem.ma.ardite_essence@0
- - 1xitem.ma.manasteel_essence@0
- - 1xitem.ma.skeleton_essence@0
- - 1xitem.ma.redstone_essence@0
- - 1xitem.ma.silver_essence@0
+ - 1xitem.ma.blitz_essence@0
  - 1xitem.ma.zinc_essence@0
- - 1xitem.ma.iron_essence@0
+ - 1xitem.ma.skeleton_essence@0
+ - 1xitem.ma.quicksilver_essence@0
+ - 1xitem.ma.graphite_essence@0
+ - 1xitem.ma.manasteel_essence@0
  - 1xitem.ma.saltpeter_essence@0
+ - 1xitem.ma.lead_essence@0
+ - 1xitem.ma.guardian_essence@0
+ - 1xitem.ma.brass_essence@0
+ - 1xitem.ma.glowstone_essence@0
+ - 1xitem.ma.redstone_alloy_essence@0
+ - 1xitem.ma.tin_essence@0
+ - 1xitem.ma.iron_essence@0
+ - 1xitem.ma.silver_essence@0
  - 1xitem.ma.knightslime_essence@0
  - 1xitem.ma.thaumium_essence@0
- - 1xitem.ma.blizz_essence@0
- - 1xitem.ma.nether_quartz_essence@0
- - 1xitem.ma.graphite_essence@0
+ - 1xitem.ma.aquamarine_essence@0
+ - 1xitem.ma.redstone_essence@0
+ - 1xitem.ma.rabbit_essence@0
+ - 1xitem.ma.bronze_essence@0
+ - 1xitem.ma.creeper_essence@0
+ - 1xitem.ma.basalz_essence@0
  - 1xitem.ma.sky_stone_essence@0
- - 1xitem.ma.glowstone_essence@0
+ - 1xitem.ma.conductive_iron_essence@0
+ - 1xitem.ma.obsidian_essence@0
+ - 1xitem.ma.black_quartz_essence@0
+ - 1xitem.ma.nether_quartz_essence@0
  - 1xitem.ma.electrical_steel_essence@0
+ - 1xitem.ma.spider_essence@0
+ - 1xitem.ma.blizz_essence@0
+ - 1xitem.ma.certus_quartz_essence@0
  - 1xitem.jaopca.essence@0
  - 1xitem.jaopca.essence@0
  - 1xitem.jaopca.essence@0
@@ -28168,69 +28172,69 @@ essenceTier3
  - 1xitem.jaopca.essence@0
  - 1xitem.jaopca.essence@0
 essenceTier4
- - 1xitem.ma.end_essence@0
- - 1xitem.ma.ruby_essence@0
- - 1xitem.ma.osmium_essence@0
- - 1xitem.ma.fluxed_electrum_essence@0
- - 1xitem.ma.hop_graphite_essence@0
- - 1xitem.ma.experience_essence@0
- - 1xitem.ma.elementium_essence@0
- - 1xitem.ma.signalum_essence@0
- - 1xitem.ma.thorium_essence@0
- - 1xitem.ma.ghast_essence@0
- - 1xitem.ma.cobalt_essence@0
- - 1xitem.ma.fluix_essence@0
- - 1xitem.ma.steel_essence@0
- - 1xitem.ma.void_metal_essence@0
- - 1xitem.ma.enderman_essence@0
- - 1xitem.ma.dark_steel_essence@0
  - 1xitem.ma.glowstone_ingot_essence@0
- - 1xitem.ma.invar_essence@0
- - 1xitem.ma.peridot_essence@0
- - 1xitem.ma.lapis_lazuli_essence@0
- - 1xitem.ma.boron_essence@0
- - 1xitem.ma.blaze_essence@0
- - 1xitem.ma.pulsating_iron_essence@0
- - 1xitem.ma.sapphire_essence@0
- - 1xitem.ma.soularium_essence@0
- - 1xitem.ma.lumium_essence@0
- - 1xitem.ma.gold_essence@0
- - 1xitem.ma.constantan_essence@0
  - 1xitem.ma.dawnstone_essence@0
- - 1xitem.ma.lithium_essence@0
+ - 1xitem.ma.fluxed_electrum_essence@0
+ - 1xitem.ma.elementium_essence@0
  - 1xitem.ma.electrum_essence@0
- - 1xitem.ma.compressed_iron_essence@0
- - 1xitem.ma.nickel_essence@0
- - 1xitem.ma.alumite_essence@0
+ - 1xitem.ma.signalum_essence@0
+ - 1xitem.ma.peridot_essence@0
+ - 1xitem.ma.end_essence@0
+ - 1xitem.ma.gold_essence@0
+ - 1xitem.ma.boron_essence@0
+ - 1xitem.ma.invar_essence@0
+ - 1xitem.ma.energetic_alloy_essence@0
+ - 1xitem.ma.constantan_essence@0
+ - 1xitem.ma.dark_steel_essence@0
+ - 1xitem.ma.osmium_essence@0
+ - 1xitem.ma.lithium_essence@0
+ - 1xitem.ma.lumium_essence@0
+ - 1xitem.ma.lapis_lazuli_essence@0
+ - 1xitem.ma.sapphire_essence@0
  - 1xitem.ma.mithril_essence@0
  - 1xitem.ma.magnesium_essence@0
+ - 1xitem.ma.ruby_essence@0
+ - 1xitem.ma.experience_essence@0
+ - 1xitem.ma.cobalt_essence@0
+ - 1xitem.ma.ghast_essence@0
  - 1xitem.ma.amber_essence@0
- - 1xitem.ma.energetic_alloy_essence@0
+ - 1xitem.ma.nickel_essence@0
+ - 1xitem.ma.blaze_essence@0
+ - 1xitem.ma.soularium_essence@0
+ - 1xitem.ma.alumite_essence@0
+ - 1xitem.ma.pulsating_iron_essence@0
+ - 1xitem.ma.thorium_essence@0
+ - 1xitem.ma.compressed_iron_essence@0
+ - 1xitem.ma.fluix_essence@0
+ - 1xitem.ma.steel_essence@0
+ - 1xitem.ma.hop_graphite_essence@0
+ - 1xitem.ma.void_metal_essence@0
+ - 1xitem.ma.enderman_essence@0
 essenceTier5
- - 1xitem.ma.platinum_essence@0
- - 1xitem.ma.wither_skeleton_essence@0
- - 1xitem.ma.refined_obsidian_essence@0
- - 1xitem.ma.draconium_essence@0
- - 1xitem.ma.chrome_essence@0
- - 1xitem.ma.yellorium_essence@0
- - 1xitem.ma.manyullyn_essence@0
- - 1xitem.ma.end_steel_essence@0
- - 1xitem.ma.emerald_essence@0
- - 1xitem.ma.iridium_essence@0
- - 1xitem.ma.vibrant_alloy_essence@0
- - 1xitem.ma.tungsten_essence@0
- - 1xitem.ma.rock_crystal_essence@0
- - 1xitem.ma.titanium_essence@0
  - 1xitem.ma.uranium_essence@0
- - 1xitem.ma.diamond_essence@0
- - 1xitem.ma.terrasteel_essence@0
- - 1xitem.ma.enderium_essence@0
+ - 1xitem.ma.draconium_essence@0
+ - 1xitem.ma.vibrant_alloy_essence@0
+ - 1xitem.ma.titanium_essence@0
+ - 1xitem.ma.tungsten_essence@0
+ - 1xitem.ma.platinum_essence@0
+ - 1xitem.ma.end_steel_essence@0
  - 1xitem.ma.starmetal_essence@0
+ - 1xitem.ma.manyullyn_essence@0
+ - 1xitem.ma.emerald_essence@0
+ - 1xitem.ma.yellorium_essence@0
+ - 1xitem.ma.diamond_essence@0
+ - 1xitem.ma.rock_crystal_essence@0
+ - 1xitem.ma.refined_obsidian_essence@0
+ - 1xitem.ma.wither_skeleton_essence@0
+ - 1xitem.ma.chrome_essence@0
+ - 1xitem.ma.iridium_essence@0
+ - 1xitem.ma.enderium_essence@0
+ - 1xitem.ma.terrasteel_essence@0
 essenceTier6
  - 1xitem.ma.dragon_egg_essence@0
  - 1xitem.ma.neutronium_essence@0
- - 1xitem.ma.awakened_draconium_essence@0
  - 1xitem.ma.nether_star_essence@0
+ - 1xitem.ma.awakened_draconium_essence@0
 essenceTinSilver
  - 1xitem.jaopca.essence@0
 essenceTough
@@ -29396,9 +29400,9 @@ gemAether
 gemAgate
 gemAlexandrite
 gemAll
- - 1xitem.bewitchment.amethyst@0
  - 1xitem.bewitchment.garnet@0
  - 1xitem.bewitchment.opal@0
+ - 1xitem.bewitchment.amethyst@0
  - 1xitem.netherquartz@0
  - 1xitem.diamond@0
  - 1xitem.emerald@0
@@ -29873,7 +29877,6 @@ glowstone
  - 1xtile.chisel.glowstone@14
  - 1xtile.chisel.glowstone@15
  - 1xtile.chisel.glowstone@0
-goggles
 goldweave
  - 1xitem.material@7
 grass
@@ -31006,13 +31009,13 @@ listAllpepper
  - 1xitem.food@55
 listAllsalt
 listAllseed
- - 1xitem.bewitchment.aconitum_seeds@0
+ - 1xitem.bewitchment.belladonna_seeds@0
  - 1xitem.bewitchment.mandrake_seeds@0
+ - 1xitem.bewitchment.aconitum_seeds@0
+ - 1xitem.bewitchment.garlic_seeds@0
+ - 1xitem.bewitchment.wormwood_seeds@0
  - 1xitem.bewitchment.white_sage_seeds@0
  - 1xitem.bewitchment.hellebore_seeds@0
- - 1xitem.bewitchment.wormwood_seeds@0
- - 1xitem.bewitchment.garlic_seeds@0
- - 1xitem.bewitchment.belladonna_seeds@0
  - 1xitem.aubergine_seed@0
 listAllspice
  - 1xitem.food@36
@@ -31153,7 +31156,6 @@ manaPearl
  - 1xitem.manaResource@1
 manaString
  - 1xitem.manaResource@16
-mask
 materialBeesax
 materialBeeswax
  - 1xitem.bewitchment.tallow@0
@@ -31608,22 +31610,22 @@ netherrack
  - 1xtile.chisel.netherrack@13
  - 1xtile.hellrock@32767
 nitor
- - 1xtile.nitor_silver@0
+ - 1xtile.nitor_lime@0
+ - 1xtile.nitor_lightblue@0
+ - 1xtile.nitor_red@0
  - 1xtile.nitor_cyan@0
  - 1xtile.nitor_gray@0
- - 1xtile.nitor_blue@0
- - 1xtile.nitor_green@0
  - 1xtile.nitor_black@0
- - 1xtile.nitor_white@0
+ - 1xtile.nitor_pink@0
+ - 1xtile.nitor_silver@0
+ - 1xtile.nitor_green@0
  - 1xtile.nitor_orange@0
  - 1xtile.nitor_magenta@0
- - 1xtile.nitor_lightblue@0
- - 1xtile.nitor_purple@0
- - 1xtile.nitor_lime@0
- - 1xtile.nitor_pink@0
  - 1xtile.nitor_yellow@0
+ - 1xtile.nitor_white@0
+ - 1xtile.nitor_purple@0
+ - 1xtile.nitor_blue@0
  - 1xtile.nitor_brown@0
- - 1xtile.nitor_red@0
 nuggetAdaminite
  - 1xitem.thaumadditions:adaminite_nugget@0
 nuggetAdvancedAlloy
@@ -35232,69 +35234,69 @@ seedsStems
  - 1xitem.seeds_pumpkin@0
 seedsTier1
  - 1xitem.ma.wood_seeds@0
- - 1xitem.ma.ice_seeds@0
- - 1xitem.ma.nature_seeds@0
- - 1xitem.ma.water_seeds@0
- - 1xitem.ma.zombie_seeds@0
  - 1xitem.ma.stone_seeds@0
+ - 1xitem.ma.nature_seeds@0
+ - 1xitem.ma.zombie_seeds@0
  - 1xitem.ma.dirt_seeds@0
+ - 1xitem.ma.ice_seeds@0
+ - 1xitem.ma.water_seeds@0
 seedsTier2
- - 1xitem.ma.marble_seeds@0
- - 1xitem.ma.sheep_seeds@0
- - 1xitem.ma.rubber_seeds@0
- - 1xitem.ma.fire_seeds@0
- - 1xitem.ma.coal_seeds@0
- - 1xitem.ma.cow_seeds@0
- - 1xitem.ma.chicken_seeds@0
- - 1xitem.ma.aluminum_brass_seeds@0
- - 1xitem.ma.apatite_seeds@0
+ - 1xitem.ma.pig_seeds@0
  - 1xitem.ma.nether_seeds@0
  - 1xitem.ma.slime_seeds@0
- - 1xitem.ma.dye_seeds@0
- - 1xitem.ma.grains_of_infinity_seeds@0
- - 1xitem.ma.aluminum_seeds@0
- - 1xitem.ma.mystical_flower_seeds@0
  - 1xitem.ma.sulfur_seeds@0
- - 1xitem.ma.copper_seeds@0
+ - 1xitem.ma.rubber_seeds@0
+ - 1xitem.ma.aluminum_seeds@0
+ - 1xitem.ma.cow_seeds@0
  - 1xitem.ma.menril_seeds@0
- - 1xitem.ma.basalt_seeds@0
- - 1xitem.ma.pig_seeds@0
+ - 1xitem.ma.grains_of_infinity_seeds@0
+ - 1xitem.ma.dye_seeds@0
  - 1xitem.ma.limestone_seeds@0
+ - 1xitem.ma.mystical_flower_seeds@0
+ - 1xitem.ma.basalt_seeds@0
+ - 1xitem.ma.copper_seeds@0
  - 1xitem.ma.silicon_seeds@0
+ - 1xitem.ma.apatite_seeds@0
+ - 1xitem.ma.marble_seeds@0
+ - 1xitem.ma.chicken_seeds@0
+ - 1xitem.ma.aluminum_brass_seeds@0
+ - 1xitem.ma.fire_seeds@0
+ - 1xitem.ma.coal_seeds@0
+ - 1xitem.ma.sheep_seeds@0
 seedsTier3
- - 1xitem.ma.quicksilver_seeds@0
- - 1xitem.ma.spider_seeds@0
- - 1xitem.ma.basalz_seeds@0
- - 1xitem.ma.saltpeter_seeds@0
- - 1xitem.ma.redstone_seeds@0
- - 1xitem.ma.ardite_seeds@0
  - 1xitem.ma.iron_seeds@0
- - 1xitem.ma.sky_stone_seeds@0
- - 1xitem.ma.blizz_seeds@0
- - 1xitem.ma.guardian_seeds@0
- - 1xitem.ma.lead_seeds@0
- - 1xitem.ma.blitz_seeds@0
- - 1xitem.ma.aquamarine_seeds@0
  - 1xitem.ma.tin_seeds@0
- - 1xitem.ma.zinc_seeds@0
- - 1xitem.ma.redstone_alloy_seeds@0
- - 1xitem.ma.graphite_seeds@0
- - 1xitem.ma.silver_seeds@0
  - 1xitem.ma.obsidian_seeds@0
- - 1xitem.ma.knightslime_seeds@0
  - 1xitem.ma.manasteel_seeds@0
- - 1xitem.ma.creeper_seeds@0
- - 1xitem.ma.skeleton_seeds@0
- - 1xitem.ma.black_quartz_seeds@0
- - 1xitem.ma.electrical_steel_seeds@0
- - 1xitem.ma.glowstone_seeds@0
- - 1xitem.ma.thaumium_seeds@0
- - 1xitem.ma.nether_quartz_seeds@0
- - 1xitem.ma.rabbit_seeds@0
  - 1xitem.ma.brass_seeds@0
+ - 1xitem.ma.nether_quartz_seeds@0
+ - 1xitem.ma.spider_seeds@0
+ - 1xitem.ma.saltpeter_seeds@0
+ - 1xitem.ma.lead_seeds@0
+ - 1xitem.ma.rabbit_seeds@0
  - 1xitem.ma.conductive_iron_seeds@0
- - 1xitem.ma.certus_quartz_seeds@0
+ - 1xitem.ma.redstone_alloy_seeds@0
+ - 1xitem.ma.black_quartz_seeds@0
+ - 1xitem.ma.blizz_seeds@0
+ - 1xitem.ma.zinc_seeds@0
+ - 1xitem.ma.silver_seeds@0
+ - 1xitem.ma.electrical_steel_seeds@0
+ - 1xitem.ma.skeleton_seeds@0
+ - 1xitem.ma.sky_stone_seeds@0
+ - 1xitem.ma.blitz_seeds@0
  - 1xitem.ma.bronze_seeds@0
+ - 1xitem.ma.graphite_seeds@0
+ - 1xitem.ma.thaumium_seeds@0
+ - 1xitem.ma.glowstone_seeds@0
+ - 1xitem.ma.quicksilver_seeds@0
+ - 1xitem.ma.certus_quartz_seeds@0
+ - 1xitem.ma.knightslime_seeds@0
+ - 1xitem.ma.ardite_seeds@0
+ - 1xitem.ma.guardian_seeds@0
+ - 1xitem.ma.creeper_seeds@0
+ - 1xitem.ma.aquamarine_seeds@0
+ - 1xitem.ma.redstone_seeds@0
+ - 1xitem.ma.basalz_seeds@0
  - 1xitem.jaopca.mysticalSeeds@0
  - 1xitem.jaopca.mysticalSeeds@0
  - 1xitem.jaopca.mysticalSeeds@0
@@ -35382,68 +35384,68 @@ seedsTier3
  - 1xitem.jaopca.mysticalSeeds@0
  - 1xitem.jaopca.mysticalSeeds@0
 seedsTier4
- - 1xitem.ma.steel_seeds@0
- - 1xitem.ma.nickel_seeds@0
- - 1xitem.ma.fluix_seeds@0
- - 1xitem.ma.energetic_alloy_seeds@0
- - 1xitem.ma.compressed_iron_seeds@0
- - 1xitem.ma.magnesium_seeds@0
- - 1xitem.ma.elementium_seeds@0
- - 1xitem.ma.constantan_seeds@0
- - 1xitem.ma.peridot_seeds@0
- - 1xitem.ma.soularium_seeds@0
- - 1xitem.ma.lumium_seeds@0
- - 1xitem.ma.glowstone_ingot_seeds@0
- - 1xitem.ma.alumite_seeds@0
- - 1xitem.ma.fluxed_electrum_seeds@0
- - 1xitem.ma.lithium_seeds@0
- - 1xitem.ma.thorium_seeds@0
- - 1xitem.ma.experience_seeds@0
- - 1xitem.ma.invar_seeds@0
- - 1xitem.ma.ghast_seeds@0
- - 1xitem.ma.osmium_seeds@0
- - 1xitem.ma.amber_seeds@0
- - 1xitem.ma.lapis_lazuli_seeds@0
- - 1xitem.ma.blaze_seeds@0
- - 1xitem.ma.enderman_seeds@0
- - 1xitem.ma.hop_graphite_seeds@0
- - 1xitem.ma.pulsating_iron_seeds@0
- - 1xitem.ma.gold_seeds@0
- - 1xitem.ma.electrum_seeds@0
- - 1xitem.ma.dark_steel_seeds@0
- - 1xitem.ma.void_metal_seeds@0
- - 1xitem.ma.ruby_seeds@0
- - 1xitem.ma.boron_seeds@0
- - 1xitem.ma.signalum_seeds@0
  - 1xitem.ma.cobalt_seeds@0
- - 1xitem.ma.dawnstone_seeds@0
+ - 1xitem.ma.void_metal_seeds@0
+ - 1xitem.ma.boron_seeds@0
+ - 1xitem.ma.experience_seeds@0
+ - 1xitem.ma.alumite_seeds@0
+ - 1xitem.ma.ghast_seeds@0
+ - 1xitem.ma.fluix_seeds@0
+ - 1xitem.ma.pulsating_iron_seeds@0
  - 1xitem.ma.end_seeds@0
+ - 1xitem.ma.compressed_iron_seeds@0
  - 1xitem.ma.sapphire_seeds@0
+ - 1xitem.ma.osmium_seeds@0
+ - 1xitem.ma.blaze_seeds@0
+ - 1xitem.ma.nickel_seeds@0
+ - 1xitem.ma.fluxed_electrum_seeds@0
+ - 1xitem.ma.gold_seeds@0
+ - 1xitem.ma.enderman_seeds@0
+ - 1xitem.ma.ruby_seeds@0
+ - 1xitem.ma.electrum_seeds@0
+ - 1xitem.ma.invar_seeds@0
+ - 1xitem.ma.dark_steel_seeds@0
+ - 1xitem.ma.constantan_seeds@0
+ - 1xitem.ma.dawnstone_seeds@0
+ - 1xitem.ma.elementium_seeds@0
+ - 1xitem.ma.signalum_seeds@0
+ - 1xitem.ma.steel_seeds@0
+ - 1xitem.ma.energetic_alloy_seeds@0
  - 1xitem.ma.mithril_seeds@0
+ - 1xitem.ma.lumium_seeds@0
+ - 1xitem.ma.soularium_seeds@0
+ - 1xitem.ma.glowstone_ingot_seeds@0
+ - 1xitem.ma.amber_seeds@0
+ - 1xitem.ma.magnesium_seeds@0
+ - 1xitem.ma.peridot_seeds@0
+ - 1xitem.ma.hop_graphite_seeds@0
+ - 1xitem.ma.lapis_lazuli_seeds@0
+ - 1xitem.ma.thorium_seeds@0
+ - 1xitem.ma.lithium_seeds@0
 seedsTier5
- - 1xitem.ma.tungsten_seeds@0
- - 1xitem.ma.diamond_seeds@0
- - 1xitem.ma.emerald_seeds@0
- - 1xitem.ma.starmetal_seeds@0
  - 1xitem.ma.wither_skeleton_seeds@0
- - 1xitem.ma.iridium_seeds@0
- - 1xitem.ma.terrasteel_seeds@0
- - 1xitem.ma.rock_crystal_seeds@0
  - 1xitem.ma.draconium_seeds@0
- - 1xitem.ma.yellorium_seeds@0
- - 1xitem.ma.enderium_seeds@0
- - 1xitem.ma.vibrant_alloy_seeds@0
- - 1xitem.ma.refined_obsidian_seeds@0
- - 1xitem.ma.platinum_seeds@0
- - 1xitem.ma.chrome_seeds@0
  - 1xitem.ma.uranium_seeds@0
- - 1xitem.ma.end_steel_seeds@0
+ - 1xitem.ma.refined_obsidian_seeds@0
+ - 1xitem.ma.vibrant_alloy_seeds@0
  - 1xitem.ma.titanium_seeds@0
+ - 1xitem.ma.emerald_seeds@0
+ - 1xitem.ma.terrasteel_seeds@0
+ - 1xitem.ma.enderium_seeds@0
  - 1xitem.ma.manyullyn_seeds@0
+ - 1xitem.ma.end_steel_seeds@0
+ - 1xitem.ma.starmetal_seeds@0
+ - 1xitem.ma.iridium_seeds@0
+ - 1xitem.ma.diamond_seeds@0
+ - 1xitem.ma.chrome_seeds@0
+ - 1xitem.ma.tungsten_seeds@0
+ - 1xitem.ma.yellorium_seeds@0
+ - 1xitem.ma.rock_crystal_seeds@0
+ - 1xitem.ma.platinum_seeds@0
 seedsTier6
- - 1xitem.ma.nether_star_seeds@0
- - 1xitem.ma.dragon_egg_seeds@0
  - 1xitem.ma.neutronium_seeds@0
+ - 1xitem.ma.dragon_egg_seeds@0
+ - 1xitem.ma.nether_star_seeds@0
  - 1xitem.ma.awakened_draconium_seeds@0
 servo
  - 1xitem.nuclearcraft.part@7
@@ -35932,10 +35934,10 @@ slabWood
  - 1xtile.slabs.fireproof.4@32767
  - 1xtile.slab_greatwood@0
  - 1xtile.slab_silverwood@0
- - 1xtile.bewitchment.cypress_wood_slab@0
  - 1xtile.bewitchment.yew_wood_slab@0
- - 1xtile.bewitchment.juniper_wood_slab@0
+ - 1xtile.bewitchment.cypress_wood_slab@0
  - 1xtile.bewitchment.elder_wood_slab@0
+ - 1xtile.bewitchment.juniper_wood_slab@0
  - 1xtile.wildwood_slab@0
  - 1xtile.charred_slab@0
  - 1xtile.aurora_planks_slab@0
@@ -37535,27 +37537,33 @@ toolHoe
  - 1xitem.hoeStone@32767
  - 1xitem.hoeDiamond@32767
  - 1xitem.hoeGold@32767
- - 1xitem.bronzeHoe@32767
- - 1xitem.rubyHoe@32767
- - 1xitem.sapphireHoe@32767
- - 1xitem.peridotHoe@32767
- - 1xitem.appliedenergistics2.nether_quartz_hoe@32767
- - 1xitem.appliedenergistics2.certus_quartz_hoe@32767
- - 1xitem.draconicevolution:draconic_hoe@32767
  - 1xitem.ma.inferium_hoe@32767
  - 1xitem.ma.prudentium_hoe@32767
  - 1xitem.ma.intermedium_hoe@32767
  - 1xitem.ma.superium_hoe@32767
  - 1xitem.ma.supremium_hoe@32767
+ - 1xitem.appliedenergistics2.nether_quartz_hoe@32767
+ - 1xitem.appliedenergistics2.certus_quartz_hoe@32767
  - 1xitem.BronzeHoe@32767
  - 1xitem.SteelHoe@32767
  - 1xitem.ObsidianHoe@32767
  - 1xitem.LapisLazuliHoe@32767
  - 1xitem.OsmiumHoe@32767
  - 1xitem.GlowstoneHoe@32767
- - 1xitem.thaumium_hoe@32767
- - 1xitem.void_hoe@32767
- - 1xitem.elemental_hoe@32767
+ - 1xitem.draconicevolution:draconic_hoe@32767
+ - 1xitem.actuallyadditions.item_hoe_quartz@32767
+ - 1xitem.actuallyadditions.item_hoe_emerald@32767
+ - 1xitem.actuallyadditions.item_hoe_obsidian@32767
+ - 1xitem.actuallyadditions.item_hoe_crystal_red@32767
+ - 1xitem.actuallyadditions.item_hoe_crystal_blue@32767
+ - 1xitem.actuallyadditions.item_hoe_crystal_light_blue@32767
+ - 1xitem.actuallyadditions.item_hoe_crystal_black@32767
+ - 1xitem.actuallyadditions.item_hoe_crystal_green@32767
+ - 1xitem.actuallyadditions.item_hoe_crystal_white@32767
+ - 1xitem.bronzeHoe@32767
+ - 1xitem.rubyHoe@32767
+ - 1xitem.sapphireHoe@32767
+ - 1xitem.peridotHoe@32767
  - 1xitem.thermalfoundation.tool.invarHoe@32767
  - 1xitem.thermalfoundation.tool.copperHoe@32767
  - 1xitem.thermalfoundation.tool.bronzeHoe@32767
@@ -37568,15 +37576,9 @@ toolHoe
  - 1xitem.thermalfoundation.tool.aluminumHoe@32767
  - 1xitem.thermalfoundation.tool.steelHoe@32767
  - 1xitem.thermalfoundation.tool.constantanHoe@32767
- - 1xitem.actuallyadditions.item_hoe_quartz@32767
- - 1xitem.actuallyadditions.item_hoe_emerald@32767
- - 1xitem.actuallyadditions.item_hoe_obsidian@32767
- - 1xitem.actuallyadditions.item_hoe_crystal_red@32767
- - 1xitem.actuallyadditions.item_hoe_crystal_blue@32767
- - 1xitem.actuallyadditions.item_hoe_crystal_light_blue@32767
- - 1xitem.actuallyadditions.item_hoe_crystal_black@32767
- - 1xitem.actuallyadditions.item_hoe_crystal_green@32767
- - 1xitem.actuallyadditions.item_hoe_crystal_white@32767
+ - 1xitem.thaumium_hoe@32767
+ - 1xitem.void_hoe@32767
+ - 1xitem.elemental_hoe@32767
  - 1xitem.tconstruct.mattock@32767
 toolShears
  - 1xitem.shears@32767
@@ -37728,7 +37730,6 @@ treeSapling
  - 1xtile.circuit_sapling@0
  - 1xtile.calico_sapling@0
  - 1xtile.xencraft.xen_sapling@0
-type
 universalCable
  - 1xtile.Transmitter@0
 vine
@@ -38928,6 +38929,7 @@ vivid_alloy
 vodka
 void
 water
+wood_fuel
 wood_gas
 wub
 xpjuice
