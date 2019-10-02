@@ -1,7 +1,6 @@
 #loader crafttweaker
-#priority -00308
+#priority -00313
 
-/***** Small Dusts *****/
 mods.techreborn.industrialGrinder.removeInputRecipe(<techreborn:ore:4>);
 
 mods.techreborn.industrialElectrolyzer.removeRecipe(<techreborn:smalldust:10>);
@@ -16,16 +15,6 @@ for key, dictDustSmall in hashDustSmall {
 		]);
 		recipes.removeShapeless(dictDustSmall, [
 			hashDust[key]
-		]);
-	}
-}
-
-/***** Tiny Dusts *****/
-for key, dictDustTiny in hashDustTiny {
-	if (hashDust has key) {
-		recipes.removeShaped(dictDustTiny, [
-			[hashDust[key], null],
-			[null, null]
 		]);
 	}
 }

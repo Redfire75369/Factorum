@@ -97,7 +97,7 @@ val stringOreClathrate = [
 
 ] as string[];
 for oreClathrate in stringOreClathrate{ 
-    hashOreClathrate[oreClathrate] = oreDict["ore" ~ oreClathrate];
+    hashOreClathrate[oreClathrate] = oreDict["ore" ~ oreClathrate ~ "Clathrate"];
 }
 
 /***** Vis Ores *****/
@@ -114,7 +114,7 @@ val stringOreVis = [
 
 ] as string[];
 for oreVis in stringOreVis{ 
-    hashOreVis[oreVis] = oreDict["oreCrystal" ~ oreVis];
+    hashOreVis[oreVis] = oreDict["ore" ~ oreVis ~ "Vis"];
 }
 
 /***** Clusters *****/

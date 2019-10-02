@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00307
+#priority -00312
 
 mods.mekanism.infuser.removeRecipe(hashDust["Bronze"], hashDust["Copper"], "TIN");
 mods.mekanism.infuser.removeRecipe(hashDust["Steel"], <mekanism:enrichediron>, "CARBON");

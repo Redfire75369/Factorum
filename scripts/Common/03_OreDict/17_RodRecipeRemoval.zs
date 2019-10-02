@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00310
+#priority -00317
 
 for key, dictRod in hashRod {
 	if (hashIngot has key) {

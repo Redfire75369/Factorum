@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00305
+#priority -00309
 
 furnace.remove(<minecraft:quartz>, hashCluster["Quartz"]);
 furnace.remove(<thaumcraft:quicksilver>, hashCluster["Quicksilver"]);
@@ -36,15 +36,6 @@ for key, dictGem in hashGem {
 	if (hashMolten has key) {
 		for itemGem in dictGem.items {
 			mods.tconstruct.Casting.removeTableRecipe(itemGem);
-		}
-	}
-}
-
-/***** Clathrates *****/
-for key, dictClathrate in hashClathrate {
-	if (hashOreClathrate has key) {
-		for itemOreClathrate in hashOreClathrate[key].items {
-			mods.thermalexpansion.Pulverizer.removeRecipe(itemOreClathrate);
 		}
 	}
 }

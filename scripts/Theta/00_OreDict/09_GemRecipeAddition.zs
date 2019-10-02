@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -10002
+#priority -10009
 #norun
 
 /*

@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00311
+#priority -00318
 
 for key, dictGear in hashGear {
 	if (hashIngot has key) {

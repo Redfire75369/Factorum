@@ -7,7 +7,7 @@ import crafttweaker.oredict.IOreDictEntry;
 /******************** Defining Functions ********************/
 function replace(item as IItemStack, oredict as IOreDictEntry) {
 	oredict.add(item);
-	if (!(item.ores.length == 0)) {
+	if (item.ores.length != 0) {
 		for ore in item.ores {
 			recipes.replaceAllOccurences(ore, oredict);
 		} 
@@ -40,7 +40,7 @@ function oreSynonym(toReplace as string, replaceWith as string) {
 	
 	} as IOreDictEntry[string];
 	for key, oredict in allOres {
-		if (!(oredict.empty)) {
+		if (!oredict.empty) {
 			for item in oredict.items {
 				oreDict[key ~ replaceWith].add(item);
 			}
@@ -76,15 +76,7 @@ if (!<ore:oreAluminum>.empty) {
     for item in oreDict["oreAluminum"].items {
         hashOre["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["oreAluminum"], hashOre["Aluminium"]);
-}
-
-/***** Clusters *****/
-if (!<ore:clusterAluminum>.empty) {
-    for item in oreDict["clusterAluminum"].items {
-        hashCluster["Aluminium"].add(item);
-    }
-    recipes.replaceAllOccurences(oreDict["clusterAluminum"], hashCluster["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["oreAluminum"], hashOre["Aluminium"]);
 }
 
 /***** Clathrate Ores *****/
@@ -102,7 +94,7 @@ hashOreClathrate["Oil"].add(<thermalfoundation:ore_fluid:1>);
 //recipes.replaceAllOccurences(oreDict["oreClathrateOilShale"], hashOreClathrate["Oil"]);
 
 
-hashOreClathrate["Redstone"].add(<thermalfoundation:ore_fluid:4>);
+hashOreClathrate["Redstone"].add(<thermalfoundation:ore_fluid:2>);
 //recipes.replaceAllOccurences(oreDict["oreClathrateRedstone"], hashOreClathrate["Redstone"]);
 
 /***** Vis Ores *****/
@@ -111,12 +103,19 @@ hashOreClathrate["Redstone"].add(<thermalfoundation:ore_fluid:4>);
 hashCluster["Quicksilver"].add(<thaumcraft:cluster:6>);
 //recipes.replaceAllOccurences(oreDict["clusterCinnabar"], hashCluster["Quicksilver"]);
 
+if (!<ore:clusterAluminum>.empty) {
+    for item in oreDict["clusterAluminum"].items {
+        hashCluster["Aluminium"].add(item);
+    }
+    //recipes.replaceAllOccurences(oreDict["clusterAluminum"], hashCluster["Aluminium"]);
+}
+
 /***** Dirty Dusts *****/
 if (!<ore:dustDirtyAluminum>.empty) {
     for item in oreDict["dustDirtyAluminum"].items {
         hashDustDirty["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["dustDirtyAluminum"], hashDustDirty["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["dustDirtyAluminum"], hashDustDirty["Aluminium"]);
 }
 
 /***** Clumps *****/
@@ -124,7 +123,7 @@ if (!<ore:clumpAluminum>.empty) {
     for item in oreDict["clumpAluminum"].items {
         hashClump["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["clumpAluminum"], hashClump["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["clumpAluminum"], hashClump["Aluminium"]);
 }
 
 /***** Shards *****/
@@ -132,7 +131,7 @@ if (!<ore:shardAluminum>.empty) {
     for item in oreDict["shardAluminum"].items {
         hashShard["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["shardAluminum"], hashShard["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["shardAluminum"], hashShard["Aluminium"]);
 }
 
 /*****  Crystals *****/
@@ -182,7 +181,7 @@ if (!<ore:crystalAluminum>.empty) {
     for item in oreDict["crystalAluminum"].items {
         hashCrystal["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["crystalAluminum"], hashCrystal["Aluminium"]);
+   //recipes.replaceAllOccurences(oreDict["crystalAluminum"], hashCrystal["Aluminium"]);
 }
 
 /***** Ingots *****/
@@ -241,7 +240,7 @@ if (!<ore:ingotAluminum>.empty) {
     for item in oreDict["ingotAluminum"].items {
         hashIngot["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["ingotAluminum"], hashIngot["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["ingotAluminum"], hashIngot["Aluminium"]);
 }
 
 /***** Gems *****/
@@ -286,7 +285,7 @@ if (!<ore:nuggetAluminum>.empty) {
     for item in oreDict["nuggetAluminum"].items {
         hashNugget["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["nuggetAluminum"], hashNugget["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["nuggetAluminum"], hashNugget["Aluminium"]);
 }
 
 /***** Dusts *****/
@@ -331,7 +330,7 @@ if (!<ore:dustAluminum>.empty) {
     for item in oreDict["dustAluminum"].items {
         hashDust["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["dustAluminum"], hashDust["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["dustAluminum"], hashDust["Aluminium"]);
 }
 
 /***** Small Dusts *****/
@@ -342,7 +341,7 @@ if (!<ore:dustSmallAluminum>.empty) {
     for item in oreDict["dustSmallAluminum"].items {
         hashDustSmall["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["dustSmallAluminum"], hashDustSmall["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["dustSmallAluminum"], hashDustSmall["Aluminium"]);
 }
 
 /***** Tiny Dusts *****/
@@ -353,7 +352,7 @@ if (!<ore:dustTinyAluminum>.empty) {
     for item in oreDict["dustTinyAluminum"].items {
         hashDustTiny["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["dustTinyAluminum"], hashDustTiny["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["dustTinyAluminum"], hashDustTiny["Aluminium"]);
 }
 
 /***** Plates *****/
@@ -373,7 +372,7 @@ if (!<ore:plateAluminum>.empty) {
     for item in oreDict["plateAluminum"].items {
         hashPlate["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(<ore:plateAluminum>, hashPlate["Aluminium"]);
+    //recipes.replaceAllOccurences(<ore:plateAluminum>, hashPlate["Aluminium"]);
 }
 
 /***** Dense Plates *****/
@@ -384,7 +383,7 @@ if (!<ore:plateDenseAluminum>.empty) {
     for item in oreDict["plateDenseAluminum"].items {
         hashPlateDense["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["plateDenseAluminum"], hashPlateDense["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["plateDenseAluminum"], hashPlateDense["Aluminium"]);
 }
 
 /***** Rods *****/
@@ -405,7 +404,7 @@ if (!<ore:rodAluminum>.empty) {
     for item in oreDict["rodAluminum"].items {
         hashRod["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["rodAluminum"], hashRod["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["rodAluminum"], hashRod["Aluminium"]);
 }
 
 /***** Gears *****/
@@ -428,7 +427,7 @@ if (!<ore:gearAluminum>.empty) {
     for item in oreDict["gearAluminum"].items {
         hashGear["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["gearAluminum"], hashGear["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["gearAluminum"], hashGear["Aluminium"]);
 }
 
 /********** Blocks **********/
@@ -551,5 +550,5 @@ if (!<ore:blockAluminum>.empty) {
     for item in oreDict["blockAluminum"].items {
         hashBlock["Aluminium"].add(item);
     }
-    recipes.replaceAllOccurences(oreDict["blockAluminum"], hashBlock["Aluminium"]);
+    //recipes.replaceAllOccurences(oreDict["blockAluminum"], hashBlock["Aluminium"]);
 }

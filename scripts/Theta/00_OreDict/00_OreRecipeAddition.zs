@@ -2,7 +2,9 @@
 #priority -10000
 #norun
 
-/* Mekanism: Combiner */
+/*
+Mekanism: Combiner
+*/
 for key, dictOre in hashOre {
 	if (hashDust has key) {
 		mods.mekanism.combiner.addRecipe(hashDust[key] * 16, <minecraft:stone>, dictOre.firstItem);

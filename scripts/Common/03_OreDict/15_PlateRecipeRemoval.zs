@@ -1,7 +1,6 @@
 #loader crafttweaker
-#priority -00309
+#priority -00315
 
-/***** Plates *****/
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:plates:11>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:2>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:9>);
@@ -39,16 +38,6 @@ for key, dictPlate in hashPlate {
 		for itemPlate in dictPlate.items {
 			mods.embers.Stamper.remove(itemPlate);
 			mods.tconstruct.Casting.removeTableRecipe(itemPlate);
-		}
-	}
-}
-
-/***** Dense Plates *****/
-for key, dictPlateDense in hashPlateDense {
-	if (hashPlate has key) {
-		mods.nuclearcraft.pressurizer.removeRecipeWithOutput([dictPlateDense]);
-		for itemPlateDense in dictPlateDense.items {
-			mods.techreborn.plateBendingMachine.removeRecipe(itemPlateDense);
 		}
 	}
 }

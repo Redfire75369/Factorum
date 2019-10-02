@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00306
+#priority -00311
 
 for key, dictNugget in hashNugget {
 	if (hashIngot has key) {

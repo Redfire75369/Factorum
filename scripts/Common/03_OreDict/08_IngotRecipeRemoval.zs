@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00304
+#priority -00308
 
 recipes.removeShaped(hashIngot["BaseEssence"], [
 	[null, oreDict["shardProsperity"] , null],

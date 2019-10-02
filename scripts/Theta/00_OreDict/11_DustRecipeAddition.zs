@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -10004
+#priority -10011
 #norun
 
 for key, dictDust in hashDust {
