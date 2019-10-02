@@ -6,6 +6,8 @@ recipes.addShaped("seared_brick", <tconstruct:materials>, [
 	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>]
 ]);
 mods.inworldcrafting.FluidToFluid.transform(<liquid:wood_fuel>, <liquid:water>, [<contenttweaker:low_grade_charcoal> * 4], true);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:mud> * 3, <liquid:water>, [<minecraft:dirt>], false);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:seared_paste>, <liquid:fire_water>, [<minecraft:rotten_flesh>], false);
 mods.inworldcrafting.FluidToItem.transform(<contenttweaker:seared_shard>, <liquid:fire_water>, [<minecraft:cobblestone>], false);
 mods.inworldcrafting.FluidToItem.transform(<contenttweaker:low_grade_charcoal>, <liquid:fire_water>, [oreDict["logWood"]], false);
 
@@ -146,7 +148,7 @@ recipes.addShaped("seared_road", <tconstruct:seared:7> * 4, [
 recipes.addShapeless("seared_creeperface", <tconstruct:seared:8>, [
 	<tconstruct:seared>, <chisel:chisel_iron>.transformDamage(1)
 ]);
-recipes.addShaped("seared_brick_triangle", <tconstruct:seared:9>, [
+recipes.addShaped("seared_brick_triangle", <tconstruct:seared:9> * 3, [
 	[null, <tconstruct:seared:3>, null],
 	[null, null, null],
 	[<tconstruct:seared:3>, null, <tconstruct:seared:3>]
@@ -199,6 +201,6 @@ recipes.addShaped("smeltery_drain", <tconstruct:smeltery_io>, [
 ]);
 recipes.addShaped("tinker_tank", <tconstruct:tinker_tank_controller>, [
 	[<contenttweaker:seared_paste>, <tconstruct:seared:8>, <contenttweaker:seared_paste>],
-	[<tconstruct:seared_tank:1>, <minecraft:bucket>, <tconstruct:seared_tank>],
+	[<tconstruct:seared_tank:1>, <minecraft:bucket>, <tconstruct:seared_tank:1>],
 	[<tconstruct:seared:9>, <tconstruct:seared_tank:2>, <tconstruct:seared:9>]
 ]);

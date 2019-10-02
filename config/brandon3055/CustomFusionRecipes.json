@@ -1,0 +1,17 @@
+[
+	{
+		"mode": "REMOVE",
+		"result": "draconicevolution:draconic_staff_of_power",
+		"catalyst": "draconicevolution:draconic_pickaxe",
+		"ingredients": [
+			"draconicevolution:draconic_ingot",
+			"draconicevolution:draconic_ingot",
+			"draconicevolution:draconic_ingot",
+			"draconicevolution:draconic_ingot",
+			"draconicevolution:draconic_ingot",
+			"draconicevolution:draconic_shovel",
+			"draconicevolution:draconic_sword",
+			"draconicevolution:awakened_core"
+		]
+	}
+]

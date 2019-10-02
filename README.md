@@ -1,6 +1,12 @@
+
 # Factorum Ultimation: Expert
 This is the official repository for the Modpack Factorum Ultimation. This is a skyblock modpack for 1.12. <br/>
-**Note: This Pack is still a Work In Progress.**
+**Note: This Pack is still a Work In Progress.** <br/>
+[Factorum Ultimation](https://discord.gg/GjJCHdr) <br/>
+There will be three modes: <br/>
+Factorum Ultimation: Theta - FU: θ (Normal Mode) <br/>
+Factorum Ultimation: Sigma - FU: σ (Expert Mode) <br/>
+Factorum Ultimation: Omega - FU: Ω (Super Expert Mode) <br/>
 
 ## Lore
 31st century. Limits were overcome, barriers were shattered. The advancements in technology made possible by private
