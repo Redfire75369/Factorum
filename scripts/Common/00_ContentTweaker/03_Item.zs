@@ -26,13 +26,19 @@ var searedShard = VanillaFactory.createItem("seared_shard") as Item;
 searedShard.creativeTab = <creativetab:other>;
 searedShard.register();
 
+var woodPile = VanillaFactory.createItem("wood_pile") as Item;
+woodPile.creativeTab = <creativetab:other>;
+woodPile.register();
+
 /*****Items With Durability*****/
 var file = VanillaFactory.createItem("file") as Item;
 file.creativeTab = <creativetab:other>;
 file.maxDamage = 100;
+file.maxStackSize = 1;
 file.register();
 
 var wrench = VanillaFactory.createItem("wrench") as Item;
 wrench.creativeTab = <creativetab:other>;
 wrench.maxDamage = 100;
+wrench.maxStackSize = 1;
 wrench.register();

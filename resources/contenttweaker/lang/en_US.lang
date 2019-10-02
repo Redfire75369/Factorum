@@ -44,10 +44,14 @@ item.contenttweaker.chaos_ingot.name=Chaos Ingot
 item.contenttweaker.wyvern_ingot.name=Wyvern Ingot
 
 
+item.contenttweaker.low_grade_charcoal.name=Low Grade Charcoal
+item.contenttweaker.dried_paste.name=Dried Paste
+item.contenttweaker.mud.name=Mud
+item.contenttweaker.seared_paste.name=Seared Paste
+item.contenttweaker.seared_shard.name=Seared Shard
+item.contenttweaker.wood_pile.name=Pile of Wood
 item.contenttweaker.file.name=Engineer's File
 item.contenttweaker.wrench.name=Engineer's Wrench
-item.contenttweaker.seared_paste.name=Seared Paste
-item.contenttweaker.low_grade_charcoal.name=Low Grade Charcoal
 
 
 item.contenttweaker.block_burnt_wood.name=Burnt Wood

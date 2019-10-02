@@ -9,16 +9,26 @@
 - Modular Machinery
 - NuclearCraft
 - Powered Thingies
-- RFTools
 - Steve's Carts Reborn
 - Super Factory Manager
 
 # Texture Requests
-- Overlays for Coins (12x12)
-	- Chemist
-	- Farming
-	- Forestry
-	- Hunter
-	- Magician
-	- Nuclear
-	- Technician
+- Items
+	- Dried Paste
+	- Low Grade Charcoal
+	- Mud
+	- Seared Paste
+	- Seared Shard
+	- Draconium Ore (Blue)[Overworld, Nether and End]
+	- Draconium Dust (Blue)
+	- Draconium Ingot (Blue)
+	- Wyvern Ingot (Purple)
+	- Chaos Ingot (Grey-ish)[Animated]
+
+- Blocks
+	- Block of Low Grade Charcoal
+	- Burnt Wood
+	
+- Liquids
+	- Seawater
+	- Wood Fuel
