@@ -13,11 +13,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 ### Planned Changes
 - Mods: Add Scavenge
 - Mods: Update NuclearCraft to NuclearCraft Overhauled
-- Mods: Update RandomPatches
-- Mods: Update RebornCore
-- Mods: Update SimplyJetpacks2
-- Mods: Update Tech Reborn
-- Mods: Update Thaumic Restoration
+
 ### Added
 - Mods: Better Questing - Forestry Expansion; version 1.1.2
 - Mods: Better Questing - RF Expansion; version 3.4.31
@@ -34,6 +30,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Powered Thingies; version 1.12.2-1.0.15
 - Mods: Redstone PCB; version 0.2
 - Mods: Requious Frakto; version 0.5
+- Mods: Scavenge; version V1.12-1.8.3.2
 - Scripts: Added ContentTweaker Scripts
 - Scripts: Added MekaTweaker Scripts
 - Scripts: Removed Recipes for rest of materials
@@ -71,7 +68,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: FTB Lib; updated to 5.4.3.138
 - Mods: FTB Utilities; updated to 5.4.0.106
 - Mods: Hammer (Lib) Core; updated to 1.12.2-2.0.5.0
-- Mods: Immersive Engineering; updated to 0.12-91
+- Mods: Immersive Engineering; updated to 0.12-92
 - Mods: Incorporeal; updated to 1.2.3
 - Mods: Integrated Dynamics; updated to 1.12.2-1.1.0
 - Mods: Integrated Terminals; updated to 1.12.2-1.0.11
@@ -86,24 +83,26 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Mystic World; updated to 1.12.2-1.4.4
 - Mods: MysticalLib; updated to 1.12.2-1.3.7
 - Mods: Mystical Mechanics; updated to 0.11
-- Mods: NuclearCraft; updated to 2.18k-1.12.2
+- Mods: NuclearCraft; updated to 2o.0.0-1.12.2
 - Mods: OpenLights; updated to MC1.12.2-0.1.0.8
 - Mods: OreExcavation; updated to 1.4.43
 - Mods: PackagedAuto; updated to 1.12.2-1.0.28
 - Mods: PlusTiC; updated to 7.1.6.1
-- Mods: RandomPatches; updated to 1.12.2-1.18.1.1
-- Mods: RebornCore; updated to 1.12.2-3.16.2.473-universal
+- Mods: RandomPatches; updated to 1.12.2-1.18.2.1
+- Mods: RebornCore; updated to 1.12.2-3.16.3.476-universal
 - Mods: Recipe Stages; updated to 1.1.3
 - Mods: Roots; updated to 1.12.2-3.0.13
 - Mods: Shadowfacts' Forgelin; updated to 1.8.4
+- Mods: SimplyJetpacks2; updated to 1.12.2-2.2.14.67
 - Mods: Storage Drawers; updated to 1.12.2-5.4.0
 - Mods: Super Factory Manager; updated to 1.12.2-2.0.23
-- Mods: Tech Reborn; updated to 1.12.2-2.24.1.1032-universal
+- Mods: Tech Reborn; updated to 1.12.2-2.24.2.1041-universal
 - Mods: Thaumic Additions: Reconstructed; updated to 1.12.2-20r
 - Mods: Thaumic Arcana; updated to 1.3.0
 - Mods: Thaumic Augmentation; updated to 1.12.2-1.1.9
 - Mods: Thaumic Computers; updated to MC1.12.2-0.5.1
 - Mods: Thaumic Periphery; updated to 0.3.1
+- Mods: Thaumic Restoration; updated to 1.3.2
 - Mods: Torchmaster; updated to 1.12.2-1.8.0.79
 - Mods: Yoyos; updated to 1.12.2-1.3.3.25
 - Scripts: Reorganised Contents of Scripts
