@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -10009
+#priority -10006
 #norun
 
 /*
@@ -19,11 +19,11 @@ for key, dictGem in hashGem {
 		mods.nuclearcraft.pressurizer.addRecipe(hashDust[key], dictGem.firstItem, 1, 1, 0);
 	}
 	if (hashBlock has key) {
-		recipes.addShapeless(key.toLowerCase() ~ "_block", dictGem.firstItem * 9, [
+		recipes.addShapeless(key.toLowerCase() ~ "_gem_from_block", dictGem.firstItem * 9, [
 			hashBlock[key]
 		]);
 	}
 	if (hashMolten has key) {
-		mods.tconstruct.Casting.addTableRecipe(dictGem.firstItem, tconstruct:cast_custom, hashMolten[key], 144, false, 150);
+		mods.tconstruct.Casting.addTableRecipe(dictGem.firstItem, <tconstruct:cast_custom:2>, hashMolten[key], 144, false, 72);
 	}
 }

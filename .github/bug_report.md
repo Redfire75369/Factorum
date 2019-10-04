@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a bug that shoudl get fixed
+about: Report a bug that should get fixed
 title: "[BUG]"
 labels: "
 assignees:" 
@@ -21,5 +21,3 @@ Steps to reproduce the behaviour:
 2.
 
 **What do you propose to fix the bug?**
-
-

@@ -1,8 +1,9 @@
-[Akogiri](https://www.deviantart.com/sushiki-san)
+# Textures
+## [Akogiri](https://www.deviantart.com/sushiki-san)
 - Engineer's File
 - Engineer's Wrench
 
-[MoonLitLamps]()
+## [MoonLitLamps](https://twitter.com/MasalpRats?s=09)
 - Copper Chemist Coin
 - Copper Farming Coin
 - Copper Forestry Coin

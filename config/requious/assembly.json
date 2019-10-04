@@ -94,5 +94,53 @@
       "y2": 1.0,
       "z2": 1.0
     }
+  },
+  {
+  "placeType": "Any",
+    "hasGUI": true,
+    "resourceName": "lathe",
+    "model": "requious:lathe",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ], 
+    "hardness": 5.0,
+    "blastResistance": 1000.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+  "placeType": "Any",
+    "hasGUI": true,
+    "resourceName": "mixer",
+    "model": "requious:mixer",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ], 
+    "hardness": 5.0,
+    "blastResistance": 1000.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
   }
 ]

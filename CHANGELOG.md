@@ -10,9 +10,6 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   This section is used to track changes to a yet not specified build of the pack.
   Add all not yet "built" changes here.
 -->
-### Planned Changes
-- Mods: Add Scavenge
-- Mods: Update NuclearCraft to NuclearCraft Overhauled
 
 ### Added
 - Mods: Better Questing - Forestry Expansion; version 1.1.2

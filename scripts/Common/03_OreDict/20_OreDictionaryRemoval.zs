@@ -141,7 +141,8 @@ val arrayRemoveDictIngot = [
     <techreborn:ingot:10>,
     <techreborn:ingot:11>,
     <techreborn:ingot:12>,
-    <techreborn:ingot:13>
+    <techreborn:ingot:13>,
+    <tp:quartz_ingot>
 //SILK_SORTING: END@Ingot
 ] as IItemStack[];
 

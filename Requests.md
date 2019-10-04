@@ -11,6 +11,7 @@
 - Powered Thingies
 - Steve's Carts Reborn
 - Super Factory Manager
+- Tech Reborn
 
 # Texture Requests
 - Items
