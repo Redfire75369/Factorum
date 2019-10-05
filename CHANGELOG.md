@@ -38,13 +38,16 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
 - Mods: Actually Additions; updated to 1.12.2-r150
 - Mods: Apotheosis; updated to 1.12.2-1.10.5
+- Mods: Avaritia IO; updated to 1.4
 - Mods: Arcane Archives; updated to 0.2.0.9
 - Mods: Better Questing; updated to 3.5.312
 - Mods: Better Questing: Standard Expansion; updated to 3.4.167
+- Mods: Blood Arsenal; updated to 1.12.2-2.2.1-29
 - Mods: Blood Magic; updated to 1.12.2-2.4.2-104
 - Mods: Botania; updated to r1.10-362
 - Mods: Building Gadgets; updated to 2.7.3
 - Mods: CodeChicken Lib; updated to 1.12.2-3.2.3.358-universal
+- Mods: Colorful Health Bar; updated to 0.0.4a
 - Mods: Compact Drawers; updated to 1.12.2-1.0.5.124
 - Mods: Culinary Construct; updated to 1.3.3.1
 - Mods: Cyclic; updated to 1.12.2-1.19.17
@@ -80,12 +83,12 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Mystic World; updated to 1.12.2-1.4.4
 - Mods: MysticalLib; updated to 1.12.2-1.3.7
 - Mods: Mystical Mechanics; updated to 0.11
-- Mods: NuclearCraft; updated to 2o.0.0-1.12.2
+- Mods: NuclearCraft; updated to 2o.0.2-1.12.2
 - Mods: OpenLights; updated to MC1.12.2-0.1.0.8
 - Mods: OreExcavation; updated to 1.4.43
 - Mods: PackagedAuto; updated to 1.12.2-1.0.28
 - Mods: PlusTiC; updated to 7.1.6.1
-- Mods: RandomPatches; updated to 1.12.2-1.18.2.1
+- Mods: RandomPatches; updated to 1.12.2-1.18.2.3
 - Mods: RebornCore; updated to 1.12.2-3.16.3.476-universal
 - Mods: Recipe Stages; updated to 1.1.3
 - Mods: Roots; updated to 1.12.2-3.0.13

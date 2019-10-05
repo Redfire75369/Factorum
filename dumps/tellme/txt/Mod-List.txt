@@ -289,6 +289,7 @@
 | roots                             | Roots                                                   |
 | rpintegration                     | RandomPatches Integration                               |
 | rpsideas                          | Random PSIdeas                                          |
+| scavenge                          | Scavenge                                                |
 | schematica                        | Schematica                                              |
 | simple_trophies                   | Simple Trophies                                         |
 | simplyjetpacks                    | Simply Jetpacks 2                                       |
