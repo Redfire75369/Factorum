@@ -28,6 +28,7 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Redstone PCB; version 0.2
 - Mods: Requious Frakto; version 0.5
 - Mods: Scavenge; version V1.12-1.8.3.2
+- Mods: YUNoMakeGoodMap; version 1.12-6.3.0.29
 - Scripts: Added ContentTweaker Scripts
 - Scripts: Added MekaTweaker Scripts
 - Scripts: Removed Recipes for rest of materials
@@ -109,8 +110,10 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Made Removal of Recipes more efficient
 
 ### Removed
+- Mods: DefaultWorldGenerator-Port
 - Mods: Dense Metals
 - Mods: Eternal Singularity
+- Mods: NetherPortalFix
 - Mods: Netherending Ores
 - Mods: Resource Loader
 - Mods: Stone Crafting Table

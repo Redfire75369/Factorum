@@ -88,7 +88,6 @@
 | deepmoblearningbm                 | Deep Mob Learning - Blood Magic Addon                   |
 | deepresonance                     | DeepResonance                                           |
 | defaultoptions                    | Default Options                                         |
-| defaultworldgenerator-port        | Default World Generator                                 |
 | diethopper                        | Diet Hopper                                             |
 | dimstages                         | Dimension Stages                                        |
 | draconicevolution                 | Draconic Evolution                                      |
@@ -236,7 +235,6 @@
 | mysticalmechanics                 | Mystical Mechanics                                      |
 | mysticalworld                     | Mystical World                                          |
 | naturalpledge                     | Natural Pledge                                          |
-| netherportalfix                   | NetherPortalFix                                         |
 | nonausea                          | NoNausea                                                |
 | notenoughwands                    | Not Enough Wands                                        |
 | nuclearcraft                      | NuclearCraft                                            |
@@ -373,6 +371,7 @@
 | xreliquary                        | Reliquary                                               |
 | xtones                            | Xtones                                                  |
 | yoyos                             | Yoyos                                                   |
+| yunomakegoodmap                   | YUNoMakeGoodMap                                         |
 | zerocore                          | Zero CORE                                               |
 +-----------------------------------+---------------------------------------------------------+
 | ModID                             | Mod name                                                |

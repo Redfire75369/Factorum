@@ -116,6 +116,7 @@ commoncapabilities - CommonCapabilities - 2.4.4
 storagedrawers - Storage Drawers - 1.12.2-5.4.0
 compactdrawers - Compact Drawers - 1.12.2-1.0.5.124
 compacter - Compacter - 1.3.0.3
+yunomakegoodmap - YUNoMakeGoodMap - 1.12-6.3.0.29
 compactmachines3 - Compact Machines 3 - 3.0.18
 compactstorage - CompactStorage - 3.1
 complex-logic - Complex Logic - 1.0-SNAPSHOT
@@ -137,7 +138,6 @@ mcjtylib_ng - McJtyLib - 3.5.4
 rftools - RFTools - 7.72
 deepresonance - DeepResonance - 1.8.0
 defaultoptions - Default Options - 9.2.8
-defaultworldgenerator-port - Default World Generator - 1.12-2.3
 diethopper - Diet Hopper - 1.1
 gamestages - Game Stages - 2.0.117
 dimstages - Dimension Stages - 2.0.23
@@ -260,7 +260,6 @@ multithreadednoise - Multithreaded Noise - 0.0.2
 thaumicperiphery - Thaumic Periphery - 0.3.1
 mystgears - Mystical Gears - 1.0.5
 naturalpledge - Natural Pledge - 3.0.3
-netherportalfix - NetherPortalFix - 5.3.17
 nonausea - NoNausea - 1.0
 notenoughwands - Not Enough Wands - 1.8.1
 eioocshim - EnderIO OpenComputer shim - @VERSION@
