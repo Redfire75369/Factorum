@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00302
+#packmode theta sigma omega
 
 recipes.removeShapeless(<woot:stygianironore>);
 mods.techreborn.fusionReactor.removeRecipe(<techreborn:ore:1>);

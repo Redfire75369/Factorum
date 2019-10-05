@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00309
+#packmode theta sigma omega
 
 furnace.remove(<minecraft:quartz>, hashCluster["Quartz"]);
 furnace.remove(<thaumcraft:quicksilver>, hashCluster["Quicksilver"]);

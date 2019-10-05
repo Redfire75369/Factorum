@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00307
+#packmode theta sigma omega
 
 recipes.remove(hashCrystal["Obsidian"]);
 mods.cyclicmagic.Solidifier.removeShapedRecipe(<cyclicmagic:crystallized_amber>);

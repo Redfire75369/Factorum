@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00318
+#packmode theta sigma omega
 
 for key, dictGear in hashGear {
 	if (hashIngot has key) {

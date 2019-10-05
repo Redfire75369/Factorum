@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00301
+#packmode theta sigma omega
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;

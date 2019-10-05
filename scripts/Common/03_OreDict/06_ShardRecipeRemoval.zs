@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00306
+#packmode theta sigma omega
 
 for key, dictShard in hashShard {
 	if (hashOre has key) {

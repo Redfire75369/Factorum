@@ -1,5 +1,6 @@
 #loader contenttweaker
 #priority -00005
+#packmode theta sigma omega
 
 import mods.contenttweaker.Color;
 import mods.contenttweaker.Fluid;

@@ -1351,6 +1351,8 @@ Blocks:
 <block:conarm:soft_obsidian>, Unstable Obsidian
 <block:contenttweaker:block_burnt_wood>, tile.contenttweaker.block_burnt_wood.name
 <block:contenttweaker:block_low_grade_charcoal>, tile.contenttweaker.block_low_grade_charcoal.name
+<block:contenttweaker:sea_water>, tile.contenttweaker.sea_water.name
+<block:contenttweaker:wood_fuel>, tile.contenttweaker.wood_fuel.name
 <block:cookingforblockheads:cabinet>, Kitchen Cabinet
 <block:cookingforblockheads:cooking_table>, Cooking Table
 <block:cookingforblockheads:corner>, Kitchen Corner
@@ -1907,6 +1909,9 @@ Blocks:
 <block:enderzoo:blockconcussioncharge>, Concussion Charge
 <block:enderzoo:blockconfusingcharge>, Confusing Charge
 <block:enderzoo:blockendercharge>, Ender Charge
+<block:energysmatter:copper_ore>, Copper Ore
+<block:energysmatter:heat_generator>, Seebeck Generator
+<block:energysmatter:powered_crafting_table>, tile.energysmatter.powered_crafting_table.name
 <block:engineersdoors:door_concrete>, Concrete Door
 <block:engineersdoors:door_concrete_ornate>, Concrete Door
 <block:engineersdoors:door_concrete_reinforced>, Concrete Door
@@ -3504,31 +3509,67 @@ Blocks:
 <block:jaopca:block_blockall>, Air
 <block:jaopca:block_blockamber>, Block of %s
 <block:jaopca:block_blockamericium241>, Air
+<block:jaopca:block_blockamericium241all>, Block of %s
+<block:jaopca:block_blockamericium241carbide>, Block of %s
+<block:jaopca:block_blockamericium241nitride>, Block of %s
 <block:jaopca:block_blockamericium241oxide>, Air
+<block:jaopca:block_blockamericium241za>, Block of %s
 <block:jaopca:block_blockamericium242>, Air
+<block:jaopca:block_blockamericium242all>, Block of %s
 <block:jaopca:block_blockamericium242base>, Air
+<block:jaopca:block_blockamericium242carbide>, Block of %s
+<block:jaopca:block_blockamericium242nitride>, Block of %s
 <block:jaopca:block_blockamericium242oxide>, Air
+<block:jaopca:block_blockamericium242za>, Block of %s
+<block:jaopca:block_blockamericium243all>, Block of %s
+<block:jaopca:block_blockamericium243carbide>, Block of %s
+<block:jaopca:block_blockamericium243nitride>, Block of %s
 <block:jaopca:block_blockamericium243oxide>, Air
+<block:jaopca:block_blockamericium243za>, Block of %s
 <block:jaopca:block_blockaquamarine>, Block of %s
 <block:jaopca:block_blockastralstarmetal>, Block of %s
 <block:jaopca:block_blockbauxite>, Block of %s
+<block:jaopca:block_blockberkelium247all>, Block of %s
+<block:jaopca:block_blockberkelium247carbide>, Block of %s
+<block:jaopca:block_blockberkelium247nitride>, Block of %s
 <block:jaopca:block_blockberkelium247oxide>, Air
+<block:jaopca:block_blockberkelium247za>, Block of %s
 <block:jaopca:block_blockberkelium248>, Air
+<block:jaopca:block_blockberkelium248all>, Block of %s
 <block:jaopca:block_blockberkelium248base>, Air
+<block:jaopca:block_blockberkelium248carbide>, Block of %s
+<block:jaopca:block_blockberkelium248nitride>, Block of %s
 <block:jaopca:block_blockberkelium248oxide>, Air
+<block:jaopca:block_blockberkelium248za>, Block of %s
 <block:jaopca:block_blockboron10>, Air
 <block:jaopca:block_blockboron11>, Air
 <block:jaopca:block_blockboronarsenide>, Block of %s
 <block:jaopca:block_blockboronnitride>, Block of %s
 <block:jaopca:block_blockcalifornium249>, Air
+<block:jaopca:block_blockcalifornium249all>, Block of %s
 <block:jaopca:block_blockcalifornium249base>, Air
+<block:jaopca:block_blockcalifornium249carbide>, Block of %s
+<block:jaopca:block_blockcalifornium249nitride>, Block of %s
 <block:jaopca:block_blockcalifornium249oxide>, Air
+<block:jaopca:block_blockcalifornium249za>, Block of %s
 <block:jaopca:block_blockcalifornium250>, Air
+<block:jaopca:block_blockcalifornium250all>, Block of %s
+<block:jaopca:block_blockcalifornium250carbide>, Block of %s
+<block:jaopca:block_blockcalifornium250nitride>, Block of %s
 <block:jaopca:block_blockcalifornium250oxide>, Air
+<block:jaopca:block_blockcalifornium250za>, Block of %s
 <block:jaopca:block_blockcalifornium251>, Air
+<block:jaopca:block_blockcalifornium251all>, Block of %s
 <block:jaopca:block_blockcalifornium251base>, Air
+<block:jaopca:block_blockcalifornium251carbide>, Block of %s
+<block:jaopca:block_blockcalifornium251nitride>, Block of %s
 <block:jaopca:block_blockcalifornium251oxide>, Air
+<block:jaopca:block_blockcalifornium251za>, Block of %s
+<block:jaopca:block_blockcalifornium252all>, Block of %s
+<block:jaopca:block_blockcalifornium252carbide>, Block of %s
+<block:jaopca:block_blockcalifornium252nitride>, Block of %s
 <block:jaopca:block_blockcalifornium252oxide>, Air
+<block:jaopca:block_blockcalifornium252za>, Block of %s
 <block:jaopca:block_blockcarobbiite>, Block of %s
 <block:jaopca:block_blockcertusquartz>, Block of %s
 <block:jaopca:block_blockchargedcertusquartz>, Block of %s
@@ -3536,15 +3577,31 @@ Blocks:
 <block:jaopca:block_blockcinnabar>, Block of %s
 <block:jaopca:block_blockcocoabutter>, Block of %s
 <block:jaopca:block_blockcurium243>, Air
+<block:jaopca:block_blockcurium243all>, Block of %s
 <block:jaopca:block_blockcurium243base>, Air
+<block:jaopca:block_blockcurium243carbide>, Block of %s
+<block:jaopca:block_blockcurium243nitride>, Block of %s
 <block:jaopca:block_blockcurium243oxide>, Air
+<block:jaopca:block_blockcurium243za>, Block of %s
 <block:jaopca:block_blockcurium245>, Air
+<block:jaopca:block_blockcurium245all>, Block of %s
 <block:jaopca:block_blockcurium245base>, Air
+<block:jaopca:block_blockcurium245carbide>, Block of %s
+<block:jaopca:block_blockcurium245nitride>, Block of %s
 <block:jaopca:block_blockcurium245oxide>, Air
+<block:jaopca:block_blockcurium245za>, Block of %s
+<block:jaopca:block_blockcurium246all>, Block of %s
+<block:jaopca:block_blockcurium246carbide>, Block of %s
+<block:jaopca:block_blockcurium246nitride>, Block of %s
 <block:jaopca:block_blockcurium246oxide>, Air
+<block:jaopca:block_blockcurium246za>, Block of %s
 <block:jaopca:block_blockcurium247>, Air
+<block:jaopca:block_blockcurium247all>, Block of %s
 <block:jaopca:block_blockcurium247base>, Air
+<block:jaopca:block_blockcurium247carbide>, Block of %s
+<block:jaopca:block_blockcurium247nitride>, Block of %s
 <block:jaopca:block_blockcurium247oxide>, Air
+<block:jaopca:block_blockcurium247za>, Block of %s
 <block:jaopca:block_blockdarkchocolate>, Air
 <block:jaopca:block_blockdimensionalshard>, Block of %s
 <block:jaopca:block_blockelvenelementium>, Air
@@ -3572,22 +3629,46 @@ Blocks:
 <block:jaopca:block_blockmithrillium>, Block of %s
 <block:jaopca:block_blockmixedmetal>, Block of %s
 <block:jaopca:block_blockneptunium236>, Air
+<block:jaopca:block_blockneptunium236all>, Block of %s
 <block:jaopca:block_blockneptunium236base>, Air
+<block:jaopca:block_blockneptunium236carbide>, Block of %s
+<block:jaopca:block_blockneptunium236nitride>, Block of %s
 <block:jaopca:block_blockneptunium236oxide>, Air
+<block:jaopca:block_blockneptunium236za>, Block of %s
+<block:jaopca:block_blockneptunium237all>, Block of %s
+<block:jaopca:block_blockneptunium237carbide>, Block of %s
+<block:jaopca:block_blockneptunium237nitride>, Block of %s
 <block:jaopca:block_blockneptunium237oxide>, Air
+<block:jaopca:block_blockneptunium237za>, Block of %s
 <block:jaopca:block_blockobsidian>, Block of %s
 <block:jaopca:block_blockorichalcos>, Block of %s
 <block:jaopca:block_blockphotonium>, Block of %s
 <block:jaopca:block_blockplutonium>, Air
 <block:jaopca:block_blockplutonium238>, Air
+<block:jaopca:block_blockplutonium238all>, Block of %s
+<block:jaopca:block_blockplutonium238carbide>, Block of %s
+<block:jaopca:block_blockplutonium238nitride>, Block of %s
 <block:jaopca:block_blockplutonium238oxide>, Air
+<block:jaopca:block_blockplutonium238za>, Block of %s
 <block:jaopca:block_blockplutonium239>, Air
+<block:jaopca:block_blockplutonium239all>, Block of %s
 <block:jaopca:block_blockplutonium239base>, Air
+<block:jaopca:block_blockplutonium239carbide>, Block of %s
+<block:jaopca:block_blockplutonium239nitride>, Block of %s
 <block:jaopca:block_blockplutonium239oxide>, Air
+<block:jaopca:block_blockplutonium239za>, Block of %s
 <block:jaopca:block_blockplutonium241>, Air
+<block:jaopca:block_blockplutonium241all>, Block of %s
 <block:jaopca:block_blockplutonium241base>, Air
+<block:jaopca:block_blockplutonium241carbide>, Block of %s
+<block:jaopca:block_blockplutonium241nitride>, Block of %s
 <block:jaopca:block_blockplutonium241oxide>, Air
+<block:jaopca:block_blockplutonium241za>, Block of %s
+<block:jaopca:block_blockplutonium242all>, Block of %s
+<block:jaopca:block_blockplutonium242carbide>, Block of %s
+<block:jaopca:block_blockplutonium242nitride>, Block of %s
 <block:jaopca:block_blockplutonium242oxide>, Air
+<block:jaopca:block_blockplutonium242za>, Block of %s
 <block:jaopca:block_blockpyrite>, Block of %s
 <block:jaopca:block_blockrefinediron>, Block of %s
 <block:jaopca:block_blockrhodochrosite>, Block of %s
@@ -3603,18 +3684,34 @@ Blocks:
 <block:jaopca:block_blockthorium232>, Air
 <block:jaopca:block_blockthorium232base>, Air
 <block:jaopca:block_blockthorium232oxide>, Air
+<block:jaopca:block_blockthoriumall>, Block of %s
+<block:jaopca:block_blockthoriumcarbide>, Block of %s
+<block:jaopca:block_blockthoriumnitride>, Block of %s
 <block:jaopca:block_blockthoriumoxide>, Block of %s
+<block:jaopca:block_blockthoriumza>, Block of %s
 <block:jaopca:block_blocktinsilver>, Block of %s
 <block:jaopca:block_blocktough>, Block of %s
 <block:jaopca:block_blockunsweetenedchocolate>, Air
 <block:jaopca:block_blockuranium233>, Air
+<block:jaopca:block_blockuranium233all>, Block of %s
 <block:jaopca:block_blockuranium233base>, Air
+<block:jaopca:block_blockuranium233carbide>, Block of %s
+<block:jaopca:block_blockuranium233nitride>, Block of %s
 <block:jaopca:block_blockuranium233oxide>, Air
+<block:jaopca:block_blockuranium233za>, Block of %s
 <block:jaopca:block_blockuranium235>, Air
+<block:jaopca:block_blockuranium235all>, Block of %s
 <block:jaopca:block_blockuranium235base>, Air
+<block:jaopca:block_blockuranium235carbide>, Block of %s
+<block:jaopca:block_blockuranium235nitride>, Block of %s
 <block:jaopca:block_blockuranium235oxide>, Air
+<block:jaopca:block_blockuranium235za>, Block of %s
+<block:jaopca:block_blockuranium238all>, Block of %s
+<block:jaopca:block_blockuranium238carbide>, Block of %s
+<block:jaopca:block_blockuranium238nitride>, Block of %s
 <block:jaopca:block_blockuranium238oxide>, Air
-<block:jaopca:block_blockuraniumoxide>, Block of %s
+<block:jaopca:block_blockuranium238za>, Block of %s
+<block:jaopca:block_blockuraniumoxide>, Air
 <block:jaopca:block_blockvilliaumite>, Block of %s
 <block:jaopca:block_blockwub>, Block of %s
 <block:jaopca:block_blockzircaloy>, Block of %s
@@ -3624,6 +3721,18 @@ Blocks:
 <block:jaopca:block_doubleslabaluminium>, Double %s Slab
 <block:jaopca:block_doubleslabalumite>, Double %s Slab
 <block:jaopca:block_doubleslabamber>, Double %s Slab
+<block:jaopca:block_doubleslabamericium241all>, Double %s Slab
+<block:jaopca:block_doubleslabamericium241carbide>, Double %s Slab
+<block:jaopca:block_doubleslabamericium241nitride>, Double %s Slab
+<block:jaopca:block_doubleslabamericium241za>, Double %s Slab
+<block:jaopca:block_doubleslabamericium242all>, Double %s Slab
+<block:jaopca:block_doubleslabamericium242carbide>, Double %s Slab
+<block:jaopca:block_doubleslabamericium242nitride>, Double %s Slab
+<block:jaopca:block_doubleslabamericium242za>, Double %s Slab
+<block:jaopca:block_doubleslabamericium243all>, Double %s Slab
+<block:jaopca:block_doubleslabamericium243carbide>, Double %s Slab
+<block:jaopca:block_doubleslabamericium243nitride>, Double %s Slab
+<block:jaopca:block_doubleslabamericium243za>, Double %s Slab
 <block:jaopca:block_doubleslabamethyst>, Double %s Slab
 <block:jaopca:block_doubleslabapatite>, Double %s Slab
 <block:jaopca:block_doubleslabaquamarine>, Double %s Slab
@@ -3631,6 +3740,14 @@ Blocks:
 <block:jaopca:block_doubleslabastralstarmetal>, Double %s Slab
 <block:jaopca:block_doubleslabbaseessence>, Double %s Slab
 <block:jaopca:block_doubleslabbauxite>, Double %s Slab
+<block:jaopca:block_doubleslabberkelium247all>, Double %s Slab
+<block:jaopca:block_doubleslabberkelium247carbide>, Double %s Slab
+<block:jaopca:block_doubleslabberkelium247nitride>, Double %s Slab
+<block:jaopca:block_doubleslabberkelium247za>, Double %s Slab
+<block:jaopca:block_doubleslabberkelium248all>, Double %s Slab
+<block:jaopca:block_doubleslabberkelium248carbide>, Double %s Slab
+<block:jaopca:block_doubleslabberkelium248nitride>, Double %s Slab
+<block:jaopca:block_doubleslabberkelium248za>, Double %s Slab
 <block:jaopca:block_doubleslabblackiron>, Double %s Slab
 <block:jaopca:block_doubleslabbloodbronze>, Double %s Slab
 <block:jaopca:block_doubleslabblutonium>, Double %s Slab
@@ -3639,6 +3756,22 @@ Blocks:
 <block:jaopca:block_doubleslabboronnitride>, Double %s Slab
 <block:jaopca:block_doubleslabbrass>, Double %s Slab
 <block:jaopca:block_doubleslabbronze>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium249all>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium249carbide>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium249nitride>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium249za>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium250all>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium250carbide>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium250nitride>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium250za>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium251all>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium251carbide>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium251nitride>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium251za>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium252all>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium252carbide>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium252nitride>, Double %s Slab
+<block:jaopca:block_doubleslabcalifornium252za>, Double %s Slab
 <block:jaopca:block_doubleslabcarobbiite>, Double %s Slab
 <block:jaopca:block_doubleslabcertusquartz>, Double %s Slab
 <block:jaopca:block_doubleslabchargedcertusquartz>, Double %s Slab
@@ -3659,6 +3792,22 @@ Blocks:
 <block:jaopca:block_doubleslabcrystallinepinkslime>, Double %s Slab
 <block:jaopca:block_doubleslabcrystalmatrix>, Double %s Slab
 <block:jaopca:block_doubleslabcrystaltine>, Double %s Slab
+<block:jaopca:block_doubleslabcurium243all>, Double %s Slab
+<block:jaopca:block_doubleslabcurium243carbide>, Double %s Slab
+<block:jaopca:block_doubleslabcurium243nitride>, Double %s Slab
+<block:jaopca:block_doubleslabcurium243za>, Double %s Slab
+<block:jaopca:block_doubleslabcurium245all>, Double %s Slab
+<block:jaopca:block_doubleslabcurium245carbide>, Double %s Slab
+<block:jaopca:block_doubleslabcurium245nitride>, Double %s Slab
+<block:jaopca:block_doubleslabcurium245za>, Double %s Slab
+<block:jaopca:block_doubleslabcurium246all>, Double %s Slab
+<block:jaopca:block_doubleslabcurium246carbide>, Double %s Slab
+<block:jaopca:block_doubleslabcurium246nitride>, Double %s Slab
+<block:jaopca:block_doubleslabcurium246za>, Double %s Slab
+<block:jaopca:block_doubleslabcurium247all>, Double %s Slab
+<block:jaopca:block_doubleslabcurium247carbide>, Double %s Slab
+<block:jaopca:block_doubleslabcurium247nitride>, Double %s Slab
+<block:jaopca:block_doubleslabcurium247za>, Double %s Slab
 <block:jaopca:block_doubleslabcyanite>, Double %s Slab
 <block:jaopca:block_doubleslabdarksteel>, Double %s Slab
 <block:jaopca:block_doubleslabdawnstone>, Double %s Slab
@@ -3718,6 +3867,14 @@ Blocks:
 <block:jaopca:block_doubleslabmithril>, Double %s Slab
 <block:jaopca:block_doubleslabmithrillium>, Double %s Slab
 <block:jaopca:block_doubleslabmixedmetal>, Double %s Slab
+<block:jaopca:block_doubleslabneptunium236all>, Double %s Slab
+<block:jaopca:block_doubleslabneptunium236carbide>, Double %s Slab
+<block:jaopca:block_doubleslabneptunium236nitride>, Double %s Slab
+<block:jaopca:block_doubleslabneptunium236za>, Double %s Slab
+<block:jaopca:block_doubleslabneptunium237all>, Double %s Slab
+<block:jaopca:block_doubleslabneptunium237carbide>, Double %s Slab
+<block:jaopca:block_doubleslabneptunium237nitride>, Double %s Slab
+<block:jaopca:block_doubleslabneptunium237za>, Double %s Slab
 <block:jaopca:block_doubleslabnickel>, Double %s Slab
 <block:jaopca:block_doubleslabobsidian>, Double %s Slab
 <block:jaopca:block_doubleslabopal>, Double %s Slab
@@ -3729,6 +3886,22 @@ Blocks:
 <block:jaopca:block_doubleslabphotonium>, Double %s Slab
 <block:jaopca:block_doubleslabpigiron>, Double %s Slab
 <block:jaopca:block_doubleslabplatinum>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium238all>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium238carbide>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium238nitride>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium238za>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium239all>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium239carbide>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium239nitride>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium239za>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium241all>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium241carbide>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium241nitride>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium241za>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium242all>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium242carbide>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium242nitride>, Double %s Slab
+<block:jaopca:block_doubleslabplutonium242za>, Double %s Slab
 <block:jaopca:block_doubleslabprudentium>, Double %s Slab
 <block:jaopca:block_doubleslabpulsatingiron>, Double %s Slab
 <block:jaopca:block_doubleslabpyrite>, Double %s Slab
@@ -3762,7 +3935,11 @@ Blocks:
 <block:jaopca:block_doubleslabthaumium>, Double %s Slab
 <block:jaopca:block_doubleslabthermoconducting>, Double %s Slab
 <block:jaopca:block_doubleslabthorium>, Double %s Slab
+<block:jaopca:block_doubleslabthoriumall>, Double %s Slab
+<block:jaopca:block_doubleslabthoriumcarbide>, Double %s Slab
+<block:jaopca:block_doubleslabthoriumnitride>, Double %s Slab
 <block:jaopca:block_doubleslabthoriumoxide>, Double %s Slab
+<block:jaopca:block_doubleslabthoriumza>, Double %s Slab
 <block:jaopca:block_doubleslabtin>, Double %s Slab
 <block:jaopca:block_doubleslabtinsilver>, Double %s Slab
 <block:jaopca:block_doubleslabtitanium>, Double %s Slab
@@ -3771,7 +3948,19 @@ Blocks:
 <block:jaopca:block_doubleslabtungstensteel>, Double %s Slab
 <block:jaopca:block_doubleslabultimate>, Double %s Slab
 <block:jaopca:block_doubleslaburanium>, Double %s Slab
-<block:jaopca:block_doubleslaburaniumoxide>, Double %s Slab
+<block:jaopca:block_doubleslaburanium233all>, Double %s Slab
+<block:jaopca:block_doubleslaburanium233carbide>, Double %s Slab
+<block:jaopca:block_doubleslaburanium233nitride>, Double %s Slab
+<block:jaopca:block_doubleslaburanium233za>, Double %s Slab
+<block:jaopca:block_doubleslaburanium235all>, Double %s Slab
+<block:jaopca:block_doubleslaburanium235carbide>, Double %s Slab
+<block:jaopca:block_doubleslaburanium235nitride>, Double %s Slab
+<block:jaopca:block_doubleslaburanium235za>, Double %s Slab
+<block:jaopca:block_doubleslaburanium238all>, Double %s Slab
+<block:jaopca:block_doubleslaburanium238carbide>, Double %s Slab
+<block:jaopca:block_doubleslaburanium238nitride>, Double %s Slab
+<block:jaopca:block_doubleslaburanium238za>, Double %s Slab
+<block:jaopca:block_doubleslaburaniumoxide>, Air
 <block:jaopca:block_doubleslabvibrantalloy>, Double %s Slab
 <block:jaopca:block_doubleslabvilliaumite>, Double %s Slab
 <block:jaopca:block_doubleslabvividalloy>, Double %s Slab
@@ -3787,12 +3976,32 @@ Blocks:
 <block:jaopca:block_fencealubrass>, %s Fence
 <block:jaopca:block_fencealumite>, %s Fence
 <block:jaopca:block_fenceamber>, %s Fence
+<block:jaopca:block_fenceamericium241all>, %s Fence
+<block:jaopca:block_fenceamericium241carbide>, %s Fence
+<block:jaopca:block_fenceamericium241nitride>, %s Fence
+<block:jaopca:block_fenceamericium241za>, %s Fence
+<block:jaopca:block_fenceamericium242all>, %s Fence
+<block:jaopca:block_fenceamericium242carbide>, %s Fence
+<block:jaopca:block_fenceamericium242nitride>, %s Fence
+<block:jaopca:block_fenceamericium242za>, %s Fence
+<block:jaopca:block_fenceamericium243all>, %s Fence
+<block:jaopca:block_fenceamericium243carbide>, %s Fence
+<block:jaopca:block_fenceamericium243nitride>, %s Fence
+<block:jaopca:block_fenceamericium243za>, %s Fence
 <block:jaopca:block_fenceamethyst>, %s Fence
 <block:jaopca:block_fenceapatite>, %s Fence
 <block:jaopca:block_fenceaquamarine>, %s Fence
 <block:jaopca:block_fenceardite>, %s Fence
 <block:jaopca:block_fenceastralstarmetal>, %s Fence
 <block:jaopca:block_fencebaseessence>, %s Fence
+<block:jaopca:block_fenceberkelium247all>, %s Fence
+<block:jaopca:block_fenceberkelium247carbide>, %s Fence
+<block:jaopca:block_fenceberkelium247nitride>, %s Fence
+<block:jaopca:block_fenceberkelium247za>, %s Fence
+<block:jaopca:block_fenceberkelium248all>, %s Fence
+<block:jaopca:block_fenceberkelium248carbide>, %s Fence
+<block:jaopca:block_fenceberkelium248nitride>, %s Fence
+<block:jaopca:block_fenceberkelium248za>, %s Fence
 <block:jaopca:block_fenceblackiron>, %s Fence
 <block:jaopca:block_fencebloodbronze>, %s Fence
 <block:jaopca:block_fenceblutonium>, %s Fence
@@ -3801,6 +4010,22 @@ Blocks:
 <block:jaopca:block_fenceboronnitride>, %s Fence
 <block:jaopca:block_fencebrass>, %s Fence
 <block:jaopca:block_fencebronze>, %s Fence
+<block:jaopca:block_fencecalifornium249all>, %s Fence
+<block:jaopca:block_fencecalifornium249carbide>, %s Fence
+<block:jaopca:block_fencecalifornium249nitride>, %s Fence
+<block:jaopca:block_fencecalifornium249za>, %s Fence
+<block:jaopca:block_fencecalifornium250all>, %s Fence
+<block:jaopca:block_fencecalifornium250carbide>, %s Fence
+<block:jaopca:block_fencecalifornium250nitride>, %s Fence
+<block:jaopca:block_fencecalifornium250za>, %s Fence
+<block:jaopca:block_fencecalifornium251all>, %s Fence
+<block:jaopca:block_fencecalifornium251carbide>, %s Fence
+<block:jaopca:block_fencecalifornium251nitride>, %s Fence
+<block:jaopca:block_fencecalifornium251za>, %s Fence
+<block:jaopca:block_fencecalifornium252all>, %s Fence
+<block:jaopca:block_fencecalifornium252carbide>, %s Fence
+<block:jaopca:block_fencecalifornium252nitride>, %s Fence
+<block:jaopca:block_fencecalifornium252za>, %s Fence
 <block:jaopca:block_fencecarobbiite>, %s Fence
 <block:jaopca:block_fencecertusquartz>, %s Fence
 <block:jaopca:block_fencechargedcertusquartz>, %s Fence
@@ -3820,6 +4045,22 @@ Blocks:
 <block:jaopca:block_fencecrystallinepinkslime>, %s Fence
 <block:jaopca:block_fencecrystalmatrix>, %s Fence
 <block:jaopca:block_fencecrystaltine>, %s Fence
+<block:jaopca:block_fencecurium243all>, %s Fence
+<block:jaopca:block_fencecurium243carbide>, %s Fence
+<block:jaopca:block_fencecurium243nitride>, %s Fence
+<block:jaopca:block_fencecurium243za>, %s Fence
+<block:jaopca:block_fencecurium245all>, %s Fence
+<block:jaopca:block_fencecurium245carbide>, %s Fence
+<block:jaopca:block_fencecurium245nitride>, %s Fence
+<block:jaopca:block_fencecurium245za>, %s Fence
+<block:jaopca:block_fencecurium246all>, %s Fence
+<block:jaopca:block_fencecurium246carbide>, %s Fence
+<block:jaopca:block_fencecurium246nitride>, %s Fence
+<block:jaopca:block_fencecurium246za>, %s Fence
+<block:jaopca:block_fencecurium247all>, %s Fence
+<block:jaopca:block_fencecurium247carbide>, %s Fence
+<block:jaopca:block_fencecurium247nitride>, %s Fence
+<block:jaopca:block_fencecurium247za>, %s Fence
 <block:jaopca:block_fencecyanite>, %s Fence
 <block:jaopca:block_fencedarksteel>, %s Fence
 <block:jaopca:block_fencedawnstone>, %s Fence
@@ -3879,6 +4120,14 @@ Blocks:
 <block:jaopca:block_fencemithril>, %s Fence
 <block:jaopca:block_fencemithrillium>, %s Fence
 <block:jaopca:block_fencemixedmetal>, %s Fence
+<block:jaopca:block_fenceneptunium236all>, %s Fence
+<block:jaopca:block_fenceneptunium236carbide>, %s Fence
+<block:jaopca:block_fenceneptunium236nitride>, %s Fence
+<block:jaopca:block_fenceneptunium236za>, %s Fence
+<block:jaopca:block_fenceneptunium237all>, %s Fence
+<block:jaopca:block_fenceneptunium237carbide>, %s Fence
+<block:jaopca:block_fenceneptunium237nitride>, %s Fence
+<block:jaopca:block_fenceneptunium237za>, %s Fence
 <block:jaopca:block_fencenickel>, %s Fence
 <block:jaopca:block_fenceobsidian>, %s Fence
 <block:jaopca:block_fenceopal>, %s Fence
@@ -3890,6 +4139,22 @@ Blocks:
 <block:jaopca:block_fencephotonium>, %s Fence
 <block:jaopca:block_fencepigiron>, %s Fence
 <block:jaopca:block_fenceplatinum>, %s Fence
+<block:jaopca:block_fenceplutonium238all>, %s Fence
+<block:jaopca:block_fenceplutonium238carbide>, %s Fence
+<block:jaopca:block_fenceplutonium238nitride>, %s Fence
+<block:jaopca:block_fenceplutonium238za>, %s Fence
+<block:jaopca:block_fenceplutonium239all>, %s Fence
+<block:jaopca:block_fenceplutonium239carbide>, %s Fence
+<block:jaopca:block_fenceplutonium239nitride>, %s Fence
+<block:jaopca:block_fenceplutonium239za>, %s Fence
+<block:jaopca:block_fenceplutonium241all>, %s Fence
+<block:jaopca:block_fenceplutonium241carbide>, %s Fence
+<block:jaopca:block_fenceplutonium241nitride>, %s Fence
+<block:jaopca:block_fenceplutonium241za>, %s Fence
+<block:jaopca:block_fenceplutonium242all>, %s Fence
+<block:jaopca:block_fenceplutonium242carbide>, %s Fence
+<block:jaopca:block_fenceplutonium242nitride>, %s Fence
+<block:jaopca:block_fenceplutonium242za>, %s Fence
 <block:jaopca:block_fenceprismarine>, %s Fence
 <block:jaopca:block_fenceprudentium>, %s Fence
 <block:jaopca:block_fencepulsatingiron>, %s Fence
@@ -3919,7 +4184,11 @@ Blocks:
 <block:jaopca:block_fencethaumium>, %s Fence
 <block:jaopca:block_fencethermoconducting>, %s Fence
 <block:jaopca:block_fencethorium>, %s Fence
+<block:jaopca:block_fencethoriumall>, %s Fence
+<block:jaopca:block_fencethoriumcarbide>, %s Fence
+<block:jaopca:block_fencethoriumnitride>, %s Fence
 <block:jaopca:block_fencethoriumoxide>, %s Fence
+<block:jaopca:block_fencethoriumza>, %s Fence
 <block:jaopca:block_fencetin>, %s Fence
 <block:jaopca:block_fencetinsilver>, %s Fence
 <block:jaopca:block_fencetitanium>, %s Fence
@@ -3928,7 +4197,19 @@ Blocks:
 <block:jaopca:block_fencetungstensteel>, %s Fence
 <block:jaopca:block_fenceultimate>, %s Fence
 <block:jaopca:block_fenceuranium>, %s Fence
-<block:jaopca:block_fenceuraniumoxide>, %s Fence
+<block:jaopca:block_fenceuranium233all>, %s Fence
+<block:jaopca:block_fenceuranium233carbide>, %s Fence
+<block:jaopca:block_fenceuranium233nitride>, %s Fence
+<block:jaopca:block_fenceuranium233za>, %s Fence
+<block:jaopca:block_fenceuranium235all>, %s Fence
+<block:jaopca:block_fenceuranium235carbide>, %s Fence
+<block:jaopca:block_fenceuranium235nitride>, %s Fence
+<block:jaopca:block_fenceuranium235za>, %s Fence
+<block:jaopca:block_fenceuranium238all>, %s Fence
+<block:jaopca:block_fenceuranium238carbide>, %s Fence
+<block:jaopca:block_fenceuranium238nitride>, %s Fence
+<block:jaopca:block_fenceuranium238za>, %s Fence
+<block:jaopca:block_fenceuraniumoxide>, Air
 <block:jaopca:block_fencevibrantalloy>, %s Fence
 <block:jaopca:block_fencevilliaumite>, %s Fence
 <block:jaopca:block_fencevividalloy>, %s Fence
@@ -3943,14 +4224,50 @@ Blocks:
 <block:jaopca:block_glasshardenedadvancedalloy>, Hardened %s Glass
 <block:jaopca:block_glasshardenedalubrass>, Hardened %s Glass
 <block:jaopca:block_glasshardenedalumite>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium241all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium241carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium241nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium241za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium242all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium242carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium242nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium242za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium243all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium243carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium243nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedamericium243za>, Hardened %s Glass
 <block:jaopca:block_glasshardenedardite>, Hardened %s Glass
 <block:jaopca:block_glasshardenedastralstarmetal>, Hardened %s Glass
 <block:jaopca:block_glasshardenedbaseessence>, Hardened %s Glass
+<block:jaopca:block_glasshardenedberkelium247all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedberkelium247carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedberkelium247nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedberkelium247za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedberkelium248all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedberkelium248carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedberkelium248nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedberkelium248za>, Hardened %s Glass
 <block:jaopca:block_glasshardenedblackiron>, Hardened %s Glass
 <block:jaopca:block_glasshardenedbloodbronze>, Hardened %s Glass
 <block:jaopca:block_glasshardenedblutonium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedboron>, Hardened %s Glass
 <block:jaopca:block_glasshardenedbrass>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium249all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium249carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium249nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium249za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium250all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium250carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium250nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium250za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium251all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium251carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium251nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium251za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium252all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium252carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium252nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcalifornium252za>, Hardened %s Glass
 <block:jaopca:block_glasshardenedchromium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedcobalt>, Hardened %s Glass
 <block:jaopca:block_glasshardenedcocoabutter>, Hardened %s Glass
@@ -3963,6 +4280,22 @@ Blocks:
 <block:jaopca:block_glasshardenedcrystallinepinkslime>, Hardened %s Glass
 <block:jaopca:block_glasshardenedcrystalmatrix>, Hardened %s Glass
 <block:jaopca:block_glasshardenedcrystaltine>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium243all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium243carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium243nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium243za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium245all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium245carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium245nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium245za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium246all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium246carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium246nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium246za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium247all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium247carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium247nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedcurium247za>, Hardened %s Glass
 <block:jaopca:block_glasshardenedcyanite>, Hardened %s Glass
 <block:jaopca:block_glasshardeneddarksteel>, Hardened %s Glass
 <block:jaopca:block_glasshardeneddawnstone>, Hardened %s Glass
@@ -4008,12 +4341,36 @@ Blocks:
 <block:jaopca:block_glasshardenedmithminite>, Hardened %s Glass
 <block:jaopca:block_glasshardenedmithrillium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedmixedmetal>, Hardened %s Glass
+<block:jaopca:block_glasshardenedneptunium236all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedneptunium236carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedneptunium236nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedneptunium236za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedneptunium237all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedneptunium237carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedneptunium237nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedneptunium237za>, Hardened %s Glass
 <block:jaopca:block_glasshardenedorichalcos>, Hardened %s Glass
 <block:jaopca:block_glasshardenedosgloglas>, Hardened %s Glass
 <block:jaopca:block_glasshardenedosmiridium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedosmium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedphotonium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedpigiron>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium238all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium238carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium238nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium238za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium239all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium239carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium239nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium239za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium241all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium241carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium241nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium241za>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium242all>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium242carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium242nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardenedplutonium242za>, Hardened %s Glass
 <block:jaopca:block_glasshardenedprudentium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedpulsatingiron>, Hardened %s Glass
 <block:jaopca:block_glasshardenedredstonealloy>, Hardened %s Glass
@@ -4034,7 +4391,11 @@ Blocks:
 <block:jaopca:block_glasshardenedthaumium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedthermoconducting>, Hardened %s Glass
 <block:jaopca:block_glasshardenedthorium>, Hardened %s Glass
+<block:jaopca:block_glasshardenedthoriumall>, Hardened %s Glass
+<block:jaopca:block_glasshardenedthoriumcarbide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedthoriumnitride>, Hardened %s Glass
 <block:jaopca:block_glasshardenedthoriumoxide>, Hardened %s Glass
+<block:jaopca:block_glasshardenedthoriumza>, Hardened %s Glass
 <block:jaopca:block_glasshardenedtinsilver>, Hardened %s Glass
 <block:jaopca:block_glasshardenedtitanium>, Hardened %s Glass
 <block:jaopca:block_glasshardenedtough>, Hardened %s Glass
@@ -4042,7 +4403,19 @@ Blocks:
 <block:jaopca:block_glasshardenedtungstensteel>, Hardened %s Glass
 <block:jaopca:block_glasshardenedultimate>, Hardened %s Glass
 <block:jaopca:block_glasshardeneduranium>, Hardened %s Glass
-<block:jaopca:block_glasshardeneduraniumoxide>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium233all>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium233carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium233nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium233za>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium235all>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium235carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium235nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium235za>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium238all>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium238carbide>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium238nitride>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduranium238za>, Hardened %s Glass
+<block:jaopca:block_glasshardeneduraniumoxide>, Air
 <block:jaopca:block_glasshardenedvibrantalloy>, Hardened %s Glass
 <block:jaopca:block_glasshardenedvividalloy>, Hardened %s Glass
 <block:jaopca:block_glasshardenedvoid>, Hardened %s Glass
@@ -4057,19 +4430,39 @@ Blocks:
 <block:jaopca:block_mysticalcropsalubrass>, %s Crops
 <block:jaopca:block_mysticalcropsalumite>, Air
 <block:jaopca:block_mysticalcropsamericium241>, Air
+<block:jaopca:block_mysticalcropsamericium241all>, %s Crops
+<block:jaopca:block_mysticalcropsamericium241carbide>, %s Crops
+<block:jaopca:block_mysticalcropsamericium241nitride>, %s Crops
 <block:jaopca:block_mysticalcropsamericium241oxide>, Air
+<block:jaopca:block_mysticalcropsamericium241za>, %s Crops
 <block:jaopca:block_mysticalcropsamericium242>, Air
+<block:jaopca:block_mysticalcropsamericium242all>, %s Crops
 <block:jaopca:block_mysticalcropsamericium242base>, Air
+<block:jaopca:block_mysticalcropsamericium242carbide>, %s Crops
+<block:jaopca:block_mysticalcropsamericium242nitride>, %s Crops
 <block:jaopca:block_mysticalcropsamericium242oxide>, Air
+<block:jaopca:block_mysticalcropsamericium242za>, %s Crops
 <block:jaopca:block_mysticalcropsamericium243>, Air
+<block:jaopca:block_mysticalcropsamericium243all>, %s Crops
+<block:jaopca:block_mysticalcropsamericium243carbide>, %s Crops
+<block:jaopca:block_mysticalcropsamericium243nitride>, %s Crops
 <block:jaopca:block_mysticalcropsamericium243oxide>, Air
+<block:jaopca:block_mysticalcropsamericium243za>, %s Crops
 <block:jaopca:block_mysticalcropsastralstarmetal>, %s Crops
 <block:jaopca:block_mysticalcropsbauxite>, %s Crops
 <block:jaopca:block_mysticalcropsberkelium247>, Air
+<block:jaopca:block_mysticalcropsberkelium247all>, %s Crops
+<block:jaopca:block_mysticalcropsberkelium247carbide>, %s Crops
+<block:jaopca:block_mysticalcropsberkelium247nitride>, %s Crops
 <block:jaopca:block_mysticalcropsberkelium247oxide>, Air
+<block:jaopca:block_mysticalcropsberkelium247za>, %s Crops
 <block:jaopca:block_mysticalcropsberkelium248>, Air
+<block:jaopca:block_mysticalcropsberkelium248all>, %s Crops
 <block:jaopca:block_mysticalcropsberkelium248base>, Air
+<block:jaopca:block_mysticalcropsberkelium248carbide>, %s Crops
+<block:jaopca:block_mysticalcropsberkelium248nitride>, %s Crops
 <block:jaopca:block_mysticalcropsberkelium248oxide>, Air
+<block:jaopca:block_mysticalcropsberkelium248za>, %s Crops
 <block:jaopca:block_mysticalcropsberyllium>, Air
 <block:jaopca:block_mysticalcropsblackiron>, %s Crops
 <block:jaopca:block_mysticalcropsbloodbronze>, %s Crops
@@ -4079,15 +4472,31 @@ Blocks:
 <block:jaopca:block_mysticalcropsboronarsenide>, %s Crops
 <block:jaopca:block_mysticalcropsboronnitride>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium249>, Air
+<block:jaopca:block_mysticalcropscalifornium249all>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium249base>, Air
+<block:jaopca:block_mysticalcropscalifornium249carbide>, %s Crops
+<block:jaopca:block_mysticalcropscalifornium249nitride>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium249oxide>, Air
+<block:jaopca:block_mysticalcropscalifornium249za>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium250>, Air
+<block:jaopca:block_mysticalcropscalifornium250all>, %s Crops
+<block:jaopca:block_mysticalcropscalifornium250carbide>, %s Crops
+<block:jaopca:block_mysticalcropscalifornium250nitride>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium250oxide>, Air
+<block:jaopca:block_mysticalcropscalifornium250za>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium251>, Air
+<block:jaopca:block_mysticalcropscalifornium251all>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium251base>, Air
+<block:jaopca:block_mysticalcropscalifornium251carbide>, %s Crops
+<block:jaopca:block_mysticalcropscalifornium251nitride>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium251oxide>, Air
+<block:jaopca:block_mysticalcropscalifornium251za>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium252>, Air
+<block:jaopca:block_mysticalcropscalifornium252all>, %s Crops
+<block:jaopca:block_mysticalcropscalifornium252carbide>, %s Crops
+<block:jaopca:block_mysticalcropscalifornium252nitride>, %s Crops
 <block:jaopca:block_mysticalcropscalifornium252oxide>, Air
+<block:jaopca:block_mysticalcropscalifornium252za>, %s Crops
 <block:jaopca:block_mysticalcropscarobbiite>, %s Crops
 <block:jaopca:block_mysticalcropschocolate>, Air
 <block:jaopca:block_mysticalcropscinnabar>, %s Crops
@@ -4101,16 +4510,32 @@ Blocks:
 <block:jaopca:block_mysticalcropscrystalmatrix>, %s Crops
 <block:jaopca:block_mysticalcropscrystaltine>, %s Crops
 <block:jaopca:block_mysticalcropscurium243>, Air
+<block:jaopca:block_mysticalcropscurium243all>, %s Crops
 <block:jaopca:block_mysticalcropscurium243base>, Air
+<block:jaopca:block_mysticalcropscurium243carbide>, %s Crops
+<block:jaopca:block_mysticalcropscurium243nitride>, %s Crops
 <block:jaopca:block_mysticalcropscurium243oxide>, Air
+<block:jaopca:block_mysticalcropscurium243za>, %s Crops
 <block:jaopca:block_mysticalcropscurium245>, Air
+<block:jaopca:block_mysticalcropscurium245all>, %s Crops
 <block:jaopca:block_mysticalcropscurium245base>, Air
+<block:jaopca:block_mysticalcropscurium245carbide>, %s Crops
+<block:jaopca:block_mysticalcropscurium245nitride>, %s Crops
 <block:jaopca:block_mysticalcropscurium245oxide>, Air
+<block:jaopca:block_mysticalcropscurium245za>, %s Crops
 <block:jaopca:block_mysticalcropscurium246>, Air
+<block:jaopca:block_mysticalcropscurium246all>, %s Crops
+<block:jaopca:block_mysticalcropscurium246carbide>, %s Crops
+<block:jaopca:block_mysticalcropscurium246nitride>, %s Crops
 <block:jaopca:block_mysticalcropscurium246oxide>, Air
+<block:jaopca:block_mysticalcropscurium246za>, %s Crops
 <block:jaopca:block_mysticalcropscurium247>, Air
+<block:jaopca:block_mysticalcropscurium247all>, %s Crops
 <block:jaopca:block_mysticalcropscurium247base>, Air
+<block:jaopca:block_mysticalcropscurium247carbide>, %s Crops
+<block:jaopca:block_mysticalcropscurium247nitride>, %s Crops
 <block:jaopca:block_mysticalcropscurium247oxide>, Air
+<block:jaopca:block_mysticalcropscurium247za>, %s Crops
 <block:jaopca:block_mysticalcropscyanite>, %s Crops
 <block:jaopca:block_mysticalcropsdarkchocolate>, Air
 <block:jaopca:block_mysticalcropsdimensionalshard>, %s Crops
@@ -4148,10 +4573,18 @@ Blocks:
 <block:jaopca:block_mysticalcropsmithrillium>, %s Crops
 <block:jaopca:block_mysticalcropsmixedmetal>, %s Crops
 <block:jaopca:block_mysticalcropsneptunium236>, Air
+<block:jaopca:block_mysticalcropsneptunium236all>, %s Crops
 <block:jaopca:block_mysticalcropsneptunium236base>, Air
+<block:jaopca:block_mysticalcropsneptunium236carbide>, %s Crops
+<block:jaopca:block_mysticalcropsneptunium236nitride>, %s Crops
 <block:jaopca:block_mysticalcropsneptunium236oxide>, Air
+<block:jaopca:block_mysticalcropsneptunium236za>, %s Crops
 <block:jaopca:block_mysticalcropsneptunium237>, Air
+<block:jaopca:block_mysticalcropsneptunium237all>, %s Crops
+<block:jaopca:block_mysticalcropsneptunium237carbide>, %s Crops
+<block:jaopca:block_mysticalcropsneptunium237nitride>, %s Crops
 <block:jaopca:block_mysticalcropsneptunium237oxide>, Air
+<block:jaopca:block_mysticalcropsneptunium237za>, %s Crops
 <block:jaopca:block_mysticalcropsobsidian>, %s Crops
 <block:jaopca:block_mysticalcropsopal>, %s Crops
 <block:jaopca:block_mysticalcropsorichalcos>, %s Crops
@@ -4161,15 +4594,31 @@ Blocks:
 <block:jaopca:block_mysticalcropspigiron>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium>, Air
 <block:jaopca:block_mysticalcropsplutonium238>, Air
+<block:jaopca:block_mysticalcropsplutonium238all>, %s Crops
+<block:jaopca:block_mysticalcropsplutonium238carbide>, %s Crops
+<block:jaopca:block_mysticalcropsplutonium238nitride>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium238oxide>, Air
+<block:jaopca:block_mysticalcropsplutonium238za>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium239>, Air
+<block:jaopca:block_mysticalcropsplutonium239all>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium239base>, Air
+<block:jaopca:block_mysticalcropsplutonium239carbide>, %s Crops
+<block:jaopca:block_mysticalcropsplutonium239nitride>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium239oxide>, Air
+<block:jaopca:block_mysticalcropsplutonium239za>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium241>, Air
+<block:jaopca:block_mysticalcropsplutonium241all>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium241base>, Air
+<block:jaopca:block_mysticalcropsplutonium241carbide>, %s Crops
+<block:jaopca:block_mysticalcropsplutonium241nitride>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium241oxide>, Air
+<block:jaopca:block_mysticalcropsplutonium241za>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium242>, Air
+<block:jaopca:block_mysticalcropsplutonium242all>, %s Crops
+<block:jaopca:block_mysticalcropsplutonium242carbide>, %s Crops
+<block:jaopca:block_mysticalcropsplutonium242nitride>, %s Crops
 <block:jaopca:block_mysticalcropsplutonium242oxide>, Air
+<block:jaopca:block_mysticalcropsplutonium242za>, %s Crops
 <block:jaopca:block_mysticalcropspyrite>, %s Crops
 <block:jaopca:block_mysticalcropsquartzblack>, %s Crops
 <block:jaopca:block_mysticalcropsredgarnet>, %s Crops
@@ -4190,21 +4639,37 @@ Blocks:
 <block:jaopca:block_mysticalcropsthorium232>, Air
 <block:jaopca:block_mysticalcropsthorium232base>, Air
 <block:jaopca:block_mysticalcropsthorium232oxide>, Air
+<block:jaopca:block_mysticalcropsthoriumall>, %s Crops
+<block:jaopca:block_mysticalcropsthoriumcarbide>, %s Crops
+<block:jaopca:block_mysticalcropsthoriumnitride>, %s Crops
 <block:jaopca:block_mysticalcropsthoriumoxide>, %s Crops
+<block:jaopca:block_mysticalcropsthoriumza>, %s Crops
 <block:jaopca:block_mysticalcropstinsilver>, %s Crops
 <block:jaopca:block_mysticalcropstough>, %s Crops
 <block:jaopca:block_mysticalcropstungstensteel>, %s Crops
 <block:jaopca:block_mysticalcropsultimate>, %s Crops
 <block:jaopca:block_mysticalcropsunsweetenedchocolate>, Air
 <block:jaopca:block_mysticalcropsuranium233>, Air
+<block:jaopca:block_mysticalcropsuranium233all>, %s Crops
 <block:jaopca:block_mysticalcropsuranium233base>, Air
+<block:jaopca:block_mysticalcropsuranium233carbide>, %s Crops
+<block:jaopca:block_mysticalcropsuranium233nitride>, %s Crops
 <block:jaopca:block_mysticalcropsuranium233oxide>, Air
+<block:jaopca:block_mysticalcropsuranium233za>, %s Crops
 <block:jaopca:block_mysticalcropsuranium235>, Air
+<block:jaopca:block_mysticalcropsuranium235all>, %s Crops
 <block:jaopca:block_mysticalcropsuranium235base>, Air
+<block:jaopca:block_mysticalcropsuranium235carbide>, %s Crops
+<block:jaopca:block_mysticalcropsuranium235nitride>, %s Crops
 <block:jaopca:block_mysticalcropsuranium235oxide>, Air
+<block:jaopca:block_mysticalcropsuranium235za>, %s Crops
 <block:jaopca:block_mysticalcropsuranium238>, Air
+<block:jaopca:block_mysticalcropsuranium238all>, %s Crops
+<block:jaopca:block_mysticalcropsuranium238carbide>, %s Crops
+<block:jaopca:block_mysticalcropsuranium238nitride>, %s Crops
 <block:jaopca:block_mysticalcropsuranium238oxide>, Air
-<block:jaopca:block_mysticalcropsuraniumoxide>, %s Crops
+<block:jaopca:block_mysticalcropsuranium238za>, %s Crops
+<block:jaopca:block_mysticalcropsuraniumoxide>, Air
 <block:jaopca:block_mysticalcropsvilliaumite>, %s Crops
 <block:jaopca:block_mysticalcropsvividalloy>, %s Crops
 <block:jaopca:block_mysticalcropswub>, %s Crops
@@ -4217,6 +4682,18 @@ Blocks:
 <block:jaopca:block_slabaluminium>, %s Slab
 <block:jaopca:block_slabalumite>, %s Slab
 <block:jaopca:block_slabamber>, %s Slab
+<block:jaopca:block_slabamericium241all>, %s Slab
+<block:jaopca:block_slabamericium241carbide>, %s Slab
+<block:jaopca:block_slabamericium241nitride>, %s Slab
+<block:jaopca:block_slabamericium241za>, %s Slab
+<block:jaopca:block_slabamericium242all>, %s Slab
+<block:jaopca:block_slabamericium242carbide>, %s Slab
+<block:jaopca:block_slabamericium242nitride>, %s Slab
+<block:jaopca:block_slabamericium242za>, %s Slab
+<block:jaopca:block_slabamericium243all>, %s Slab
+<block:jaopca:block_slabamericium243carbide>, %s Slab
+<block:jaopca:block_slabamericium243nitride>, %s Slab
+<block:jaopca:block_slabamericium243za>, %s Slab
 <block:jaopca:block_slabamethyst>, %s Slab
 <block:jaopca:block_slabapatite>, %s Slab
 <block:jaopca:block_slabaquamarine>, %s Slab
@@ -4224,6 +4701,14 @@ Blocks:
 <block:jaopca:block_slabastralstarmetal>, %s Slab
 <block:jaopca:block_slabbaseessence>, %s Slab
 <block:jaopca:block_slabbauxite>, %s Slab
+<block:jaopca:block_slabberkelium247all>, %s Slab
+<block:jaopca:block_slabberkelium247carbide>, %s Slab
+<block:jaopca:block_slabberkelium247nitride>, %s Slab
+<block:jaopca:block_slabberkelium247za>, %s Slab
+<block:jaopca:block_slabberkelium248all>, %s Slab
+<block:jaopca:block_slabberkelium248carbide>, %s Slab
+<block:jaopca:block_slabberkelium248nitride>, %s Slab
+<block:jaopca:block_slabberkelium248za>, %s Slab
 <block:jaopca:block_slabblackiron>, %s Slab
 <block:jaopca:block_slabbloodbronze>, %s Slab
 <block:jaopca:block_slabblutonium>, %s Slab
@@ -4232,6 +4717,22 @@ Blocks:
 <block:jaopca:block_slabboronnitride>, %s Slab
 <block:jaopca:block_slabbrass>, %s Slab
 <block:jaopca:block_slabbronze>, %s Slab
+<block:jaopca:block_slabcalifornium249all>, %s Slab
+<block:jaopca:block_slabcalifornium249carbide>, %s Slab
+<block:jaopca:block_slabcalifornium249nitride>, %s Slab
+<block:jaopca:block_slabcalifornium249za>, %s Slab
+<block:jaopca:block_slabcalifornium250all>, %s Slab
+<block:jaopca:block_slabcalifornium250carbide>, %s Slab
+<block:jaopca:block_slabcalifornium250nitride>, %s Slab
+<block:jaopca:block_slabcalifornium250za>, %s Slab
+<block:jaopca:block_slabcalifornium251all>, %s Slab
+<block:jaopca:block_slabcalifornium251carbide>, %s Slab
+<block:jaopca:block_slabcalifornium251nitride>, %s Slab
+<block:jaopca:block_slabcalifornium251za>, %s Slab
+<block:jaopca:block_slabcalifornium252all>, %s Slab
+<block:jaopca:block_slabcalifornium252carbide>, %s Slab
+<block:jaopca:block_slabcalifornium252nitride>, %s Slab
+<block:jaopca:block_slabcalifornium252za>, %s Slab
 <block:jaopca:block_slabcarobbiite>, %s Slab
 <block:jaopca:block_slabcertusquartz>, %s Slab
 <block:jaopca:block_slabchargedcertusquartz>, %s Slab
@@ -4252,6 +4753,22 @@ Blocks:
 <block:jaopca:block_slabcrystallinepinkslime>, %s Slab
 <block:jaopca:block_slabcrystalmatrix>, %s Slab
 <block:jaopca:block_slabcrystaltine>, %s Slab
+<block:jaopca:block_slabcurium243all>, %s Slab
+<block:jaopca:block_slabcurium243carbide>, %s Slab
+<block:jaopca:block_slabcurium243nitride>, %s Slab
+<block:jaopca:block_slabcurium243za>, %s Slab
+<block:jaopca:block_slabcurium245all>, %s Slab
+<block:jaopca:block_slabcurium245carbide>, %s Slab
+<block:jaopca:block_slabcurium245nitride>, %s Slab
+<block:jaopca:block_slabcurium245za>, %s Slab
+<block:jaopca:block_slabcurium246all>, %s Slab
+<block:jaopca:block_slabcurium246carbide>, %s Slab
+<block:jaopca:block_slabcurium246nitride>, %s Slab
+<block:jaopca:block_slabcurium246za>, %s Slab
+<block:jaopca:block_slabcurium247all>, %s Slab
+<block:jaopca:block_slabcurium247carbide>, %s Slab
+<block:jaopca:block_slabcurium247nitride>, %s Slab
+<block:jaopca:block_slabcurium247za>, %s Slab
 <block:jaopca:block_slabcyanite>, %s Slab
 <block:jaopca:block_slabdarksteel>, %s Slab
 <block:jaopca:block_slabdawnstone>, %s Slab
@@ -4311,6 +4828,14 @@ Blocks:
 <block:jaopca:block_slabmithril>, %s Slab
 <block:jaopca:block_slabmithrillium>, %s Slab
 <block:jaopca:block_slabmixedmetal>, %s Slab
+<block:jaopca:block_slabneptunium236all>, %s Slab
+<block:jaopca:block_slabneptunium236carbide>, %s Slab
+<block:jaopca:block_slabneptunium236nitride>, %s Slab
+<block:jaopca:block_slabneptunium236za>, %s Slab
+<block:jaopca:block_slabneptunium237all>, %s Slab
+<block:jaopca:block_slabneptunium237carbide>, %s Slab
+<block:jaopca:block_slabneptunium237nitride>, %s Slab
+<block:jaopca:block_slabneptunium237za>, %s Slab
 <block:jaopca:block_slabnickel>, %s Slab
 <block:jaopca:block_slabobsidian>, %s Slab
 <block:jaopca:block_slabopal>, %s Slab
@@ -4322,6 +4847,22 @@ Blocks:
 <block:jaopca:block_slabphotonium>, %s Slab
 <block:jaopca:block_slabpigiron>, %s Slab
 <block:jaopca:block_slabplatinum>, %s Slab
+<block:jaopca:block_slabplutonium238all>, %s Slab
+<block:jaopca:block_slabplutonium238carbide>, %s Slab
+<block:jaopca:block_slabplutonium238nitride>, %s Slab
+<block:jaopca:block_slabplutonium238za>, %s Slab
+<block:jaopca:block_slabplutonium239all>, %s Slab
+<block:jaopca:block_slabplutonium239carbide>, %s Slab
+<block:jaopca:block_slabplutonium239nitride>, %s Slab
+<block:jaopca:block_slabplutonium239za>, %s Slab
+<block:jaopca:block_slabplutonium241all>, %s Slab
+<block:jaopca:block_slabplutonium241carbide>, %s Slab
+<block:jaopca:block_slabplutonium241nitride>, %s Slab
+<block:jaopca:block_slabplutonium241za>, %s Slab
+<block:jaopca:block_slabplutonium242all>, %s Slab
+<block:jaopca:block_slabplutonium242carbide>, %s Slab
+<block:jaopca:block_slabplutonium242nitride>, %s Slab
+<block:jaopca:block_slabplutonium242za>, %s Slab
 <block:jaopca:block_slabprudentium>, %s Slab
 <block:jaopca:block_slabpulsatingiron>, %s Slab
 <block:jaopca:block_slabpyrite>, %s Slab
@@ -4355,7 +4896,11 @@ Blocks:
 <block:jaopca:block_slabthaumium>, %s Slab
 <block:jaopca:block_slabthermoconducting>, %s Slab
 <block:jaopca:block_slabthorium>, %s Slab
+<block:jaopca:block_slabthoriumall>, %s Slab
+<block:jaopca:block_slabthoriumcarbide>, %s Slab
+<block:jaopca:block_slabthoriumnitride>, %s Slab
 <block:jaopca:block_slabthoriumoxide>, %s Slab
+<block:jaopca:block_slabthoriumza>, %s Slab
 <block:jaopca:block_slabtin>, %s Slab
 <block:jaopca:block_slabtinsilver>, %s Slab
 <block:jaopca:block_slabtitanium>, %s Slab
@@ -4364,7 +4909,19 @@ Blocks:
 <block:jaopca:block_slabtungstensteel>, %s Slab
 <block:jaopca:block_slabultimate>, %s Slab
 <block:jaopca:block_slaburanium>, %s Slab
-<block:jaopca:block_slaburaniumoxide>, %s Slab
+<block:jaopca:block_slaburanium233all>, %s Slab
+<block:jaopca:block_slaburanium233carbide>, %s Slab
+<block:jaopca:block_slaburanium233nitride>, %s Slab
+<block:jaopca:block_slaburanium233za>, %s Slab
+<block:jaopca:block_slaburanium235all>, %s Slab
+<block:jaopca:block_slaburanium235carbide>, %s Slab
+<block:jaopca:block_slaburanium235nitride>, %s Slab
+<block:jaopca:block_slaburanium235za>, %s Slab
+<block:jaopca:block_slaburanium238all>, %s Slab
+<block:jaopca:block_slaburanium238carbide>, %s Slab
+<block:jaopca:block_slaburanium238nitride>, %s Slab
+<block:jaopca:block_slaburanium238za>, %s Slab
+<block:jaopca:block_slaburaniumoxide>, Air
 <block:jaopca:block_slabvibrantalloy>, %s Slab
 <block:jaopca:block_slabvilliaumite>, %s Slab
 <block:jaopca:block_slabvividalloy>, %s Slab
@@ -4381,6 +4938,18 @@ Blocks:
 <block:jaopca:block_stairsaluminium>, %s Stairs
 <block:jaopca:block_stairsalumite>, %s Stairs
 <block:jaopca:block_stairsamber>, %s Stairs
+<block:jaopca:block_stairsamericium241all>, %s Stairs
+<block:jaopca:block_stairsamericium241carbide>, %s Stairs
+<block:jaopca:block_stairsamericium241nitride>, %s Stairs
+<block:jaopca:block_stairsamericium241za>, %s Stairs
+<block:jaopca:block_stairsamericium242all>, %s Stairs
+<block:jaopca:block_stairsamericium242carbide>, %s Stairs
+<block:jaopca:block_stairsamericium242nitride>, %s Stairs
+<block:jaopca:block_stairsamericium242za>, %s Stairs
+<block:jaopca:block_stairsamericium243all>, %s Stairs
+<block:jaopca:block_stairsamericium243carbide>, %s Stairs
+<block:jaopca:block_stairsamericium243nitride>, %s Stairs
+<block:jaopca:block_stairsamericium243za>, %s Stairs
 <block:jaopca:block_stairsamethyst>, %s Stairs
 <block:jaopca:block_stairsapatite>, %s Stairs
 <block:jaopca:block_stairsaquamarine>, %s Stairs
@@ -4388,6 +4957,14 @@ Blocks:
 <block:jaopca:block_stairsastralstarmetal>, %s Stairs
 <block:jaopca:block_stairsbaseessence>, %s Stairs
 <block:jaopca:block_stairsbauxite>, %s Stairs
+<block:jaopca:block_stairsberkelium247all>, %s Stairs
+<block:jaopca:block_stairsberkelium247carbide>, %s Stairs
+<block:jaopca:block_stairsberkelium247nitride>, %s Stairs
+<block:jaopca:block_stairsberkelium247za>, %s Stairs
+<block:jaopca:block_stairsberkelium248all>, %s Stairs
+<block:jaopca:block_stairsberkelium248carbide>, %s Stairs
+<block:jaopca:block_stairsberkelium248nitride>, %s Stairs
+<block:jaopca:block_stairsberkelium248za>, %s Stairs
 <block:jaopca:block_stairsblackiron>, %s Stairs
 <block:jaopca:block_stairsbloodbronze>, %s Stairs
 <block:jaopca:block_stairsblutonium>, %s Stairs
@@ -4396,6 +4973,22 @@ Blocks:
 <block:jaopca:block_stairsboronnitride>, %s Stairs
 <block:jaopca:block_stairsbrass>, %s Stairs
 <block:jaopca:block_stairsbronze>, %s Stairs
+<block:jaopca:block_stairscalifornium249all>, %s Stairs
+<block:jaopca:block_stairscalifornium249carbide>, %s Stairs
+<block:jaopca:block_stairscalifornium249nitride>, %s Stairs
+<block:jaopca:block_stairscalifornium249za>, %s Stairs
+<block:jaopca:block_stairscalifornium250all>, %s Stairs
+<block:jaopca:block_stairscalifornium250carbide>, %s Stairs
+<block:jaopca:block_stairscalifornium250nitride>, %s Stairs
+<block:jaopca:block_stairscalifornium250za>, %s Stairs
+<block:jaopca:block_stairscalifornium251all>, %s Stairs
+<block:jaopca:block_stairscalifornium251carbide>, %s Stairs
+<block:jaopca:block_stairscalifornium251nitride>, %s Stairs
+<block:jaopca:block_stairscalifornium251za>, %s Stairs
+<block:jaopca:block_stairscalifornium252all>, %s Stairs
+<block:jaopca:block_stairscalifornium252carbide>, %s Stairs
+<block:jaopca:block_stairscalifornium252nitride>, %s Stairs
+<block:jaopca:block_stairscalifornium252za>, %s Stairs
 <block:jaopca:block_stairscarobbiite>, %s Stairs
 <block:jaopca:block_stairscertusquartz>, %s Stairs
 <block:jaopca:block_stairschargedcertusquartz>, %s Stairs
@@ -4416,6 +5009,22 @@ Blocks:
 <block:jaopca:block_stairscrystallinepinkslime>, %s Stairs
 <block:jaopca:block_stairscrystalmatrix>, %s Stairs
 <block:jaopca:block_stairscrystaltine>, %s Stairs
+<block:jaopca:block_stairscurium243all>, %s Stairs
+<block:jaopca:block_stairscurium243carbide>, %s Stairs
+<block:jaopca:block_stairscurium243nitride>, %s Stairs
+<block:jaopca:block_stairscurium243za>, %s Stairs
+<block:jaopca:block_stairscurium245all>, %s Stairs
+<block:jaopca:block_stairscurium245carbide>, %s Stairs
+<block:jaopca:block_stairscurium245nitride>, %s Stairs
+<block:jaopca:block_stairscurium245za>, %s Stairs
+<block:jaopca:block_stairscurium246all>, %s Stairs
+<block:jaopca:block_stairscurium246carbide>, %s Stairs
+<block:jaopca:block_stairscurium246nitride>, %s Stairs
+<block:jaopca:block_stairscurium246za>, %s Stairs
+<block:jaopca:block_stairscurium247all>, %s Stairs
+<block:jaopca:block_stairscurium247carbide>, %s Stairs
+<block:jaopca:block_stairscurium247nitride>, %s Stairs
+<block:jaopca:block_stairscurium247za>, %s Stairs
 <block:jaopca:block_stairscyanite>, %s Stairs
 <block:jaopca:block_stairsdarksteel>, %s Stairs
 <block:jaopca:block_stairsdawnstone>, %s Stairs
@@ -4475,6 +5084,14 @@ Blocks:
 <block:jaopca:block_stairsmithril>, %s Stairs
 <block:jaopca:block_stairsmithrillium>, %s Stairs
 <block:jaopca:block_stairsmixedmetal>, %s Stairs
+<block:jaopca:block_stairsneptunium236all>, %s Stairs
+<block:jaopca:block_stairsneptunium236carbide>, %s Stairs
+<block:jaopca:block_stairsneptunium236nitride>, %s Stairs
+<block:jaopca:block_stairsneptunium236za>, %s Stairs
+<block:jaopca:block_stairsneptunium237all>, %s Stairs
+<block:jaopca:block_stairsneptunium237carbide>, %s Stairs
+<block:jaopca:block_stairsneptunium237nitride>, %s Stairs
+<block:jaopca:block_stairsneptunium237za>, %s Stairs
 <block:jaopca:block_stairsnickel>, %s Stairs
 <block:jaopca:block_stairsobsidian>, %s Stairs
 <block:jaopca:block_stairsopal>, %s Stairs
@@ -4486,6 +5103,22 @@ Blocks:
 <block:jaopca:block_stairsphotonium>, %s Stairs
 <block:jaopca:block_stairspigiron>, %s Stairs
 <block:jaopca:block_stairsplatinum>, %s Stairs
+<block:jaopca:block_stairsplutonium238all>, %s Stairs
+<block:jaopca:block_stairsplutonium238carbide>, %s Stairs
+<block:jaopca:block_stairsplutonium238nitride>, %s Stairs
+<block:jaopca:block_stairsplutonium238za>, %s Stairs
+<block:jaopca:block_stairsplutonium239all>, %s Stairs
+<block:jaopca:block_stairsplutonium239carbide>, %s Stairs
+<block:jaopca:block_stairsplutonium239nitride>, %s Stairs
+<block:jaopca:block_stairsplutonium239za>, %s Stairs
+<block:jaopca:block_stairsplutonium241all>, %s Stairs
+<block:jaopca:block_stairsplutonium241carbide>, %s Stairs
+<block:jaopca:block_stairsplutonium241nitride>, %s Stairs
+<block:jaopca:block_stairsplutonium241za>, %s Stairs
+<block:jaopca:block_stairsplutonium242all>, %s Stairs
+<block:jaopca:block_stairsplutonium242carbide>, %s Stairs
+<block:jaopca:block_stairsplutonium242nitride>, %s Stairs
+<block:jaopca:block_stairsplutonium242za>, %s Stairs
 <block:jaopca:block_stairsprudentium>, %s Stairs
 <block:jaopca:block_stairspulsatingiron>, %s Stairs
 <block:jaopca:block_stairspyrite>, %s Stairs
@@ -4519,7 +5152,11 @@ Blocks:
 <block:jaopca:block_stairsthaumium>, %s Stairs
 <block:jaopca:block_stairsthermoconducting>, %s Stairs
 <block:jaopca:block_stairsthorium>, %s Stairs
+<block:jaopca:block_stairsthoriumall>, %s Stairs
+<block:jaopca:block_stairsthoriumcarbide>, %s Stairs
+<block:jaopca:block_stairsthoriumnitride>, %s Stairs
 <block:jaopca:block_stairsthoriumoxide>, %s Stairs
+<block:jaopca:block_stairsthoriumza>, %s Stairs
 <block:jaopca:block_stairstin>, %s Stairs
 <block:jaopca:block_stairstinsilver>, %s Stairs
 <block:jaopca:block_stairstitanium>, %s Stairs
@@ -4528,7 +5165,19 @@ Blocks:
 <block:jaopca:block_stairstungstensteel>, %s Stairs
 <block:jaopca:block_stairsultimate>, %s Stairs
 <block:jaopca:block_stairsuranium>, %s Stairs
-<block:jaopca:block_stairsuraniumoxide>, %s Stairs
+<block:jaopca:block_stairsuranium233all>, %s Stairs
+<block:jaopca:block_stairsuranium233carbide>, %s Stairs
+<block:jaopca:block_stairsuranium233nitride>, %s Stairs
+<block:jaopca:block_stairsuranium233za>, %s Stairs
+<block:jaopca:block_stairsuranium235all>, %s Stairs
+<block:jaopca:block_stairsuranium235carbide>, %s Stairs
+<block:jaopca:block_stairsuranium235nitride>, %s Stairs
+<block:jaopca:block_stairsuranium235za>, %s Stairs
+<block:jaopca:block_stairsuranium238all>, %s Stairs
+<block:jaopca:block_stairsuranium238carbide>, %s Stairs
+<block:jaopca:block_stairsuranium238nitride>, %s Stairs
+<block:jaopca:block_stairsuranium238za>, %s Stairs
+<block:jaopca:block_stairsuraniumoxide>, Air
 <block:jaopca:block_stairsvibrantalloy>, %s Stairs
 <block:jaopca:block_stairsvilliaumite>, %s Stairs
 <block:jaopca:block_stairsvividalloy>, %s Stairs
@@ -4545,12 +5194,32 @@ Blocks:
 <block:jaopca:block_wallaluminium>, %s Wall
 <block:jaopca:block_wallalumite>, %s Wall
 <block:jaopca:block_wallamber>, %s Wall
+<block:jaopca:block_wallamericium241all>, %s Wall
+<block:jaopca:block_wallamericium241carbide>, %s Wall
+<block:jaopca:block_wallamericium241nitride>, %s Wall
+<block:jaopca:block_wallamericium241za>, %s Wall
+<block:jaopca:block_wallamericium242all>, %s Wall
+<block:jaopca:block_wallamericium242carbide>, %s Wall
+<block:jaopca:block_wallamericium242nitride>, %s Wall
+<block:jaopca:block_wallamericium242za>, %s Wall
+<block:jaopca:block_wallamericium243all>, %s Wall
+<block:jaopca:block_wallamericium243carbide>, %s Wall
+<block:jaopca:block_wallamericium243nitride>, %s Wall
+<block:jaopca:block_wallamericium243za>, %s Wall
 <block:jaopca:block_wallamethyst>, %s Wall
 <block:jaopca:block_wallapatite>, %s Wall
 <block:jaopca:block_wallaquamarine>, %s Wall
 <block:jaopca:block_wallardite>, %s Wall
 <block:jaopca:block_wallastralstarmetal>, %s Wall
 <block:jaopca:block_wallbaseessence>, %s Wall
+<block:jaopca:block_wallberkelium247all>, %s Wall
+<block:jaopca:block_wallberkelium247carbide>, %s Wall
+<block:jaopca:block_wallberkelium247nitride>, %s Wall
+<block:jaopca:block_wallberkelium247za>, %s Wall
+<block:jaopca:block_wallberkelium248all>, %s Wall
+<block:jaopca:block_wallberkelium248carbide>, %s Wall
+<block:jaopca:block_wallberkelium248nitride>, %s Wall
+<block:jaopca:block_wallberkelium248za>, %s Wall
 <block:jaopca:block_wallblackiron>, %s Wall
 <block:jaopca:block_wallbloodbronze>, %s Wall
 <block:jaopca:block_wallblutonium>, %s Wall
@@ -4559,6 +5228,22 @@ Blocks:
 <block:jaopca:block_wallboronnitride>, %s Wall
 <block:jaopca:block_wallbrass>, %s Wall
 <block:jaopca:block_wallbronze>, %s Wall
+<block:jaopca:block_wallcalifornium249all>, %s Wall
+<block:jaopca:block_wallcalifornium249carbide>, %s Wall
+<block:jaopca:block_wallcalifornium249nitride>, %s Wall
+<block:jaopca:block_wallcalifornium249za>, %s Wall
+<block:jaopca:block_wallcalifornium250all>, %s Wall
+<block:jaopca:block_wallcalifornium250carbide>, %s Wall
+<block:jaopca:block_wallcalifornium250nitride>, %s Wall
+<block:jaopca:block_wallcalifornium250za>, %s Wall
+<block:jaopca:block_wallcalifornium251all>, %s Wall
+<block:jaopca:block_wallcalifornium251carbide>, %s Wall
+<block:jaopca:block_wallcalifornium251nitride>, %s Wall
+<block:jaopca:block_wallcalifornium251za>, %s Wall
+<block:jaopca:block_wallcalifornium252all>, %s Wall
+<block:jaopca:block_wallcalifornium252carbide>, %s Wall
+<block:jaopca:block_wallcalifornium252nitride>, %s Wall
+<block:jaopca:block_wallcalifornium252za>, %s Wall
 <block:jaopca:block_wallcarobbiite>, %s Wall
 <block:jaopca:block_wallcertusquartz>, %s Wall
 <block:jaopca:block_wallchargedcertusquartz>, %s Wall
@@ -4578,6 +5263,22 @@ Blocks:
 <block:jaopca:block_wallcrystallinepinkslime>, %s Wall
 <block:jaopca:block_wallcrystalmatrix>, %s Wall
 <block:jaopca:block_wallcrystaltine>, %s Wall
+<block:jaopca:block_wallcurium243all>, %s Wall
+<block:jaopca:block_wallcurium243carbide>, %s Wall
+<block:jaopca:block_wallcurium243nitride>, %s Wall
+<block:jaopca:block_wallcurium243za>, %s Wall
+<block:jaopca:block_wallcurium245all>, %s Wall
+<block:jaopca:block_wallcurium245carbide>, %s Wall
+<block:jaopca:block_wallcurium245nitride>, %s Wall
+<block:jaopca:block_wallcurium245za>, %s Wall
+<block:jaopca:block_wallcurium246all>, %s Wall
+<block:jaopca:block_wallcurium246carbide>, %s Wall
+<block:jaopca:block_wallcurium246nitride>, %s Wall
+<block:jaopca:block_wallcurium246za>, %s Wall
+<block:jaopca:block_wallcurium247all>, %s Wall
+<block:jaopca:block_wallcurium247carbide>, %s Wall
+<block:jaopca:block_wallcurium247nitride>, %s Wall
+<block:jaopca:block_wallcurium247za>, %s Wall
 <block:jaopca:block_wallcyanite>, %s Wall
 <block:jaopca:block_walldarksteel>, %s Wall
 <block:jaopca:block_walldawnstone>, %s Wall
@@ -4636,6 +5337,14 @@ Blocks:
 <block:jaopca:block_wallmithril>, %s Wall
 <block:jaopca:block_wallmithrillium>, %s Wall
 <block:jaopca:block_wallmixedmetal>, %s Wall
+<block:jaopca:block_wallneptunium236all>, %s Wall
+<block:jaopca:block_wallneptunium236carbide>, %s Wall
+<block:jaopca:block_wallneptunium236nitride>, %s Wall
+<block:jaopca:block_wallneptunium236za>, %s Wall
+<block:jaopca:block_wallneptunium237all>, %s Wall
+<block:jaopca:block_wallneptunium237carbide>, %s Wall
+<block:jaopca:block_wallneptunium237nitride>, %s Wall
+<block:jaopca:block_wallneptunium237za>, %s Wall
 <block:jaopca:block_wallnickel>, %s Wall
 <block:jaopca:block_wallobsidian>, %s Wall
 <block:jaopca:block_wallopal>, %s Wall
@@ -4647,6 +5356,22 @@ Blocks:
 <block:jaopca:block_wallphotonium>, %s Wall
 <block:jaopca:block_wallpigiron>, %s Wall
 <block:jaopca:block_wallplatinum>, %s Wall
+<block:jaopca:block_wallplutonium238all>, %s Wall
+<block:jaopca:block_wallplutonium238carbide>, %s Wall
+<block:jaopca:block_wallplutonium238nitride>, %s Wall
+<block:jaopca:block_wallplutonium238za>, %s Wall
+<block:jaopca:block_wallplutonium239all>, %s Wall
+<block:jaopca:block_wallplutonium239carbide>, %s Wall
+<block:jaopca:block_wallplutonium239nitride>, %s Wall
+<block:jaopca:block_wallplutonium239za>, %s Wall
+<block:jaopca:block_wallplutonium241all>, %s Wall
+<block:jaopca:block_wallplutonium241carbide>, %s Wall
+<block:jaopca:block_wallplutonium241nitride>, %s Wall
+<block:jaopca:block_wallplutonium241za>, %s Wall
+<block:jaopca:block_wallplutonium242all>, %s Wall
+<block:jaopca:block_wallplutonium242carbide>, %s Wall
+<block:jaopca:block_wallplutonium242nitride>, %s Wall
+<block:jaopca:block_wallplutonium242za>, %s Wall
 <block:jaopca:block_wallprismarine>, %s Wall
 <block:jaopca:block_wallprudentium>, %s Wall
 <block:jaopca:block_wallpulsatingiron>, %s Wall
@@ -4676,7 +5401,11 @@ Blocks:
 <block:jaopca:block_wallthaumium>, %s Wall
 <block:jaopca:block_wallthermoconducting>, %s Wall
 <block:jaopca:block_wallthorium>, %s Wall
+<block:jaopca:block_wallthoriumall>, %s Wall
+<block:jaopca:block_wallthoriumcarbide>, %s Wall
+<block:jaopca:block_wallthoriumnitride>, %s Wall
 <block:jaopca:block_wallthoriumoxide>, %s Wall
+<block:jaopca:block_wallthoriumza>, %s Wall
 <block:jaopca:block_walltin>, %s Wall
 <block:jaopca:block_walltinsilver>, %s Wall
 <block:jaopca:block_walltitanium>, %s Wall
@@ -4685,7 +5414,19 @@ Blocks:
 <block:jaopca:block_walltungstensteel>, %s Wall
 <block:jaopca:block_wallultimate>, %s Wall
 <block:jaopca:block_walluranium>, %s Wall
-<block:jaopca:block_walluraniumoxide>, %s Wall
+<block:jaopca:block_walluranium233all>, %s Wall
+<block:jaopca:block_walluranium233carbide>, %s Wall
+<block:jaopca:block_walluranium233nitride>, %s Wall
+<block:jaopca:block_walluranium233za>, %s Wall
+<block:jaopca:block_walluranium235all>, %s Wall
+<block:jaopca:block_walluranium235carbide>, %s Wall
+<block:jaopca:block_walluranium235nitride>, %s Wall
+<block:jaopca:block_walluranium235za>, %s Wall
+<block:jaopca:block_walluranium238all>, %s Wall
+<block:jaopca:block_walluranium238carbide>, %s Wall
+<block:jaopca:block_walluranium238nitride>, %s Wall
+<block:jaopca:block_walluranium238za>, %s Wall
+<block:jaopca:block_walluraniumoxide>, Air
 <block:jaopca:block_wallvibrantalloy>, %s Wall
 <block:jaopca:block_wallvilliaumite>, %s Wall
 <block:jaopca:block_wallvividalloy>, %s Wall
@@ -4698,38 +5439,90 @@ Blocks:
 <block:jaopca:block_wallzirconium>, %s Wall
 <block:jaopca:fluid_moltenadaminite>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenadvancedalloy>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenamericium241all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenamericium241carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenamericium241nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenamericium241oxide>, Air
+<block:jaopca:fluid_moltenamericium241za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenamericium242all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenamericium242base>, Air
+<block:jaopca:fluid_moltenamericium242carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenamericium242nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenamericium242oxide>, Air
+<block:jaopca:fluid_moltenamericium242za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenamericium243all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenamericium243carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenamericium243nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenamericium243oxide>, Air
+<block:jaopca:fluid_moltenamericium243za>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenastralstarmetal>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenberkelium247all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenberkelium247carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenberkelium247nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenberkelium247oxide>, Air
+<block:jaopca:fluid_moltenberkelium247za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenberkelium248all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenberkelium248base>, Air
+<block:jaopca:fluid_moltenberkelium248carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenberkelium248nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenberkelium248oxide>, Air
+<block:jaopca:fluid_moltenberkelium248za>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenblackiron>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenbloodbronze>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenblutonium>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenboron10>, Air
 <block:jaopca:fluid_moltenboron11>, Air
+<block:jaopca:fluid_moltencalifornium249all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencalifornium249base>, Air
+<block:jaopca:fluid_moltencalifornium249carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium249nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencalifornium249oxide>, Air
+<block:jaopca:fluid_moltencalifornium249za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium250all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium250carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium250nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencalifornium250oxide>, Air
+<block:jaopca:fluid_moltencalifornium250za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium251all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencalifornium251base>, Air
+<block:jaopca:fluid_moltencalifornium251carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium251nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencalifornium251oxide>, Air
+<block:jaopca:fluid_moltencalifornium251za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium252all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium252carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencalifornium252nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencalifornium252oxide>, Air
+<block:jaopca:fluid_moltencalifornium252za>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenchocolate>, Air
 <block:jaopca:fluid_moltenchromium>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencoldiron>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencosmicneutronium>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencrystalmatrix>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencrystaltine>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium243all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencurium243base>, Air
+<block:jaopca:fluid_moltencurium243carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium243nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencurium243oxide>, Air
+<block:jaopca:fluid_moltencurium243za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium245all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencurium245base>, Air
+<block:jaopca:fluid_moltencurium245carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium245nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencurium245oxide>, Air
+<block:jaopca:fluid_moltencurium245za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium246all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium246carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium246nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencurium246oxide>, Air
+<block:jaopca:fluid_moltencurium246za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium247all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencurium247base>, Air
+<block:jaopca:fluid_moltencurium247carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltencurium247nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltencurium247oxide>, Air
+<block:jaopca:fluid_moltencurium247za>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltendraconium>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltendraconiumawakened>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenelectrumflux>, tile.jaopca.molten.name
@@ -4754,17 +5547,41 @@ Blocks:
 <block:jaopca:fluid_moltenmithril>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenmithrillium>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenmixedmetal>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenneptunium236all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenneptunium236base>, Air
+<block:jaopca:fluid_moltenneptunium236carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenneptunium236nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenneptunium236oxide>, Air
+<block:jaopca:fluid_moltenneptunium236za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenneptunium237all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenneptunium237carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenneptunium237nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenneptunium237oxide>, Air
+<block:jaopca:fluid_moltenneptunium237za>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenorichalcos>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenphotonium>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium238all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium238carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium238nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenplutonium238oxide>, Air
+<block:jaopca:fluid_moltenplutonium238za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium239all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenplutonium239base>, Air
+<block:jaopca:fluid_moltenplutonium239carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium239nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenplutonium239oxide>, Air
+<block:jaopca:fluid_moltenplutonium239za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium241all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenplutonium241base>, Air
+<block:jaopca:fluid_moltenplutonium241carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium241nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenplutonium241oxide>, Air
+<block:jaopca:fluid_moltenplutonium241za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium242all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium242carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenplutonium242nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenplutonium242oxide>, Air
+<block:jaopca:fluid_moltenplutonium242za>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenrefinedglowstone>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenrefinediron>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenrefinedobsidian>, tile.jaopca.molten.name
@@ -4778,18 +5595,34 @@ Blocks:
 <block:jaopca:fluid_moltenthorium232>, Air
 <block:jaopca:fluid_moltenthorium232base>, Air
 <block:jaopca:fluid_moltenthorium232oxide>, Air
+<block:jaopca:fluid_moltenthoriumall>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenthoriumcarbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenthoriumnitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenthoriumoxide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenthoriumza>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltentinsilver>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltentitanium>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltentungsten>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltentungstensteel>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenultimate>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuranium233all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenuranium233base>, Air
+<block:jaopca:fluid_moltenuranium233carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuranium233nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenuranium233oxide>, Air
+<block:jaopca:fluid_moltenuranium233za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuranium235all>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenuranium235base>, Air
+<block:jaopca:fluid_moltenuranium235carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuranium235nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenuranium235oxide>, Air
+<block:jaopca:fluid_moltenuranium235za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuranium238all>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuranium238carbide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuranium238nitride>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenuranium238oxide>, Air
-<block:jaopca:fluid_moltenuraniumoxide>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuranium238za>, tile.jaopca.molten.name
+<block:jaopca:fluid_moltenuraniumoxide>, Air
 <block:jaopca:fluid_moltenvoid>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenwub>, tile.jaopca.molten.name
 <block:jaopca:fluid_moltenzircaloy>, tile.jaopca.molten.name
@@ -5595,52 +6428,68 @@ Blocks:
 <block:netherendingores:ore_nether_vanilla>, Air
 <block:netherendingores:ore_other_1>, Air
 <block:notenoughwands:lightblock>, Illuminating Orb
-<block:nuclearcraft:accelerator_electromagnet_active>, Superconducting Electromagnet
-<block:nuclearcraft:accelerator_electromagnet_idle>, Superconducting Electromagnet
-<block:nuclearcraft:active_cooler>, Active Fluid Cooler
-<block:nuclearcraft:alloy_furnace_active>, Alloy Furnace
-<block:nuclearcraft:alloy_furnace_idle>, Alloy Furnace
+<block:nuclearcraft:accelerator_electromagnet_active>, Air
+<block:nuclearcraft:accelerator_electromagnet_idle>, Air
+<block:nuclearcraft:active_cooler>, Air
+<block:nuclearcraft:alloy_furnace>, Alloy Furnace
+<block:nuclearcraft:alloy_furnace_active>, Air
+<block:nuclearcraft:alloy_furnace_idle>, Air
 <block:nuclearcraft:bin>, Universal Bin
-<block:nuclearcraft:block_depleted_americium>, Americium-243 Block
-<block:nuclearcraft:block_depleted_berkelium>, Berkelium-247 Block
-<block:nuclearcraft:block_depleted_californium>, Californium-252 Block
-<block:nuclearcraft:block_depleted_curium>, Curium-246 Block
-<block:nuclearcraft:block_depleted_neptunium>, Neptunium-237 Block
-<block:nuclearcraft:block_depleted_plutonium>, Plutonium-242 Block
-<block:nuclearcraft:block_depleted_thorium>, Thorium-230 Block
-<block:nuclearcraft:block_depleted_uranium>, Uranium-238 Block
-<block:nuclearcraft:block_ice>, Supercold Ice
-<block:nuclearcraft:buffer>, Buffer
-<block:nuclearcraft:cell_block>, Reactor Cell
-<block:nuclearcraft:centrifuge_active>, Centrifuge
-<block:nuclearcraft:centrifuge_idle>, Centrifuge
-<block:nuclearcraft:chemical_reactor_active>, Chemical Reactor
-<block:nuclearcraft:chemical_reactor_idle>, Chemical Reactor
+<block:nuclearcraft:block_depleted_americium>, Air
+<block:nuclearcraft:block_depleted_berkelium>, Air
+<block:nuclearcraft:block_depleted_californium>, Air
+<block:nuclearcraft:block_depleted_curium>, Air
+<block:nuclearcraft:block_depleted_neptunium>, Air
+<block:nuclearcraft:block_depleted_plutonium>, Air
+<block:nuclearcraft:block_depleted_thorium>, Air
+<block:nuclearcraft:block_depleted_uranium>, Air
+<block:nuclearcraft:block_ice>, Air
+<block:nuclearcraft:buffer>, Air
+<block:nuclearcraft:cell_block>, Air
+<block:nuclearcraft:centrifuge>, Centrifuge
+<block:nuclearcraft:centrifuge_active>, Air
+<block:nuclearcraft:centrifuge_idle>, Air
+<block:nuclearcraft:chemical_reactor>, Chemical Reactor
+<block:nuclearcraft:chemical_reactor_active>, Air
+<block:nuclearcraft:chemical_reactor_idle>, Air
 <block:nuclearcraft:cobblestone_generator>, Cobblestone Generator
 <block:nuclearcraft:cobblestone_generator_compact>, Compact Cobblestone Generator
 <block:nuclearcraft:cobblestone_generator_dense>, Dense Cobblestone Generator
-<block:nuclearcraft:cooler>, tile.nuclearcraft.cooler.name
-<block:nuclearcraft:crystallizer_active>, Crystallizer
-<block:nuclearcraft:crystallizer_idle>, Crystallizer
+<block:nuclearcraft:cooler>, Air
+<block:nuclearcraft:crystallizer>, Crystallizer
+<block:nuclearcraft:crystallizer_active>, Air
+<block:nuclearcraft:crystallizer_idle>, Air
 <block:nuclearcraft:decay_generator>, Decay Generator
-<block:nuclearcraft:decay_hastener_active>, Decay Hastener
-<block:nuclearcraft:decay_hastener_idle>, Decay Hastener
-<block:nuclearcraft:dissolver_active>, Fluid Enricher
-<block:nuclearcraft:dissolver_idle>, Fluid Enricher
-<block:nuclearcraft:dry_earth>, Wasteland Earth
-<block:nuclearcraft:electrolyser_active>, Electrolyzer
-<block:nuclearcraft:electrolyser_idle>, Electrolyzer
-<block:nuclearcraft:electromagnet_supercooler_active>, Superconducting Supercooler
-<block:nuclearcraft:electromagnet_supercooler_idle>, Superconducting Supercooler
-<block:nuclearcraft:extractor_active>, Fluid Extractor
-<block:nuclearcraft:extractor_idle>, Fluid Extractor
-<block:nuclearcraft:fission_block>, tile.nuclearcraft.fission_block.name
-<block:nuclearcraft:fission_controller_active>, Fission Controller
-<block:nuclearcraft:fission_controller_idle>, Fission Controller (Old)
-<block:nuclearcraft:fission_controller_new_active>, Fission Controller
-<block:nuclearcraft:fission_controller_new_fixed>, Fission Controller
-<block:nuclearcraft:fission_controller_new_idle>, Fission Controller
+<block:nuclearcraft:decay_hastener>, Decay Hastener
+<block:nuclearcraft:decay_hastener_active>, Air
+<block:nuclearcraft:decay_hastener_idle>, Air
+<block:nuclearcraft:dissolver_active>, Air
+<block:nuclearcraft:dissolver_idle>, Air
+<block:nuclearcraft:dry_earth>, Air
+<block:nuclearcraft:electrolyser_active>, Air
+<block:nuclearcraft:electrolyser_idle>, Air
+<block:nuclearcraft:electrolyzer>, Electrolyzer
+<block:nuclearcraft:electromagnet_supercooler_active>, Air
+<block:nuclearcraft:electromagnet_supercooler_idle>, Air
+<block:nuclearcraft:enricher>, Fluid Enricher
+<block:nuclearcraft:extractor>, Fluid Extractor
+<block:nuclearcraft:extractor_active>, Air
+<block:nuclearcraft:extractor_idle>, Air
+<block:nuclearcraft:fertile_isotope>, tile.nuclearcraft.fertile_isotope.name
+<block:nuclearcraft:fission_block>, Air
+<block:nuclearcraft:fission_casing>, Fission Reactor Casing
+<block:nuclearcraft:fission_computer_port>, Fission Reactor Computer Port
+<block:nuclearcraft:fission_conductor>, Fission Reactor Conductor
+<block:nuclearcraft:fission_controller_active>, Air
+<block:nuclearcraft:fission_controller_idle>, Air
+<block:nuclearcraft:fission_controller_new_active>, Air
+<block:nuclearcraft:fission_controller_new_fixed>, Air
+<block:nuclearcraft:fission_controller_new_idle>, Air
+<block:nuclearcraft:fission_glass>, Fission Reactor Glass
 <block:nuclearcraft:fission_port>, Fission Reactor Port
+<block:nuclearcraft:fission_reflector>, Neutron Reflector
+<block:nuclearcraft:fission_source>, tile.nuclearcraft.fission_source.name
+<block:nuclearcraft:fission_vent>, Fission Reactor Vent
 <block:nuclearcraft:fluid_alugentum>, Molten Alugentum
 <block:nuclearcraft:fluid_alumina>, Molten Alumina
 <block:nuclearcraft:fluid_aluminum>, Molten Aluminum
@@ -5675,6 +6524,7 @@ Blocks:
 <block:nuclearcraft:fluid_fluoromethane>, Fluoromethane
 <block:nuclearcraft:fluid_gelatin>, Molten Gelatin
 <block:nuclearcraft:fluid_hard_carbon>, Molten Hard Carbon
+<block:nuclearcraft:fluid_heavy_water>, Heavy Water
 <block:nuclearcraft:fluid_helium>, Helium
 <block:nuclearcraft:fluid_helium3>, Helium-3
 <block:nuclearcraft:fluid_high_pressure_steam>, High Pressure Steam
@@ -5683,8 +6533,9 @@ Blocks:
 <block:nuclearcraft:fluid_hydrogen>, Hydrogen
 <block:nuclearcraft:fluid_koh>, Molten Potassium Hydroxide
 <block:nuclearcraft:fluid_lif>, Molten Lithium Fluoride
+<block:nuclearcraft:fluid_liquid_helium>, Liquid Helium
 <block:nuclearcraft:fluid_liquid_nitrogen>, Liquid Nitrogen
-<block:nuclearcraft:fluid_liquidhelium>, Liquid Helium
+<block:nuclearcraft:fluid_liquidhelium>, Air
 <block:nuclearcraft:fluid_lithium>, Molten Lithium
 <block:nuclearcraft:fluid_lithium6>, Molten Lithium-6
 <block:nuclearcraft:fluid_lithium7>, Molten Lithium-7
@@ -5699,7 +6550,7 @@ Blocks:
 <block:nuclearcraft:fluid_nak>, Eutectic NaK Alloy
 <block:nuclearcraft:fluid_nak_hot>, Hot Eutectic NaK Alloy
 <block:nuclearcraft:fluid_naoh>, Molten Sodium Hydroxide
-<block:nuclearcraft:fluid_neutron>, Neutron Fluid
+<block:nuclearcraft:fluid_neutron>, Air
 <block:nuclearcraft:fluid_nitrogen>, Nitrogen
 <block:nuclearcraft:fluid_oxygen>, Oxygen
 <block:nuclearcraft:fluid_oxygen_difluoride>, Oxygen Difluoride
@@ -5723,95 +6574,113 @@ Blocks:
 <block:nuclearcraft:fluid_tough>, Molten Tough Alloy
 <block:nuclearcraft:fluid_tritium>, Tritium
 <block:nuclearcraft:fluid_unsweetened_chocolate>, Molten Unsweetened Chocolate
-<block:nuclearcraft:fuel_reprocessor_active>, Fuel Reprocessor
-<block:nuclearcraft:fuel_reprocessor_idle>, Fuel Reprocessor
-<block:nuclearcraft:fusion_connector>, Fusion Connector
-<block:nuclearcraft:fusion_core>, Fusion Core
-<block:nuclearcraft:fusion_dummy_side>, Fusion Core
-<block:nuclearcraft:fusion_dummy_top>, Fusion Core
-<block:nuclearcraft:fusion_electromagnet_active>, Fusion Electromagnet
-<block:nuclearcraft:fusion_electromagnet_idle>, Fusion Electromagnet
-<block:nuclearcraft:fusion_electromagnet_transparent_active>, Transparent Fusion Electromagnet
-<block:nuclearcraft:fusion_electromagnet_transparent_idle>, Transparent Fusion Electromagnet
+<block:nuclearcraft:fuel_reprocessor>, Fuel Reprocessor
+<block:nuclearcraft:fuel_reprocessor_active>, Air
+<block:nuclearcraft:fuel_reprocessor_idle>, Air
+<block:nuclearcraft:fusion_connector>, Air
+<block:nuclearcraft:fusion_core>, Air
+<block:nuclearcraft:fusion_dummy_side>, Air
+<block:nuclearcraft:fusion_dummy_top>, Air
+<block:nuclearcraft:fusion_electromagnet_active>, Air
+<block:nuclearcraft:fusion_electromagnet_idle>, Air
+<block:nuclearcraft:fusion_electromagnet_transparent_active>, Air
+<block:nuclearcraft:fusion_electromagnet_transparent_idle>, Air
 <block:nuclearcraft:geiger_block>, Geiger Counter Block
 <block:nuclearcraft:glowing_mushroom>, Glowing Mushroom
 <block:nuclearcraft:heat_exchanger_computer_port>, Heat Exchanger Computer Port
 <block:nuclearcraft:heat_exchanger_condenser_tube_copper>, Copper Condensation Tube
 <block:nuclearcraft:heat_exchanger_condenser_tube_hard_carbon>, Hard Carbon Condensation Tube
 <block:nuclearcraft:heat_exchanger_condenser_tube_thermoconducting>, Thermoconducting Alloy Condensation Tube
-<block:nuclearcraft:heat_exchanger_controller>, Heat Exchanger Controller
-<block:nuclearcraft:heat_exchanger_frame>, Heat Exchanger Frame
+<block:nuclearcraft:heat_exchanger_controller>, Heat Exchanger Controller (MULTIBLOCK BROKEN!)
+<block:nuclearcraft:heat_exchanger_frame>, Air
 <block:nuclearcraft:heat_exchanger_glass>, Heat Exchanger Glass
 <block:nuclearcraft:heat_exchanger_tube_copper>, Copper Heat Exchanger Tube
 <block:nuclearcraft:heat_exchanger_tube_hard_carbon>, Hard Carbon Heat Exchanger Tube
 <block:nuclearcraft:heat_exchanger_tube_thermoconducting>, Thermoconducting Alloy Heat Exchanger Tube
 <block:nuclearcraft:heat_exchanger_vent>, Heat Exchanger Vent
 <block:nuclearcraft:heat_exchanger_wall>, Heat Exchanger Shell
-<block:nuclearcraft:helium_collector>, Helium Collector
-<block:nuclearcraft:helium_collector_compact>, Compact Helium Collector
-<block:nuclearcraft:helium_collector_dense>, Dense Helium Collector
-<block:nuclearcraft:infuser_active>, Fluid Infuser
-<block:nuclearcraft:infuser_idle>, Fluid Infuser
+<block:nuclearcraft:heavy_water_moderator>, Heavy Water Moderator
+<block:nuclearcraft:helium_collector>, Air
+<block:nuclearcraft:helium_collector_compact>, Air
+<block:nuclearcraft:helium_collector_dense>, Air
+<block:nuclearcraft:infuser>, Fluid Infuser
+<block:nuclearcraft:infuser_active>, Air
+<block:nuclearcraft:infuser_idle>, Air
 <block:nuclearcraft:ingot_block>, tile.nuclearcraft.ingot_block.name
-<block:nuclearcraft:ingot_former_active>, Ingot Former
-<block:nuclearcraft:ingot_former_idle>, Ingot Former
-<block:nuclearcraft:irradiator_active>, Neutron Irradiator
-<block:nuclearcraft:irradiator_idle>, Neutron Irradiator
-<block:nuclearcraft:isotope_separator_active>, Isotope Separator
-<block:nuclearcraft:isotope_separator_idle>, Isotope Separator
+<block:nuclearcraft:ingot_former>, Ingot Former
+<block:nuclearcraft:ingot_former_active>, Air
+<block:nuclearcraft:ingot_former_idle>, Air
+<block:nuclearcraft:irradiator>, Neutron Irradiator
+<block:nuclearcraft:irradiator_active>, Air
+<block:nuclearcraft:irradiator_idle>, Air
+<block:nuclearcraft:isotope_separator>, Isotope Separator
+<block:nuclearcraft:isotope_separator_active>, Air
+<block:nuclearcraft:isotope_separator_idle>, Air
 <block:nuclearcraft:lithium_ion_battery_advanced>, Advanced Lithium Ion Battery
 <block:nuclearcraft:lithium_ion_battery_basic>, Basic Lithium Ion Battery
 <block:nuclearcraft:lithium_ion_battery_du>, DU Lithium Ion Battery
 <block:nuclearcraft:lithium_ion_battery_elite>, Elite Lithium Ion Battery
 <block:nuclearcraft:machine_interface>, Machine Interface
-<block:nuclearcraft:manufactory_active>, Manufactory
-<block:nuclearcraft:manufactory_idle>, Manufactory
-<block:nuclearcraft:melter_active>, Melter
-<block:nuclearcraft:melter_idle>, Melter
+<block:nuclearcraft:manufactory>, Manufactory
+<block:nuclearcraft:manufactory_active>, Air
+<block:nuclearcraft:manufactory_idle>, Air
+<block:nuclearcraft:melter>, Melter
+<block:nuclearcraft:melter_active>, Air
+<block:nuclearcraft:melter_idle>, Air
 <block:nuclearcraft:nitrogen_collector>, Nitrogen Collector
 <block:nuclearcraft:nitrogen_collector_compact>, Compact Nitrogen Collector
 <block:nuclearcraft:nitrogen_collector_dense>, Dense Nitrogen Collector
-<block:nuclearcraft:nuclear_furnace_active>, Nuclear Furnace
-<block:nuclearcraft:nuclear_furnace_idle>, Nuclear Furnace
+<block:nuclearcraft:nuclear_furnace>, Nuclear Furnace
+<block:nuclearcraft:nuclear_furnace_active>, Air
+<block:nuclearcraft:nuclear_furnace_idle>, Air
 <block:nuclearcraft:ore>, tile.nuclearcraft.ore.name
-<block:nuclearcraft:pressurizer_active>, Pressurizer
-<block:nuclearcraft:pressurizer_idle>, Pressurizer
+<block:nuclearcraft:pressurizer>, Pressurizer
+<block:nuclearcraft:pressurizer_active>, Air
+<block:nuclearcraft:pressurizer_idle>, Air
 <block:nuclearcraft:radiation_scrubber>, Radiation Scrubber
-<block:nuclearcraft:reactor_casing_transparent>, Transparent Fission Reactor Casing
-<block:nuclearcraft:reactor_door>, item.nuclearcraft.reactor_door.name
-<block:nuclearcraft:reactor_trapdoor>, Reactor Trapdoor
-<block:nuclearcraft:rock_crusher_active>, Rock Crusher
-<block:nuclearcraft:rock_crusher_idle>, Rock Crusher
+<block:nuclearcraft:reactor_casing_transparent>, Air
+<block:nuclearcraft:reactor_door>, Air
+<block:nuclearcraft:reactor_trapdoor>, Air
+<block:nuclearcraft:rock_crusher>, Rock Crusher
+<block:nuclearcraft:rock_crusher_active>, Air
+<block:nuclearcraft:rock_crusher_idle>, Air
 <block:nuclearcraft:rtg_americium>, Americium RTG
 <block:nuclearcraft:rtg_californium>, Californium RTG
 <block:nuclearcraft:rtg_plutonium>, Plutonium RTG
 <block:nuclearcraft:rtg_uranium>, Uranium RTG
-<block:nuclearcraft:salt_fission_beam>, Molten Salt Reactor Beam
-<block:nuclearcraft:salt_fission_computer_port>, Molten Salt Reactor Computer Port
-<block:nuclearcraft:salt_fission_controller>, Molten Salt Reactor Controller
-<block:nuclearcraft:salt_fission_distributor>, Molten Salt Fuel Distributor
-<block:nuclearcraft:salt_fission_frame>, Molten Salt Reactor Frame
-<block:nuclearcraft:salt_fission_glass>, Molten Salt Reactor Glass
-<block:nuclearcraft:salt_fission_heater>, Molten Salt Coolant Heater
-<block:nuclearcraft:salt_fission_moderator>, Molten Salt Reactor Moderator Housing
-<block:nuclearcraft:salt_fission_redstone_port>, Molten Salt Reactor Redstone Port
-<block:nuclearcraft:salt_fission_retriever>, Molten Salt Depleted Fuel Retriever
-<block:nuclearcraft:salt_fission_vent>, Molten Salt Reactor Vent
-<block:nuclearcraft:salt_fission_vessel>, Molten Salt Fission Vessel
-<block:nuclearcraft:salt_fission_wall>, Molten Salt Reactor Wall
-<block:nuclearcraft:salt_mixer_active>, Salt Mixer
-<block:nuclearcraft:salt_mixer_idle>, Salt Mixer
+<block:nuclearcraft:salt_fission_beam>, Air
+<block:nuclearcraft:salt_fission_computer_port>, Air
+<block:nuclearcraft:salt_fission_controller>, Molten Salt Reactor Controller (MULTIBLOCK BROKEN!)
+<block:nuclearcraft:salt_fission_distributor>, Air
+<block:nuclearcraft:salt_fission_frame>, Air
+<block:nuclearcraft:salt_fission_glass>, Air
+<block:nuclearcraft:salt_fission_heater>, Fission Reactor Coolant Heater
+<block:nuclearcraft:salt_fission_moderator>, Air
+<block:nuclearcraft:salt_fission_redstone_port>, Air
+<block:nuclearcraft:salt_fission_retriever>, Air
+<block:nuclearcraft:salt_fission_vent>, Air
+<block:nuclearcraft:salt_fission_vessel>, Fission Reactor Fuel Vessel
+<block:nuclearcraft:salt_fission_wall>, Air
+<block:nuclearcraft:salt_mixer>, Salt Mixer
+<block:nuclearcraft:salt_mixer_active>, Air
+<block:nuclearcraft:salt_mixer_idle>, Air
 <block:nuclearcraft:solar_panel_advanced>, Advanced Solar Panel
 <block:nuclearcraft:solar_panel_basic>, Basic Solar Panel
 <block:nuclearcraft:solar_panel_du>, DU Solar Panel
 <block:nuclearcraft:solar_panel_elite>, Elite Solar Panel
-<block:nuclearcraft:supercooler_active>, Supercooler
-<block:nuclearcraft:supercooler_idle>, Supercooler
+<block:nuclearcraft:solid_fission_cell>, Fission Reactor Fuel Cell
+<block:nuclearcraft:solid_fission_controller>, Solid Fuel Reactor Controller
+<block:nuclearcraft:solid_fission_sink>, tile.nuclearcraft.solid_fission_sink.name
+<block:nuclearcraft:solid_fission_sink2>, tile.nuclearcraft.solid_fission_sink2.name
+<block:nuclearcraft:supercold_ice>, Supercold Ice
+<block:nuclearcraft:supercooler>, Supercooler
+<block:nuclearcraft:supercooler_active>, Air
+<block:nuclearcraft:supercooler_idle>, Air
 <block:nuclearcraft:tritium_lamp>, Tritium Lamp
 <block:nuclearcraft:turbine_computer_port>, Turbine Computer Port
 <block:nuclearcraft:turbine_controller>, Turbine Controller
 <block:nuclearcraft:turbine_dynamo_coil>, tile.nuclearcraft.turbine_dynamo_coil.name
-<block:nuclearcraft:turbine_frame>, Turbine Frame
+<block:nuclearcraft:turbine_frame>, Air
 <block:nuclearcraft:turbine_glass>, Transparent Turbine Wall
 <block:nuclearcraft:turbine_inlet>, Turbine Fluid Inlet
 <block:nuclearcraft:turbine_outlet>, Turbine Fluid Outlet
@@ -5826,6 +6695,7 @@ Blocks:
 <block:nuclearcraft:voltaic_pile_basic>, Basic Voltaic Pile
 <block:nuclearcraft:voltaic_pile_du>, DU Voltaic Pile
 <block:nuclearcraft:voltaic_pile_elite>, Elite Voltaic Pile
+<block:nuclearcraft:wasteland_earth>, Wasteland Earth
 <block:nuclearcraft:water_source>, Infinite Water Source
 <block:nuclearcraft:water_source_compact>, Compact Infinite Water Source
 <block:nuclearcraft:water_source_dense>, Dense Infinite Water Source
@@ -6184,7 +7054,9 @@ Blocks:
 <block:requious:gas_emitter>, tile.gas_emitter.name
 <block:requious:item_gate>, tile.item_gate.name
 <block:requious:laser>, Laser Cell
+<block:requious:lathe>, tile.lathe.name
 <block:requious:liquid_emitter>, tile.liquid_emitter.name
+<block:requious:mixer>, Mixer Centrifuge
 <block:requious:red_emitter_advanced>, tile.red_emitter_advanced.name
 <block:requious:red_emitter_basic>, tile.red_emitter_basic.name
 <block:rftools:analog_block>, Analog
@@ -6581,6 +7453,7 @@ Blocks:
 <block:tconstruct:molten_alubrass>, Molten Aluminum Brass
 <block:tconstruct:molten_aluminum>, Molten Aluminum
 <block:tconstruct:molten_ardite>, Molten Ardite
+<block:tconstruct:molten_bloodarsenal.molten_blood_infused_iron>, Molten Blood Infused Iron
 <block:tconstruct:molten_brass>, Molten Brass
 <block:tconstruct:molten_bronze>, Molten Bronze
 <block:tconstruct:molten_clay>, Molten Clay

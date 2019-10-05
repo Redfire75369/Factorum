@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00312
+#packmode theta sigma omega
 
 mods.mekanism.infuser.removeRecipe(hashDust["Bronze"], hashDust["Copper"], "TIN");
 mods.mekanism.infuser.removeRecipe(hashDust["Steel"], <mekanism:enrichediron>, "CARBON");

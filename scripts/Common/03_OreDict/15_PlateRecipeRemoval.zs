@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00315
+#packmode theta sigma omega
 
 mods.techreborn.blastFurnace.removeRecipe(<techreborn:plates:11>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:2>);

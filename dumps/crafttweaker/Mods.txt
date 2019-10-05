@@ -2,14 +2,14 @@ Mods list:
 minecraft - Minecraft - 1.12.2
 mcp - Minecraft Coder Pack - 9.42
 FML - Forge Mod Loader - 8.0.99.99
-forge - Minecraft Forge - 14.23.5.2838
+forge - Minecraft Forge - 14.23.5.2847
 incorporeal_core - Incoremod-poreal - 1.1.0
 energysmatter.asm - Energy's Matter Core - 0.1-8a9d13e
 foamfixcore - FoamFixCore - 7.7.4
 opencomputers|core - OpenComputers (Core) - 1.7.4.153
 rpintegration - RandomPatches Integration - 1.12.2-1.5.1.0
 botania_tweaks_core - Botania Tweaks Core - -100
-randompatches - RandomPatches - 1.12.2-1.18.1.1
+randompatches - RandomPatches - 1.12.2-1.18.2.3
 fastbench - FastWorkbench - 1.7.2
 actuallyadditions - Actually Additions - 1.12.2-r150
 baubles - Baubles - 1.5.2
@@ -75,11 +75,11 @@ artifacts - Artifacts - 1.12.2-1.1.0
 astralsorcery - Astral Sorcery - 1.10.20
 avaritia - Avaritia - 3.3.0
 avaritiatweaks - Avaritia's Complement - @VERSION@
-avaritiaio - Avaritia IO - 1.1
+avaritiaio - Avaritia IO - @VERSION@
 balancedclaytools - Balanced Clay Tools - 0.1.0
 base - B.A.S.E - 3.13.0
-reborncore - Reborn Core - 3.16.2.473
-techreborn - Tech Reborn - 2.24.1.1032
+reborncore - Reborn Core - 3.16.3.476
+techreborn - Tech Reborn - 2.24.2.1041
 forestry - Forestry - 5.8.2.394
 beebetteratbees - Bee Better at Bees - 2.0.3
 betterbuilderswands - Better Builder's Wands - 0.13.2
@@ -93,7 +93,7 @@ genetics - Binnie's Genetics - 2.5.1.188
 botany - Binnie's Botany - 2.5.1.188
 extrabees - Binnie's Extra Bees - 2.5.1.188
 extratrees - Binnie's Extra Trees - 2.5.1.188
-bloodarsenal - Blood Arsenal - 1.12.2-2.2.0-28
+bloodarsenal - Blood Arsenal - 1.12.2-2.2.0-29
 contenttweaker - ContentTweaker - 1.12.2-4.9.1
 conarm - Construct's Armory - 1.2.4
 bloodtinker - Tinkering With Blood Magic - 1.0.5
@@ -161,7 +161,7 @@ enderzoo - Ender Zoo - 1.12.1-1.4.0.49
 igwmod - In-Game wiki Mod - 1.4.4-15
 energysmatter - Energy's Matter - 0.1-8a9d13e
 ieclochecompat - IE Cloche Compat - 2.1.7-dev.454
-immersiveengineering - Immersive Engineering - 0.12-91
+immersiveengineering - Immersive Engineering - 0.12-92
 engineersdoors - Engineer's Doors - 0.8.0
 engineersworkshop - Engineer's Workshop Reborn - 1.0.9.40
 valkyrielib - Valkyrie Lib - 1.12.2-2.0.20.1
@@ -175,7 +175,7 @@ zerocore - Zero CORE - 1.12.2-0.1.2.8
 bigreactors - Extreme Reactors - 1.12.2-0.4.5.67
 farmeradditions - AA Farmer Compat - 1.0.0
 fastfurnace - FastFurnace - 1.3.1
-nuclearcraft - NuclearCraft - 2.18k
+nuclearcraft - NuclearCraft - 2o.0.2
 fbnc - Fission Based Neutron Collector - 2.1.0
 flatcoloredblocks - Flat Colored Blocks - mc1.12-6.8
 mcmultipart - MCMultiPart - 2.5.3
@@ -199,7 +199,7 @@ igi|thaumcraft - InGameInfoXML Thaumcraft Integration - 1.0a
 immersivecables - Immersive Cables - 1.3.2
 immersivepetroleum - Immersive Petroleum - 1.1.9
 immersivetech - Immersive Tech - 1.3.10
-incorporeal - Incorporeal - 1.2.3
+incorporeal - Incorporeal - 1.2.3.1
 teslacorelib - Tesla Core Lib - 1.0.15
 industrialforegoing - Industrial Foregoing - 1.12.2-1.12.2
 industrialmeat - Industrial Meat - 1.12-1.0.2
@@ -301,6 +301,7 @@ rftoolscontrol - RFTools Control - 2.0.2
 rftoolspower - RFToolsPower - 1.2.0
 rftpwroc - RFTools Power / OC Integration - 0.1
 baggablemobs - Baggable Mobs - 1.0.0
+scavenge - Scavenge - 1.8
 schematica - Schematica - 1.8.0.169
 simple_trophies - Simple Trophies - 1.2.1
 soot - Soot - 1.6
@@ -325,7 +326,7 @@ thaumicbrewing - Thaumic Brewing - 1.0.2
 thaumcomp - Thaumic Computers - 0.5.1
 tcinventoryscan - Thaumcrafft Inventory Scanning - 2.0.10
 thaumicjei - ThaumicJEI - 1.6.0
-thaumicrestoration - Thaumic Restoration - 1.3.1
+thaumicrestoration - Thaumic Restoration - 1.3.2
 thaumictinkerer - Thaumic Tinkerer - 1.12.2-5.0-353c71c
 thermalcultivation - Thermal Cultivation - 0.3.3
 thermalinnovation - Thermal Innovation - 0.3.3

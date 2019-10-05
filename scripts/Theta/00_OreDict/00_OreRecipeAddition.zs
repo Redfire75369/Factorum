@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -10000
+#packmode theta sigma omega
 #norun
 
 /*

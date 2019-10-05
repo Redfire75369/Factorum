@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00305
+#packmode theta sigma omega
 
 for key, dictClump in hashClump {
 	if (hashOre has key) {

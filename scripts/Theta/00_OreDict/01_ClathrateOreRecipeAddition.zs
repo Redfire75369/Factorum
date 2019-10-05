@@ -1,5 +1,7 @@
 #loader crafttweaker
 #priority -10001
+#packmode theta sigma omega
+#norun
 
 /*
 Mekanism: Combiner

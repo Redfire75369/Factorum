@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -00311
+#packmode theta sigma omega
 
 for key, dictNugget in hashNugget {
 	if (hashIngot has key) {
