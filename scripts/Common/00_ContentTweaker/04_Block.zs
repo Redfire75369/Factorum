@@ -22,4 +22,4 @@ regolith.creativeTab = <creativetab:other>;
 regolith.gravity = true;
 regolith.toolClass = "shovel";
 regolith.witherProof = true;
-regolith.register;
+regolith.register();

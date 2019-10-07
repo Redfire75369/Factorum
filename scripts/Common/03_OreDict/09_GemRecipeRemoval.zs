@@ -8,9 +8,8 @@ furnace.remove(<thaumcraft:quicksilver>, hashCluster["Quicksilver"]);
 for key, dictGem in hashGem {
 	if (hashOre has key) {
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dictGem);
-		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashOre[key]]);
-		mods.nuclearcraft.manufactory.removeRecipeWithOutput([dictGem]);
-		mods.techreborn.grinder.removeInputRecipe(hashOre[key]);
+		mods.nuclearcraft.manufactory.removeRecipeWithInput(hashOre[key]);
+		mods.nuclearcraft.manufactory.removeRecipeWithOutput(dictGem);
 		for itemOre in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemOre);
 			mods.enderio.SagMill.removeRecipe(itemOre);

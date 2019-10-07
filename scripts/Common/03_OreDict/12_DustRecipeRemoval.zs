@@ -15,7 +15,7 @@ for key, dictDust in hashDust {
 		]);
 		
 		mods.mekanism.enrichment.removeRecipe(hashOre[key], dictDust);
-		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashOre[key]]);
+		mods.nuclearcraft.manufactory.removeRecipeWithInput(hashOre[key]);
 		for itemOre in hashOre[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemOre);
 			mods.bloodmagic.AlchemyTable.removeRecipe([itemOre, <bloodmagic:cutting_fluid>]);
@@ -36,7 +36,7 @@ for key, dictDust in hashDust {
 		]);
 		
 		mods.mekanism.crusher.removeRecipe(dictDust, hashIngot[key]);
-		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashIngot[key]]);
+		mods.nuclearcraft.manufactory.removeRecipeWithInput(hashIngot[key]);
 		mods.techreborn.grinder.removeInputRecipe(hashIngot[key]);
 		for itemIngot in hashIngot[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemIngot);
@@ -50,7 +50,7 @@ for key, dictDust in hashDust {
 	}
 	if (hashGem has key) {
 		mods.mekanism.crusher.removeRecipe(dictDust, hashGem[key]);
-		mods.nuclearcraft.manufactory.removeRecipeWithInput([hashGem[key]]);
+		mods.nuclearcraft.manufactory.removeRecipeWithInput(hashGem[key]);
 		mods.techreborn.grinder.removeInputRecipe(hashGem[key]);
 		for itemGem in hashGem[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemGem);
@@ -58,7 +58,7 @@ for key, dictDust in hashDust {
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemGem);
 			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemGem);
 			mods.integrateddynamics.Squeezer.removeRecipe(itemGem);
-			mods.techreborn.grinder.removeInputRecipe(itemIngot);
+			mods.techreborn.grinder.removeInputRecipe(itemGem);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemGem);
 		}
 	}
@@ -75,14 +75,11 @@ for key, dictDust in hashDust {
 			hashDustTiny[key], hashDustTiny[key], hashDustTiny[key]
 		]);
 	}
-	if ((hashOre has key)&&(!(hashGem has key))) {
-		mods.techreborn.industrialGrinder.removeInputRecipe(hashOre[key]);
-	}
 	if (hashOre has key||hashIngot has key||hashGem has key) {
 		for itemDust in dictDust.items {
 			mods.actuallyadditions.Crusher.removeRecipe(itemDust);
 			mods.astralsorcery.Grindstone.removeRecipe(itemDust);
-			mods.nuclearcraft.manufactory.removeRecipeWithOutput([itemDust]);
+			mods.nuclearcraft.manufactory.removeRecipeWithOutput(itemDust);
 			mods.techreborn.grinder.removeRecipe(itemDust);
 		}
 	}

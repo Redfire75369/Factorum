@@ -17,6 +17,8 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: ContentTweaker; version 1.12.2-4.9.1
 - Mods: Energy's Matter Core; version 0.1-8a9d13e
 - Mods: Energy's Matter; version 0.1-8a9d13e
+- Mods: Keyboard Wizard; version 1.12.2-1.7.1
+- Mods: Lockdown; version 1.12.1-7.0.1-universal
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
 - Mods: Just Enough Petroleum; version 0.1
@@ -28,7 +30,6 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Mods: Redstone PCB; version 0.2
 - Mods: Requious Frakto; version 0.5
 - Mods: Scavenge; version V1.12-1.8.3.2
-- Mods: YUNoMakeGoodMap; version 1.12-6.3.0.29
 - Scripts: Added ContentTweaker Scripts
 - Scripts: Added MekaTweaker Scripts
 - Scripts: Removed Recipes for rest of materials
@@ -110,13 +111,15 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 - Scripts: Made Removal of Recipes more efficient
 
 ### Removed
-- Mods: DefaultWorldGenerator-Port
+- Mods: Controlling
+- Mods: Default World Generator-Port
 - Mods: Dense Metals
 - Mods: Eternal Singularity
 - Mods: NetherPortalFix
 - Mods: Netherending Ores
 - Mods: Resource Loader
 - Mods: Stone Crafting Table
+- Mods: Void Island Control
 - Mods: WanionLib
 
 ## [v0.0.0-pre.1+build.10] - 28/08/19 **PR**
