@@ -44,6 +44,7 @@ item.contenttweaker.chaos_ingot.name=Chaos Ingot
 item.contenttweaker.wyvern_ingot.name=Wyvern Ingot
 
 
+item.contenttweaker.compost_composite.name=Compost Composite
 item.contenttweaker.low_grade_charcoal.name=Low Grade Charcoal
 item.contenttweaker.dried_paste.name=Dried Paste
 item.contenttweaker.mud.name=Mud
@@ -54,5 +55,6 @@ item.contenttweaker.file.name=Engineer's File
 item.contenttweaker.wrench.name=Engineer's Wrench
 
 
-item.contenttweaker.block_burnt_wood.name=Burnt Wood
-item.contenttweaker.block_low_grade_charcoal.name=Block of Low Grade Charcoal
+tile.contenttweaker.block_burnt_wood.name=Burnt Wood
+tile.contenttweaker.block_low_grade_charcoal.name=Block of Low Grade Charcoal
+tile.contenttweaker.regolith.name= Asteroid Regolith

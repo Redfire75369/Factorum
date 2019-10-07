@@ -15,6 +15,7 @@
 
 # Texture Requests
 - Items
+	- Compost Composite
 	- Dried Paste
 	- Low Grade Charcoal
 	- Mud

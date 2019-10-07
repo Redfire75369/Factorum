@@ -101,7 +101,7 @@ Use Functions for OreDictionary Replacement
 	- Plates
 		- Plate Bending Machine
 		- Crushing Table
-		- Cruhser(Magneticraft)
+		- Crusher(Magneticraft)
 	- Dense Plates
 		- NIL
 	- Rods
@@ -126,12 +126,6 @@ Use Functions for OreDictionary Replacement
 ## Removals?
 - IItemStack: 
 	- bewitchment:silver_block (And Chiseled Forms)
-
-## Definition Changes
-- ILiquidDefinition: 
-	- Molten Clay: Temperature: 700 to 1350
-	- Heliumplasma: Temperature: 300 to 10000
-	- Silicon Carbide Vapor: Temperature: 1000 to 3000
 
 ## Choices
 - IItemStack:

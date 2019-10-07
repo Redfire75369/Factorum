@@ -4,6 +4,7 @@
 - Engineer's Wrench
 
 ## [MoonLitLamps](https://twitter.com/MasalpRats?s=09)
+- Asteroid Regoltih
 - Copper Chemist Coin
 - Copper Farming Coin
 - Copper Forestry Coin
