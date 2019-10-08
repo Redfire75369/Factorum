@@ -20,7 +20,7 @@ for key, dictPlate in hashPlate {
 			[hashIngot[key], <immersiveengineering:tool>
 		]);
 		
-		mods.nuclearcraft.pressurizer.removeRecipeWithOutput([dictPlate]);
+		mods.nuclearcraft.pressurizer.removeRecipeWithOutput(dictPlate);
 		for itemPlate in dictPlate.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemPlate);
 			mods.techreborn.plateBendingMachine.removeRecipe(itemPlate);
@@ -28,7 +28,7 @@ for key, dictPlate in hashPlate {
 		}
 	}
 	if (hashGem has key) {
-		mods.nuclearcraft.pressurizer.removeRecipeWithOutput([dictPlate]);
+		mods.nuclearcraft.pressurizer.removeRecipeWithOutput(dictPlate);
 		for itemPlate in dictPlate.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemPlate);
 			mods.techreborn.plateBendingMachine.removeRecipe(itemPlate);

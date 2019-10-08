@@ -1,8 +1,8 @@
 #loader crafttweaker
 #priority -10103
 
-import net.thesilkminer.energysmatter.ct.PowerRequiredRecipeRegistry as pct;
-import net.thesilkminer.energysmatter.ct.utilities as utils;
+import net.thesilkminer.energysmatter.ct.PowerRequiredRecipesRegistry as pct;
+import net.thesilkminer.energysmatter.ct.utilities;
 
 recipes.addShaped("seebeck_generator", <energysmatter:heat_generator>, [
 	[<mystgears:gear_stone>, <tconstruct:seared_tank:1>, <mystgears:gear_stone>],
@@ -16,7 +16,7 @@ recipes.addShaped("pct_tier0", <energysmatter:powered_crafting_table>, [
 	[<minecraft:crafting_table>, <tconstruct:large_plate>.withTag({PartType: "cobblestone"}), <minecraft:crafting_table>]
 ]);
 	
-testMatrix = utils.Matrix.create(3, 3);
+var testMatrix = utilities.Matrix.create(3, 3);
 testMatrix.set(1, 1, <minecraft:gold_ingot>);
 testMatrix.set(1, 2, <minecraft:gold_ingot>);
 testMatrix.set(1, 3, <minecraft:gold_ingot>);

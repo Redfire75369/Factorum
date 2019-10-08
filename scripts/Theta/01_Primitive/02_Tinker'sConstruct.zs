@@ -1,6 +1,8 @@
 #loader crafttweaker
 #priority -10102
 
+import crafttweaker.data.IData;
+
 recipes.addShaped("seared_brick", <tconstruct:materials>, [
 	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>],
 	[<contenttweaker:seared_shard>, <contenttweaker:seared_shard>]
@@ -17,14 +19,37 @@ mods.tconstruct.Drying.addRecipe(<contenttweaker:dried_paste>, <contenttweaker:s
 recipes.remove(<tconstruct:pattern>);
 recipes.remove(<tconstruct:toolforge:*>);
 recipes.remove(<tconstruct:tooltables:*>);
+
+val forge = {
+	textureBlock : {
+		id: "minecraft:iron_block",
+		Count: 1 as byte,
+		Damage: 0 as short
+	}
+} as IData;
+val stencil = {
+	textureBlock: {
+		id: "minecraft:planks",
+		Count: 1 as byte,
+		Damage: 0 as short
+	}
+} as IData;
+val part = {
+	textureBlock: {
+		id: "minecraft:log",
+		Count: 1 as byte,
+		Damage: 0 as short
+	}
+}
+
 for item in loadedMods["tconstruct"].items {
-	if (item.commandString has "tconstruct:toolforge" && item.tag != {textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}) {
+	if (item.commandString == "<tconstruct:toolforge>" && item.tag != forge) {
 		mods.jei.JEI.hide(item);
 	}
-	if (item.commandString has "tconstruct:tooltables:1" && item.tag != {textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}) {
+	if (item.commandString == "<tconstruct:tooltables:1>" && item.tag != stencil) {
 		mods.jei.JEI.hide(item);
 	}
-	if (item.commandString has "tconstruct:tooltables:2" && item.tag != {textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}) {
+	if (item.commandString == "<tconstruct:tooltables:2>" && item.tag != part) {
 		mods.jei.JEI.hide(item);
 	}
 }
@@ -139,7 +164,7 @@ recipes.addShapeless("seared_bricks_fancy", <tconstruct:seared:5>, [
 ]);
 recipes.addShaped("seared_brick_square", <tconstruct:seared:6> * 4, [
 	[<tconstruct:seared:3>, <tconstruct:seared:3>],
-	[<tconstruct:seared:3>, <tconstruct:seared:3>, null]
+	[<tconstruct:seared:3>, <tconstruct:seared:3>]
 ]);
 recipes.addShaped("seared_road", <tconstruct:seared:7> * 4, [
 	[<tconstruct:seared:2>, <tconstruct:seared:2>],
