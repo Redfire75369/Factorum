@@ -114,7 +114,9 @@ Use Functions for OreDictionary Replacement
 	- Gases
 	- Slurries 
 	- Clean Slurries 
-
+## Config
+### enderzoo/EnderZoo.cfg
+- potions {} 
 ## Check What these Items are:
 - Apotheosis: Everything
 
