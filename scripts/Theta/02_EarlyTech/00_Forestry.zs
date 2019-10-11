@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -10200
+#packmode theta
 
 mods.tconstruct.Drying.addRecipe(<forestry:fertilizer_bio>, <contenttweaker:compost_composite>, 1200);
 recipes.addShapeless("compost_composite", <contenttweaker:compost_composite>, [
@@ -16,3 +17,4 @@ recipes.addShaped("fermenter", <forestry:fermenter>, [
 	[<forestry:fertilizer_bio>, <forestry:sturdy_machine>, <forestry:fertilizer_bio>],
 	[<forestry:peat>, <minecraft:rotten_flesh>, <forestry:peat>]
 ]);
+recipes.addShaped("carpenter",

@@ -11,6 +11,10 @@ var charcoalLowGrade = VanillaFactory.createItem("low_grade_charcoal") as Item;
 charcoalLowGrade.creativeTab = <creativetab:other>;
 charcoalLowGrade.register();
 
+var charcoalMediumGrade = VanillaFactory.createItem("medium_grade_charcoal") as Item;
+charcoalMediumGrade.creativeTab = <creativetab:other>;
+charcoalMediumGrade.register();
+
 var compostComposite = VanillaFactory.createItem("compost_composite") as Item;
 compostComposite.creativeTab = <creativetab:other>;
 compostComposite.register();
@@ -22,6 +26,10 @@ driedPaste.register();
 var mud = VanillaFactory.createItem("mud") as Item;
 mud.creativeTab = <creativetab:other>;
 mud.register();
+
+var scorchedPaste = VanillaFactory.createItem("scorched_paste");
+scorchedPaste.creativeTab = <creativetab:other>;
+scorchedPaste.register();
 
 var searedPaste = VanillaFactory.createItem("seared_paste") as Item;
 searedPaste.creativeTab = <creativetab:other>;

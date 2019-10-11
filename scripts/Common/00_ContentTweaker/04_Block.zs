@@ -17,6 +17,11 @@ charcoalLowGradeBlock.creativeTab = <creativetab:other>;
 charcoalLowGradeBlock.toolLevel = 0;
 charcoalLowGradeBlock.register();
 
+var charcoalMediumGradeBlock = VanillaFactory.createBlock("block_medium_grade_charcoal", <blockmaterial:rock>) as Block;
+charcoalMediumGradeBlock.creativeTab = <creativetab:other>;
+charcoalMediumGradeBlock.toolLevel = 0;
+charcoalMediumGradeBlock.register();
+
 var regolith = VanillaFactory.createBlock("block_regoltih", <blockmaterial:sand>) as Block;
 regolith.creativeTab = <creativetab:other>;
 regolith.gravity = true;

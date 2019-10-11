@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -10101
+#packmode theta
 
 recipes.removeByMod("engineersworkshop");
 

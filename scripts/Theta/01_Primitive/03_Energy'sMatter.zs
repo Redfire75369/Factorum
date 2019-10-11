@@ -1,5 +1,6 @@
 #loader crafttweaker
 #priority -10103
+#packmode theta
 
 import net.thesilkminer.energysmatter.ct.PowerRequiredRecipesRegistry as pct;
 import net.thesilkminer.energysmatter.ct.utilities;
