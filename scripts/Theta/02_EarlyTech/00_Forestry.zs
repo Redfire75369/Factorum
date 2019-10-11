@@ -17,4 +17,6 @@ recipes.addShaped("fermenter", <forestry:fermenter>, [
 	[<forestry:fertilizer_bio>, <forestry:sturdy_machine>, <forestry:fertilizer_bio>],
 	[<forestry:peat>, <minecraft:rotten_flesh>, <forestry:peat>]
 ]);
-recipes.addShaped("carpenter",
+recipes.addShaped("carpenter", <forestry:carpenter>, [
+	[<forestry:sturdy_machine>]
+]);
