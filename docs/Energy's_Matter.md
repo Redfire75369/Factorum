@@ -55,9 +55,9 @@ machines work can be found at the bottom of the page.
 | Blazing Pyrotheum | 4000 K |
 | Awakened Draconium Block | 10000 K |
 
-| Heat Source | Temperature |
+| Coolant | Temperature |
 | ------------------- | ------------------- |
-| Water | 300 K |
+| Water | 295 K |
 | Snow Block | 268 K |
 | Crushed Ice | 265 K |
 | Ice | 263 K |
@@ -79,7 +79,7 @@ placing the coolant directly under it. The Seebeck Generator produces energy lin
 
 | Process | Type | Use | Amount |
 | ------------- | ------- | ------- | ------------- |
-| Generate Power | Power | Output | 0.1 T/tK |
+| Generate Power | Power | Output | 0.01 T/tK |
 | Increase Temperature | Temperature | Output | 1 K/t |
 
 ### Fusion Reactor
@@ -225,7 +225,7 @@ a chance to be consumed as part of the process.
 | Duplicating Molecular Schema | Power | Input | ??? |
 | Duplicating Molecular Schema | Time | Input | 3600 t |
 | Repairing Molecular Schema | Item | Input | Broken Molecular Schema + Item |
-| Repairing Molecular Schema | Item | Output | Mapped Molecular Schema + ??? × Item |
+| Repairing Molecular Schema | Item | Output | Mapped Molecular Schema + ???% × Item |
 | Repairing Molecular Schema | Power | Input | ??? |
 | Repairing Molecular Schema | Time | Input | 1200 t8 |
 
@@ -264,15 +264,15 @@ either be the same across all crafting processes or increase exponentially. It c
 every recipe with a power cost of 0. There are various tiers that vary in the amount of energy that can be stored in the batteries.
 
 ## Scientific Explanations
-- Seebeck Generator
+- Seebeck Generator <br/>
 	The [Seebeck Effect](https://www.google.com/amp/s/searchnetworking.techtarget.com/definition/Seebeck-effect%3famp=1) 
 	is a phenomenon where the temperature difference between two electrical conductors produces a charge potential and causes
 	a circuit to be formed. The cathode wants to gain electrons while the anode wants to lose electrons. When the charge potential 
 	is produced, the anode loses electrons and the cathode gains them. In this process, a flow of electrons is created. As electrons 
 	are mobile charge carriers, a electric current with a low voltage is generated. 
-- Fusion Reactor
+- Fusion Reactor <br/>
 	A [Fusion Reaction]()
-	is a reaction where two atoms or molecules fuse together to form a molecule with a higher atomic number. The atomkc number 
+	is a reaction where two atoms or molecules fuse together to form a molecule with a higher atomic number. The atomic number 
 	is the number of protons in an atom and also defines what it is. There are currently two chains of fusion that we are aware of, P-P 
 	fusion and the CNO cycle. In the [P-P Chain](),
 	<sup>1</sup>H, Hydrogen fuses with a neutron to form <sup>2</sup>H, Deuterium. Then, the <sup>2</sup>H, Deuterium fuses 
@@ -283,13 +283,13 @@ every recipe with a power cost of 0. There are various tiers that vary in the am
 	then fuses with <sup>1</sup>H, Hydrogen to form <sup>14</sup>O, Oxygen. 
 - Baryonic Annihilation Chamber
 
-- Dyson Swarm Launch Pad
+- Dyson Swarm Launch Pad <br/>
 
-- Black Hole Reactor
+- Black Hole Reactor <br/>
 
-- Molecular Transmutator
+- Molecular Transmutator <br/>
 
-- Quantum Computational Engine
+- Quantum Computational Engine <br/>
 	The Quantum Computational Engine sends a photon into the material being scanned to determine the location of every molecule in it. 
 	Due to Heisenberg's Uncertainty Principle, it is impossible to both know the exact position and velocity of a molecule as to find out the 
 	location of a molecule causes the molecule's velocity to change and vice versa. Hence, immense calculations are needed to come as close 
@@ -303,14 +303,14 @@ every recipe with a power cost of 0. There are various tiers that vary in the am
 	exists in a superposition of 50% chance of being a 0 and a 50% chance of being a 1. Only when its value is measured, does it collapse into 
 	one of the two states. Due to this property, a quantum computer can perform calculations at orders of magnitudes higher than a regular 
 	computer. 
-- Molecular Fabricator
+- Molecular Fabricator <br/>
 
-- Atmospheric Collector
+- Atmospheric Collector <br/>
 
-- Antimatter Containment Facility
+- Antimatter Containment Facility <br/>
 
-- Dyson Swarm Launch Pad
+- Dyson Swarm Launch Pad <br/>
 
-- Particle Accelerator
+- Particle Accelerator <br/>
 
-- Powered Crafting Table
+- Powered Crafting Table <br/>

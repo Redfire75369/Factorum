@@ -18,6 +18,7 @@
 	- Compost Composite
 	- Dried Paste
 	- Low Grade Charcoal
+	- Medium Grade Charcoal
 	- Mud
 	- Seared Paste
 	- Seared Shard
@@ -29,6 +30,7 @@
 
 - Blocks
 	- Block of Low Grade Charcoal
+	- Block of Medium Grade Charcoal
 	- Burnt Wood
 	
 - Liquids

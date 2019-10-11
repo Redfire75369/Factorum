@@ -46,8 +46,10 @@ item.contenttweaker.wyvern_ingot.name=Wyvern Ingot
 
 item.contenttweaker.compost_composite.name=Compost Composite
 item.contenttweaker.low_grade_charcoal.name=Low Grade Charcoal
+item.contenttweaker.medium_grade_charcoal.name=Medium Grade Charcoal
 item.contenttweaker.dried_paste.name=Dried Paste
 item.contenttweaker.mud.name=Mud
+item.contenttweaker.scorched_paste.name=Scorched Paste
 item.contenttweaker.seared_paste.name=Seared Paste
 item.contenttweaker.seared_shard.name=Seared Shard
 item.contenttweaker.wood_pile.name=Pile of Wood
@@ -57,4 +59,5 @@ item.contenttweaker.wrench.name=Engineer's Wrench
 
 tile.contenttweaker.block_burnt_wood.name=Burnt Wood
 tile.contenttweaker.block_low_grade_charcoal.name=Block of Low Grade Charcoal
-tile.contenttweaker.regolith.name= Asteroid Regolith
+tile.contenttweaker.block_medium_grade_charcoal.name=Block of Medium Grade Charcoal
+tile.contenttweaker.block_regolith.name= Asteroid Regolith

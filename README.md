@@ -4,11 +4,12 @@ This is the official repository for the Modpack Factorum Ultimation. This is a s
 **Note: This Pack is still a Work In Progress.** <br/>
 [Factorum Ultimation](https://discord.gg/GjJCHdr) <br/>
 There will be three modes: <br/>
-|Full Name|Short Form|Difficulty|Modpack Difficulty Is Comparable To|
-|----------------|-----------------|-------------|---------------------------------------------------------|
-|Factorum Ultimation: Theta|FU: θ|Normal/Kitchensink|Project Ozone 3: A New Way Forward Normal|
-|Factorum Ultimation: Sigma|FU: σ|Expert|FTB Infinity Evolved|
-|Factorum Ultimation: Omega|FU: Ω|Super Expert|Project Ozone 2: Reloaded Kappa|
+
+| Full Name | Short Form | Difficulty | Modpack  That Difficulty Is Comparable To |
+| ---------------- | ----------------- | ------------- | --------------------------------------------------------- |
+| Factorum Ultimation: Theta | FU: θ | Normal/Kitchensink | Project Ozone 3: A New Way Forward Normal |
+| Factorum Ultimation: Sigma | FU: σ | Expert | FTB Infinity Evolved |
+| Factorum Ultimation: Omega | FU: Ω | Super Expert | Project Ozone 2: Reloaded Kappa |
 
 ## Lore
 31st century. Limits were overcome, barriers were shattered. The advancements in technology made possible by private
