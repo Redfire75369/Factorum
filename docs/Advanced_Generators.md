@@ -27,7 +27,7 @@
 - Tier 4: Lumium, Superconductor
 - Tier 5: Modularium, Stellar
 - Tier 6: Awakened Draconium, Electronium
-- Tier 7: Infinity, Ultimate
+- Tier 7: Chaos, Infinity
 
 ## Turbine Materials
 - Tier 1: Bronze, Iron

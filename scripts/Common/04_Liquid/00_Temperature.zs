@@ -4,7 +4,7 @@
 import crafttweaker.liquid.ILiquidDefinition;
 
 var def = null as ILiquidDefinition;
-var newTemp = null as int;
+var newTemp = 0 as int;
 for liquid in game.liquids {
 	if (liquid.temperature % 100 == 0) {
 		newTemp = liquid.temperature - 5;

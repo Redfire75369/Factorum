@@ -119,6 +119,7 @@
 "Advanced Generators","advgenerators:item_output",1.00,5.00
 "Advanced Generators","advgenerators:mixing_chamber",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_awakened draconium",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_chaos",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_conductive iron",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_electronium",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_graphite",1.00,5.00
@@ -131,7 +132,7 @@
 "Advanced Generators","advgenerators:power_capacitor_sodium",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_stellar",1.00,5.00
 "Advanced Generators","advgenerators:power_capacitor_superconductor",1.00,5.00
-"Advanced Generators","advgenerators:power_capacitor_ultimate",1.00,5.00
+"Advanced Generators","advgenerators:power_capacitor_ultimate",0.00,0.00
 "Advanced Generators","advgenerators:pressure_input",1.00,5.00
 "Advanced Generators","advgenerators:pressure_output_select",1.00,5.00
 "Advanced Generators","advgenerators:rf_output",1.00,5.00
@@ -1695,6 +1696,7 @@
 "Construct's Armory","conarm:soft_obsidian",0.50,2.50
 "ContentTweaker","contenttweaker:block_burnt_wood",5.00,15.00
 "ContentTweaker","contenttweaker:block_low_grade_charcoal",5.00,15.00
+"ContentTweaker","contenttweaker:block_medium_grade_charcoal",5.00,15.00
 "ContentTweaker","contenttweaker:block_regoltih",5.00,15.00
 "ContentTweaker","contenttweaker:sea_water",0.00,0.00
 "ContentTweaker","contenttweaker:wood_fuel",0.00,0.00

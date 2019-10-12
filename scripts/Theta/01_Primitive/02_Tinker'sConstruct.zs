@@ -21,8 +21,8 @@ mods.inworldcrafting.FluidToFluid.transform(<liquid:wood_fuel>, <liquid:water>, 
 mods.inworldcrafting.FluidToItem.transform(<contenttweaker:mud> * 3, <liquid:water>, [<minecraft:dirt>], false);
 mods.inworldcrafting.FluidToItem.transform(<contenttweaker:seared_paste>, <liquid:fire_water>, [<minecraft:rotten_flesh>], false);
 mods.inworldcrafting.FluidToItem.transform(<contenttweaker:seared_shard>, <liquid:fire_water>, [<minecraft:cobblestone>], false);
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:burnt_wood>, <liquid:fire_water>, [oreDict["logWood"]], false);
-mods.inworldcrafting.FluidToItem.transform(<contenttweaker:low_grade_charcoal>, <liquid:fire_water>, [<contenttweaker:burnt_wood>], false);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:block_burnt_wood>, <liquid:fire_water>, [oreDict["logWood"]], false);
+mods.inworldcrafting.FluidToItem.transform(<contenttweaker:low_grade_charcoal>, <liquid:fire_water>, [<contenttweaker:block_burnt_wood>], false);
 
 mods.tconstruct.Drying.addRecipe(<contenttweaker:dried_paste>, <contenttweaker:mud>, 150);
 mods.tconstruct.Drying.addRecipe(<contenttweaker:dried_paste>, <contenttweaker:seared_paste>, 150);
@@ -65,6 +65,7 @@ recipes.addShaped("solid_fuel_input", <tinker_io:fuel_input_machine>, [
 	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>],
 	[<tconstruct:channel>, <forge:bucketfilled>.withTag({FluidName: "fluidnitrodiesel", Amount: 1000}), <tconstruct:channel>],
 	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>]
+]);
 recipes.addShaped("smart_output", <tinker_io:smart_output>, [
 	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>],
 	[<tconstruct:channel>, <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}), <tconstruct:channel>],
@@ -121,7 +122,7 @@ recipes.addShaped("scorched_tiles", <tcomplement:scorched_block:11>, [
 ]);
 
 recipes.addShaped("mud_bricks", <tconstruct:deco_ground>, [
-	[<tconstruct:materials:1>, <tconstructa:materials:1>],
+	[<tconstruct:materials:1>, <tconstruct:materials:1>],
 	[<tconstruct:materials:1>, <tconstruct:materials:1>]
 ]);
 recipes.addShaped("dried_bricks", <tconstruct:dried_clay:1>, [
@@ -219,7 +220,7 @@ val part = {
 		Count: 1 as byte,
 		Damage: 0 as short
 	}
-}
+} as IData;
 
 for item in loadedMods["tconstruct"].items {
 	if (item.commandString == "<tconstruct:toolforge>" && item.tag != forge) {
