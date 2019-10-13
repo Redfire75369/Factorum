@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00304
+#priority -00308
 #packmode theta sigma omega
 
 for key, dictDustDirty in hashDustDirty {

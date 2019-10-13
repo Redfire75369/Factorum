@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00307
+#priority -00313
 #packmode theta sigma omega
 
 recipes.remove(hashCrystal["Obsidian"]);

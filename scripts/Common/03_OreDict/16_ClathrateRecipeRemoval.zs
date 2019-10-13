@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00310
+#priority -00316
 #packmode theta sigma omega
 
 for key, dictClathrate in hashClathrate {

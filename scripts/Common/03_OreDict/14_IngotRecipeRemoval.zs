@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00308
+#priority -00314
 #packmode theta sigma omega
 
 recipes.removeShaped(hashIngot["BaseEssence"], [
@@ -66,25 +66,9 @@ recipes.removeShaped(hashIngot["Supremium"], [
 	[null, oreDict["essenceSupremium"] , null]
 ]);
 
-mods.techreborn.blastFurnace.removeInputRecipe(<minecraft:iron_ore>);
-mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:ore:5>);
-mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:dust:22> * 2);
-mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:smalldust:23> * 8);
-mods.techreborn.compressor.removeInputRecipe(<techreborn:dust:65>);
-
-mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:4>, <techreborn:ingot:18>);
-mods.techreborn.alloySmelter.removeRecipe(<techreborn:ingot:4>, <techreborn:ingot:14>);
-mods.techreborn.alloySmelter.removeRecipe(<minecraft:gold_ingot>, <techreborn:ingot:11>);
-mods.techreborn.alloySmelter.removeRecipe(<minecraft:iron_ingot>, <techreborn:ingot:9>);
-
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:3>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:6>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:12>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:14>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:15>);
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:ingot:16>);
-mods.techreborn.vacuumFreezer.removeRecipe(<techreborn:ingot:17>);
+mods.techreborn.alloySmelter.removeAll();
+mods.techreborn.blastFurnace.removeAll();
+mods.techreborn.vacuumFreezer.removeAll();
 
 for key, dictIngot in hashIngot {
 	if (hashOre has key) {
@@ -102,6 +86,11 @@ for key, dictIngot in hashIngot {
 		for itemIngot in dictIngot.items {
 			furnace.remove(itemIngot);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemIngot);
+		}
+	}
+	if (hashChunk has key) {
+		for itemIngot in dictIngot.items {
+			furnace.remove(itemIngot);
 		}
 	}
 	if (hashCluster has key) {
@@ -142,6 +131,7 @@ for key, dictIngot in hashIngot {
 	if (hashMolten has key) {
 		for itemIngot in dictIngot.items {
 			mods.embers.Stamper.remove(itemIngot);
+			mods.nuclearcraft.ingot_former.removeRecipeWithOutput(itemIngot);
 			mods.tconstruct.Casting.removeTableRecipe(itemIngot);
 		}
 	}

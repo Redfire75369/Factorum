@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00305
+#priority -00311
 #packmode theta sigma omega
 
 for key, dictClump in hashClump {
