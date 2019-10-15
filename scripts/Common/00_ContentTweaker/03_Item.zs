@@ -23,6 +23,10 @@ var driedPaste = VanillaFactory.createItem("dried_paste") as Item;
 driedPaste.creativeTab = <creativetab:other>;
 driedPaste.register();
 
+var furnaceAssembly = VanillaFactory.createItem("furnace_assembly");
+furnaceAssembly.creativeTab = <creativetab:other>;
+furnaceAssembly.register();
+
 var mud = VanillaFactory.createItem("mud") as Item;
 mud.creativeTab = <creativetab:other>;
 mud.register();

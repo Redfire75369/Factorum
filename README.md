@@ -3,7 +3,7 @@ This is the official repository for the Modpack Factorum Ultimation. This is a s
 **Note: This Pack is still a Work In Progress.** <br/>
 [Factorum Ultimation Discord Invite Link](https://discord.gg/GjJCHdr) [Factorum Ultimation Logo](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/images/Factorum_Ultimation_Logo.png)
 
-| Full Name | Short Form | Difficulty | Modpack  That Difficulty Is Comparable To |
+| Full Name | Short Form | Difficulty | Modpack That Difficulty Is Comparable To |
 | ---------------- | ----------------- | ------------- | --------------------------------------------------------- |
 | Factorum Ultimation: Theta | FU: θ | Normal/Kitchensink | Project Ozone 3: A New Way Forward Normal |
 | Factorum Ultimation: Sigma | FU: σ | Expert | FTB Infinity Evolved: Expert |
@@ -39,10 +39,16 @@ As for the later stages of the game, you will scan an item and get a moecular sc
 be used with an immense amount of power to create the item with just energy. A more detailed explanation can be found 
 [here](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md).
 
+## Power Generation
+The main form of power generation for the generation of resources will be within the same mod. In the beginning, you use heat differentials. 
+Later, you will use fusion reactions to produce large amounts of energy. Then, you will advance to the next technological stage where you 
+will use antimatter collisions and a dyson swarm around the sun for high energy but irregular and medium energy but regular power generation. 
+In the endgame of the pack, you will harness the power of black holes to generate huge amounts of energy irregularly or very high amounts of 
+energy continuously.
 ## Endgame
-The final three items will be the most complex in the game, requiring hundreds of machines from almost every mod, vast 
-amounts of power and automation to the utmost degree. The Ingot that transcends reality itself and the Gem that shatters 
-the fabric of the universe, combined forming that which breaks all Boundaries. **Play the Pack to find out more**
+You are going to need to pull on aspects from every mod, even those not in the questline to craft things that break the fourth wall. 
+Some other items that will be needed are 4th dimensional items, all the  forms of elementary particles, rare elements such as 
+Krypton, Hafnium, Thulium, Darmstadtium, Oganesson, etc.
 
 ## Pack-Specific Mod Information
 - [Advanced Generators](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Advanced_Generators.md)

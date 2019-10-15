@@ -33,6 +33,7 @@ recipes.remove(<tcomplement:high_oven_controller>);
 recipes.remove(<tcomplement:high_oven_io:*>);
 recipes.remove(<tcomplement:scorched_casting:*>);
 recipes.remove(<tcomplement:melter:*>);
+mods.jei.JEI.hide(<tcomplement:melter:1>);
 recipes.remove(<tconstruct:casting:*>);
 recipes.remove(<tconstruct:seared_furnace_controller>);
 recipes.remove(<tconstruct:smeltery_controller>);
@@ -41,15 +42,40 @@ recipes.remove(<tconstruct:tinker_tank_controller>);
 recipes.remove(<tinker_io:fuel_input_machine>);
 recipes.remove(<tinker_io:smart_output>);
 
+recipes.addShaped("scorched_casting_table", <tcomplement:scorched_casting>, [
+	[<tcomplement:scorched_block>, <tconstruct:large_plate>.withTag({MaterialType: "stone"}), <tcomplement:scorched_block>],
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>],
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>]
+]);
+recipes.addShaped("scorched_casting_basin", <tcomplement:scorched_casting:1>, [
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>],
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>],
+	[<tcomplement:scorched_block>, <tconstruct:large_plate>.withTag({MaterialType: "stone"}), <tcomplement:scorched_block>]
+]);
+recipes.addShaped("seared_melter", <tcomplement:melter>, [
+	[<contenttweaker:seared_paste>, <forge:bucketfilled>.withTag({FluidName: "wood_fuel", Amount: 1000}), <contenttweaker:seared_paste>],
+	[<tconstruct:materials>, <tconstruct:seared_tank>, <tconstruct:materials>],
+	[<tcomplement:scorched_block:2>, <tconstruct:seared:2>, <tcomplement:scorched_block:2>]
+]);
+recipes.addShaped("seared_casting_table", <tconstruct:casting>, [
+	[<tconstruct:seared>, <tconstruct:large_plate>.withTag({MaterialType: "stone"}), <tconstruct:seared>],
+	[<tconstruct:materials>, null, <tconstruct:materials>],
+	[<tconstruct:materials>, null, <tconstruct:materials>]
+]);
+recipes.addShaped("seared_casting_basin", <tconstruct:casting:1>, [
+	[<tconstruct:materials>, null, <tconstruct:materials>],
+	[<tconstruct:materials>, null, <tconstruct:materials>],
+	[<tconstruct:seared>, <tconstruct:large_plate>.withTag({MaterialType: "stone"}), <tconstruct:seared>]
+]);
 recipes.addShaped("seared_furnace", <tconstruct:seared_furnace_controller>, [
-	[<tconstruct:seared:1>, <tconstruct:seared:1>, <tconstruct:seared:1>],
-	[<tconstruct:seared:9>, <contenttweaker:low_grade_charcoal>, <tconstruct:seared:9>],
-	[<tconstruct:seared:1>, <tconstruct:seared:1>, <tconstruct:seared:1>]
+	[<tconstruct:materials>, <tconstruct:materials:2>, <tconstruct:materials>],
+	[<contenttweaker:block_low_grade_charcoal>, <contenttweaker:furnace_assembly>, <contenttweaker:block_low_grade_charcoal>],
+	[<tconstruct:materials>, <tconstruct:materials:2>, <tconstruct:materials>],
 ]);
 recipes.addShaped("smeltery", <tconstruct:smeltery_controller>, [
-	[<contenttweaker:seared_paste>, <tconstruct:seared:2>, <contenttweaker:seared_paste>],
-	[<tconstruct:seared:2>, <contenttweaker:block_low_grade_charcoal>, <tconstruct:seared:2>],
-	[<contenttweaker:seared_paste>, <tconstruct:seared:2>, <contenttweaker:seared_paste>]
+	[<tconstruct:materials>, <tconstruct:seared:6>, <tconstruct:materials>],
+	[<forge:bucketfilled>.withTag({FluidName: "wood_fuel", Amount: 1000}), <contenttweaker:furnace_assembly>, <forge:bucketfilled>.withTag({FluidName: "wood_fuel", Amount: 1000})],
+	[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],
 ]);
 recipes.addShaped("smeltery_drain", <tconstruct:smeltery_io>, [
 	[<tconstruct:materials>, <tconstruct:materials>, <contenttweaker:seared_paste>],
