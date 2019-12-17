@@ -100,17 +100,13 @@ for key, dictIngot in hashIngot {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemIngot, cinnabar);
 		}
 		for itemIngot in dictIngot.items {
+			furnace.remove(itemIngot);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemIngot);
-			for itemOre in hashOre[key].items {
-				if ((itemOre.definition.owner == itemIngot.definition.owner)||(itemIngot.definition.owner == "thermalfoundation")) {
-					furnace.remove(itemIngot, itemOre);
-				}
-			}
 		}
 	}
 	if (hashCluster has key) {
 		for itemIngot in dictIngot.items {
-			furnace.remove(itemIngot, hashCluster[key]);
+			furnace.remove(itemIngot);
 		}
 	}
 	if (hashNugget has key) {
@@ -134,13 +130,8 @@ for key, dictIngot in hashIngot {
 			mods.thermalexpansion.InductionSmelter.removeRecipe(itemIngot, sand);
 		}
 		for itemIngot in dictIngot.items {
-			furnace.remove(itemIngot, hashDust[key]);
+			furnace.remove(itemIngot);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemIngot);
-			for itemDust in hashDust[key].items {
-				if ((itemDust.definition.owner == itemIngot.definition.owner)||(itemIngot.definition.owner == "thermalfoundation")) {
-					furnace.remove(itemIngot, itemDust);
-				}
-			}
 		}
 	}
 	if (hashBlock has key) {

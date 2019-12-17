@@ -50,6 +50,12 @@ file.maxDamage = 100;
 file.maxStackSize = 1;
 file.register();
 
+var sandpaper = VanillaFactory.createItem("sandpaper") as Item;
+sandpaper.creativeTab = <creativetab:other>;
+sandpaper.maxDamage = 100;
+sandpaper.maxStackSize = 1;
+sandpaper.register();
+
 var wrench = VanillaFactory.createItem("wrench") as Item;
 wrench.creativeTab = <creativetab:other>;
 wrench.maxDamage = 100;

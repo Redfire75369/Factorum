@@ -2407,6 +2407,54 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
+<liquid:depleted_fuel_mix_239>
+- Name: depleted_fuel_mix_239
+- Display Name: fluid.depleted_fuel_mix_239
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_mix_239_fluoride>
+- Name: depleted_fuel_mix_239_fluoride
+- Display Name: fluid.depleted_fuel_mix_239_fluoride
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_mix_239_fluoride_flibe>
+- Name: depleted_fuel_mix_239_fluoride_flibe
+- Display Name: fluid.depleted_fuel_mix_239_fluoride_flibe
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_mix_241>
+- Name: depleted_fuel_mix_241
+- Display Name: fluid.depleted_fuel_mix_241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_mix_241_fluoride>
+- Name: depleted_fuel_mix_241_fluoride
+- Display Name: fluid.depleted_fuel_mix_241_fluoride
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_mix_241_fluoride_flibe>
+- Name: depleted_fuel_mix_241_fluoride_flibe
+- Display Name: fluid.depleted_fuel_mix_241_fluoride_flibe
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
 <liquid:depleted_fuel_tbu>
 - Name: depleted_fuel_tbu
 - Display Name: Molten Depleted TBU Fuel
@@ -3230,14 +3278,6 @@ Liquids:
 - Density: 5000
 - Temperature: 1200
 - Viscosity: 8000
-- Gaseous: false
-<liquid:flint>
-- Name: flint
-- Display Name: Molten Flint
-- Luminosity:10
-- Density: 2000
-- Temperature: 500
-- Viscosity: 10000
 - Gaseous: false
 <liquid:fluid_molten_aer>
 - Name: fluid_molten_aer
@@ -4199,6 +4239,54 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
+<liquid:fuel_mix_239>
+- Name: fuel_mix_239
+- Display Name: fluid.fuel_mix_239
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_mix_239_fluoride>
+- Name: fuel_mix_239_fluoride
+- Display Name: fluid.fuel_mix_239_fluoride
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_mix_239_fluoride_flibe>
+- Name: fuel_mix_239_fluoride_flibe
+- Display Name: fluid.fuel_mix_239_fluoride_flibe
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_mix_241>
+- Name: fuel_mix_241
+- Display Name: fluid.fuel_mix_241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_mix_241_fluoride>
+- Name: fuel_mix_241_fluoride
+- Display Name: fluid.fuel_mix_241_fluoride
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_mix_241_fluoride_flibe>
+- Name: fuel_mix_241_fluoride_flibe
+- Display Name: fluid.fuel_mix_241_fluoride_flibe
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
 <liquid:fuel_tbu>
 - Name: fuel_tbu
 - Display Name: Molten TBU Fuel
@@ -4333,6 +4421,14 @@ Liquids:
 - Luminosity:0
 - Density: 800
 - Temperature: 298
+- Viscosity: 1000
+- Gaseous: false
+<liquid:heavy_water>
+- Name: heavy_water
+- Display Name: Heavy Water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
 <liquid:heavywater>
@@ -4695,6 +4791,30 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1500
 - Gaseous: false
+<liquid:liquid_helium>
+- Name: liquid_helium
+- Display Name: Liquid Helium
+- Luminosity:0
+- Density: 150
+- Temperature: 4
+- Viscosity: 1
+- Gaseous: false
+<liquid:liquid_helium_nak>
+- Name: liquid_helium_nak
+- Display Name: Eutectic NaK-Helium Mixture
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:liquid_helium_nak_hot>
+- Name: liquid_helium_nak_hot
+- Display Name: Hot Eutectic NaK-Helium Mixture
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
 <liquid:liquid_nitrogen>
 - Name: liquid_nitrogen
 - Display Name: Liquid Nitrogen
@@ -4758,30 +4878,6 @@ Liquids:
 - Density: 1000
 - Temperature: 300
 - Viscosity: 1000
-- Gaseous: false
-<liquid:liquidhelium>
-- Name: liquidhelium
-- Display Name: Liquid Helium
-- Luminosity:0
-- Density: 150
-- Temperature: 4
-- Viscosity: 1
-- Gaseous: false
-<liquid:liquidhelium_nak>
-- Name: liquidhelium_nak
-- Display Name: Eutectic NaK-Helium Mixture
-- Luminosity:0
-- Density: 5000
-- Temperature: 300
-- Viscosity: 15000
-- Gaseous: false
-<liquid:liquidhelium_nak_hot>
-- Name: liquidhelium_nak_hot
-- Display Name: Hot Eutectic NaK-Helium Mixture
-- Luminosity:7
-- Density: 4000
-- Temperature: 700
-- Viscosity: 10000
 - Gaseous: false
 <liquid:liquidhydrogen>
 - Name: liquidhydrogen
@@ -5239,13 +5335,13 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:neutron>
-- Name: neutron
-- Display Name: Neutron Fluid
-- Luminosity:7
-- Density: 10000
-- Temperature: 300
-- Viscosity: 40
+<liquid:neptunium_237_nitride>
+- Name: neptunium_237_nitride
+- Display Name: Molten Neptunium 237 Nitride
+- Luminosity:10
+- Density: 2000
+- Temperature: 500
+- Viscosity: 10000
 - Gaseous: false
 <liquid:nickel>
 - Name: nickel
@@ -5839,6 +5935,14 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1500
 - Gaseous: false
+<liquid:sea_water>
+- Name: sea_water
+- Display Name: fluid.sea_water
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
 <liquid:seed.oil>
 - Name: seed.oil
 - Display Name: Seed Oil
@@ -6159,30 +6263,6 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:thorium_230>
-- Name: thorium_230
-- Display Name: Molten Thorium-230
-- Luminosity:10
-- Density: 5000
-- Temperature: 1200
-- Viscosity: 8000
-- Gaseous: false
-<liquid:thorium_230_fluoride>
-- Name: thorium_230_fluoride
-- Display Name: Molten Thorium-230 Fluoride
-- Luminosity:10
-- Density: 5000
-- Temperature: 1200
-- Viscosity: 8000
-- Gaseous: false
-<liquid:thorium_230_fluoride_flibe>
-- Name: thorium_230_fluoride_flibe
-- Display Name: Molten FLiBe Salt Solution of Thorium-230 Fluoride
-- Luminosity:10
-- Density: 5000
-- Temperature: 1200
-- Viscosity: 8000
-- Gaseous: false
 <liquid:thorium_fluoride>
 - Name: thorium_fluoride
 - Display Name: Molten Thorium Fluoride
@@ -6198,14 +6278,6 @@ Liquids:
 - Density: 5000
 - Temperature: 1200
 - Viscosity: 8000
-- Gaseous: false
-<liquid:thorium_oxide>
-- Name: thorium_oxide
-- Display Name: Molten Thorium Oxide
-- Luminosity:10
-- Density: 2000
-- Temperature: 500
-- Viscosity: 10000
 - Gaseous: false
 <liquid:tin>
 - Name: tin
@@ -6407,14 +6479,6 @@ Liquids:
 - Temperature: 1200
 - Viscosity: 8000
 - Gaseous: false
-<liquid:uranium_oxide>
-- Name: uranium_oxide
-- Display Name: Molten Uranium Oxide
-- Luminosity:10
-- Density: 2000
-- Temperature: 500
-- Viscosity: 10000
-- Gaseous: false
 <liquid:vapor_of_levity>
 - Name: vapor_of_levity
 - Display Name: Vapor of Levity
@@ -6469,6 +6533,14 @@ Liquids:
 - Luminosity:0
 - Density: 1000
 - Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:wood_fuel>
+- Name: wood_fuel
+- Display Name: fluid.wood_fuel
+- Luminosity:0
+- Density: 1000
+- Temperature: 1400
 - Viscosity: 1000
 - Gaseous: false
 <liquid:wood_gas>

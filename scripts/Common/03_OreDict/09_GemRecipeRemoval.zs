@@ -2,8 +2,8 @@
 #priority -00309
 #packmode theta sigma omega
 
-furnace.remove(<minecraft:quartz>, hashCluster["Quartz"]);
-furnace.remove(<thaumcraft:quicksilver>, hashCluster["Quicksilver"]);
+furnace.remove(<minecraft:quartz>);
+furnace.remove(<thaumcraft:quicksilver>);
 
 for key, dictGem in hashGem {
 	if (hashOre has key) {
@@ -19,7 +19,7 @@ for key, dictGem in hashGem {
 			mods.techreborn.industrialGrinder.removeInputRecipe(itemOre);
 		}
 		for itemGem in dictGem.items {
-			furnace.remove(itemGem, hashOre[key]);
+			furnace.remove(itemGem0;
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemGem);
 			mods.actuallyadditions.Crusher.removeRecipe(itemGem);
 			mods.astralsorcery.Grindstone.removeRecipe(itemGem);
@@ -29,7 +29,7 @@ for key, dictGem in hashGem {
 	}
 	if (hashDust has key) {
 		for itemGem in dictGem.items {
-			furnace.remove(itemGem, hashDust[key]);
+			furnace.remove(itemGem);
 			mods.techreborn.implosionCompressor.removeRecipe(itemGem);
 		}
 	}

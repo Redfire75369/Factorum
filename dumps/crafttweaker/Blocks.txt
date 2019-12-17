@@ -152,6 +152,7 @@ Blocks:
 <block:advgenerators:item_output>, Item Output Port
 <block:advgenerators:mixing_chamber>, Mixing Chamber
 <block:advgenerators:power_capacitor_awakened draconium>, tile.advgenerators.power_capacitor_awakened draconium.name
+<block:advgenerators:power_capacitor_chaos>, tile.advgenerators.power_capacitor_chaos.name
 <block:advgenerators:power_capacitor_conductive iron>, tile.advgenerators.power_capacitor_conductive iron.name
 <block:advgenerators:power_capacitor_electronium>, tile.advgenerators.power_capacitor_electronium.name
 <block:advgenerators:power_capacitor_graphite>, tile.advgenerators.power_capacitor_graphite.name
@@ -164,7 +165,7 @@ Blocks:
 <block:advgenerators:power_capacitor_sodium>, tile.advgenerators.power_capacitor_sodium.name
 <block:advgenerators:power_capacitor_stellar>, tile.advgenerators.power_capacitor_stellar.name
 <block:advgenerators:power_capacitor_superconductor>, tile.advgenerators.power_capacitor_superconductor.name
-<block:advgenerators:power_capacitor_ultimate>, tile.advgenerators.power_capacitor_ultimate.name
+<block:advgenerators:power_capacitor_ultimate>, Air
 <block:advgenerators:pressure_input>, Pressurized Input Valve
 <block:advgenerators:pressure_output_select>, Pressurized Output Valve
 <block:advgenerators:rf_output>, Flux Generator
@@ -1339,6 +1340,7 @@ Blocks:
 <block:conarm:soft_obsidian>, Unstable Obsidian
 <block:contenttweaker:block_burnt_wood>, Burnt Wood
 <block:contenttweaker:block_low_grade_charcoal>, Block of Low Grade Charcoal
+<block:contenttweaker:block_medium_grade_charcoal>, Block of Medium Grade Charcoal
 <block:contenttweaker:block_regoltih>, tile.contenttweaker.block_regoltih.name
 <block:contenttweaker:sea_water>, tile.contenttweaker.sea_water.name
 <block:contenttweaker:wood_fuel>, tile.contenttweaker.wood_fuel.name

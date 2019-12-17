@@ -20,6 +20,7 @@
 	- Low Grade Charcoal
 	- Medium Grade Charcoal
 	- Mud
+	- Sandpaper
 	- Seared Paste
 	- Seared Shard
 	- Draconium Ore (Blue)[Overworld, Nether and End]

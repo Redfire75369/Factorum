@@ -1,4 +1,5 @@
 #loader crafttweaker
+#loader crafttweaker
 #priority -00301
 #packmode theta sigma omega
 
@@ -292,7 +293,7 @@ if (!<ore:nuggetAluminum>.empty) {
 /***** Dusts *****/
 //recipes.replaceAllOccurences(oreDict["dustAshes"], hashDust["Ash"]);
 //recipes.replaceAllOccurences(oreDict["dustEnder"], hashDust["EnderPearl"]);
-//recipes.replaceAllOccurences(oreDict["dustNetherQuartz"], hashDust["Quartz"]);
+//recipes.replaceAllOccurences(oreDict["dustNetherQuartz"], hash["Quartz"]);
 
 hashDust["BloodInfusedGlowstone"].add(<bloodarsenal:base_item:2>);
 //recipes.replaceAllOccurences(<bloodarsenal:base_item:2>, hashDust["BloodInfusedGlowstone"]);

@@ -37,7 +37,6 @@ for key, dictDust in hashDust {
 		
 		mods.mekanism.crusher.removeRecipe(dictDust, hashIngot[key]);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput(hashIngot[key]);
-		mods.techreborn.grinder.removeInputRecipe(hashIngot[key]);
 		for itemIngot in hashIngot[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemIngot);
 			mods.enderio.SagMill.removeRecipe(itemIngot);
@@ -51,7 +50,6 @@ for key, dictDust in hashDust {
 	if (hashGem has key) {
 		mods.mekanism.crusher.removeRecipe(dictDust, hashGem[key]);
 		mods.nuclearcraft.manufactory.removeRecipeWithInput(hashGem[key]);
-		mods.techreborn.grinder.removeInputRecipe(hashGem[key]);
 		for itemGem in hashGem[key].items {
 			mods.appliedenergistics2.Grinder.removeRecipe(itemGem);
 			mods.enderio.SagMill.removeRecipe(itemGem);

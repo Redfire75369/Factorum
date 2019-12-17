@@ -21,8 +21,8 @@ extratrees:syzgium_planks - 4xtile.planks.2@2
 nuclearcraft:item.tcomplement.manyullyn_leggings - 1xitem.tcomplement.manyullyn_leggings@0
 cyclicmagic:item.ender_snow_1 - 1xitem.ender_snow@0
 forestry:fireproof_stairs_cocobolo - 4xtile.for.stairs.fireproof.cocobolo@0
-botany:clay_black - 1xitem.botany.clay@1
 botany:botanist_backpack - 1xitem.botany.botanist_bag@0
+botany:clay_black - 1xitem.botany.clay@1
 randomthings:spectrecharger_redstone - 1xitem.spectreCharger@1
 mysticalagriculture:supremium_fishing_rod - 1xitem.ma.supremium_fishing_rod@0
 minecraft:cobblestone_wall - 6xtile.cobbleWall@0
@@ -650,8 +650,8 @@ mysticalagriculture:stone - 32xtile.stone@0
 forestry:fireproof_fences_plum - 3xtile.for.fences.fireproof.1@5
 extendedcrafting:black_iron_rod - 1xitem.ec.material@3
 extratrees:holly_doors - 3xtile.doors.holly@0
-forestry:greenhouse_control - 2xitem.for.thermionic_tubes@4
 forestry:fireproof_slabs_ipe - 6xtile.for.slabs.fireproof.3@1
+forestry:greenhouse_control - 2xitem.for.thermionic_tubes@4
 appliedenergistics2:network/cells/spatial_storage_cell_2_cubed - 1xitem.appliedenergistics2.spatial_storage_cell_2_cubed@0
 nuclearcraft:item.naturalpledge:eclipse_chest - 1xitem.eclipse_chest@0
 minecraft:tb.relax - 1xitem.tobacco_sanity@0
@@ -747,7 +747,6 @@ integrateddynamics:crystalized_chorus_block - 1xtile.blocks.integrateddynamics.c
 nuclearcraft:item.nuclearcraft.fuel_californium.hec_249_ox - 9xitem.nuclearcraft.fuel_californium@5
 minecraft:torch - 4xtile.torch@0
 naturalpledge:fist - 1xitem.thunder_fist@0
-crafttweaker:compost_composite - 1xitem.contenttweaker.compost_composite@0
 mekanism:glowpanel_4_alt - 4xtile.GlowPanel@4
 randomthings:enderbridge - 1xtile.enderBridge@0
 enderio:wireless_charger_antenna_extension - 1xtile.block_wireless_charger_extension@0
@@ -1718,7 +1717,6 @@ extracells:parts/gasterminal - 1xitem.extracells.part.base@15
 nuclearcraft:item.thauminiteboots - 1xitem.thauminiteboots@0
 bloodarsenal:glass - 1xtile.glass@0
 environmentaltech:m_multiblocks/m_void/colored_lenses/lens_lime - 1xtile.environmentaltech.laser_lens_colored@5
-crafttweaker:sturdy_casing - 2xtile.air@15
 mekanism:gastank_0_alt_alt - 1xtile.GasTank@0
 extrabotany:recipe_rewardbag943 - 3xitem.rewardbag943@0
 botany:mortar_yellow - 4xtile.null@78
@@ -2493,7 +2491,6 @@ techreborn:nuggets_7 - 9xitem.techreborn.nuggets@7
 techreborn:nuggets_8 - 9xitem.techreborn.nuggets@8
 techreborn:nuggets_9 - 9xitem.techreborn.nuggets@9
 mysticalagriculture:core/compression/storage/supremium_coal_block_to - 1xtile.ma.coal_block@4
-crafttweaker:fermenter - 1xtile.for.fermenter@0
 thaumcraft:pavetravel - 4xtile.paving_stone_travel@0
 naturalpledge:root - 16xtile.root_trap@0
 naturalpledge:fenrishelm - 1xitem.fenris_helm@0
@@ -3196,7 +3193,7 @@ enderio:auto_coloring_enlightened_fused_quartz_with_lime - 8xtile.block_enlighte
 nuclearcraft:tile.nuclearcraft.turbine_computer_port - 1xtile.nuclearcraft.turbine_computer_port@0
 botany:mortar_indianred - 4xtile.null@30
 forestry:fireproof_stairs_birch - 4xtile.for.stairs.vanilla.fireproof.birch@0
-botany:pigment_black - 4xitem.misc@3
+botany:pigment_black - 2xitem.botany.pigment@1
 nuclearcraft:item.bewitchment.silver_chestplate - 1xitem.bewitchment.silver_chestplate@0
 malisisdoors:big_door_birch - 1xtile.big_door_birch_3x3@0
 bibliocraft:birch_label - 1xtile.BiblioCraft:Label@2
@@ -3634,7 +3631,6 @@ minecraft:slime_ball - 9xitem.slimeball@0
 mekanism:glowpanel_9 - 2xtile.GlowPanel@9
 mekanism:glowpanel_8 - 2xtile.GlowPanel@8
 opencomputers:lootcycling - 2xtile.air@15
-bigreactors:ingot_cyanite_yellorium - 1xitem.bigreactors:ingotcyanite@0
 mekanism:glowpanel_7 - 2xtile.GlowPanel@7
 botania:altar_0 - 1xtile.altar@0
 mekanism:glowpanel_6 - 2xtile.GlowPanel@6
@@ -5505,7 +5501,6 @@ astralsorcery:shaped/marble_chiseled - 4xtile.blockmarble@4
 jaopca:block_fencecarobbiite_qkz64k - 3xtile.jaopca.fence@0
 randomthings:stainedbrick_pink - 8xtile.stainedBrick@6
 bigreactors:reactorcasingcores - 1xitem.bigreactors:reactorcasingcores@0
-bigreactors:reactorpowertaptesla - 1xtile.bigreactors:reactorpowertaptesla@0
 jaopca:block_stairsextreme_4k65fp - 8xtile.jaopca.stairs@0
 computercraft:advanced_monitor - 4xtile.computercraft:peripheral@4
 techreborn:bronzehelmet - 1xitem.bronzeHelmet@0
@@ -7365,8 +7360,8 @@ forestry:comb.15 - 1xtile.for.bee_combs@15
 forestry:comb.14 - 1xtile.for.bee_combs@14
 nuclearcraft:item.crimson_praetor_helm - 1xitem.crimson_praetor_helm@0
 cyclicmagic:tile.block_shears_1 - 1xtile.block_shears@0
-forestry:wood_pile_decorative - 1xtile.for.wood_pile@0
 forestry:comb.16 - 1xtile.for.bee_combs@0
+forestry:wood_pile_decorative - 1xtile.for.wood_pile@0
 nuclearcraft:item.shadowwarriorlegs_2 - 1xitem.shadowwarriorlegs@0
 nuclearcraft:item.shadowwarriorlegs_1 - 1xitem.shadowwarriorlegs@0
 tconstruct:gadgets/throwball/glowball - 8xitem.tconstruct.throwball@0
@@ -11208,8 +11203,8 @@ teslacorelib:machine_case - 1xitem.teslacorelib.machine_case@0
 jaopca:dust_2qve2w - 1xitem.techreborn.dust@11
 xreliquary:blocks/pedestal_passive/pedestal_passive_brown - 1xtile.pedestal_passive@12
 darkutils:dyed_slime_block_gray - 8xtile.darkutils.slime.dyed@7
-botany:mortar_lemonchiffon - 4xtile.null@34
 botany:thermionic_tubes_cobblestone_iron - 2xitem.botany.insulated_tube@131
+botany:mortar_lemonchiffon - 4xtile.null@34
 nuclearcraft:tile.nuclearcraft.solid_fission_sink.glowstone_1 - 1xtile.nuclearcraft.solid_fission_sink@6
 nuclearcraft:item.thaumadditions:mithminite_boots - 1xitem.thaumadditions:mithminite_boots@0
 mysticalagriculture:log - 16xtile.log@0
@@ -12029,7 +12024,6 @@ incorporeal:cygnus/cygnus_crystal_cube_card_blank - 1xitem.incorporeal.cygnus_cr
 extratrees:syzgium_fireproof_stairs - 4xtile.stairs.fireproof.syzgium@0
 fluxnetworks:item.fluxnetworks.fluxcore - 4xitem.fluxnetworks.fluxcore@0
 rftools:shield_template_block - 8xtile.rftools.shield_template_block@0
-bigreactors:reactorpowertaprf - 1xtile.bigreactors:reactorpowertaprf@0
 avaritiatweaks:infinity_bow_remove - 1xitem.avaritia:infinity_bow@0
 storagedrawersextra:extra_drawers_halfdrawers2_forestry_larch - 2xtile.extraDrawers@3
 storagedrawersextra:extra_drawers_fulldrawers4_forestry_pine - 4xtile.extraDrawers@2
