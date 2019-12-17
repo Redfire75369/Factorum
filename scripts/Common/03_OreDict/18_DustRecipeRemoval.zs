@@ -1,9 +1,11 @@
 #loader crafttweaker
-#priority -00312
+#priority -00318
 #packmode theta sigma omega
 
 mods.mekanism.infuser.removeRecipe(hashDust["Bronze"], hashDust["Copper"], "TIN");
 mods.mekanism.infuser.removeRecipe(hashDust["Steel"], <mekanism:enrichediron>, "CARBON");
+mods.techreborn.grinder.removeAll();
+mods.techreborn.industrialGrinder.removeAll();
 
 for key, dictDust in hashDust {
 	if (hashOre has key) {
@@ -23,7 +25,6 @@ for key, dictDust in hashDust {
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemOre);
 			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemOre);
 			mods.integrateddynamics.Squeezer.removeRecipe(itemOre);
-			mods.techreborn.grinder.removeInputRecipe(itemOre);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemOre);
 		}
 	}
@@ -43,7 +44,6 @@ for key, dictDust in hashDust {
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemIngot);
 			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemIngot);
 			mods.integrateddynamics.Squeezer.removeRecipe(itemIngot);
-			mods.techreborn.grinder.removeInputRecipe(itemIngot);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemIngot);
 		}
 	}
@@ -56,12 +56,11 @@ for key, dictDust in hashDust {
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemGem);
 			mods.integrateddynamics.MechanicalSqueezer.removeRecipe(itemGem);
 			mods.integrateddynamics.Squeezer.removeRecipe(itemGem);
-			mods.techreborn.grinder.removeInputRecipe(itemGem);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemGem);
 		}
 	}
 	if (hashDustSmall has key) {
-		recipes.removeShapeless(dictDust,[
+		recipes.removeShapeless(dictDust, [
 			hashDustSmall[key], hashDustSmall[key], hashDustSmall[key],
 			hashDustSmall[key]
 		]);
@@ -78,7 +77,6 @@ for key, dictDust in hashDust {
 			mods.actuallyadditions.Crusher.removeRecipe(itemDust);
 			mods.astralsorcery.Grindstone.removeRecipe(itemDust);
 			mods.nuclearcraft.manufactory.removeRecipeWithOutput(itemDust);
-			mods.techreborn.grinder.removeRecipe(itemDust);
 		}
 	}
 }

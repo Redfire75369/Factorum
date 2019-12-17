@@ -1,9 +1,13 @@
 #loader crafttweaker
-#priority -00309
+#priority -00315
 #packmode theta sigma omega
 
 furnace.remove(<minecraft:quartz>);
 furnace.remove(<thaumcraft:quicksilver>);
+
+mods.techreborn.implosionCompressor.removeAll();
+mods.techreborn.grinder.removeAll();
+mods.techreborn.industrialGrinder.removeAll();
 
 for key, dictGem in hashGem {
 	if (hashOre has key) {
@@ -15,22 +19,17 @@ for key, dictGem in hashGem {
 			mods.enderio.SagMill.removeRecipe(itemOre);
 			mods.immersiveengineering.Crusher.removeRecipesForInput(itemOre);
 			mods.thermalexpansion.Pulverizer.removeRecipe(itemOre);
-			mods.techreborn.grinder.removeInputRecipe(itemOre);
-			mods.techreborn.industrialGrinder.removeInputRecipe(itemOre);
 		}
 		for itemGem in dictGem.items {
-			furnace.remove(itemGem0;
+			furnace.remove(itemGem);
 			mods.immersiveengineering.ArcFurnace.removeRecipe(itemGem);
 			mods.actuallyadditions.Crusher.removeRecipe(itemGem);
 			mods.astralsorcery.Grindstone.removeRecipe(itemGem);
-			mods.techreborn.grinder.removeRecipe(itemGem);
-			mods.techreborn.industrialGrinder.removeRecipe(itemGem);
 		}
 	}
 	if (hashDust has key) {
 		for itemGem in dictGem.items {
 			furnace.remove(itemGem);
-			mods.techreborn.implosionCompressor.removeRecipe(itemGem);
 		}
 	}
 	if (hashMolten has key) {

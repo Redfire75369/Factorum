@@ -29,6 +29,7 @@ mods.tconstruct.Drying.addRecipe(<contenttweaker:dried_paste>, <contenttweaker:s
 
 
 /* Multiblock Components */
+recipes.remove(<tcomplement:alloy_tank>);
 recipes.remove(<tcomplement:high_oven_controller>);
 recipes.remove(<tcomplement:high_oven_io:*>);
 recipes.remove(<tcomplement:scorched_casting:*>);
@@ -41,17 +42,71 @@ recipes.remove(<tconstruct:tinker_tank_controller>);
 recipes.remove(<tinker_io:fuel_input_machine>);
 recipes.remove(<tinker_io:smart_output>);
 
+recipes.addShaped("alloy_tank", <tcomplement:alloy_tank>, [
+	[<contenttweaker:seared_paste>, <forge:bucketfilled>.withTag({FluidName: "wood_fuel", Amount: 1000}), <contenttweaker:seared_paste>],
+	[<tconstruct:faucet>, <tconstruct:seared_tank>, <tconstruct:faucet>]
+[);
+recipes.addShaped("high_oven_controller", <tcomplement:high_oven_controller>, [
+	[<tcomplement:materials:1>, <tcomplement:scorched_block:6>, <tcomplement:materials:1>],
+	[<forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}), <contenttweaker:furnace_assembly>, <forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000})],
+	[hashIngot["Ardite"], <immersiveengineering:stone_decoration:1>, hashIngot["Ardite"]]
+]);
+recipes.addShapedMirrored("scorched_drain", <tcomplement:high_oven_io>, [
+	[<tcomplement:materials:1>, <tcomplement:materials:1>, <contenttweaker:scorched_paste>],
+	[null, null, null],
+	[<tcomplement:materials:1>, <tcomplement:materials:1>, <contenttweaker:scorched_paste>]
+]);
+recipes.addShaped("scorched_chute", <tcomplement:high_oven_io:1>, [
+	[<tcomplement:materials:1>, <contenttweaker:scorched_paste>, <tcomplement:materials:1>],
+	[<contenttweaker:scorched_paste>, null, <contenttweaker:scorched_paste>],
+	[<tcomplement:materials:1> <contenttweaker:scorched_paste>, <tcomplement:materials:1>]
+]);
+recipes.addShaped("scorched_duct", <tcomplement:high_oven_io:2>, [
+	[<tcomplement:materials:1>, <minecraft:stone>, <tcomplement:materials:1>],
+	[<contenttweaker:scorched_paste>, null, <contenttweaker:scorched_paste>],
+	[<tcomplement:materials:1>, <minecraft:stone>, <tcomplement:materials:1>]
+]);
+recipes.addShaped("scorched_casting_table", <tcomplement:scorched_casting>, [
+	[<tcomplement:scorched_block>, <tconstruct:large_plate>.withTag({MaterialType: "stone"}), <tcomplement:scorched_block>],
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>],
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>]
+]);
+recipes.addShaped("scorched_casting_basin", <tcomplement:scorched_casting:1>, [
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>],
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>],
+	[<tcomplement:scorched_block>, <tconstruct:large_plate>.withTag({MaterialType: "stone"}), <tcomplement:scorched_block>]
+]);
+recipes.addShaped("seared_melter", <tcomplement:melter>, [
+	[<contenttweaker:seared_paste>, <forge:bucketfilled>.withTag({FluidName: "wood_fuel", Amount: 1000}), <contenttweaker:seared_paste>],
+	[<tconstruct:materials>, <tconstruct:seared_tank>, <tconstruct:materials>],
+	[<tcomplement:scorched_block:2>, <tconstruct:seared:2>, <tcomplement:scorched_block:2>]
+]);
+recipes.addShaped("seared_heater", <tcomplement:melter:8>, [
+	[<contenttweaker:seared_paste>, <contenttweaker:low_grade_charcoal>, <contenttweaker:seared_paste>],
+	[<tconstruct:materials>, <contenttweaker:furnace_assembly>, <tconstruct:materials>],
+	[<tcomplement:scorched_block:2>, <tconstruct:seared:2>, <tcomplement:scorched_block:2>]
+]);
+recipes.addShaped("seared_casting_table", <tconstruct:casting>, [
+	[<tconstruct:seared>, <tconstruct:large_plate>.withTag({MaterialType: "stone"}), <tconstruct:seared>],
+	[<tconstruct:materials>, null, <tconstruct:materials>],
+	[<tconstruct:materials>, null, <tconstruct:materials>]
+]);
+recipes.addShaped("seared_casting_basin", <tconstruct:casting:1>, [
+	[<tconstruct:materials>, null, <tconstruct:materials>],
+	[<tconstruct:materials>, null, <tconstruct:materials>],
+	[<tconstruct:seared>, <tconstruct:large_plate>.withTag({MaterialType: "stone"}), <tconstruct:seared>]
+]);
 recipes.addShaped("seared_furnace", <tconstruct:seared_furnace_controller>, [
-	[<tconstruct:seared:1>, <tconstruct:seared:1>, <tconstruct:seared:1>],
-	[<tconstruct:seared:9>, <contenttweaker:low_grade_charcoal>, <tconstruct:seared:9>],
-	[<tconstruct:seared:1>, <tconstruct:seared:1>, <tconstruct:seared:1>]
+	[<tconstruct:materials>, <tconstruct:materials:2>, <tconstruct:materials>],
+	[<contenttweaker:block_low_grade_charcoal>, <contenttweaker:furnace_assembly>, <contenttweaker:block_low_grade_charcoal>],
+	[<tconstruct:materials>, <tconstruct:materials:2>, <tconstruct:materials>],
 ]);
 recipes.addShaped("smeltery", <tconstruct:smeltery_controller>, [
-	[<contenttweaker:seared_paste>, <tconstruct:seared:2>, <contenttweaker:seared_paste>],
-	[<tconstruct:seared:2>, <contenttweaker:block_low_grade_charcoal>, <tconstruct:seared:2>],
-	[<contenttweaker:seared_paste>, <tconstruct:seared:2>, <contenttweaker:seared_paste>]
+	[<tconstruct:materials>, <tconstruct:seared:6>, <tconstruct:materials>],
+	[<forge:bucketfilled>.withTag({FluidName: "wood_fuel", Amount: 1000}), <contenttweaker:furnace_assembly>, <forge:bucketfilled>.withTag({FluidName: "wood_fuel", Amount: 1000})],
+	[<tcomplement:materials:1>, <tcomplement:materials:1>, <tcomplement:materials:1>],
 ]);
-recipes.addShaped("smeltery_drain", <tconstruct:smeltery_io>, [
+recipes.addShapedMirrored("smeltery_drain", <tconstruct:smeltery_io>, [
 	[<tconstruct:materials>, <tconstruct:materials>, <contenttweaker:seared_paste>],
 	[null, null, null],
 	[<tconstruct:materials>, <tconstruct:materials>, <contenttweaker:seared_paste>]
@@ -70,6 +125,31 @@ recipes.addShaped("smart_output", <tinker_io:smart_output>, [
 	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>],
 	[<tconstruct:channel>, <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000}), <tconstruct:channel>],
 	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>]
+]);
+
+/* Glass-Based Blocks*/
+recipes.remove(<tconstruct:seared_glass>);
+recipes.remove(<tconstruct:seared_tank:*>);
+
+recipes.addShaped("seared_glass", <tconstruct:seared_glass>, [
+	[<contenttweaker:seared_paste>, <tconstruct:materials>, <contenttweaker:seared_paste>],
+	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>],
+	[<contenttweaker:seared_paste>, <tconstruct:materials>, <contenttweaker:seared_paste>]
+]);
+recipes.addShaped("seared_tank", <tconstruct:seared_tank>, [
+	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>],
+	[<tcomplement:materials>, <tconstruct:seared:6>, <tcomplement:materials>],
+	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>],
+]);
+recipes.addShaped("seared_gauge", <tconstruct:seared_tank:1>, [
+	[<tconstruct:materials>, hashBlock["Glass"] , <tconstruct:materials>],
+	[hashBlock["Glass"], <contenttweaker:seared_paste>, hashBlock["Glass"]],
+	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>]
+]);
+recipes.addShaped("seared_window", <tconstruct:seared_tank:2>, [
+	[<tconstruct:materials>, hashBlock["Glass"] , <tconstruct:materials>],
+	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>],
+	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>]
 ]);
 
 /* Decoration Blocks */
@@ -171,33 +251,6 @@ recipes.addShaped("seared_tiles", <tconstruct:seared:11>, [
 	[<tconstruct:seared:7>, <tconstruct:seared:7>],
 	[<tconstruct:seared:7>, <tconstruct:seared:7>]
 ]);
-
-
-/* Glass-Based Blocks*/
-recipes.remove(<tconstruct:seared_glass>);
-recipes.remove(<tconstruct:seared_tank:*>);
-
-recipes.addShaped("seared_glass", <tconstruct:seared_glass>, [
-	[<contenttweaker:seared_paste>, <tconstruct:materials>, <contenttweaker:seared_paste>],
-	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>],
-	[<contenttweaker:seared_paste>, <tconstruct:materials>, <contenttweaker:seared_paste>]
-]);
-recipes.addShaped("seared_tank", <tconstruct:seared_tank>, [
-	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>],
-	[<tcomplement:materials>, <tconstruct:seared:6>, <tcomplement:materials>],
-	[<tconstruct:materials>, <tcomplement:materials>, <tconstruct:materials>],
-]);
-recipes.addShaped("seared_gauge", <tconstruct:seared_tank:1>, [
-	[<tconstruct:materials>, hashBlock["Glass"] , <tconstruct:materials>],
-	[hashBlock["Glass"], <contenttweaker:seared_paste>, hashBlock["Glass"]],
-	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>]
-]);
-recipes.addShaped("seared_window", <tconstruct:seared_tank:2>, [
-	[<tconstruct:materials>, hashBlock["Glass"] , <tconstruct:materials>],
-	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>],
-	[<tconstruct:materials>, hashBlock["Glass"], <tconstruct:materials>]
-]);
-
 
 /* Tool Stations */
 val forge = {

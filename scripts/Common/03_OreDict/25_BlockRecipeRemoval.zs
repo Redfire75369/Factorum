@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00319
+#priority -00325
 #packmode theta sigma omega
 
 for key, dictBlock in hashBlock {

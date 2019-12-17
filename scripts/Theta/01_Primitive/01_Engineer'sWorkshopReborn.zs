@@ -9,3 +9,6 @@ recipes.addShaped("workshop_table", <engineersworkshop:blocktable>, [
 	[<minecraft:stone:*>, null, <minecraft:stone>],
 	[<minecraft:stone:*>, <minecraft:stone:*>, <minecraft:stone:*>]
 ]);
+recipes.addShaped("blank_upgrade", <engineersworkshop:upgrade>, [
+	[]
+]);

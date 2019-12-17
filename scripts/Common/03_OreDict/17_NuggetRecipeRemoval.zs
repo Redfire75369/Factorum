@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00311
+#priority -00317
 #packmode theta sigma omega
 
 for key, dictNugget in hashNugget {

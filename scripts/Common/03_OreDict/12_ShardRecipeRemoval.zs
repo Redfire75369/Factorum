@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00306
+#priority -00312
 #packmode theta sigma omega
 
 for key, dictShard in hashShard {

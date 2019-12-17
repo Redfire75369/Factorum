@@ -1,15 +1,9 @@
 #loader crafttweaker
-#priority -00315
+#priority -00321
 #packmode theta sigma omega
 
-mods.techreborn.blastFurnace.removeRecipe(<techreborn:plates:11>);
-mods.techreborn.compressor.removeRecipe(<techreborn:plates:2>);
-mods.techreborn.compressor.removeRecipe(<techreborn:plates:9>);
-mods.techreborn.compressor.removeRecipe(<techreborn:plates:10>);
-mods.techreborn.compressor.removeRecipe(<techreborn:plates:15>);
-mods.techreborn.compressor.removeRecipe(<techreborn:plates:16>);
-mods.techreborn.compressor.removeRecipe(<techreborn:plates:36>);
-mods.techreborn.implosionCompressor.removeRecipe(<techreborn:plates:38>);
+mods.techreborn.plateBendingMachine.removeAll();
+mods.techreborn.compressor.removeAll();
 
 for key, dictPlate in hashPlate {
 	if (hashIngot has key) {
@@ -23,7 +17,6 @@ for key, dictPlate in hashPlate {
 		mods.nuclearcraft.pressurizer.removeRecipeWithOutput(dictPlate);
 		for itemPlate in dictPlate.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemPlate);
-			mods.techreborn.plateBendingMachine.removeRecipe(itemPlate);
 			mods.thermalexpansion.Compactor.removePressRecipe(itemPlate);
 		}
 	}
@@ -31,7 +24,6 @@ for key, dictPlate in hashPlate {
 		mods.nuclearcraft.pressurizer.removeRecipeWithOutput(dictPlate);
 		for itemPlate in dictPlate.items {
 			mods.immersiveengineering.MetalPress.removeRecipe(itemPlate);
-			mods.techreborn.plateBendingMachine.removeRecipe(itemPlate);
 			mods.thermalexpansion.Compactor.removePressRecipe(itemPlate);
 		}
 	}

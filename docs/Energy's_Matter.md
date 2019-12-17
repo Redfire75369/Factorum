@@ -170,9 +170,8 @@ highest tier, its efficiency is around 60%. <br/>
 The Baryonic Annihilation Chamber allows matter and antimatter to come into contact in a safe environment.  When the 
 antimatter comes into contact with each other, they will annihilate producing a large amount of energy, gamma rays, a 
 form of ionising electromagnetic radiation and a neutrino, a high velocity particle with almost no mass. To prevent the 
-escape of such dangerous particles and waves, the Baryonic Annihilation 
-Chamber contains high power electromagnets that keep the antimatter from coming into contact with any other matter before the main 
-annihilation reaction.
+escape of such dangerous particles and waves, the Baryonic Annihilation Chamber contains high power electromagnets 
+that keep the antimatter from coming into contact with any other matter before the main annihilation reaction.
 
 ### Dyson Swarm Launch Pad
 

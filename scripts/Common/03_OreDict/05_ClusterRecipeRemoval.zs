@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00303
+#priority -00305
 #packmode theta sigma omega
 
 for key, dictCluster in hashCluster {

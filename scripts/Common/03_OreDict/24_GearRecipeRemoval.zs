@@ -1,5 +1,5 @@
 #loader crafttweaker
-#priority -00318
+#priority -00324
 #packmode theta sigma omega
 
 for key, dictGear in hashGear {
@@ -11,6 +11,7 @@ for key, dictGear in hashGear {
 		]);
 		
 		for itemIngot in hashIngot[key].items {
+			mods.immersiveengineering.MetalPress.removeRecipe(itemIngot);
 			mods.thermalexpansion.Compactor.removeGearRecipe(itemIngot);
 		}
 	}
@@ -22,6 +23,7 @@ for key, dictGear in hashGear {
 		]);
 		
 		for itemGem in hashGem[key].items {
+			mods.immersiveengineering.MetalPress.removeRecipe(itemGem);
 			mods.thermalexpansion.Compactor.removeGearRecipe(itemGem);
 		}
 	}
