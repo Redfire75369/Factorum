@@ -11,24 +11,26 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
   Add all not yet "built" changes here.
 -->
 
+## [v0.0.0-pre.1+build.11] - 19/12/19 **PR**
+
 ### Added
-- Mods: Better Questing - Forestry Expansion; version 1.1.2
+- Mods: Better Questing - Forestry Expansion; version 1.1.4
 - Mods: Better Questing - RF Expansion; version 3.4.31
 - Mods: ContentTweaker; version 1.12.2-4.9.1
 - Mods: Energy's Matter Core; version 0.1-8a9d13e
 - Mods: Energy's Matter; version 0.1-8a9d13e
-- Mods: Keyboard Wizard; version 1.12.2-1.7.1
+- Mods: Keyboard Wizard; version 1.12.2-1.7.3
 - Mods: Lockdown; version 1.12.1-7.0.1-universal
 - Mods: JAOPCAAdditions; version  1.12.2-2.2.1.9
 - Mods: JAOPCACustom; version 1.12-2.2.2.14
 - Mods: Just Enough Petroleum; version 0.1
 - Mods: LootTableTweaker; version 1.12.2-1.1.17
-- Mods: Magneticraft; version 1.12-2.8.1-dev
+- Mods: Magneticraft; version 1.12-2.8.2-dev
 - Mods: ModelLoader; version 1.1.7
 - Mods: PackMode; version 1.12.2-1.2.0
 - Mods: Powered Thingies; version 1.12.2-1.0.15
 - Mods: Redstone PCB; version 0.2
-- Mods: Requious Frakto; version 0.5
+- Mods: Requious Frakto; version 0.6
 - Mods: Scavenge; version V1.12-1.8.3.2
 - Scripts: Added ContentTweaker Scripts
 - Scripts: Added MekaTweaker Scripts
@@ -38,74 +40,118 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 ### Changed
 - Config: Added PackModes
 - Mods: [SBM] Baggable Mobs; updated to 1.12.2-1.0.0b19
-- Mods: Actually Additions; updated to 1.12.2-r150
-- Mods: Apotheosis; updated to 1.12.2-1.10.5
+- Mods: Actually Additions; updated to 1.12.2-r151
+- Mods: AE2 Wireless Fluid Terminal; updated to 1.12.2-1.0.4
+- Mods: AE2 Wireless Interface Terminal; updated to 1.12.2-1.0.2
+- Mods: AE2 Wireless Terminal Library; updated to 1.12.2-1.0.34
+- Mods: AIOT Botania; updated to 0.7.1 
+- Mods: Animus; updated to 1.12-2.1.6
+- Mods: Apotheosis; updated to 1.12.2-1.12.4
 - Mods: Avaritia IO; updated to 1.4
-- Mods: Arcane Archives; updated to 0.2.0.9
-- Mods: Better Questing; updated to 3.5.312
-- Mods: Better Questing: Standard Expansion; updated to 3.4.167
+- Mods: Arcane Archives; updated to 0.2.0.13
+- Mods: Better Questing; updated to 3.5.319
+- Mods: Better Questing: Standard Expansion; updated to 3.4.171
+- Mods: Bewitchment; updated to 1.12.2-0.0.21.3
+- Mods: Binnie's Mods; updated to 1.12.2-2.5.1.198
 - Mods: Blood Arsenal; updated to 1.12.2-2.2.1-29
-- Mods: Blood Magic; updated to 1.12.2-2.4.2-104
+- Mods: Blood Magic; updated to 1.12.2-2.4.3-105
+- Mods: Bookshelf; updated to 1.12.2-2.3.590
 - Mods: Botania; updated to r1.10-362
-- Mods: Building Gadgets; updated to 2.7.3
+- Mods: Botanic Additions; updated to 1.12.2-4r
+- Mods: Building Gadgets; updated to 2.7.4
+- Mods: Caliper; updated to 1.12.2-1.1.46
+- Mods: CC: Tweaked; updated to 1.12.2-1.1.46
+- Mods: Charset Lib; updated to 0.5.6.4
+- Mods: Chisel; updated to MC1.12.2-1.0.1.44
 - Mods: CodeChicken Lib; updated to 1.12.2-3.2.3.358-universal
 - Mods: Colorful Health Bar; updated to 0.0.4a
-- Mods: Compact Drawers; updated to 1.12.2-1.0.5.124
+- Mods: Common Capabilities; updated to MC1.12.2-1.0.1.44
+- Mods: Compact Drawers; updated to 1.12.2-1.0.5.125
+- Mods: ConnectedTexturesMod; updated to MC1.12.2-1.0.1.30
+- Mods: Construct's Armory; updated to 1.12.2-1.2.5.3
+- Mods: CraftTweaker2; updated to 1.12-4.1.20
 - Mods: Culinary Construct; updated to 1.3.3.1
-- Mods: Cyclic; updated to 1.12.2-1.19.17
+- Mods: Cyclic; updated to 1.12.2-1.19.18
+- Mods: Cyclops Core; updated to 1.12.2-1.6.0
+- Mods: Dark Utilities; updated to 1.12.2-1.8.230
 - Mods: Document Your Mod Mod; updated to 1.2.0
-- Mods: EnderCore; updated to 1.12.2-0.5.69
-- Mods: Ender IO AE2 Conduits; updated to 1.12.2-5.0.51
-- Mods: Ender IO Base; updated to 1.12.2-5.0.51
-- Mods: Ender IO Conduits; updated to 1.12.2-5.0.51
-- Mods: Ender IO Endergy; updated to 1.12.2-5.0.51
-- Mods: Ender IO Forestry; updated to 1.12.2-5.0.51
-- Mods: Ender IO Machines; updated to 1.12.2-5.0.51
-- Mods: Ender IO OC Conduits; updated to 1.12.2-5.0.51
-- Mods: Ender IO TiC; updated to 1.12.2-5.0.51
+- Mods: EnderCore; updated to 1.12.2-0.5.73
+- Mods: Ender IO AE2 Conduits; updated to 1.12.2-5.0.52
+- Mods: Ender IO Base; updated to 1.12.2-5.0.52
+- Mods: Ender IO Conduits; updated to 1.12.2-5.0.52
+- Mods: Ender IO Endergy; updated to 1.12.2-5.0.52
+- Mods: Ender IO Forestry; updated to 1.12.2-5.0.52
+- Mods: Ender IO Machines; updated to 1.12.2-5.0.52
+- Mods: Ender IO OC Conduits; updated to 1.12.2-5.0.52
+- Mods: Ender IO TiC; updated to 1.12.2-5.0.52
 - Mods: Ender Utilities; updated to 1.12.2-0.7.14
 - Mods: Extended Crafting; updated to 1.12.2-1.5.6
-- Mods: Flux Networks; updated to 1.12.2-4.0.10-27
+- Mods: Extra Anvils; updated to 0.9
+- Mods: ExtraBotany; updated to r1.1-56
+- Mods: Extra Cells 2; updated to 1.12.2-2.6.4
+- Mods: FastWorkbench; updated to 1.12.2-1.7.3
+- Mods: Flux Networks; updated to 1.12.2-4.0.14-31
+- Mods: FoamFix; updated to 0.10.9-1.12.2
+- Mods: Forestry; updated to 1.12.2-5.8.2.409
 - Mods: FTB Banners; updated to 1.1.0.12
-- Mods: FTB Lib; updated to 5.4.3.138
-- Mods: FTB Utilities; updated to 5.4.0.106
-- Mods: Hammer (Lib) Core; updated to 1.12.2-2.0.5.0
+- Mods: FTB Lib; updated to 5.4.4.5
+- Mods: FTB Utilities; updated to 5.4.0.124
+- Mods: FTB Utilities: Backups; updated to 1.1.0.1
+- Mods: Hammer (Lib) Core; updated to 1.12.2-2.0.5.7
 - Mods: Immersive Engineering; updated to 0.12-92
-- Mods: Incorporeal; updated to 1.2.3
-- Mods: Integrated Dynamics; updated to 1.12.2-1.1.0
-- Mods: Integrated Terminals; updated to 1.12.2-1.0.11
+- Mods: Incorporeal; updated to 1.2.4
+- Mods: Integrated Dynamics; updated to 1.12.2-1.1.1
+- Mods: Integrated Terminals; updated to 1.12.2-1.0.13
+- Mods: Item Stages; updated to 1.12.2-2.0.51
 - Mods: JAOPCAAgriculture; updated to 1.12.2-1.2.1.16
 - Mods: Just Enough Energistics; updated to 1.12.2-1.0.8
-- Mods: Just Enough Items (JEI); updated to 1.12.2-4.15.0.289
-- Mods: Just Enough IDs; updated to 1.0.3-44
-- Mods: Mekanism; updated to 1.12.2-9.8.2.389
-- Mods: Mekanism Generators; updated to 1.12.2-9.8.2.389
-- Mods: Mekanism Tools; updated to 1.12.2-9.8.2.389
+- Mods: Just Enough Items (JEI); updated to 1.12.2-4.15.0.292
+- Mods: Just Enough IDs; updated to 1.0.3-48
+- Mods: LagGoggles; updated to 1.12.2-4.9
+- Mods: LibrarianLib; updated to 1.12.2-4.20
+- Mods: Mekanism; updated to 1.12.2-9.8.3.390
+- Mods: Mekanism Generators; updated to 1.12.2-9.8.3.390
+- Mods: Mekanism Tools; updated to 1.12.2-9.8.3.390
 - Mods: MekaTweaker; updated to 1.12-1.2.0
-- Mods: Mystic World; updated to 1.12.2-1.4.4
-- Mods: MysticalLib; updated to 1.12.2-1.3.7
+- Mods: Modular Diversity; updated to 1.9
+- Mods: Modular Machinery; updated to 1.12.2-1.11.1
+- Mods: Modular Magic; updated to 1.5.1
+- Mods: Multiblock Stages; updated to 1.2.0
+- Mods: Mystic World; updated to 1.12.2-1.6.1
+- Mods: MysticalLib; updated to 1.12.2-1.4.0
 - Mods: Mystical Mechanics; updated to 0.11
 - Mods: NuclearCraft; updated to 2o.0.2-1.12.2
+- Mods: Open Computers; updated to MC1.12.2-1.7.5.192
 - Mods: OpenLights; updated to MC1.12.2-0.1.0.8
+- Mods: OpenPrinter; updated to 1.12.2-0.1.0.7
+- Mods: OpenSecurity; updated to 1.12.2-1.0.2.9
 - Mods: OreExcavation; updated to 1.4.43
+- Mods: p455w0rd's Library; updated to 1.12.2-2.3.161
 - Mods: PackagedAuto; updated to 1.12.2-1.0.28
 - Mods: PlusTiC; updated to 7.1.6.1
-- Mods: RandomPatches; updated to 1.12.2-1.18.2.3
-- Mods: RebornCore; updated to 1.12.2-3.16.3.476-universal
+- Mods: PneumaticCraft: Repressurized; updated to 1.12.2-1.0.2.9
+- Mods: RandomPatches; updated to 1.12.2-1.20.1.0
+- Mods: RebornCore; updated to 1.12.2-3.16.4.478-universal
 - Mods: Recipe Stages; updated to 1.1.3
-- Mods: Roots; updated to 1.12.2-3.0.13
+- Mods: Roots; updated to 1.12.2-3.0.21
 - Mods: Shadowfacts' Forgelin; updated to 1.8.4
 - Mods: SimplyJetpacks2; updated to 1.12.2-2.2.14.67
+- Mods: Steve Carts Reborn; updated to 1.12.2-2.4.32.137
 - Mods: Storage Drawers; updated to 1.12.2-5.4.0
 - Mods: Super Factory Manager; updated to 1.12.2-2.0.23
-- Mods: Tech Reborn; updated to 1.12.2-2.24.2.1041-universal
-- Mods: Thaumic Additions: Reconstructed; updated to 1.12.2-20r
+- Mods: Tech Reborn; updated to 1.12.2-2.24.3.1043-universal
+- Mods: Thaumic Additions: Reconstructed; updated to 1.12.2-22r
 - Mods: Thaumic Arcana; updated to 1.3.0
-- Mods: Thaumic Augmentation; updated to 1.12.2-1.1.9
+- Mods: Thaumic Augmentation; updated to 1.12.2-1.1.13
 - Mods: Thaumic Computers; updated to MC1.12.2-0.5.1
 - Mods: Thaumic Periphery; updated to 0.3.1
 - Mods: Thaumic Restoration; updated to 1.3.2
-- Mods: Torchmaster; updated to 1.12.2-1.8.0.79
+- Mods: Tinkers' Complement; updated to 1.12.2-0.4.3
+- Mods: Tinkers' Construct; updated to 1.12.2-2.13.0.171
+- Mods: Torchmaster; updated to 1.12.2-1.8.0.81
+- Mods: Unlimited Chisel Works; updated to 0.3.2
+- Mods: Wireless Crafting Terminal; updated to 1.12.2-3.12.97
+- Mods: Wireless Pattern Termminal; updated to 1.12.2-1.0.3
 - Mods: Yoyos; updated to 1.12.2-1.3.3.25
 - Scripts: Reorganised Contents of Scripts
 - Scripts: Made Removal of Recipes more efficient
