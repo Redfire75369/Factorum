@@ -45,7 +45,7 @@ recipes.remove(<tinker_io:smart_output>);
 recipes.addShaped("alloy_tank", <tcomplement:alloy_tank>, [
 	[<contenttweaker:seared_paste>, <forge:bucketfilled>.withTag({FluidName: "wood_fuel", Amount: 1000}), <contenttweaker:seared_paste>],
 	[<tconstruct:faucet>, <tconstruct:seared_tank>, <tconstruct:faucet>]
-[);
+]);
 recipes.addShaped("high_oven_controller", <tcomplement:high_oven_controller>, [
 	[<tcomplement:materials:1>, <tcomplement:scorched_block:6>, <tcomplement:materials:1>],
 	[<forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}), <contenttweaker:furnace_assembly>, <forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000})],
@@ -59,7 +59,7 @@ recipes.addShapedMirrored("scorched_drain", <tcomplement:high_oven_io>, [
 recipes.addShaped("scorched_chute", <tcomplement:high_oven_io:1>, [
 	[<tcomplement:materials:1>, <contenttweaker:scorched_paste>, <tcomplement:materials:1>],
 	[<contenttweaker:scorched_paste>, null, <contenttweaker:scorched_paste>],
-	[<tcomplement:materials:1> <contenttweaker:scorched_paste>, <tcomplement:materials:1>]
+	[<tcomplement:materials:1>, <contenttweaker:scorched_paste>, <tcomplement:materials:1>]
 ]);
 recipes.addShaped("scorched_duct", <tcomplement:high_oven_io:2>, [
 	[<tcomplement:materials:1>, <minecraft:stone>, <tcomplement:materials:1>],

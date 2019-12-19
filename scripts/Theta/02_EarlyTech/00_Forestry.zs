@@ -29,8 +29,8 @@ recipes.addShaped("moistener", <forestry:moistener>, [
 	[hashBlock["Glass"], <forestry:sturdy_machine>, hashBlock["Glass"]],
 	[<forestry:peat>, <tconstruct:seared_tank:1>, <forestry:peat>]
 ]);
-recipes.addShaped("thermionic_fabricator", <forestry:thermionic_fabricator>, [
+recipes.addShaped("thermionic_fabricator", <forestry:fabricator>, [
 	[<forestry:chipsets:2>, hashPlate["Gold"], <forestry:chipsets:2>],
 	[<forestry:worktable>, <minecraft:crafting_table>, <forestry:worktable>],
-	[<forestry:hardened_machine>, null, <hardened_machine>]
+	[<forestry:hardened_machine>, null, <forestry:hardened_machine>]
 ]);
