@@ -1,5 +1,5 @@
 # Energy's Matter
-Energy's Matter is a custom mod made for the pack Factorum Ultimation. This mod contains multiple ways to generate large amounts of 
+Energy's Matter is a custom mod made for the pack Factorum. This mod contains multiple ways to generate large amounts of 
 power for the midgame to the lategame. It also contains the only methods to gain resources till the lategame of the pack. The setups needed
 to generate power and resources consistently is a challenging one requiring the right balance of wvery aspect of the mod. Many parts of 
 this mod are scientifically accurate but are implemented in such a way as to be as engaging as possible. Scientific Explanations on how the 
@@ -18,24 +18,25 @@ machines work can be found at the bottom of the page.
 **Note: Exact Values will be confirmed as of a later date**
 
 ## Contents
-- [Heat Sources and Coolants](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#heat-sources-and-coolants)
-- [Power Generation](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#power-generation)
-	- [Seebeck Generator](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#seebeck-generator)
-	- [Fusion Reactor](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#fusion-reactor)
-	- [Baryonic Annihilation Chamber](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#baryonic-annihilation-chamber)
-	- [Dyson Swarm Launch Pad](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#dyson-swarm-launch-pad)
-	- [Black Hole Reactor](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#black-hole-reactor)
-- [Resource Generation](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#resource-generation)
-	- [Molecular Transmutator](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#molecular-transmutator)
-	- [Quantum Computational Engine](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#quantum-computational-engine)
-	- [Molecular Fabricator](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#molecular-fabricator)
-- [Other Machines](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#other-machines)
-	- [Atmospherric Collector](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#atmospheric-collector)
-	- [Antimatter Containment Facility](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#antimatter-containment-facility)
-	- [Dyson Satellite Hangar](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#dyson-satellite-hangar)
-	- [Particle Accelerator](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#particle-accelerator)
-	- [Powered Crafting Table](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#powered-crafting-table)
-- [Scientific Explanations](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/Energy's_Matter.md#scientific-explanations)
+- [Heat Sources and Coolants](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#heat-sources-and-coolants)
+- [Power Generation](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#power-generation)
+	- [Seebeck Generator](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#seebeck-generator)
+	- [Fusion Reactor](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#fusion-reactor)
+	- [Baryonic Annihilation Chamber](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#baryonic-annihilation-chamber)
+	- [Dyson Swarm Launch Pad](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#dyson-swarm-launch-pad)
+	- [Black Hole Reactor](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#black-hole-reactor)
+- [Resource Generation](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#resource-generation)
+	- [Molecular Transmutator](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#molecular-transmutator)
+	- [Quantum Computational Engine](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#quantum-computational-engine)
+	- [Molecular Fabricator](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#molecular-fabricator)
+- [Other Machines](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#other-machines)
+	- [Atmospheric Collector](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#atmospheric-collector)
+	- [Neutron Collector](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#neutron-collector)
+	- [Antimatter Containment Facility](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#antimatter-containment-facility)
+	- [Dyson Satellite Hangar](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#dyson-satellite-hangar)
+	- [Particle Accelerator](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#particle-accelerator)
+	- [Powered Crafting Table](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#powered-crafting-table)
+- [Scientific Explanations](https://github.com/Redfire75369/Factorum/blob/master/docs/Energy's_Matter.md#scientific-explanations)
 
 ## Heat Sources and Coolants
 | Heat Source | Temperature |
@@ -247,7 +248,8 @@ The hydrogen is then output into the Particle Injector. <br/>
 | Collection of Hydrogen | Energy | Input | ??? |
 | Collection of Hydrogen | Time | Input | ??? |
 
-		
+### Neutron Collector
+
 ### Antimatter Containment Facility
 
 

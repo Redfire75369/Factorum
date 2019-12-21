@@ -1,13 +1,13 @@
-# Factorum Ultimation: Expert
-This is the official repository for the Modpack Factorum Ultimation. This is a skyblock modpack for 1.12. <br/>
+# Factorum
+This is the official repository for the Modpack Factorum. This is a skyblock modpack for 1.12. <br/>
 **Note: This Pack is still a Work In Progress.** <br/>
-[Factorum Ultimation Discord Invite Link](https://discord.gg/GjJCHdr) [Factorum Ultimation Logo](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/images/Factorum_Ultimation_Logo.png)
+[Factorum Discord Invite Link](https://discord.gg/GjJCHdr) [Factorum Logo](https://github.com/Redfire75369/FactorumUltimation/blob/master/docs/images/Factorum_Ultimation_Logo.png)
 
 | Full Name | Short Form | Difficulty | Modpack That Difficulty Is Comparable To |
 | ---------------- | ----------------- | ------------- | --------------------------------------------------------- |
-| Factorum Ultimation: Theta | FU: θ | Normal/Kitchensink | Project Ozone 3: A New Way Forward Normal |
-| Factorum Ultimation: Sigma | FU: σ | Expert | FTB Infinity Evolved: Expert |
-| Factorum Ultimation: Omega | FU: Ω | Super Expert | Project Ozone 2: Reloaded Kappa |
+| Factorum: Theta | FU: θ | Normal/Kitchensink | Project Ozone 3: A New Way Forward Normal |
+| Factorum: Sigma | FU: σ | Expert | FTB Infinity Evolved: Expert |
+| Factorum: Omega | FU: Ω | Super Expert | Project Ozone 2: Reloaded Kappa |
 
 ## Lore
 31st century. Limits were overcome, barriers were shattered. The advancements in technology made possible by private
